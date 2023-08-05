@@ -1,0 +1,13 @@
+README.md
+setup.py
+go2scope/__init__.py
+go2scope.egg-info/PKG-INFO
+go2scope.egg-info/SOURCES.txt
+go2scope.egg-info/dependency_links.txt
+go2scope.egg-info/requires.txt
+go2scope.egg-info/top_level.txt
+go2scope/dataio/__init__.py
+go2scope/dataio/g2sdataset/__init__.py
+go2scope/dataio/g2sdataset/dataset.py
+go2scope/dataio/g2sdataset/reader.py
+go2scope/dataio/g2sdataset/writer.py
