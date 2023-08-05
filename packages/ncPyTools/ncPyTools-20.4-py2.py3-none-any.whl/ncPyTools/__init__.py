@@ -1,0 +1,3 @@
+"""
+ncPyTools package initialisation.
+"""
