@@ -1,0 +1,7 @@
+victorpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+victorpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+victorpdf/pdf2text.py,sha256=yXB2S3GiaVaYOwGnkolGIISVjQkD4eOO_1Z8TSDUUZA,37
+victorpdf-1.0.dist-info/METADATA,sha256=E6NHZOBRrCEeTj9F6fVWmwFi4svgxnfDev7dXZVGroY,201
+victorpdf-1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+victorpdf-1.0.dist-info/top_level.txt,sha256=POxW2OumJLtJytpfKZS1nZc8YcluRLlb8mHBxSg0Nfc,10
+victorpdf-1.0.dist-info/RECORD,,
