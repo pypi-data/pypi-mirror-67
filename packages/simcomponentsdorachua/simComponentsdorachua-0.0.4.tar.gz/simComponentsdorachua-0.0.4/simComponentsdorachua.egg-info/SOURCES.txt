@@ -1,0 +1,7 @@
+README.md
+setup.py
+simComponentsdorachua/__init__.py
+simComponentsdorachua.egg-info/PKG-INFO
+simComponentsdorachua.egg-info/SOURCES.txt
+simComponentsdorachua.egg-info/dependency_links.txt
+simComponentsdorachua.egg-info/top_level.txt
