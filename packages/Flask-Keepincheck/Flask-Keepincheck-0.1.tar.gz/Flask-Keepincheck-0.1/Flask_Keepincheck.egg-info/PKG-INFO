@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: Flask-Keepincheck
+Version: 0.1
+Summary: Healthchecks for upstream dependencies of a Flask app
+Home-page: https://github.com/Shuttl-Tech/flask-keepincheck
+Author: Abhirag Awasthi
+Author-email: abhirag.awasthi@shuttl.com
+License: MIT
+Description: # flask-keepincheck
+        Flask extension that implements healthchecks for application's upstream dependencies
+        
+        ## Usage
+        
+        ```python
+        from flask import Flask
+        from flask_sqlalchemy import SQLAlchemy
+        from flask_keepincheck import HealthCheck
+        
+        app = Flask(__name__)
+        app.config['SQLALCHEMY_DATABASE_URI'] = ''
+        db = SQLAlchemy(app)
+        healthcheck = HealthCheck()
+        healthcheck.add_db_check(app=app, db=db)
+        
+        class User(db.Model):
+            id = db.Column(db.Integer, primary_key=True)
+            username = db.Column(db.String(80), unique=True, nullable=False)
+            email = db.Column(db.String(120), unique=True, nullable=False)
+        
+            def __repr__(self):
+                return '<User %r>' % self.username
+        
+        @app.route('/')
+        def hello_world():
+            return 'Hello, World!'
+        ```
+        
+        After this your db's healthcheck can be found at `/dbhealth`
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
