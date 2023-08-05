@@ -1,0 +1,36 @@
+# Lexicon overlap score
+The lexicon overlap score is a similarity measure for sentiment lexicons as they are used in Sentiment Classification. 
+
+# Installation
+Install via `pip install lexicon_overlap_score`
+
+# Usage
+Import via `import lexicon_overlap_score as los`
+
+Your lexicons should be a pandas dataframe with the columns `word` and `so` (semantic orientation).
+Then the following three functions can be used.
+
+``` python
+los.simple(lex1, lex2)
+los.binary(lex1, lex2)
+los.score(lex1, lex2)
+```
+
+`simple` and `binary` return a value between 0 and 1, while `score` returns values between -1 and 1.
+The functions expect positive words to have a positive value and negative words to have a negative value.
+
+If your lexicon is a python dictionary mapping words to values, convert it to a pandas dataframe. 
+
+``` python
+import pandas as pd
+df_lex = pd.DataFrame().from_dict(dict_lex, orient="index").reset_index().rename(columns={"index": "word", 0: "so"})
+```
+
+# Example
+```
+import pandas as pd
+import lexicon_overlap_score as los
+df1 = pd.DataFrame([("test",   1), ("free",    1), ("other", 1), ("check", 0.5)], columns=["word", "so"])
+df2 = pd.DataFrame([("test", 0.5), ("free",    1)],                               columns=["word", "so"])
+los.simple(df1, df2), los.binary(df1, df2), los.score(df1, df2)
+```
