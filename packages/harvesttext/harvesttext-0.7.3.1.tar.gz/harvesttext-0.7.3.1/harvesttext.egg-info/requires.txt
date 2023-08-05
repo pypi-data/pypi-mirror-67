@@ -1,0 +1,14 @@
+scikit-learn
+gensim
+jieba
+numpy
+scipy
+pandas
+networkx
+pypinyin
+pyhanlp
+rdflib
+python-louvain
+tqdm
+w3lib
+nltk
