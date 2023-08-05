@@ -1,0 +1,151 @@
+# Meta data for database links and file config
+meta_data:
+  organisation: Substation Corporation
+  api_version: IBMIOTF_V1
+  #  Map the child -> parent relationship between
+  entity_map:
+    HST:
+      name: site
+      H266:
+        name: electrical-substation
+        Outlet_1:
+          name: electrical-outlet
+        Outlet_2:
+          name: electrical-outlet
+        Outlet_3:
+          name: electrical-outlet
+        Outlet_4:
+          name: electrical-outlet
+
+communication:
+  X30:
+    port: /dev/ttyS2
+    parity: E
+    baudrate: 9600
+    stopbits: 1
+    protocol: modbus_rtu
+  X31:
+    port: /dev/ttyS3
+    parity: N
+    baudrate: 384000
+    stopbits: 1
+    protocol: modbus_rtu
+
+devices:
+  - device_type: socomec-u30
+    port_id: X31
+    parent: H266
+    device_config:
+      unit: 6
+      dev_id: AMP_HST_266_U30
+  - device_type: socomec-i33
+    port_id: X31
+    parent: Outlet_1
+    params: &I33
+      - current-i1
+      - current-i2
+      - current-i3
+      - total-active-power
+      - total-apparent-power
+      - total-power-factor
+      - total-positive-energy
+    device_config:
+      unit: 2
+      dev_id: AMP_HST_H266_I33_OUTLET_1
+  - device_type: socomec-i33
+    port_id: X31
+    parent: Outlet_2
+    params: *I33
+    device_config:
+      unit: 3
+      dev_id: AMP_HST_H266_I33_OUTLET_2
+  - device_type: socomec-i33
+    port_id: X31
+    parent: Outlet_3
+    params: *I33
+    device_config:
+      unit: 4
+      dev_id: AMP_HST_H266_I33_OUTLET_3
+  - device_type: socomec-i33
+    port_id: X31
+    parent: Outlet_4
+    device_config:
+      unit: 7
+      dev_id: AMP_HST_H266_I33_OUTLET_4
+  - device_type: ampcontrol-ipb
+    port_id: X30
+    parent: Outlet_1
+    device_config:
+      unit: 10
+      dev_id: AMP_HST_H266_IPB_OUTLET_1
+  - device_type: ampcontrol-ipb
+    port_id: X30
+    parent: Outlet_2
+    device_config:
+      unit: 11
+      dev_id: AMP_HST_H266_IPB_OUTLET_2
+  - device_type: ampcontrol-ipb
+    port_id: X30
+    parent: Outlet_3
+    device_config:
+      unit: 12
+      dev_id: AMP_HST_H266_IPB_OUTLET_3
+
+# Gateway as defined in device types in IBM watson
+gateway: IOT2040
+
+main_devices: &main_devs
+  - AMP_HST_H266_U30
+  - AMP_HST_H266_I33_OUTLET_1
+  - AMP_HST_H266_I33_OUTLET_2
+  - AMP_HST_H266_I33_OUTLET_3
+  - AMP_HST_H266_I33_OUTLET_4
+
+ipbs: &ipb
+  - AMP_HST_H266_IPB_OUTLET_1
+  - AMP_HST_H266_IPB_OUTLET_2
+  - AMP_HST_H266_IPB_OUTLET_3
+
+# Reports Here
+# type is the class
+# each aggregation accepts labels, not_labels, dev_ids, not_dev_ids
+reports:
+  - type: ReportNewData
+    aggregates:
+      - mean:
+          not_labels:
+            - Total Positive Energy
+          dev_ids:
+            - *main_devs
+      - min:
+          labels:
+            - Ph-N Voltage V1
+            - Ph-N Voltage V2
+            - Ph-N Voltage V3
+          dev_ids:
+            - AMP_HST_H266
+      - max:
+          labels:
+            - Ph-N Voltage V1
+            - Ph-N Voltage V2
+            - Ph-N Voltage V3
+          dev_ids:
+            - AMP_HST_H266
+      - max:
+          labels:
+            - Current I1
+            - Current I2
+            - Current I3
+            - Total Active Power
+            - Total Apparent Power
+          not_dev_ids:
+            - AMP_HST_H266_I33_OUTLET_1
+            - AMP_HST_H266_I33_OUTLET_2
+            - AMP_HST_H266_I33_OUTLET_3
+            - AMP_HST_H266_I33_OUTLET_4
+      - latest:
+          labels:
+            - Total Positive Energy
+          dev_ids: *main_devs
+      - latest:
+          dev_ids: *ipb

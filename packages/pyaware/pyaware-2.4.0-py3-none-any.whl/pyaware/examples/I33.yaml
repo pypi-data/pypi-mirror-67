@@ -1,0 +1,115 @@
+type: socomec-i33
+data:
+  current-i1:
+    meta:
+      displayName: Current I1
+      valueType: float
+      range:
+        min: 0
+        max: 6000
+      display:
+        scale: 3
+        unit: ampere
+        # range: min, max if 4-20mA
+    device-level:
+      class: ModbusHolding
+      address: 18458
+      words: 2
+      data_type: UINT32
+      scale: 0.001
+  current-i2:
+    meta:
+      displayName: Current I2
+      valueType: float
+      range:
+        min: 0
+        max: 6000
+      display:
+        scale: 3
+        unit: ampere
+    device-level:
+      class: ModbusHolding
+      address: 18460
+      words: 2
+      data_type: UINT32
+      scale: 0.001
+  current-i3:
+    meta:
+      displayName: Current I3
+      valueType: float
+      range:
+        min: 0
+        max: 6000
+      display:
+        scale: 3
+        unit: ampere
+    device-level:
+      class: ModbusHolding
+      address: 18462
+      words: 2
+      data_type: SINT32
+      scale: 0.001
+  total-active-power:
+    meta:
+      displayName: Total Active Power
+      valueType: float
+      range:
+        min: 0
+        max: 20_000_000
+      display:
+        scale: 0
+        unit: watt
+    device-level:
+      class: ModbusHolding
+      address: 18476
+      words: 2
+      data_type: SINT32
+      scale: 1
+  total-apparent-power:
+    meta:
+      displayName: Total Apparent Power
+      valueType: float
+      range:
+        min: 0
+        max: 20_000_000
+      display:
+        scale: 0
+        unit: volt-ampere
+    device-level:
+      class: ModbusHolding
+      address: 18484
+      words: 2
+      data_type: UINT32
+      scale: 1
+  total-power-factor:
+    meta:
+      displayName: Total Power Factor
+      valueType: float
+      range:
+        min: -1
+        max: 1
+      display:
+        scale: 3
+        unit: number
+    device-level:
+      class: ModbusHolding
+      address: 18486
+      words: 2
+      data_type: SINT16
+      scale: 0.001
+  total-positive-energy:
+    meta:
+      displayName: Total Positive Energy
+      valueType: float
+      range:
+        min: 0
+        max: 1_073_741_824 # 2 ** 30
+      display:
+        scale: 2
+        unit: kilowatt-hour
+    device-level:
+      class: ModbusHolding
+      address: 19841
+      words: 2
+      data_type: UINT32
+      scale: 0.01
