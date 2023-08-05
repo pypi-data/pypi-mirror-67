@@ -1,0 +1,21 @@
+language: python
+python:
+- '3.6'
+- '3.7'
+- '3.8'
+install:
+- python setup.py install
+- pip install codecov
+- pip install pytest-cov
+script:
+- pytest --cov=yaconfigobject --cov-report term
+after_success:
+- codecov
+deploy:
+  provider: pypi
+  user: __token__
+  password:
+    secure: HXwb6RFZCu5FV1lFq5yq1f593RVutWOBqmUZtxDXVd/ZK2stI/+pmZaCt3VOAWxFpO/H+FRKdE3ZvArdJXM3UlLZfdQV2V20Lqv2w2uKkZAR5x77A4Ft1fxoaZpWLMQqdckTaO4Lk0KuPGKKfiU04FUDXOwzOyN0xn4wb7dS6cjeYlyAWa4yd/YZWQnZIMRc+/JSbXZ8Lwx2tfV+oTtFc+6ZIHr0pyPrkK93n+kP/dK30bYw3U0AsNViVf0PSf7L+Pq49SNi8wI93mIzif0kdkD9+Ce+b9UP287bZuvUcBKV0Vyk4eVkI9o07jKTdPrc9qOVg6E4TiphYMwoFeK8iJJkKnM6QuEQXWs/PCXt8VMlDxCAK2pWADKAB9tCKSJZIFO2LYkE+MOVB8htefI18LX1/rtMO6BJVarlj31ZhFB+C/Fe7jz6Ou7S9AuI8IDPlM/0fnqrll81O2z6werWzgidbkpikVe1MDGfBHn0xfeWsT+UkLLVqDJ9Rg6n2nAL7FWLQRv4cCJkhopemny5nm8IZSAPTX3qdxUQ3uD1zShJHR2SBZZ6gSDaYlC0COOzmNYu0vWFeEQsiIyfoTT4lxyN0+eEQv6Zu7qLsBy6VFijwG4CKzRLe186tLJpTJCVwzLXCn57coP7/q6ewKXTRRB5Vww2KBqzHH0ndKN9hEo=
+  on:
+    tags: true
+  skip_existing: true
