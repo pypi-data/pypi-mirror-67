@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: py-clamav
+Version: 1.0.1
+Summary: LibClamAV ctypes binding
+Home-page: https://github.com/dmitriym09/py-clamav
+Author: dmitriym09
+Author-email: dmitriym.09.12.1989@gmail.com
+License: MIT
+Keywords: antivirus,ClamAv,LibClamAV
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# py-clamav
+
+LibClamAV ctypes binding
+
+## Install
+
+- install or [download](https://www.clamav.net/downloads) libclamv
+- `pip install py-clamav`
+
+## Using
+
+```python
+import os
+
+from py_clamav import ClamAvScanner
+
+with ClamAvScanner() as scanner:
+    # scan file by path
+    path_file = 'path/to/file'
+    infected, virname = scanner.scan_file(path_file)
+
+    # scan file by fileno
+    fileno = os.memfd_create('testfile')
+    try:
+        os.write(fileno, b'data')
+        os.lseek(fileno, 0, 0)
+        infected, virname = scanner.scan_fileno(fileno)
+    finally:
+        os.close(fileno)
+```
+
+
