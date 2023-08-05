@@ -1,0 +1,9 @@
+nomnomdata/auth/__init__.py,sha256=hy3CTPBkpw4Uh5gW1PA9nq_kJ4Wyg-zMZzVyk8j3c4g,171
+nomnomdata/auth/auth.py,sha256=WLurpb3EHuW5GfGEdE7Brm5SZ48HxyLzY1C1KN9oRa4,3253
+nomnomdata/auth/cli.py,sha256=HF8EJGZqnTE3xif7SY34Wh6UH7BfoVlfeMHicCsf0tM,2669
+nomnomdata/auth/vars.py,sha256=yoHzYcFv6475rmhtw4TouT3r3IKtHpcrjIYBTR24_OQ,522
+nomnomdata_auth-2.0.5.dist-info/entry_points.txt,sha256=iI-azh9y5iY0EoxW0BgBxR9B4lE3QZcc36fQp7jQFiA,58
+nomnomdata_auth-2.0.5.dist-info/LICENSE,sha256=nnXwrZ1_g2gADKG4jPyj3xOuKSBKYK6RW9sa6x6SHrg,702
+nomnomdata_auth-2.0.5.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+nomnomdata_auth-2.0.5.dist-info/METADATA,sha256=rO4ZPpSjekjuFmQP_Vi_B5Ox0rOz0X63DfziTpbQF58,935
+nomnomdata_auth-2.0.5.dist-info/RECORD,,
