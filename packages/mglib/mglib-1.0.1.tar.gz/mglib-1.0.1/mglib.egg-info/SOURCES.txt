@@ -1,0 +1,8 @@
+README.md
+setup.py
+mglib/__init__.py
+mglib/utils.py
+mglib.egg-info/PKG-INFO
+mglib.egg-info/SOURCES.txt
+mglib.egg-info/dependency_links.txt
+mglib.egg-info/top_level.txt
