@@ -1,0 +1,6 @@
+torch~=1.4.0
+torchvision==0.5
+numpy
+tqdm~=4.45
+blackhc.project~=2.1
+toma~=1.1.0
