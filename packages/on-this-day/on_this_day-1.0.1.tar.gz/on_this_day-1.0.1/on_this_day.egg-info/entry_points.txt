@@ -1,0 +1,3 @@
+[console_scripts]
+thisday = on_this_day.__main__:main
+
