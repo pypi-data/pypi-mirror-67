@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+src/Ufd.py
+src/disk.gif
+src/file.gif
+src/folder.gif
+src/icon.ico
+src/Ufd.egg-info/PKG-INFO
+src/Ufd.egg-info/SOURCES.txt
+src/Ufd.egg-info/dependency_links.txt
+src/Ufd.egg-info/top_level.txt
