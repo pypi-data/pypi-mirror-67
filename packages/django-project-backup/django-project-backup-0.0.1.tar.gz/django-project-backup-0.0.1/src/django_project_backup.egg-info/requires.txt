@@ -1,0 +1,6 @@
+Django
+django-environ
+
+[testing]
+pytest
+pytest-cov
