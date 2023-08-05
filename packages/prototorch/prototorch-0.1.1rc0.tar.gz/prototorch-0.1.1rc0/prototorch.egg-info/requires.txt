@@ -1,0 +1,13 @@
+torch>=1.3.1
+torchvision>=0.5.0
+numpy>=1.9.1
+
+[datasets]
+requests
+
+[examples]
+sklearn
+matplotlib
+
+[tests]
+pytest
