@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ksh
+Version: 0.1.0
+Summary: Kubernetes shell: An integrated shell for working effectively with multiple Kubernetes clusters
+Home-page: https://github.com/leizhag/kube-shell
+Author: Lei Zhang
+Author-email: UNKNOWN
+License: Apache License 2.0
+Keywords: kubernetes,autocomplete,shell
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: prompt-toolkit (==2.0.2)
+Requires-Dist: Pygments (<3.0.0,>=2.1.3)
+Requires-Dist: fuzzyfinder (>=1.0.0)
+Requires-Dist: click (<7.0,>=4.0)
+Requires-Dist: kubernetes (<3.0.0,>=0.10.0)
+
+UNKNOWN
+
+
