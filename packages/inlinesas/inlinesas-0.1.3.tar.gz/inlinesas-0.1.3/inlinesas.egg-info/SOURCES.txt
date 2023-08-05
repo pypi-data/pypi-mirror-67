@@ -1,0 +1,8 @@
+README.md
+setup.py
+inlinesas/__init__.py
+inlinesas.egg-info/PKG-INFO
+inlinesas.egg-info/SOURCES.txt
+inlinesas.egg-info/dependency_links.txt
+inlinesas.egg-info/requires.txt
+inlinesas.egg-info/top_level.txt
