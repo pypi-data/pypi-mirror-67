@@ -1,0 +1,6 @@
+depinfo
+
+[development]
+black
+isort
+tox
