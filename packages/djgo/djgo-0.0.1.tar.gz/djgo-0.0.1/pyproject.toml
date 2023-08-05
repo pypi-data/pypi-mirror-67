@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "djgo"
+version = "0.0.1"
+description = "A pack of shortcuts for Django."
+authors = ["Ceterai <ceterai@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Ceterai/djgo"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "djgo" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
