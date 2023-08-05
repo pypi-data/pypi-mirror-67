@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+liblog/__init__.py
+liblog/liblog.py
+liblog.egg-info/PKG-INFO
+liblog.egg-info/SOURCES.txt
+liblog.egg-info/dependency_links.txt
+liblog.egg-info/top_level.txt
