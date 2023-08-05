@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+nepali_date/__init__.py
+nepali_date/date.py
+nepali_date.egg-info/PKG-INFO
+nepali_date.egg-info/SOURCES.txt
+nepali_date.egg-info/dependency_links.txt
+nepali_date.egg-info/top_level.txt
+nepali_date/data/__init__.py
+nepali_date/data/calendar_bs.csv
+nepali_date/data/translations.json
+tests/__init__.py
+tests/test_conversions.py
+tests/test_init.py
+tests/test_methods.py
