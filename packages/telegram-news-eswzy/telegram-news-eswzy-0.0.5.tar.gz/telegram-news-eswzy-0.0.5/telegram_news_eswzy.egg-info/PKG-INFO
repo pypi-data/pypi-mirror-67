@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: telegram-news-eswzy
+Version: 0.0.5
+Summary: News feed by telegram bot
+Home-page: https://github.com/ESWZY/telegram-news
+Author: ESWZY
+Author-email: 0903wzy@gmail.com
+License: MIT
+Description: Python program package for automatically fetching news and pushing by telegram bot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Education
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
