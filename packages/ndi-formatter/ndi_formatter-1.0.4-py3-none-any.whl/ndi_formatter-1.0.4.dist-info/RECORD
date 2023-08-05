@@ -1,0 +1,10 @@
+ndi_formatter/__init__.py,sha256=YMb_arNcvTrRW82nt6Wd3A08Ait-cwW_4SebSL1iYyQ,83
+ndi_formatter/attributes.py,sha256=R6t2SkDbQGzS_ZhuURIHNX7XLZJYG6OCg5PBct9nJHI,9981
+ndi_formatter/format.py,sha256=kPfz9Mx8s7D-S3MMm2Nac2svxVLx4X5nh2S39pJiJe4,22439
+ndi_formatter/lookup.py,sha256=yIJ6aZAr-8bHacwjrJJott_BnFmBs2cPrAvy3_R3buk,4198
+ndi_formatter/utils.py,sha256=tJwhD_zpp2dDpd707KNzPQ_8u-BdNQqoIzVQoa9K0mA,474
+ndi_formatter/validate.py,sha256=tafPyQR2Wh8IUAeVNWJv1mDRQqR-euSUlU5U7lGrT98,6328
+ndi_formatter-1.0.4.dist-info/LICENSE,sha256=CWBEovGbtAV-GpDMLTKkUOeK1x2O9eX075ULjyj0tpc,1133
+ndi_formatter-1.0.4.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+ndi_formatter-1.0.4.dist-info/METADATA,sha256=ZYMhnYACPajZmpdOubrA2s6Oa6nCpAtxiKgZMWRt4_M,10305
+ndi_formatter-1.0.4.dist-info/RECORD,,
