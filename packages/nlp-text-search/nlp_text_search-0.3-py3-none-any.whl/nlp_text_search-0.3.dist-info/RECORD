@@ -1,0 +1,12 @@
+nlp_text_search/__init__.py,sha256=xqfv7mKGAm6FXcAVUaR6mFCtTHVvNcunjA4p4FrOPyI,198
+nlp_text_search/custom_vp_tree.py,sha256=HQSpqv9vjxml9rYSdSLY_k0tM2Hu3pMeDXYLVaZsTrA,1081
+nlp_text_search/dists.py,sha256=QUOL3oxL9Zez-qThjwoGusD9G0Pk9N7HZXZt9K_yGs8,3615
+nlp_text_search/helpers.py,sha256=ndAvNHblPIPUKqX4HKhtmE7OV3fHYi1aPnnCnnCVwTg,281
+nlp_text_search/search_engine.py,sha256=08e-jLdGnYY0GTIsPA7sQ0YtBsTuy06GTS4xJ0hX8ks,3970
+nlp_text_search/settings.py,sha256=4JfIafZefdEVa8kvAsCpJx-EWZaM1JFPbs5l1VbV1Vs,5058
+nlp_text_search/vp_tree.py,sha256=VgMu6eoF8Dhy9Odlw-KRdx58KJahx0dIyVLcHCIEVrs,3722
+nlp_text_search-0.3.dist-info/LICENSE,sha256=mbeAwghflJMtDdWqlo64J0IUP9Pv5CmuKDSlrG0nuNw,1071
+nlp_text_search-0.3.dist-info/METADATA,sha256=_sFaqzwU2rgEnsW41PMfDTtX4fW2Va1-V7BcVym6Ybg,2795
+nlp_text_search-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nlp_text_search-0.3.dist-info/top_level.txt,sha256=cv8XksK8f8dkPVMcAvPjIhzmopk0hFDvdCMSnztO1Kc,16
+nlp_text_search-0.3.dist-info/RECORD,,
