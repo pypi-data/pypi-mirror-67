@@ -1,0 +1,13 @@
+joblib
+matplotlib
+mlflow
+mne
+numba
+numpy
+pandas
+pywavelets
+scikit-learn
+scipy
+seaborn
+tensorflow
+xgboost
