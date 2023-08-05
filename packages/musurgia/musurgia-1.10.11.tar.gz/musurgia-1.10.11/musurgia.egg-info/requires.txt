@@ -1,0 +1,4 @@
+quicktions
+prettytable
+fpdf2
+diff-pdf-visually
