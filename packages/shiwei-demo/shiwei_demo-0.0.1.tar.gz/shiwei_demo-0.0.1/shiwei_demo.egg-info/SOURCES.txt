@@ -1,0 +1,8 @@
+README.md
+setup.py
+shiwei_demo/__init__.py
+shiwei_demo/suosuo.py
+shiwei_demo.egg-info/PKG-INFO
+shiwei_demo.egg-info/SOURCES.txt
+shiwei_demo.egg-info/dependency_links.txt
+shiwei_demo.egg-info/top_level.txt
