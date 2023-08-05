@@ -1,0 +1,15 @@
+ipychart/__init__.py,sha256=3j_nCCCm4TnbZTAUTV9pBTnN61AZjpL2fWz9q_3BOwQ,251
+ipychart/__meta__.py,sha256=dXtOcLkqsi-BZ8qrq0-iOuv_VJJKr4BHB8AJF_75eQk,1998
+ipychart/_version.py,sha256=DV9H6SvmeRfpfZv2eiIRQbzIC4PXGMY9Cu_JU7It1V8,281
+ipychart/chart.py,sha256=x5FqDA7X_5xub0wM2pQ4Gr8rSZdSTtV_kegDhQFYwJA,6395
+ipychart/static/extension.js,sha256=ircnZUtEcYyGQgxp4_CrSrmjUmF1xyodmRqHKKMXtto,1195
+ipychart/static/index.js,sha256=lVWbU9RQ8m-pXrGK-LwbjhcZXnWvqDIKSh-0Ppv1f3g,522847
+ipychart/static/index.js.map,sha256=a0FmDPOWK6WXfHInwBL-F4zgOh7Nva2zsmAjeOmOSwk,2300256
+ipychart-0.1.0.data/data/etc/jupyter/nbconfig/notebook.d/ipychart.json,sha256=QcidE-BQHrle4MgjS0dMgq89VctKaDfZ7mLKrAIUnqk,62
+ipychart-0.1.0.data/data/share/jupyter/nbextensions/ipychart/extension.js,sha256=ircnZUtEcYyGQgxp4_CrSrmjUmF1xyodmRqHKKMXtto,1195
+ipychart-0.1.0.data/data/share/jupyter/nbextensions/ipychart/index.js,sha256=lVWbU9RQ8m-pXrGK-LwbjhcZXnWvqDIKSh-0Ppv1f3g,522847
+ipychart-0.1.0.data/data/share/jupyter/nbextensions/ipychart/index.js.map,sha256=a0FmDPOWK6WXfHInwBL-F4zgOh7Nva2zsmAjeOmOSwk,2300256
+ipychart-0.1.0.dist-info/METADATA,sha256=Dn0K5qtiz1tzdXCKcKx-kuFc5L2ueOsJFK-l3KHXgNQ,977
+ipychart-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ipychart-0.1.0.dist-info/top_level.txt,sha256=E7YsE_6PyqIRKvJBJr1yC-neqki00AtISZjXfssCrmo,9
+ipychart-0.1.0.dist-info/RECORD,,
