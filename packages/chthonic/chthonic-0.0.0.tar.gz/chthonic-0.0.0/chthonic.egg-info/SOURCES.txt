@@ -1,0 +1,7 @@
+README.md
+setup.py
+chthonic/__init__.py
+chthonic.egg-info/PKG-INFO
+chthonic.egg-info/SOURCES.txt
+chthonic.egg-info/dependency_links.txt
+chthonic.egg-info/top_level.txt
