@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.cfg
+setup.py
+examples/example.py
+pymosa_mimosa26_interpreter/__init__.py
+pymosa_mimosa26_interpreter/data_interpreter.py
+pymosa_mimosa26_interpreter/plotting.py
+pymosa_mimosa26_interpreter/raw_data_interpreter.py
+pymosa_mimosa26_interpreter.egg-info/PKG-INFO
+pymosa_mimosa26_interpreter.egg-info/SOURCES.txt
+pymosa_mimosa26_interpreter.egg-info/dependency_links.txt
+pymosa_mimosa26_interpreter.egg-info/requires.txt
+pymosa_mimosa26_interpreter.egg-info/top_level.txt
