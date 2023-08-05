@@ -1,0 +1,9 @@
+blessings
+click
+click-help-colors>=0.8
+pygments
+pyyaml
+requests
+github3.py
+gitpython
+git-url-parse
