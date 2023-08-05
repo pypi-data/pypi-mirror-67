@@ -1,0 +1,4 @@
+[console_scripts]
+rfremoterun = rfremoterunner.executor:run_executor
+rfslave = rfremoterunner.slave:run_slave
+
