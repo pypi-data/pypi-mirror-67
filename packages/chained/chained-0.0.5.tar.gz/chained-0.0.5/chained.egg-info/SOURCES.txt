@@ -1,0 +1,13 @@
+README.md
+setup.py
+chained/__init__.py
+chained.egg-info/PKG-INFO
+chained.egg-info/SOURCES.txt
+chained.egg-info/dependency_links.txt
+chained.egg-info/top_level.txt
+chained.egg-info/zip-safe
+chained/functions/__init__.py
+chained/functions/optimized.py
+chained/typing/__init__.py
+chained/typing/protocol.py
+chained/typing/typevar.py
