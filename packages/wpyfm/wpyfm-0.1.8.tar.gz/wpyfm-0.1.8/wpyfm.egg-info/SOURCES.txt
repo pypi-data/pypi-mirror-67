@@ -1,0 +1,13 @@
+MANIFEST.in
+Makefile
+README.md
+setup.cfg
+setup.py
+wpyfm/__init__.py
+wpyfm/pyfm.cpython-37m-darwin.so
+wpyfm/test_pyfm.py
+wpyfm.egg-info/PKG-INFO
+wpyfm.egg-info/SOURCES.txt
+wpyfm.egg-info/dependency_links.txt
+wpyfm.egg-info/requires.txt
+wpyfm.egg-info/top_level.txt
