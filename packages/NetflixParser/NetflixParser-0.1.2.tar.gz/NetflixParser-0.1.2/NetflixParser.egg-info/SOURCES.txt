@@ -1,0 +1,8 @@
+NetflixParser.py
+README.md
+setup.py
+NetflixParser.egg-info/PKG-INFO
+NetflixParser.egg-info/SOURCES.txt
+NetflixParser.egg-info/dependency_links.txt
+NetflixParser.egg-info/not-zip-safe
+NetflixParser.egg-info/top_level.txt
