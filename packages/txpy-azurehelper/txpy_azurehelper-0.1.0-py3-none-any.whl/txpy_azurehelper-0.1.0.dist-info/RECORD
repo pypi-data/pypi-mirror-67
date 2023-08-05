@@ -1,0 +1,14 @@
+quickstart/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickstart/quickstart_blobs_async.py,sha256=UBRnJL4Iy9jN7wYrC1bSRIbveWj9CEO-2qe7Es8bxSU,1923
+quickstart/quickstart_blobs_sync.py,sha256=l3UFuy5B-R6HJmakTqzONs0FLr69YJqdXLi__t1nTI8,1539
+txpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txpy/azurehelper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txpy/azurehelper/storage/__init__.py,sha256=4BijnjfAT0YjDEcbCxUxj-85BeRhEjymvcp7UMR13mw,86
+txpy/azurehelper/storage/blobs_async.py,sha256=QpyafnluoLKONBDQV3hZnOUd3GgzwHQFyyMB3S7K5kI,12724
+txpy/azurehelper/storage/blobs_sync.py,sha256=2lhDX-plfY1yMUV9putYRxdLKYGwHhmR_FvoKrdIyPA,12633
+txpy/azurehelper/storage/images_utils.py,sha256=dVp8B6KzXBhCL8YPNV5LRFGrJmk-A-BD1c3CpBE3dlA,1015
+txpy_azurehelper-0.1.0.dist-info/LICENSE,sha256=-sfMBLzp1K36SJq8XFMC5-HFakM194a6YZ8Cnl9p1eI,1078
+txpy_azurehelper-0.1.0.dist-info/METADATA,sha256=N6pTwaQokbptCM_1dGfZewuSu4QHfGGRx0oGXtyYaDU,2878
+txpy_azurehelper-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+txpy_azurehelper-0.1.0.dist-info/top_level.txt,sha256=uYrboC7sWbyCw0PuxFt3dZhqsc-F0TKbtPGReUcr_gE,16
+txpy_azurehelper-0.1.0.dist-info/RECORD,,
