@@ -1,0 +1,11 @@
+bingoset/__init__.py,sha256=GB50iur_GJ8sowd-PXJToaj4lf7PGy_nEWRPwOyDnDQ,23
+bingoset/main.py,sha256=G4CteWWNXSBp67jF31uBb8as8s3xZGFVZVD6YLhFYcI,1372
+bingoset/search_bing_api.py,sha256=65p_5KmUARhu-3RadWmQByVYN6cfQKV9nEmn2L0p7Yw,3706
+bingoset/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bingoset/utilities/checks.py,sha256=qlgJBkKBmaSBo9cYSokAViQdZLUtbOn0CxPYt4igFzs,723
+bingoset/utilities/config.py,sha256=ruH8JY5sS-FVii0GvPzr0irvnOLcNi-SzssN_PE-xsY,1018
+bingoset-0.1.4.dist-info/entry_points.txt,sha256=01t7vp8fWB9Td7BHLUZPgvLPbE2d8XGTLdUU9GLJ4U0,46
+bingoset-0.1.4.dist-info/LICENSE,sha256=7RieGyI6Q0n6qvz26EWlECisDtk_thZod0cLyGl377k,1088
+bingoset-0.1.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+bingoset-0.1.4.dist-info/METADATA,sha256=TAohI1pLK5YCD5qMCiw_1PSpgLRt53d6mpm1dq-N_Xk,1933
+bingoset-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: bingoset
+Version: 0.1.4
+Summary: 
+Home-page: https://github.com/Akshay090/bingoset
+License: MIT
+Author: Akshay Ashok
+Author-email: aks28id@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pillow (>=7.1.2,<8.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.1.1,<0.2.0)
+Project-URL: Repository, https://github.com/Akshay090/bingoset
+Description-Content-Type: text/markdown
+
+<h4 align="center">
+    <a href="https://github.com/Akshay090/bingoset">
+        <img src="https://raw.githubusercontent.com/Akshay090/bingoset/master/.github/bingoset-banner.png" alt="bingoset" />
+    </a>
+    <br>
+    <br>
+     CLI Toolkit to quickly create image dataset using Bing Image Search API
+
+![PyPI - License](https://img.shields.io/pypi/l/bingoset?style=plastic)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bingoset)
+![Twitter Follow](https://img.shields.io/twitter/follow/aks2899?style=social) 
+
+</h4>
+
+# Welcome to BingoSet 
+
+
+## Install
+
+```sh
+pip3 install bingoset
+```
+## Set-up
+
+Get your Bingo Image Search API key and execute below command
+
+```sh
+bingoset set-api-key YOUR_BING_API_KEY_HERE
+```
+
+## Usage 
+
+```sh
+bingoset q pikachu
+```
+This will download 250 (default) images of pikachu into a directory called dataset (default)
+
+## Additional/Optional Config
+
+```sh
+bingoset set-max-results 100
+```
+Change the maximum number of images per request by the Bing API, eg : 100
+DEFAULT : 250
+
+```sh
+bingoset set-group-size 20
+```
+Change the group size of images you want to download, eg : 100
+groupsize is number of search results to return “per page”
+DEFAULT : 50
+
+
+```sh
+bingoset set-base-folder-name mydatast
+```
+Change the base folder name
+DEFAULT : dataset
+
