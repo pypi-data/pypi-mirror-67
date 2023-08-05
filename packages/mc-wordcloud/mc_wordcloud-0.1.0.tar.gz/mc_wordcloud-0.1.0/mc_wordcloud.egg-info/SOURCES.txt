@@ -1,0 +1,13 @@
+README.md
+setup.py
+mc_wordcloud/__init__.py
+mc_wordcloud/hero_name.txt
+mc_wordcloud/mc_wordcloud.py
+mc_wordcloud/tool_list.txt
+mc_wordcloud/weapon_list.txt
+mc_wordcloud.egg-info/PKG-INFO
+mc_wordcloud.egg-info/SOURCES.txt
+mc_wordcloud.egg-info/dependency_links.txt
+mc_wordcloud.egg-info/not-zip-safe
+mc_wordcloud.egg-info/requires.txt
+mc_wordcloud.egg-info/top_level.txt
