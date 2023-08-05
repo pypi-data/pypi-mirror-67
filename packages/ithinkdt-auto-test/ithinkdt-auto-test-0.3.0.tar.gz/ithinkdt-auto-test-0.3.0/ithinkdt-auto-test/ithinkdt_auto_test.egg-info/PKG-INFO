@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ithinkdt-auto-test
+Version: 0.3.0
+Summary: auto test libs
+Home-page: UNKNOWN
+Author: huiLi
+Author-email: lihui@ithinkdt.com
+License: MIT
+Description: python libs of auto test include ddt, base, run_set, upload
+Platform: any

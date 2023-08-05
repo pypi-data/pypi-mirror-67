@@ -1,0 +1,14 @@
+setup.py
+ithinkdt-auto-test/com/__init__.py
+ithinkdt-auto-test/com/ithinkdt/__init__.py
+ithinkdt-auto-test/com/ithinkdt/unittest/HTMLTestRunnerEN.py
+ithinkdt-auto-test/com/ithinkdt/unittest/__init__.py
+ithinkdt-auto-test/com/ithinkdt/unittest/base.py
+ithinkdt-auto-test/com/ithinkdt/unittest/ddt.py
+ithinkdt-auto-test/com/ithinkdt/unittest/run_set.py
+ithinkdt-auto-test/com/ithinkdt/unittest/upload.py
+ithinkdt-auto-test/ithinkdt_auto_test.egg-info/PKG-INFO
+ithinkdt-auto-test/ithinkdt_auto_test.egg-info/SOURCES.txt
+ithinkdt-auto-test/ithinkdt_auto_test.egg-info/dependency_links.txt
+ithinkdt-auto-test/ithinkdt_auto_test.egg-info/requires.txt
+ithinkdt-auto-test/ithinkdt_auto_test.egg-info/top_level.txt
