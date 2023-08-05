@@ -1,0 +1,9 @@
+README.md
+setup.py
+linspdf/__init__.py
+linspdf/pdf2image.py
+linspdf/pdf2text.py
+linspdf.egg-info/PKG-INFO
+linspdf.egg-info/SOURCES.txt
+linspdf.egg-info/dependency_links.txt
+linspdf.egg-info/top_level.txt
