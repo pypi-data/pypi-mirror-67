@@ -1,0 +1,2 @@
+from .activity_recognition import ActivityClassifier, ActivityClassifierConfig
+from .object_detection import ObjectDetector, ObjectDetectorConfig
