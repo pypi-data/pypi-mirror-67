@@ -1,0 +1,4 @@
+include src/disk.gif
+include src/file.gif
+include src/folder.gif
+include src/icon.ico
