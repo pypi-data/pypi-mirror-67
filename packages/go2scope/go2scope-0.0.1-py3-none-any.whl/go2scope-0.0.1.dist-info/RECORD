@@ -1,0 +1,11 @@
+go2scope/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+go2scope/dataio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+go2scope/dataio/g2sdataset/__init__.py,sha256=byvNT5zibmMbUlIffrI0qnq-b3WtfkZPvWZ4MS7lwzY,207
+go2scope/dataio/g2sdataset/dataset.py,sha256=ypKd-XidX-KvVGMRUR60mDOTd94Y1P___NGyibWJ_jU,8006
+go2scope/dataio/g2sdataset/reader.py,sha256=tpTbChOz2lTbcvjT3_UPxyXj5r30KpganxmRe1wMyIo,9425
+go2scope/dataio/g2sdataset/writer.py,sha256=aXlTtEiJOZXpAmb9xFsEVvQ4Dy5GUE7Q-oApOvIri3Y,18273
+go2scope-0.0.1.dist-info/LICENCE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+go2scope-0.0.1.dist-info/METADATA,sha256=gJedjh8_WhOZuQ5OguP71plRwMDAHmDJgdCBsNeOqxg,1419
+go2scope-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+go2scope-0.0.1.dist-info/top_level.txt,sha256=piwOGIDB2hMazB4S6c6RR5uPdDMBYNbhzsUhoyL3ixw,9
+go2scope-0.0.1.dist-info/RECORD,,
