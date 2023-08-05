@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sense-finance
+Version: 0.0.2
+Summary: sense finance
+Home-page: UNKNOWN
+Author: kafka0102
+Author-email: yujianjia@sensedeal.ai
+License: BSD License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: sense-core
+Requires-Dist: sense-django
+Requires-Dist: pypinyin
+Requires-Dist: pyparsing
+
+UNKNOWN
+
+
