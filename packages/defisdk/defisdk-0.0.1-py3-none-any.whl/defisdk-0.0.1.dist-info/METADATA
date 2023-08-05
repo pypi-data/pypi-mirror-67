@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: defisdk
+Version: 0.0.1
+Summary: DeFiSDK.py
+Home-page: https://github.com/zeriontech/defi-sdk-py
+Author: Alex Bash
+Author-email: alexey@zerion.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.6.2)
+Requires-Dist: furl (==2.1.0)
+Requires-Dist: pysha3 (==1.0.2)
+
+# DeFiSDK.py
+
+This library is a simple asynchronous python wrapper around [DeFi SDK](https://github.com/zeriontech/defi-sdk.).
+
+# Installation
+`pip3 install defisdk`
+
+
