@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-extra-ui-components
+Version: 0.0.2
+Summary: A collection of useful UI components for building interactive Dash applications.
+Home-page: UNKNOWN
+Author: NF <nvfrik@ncsu.edu>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

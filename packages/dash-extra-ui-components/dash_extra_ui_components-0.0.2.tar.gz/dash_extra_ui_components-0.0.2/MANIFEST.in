@@ -1,0 +1,11 @@
+include dash_extra_ui_components/dash_extra_ui_components.min.js
+include dash_extra_ui_components/dash_extra_ui_components.min.js.map
+include dash_extra_ui_components/metadata.json
+include dash_extra_ui_components/package-info.json
+include dash_extra_ui_components/nova-light/*.css
+include dash_extra_ui_components/primeicons/fonts/*
+include dash_extra_ui_components/primeicons/raw-svg/*
+include dash_extra_ui_components/primeicons/*.css
+include README.md
+include LICENSE
+include package.json
