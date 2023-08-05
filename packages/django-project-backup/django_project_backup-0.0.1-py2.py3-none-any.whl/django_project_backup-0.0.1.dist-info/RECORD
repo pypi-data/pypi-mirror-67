@@ -1,0 +1,17 @@
+django_project_backup/__init__.py,sha256=cSZlm8zfMfY_rgQn64Gl2HNmyYTyY1l8JiwFlW2ZAdk,461
+django_project_backup/apps.py,sha256=rfuTFke4IG4pF1XWVgmLxwht4t796NC9xKLu7PiiBOw,112
+django_project_backup/settings.py,sha256=hd7LALixmrVMJu7nVKMg1yEuQQ1ix0GKxNo7A1vyIUI,2167
+django_project_backup/skeleton.py,sha256=OoiVQ7rCn8rNF2y33Ey-GiSpmjcAWGJsgpybLmgxq-I,2816
+django_project_backup/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_project_backup/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_project_backup/management/commands/project_backup_assets.py,sha256=es6ia5XyWtTCXQnAb7nmpO2-BdjkFQSp13YIY8VsHq0,1476
+django_project_backup/management/commands/project_backup_dumpdata.py,sha256=Fe7HNhWZFYG4-lNeRBrtvmIFJimDeWnO3pVlZ05_tJs,1589
+django_project_backup/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_project_backup/utils/common.py,sha256=IzXL0Cqbnkp1CEI-pz2k-OriOs9KkSXpyzPE4gTo_gE,90
+django_project_backup/utils/django.py,sha256=XodEp5MkMt6jUnlKOIFdzxJ5khaNhU1UF2pqI-ZTyZw,2919
+django_project_backup-0.0.1.dist-info/AUTHORS.rst,sha256=i8JBZ0ZEGDceNLWNWNbpmjXtTJpgSV3pKMhX3mnLJoA,66
+django_project_backup-0.0.1.dist-info/LICENSE.txt,sha256=yt9gAbf5fisCwZvDDonWUBT10U5lmQ6VWv3aINRQ7A4,1070
+django_project_backup-0.0.1.dist-info/METADATA,sha256=TdeWoAn9QM5s_rhoQCt57TJ8Vp9qh7k_0I8dc_T5jRI,1109
+django_project_backup-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_project_backup-0.0.1.dist-info/top_level.txt,sha256=gzkmyG7Nvzw7mpRjgfwwCCPkMBnVQ97Wkmp7mjkMwRg,22
+django_project_backup-0.0.1.dist-info/RECORD,,
