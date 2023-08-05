@@ -1,0 +1,75 @@
+import json
+from collections import defaultdict
+from urllib.parse import urlparse
+
+import click
+from warrant import Cognito
+
+from .auth import login
+from .vars import COGNITO_NETLOC_MAPPING, CREDSTORE_PATH, DEFAULT_PROFILE
+
+
+class URL(click.ParamType):
+    name = "url"
+
+    def convert(self, value, param, ctx):
+        if not isinstance(value, tuple):
+            parsed = urlparse(value)
+            if parsed.scheme not in ("http", "https"):
+                self.fail(
+                    f"invalid URL scheme {parsed.scheme}. Only HTTP URLs are allowed",
+                    param,
+                    ctx,
+                )
+            if not parsed.netloc:
+                self.fail(
+                    f"invalid URL {value}, must have a domain name", param, ctx,
+                )
+        return parsed.netloc
+
+
+@click.command(help="Stores login credentials for use by the Nom Nom Data CLI")
+@click.option(
+    "--profile", envvar="NND_PROFILE", default=DEFAULT_PROFILE, show_default=True
+)
+@click.option(
+    "--nomitall-url",
+    envvar="NND_NOMITALL_URL",
+    default="https://user.api.nomitall.com",
+    show_default=True,
+    type=URL(),
+)
+def login(profile, nomitall_url):
+    username = click.prompt("Please enter your nomnomdata.com username")
+    password = click.prompt("Please enter your nomnomdata.com password", hide_input=True)
+    if not CREDSTORE_PATH.exists():
+        CREDSTORE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        creds = defaultdict(dict)
+    else:
+        with CREDSTORE_PATH.open() as f:
+            creds = defaultdict(dict, json.load(f))
+    user = Cognito(
+        COGNITO_NETLOC_MAPPING[nomitall_url]["userpool-id"],
+        COGNITO_NETLOC_MAPPING[nomitall_url]["client-id"],
+        username=username,
+        access_key="dummy_not_used",
+        secret_key="dummy_not_used",
+        user_pool_region="us-east-1",
+    )
+    try:
+        user.authenticate(password=password)
+    except user.client.exceptions.UserNotFoundException:
+        raise click.ClickException(f"Nom Nom Data username not found {username}")
+    except user.client.exceptions.NotAuthorizedException:
+        raise click.ClickException(f"Authorization failed {username}")
+    except user.client.exceptions.PasswordResetRequiredException:
+        raise click.ClickException(f"Password reset required for {username}")
+    creds[profile][nomitall_url] = {
+        "access-token": user.access_token,
+        "refresh-token": user.refresh_token,
+        "id-token": user.id_token,
+    }
+    with CREDSTORE_PATH.open("w") as f:
+        json.dump(creds, f, indent=4)
+        CREDSTORE_PATH.chmod(0o600)
+    click.secho(f"Logged in successfully, credentials stored @ {CREDSTORE_PATH}")
