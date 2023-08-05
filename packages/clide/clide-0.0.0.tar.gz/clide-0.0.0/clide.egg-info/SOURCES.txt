@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+clide.egg-info/PKG-INFO
+clide.egg-info/SOURCES.txt
+clide.egg-info/dependency_links.txt
+clide.egg-info/top_level.txt
