@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fcfc-windy
+Version: 0.2.0
+Summary: Windy
+Home-page: UNKNOWN
+Author: JingBh
+Author-email: jingbohao@yeah.net
+License: UNKNOWN
+Description: # windy
+        
+        创意来自微信公众号：*承远FCFC*的文章《*再破匡苏*》，见下图：
+        ![公众号文章截图](screenshot.png)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Xiglish
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+fcfc_windy.egg-info/PKG-INFO
+fcfc_windy.egg-info/SOURCES.txt
+fcfc_windy.egg-info/dependency_links.txt
+fcfc_windy.egg-info/top_level.txt
+windy/__init__.py
