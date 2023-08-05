@@ -1,0 +1,13 @@
+andperf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+andperf/_config.py,sha256=gPq5RF2IQEYahRvsbXi24rnjCm52J-KIa08gEu2nRaE,1035
+andperf/_util.py,sha256=SfNOu3-pi-SiECc-OOcJ7KAq5Ip3WEQ4eBrFCaFymmA,460
+andperf/andperf.py,sha256=IgzT6cG8IkpWYNvHVJLIZtSnvRXN1bkyEjLezT2igio,5284
+andperf/gfxinfo.py,sha256=8C8TVB3QgbzHJadTXCczWTgHlu7eMmhB5fLXscY4xcw,2523
+andperf/meminfo.py,sha256=9pCWMUXWzo_Vtn6JJ0SRQA9kscej-IWcn7js_3E_y0c,2442
+andperf/stat_thread.py,sha256=13wikT5fBI6wWxdKbmv2LiGX04Ph5pJogNPryfqkp6s,4858
+andperf-0.0.3.dist-info/LICENSE,sha256=3YUpvf4KEjwY8CCSLv70VioAzQS2g-f5ekTVZX3Xhdg,1072
+andperf-0.0.3.dist-info/METADATA,sha256=deiB1GocQYT5_fGHytdSYb2LBv8jHiT_epkVQE05CTM,3027
+andperf-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+andperf-0.0.3.dist-info/entry_points.txt,sha256=V40HDJ3RxoqszE734q8VdLIErjKl0PLkf6DIuVaxmSo,50
+andperf-0.0.3.dist-info/top_level.txt,sha256=KvC5EvD5VaC6aGQ2G97S416I_5oFjQ6CaXAOfzQVRNU,8
+andperf-0.0.3.dist-info/RECORD,,
