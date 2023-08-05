@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: TracWikiPrint
+Version: 3.0.dev0
+Summary: Generating PDF files or printable HTML from Wiki pages
+Home-page: http://trac-hacks.org/wiki/TracWikiPrintPlugin
+Author: Alvaro J. Iradier
+Author-email: alvaro.iradier@polartech.es
+Maintainer: Alvaro J. Iradier
+Maintainer-email: alvaro.iradier@polartech.es
+License: GPL
+Description: WikiPrintPlugin was developed based on the work of coderanger, athomas and diorgenes (WikiToPdf). It improves WikiToPdfPlugin to use a pure python library (xhtml2pdf/PISA) to generate PDF files. 
+Keywords: trac plugin wiki pdf
+Platform: UNKNOWN

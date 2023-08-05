@@ -1,0 +1,5 @@
+[trac.plugins]
+wikiprint.formats = wikiprint.formats
+wikiprint.web_ui = wikiprint.web_ui
+wikiprint.wikiprint = wikiprint.wikiprint
+
