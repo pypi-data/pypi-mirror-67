@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: mwdictionary
+Version: 0.1.2
+Summary: API Wrapper for the Merriam-Webster API.
+Home-page: https://github.com/PederHA/mwdictionary
+License: MIT
+Author: Peder Hovdan Andresen
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: httpx (>=0.12.1,<0.13.0)
+Project-URL: Repository, https://github.com/PederHA/mwdictionary
+Description-Content-Type: text/markdown
+
+# mwdictionary
+
+Small wrapper around the Merriam-Webster API. Has both a sync and async interface thanks to [httpx](https://github.com/encode/httpx).
+
+## Installation
+
+`pip install mwdictionary`
+
+## Usage
+
+Using mwdictionary's sync interface:
+
+```python
+>>> from mwdictionary import MWClient
+>>> client = MWClient(key="YOUR-KEY-HERE")
+>>> client.get("python")
+Word(word='python', wordtype='noun', shortdef='as in anaconda, boa', synonyms=['adder', 'anaconda', 'asp', 'black racer', 'blacksnake', 'blue racer', 'boa', 'bull snake', 'bushmaster', 'chicken snake', 'cobra', 'constrictor', 'copperhead', 'coral snake', 'cottonmouth moccasin', 'diamondback rattlesnake', 'fer-de-lance', 'garter snake', 'gopher snake', 'green snake', 'hognose snake', 'horned viper', 'indigo snake', 'king cobra', 'king snake', 'krait', 'mamba', 'milk snake', 'moccasin', 'pine snake', 'pit viper', 'puff adder', 'racer', 'rat snake', 'rattlesnake', 'sea serpent', 'sea snake', 'sidewinder', 'taipan', 'water moccasin', 'water snake', 'worm snake', 'serpent', 'snake', 'viper'], antonyms=[], stems='python')
+```
+
+Using the async interface:
+
+```python
+>>> import asyncio
+>>> asyncio.run(client.aget("python"))
+Word(word='python', wordtype='noun', shortdef='as in anaconda, boa', synonyms=['adder', 'anaconda', 'asp', 'black racer', 'blacksnake', 'blue racer', 'boa', 'bull snake', 'bushmaster', 'chicken snake', 'cobra', 'constrictor', 'copperhead', 'coral snake', 'cottonmouth moccasin', 'diamondback rattlesnake', 'fer-de-lance', 'garter snake', 'gopher snake', 'green snake', 'hognose snake', 'horned viper', 'indigo snake', 'king cobra', 'king snake', 'krait', 'mamba', 'milk snake', 'moccasin', 'pine snake', 'pit viper', 'puff adder', 'racer', 'rat snake', 'rattlesnake', 'sea serpent', 'sea snake', 'sidewinder', 'taipan', 'water moccasin', 'water snake', 'worm snake', 'serpent', 'snake', 'viper'], antonyms=[], stems='python')
+```
+
+If you want the word as a dictionary, just pass the result to `dataclasses.asdict()`:
+
+```python
+>>> from dataclasses import asdict
+>>> asdict(client.get("python"))
+{'word': 'python', 'wordtype': 'noun', 'shortdef': 'as in anaconda, boa', 'synonyms': ['adder', 'anaconda', 'asp', 'black racer', 'blacksnake', 'blue racer', 'boa', 'bull snake', 'bushmaster', 'chicken snake', 'cobra', 'constrictor', 'copperhead', 'coral snake', 'cottonmouth moccasin', 'diamondback rattlesnake', 'fer-de-lance', 'garter snake', 'gopher snake', 'green snake', 'hognose snake', 'horned viper', 'indigo snake', 'king cobra', 'king snake', 'krait', 'mamba', 'milk snake', 'moccasin', 'pine snake', 'pit viper', 'puff adder', 'racer', 'rat snake', 'rattlesnake', 'sea serpent', 'sea snake', 'sidewinder', 'taipan', 'water moccasin', 'water snake', 'worm snake', 'serpent', 'snake', 'viper'], 'antonyms': [], 'stems': 'python'}
+```
+
