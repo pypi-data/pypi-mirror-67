@@ -1,0 +1,7 @@
+redis
+pysnmp
+netaddr
+click
+pyyaml
+paramiko
+requests
