@@ -1,0 +1,15 @@
+felixlib/__init__.py,sha256=nG0c5ltJiX6yVbz63qxyYO1xfpj_pofrGojD4OF4zsI,22
+felixlib/__main__.cp37-win_amd64.pyd,sha256=UG7KVGudbkQcW5C4DDNPcU9MYBmLk95To1CRXYOamh4,34816
+felixlib/ansys.cp37-win_amd64.pyd,sha256=rXZJgLH39Tc2fG7FKCpC26-2c8MQxI5OYi-xXxP8fiQ,208896
+felixlib/const.cp37-win_amd64.pyd,sha256=BH3WjScFqLBGZEYQ_9eL_jE5uJ18fk4YaBS79dfrwqk,29696
+felixlib/cython_build.cp37-win_amd64.pyd,sha256=h-DnYFpLE-xqH4oNuECL3ZaY-baAabVfkpC9SRIgR1g,109056
+felixlib/data_analysis.cp37-win_amd64.pyd,sha256=F6qKS5MOGXCiqncWBio_9hP6yJ3qglOaqCcBPhBasVc,41984
+felixlib/flask_common.cp37-win_amd64.pyd,sha256=i4_5TzG0oqAuwLKuYFCvLA8J_Yvigs0tB6Wb_jY3Q7s,280064
+felixlib/general.cp37-win_amd64.pyd,sha256=9QLuNBlZC2akjTWqD55OQlBKkTwOLt9glSOTOirlpiY,340992
+felixlib/inventor.cp37-win_amd64.pyd,sha256=58WHa-tX6Md4qYUwOclphOQu-EOjBiWnn1aBBGrinvE,145920
+felixlib/pyi_build.cp37-win_amd64.pyd,sha256=Prvz-BvN4AcSUorvI6fbq1Kb-XLw3uQqKCpaOt_HtAk,175616
+felixlib/sg_common.cp37-win_amd64.pyd,sha256=RxavZGNht0PO4fJxJMPMvzm5WbZrdT3PsCQHwaVKCSM,132608
+felixlib-0.0.10.dist-info/LICENSE,sha256=UUoHCQ7hLM3mVE-IrK87iwwpBy-FDdvrijMUDQ-prJw,49
+felixlib-0.0.10.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+felixlib-0.0.10.dist-info/METADATA,sha256=QsGjlV9PyttaFarevEcMJFWBdpjRsdiYkmlpov_VDdA,368
+felixlib-0.0.10.dist-info/RECORD,,
