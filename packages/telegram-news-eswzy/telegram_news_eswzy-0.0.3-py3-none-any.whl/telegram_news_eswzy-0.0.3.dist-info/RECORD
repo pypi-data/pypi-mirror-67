@@ -1,0 +1,11 @@
+telegram_news/__init__.py,sha256=rXXVb0XAMbS9Ryz6gmVl8Qg_y-SQJde3RHnN3lr7Yzc,104
+telegram_news/displaypolicy.py,sha256=W0M_46oLDY0NfjPNAaY4AlhbVEPvFvjkCo8_kXZpalQ,1841
+telegram_news/table.sql,sha256=ON1H-qDWbmK2UmOdnZJLGGwx3keCwDxT42ycVHh9TW4,94
+telegram_news/utils.py,sha256=cG8hV0NipzL4ItBFJ8NoFbwUm5MV9g9NvDJ2Mx2tC2A,5695
+telegram_news/template/__init__.py,sha256=Q9ktJJN2wULF_UChg4EJBH_kVM5Ap4VpHt4C1vhOXeo,45
+telegram_news/template/common.py,sha256=lhAIfLSvuDab_eYNiAuYWRxsQKOWQ6H7PL8U3PreRmU,29306
+telegram_news_eswzy-0.0.3.dist-info/LICENSE,sha256=vraOPEv6iCUYLLwhBpVPcPBOQC99XBiPn22MPFog5BI,1083
+telegram_news_eswzy-0.0.3.dist-info/METADATA,sha256=HSfSY7Cu0e1isoWeGFfATY7cNj71hB_j7B8W-ormX70,1074
+telegram_news_eswzy-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+telegram_news_eswzy-0.0.3.dist-info/top_level.txt,sha256=2rA17KurZky0StnzgAyZzXDwNPz1auliqwdjEcoAzy0,14
+telegram_news_eswzy-0.0.3.dist-info/RECORD,,
