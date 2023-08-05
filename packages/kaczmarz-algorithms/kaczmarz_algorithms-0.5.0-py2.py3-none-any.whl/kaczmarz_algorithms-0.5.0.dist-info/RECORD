@@ -1,0 +1,9 @@
+kaczmarz/__init__.py,sha256=kYhYygK-dfgc3KQ_dKceFRnlyVNtmfQyInGSdsWCr9g,407
+kaczmarz/_abc.py,sha256=vLOaayLFMsCtwa7jbXvBBjHw_SdWeBhpkeM-zRye4Eg,6693
+kaczmarz/_util.py,sha256=af11LqvOpwrwIczBEA7RjE4sdJ1-eEPd_eYyMhs41oM,977
+kaczmarz/_variants.py,sha256=V9t-Oo2u-nQDCZHTG7zvAWzbDWQ8x0vLmUmqYpC7rFg,1887
+kaczmarz_algorithms-0.5.0.dist-info/LICENSE,sha256=bYG3GvZbR1b1D4pE4rXy31hXiWefav5YVouG1aCVuvM,1071
+kaczmarz_algorithms-0.5.0.dist-info/METADATA,sha256=9ZJVzQDG6D4APwd42LaaFDZNqGq-h1SkPR5eSo1_0LU,7833
+kaczmarz_algorithms-0.5.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+kaczmarz_algorithms-0.5.0.dist-info/top_level.txt,sha256=7ws4Xe6stOUOdHM5jaNAFy_mO8tquD8WAIK7NI5MGF8,9
+kaczmarz_algorithms-0.5.0.dist-info/RECORD,,
