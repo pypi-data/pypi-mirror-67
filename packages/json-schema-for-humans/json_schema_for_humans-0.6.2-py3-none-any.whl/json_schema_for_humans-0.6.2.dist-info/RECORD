@@ -1,0 +1,14 @@
+json_schema_for_humans/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_schema_for_humans/generate.py,sha256=YdNFZ2phei8l7GLJOM1jNiRvc-xxv03enGLyIyfAr88,15340
+json_schema_for_humans/schema_doc.css,sha256=vV8nscR2DsiQAwonFETdaFLvfxSlsh7BDqZHTAkYBhg,1070
+json_schema_for_humans/schema_doc.js,sha256=YMobVs2lyDP4s8qL86SIjD9sDZsw9cMbf619be-hHkM,1955
+json_schema_for_humans/schema_doc.min.js,sha256=tmWph1cik52cC6w2ZRG742JTv25oupm4Itr1hUfB_JY,734
+json_schema_for_humans/templates/schema_doc.template.html,sha256=Y4DR4u5PA3htKFTAmma9RgGasIhuRBfrujqFIIVY-P4,11970
+json_schema_for_humans-0.6.2.dist-info/AUTHORS,sha256=197lBJ_uZMYwiPjjnHPf0001EiejyG4D7YZ45Q6Ph9E,241
+json_schema_for_humans-0.6.2.dist-info/LICENSE,sha256=TlYXXA_FmkwY_nU4dM1Nxv02Vrt2FOyCoDSmJx-GvIA,563
+json_schema_for_humans-0.6.2.dist-info/METADATA,sha256=jVgB-JwrlACsSfqs2s6nkR2k6cTeee0LSMcWl771nYA,4169
+json_schema_for_humans-0.6.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+json_schema_for_humans-0.6.2.dist-info/entry_points.txt,sha256=_FXiv28WKdJa-6pj8r_rVKRXE3dQkCH6oEWCKy-S964,78
+json_schema_for_humans-0.6.2.dist-info/pbr.json,sha256=Btfi9ZJpkvuCfK22XMFL_mgjqRZcN4d--zgyHeUlVp0,47
+json_schema_for_humans-0.6.2.dist-info/top_level.txt,sha256=66W8L93MQJEiwoyTKDMiu4bFoTPOPM8wh_OyAGJzQyg,23
+json_schema_for_humans-0.6.2.dist-info/RECORD,,
