@@ -1,0 +1,17 @@
+picosvg/__init__.py,sha256=Ga4NthtMmVwPbSDnh4VuIz-WuNCnO_CYP65U1iWVk5w,700
+picosvg/_version.py,sha256=RMdfcP5Hx3qwgWfcSWDeLS4wx-o1A0_NraxcRrEwJdw,116
+picosvg/arc_to_cubic.py,sha256=cYOfOf2rh3wG7n9942HvyaeteznUySzQ4wjZfTI0AHA,7332
+picosvg/geometric_types.py,sha256=kjf4IAMfmtE7pkm8Ro0ghLCJwz9X4shpM4p-Gb7qSzo,3730
+picosvg/picosvg.py,sha256=nGX8Xh8K1A8CGmMsIbNDht87Jkc96tM4kq1bFTOwL_c,1276
+picosvg/svg.py,sha256=cZEJar-2koJfX6Fb5Lmu1EY6W3xJRaa38du8Xro0BrE,24304
+picosvg/svg_meta.py,sha256=trUNlbAHoEu2boUJWtFCzDmcNYiTp94C97qM_-mT5YI,2649
+picosvg/svg_path_iter.py,sha256=fncdnCnbAvNlGDaiA9YMXM4D5i-wWWq5VrYZa3puc_U,2876
+picosvg/svg_pathops.py,sha256=7fTUZRXoWzd7GbCXvhUns4mGaFSAVMvKVuJtcyPSZQk,4441
+picosvg/svg_transform.py,sha256=poDus1aXnNcQMrgBiATpGapIj6I9xGFr-C9oq9jmYIc,5787
+picosvg/svg_types.py,sha256=_ynvcTndhC517w0vHiL7bocySpwB8sFisYvfmNsexvs,14380
+picosvg-0.3.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+picosvg-0.3.5.dist-info/METADATA,sha256=8G17l2JOS1tmD0SsDCi0zbIFC0ts071n9tCbLL89ucU,319
+picosvg-0.3.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+picosvg-0.3.5.dist-info/entry_points.txt,sha256=Q681I7m15EpKQ_vc62l4QeCE9JxTMyChOTDL6_yxBKo,50
+picosvg-0.3.5.dist-info/top_level.txt,sha256=btlXMg_vzJE390x5RnjuH4rbPYMAr4qjSeTLG31uwMQ,8
+picosvg-0.3.5.dist-info/RECORD,,
