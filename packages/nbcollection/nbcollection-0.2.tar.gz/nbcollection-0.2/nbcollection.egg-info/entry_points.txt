@@ -1,0 +1,3 @@
+[console_scripts]
+nbcollection = nbcollection.__main__:main
+

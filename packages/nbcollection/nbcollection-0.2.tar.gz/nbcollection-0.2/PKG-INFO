@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: nbcollection
+Version: 0.2
+Summary: Execute and convert collections of Jupyter notebooks to static HTML
+Home-page: https://github.com/adrn/nbcollection
+Author: adrn, eteq
+Author-email: adrianmpw@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: nbcollection
+Requires-Python: >=3.6
