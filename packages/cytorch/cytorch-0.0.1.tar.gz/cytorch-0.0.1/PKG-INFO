@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cytorch
+Version: 0.0.1
+Summary: PyTorch in Cython
+Home-page: https://learnables.github.com/cytorch
+Author: Seb Arnold
+Author-email: smr.arnold@gmail.com
+License: License :: OSI Approved :: Apache Software License
+Download-URL: https://github.com/seba-1511/cytorch/archive/0.0.1.zip
+Description: # CyTorch
+        
+        --------------------------------------------------------------------------------
+        
+        [![Build Status](https://travis-ci.com/seba-1511/cytorch.svg?branch=master)](https://travis-ci.com/seba-1511/cytorch)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
