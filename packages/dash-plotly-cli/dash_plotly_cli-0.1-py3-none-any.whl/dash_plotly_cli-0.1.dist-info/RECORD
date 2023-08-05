@@ -1,0 +1,14 @@
+src/__init__.py,sha256=dRY3J5IihAR7-eJI6P8hdrca0t96u6VBwA-vqqVoxAk,41
+src/main.py,sha256=luaed29KEar6n7rtX6-s1_qIztG6m5cn8QhqJ6ifRNg,121
+src/scripts/__init__.py,sha256=mTTGJsTFN-f7NX8S3gIhjg_VQV0a-l71vv4nTpzs-UQ,65
+src/scripts/create.py,sha256=MPEBz4TYp1pIbQpfTNIFpPloPgB5MWTUui39bXYjKZI,3159
+src/scripts/run.py,sha256=KxFpO5NMTjdMgktOVuI7Du5inttaQ5SEExmaMNSAXLs,162
+src/scripts/update.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=UONY1A8ZdLIcs-K0YlLiVOK1Jtr_wQeTMN6LcP8xfJU,21
+tests/dummy.py,sha256=8_CPxb66DhKeLP9aaQ0Jzv2ZTWP9-baQPKJWc1j2fDA,185
+dash_plotly_cli-0.1.dist-info/LICENSE,sha256=JgyNJGT27n05SHoidj6IY8tXt2712BZhjTRZKm2iT70,1061
+dash_plotly_cli-0.1.dist-info/METADATA,sha256=u1ynkBEsVo8Pwf9CKOAMo6Owr8OTv8dVMtzHyFMQG4A,473
+dash_plotly_cli-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dash_plotly_cli-0.1.dist-info/entry_points.txt,sha256=DN8je023Fhgd3sKpEWbT3xNSTGfdAi6YelHQMO9nptQ,35
+dash_plotly_cli-0.1.dist-info/top_level.txt,sha256=OXeFpogLcg9g6s467HVn9I14ffmgckRdqVeC4LBL1K4,26
+dash_plotly_cli-0.1.dist-info/RECORD,,
