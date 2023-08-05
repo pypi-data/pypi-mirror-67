@@ -1,0 +1,11 @@
+README.md
+setup.py
+argsimple/__init__.py
+argsimple/cli.py
+argsimple/exception.py
+argsimple/help.py
+argsimple/option.py
+argsimple.egg-info/PKG-INFO
+argsimple.egg-info/SOURCES.txt
+argsimple.egg-info/dependency_links.txt
+argsimple.egg-info/top_level.txt
