@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gitlab-time-report"
+version = "0.1.dev1"
+description = ""
+authors = ["Johannes Wildermuth <johannes.wildermuth@hsr.ch>", "Fabian Hauser <fabian@fh2.ch>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.7.9"
+black = "^19.10b0"
+sphinx = "^3.0.3"
+sphinx_rtd_theme = "^0.4.3"
+"sphinxcontrib.spelling" = "^5.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
