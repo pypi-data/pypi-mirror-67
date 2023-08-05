@@ -1,0 +1,14 @@
+ipygoldenlayout/__init__.py,sha256=esZE5h-lgevKoqr1nAOqC89umxfiL2DkRVHdKk5-IHI,278
+ipygoldenlayout/_version.py,sha256=5ZIZq9_5hOPMQ709mboJwO2nVSzeNQLu1yj1iB9e-cs,281
+ipygoldenlayout/widget.py,sha256=d09naZ7La5XjuMOKTYbBEHg7aa0661dvkB8-Iyxunag,485
+ipygoldenlayout/static/extension.js,sha256=nSxFhovCx4ddXZkhhP7Tv50llRUx2DHXjl06eT-Bg-E,1236
+ipygoldenlayout/static/index.js,sha256=NHBTwhnzVlPlot04rvI6WF1qUU1MmYq_X-4BgT1uziI,297019
+ipygoldenlayout/static/index.js.map,sha256=kuIoxuTLCk1eVjlc0mN7vTXOjvU8QlpOmsjATCACggE,1125179
+ipygoldenlayout-0.3.0.data/data/etc/jupyter/nbconfig/notebook.d/jupyter-golden-layout.json,sha256=Y__ryUVjFMVDQy08DM6WJYrWNjOVPxDRS0-naPZSd0I,75
+ipygoldenlayout-0.3.0.data/data/share/jupyter/nbextensions/jupyter-golden-layout/extension.js,sha256=nSxFhovCx4ddXZkhhP7Tv50llRUx2DHXjl06eT-Bg-E,1236
+ipygoldenlayout-0.3.0.data/data/share/jupyter/nbextensions/jupyter-golden-layout/index.js,sha256=NHBTwhnzVlPlot04rvI6WF1qUU1MmYq_X-4BgT1uziI,297019
+ipygoldenlayout-0.3.0.data/data/share/jupyter/nbextensions/jupyter-golden-layout/index.js.map,sha256=kuIoxuTLCk1eVjlc0mN7vTXOjvU8QlpOmsjATCACggE,1125179
+ipygoldenlayout-0.3.0.dist-info/METADATA,sha256=davgPNEYkR8BeHoOJ-K9vvkMRALdLWkLhKgg3CL2DKU,997
+ipygoldenlayout-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ipygoldenlayout-0.3.0.dist-info/top_level.txt,sha256=utQtEkkz0DjATacBmaKdg_fErYGhwH5VbajqDD_EnWc,16
+ipygoldenlayout-0.3.0.dist-info/RECORD,,
