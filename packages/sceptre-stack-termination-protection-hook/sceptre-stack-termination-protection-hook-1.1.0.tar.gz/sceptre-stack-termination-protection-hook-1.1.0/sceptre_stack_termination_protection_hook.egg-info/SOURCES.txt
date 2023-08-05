@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+hook/__init__.py
+hook/stack_termination_protection.py
+sceptre_stack_termination_protection_hook.egg-info/PKG-INFO
+sceptre_stack_termination_protection_hook.egg-info/SOURCES.txt
+sceptre_stack_termination_protection_hook.egg-info/dependency_links.txt
+sceptre_stack_termination_protection_hook.egg-info/entry_points.txt
+sceptre_stack_termination_protection_hook.egg-info/not-zip-safe
+sceptre_stack_termination_protection_hook.egg-info/requires.txt
+sceptre_stack_termination_protection_hook.egg-info/top_level.txt
