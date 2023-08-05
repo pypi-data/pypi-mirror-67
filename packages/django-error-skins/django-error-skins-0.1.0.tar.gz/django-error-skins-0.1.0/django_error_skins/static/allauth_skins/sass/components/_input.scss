@@ -1,0 +1,15 @@
+input {
+  font-weight: 500;
+  padding: 16px;
+
+  &.default {
+    border: 0;
+    border-bottom: 1.5px solid #E6E8EC;
+    line-height: 16px;
+    width: 100%;
+
+    &.checkbox {
+      width: auto;
+    }
+  }
+}
