@@ -1,0 +1,10 @@
+setup.py
+und_probability_distributions/Binomialdistribution.py
+und_probability_distributions/Gaussiandistribution.py
+und_probability_distributions/Generaldistribution.py
+und_probability_distributions/__init__.py
+und_probability_distributions.egg-info/PKG-INFO
+und_probability_distributions.egg-info/SOURCES.txt
+und_probability_distributions.egg-info/dependency_links.txt
+und_probability_distributions.egg-info/not-zip-safe
+und_probability_distributions.egg-info/top_level.txt
