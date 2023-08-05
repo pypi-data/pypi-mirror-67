@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pysystems
+Version: 1.0.0
+Summary: A python package to solve multi-varible systems of equations
+Home-page: https://github.com/gubareve/pysystems/
+Author: Evan Gubarev
+Author-email: evan@evangubarev.com
+License: GNU
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+# pysystems
+A python package for solving multi-varible systems of equations
+
+![PyPI](https://img.shields.io/pypi/v/pysystems)
+
+
+# Install
+``` $ pip install pysystems ```
+or
+``` $ python -m pip install pysystems ```
+
+# Usage
+``` 
+import pysystems
+solve = pysystems.solve
+print(solve(0, "2x+y=14", "2x+17y=21")) ---> (6.78125, 0.4375)
+or
+print(solve("2x+7y+3z=5", "3x+12y+z=91", "2x+9y+z=11")) ---> (189.5, -36.5, -39.5)
+```
+
+
