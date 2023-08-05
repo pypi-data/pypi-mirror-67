@@ -1,0 +1,4 @@
+include src/*.gif
+include src/*.ico
+
+global-exclude dist_win64/*
