@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mapfw
+Version: 0.1.1
+Summary: API client for mapfw challenges
+Home-page: https://github.com/noahiscool13/mapfw-client
+Author: Noah Jadoenathmisier
+Author-email: n.j.m.jadoenathmisier@student.tudelft.nl
+License: MIT
+Description: CLIENT LIBRARY FOR MAPFW PROBLEMS
+Platform: UNKNOWN
