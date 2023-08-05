@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: gids
+Version: 1.2
+Summary: Google-images-downloader module using selenium
+Home-page: https://github.com/jinkyuhan/google-images-download
+Author-email: gkswlsrb95@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
