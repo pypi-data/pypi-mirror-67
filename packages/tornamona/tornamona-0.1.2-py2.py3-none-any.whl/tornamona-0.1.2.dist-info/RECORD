@@ -1,0 +1,11 @@
+tornamona/__init__.py,sha256=9RVT7B4wGGJikv9qdTG2l7k_QQXHWyKsf9wzi98q8pE,167
+tornamona/cli.py,sha256=jfPLvxYQW4bEm2xdYQHxB9oXN6aBJTdMRKvbhWZUdo0,406
+tornamona/fixes/__init__.py,sha256=hMenC2eld2M33ZhAwsJmMoni-0nh6icUddCyqDJjmn8,868
+tornamona/fixes/nisra.py,sha256=gD9ZBITgnlrzXMmQpJEFboDejXg7RbLTakNz7LZinow,4262
+tornamona-0.1.2.dist-info/AUTHORS.rst,sha256=hgIWyZySSlp8Oz96ClZxYEMmSWO9gwdg-CAub2zbhIk,161
+tornamona-0.1.2.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+tornamona-0.1.2.dist-info/METADATA,sha256=mQzLVAJoE_B0ASuuVQ7v7q9i6NAzYgs-lbY4wC8GOgQ,5503
+tornamona-0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tornamona-0.1.2.dist-info/entry_points.txt,sha256=4XZV7CWmP3e1QWnARCmTXUKYHz5DnGPc2B9mOHbFzzI,50
+tornamona-0.1.2.dist-info/top_level.txt,sha256=irxTK9eCOeZtOWEAM5W5kIiBdmt6Ts3bQhRvfigjysU,10
+tornamona-0.1.2.dist-info/RECORD,,
