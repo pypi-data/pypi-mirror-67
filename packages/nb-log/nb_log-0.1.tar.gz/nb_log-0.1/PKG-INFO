@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nb_log
+Version: 0.1
+Summary: very sharp display
+Home-page: UNKNOWN
+Author: bfzs
+Author-email: 909686719@qq.com
+Maintainer: ydf
+Maintainer-email: 909686719@qq.com
+License: BSD License
+Description: very sharp display  and high-performance multiprocess safe roating file handler log
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
