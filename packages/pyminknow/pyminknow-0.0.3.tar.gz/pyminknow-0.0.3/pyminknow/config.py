@@ -1,0 +1,15 @@
+DEFAULT_HOST = 'localhost'
+DEFAULT_PORT = 9501
+GRACE = 5  # seconds
+
+PROTOCOLS = (
+    'V1',
+    'V2',
+    'V3',
+)
+
+DATA_DIR = '/data'
+
+PRODUCT_CODE = 'MIN-101B-FAKE'
+DESCRIPTION = 'Fake MinIT'
+SERIAL = 'FAKE-0123456789'
