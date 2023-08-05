@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: modutils
+Version: 0.0.1
+Summary: A library with modern utilities to assist development efficiency 
+Home-page: https://www.github.com/tannerburns/modutils
+Author: Tanner Burns
+Author-email: tjburns102@gmail.com
+License: UNKNOWN
+Description: # Modutils
+        
+            A library with modern utilities to assist development efficiency 
+            
+            DOCS coming soon
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
