@@ -1,0 +1,9 @@
+python-dotenv
+Click==7.0
+tabulate
+mbed-tools-lib~=1.2
+GitPython
+tqdm
+
+[:python_version < "3.7"]
+dataclasses
