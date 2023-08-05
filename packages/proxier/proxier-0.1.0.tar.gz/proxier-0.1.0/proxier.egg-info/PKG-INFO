@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: proxier
+Version: 0.1.0
+Summary: Get a Proxy server address easily
+Home-page: https://github.com/fredericowu/proxier
+Author: Frederico Dias Wu
+Author-email: fredericowu@gmail.com
+License: Apache 2.0
+Project-URL: Documentation, http://proxier.readthedocs.io
+Project-URL: Source, https://github.com/fredericowu/proxier
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Description-Content-Type: text/markdown
