@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+numpyXtns/__init__.py
+numpyXtns/numpyXtns.py
+numpyXtns/spaef.py
+numpyXtns.egg-info/PKG-INFO
+numpyXtns.egg-info/SOURCES.txt
+numpyXtns.egg-info/dependency_links.txt
+numpyXtns.egg-info/requires.txt
+numpyXtns.egg-info/top_level.txt
