@@ -1,0 +1,6 @@
+cleanplotlib
+importlib_metadata
+matplotlib
+numpy
+tqdm
+termtables
