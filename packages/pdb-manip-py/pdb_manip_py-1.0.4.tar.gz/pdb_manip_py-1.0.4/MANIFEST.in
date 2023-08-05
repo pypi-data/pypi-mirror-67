@@ -1,0 +1,7 @@
+include *.txt
+include *.rst
+include LICENSE
+include pytest.ini
+recursive-include pdb_manip_py *pdb
+recursive-include pdb_manip_py *rst
+recursive-include pdb_manip_py *py
