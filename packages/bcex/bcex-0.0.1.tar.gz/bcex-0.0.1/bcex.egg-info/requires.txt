@@ -1,0 +1,4 @@
+numpy
+websocket-client
+sortedcontainers
+iso8601
