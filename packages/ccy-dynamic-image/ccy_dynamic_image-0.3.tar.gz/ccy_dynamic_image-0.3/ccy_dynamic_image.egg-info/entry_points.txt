@@ -1,0 +1,3 @@
+[console_scripts]
+ccy_dynamic_image = ccy_dynamic_image:main
+
