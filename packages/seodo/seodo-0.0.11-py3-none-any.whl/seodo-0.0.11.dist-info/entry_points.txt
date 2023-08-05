@@ -1,0 +1,3 @@
+[console_scripts]
+seodo=seodo-cli.main:app
+
