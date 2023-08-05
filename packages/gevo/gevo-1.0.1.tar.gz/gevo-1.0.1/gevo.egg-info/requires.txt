@@ -1,0 +1,4 @@
+pybind11>=2.2
+deap>=1.2
+matplotlib>=2.1
+python-pptx>=0.6
