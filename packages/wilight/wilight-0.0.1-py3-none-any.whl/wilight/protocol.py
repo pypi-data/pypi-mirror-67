@@ -1,0 +1,329 @@
+"""WiLight Protocol Support."""
+import asyncio
+from collections import deque
+import logging
+import codecs
+import binascii
+
+
+class WiLightProtocol(asyncio.Protocol):
+    """WiLight device control protocol."""
+
+    transport = None  # type: asyncio.Transport
+
+    def __init__(self, client, disconnect_callback=None, loop=None,
+                 logger=None):
+        """Initialize the WiLight protocol."""
+        self.client = client
+        self.loop = loop
+        self.logger = logger
+        self._buffer = b''
+        self.disconnect_callback = disconnect_callback
+        self._timeout = None
+        self._cmd_timeout = None
+        self._keep_alive = None
+
+    def connection_made(self, transport):
+        """Initialize protocol transport."""
+        self.transport = transport
+        self._reset_timeout()
+
+    def _send_keepalive_packet(self):
+        """Send a keep alive packet."""
+        if not self.client.in_transaction:
+            packet = self.format_packet("000000", self.client.device_id)
+            self.logger.warning('sending packet keep alive: %s', packet)
+            self.logger.debug('sending keep alive packet')
+            self.transport.write(packet)
+
+    def _reset_timeout(self):
+        """Reset timeout for date keep alive."""
+        if self._timeout:
+            self._timeout.cancel()
+        self._timeout = self.loop.call_later(self.client.timeout,
+                                             self.transport.close)
+        if self._keep_alive:
+            self._keep_alive.cancel()
+        self._keep_alive = self.loop.call_later(
+            self.client.keep_alive_interval,
+            self._send_keepalive_packet)
+
+    def reset_cmd_timeout(self):
+        """Reset timeout for command execution."""
+        if self._cmd_timeout:
+            self._cmd_timeout.cancel()
+        self._cmd_timeout = self.loop.call_later(self.client.timeout,
+                                                 self.transport.close)
+
+    def data_received(self, data):
+        """Add incoming data to buffer."""
+#        self._buffer += data
+        self._buffer = data
+        self.logger.warning('recebeu data: %s', self._buffer)
+        self._handle_lines()
+
+    def _handle_lines(self):
+        """Assemble incoming data into per-line packets."""
+        if b'&' in self._buffer:
+            line = self._buffer[0:len(self._buffer)]
+            if self._valid_packet(self, line):
+                self.logger.warning('recebeu data valida')
+                self._handle_raw_packet(line)
+            else:
+                self.logger.warning('dropping invalid data: %s', line)
+
+    @staticmethod
+    def _valid_packet(self, raw_packet):
+        """Validate incoming packet."""
+        if raw_packet[0:1] != b'&':
+            return False
+#        self.logger.warning('len %i', len(raw_packet))
+        if len(raw_packet) < 60:
+            return False
+        b_device_id = self.client.device_id.encode()
+        for i in range(0, 12):
+            if raw_packet[i + 1] != b_device_id[i]:
+                return False
+        return True
+
+    def _handle_raw_packet(self, raw_packet):
+        """Parse incoming packet."""
+        self.logger.warning('handle data: %s', raw_packet)
+        if raw_packet[0:1] == b'&':
+            self._reset_timeout()
+            states = {}
+            changes = []
+            for switch in range(0, 3):
+#                self.logger.warning('estado switch %i: %s', switch, raw_packet[23+switch:24+switch])
+                if raw_packet[23+switch:24+switch] == b'1':
+                    self.logger.warning('estado switch %i: %s', switch, raw_packet[23+switch:24+switch])
+                    states[format(switch, 'x')] = True
+                    if (self.client.states.get(format(switch, 'x'), None)
+                            is not True):
+                        changes.append(format(switch, 'x'))
+                        self.client.states[format(switch, 'x')] = True
+                elif raw_packet[23+switch:24+switch] == b'0':
+                    self.logger.warning('estado switch %i: %s', switch, raw_packet[23+switch:24+switch])
+                    states[format(switch, 'x')] = False
+                    if (self.client.states.get(format(switch, 'x'), None)
+                            is not False):
+                        changes.append(format(switch, 'x'))
+                        self.client.states[format(switch, 'x')] = False
+            for switch in changes:
+                for status_cb in self.client.status_callbacks.get(switch, []):
+                    status_cb(states[switch])
+            self.logger.debug(states)
+            if self.client.in_transaction:
+                self.client.in_transaction = False
+                self.client.active_packet = False
+                self.client.active_transaction.set_result(states)
+                while self.client.status_waiters:
+                    waiter = self.client.status_waiters.popleft()
+                    waiter.set_result(states)
+                if self.client.waiters:
+                    self.send_packet()
+                else:
+                    self._cmd_timeout.cancel()
+            elif self._cmd_timeout:
+                self._cmd_timeout.cancel()
+        else:
+            self.logger.warning('received unknown packet: %s', raw_packet)
+
+    def send_packet(self):
+        """Write next packet in send queue."""
+        waiter, packet = self.client.waiters.popleft()
+        self.logger.warning('sending packet send_packet: %s', packet)
+        self.client.active_transaction = waiter
+        self.client.in_transaction = True
+        self.client.active_packet = packet
+        self.reset_cmd_timeout()
+        self.transport.write(packet.encode())
+
+    @staticmethod
+    def format_packet(command, device_id):
+        """Format packet to be sent."""
+        frame_header = b"!" + device_id.encode()
+        return frame_header + command.encode()
+
+    def connection_lost(self, exc):
+        """Log when connection is closed, if needed call callback."""
+        if exc:
+            self.logger.error('disconnected due to error')
+        else:
+            self.logger.info('disconnected because of close/abort.')
+        if self._keep_alive:
+            self._keep_alive.cancel()
+        if self.disconnect_callback:
+            asyncio.ensure_future(self.disconnect_callback(), loop=self.loop)
+
+
+class WiLightClient:
+    """WiLight client wrapper class."""
+
+    def __init__(self, device_id, host, port, model, config_ex,
+                 disconnect_callback=None, reconnect_callback=None,
+                 loop=None, logger=None, timeout=10, reconnect_interval=10,
+                 keep_alive_interval=3):
+        """Initialize the WiLight client wrapper."""
+        if loop:
+            self.loop = loop
+        else:
+            self.loop = asyncio.get_event_loop()
+        if logger:
+            self.logger = logger
+        else:
+            self.logger = logging.getLogger(__name__)
+        self.device_id = device_id
+        self.host = host
+        self.port = port
+        self.model = model
+        self.config_ex = config_ex
+        self.transport = None
+        self.protocol = None
+        self.is_connected = False
+        self.reconnect = True
+        self.timeout = timeout
+        self.reconnect_interval = reconnect_interval
+        self.keep_alive_interval = keep_alive_interval
+        self.disconnect_callback = disconnect_callback
+        self.reconnect_callback = reconnect_callback
+        self.waiters = deque()
+        self.status_waiters = deque()
+        self.in_transaction = False
+        self.active_transaction = None
+        self.active_packet = None
+        self.status_callbacks = {}
+        self.states = {}
+
+    async def setup(self):
+        """Set up the connection with automatic retry."""
+        while True:
+            fut = self.loop.create_connection(
+                lambda: WiLightProtocol(
+                    self,
+                    disconnect_callback=self.handle_disconnect_callback,
+                    loop=self.loop, logger=self.logger),
+                host=self.host,
+                port=self.port)
+            try:
+                self.transport, self.protocol = \
+                    await asyncio.wait_for(fut, timeout=self.timeout)
+            except asyncio.TimeoutError:
+                self.logger.warning("Could not connect due to timeout error.")
+            except OSError as exc:
+                self.logger.warning("Could not connect due to error: %s",
+                                    str(exc))
+            else:
+                self.is_connected = True
+                if self.reconnect_callback:
+                    self.reconnect_callback()
+                break
+            await asyncio.sleep(self.reconnect_interval)
+
+    def stop(self):
+        """Shut down transport."""
+        self.reconnect = False
+        self.logger.debug("Shutting down.")
+        if self.transport:
+            self.transport.close()
+
+    async def handle_disconnect_callback(self):
+        """Reconnect automatically unless stopping."""
+        self.is_connected = False
+        if self.disconnect_callback:
+            self.disconnect_callback()
+        if self.reconnect:
+            self.logger.debug("Protocol disconnected...reconnecting")
+            await self.setup()
+            self.protocol.reset_cmd_timeout()
+            if self.in_transaction:
+                self.protocol.transport.write(self.active_packet)
+            else:
+                packet = self.protocol.format_packet("000000", self.device_id)
+                self.logger.warning('sending packet disconnected: %s', packet)
+                self.protocol.transport.write(packet)
+
+    def register_status_callback(self, callback, switch):
+        """Register a callback which will fire when state changes."""
+        if self.status_callbacks.get(switch, None) is None:
+            self.status_callbacks[switch] = []
+        self.status_callbacks[switch].append(callback)
+
+    def _send(self, packet):
+        """Add packet to send queue."""
+        self.logger.warning('sending packet _send: %s', packet)
+        fut = self.loop.create_future()
+        self.waiters.append((fut, packet))
+        if self.waiters and self.in_transaction is False:
+            self.protocol.send_packet()
+        return fut
+
+    async def turn_on(self, switch=None):
+        """Turn on relay."""
+        if switch is not None:
+            switch = codecs.decode(switch.rjust(2, '0'), 'hex')
+            self.logger.warning('switch turn_on ok: %s', switch)
+            packet = self.protocol.format_packet("000100", self.client.device_id)
+        else:
+            self.logger.warning('switch turn_on nok')
+            packet = self.protocol.format_packet("000000", self.client.device_id)
+        states = await self._send(packet)
+        return states
+
+    async def turn_off(self, switch=None):
+        """Turn off relay."""
+        if switch is not None:
+            switch = codecs.decode(switch.rjust(2, '0'), 'hex')
+            self.logger.warning('switch turn_off ok: %s', switch)
+            packet = self.protocol.format_packet("002000", self.client.device_id)
+        else:
+            self.logger.warning('switch turn_off nok')
+            packet = self.protocol.format_packet("000000", self.client.device_id)
+        states = await self._send(packet)
+        return states
+
+    async def status(self, switch=None):
+        """Get current relay status."""
+        if switch is not None:
+            if self.waiters or self.in_transaction:
+                fut = self.loop.create_future()
+                self.status_waiters.append(fut)
+                states = await fut
+                state = states[switch]
+            else:
+                packet = self.protocol.format_packet("000000", self.client.device_id)
+                self.logger.warning('sending packet status 1: %s', packet)
+                states = await self._send(packet)
+                state = states[switch]
+        else:
+            if self.waiters or self.in_transaction:
+                fut = self.loop.create_future()
+                self.status_waiters.append(fut)
+                state = await fut
+            else:
+                packet = self.protocol.format_packet("000000", self.client.device_id)
+                self.logger.warning('sending packet status 1: %s', packet)
+                state = await self._send(packet)
+        return state
+
+
+async def create_wilight_connection(device_id=None,
+                                     host=None,
+                                     port=None,
+                                     model=None,
+                                     config_ex=None,
+                                     disconnect_callback=None,
+                                     reconnect_callback=None, loop=None,
+                                     logger=None, timeout=None,
+                                     reconnect_interval=None,
+                                     keep_alive_interval=None):
+    """Create WiLight Client class."""
+    client = WiLightClient(device_id=device_id, host=host, port=port, model=model, config_ex=config_ex,
+                        disconnect_callback=disconnect_callback,
+                        reconnect_callback=reconnect_callback,
+                        loop=loop, logger=logger,
+                        timeout=timeout, reconnect_interval=reconnect_interval,
+                        keep_alive_interval=keep_alive_interval)
+    await client.setup()
+
+    return client
