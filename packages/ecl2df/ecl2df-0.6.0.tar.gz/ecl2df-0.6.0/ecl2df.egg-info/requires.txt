@@ -1,0 +1,14 @@
+libecl
+pandas
+pyyaml>=5.1
+treelib
+
+[tests]
+networkx
+pytest
+sphinx
+sphinx-argparse
+sphinx_rtd_theme
+
+[tests:python_version >= "3"]
+black
