@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fmp-wrapper
+Version: 0.0.0
+Summary: A python wrapper for the Financial Modeling Prep API.
+Home-page: https://github.com/cccdenhart/fmp-wrapper
+Author: Charlie Denhart
+Author-email: cccdenhart@me.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+
+UNKNOWN
+
+
