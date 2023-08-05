@@ -1,0 +1,15 @@
+README.rst
+setup.py
+discord_system_observer_bot/__init__.py
+discord_system_observer_bot/__main__.py
+discord_system_observer_bot/bot.py
+discord_system_observer_bot/cli.py
+discord_system_observer_bot/gpuinfo.py
+discord_system_observer_bot/statsobserver.py
+discord_system_observer_bot/sysinfo.py
+discord_system_observer_bot.egg-info/PKG-INFO
+discord_system_observer_bot.egg-info/SOURCES.txt
+discord_system_observer_bot.egg-info/dependency_links.txt
+discord_system_observer_bot.egg-info/entry_points.txt
+discord_system_observer_bot.egg-info/requires.txt
+discord_system_observer_bot.egg-info/top_level.txt
