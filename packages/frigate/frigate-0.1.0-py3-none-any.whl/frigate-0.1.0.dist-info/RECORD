@@ -1,0 +1,13 @@
+frigate/__init__.py,sha256=gHMY-ZqAIayycTRCvfSFB5xshQhJEieFmZLzOXg4cOE,222
+frigate/__main__.py,sha256=ErJWSpEqXjCy21qSKq9--PoNI8lS8vDKKJltGBJMp_g,92
+frigate/_version.py,sha256=_rUjG8XMtGSi9BsVk3p1v7eN8NAN1_R_jHxxv8_oghk,498
+frigate/cli.py,sha256=T0nWVzUniWTIspEGNVEzOJxKDGxUDTGjC6O418ZVSlA,564
+frigate/gen.py,sha256=92-FkD9PGyhdUhodP5K8MJsrBKqTgwu_KECwka71Pu8,4993
+frigate/utils.py,sha256=B3Sz1I6Yw3jCktWCgJOMvwff2qZBI4bMMtI6QXOf0t4,969
+frigate/sphinx/__init__.py,sha256=QqChOqOHnQn4dzi3O31l78Tm1NEiND6KKqPWXjhCyFU,52
+frigate/sphinx/ext.py,sha256=dYd4Ray8nAyBXF-5xicAcHTuFHNVvdwFB6noam22Pks,783
+frigate-0.1.0.dist-info/METADATA,sha256=sDP-sKs0PoUk9myZbqmGSWw3mrs_1GqYzxrE-x4DVIA,912
+frigate-0.1.0.dist-info/RECORD,,
+frigate-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+frigate-0.1.0.dist-info/entry_points.txt,sha256=uabQoAteqyy8s0s5ueM_5WvyuAvxebsfka3jD96hVYQ,45
+frigate-0.1.0.dist-info/top_level.txt,sha256=oPO8tgXYV81Iw-7FSER6GEQL2TL6tdKEEy9_N3gTyxA,8
