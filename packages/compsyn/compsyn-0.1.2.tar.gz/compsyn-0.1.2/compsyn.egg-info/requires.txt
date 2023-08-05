@@ -1,0 +1,17 @@
+numpy
+scipy
+pillow
+matplotlib
+time
+numba
+seaborn
+colorsys
+scikit-learn
+gzip
+google_images_download
+google-cloud-vision
+textblob
+nltk
+random_word
+selenium
+bs4
