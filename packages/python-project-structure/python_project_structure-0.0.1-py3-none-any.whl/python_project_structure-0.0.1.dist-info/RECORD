@@ -1,0 +1,11 @@
+pythonprojectstructure/__init__.py,sha256=yBbY1SFl_SYqBzEWKSBt7qMQuHkR8Fr9CNELRvOnD8w,560
+pythonprojectstructure/__main__.py,sha256=Z5fvFFuycRCIZ8kIPl187AplQAZxn12w2XcSrZdc_SM,181
+pythonprojectstructure/version.py,sha256=IYVuaRW3OD09k1LqGVPqaPFVUii2bJVRMPZNX4VEgcA,116
+pythonprojectstructure/tests/__init__.py,sha256=UH-ihp41VYXirwJiNEgzDG8Yiv-WpepXDXflNNbPu4o,72
+pythonprojectstructure/tests/test_pythonprojectstructure.py,sha256=I0WKnrGrms49mXQCVilCev4ir-u6tlg1hDFHWRZ8gfk,1929
+python_project_structure-0.0.1.dist-info/LICENSE,sha256=TQB2hl5wQbApX26FyvttNUVV0qERhdlTY4GsCwSzNt8,1081
+python_project_structure-0.0.1.dist-info/METADATA,sha256=lKjOajGF7QVeqPXXggUUZurHs7q5KkRu-bJc9Z5CZGw,4251
+python_project_structure-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_project_structure-0.0.1.dist-info/entry_points.txt,sha256=wdHJ2P_1-ErLYfUkOgiWGjgv8pehLe3wkE_fzg1Onzg,74
+python_project_structure-0.0.1.dist-info/top_level.txt,sha256=t5q00ds0Q4STziRCzwe7VFbituWmFgLxSn2Xdyzesi8,23
+python_project_structure-0.0.1.dist-info/RECORD,,
