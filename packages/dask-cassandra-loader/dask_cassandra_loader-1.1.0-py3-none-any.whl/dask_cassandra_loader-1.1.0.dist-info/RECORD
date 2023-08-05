@@ -1,0 +1,9 @@
+dask_cassandra_loader/__init__.py,sha256=YXm8tT4-D7gQ6KDy2exIZxz7zPC7j_P0NDraygvXlVk,246
+dask_cassandra_loader/__version__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+dask_cassandra_loader/loader.py,sha256=2b9emOo1mRcJZrwpbXavx2nO9nerGHyxrInCj3mE_ho,25413
+dask_cassandra_loader-1.1.0.dist-info/DESCRIPTION.rst,sha256=9X0LpQFMAgnwZGqL8B9ftvmihWpm_lRpm5QH7Q8Zrd8,2860
+dask_cassandra_loader-1.1.0.dist-info/METADATA,sha256=FKxMf-89-mOWamHnKQNKYsuiR4m0RK-1l3XmeI8_GE4,4047
+dask_cassandra_loader-1.1.0.dist-info/RECORD,,
+dask_cassandra_loader-1.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dask_cassandra_loader-1.1.0.dist-info/metadata.json,sha256=9d65UQef887Rkv9qXlVeTAW_4tajmDb-0mZV1Ku-sIU,1346
+dask_cassandra_loader-1.1.0.dist-info/top_level.txt,sha256=verdBDMILY1WiaJMjaLbSL7fVg0kiG7FrY0ySC4TpDg,22
