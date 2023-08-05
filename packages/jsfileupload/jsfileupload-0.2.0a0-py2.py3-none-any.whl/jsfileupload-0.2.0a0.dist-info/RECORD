@@ -1,0 +1,16 @@
+jsfileupload/__init__.py,sha256=kzreWdRH7JE6xomHNypHcDYhitDREcFCEf2UULpeUxA,1034
+jsfileupload/_frontend.py,sha256=iH1TYQ2c92IFfeBv3EBK60_xwFUaOqlQQ31npQpNzqo,118
+jsfileupload/_version.py,sha256=Rg-8vY2L1e1Gv_r3b5XaUrdxwXR8niinUr9S5gfwW4Y,423
+jsfileupload/widget.py,sha256=opcRZ7NQDH4aCu7E4gC7AaBV3d_268rfjAC700fetfM,3247
+jsfileupload/static/extension.js,sha256=4tVCEF8DoZ_71lqKqO-ZoViYLJUKUHi8jUenN_mlAvs,3342
+jsfileupload/static/index.js,sha256=rPEsMKMXtZYWRk8xSJZblgGpJqE1NCtcPYhDqIROGF0,622078
+jsfileupload/static/index.js.map,sha256=l_M1nIlHxp0pjzbcY759jhutOYm9wYrypT9cFOGA_DA,748565
+jsfileupload-0.2.0a0.data/data/etc/jupyter/nbconfig/notebook.d/jsfileupload.json,sha256=xG94vYBan5M4RvWcfZTQAZv2c4TqdAd61vTXCRo3GFw,66
+jsfileupload-0.2.0a0.data/data/share/jupyter/nbextensions/jsfileupload/extension.js,sha256=4tVCEF8DoZ_71lqKqO-ZoViYLJUKUHi8jUenN_mlAvs,3342
+jsfileupload-0.2.0a0.data/data/share/jupyter/nbextensions/jsfileupload/index.js,sha256=rPEsMKMXtZYWRk8xSJZblgGpJqE1NCtcPYhDqIROGF0,622078
+jsfileupload-0.2.0a0.data/data/share/jupyter/nbextensions/jsfileupload/index.js.map,sha256=l_M1nIlHxp0pjzbcY759jhutOYm9wYrypT9cFOGA_DA,748565
+jsfileupload-0.2.0a0.dist-info/LICENSE.txt,sha256=NnkB0Kz-PeVoiKHqGCz929CMR1C5KBxNzpHERYMc-5o,1563
+jsfileupload-0.2.0a0.dist-info/METADATA,sha256=QP6BT1Z_S1DpihZtf4PvlCF6z2wfeA2bA7Uda-whtPA,1614
+jsfileupload-0.2.0a0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+jsfileupload-0.2.0a0.dist-info/top_level.txt,sha256=Zk_-r4hZj8EoqpRBKuLMcbmwuIpsLOG2V4fkOOAqJOM,13
+jsfileupload-0.2.0a0.dist-info/RECORD,,
