@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: fitdist
+Version: 0.1.0
+Summary: Python package for probability density function fitting and hypothesis testing.
+Home-page: https://github.com/erdogant/fitdist
+Author: Erdogan Taskesen
+Author-email: erdogant@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/erdogant/fitdist/archive/0.1.0.tar.gz
+Description: # fitdist - Probability density fitting.
+        
+        [![Python](https://img.shields.io/pypi/pyversions/fitdist)](https://img.shields.io/pypi/pyversions/fitdist)
+        [![PyPI Version](https://img.shields.io/pypi/v/fitdist)](https://pypi.org/project/fitdist/)
+        [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/erdogant/fitdist/blob/master/LICENSE)
+        [![Sphinx](https://img.shields.io/badge/Sphinx-Docs-blue)](https://erdogant.github.io/distfit/)
+        [![Downloads](https://pepy.tech/badge/fitdist/week)](https://pepy.tech/project/fitdist/week)
+        
+        * ``fitdist`` is Python package that originates from ``distfit`` library.
+        * More information can be found [at the distfit library](https://github.com/erdogant/distfit)
+        
+        ### Maintainer
+        	Erdogan Taskesen, github: [erdogant](https://github.com/erdogant)
+        	Contributions are welcome.
+        	See [LICENSE](LICENSE) for details.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
