@@ -1,0 +1,8 @@
+README.md
+setup.py
+sara_bs/__init__.py
+sara_bs/sara_bs.py
+sara_bs_SaraBenShabbat.egg-info/PKG-INFO
+sara_bs_SaraBenShabbat.egg-info/SOURCES.txt
+sara_bs_SaraBenShabbat.egg-info/dependency_links.txt
+sara_bs_SaraBenShabbat.egg-info/top_level.txt
