@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: IFEM-to-VT
+Version: 1.0.0
+Summary: Converts IFEM result files to VT* formats.
+Home-page: UNKNOWN
+Maintainer: Eivind Fonn
+Maintainer-email: eivind.fonn@sintef.no
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: VTF
