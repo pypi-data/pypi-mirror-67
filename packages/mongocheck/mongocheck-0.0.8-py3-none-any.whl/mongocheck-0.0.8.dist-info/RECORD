@@ -1,0 +1,9 @@
+MongodbDuplicateChecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MongodbDuplicateChecker/delete_duplicate.py,sha256=lSveBCqAo-QfOaV0UUiQztTxejlwYl-v3uXu2bLU8DY,22078
+MongodbDuplicateChecker/gears.py,sha256=5gMG5YCfgjkTWbc0g4z_5b-5XVNXJZCNfas3NM17bx4,1798
+mongocheck-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+mongocheck-0.0.8.dist-info/METADATA,sha256=9nT4h2h_S1IouZuj2Td3iJFdioTqGsKbFwKZMo3-7kE,559
+mongocheck-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mongocheck-0.0.8.dist-info/entry_points.txt,sha256=XFa-XJy5QHPSQzcTfwU0SgF2p9l1s-elxUGSQlC4u7Q,148
+mongocheck-0.0.8.dist-info/top_level.txt,sha256=Qr77jGstil0ZDH2njgmwQuzI8Ie52zH1HBS00NUNVDs,24
+mongocheck-0.0.8.dist-info/RECORD,,
