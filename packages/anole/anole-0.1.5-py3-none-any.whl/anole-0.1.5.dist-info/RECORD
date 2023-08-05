@@ -1,0 +1,12 @@
+anole/__init__.py,sha256=di97iGnMO6RG9p5d3ObfzwRO0v-3VH3Q_q-H1o1FC2E,133
+anole/error.py,sha256=JHJn_FH_IIUHUoeDPlc4Q6vlfNcTAyt1Bju8VqXW51c,188
+anole/fake.py,sha256=G1MQS-cLJVxA60lGw27aSalcPFCOP5lQWroL_356wQE,1544
+anole/run.py,sha256=ExVMqnnvepGgMhit0AOOqnTrHMMRPlISvVQereFYydE,476
+anole/setting.py,sha256=Vd-T5PxTDnv16dFtHaIesV5GQABWGRCNM4AFfMrVRW8,581
+anole/tool.py,sha256=3TrT8NvqRfp6cnfMx1ChnlaNHVmeDqck-ciGtNk5fWU,707
+anole-0.1.5.dist-info/LICENSE,sha256=ZmhzMcnzxNwMNK_nyZfuKXq3_hYNO8CEt-4Jer00xYQ,1079
+anole-0.1.5.dist-info/METADATA,sha256=fzLp6ffIMLzW4dkJWMCcvIV24WZrb8WdIrN2Nduky_s,1338
+anole-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+anole-0.1.5.dist-info/entry_points.txt,sha256=K9gVmoMgfYk3gTMPCQNabh8bclAYS4JU2RGE5Xl1Ttk,41
+anole-0.1.5.dist-info/top_level.txt,sha256=JIhQxwKNy_CJCxXZclBEWtXgj6cd3N2y78lfeghVOkA,6
+anole-0.1.5.dist-info/RECORD,,
