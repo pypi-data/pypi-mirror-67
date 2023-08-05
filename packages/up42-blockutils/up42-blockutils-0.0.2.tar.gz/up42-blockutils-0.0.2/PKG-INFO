@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: up42-blockutils
+Version: 0.0.2
+Summary: Utilities to build blocks in the UP42 platform.
+Home-page: https://www.up42.com
+Author: UP42
+Author-email: support@up42.com
+License: UNKNOWN
+Description: # UP42 Block utilities
+        
+        ## Install
+        ```bash
+        pip install up42-blockutils
+        ```
+        
+        ## Quickstart
+        ```python
+        import blockutils
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
