@@ -1,0 +1,8 @@
+cloudia/__init__.py,sha256=6K6G9Td3tTVuYNZXvJ6AvHkth7nGxlkuguWL3TYhG-c,119
+cloudia/main.py,sha256=dja_-e9HStZ8NqUMuF38VAM6PTVYCTyC4ATrkWVN3_s,2527
+cloudia/pandas_accessor.py,sha256=HlAQcQuXT2xPTqWes3-sXcVLnduLXD2eIeyRwK29z5s,1841
+cloudia/word_data.py,sha256=fbGAGMCUXfFG1sTIbmwEJeY3ERugaUble1KOGTGdZs4,2745
+cloudia-0.0.2.dist-info/entry_points.txt,sha256=dSe2AXB9MGpAkBiDJc5ZmJim2jPNq3OrVOgjB93ZFpg,42
+cloudia-0.0.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+cloudia-0.0.2.dist-info/METADATA,sha256=1tMYukVp-u5ip473IvO-OZaPhDnKeJJMl3ozoIi7Cog,1176
+cloudia-0.0.2.dist-info/RECORD,,
