@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: orsj-submit
+Version: 0.0.2
+Summary: Web application of 'submitting papers' in ORSJ.
+Home-page: https://github.com/SaitoTsutomu/orsj-submit
+Author: SaitoTsutomu
+Author-email: tsutomu7@hotmail.co.jp
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: flask (>=1.1.2,<2.0.0)
+Requires-Dist: gunicorn (>=20.0.4,<21.0.0)
+Requires-Dist: pdfformfiller (>=0.4,<0.5)
+Requires-Dist: pyjade (>=4.0.0,<5.0.0)
+Requires-Dist: pypdf2 (>=1.26.0,<2.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: redis (>=3.4.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+## Description
+
+Web application of "submitting papers" in ORSJ.
+
+ORSJ: The Operations Research Society of Japan
+
+http://www.orsj.or.jp/
+
+## OS
+
+mac, ubuntu
+
+## Usage
+
+### Step 1
+
+Copy setting file.
+
+```
+$ orsj-submit setting
+```
+
+### Step 2
+
+Modify setting file.
+
+```
+$ edit setting.yml
+```
+
+### Step 3
+
+Start redis server.
+
+```
+$ orsj-submit redis
+```
+
+### Step 4
+
+In annother shell, set environment.
+
+```
+$ export MAIL_USER=XXX
+$ export MAIL_PASSWD=XXX
+$ export SECRET_KEY=XXX
+```
+
+### Step 5
+
+start web application.
+
+```
+$ orsj-submit run
+```
