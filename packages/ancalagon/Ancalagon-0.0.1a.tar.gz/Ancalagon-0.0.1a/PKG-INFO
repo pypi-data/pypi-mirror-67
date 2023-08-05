@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Ancalagon
+Version: 0.0.1a
+Summary: ASGI Web framework
+Home-page: https://github.com/Nimond/Ancalagon
+Author: Nimond
+Author-email: dndnomin@gmail.com
+License: lgpl-3.0
+Download-URL: https://github.com/Nimond/Ancalagon/archive/0.0.1a.tar.gz
+Description: UNKNOWN
+Keywords: ASGI,WEB,FRAMEWORK,BLACK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
