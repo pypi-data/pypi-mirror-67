@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: jif
+Version: 2.0.3
+Summary: CLI tool to run scipts
+Home-page: https://github.com/JasonAtallah/jif
+Author: Jason Atallah
+Author-email: jason.atallah@gmail.com
+License: MIT
+Download-URL: https://github.com/JasonAtallah/jif/archive/v2.0.3.tar.gz
+Description: [![PyPI version](https://badge.fury.io/py/jif.svg)](https://badge.fury.io/py/jif)
+        
+        # jif
+        
+        jif is a small CLI tool to store and run bash scripts.
+        
+        ## Usage
+        
+        1. Create a jif file (`jif.json` or `jif.yml`).
+        2. Add a scripts object. E.g. 
+        ```
+        {
+          "start": "python app.py",
+          "lint": "black myapp"
+        }
+        ```
+        
+        or
+        
+        ```
+        start: python app.py
+        lint: black myapp
+        ```
+        
+        3. Use jif to run your scripts. E.g. `jif start`, `jif lint`
+        
+        4. Profit???
+        
+        ---
+        jif will initially try to load the `jif.json` file in the current directory, if it is not found then it will try to load the `jif.yaml` file.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
