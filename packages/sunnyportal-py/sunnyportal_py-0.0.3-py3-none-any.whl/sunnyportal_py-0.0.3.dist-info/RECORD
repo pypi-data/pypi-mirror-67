@@ -1,0 +1,10 @@
+sunnyportal/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+sunnyportal/client.py,sha256=_bL0ZUXE0lrAHlay5qLRQ0jxbs85AW0xWlUuKK4s1L8,3268
+sunnyportal/pandasclient.py,sha256=s3tcHdzZXy6GiVCzYcTNn6BR9ZTp6yFAN836JWWRjH0,367
+sunnyportal/requests.py,sha256=T2FYERPSuWawmWPIPJwouY-4LQ8vpWOu4ChX7jEMkrw,6201
+sunnyportal/responses.py,sha256=adp4fAihYuRlmcMz2CHGX9eWipndDqE699JV83I54CU,10013
+sunnyportal_py-0.0.3.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sunnyportal_py-0.0.3.dist-info/METADATA,sha256=2du3vDchWj-t5B5xwiHrVPIDmkSTtyEGDvmZi8ftTfA,2141
+sunnyportal_py-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+sunnyportal_py-0.0.3.dist-info/top_level.txt,sha256=EIbVSXTIA_Utjdz88aTa-E2_rRDltpHx-zketEYmKQM,12
+sunnyportal_py-0.0.3.dist-info/RECORD,,
