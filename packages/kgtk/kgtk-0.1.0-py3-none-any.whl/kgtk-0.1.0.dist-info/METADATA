@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kgtk
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/usc-isi-i2/kgtk
+Author: ISI CKGs
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: loguru
+Requires-Dist: lz4
+Requires-Dist: mypy
+Requires-Dist: rltk
+Requires-Dist: seaborn
+Requires-Dist: sentence-transformers
+Requires-Dist: sh
+Requires-Dist: sklearn
+Requires-Dist: SPARQLWrapper
+Requires-Dist: tqdm
+Requires-Dist: etk
+Requires-Dist: simplejson
+Requires-Dist: pyrallel.lib
+Requires-Dist: attrs
+
+UNKNOWN
+
+
