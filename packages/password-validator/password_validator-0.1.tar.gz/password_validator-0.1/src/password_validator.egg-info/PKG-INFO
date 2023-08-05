@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: password-validator
+Version: 0.1
+Summary: Validates password according to flexible and intuitive specifications
+Home-page: https://github.com/tarunbatra/password-validator-python
+Author: Tarun Batra
+Author-email: tarun.batra00@gmail.com
+License: MIT
+Description: # password-validator
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
