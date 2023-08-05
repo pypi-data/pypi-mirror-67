@@ -1,0 +1,47 @@
+.gitignore
+.rtd-environment.yml
+LICENSE.md
+Makefile
+README.md
+requirements
+setup.py
+.github/scripts/ModuleTest (feature).sh
+.github/scripts/ModuleTest (master).sh
+.github/scripts/VersionCheck (feature).sh
+.github/scripts/VersionCheck (master).sh
+.github/workflows/ModuleTest (Linux) (feature).yml
+.github/workflows/ModuleTest (Linux) (master).yml
+.github/workflows/ModuleTest (macOS) (feature).yml
+.github/workflows/ModuleTest (macOS) (master).yml
+.github/workflows/VersionCheck (feature).yml
+.github/workflows/VersionCheck (master).yml
+archives/examples.zip
+archives/lib.zip
+archives/src.zip
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+docs/api/external.rst
+docs/api/internal.rst
+docs/api/internal/input.rst
+docs/indexes/scats.rst
+examples/main.py
+examples/files/input
+lib/scats/prec.h
+lib/scats/scats.h
+lib/scats/api/scats_deallocate.h
+lib/scats/input/scats_input.h
+lib/scats/input/scats_input_deallocate.h
+lib/scats/input/scats_input_exceptions.h
+lib/scats/input/scats_input_read.h
+lib/scats/program/Makefile
+lib/scats/program/main.cpp
+src/scats/build.py
+src/scats/scats.cpp
+src/scats/scats.egg-info/PKG-INFO
+src/scats/scats.egg-info/SOURCES.txt
+src/scats/scats.egg-info/dependency_links.txt
+src/scats/scats.egg-info/requires.txt
+src/scats/scats.egg-info/top_level.txt
+src/scats/scats.egg-info/zip-safe
