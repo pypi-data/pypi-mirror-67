@@ -1,0 +1,11 @@
+antivirals/__init__.py,sha256=oXX-pynMkn8wXUz3zmg0Ix_CLljA0sKfidYyQe2zuIU,989
+antivirals/__main__.py,sha256=7rzIpuTVg5feeEk9oiHJFkO_t85s2K0LavvGrTCdUcE,1342
+antivirals/chem.py,sha256=2aTtSsudns_SkblG-aetQBnPyPjip3uzGITVm6gr8Fs,5174
+antivirals/data.py,sha256=YfPoXZ1M3c7MudxxLPW5I3ZO6SMIkfZD-Th8iFiZUF4,6085
+antivirals/schema.py,sha256=AiiyaKSdrj4YhTQ4Xg_AAvwJP4YXoEbq2G7MjsvD_uQ,6026
+antivirals-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+antivirals-0.0.1.dist-info/METADATA,sha256=OJzDS7NYrxp22bKFC27jjAsQXak-A9f21FeEJ2t7wjE,4448
+antivirals-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+antivirals-0.0.1.dist-info/entry_points.txt,sha256=d0Y9h0GcRrh9GWjx2DPqZdwoosWSVAzAeY_ehLip2yc,57
+antivirals-0.0.1.dist-info/top_level.txt,sha256=snwXmA2xt06Szl-bOU5JJgDfgC3S8qoURPw-4v05gcM,11
+antivirals-0.0.1.dist-info/RECORD,,
