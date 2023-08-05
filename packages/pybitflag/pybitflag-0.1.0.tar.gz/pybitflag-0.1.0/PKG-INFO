@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pybitflag
+Version: 0.1.0
+Summary: Store / retrieve multiple states or values in a single 64 bit integer
+Home-page: https://github.com/sridwan
+Author: Steve Zhan
+Author-email: sridwan981@gmail.com
+License: MIT
+Download-URL: https://bitbucket.org/NarindoCMA/bitflag/get/0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
