@@ -1,0 +1,5 @@
+[console_scripts]
+ppp-apply = pypulseprofiles.apply:sys_main
+ppp-create = pypulseprofiles.create:sys_main
+ppp-info = pypulseprofiles.info:sys_main
+
