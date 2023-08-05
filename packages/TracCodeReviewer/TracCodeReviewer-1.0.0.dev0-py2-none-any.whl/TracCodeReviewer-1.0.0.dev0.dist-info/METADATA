@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TracCodeReviewer
+Version: 1.0.0.dev0
+Summary: Reviews changesets and updates ticket with results
+Home-page: https://trac-hacks.org/wiki/CodeReviewerPlugin
+Author: Rob Guttman
+Author-email: guttman@alum.mit.edu
+License: 3-Clause BSD
+Platform: UNKNOWN
+Requires-Dist: Trac
+
+UNKNOWN
+
+
