@@ -1,0 +1,10 @@
+webis/SentimentIdentifier.py,sha256=rXSfNMCjDbGFpwQenr60ULfYnv6naso2kf_9PUmRJaM,9661
+webis/__init__.py,sha256=AIzfn4j_rs3VG9K0nQf_TQMUOdrkg1qij3V5cOESUZI,1248
+webis/__main__.py,sha256=3WWKubmdfEK0d9xb3oqYR8ywJqSA4J08sabKbEKvRYQ,925
+webis/_version.py,sha256=pIZzGFRIeQot-zuGCDPOKQZCN8E2fofcMyphlCmziRk,18442
+webis/util.py,sha256=IIR51H93bTrgfeYKofne6TfmY8mIxXuUNBEAZDryjJE,3625
+webis-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+webis-0.3.0.dist-info/METADATA,sha256=zNw-2J1AKWh-K8ajzmYvveREJBfVmUmK3s_ZHHqg8sM,5175
+webis-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webis-0.3.0.dist-info/top_level.txt,sha256=XzCZ_kqJ6yS2g6RDBmwTV2kol0J2lAhC6ja11pux7D4,6
+webis-0.3.0.dist-info/RECORD,,
