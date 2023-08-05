@@ -1,0 +1,9 @@
+README.md
+setup.py
+datastore_dnnevo_client.egg-info/PKG-INFO
+datastore_dnnevo_client.egg-info/SOURCES.txt
+datastore_dnnevo_client.egg-info/dependency_links.txt
+datastore_dnnevo_client.egg-info/requires.txt
+datastore_dnnevo_client.egg-info/top_level.txt
+pkg/__init__.py
+pkg/client.py
