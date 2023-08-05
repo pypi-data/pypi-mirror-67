@@ -1,0 +1,4 @@
+pandas>=1.0
+lxml>=4.3
+requests>=2.20
+requests[security]
