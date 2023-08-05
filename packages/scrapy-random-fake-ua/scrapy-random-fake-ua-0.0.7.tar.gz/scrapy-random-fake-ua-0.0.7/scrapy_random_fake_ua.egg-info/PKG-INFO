@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: scrapy-random-fake-ua
+Version: 0.0.7
+Summary: scrapy random fake useragent.
+Home-page: https://github.com/zs527523251/scrapy-random-fake-ua
+Author: zhousan
+Author-email: 527523251@qq.com
+License: MIT
+Description: # scrapy-random-fake-ua
+        Scrapy random User-Agent middleware
+        
+        Installation
+        -------------
+        
+        The simplest way is to install it via `pip`:
+        
+            pip install scrapy-random-fake-ua
+        
+        Configuration
+        -------------
+        
+        settings.py
+        
+            DOWNLOADER_MIDDLEWARES = {
+                'scrapy_random_fake_ua.middleware.RandomUserAgentMiddleware': 400,
+            }
+        
+        
+        
+Keywords: python pi
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: test
