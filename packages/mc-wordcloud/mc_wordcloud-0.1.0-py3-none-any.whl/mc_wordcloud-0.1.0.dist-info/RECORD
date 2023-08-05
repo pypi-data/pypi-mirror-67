@@ -1,0 +1,13 @@
+mc_wordcloud/__init__.py,sha256=g0YK_hrLVT2T7n4QF4gp1Rs7JOG0zxY44yqqRyR_u9Y,163
+mc_wordcloud/hero_name.txt,sha256=52DDuRlfwI7zs1K3hB1ehRuI4L5L-LWmZKwZBEXRB2M,696
+mc_wordcloud/mc_wordcloud.py,sha256=YhnIbLsKkXFtEv7GIl1_zHtc_U5pQaRoSLhDl67Yfvk,132
+mc_wordcloud/tool_list.txt,sha256=2GT98TFo--JHFIIr0IWD2GSp86MLPgq8aqBi62VZkdk,1587
+mc_wordcloud/weapon_list.txt,sha256=OxKQ34f1ocjFNwJLZdGf0zuDa7D2gqhkPdze9scn0Ko,785
+mc_wordcloud-0.1.0.data/data/mc_wordcloud/hero_name.txt,sha256=52DDuRlfwI7zs1K3hB1ehRuI4L5L-LWmZKwZBEXRB2M,696
+mc_wordcloud-0.1.0.data/data/mc_wordcloud/tool_list.txt,sha256=2GT98TFo--JHFIIr0IWD2GSp86MLPgq8aqBi62VZkdk,1587
+mc_wordcloud-0.1.0.data/data/mc_wordcloud/weapon_list.txt,sha256=OxKQ34f1ocjFNwJLZdGf0zuDa7D2gqhkPdze9scn0Ko,785
+mc_wordcloud-0.1.0.dist-info/LICENSE,sha256=xeUyAOMDDyMKjI7etOvgRScIZp89545zOy8uD9pZjAo,1083
+mc_wordcloud-0.1.0.dist-info/METADATA,sha256=wYqGb1DjyZCB0qIu9SX0PLWCnE2dMz0FruGEfaYvtwI,281
+mc_wordcloud-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+mc_wordcloud-0.1.0.dist-info/top_level.txt,sha256=QsusBmgRMk-hcoflTy7vPtAavCjDPcqpv2IQQOGEhLk,13
+mc_wordcloud-0.1.0.dist-info/RECORD,,
