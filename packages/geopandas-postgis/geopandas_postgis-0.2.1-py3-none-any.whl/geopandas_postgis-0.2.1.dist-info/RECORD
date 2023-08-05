@@ -1,0 +1,10 @@
+geopandas_postgis/__init__.py,sha256=F2DH-iBoGWHbT3keFIMnfhcCY78qV_sPnyUCy_9iNDE,56
+geopandas_postgis/geopandas_postgis.py,sha256=RNeua8ACAGfAMEGzlVlKj2kY9HwPK7-Pwgv_5jwzCm8,2520
+geopandas_postgis/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geopandas_postgis/tests/config.py,sha256=4hCtsV7ZaMkQlE6QjNvVu0G3ADWv5l1KwpDUv4GNasI,115
+geopandas_postgis/tests/test_geopandas_postgis.py,sha256=DsuRj7myEgb4R_4pUBNB0d0apsq5BDGZh2t10pQTJqw,1705
+geopandas_postgis-0.2.1.dist-info/LICENSE,sha256=80wMbkIl0WVgZJreGMQpOBtUVEgH5jJehEcV_ShDnTk,1070
+geopandas_postgis-0.2.1.dist-info/METADATA,sha256=kHpxLUZqlndIZXYj6VQSno_3lkxbkb15wfuKNhgrFp8,2457
+geopandas_postgis-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+geopandas_postgis-0.2.1.dist-info/top_level.txt,sha256=p_xoSf_ykNPH_TBIWD1KEDYptcdzyKgU3WQBiW3fqlc,18
+geopandas_postgis-0.2.1.dist-info/RECORD,,
