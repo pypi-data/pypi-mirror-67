@@ -1,0 +1,14 @@
+gyakujinton/Shape/Shape.py,sha256=6Hu5vf1-apUuIgvzvG6H0QibSC-rL_BGqvBmr6DlIpQ,117
+gyakujinton/Shape/__init__.py,sha256=AmhTcBiSKDiqLo1hpbc7gtL-CkKAqaO1IzT5Lrl_2fw,25
+gyakujinton/Window/Window.py,sha256=ZSs0F5sPdX88E2xuYaS8h7_DlqXALUZkxCVEFXCXr3A,1214
+gyakujinton/Window/__init__.py,sha256=nSo2SkgFxPu4ti4aSx6OAtGb7ek7g0sdDWuknEPZaVU,27
+gyakujinton/__init__.py,sha256=3RfWIMBVslXbOb4EEze86uJFiTXdNRHH3nQw2dXwzsQ,134
+gyakujinton/cli.py,sha256=w1SUXs4n5C9yxUb-LQKzUDxaUDHw1QprSDODoDNSdgk,3356
+gyakujinton/functions/draw.py,sha256=9AmwJWICIHai0sQjWS8qkm0vGD06936RzNxzoUjpKAc,956
+gyakujinton/functions/rotate.py,sha256=_ZSLemKjxmbM_IidjF_Fp5yrxtQOUnPrv9Q861d9yDI,791
+gyakujinton/functions/skew.py,sha256=o00JFygvKox5bagZkgguwdgfQAe754F1QTbEUgEPi1Y,4109
+gyakujinton-0.4.0.dist-info/entry_points.txt,sha256=u5q1uBSGYf_X7A0dFvxxnOTLZ3tGI1byk1Iu3Ldwlvo,51
+gyakujinton-0.4.0.dist-info/LICENSE,sha256=EO11pcbCer_dWWpt_MSBspJ7KGSu2xxa6Aaolmp0Hw4,1080
+gyakujinton-0.4.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+gyakujinton-0.4.0.dist-info/METADATA,sha256=gR4dterDN3SvyiMsNfRn6lYgN8Gg9arVt0mGCG7vCSw,6814
+gyakujinton-0.4.0.dist-info/RECORD,,
