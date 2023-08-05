@@ -1,0 +1,59 @@
+Metadata-Version: 1.1
+Name: dicom_upload
+Version: 0.1.3
+Summary: Upload DICOM files with patient und study data removed from header
+Home-page: https://github.com/jsc/dicom-upload
+Author: Juelich Supercomputing Centre (JSC)
+Author-email: a.grosch@fz-juelich.de
+License: UNKNOWN
+Description: dicom-upload
+        ===============================
+        
+        Upload DICOM files with patient und study data removed from header
+        
+        Installation
+        ------------
+        
+        To install use pip:
+        
+            $ pip install dicom_upload
+            $ jupyter nbextension enable --py --sys-prefix dicom_upload
+        
+        To install for jupyterlab
+        
+            $ jupyter labextension install dicom_upload
+        
+        For a development installation (requires npm),
+        
+            $ git clone https://github.com/jsc/dicom-upload.git
+            $ cd dicom-upload
+            $ pip install -e .
+            $ jupyter nbextension install --py --symlink --sys-prefix dicom_upload
+            $ jupyter nbextension enable --py --sys-prefix dicom_upload
+            $ jupyter labextension install js
+        
+        When actively developing your extension, build Jupyter Lab with the command:
+        
+            $ jupyter lab --watch
+        
+        This take a minute or so to get started, but then allows you to hot-reload your javascript extension.
+        To see a change, save your javascript, watch the terminal for an update.
+        
+        Note on first `jupyter lab --watch`, you may need to touch a file to get Jupyter Lab to open.
+        
+        
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
