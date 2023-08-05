@@ -1,0 +1,15 @@
+README.md
+setup.py
+household_env/__init__.py
+household_env/borrar.py
+household_env/colors_house_objects.json
+household_env/dummy.py
+household_env/house_objects.json
+household_env/operability.json
+household_env/envs/__init__.py
+household_env/envs/house_env.py
+householdenv.egg-info/PKG-INFO
+householdenv.egg-info/SOURCES.txt
+householdenv.egg-info/dependency_links.txt
+householdenv.egg-info/requires.txt
+householdenv.egg-info/top_level.txt
