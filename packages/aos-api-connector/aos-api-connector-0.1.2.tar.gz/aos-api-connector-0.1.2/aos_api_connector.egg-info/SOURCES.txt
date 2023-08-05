@@ -1,0 +1,7 @@
+README.md
+setup.py
+aos_api_connector.egg-info/PKG-INFO
+aos_api_connector.egg-info/SOURCES.txt
+aos_api_connector.egg-info/dependency_links.txt
+aos_api_connector.egg-info/desktop.ini
+aos_api_connector.egg-info/top_level.txt
