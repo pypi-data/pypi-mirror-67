@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: scrapy-poet
+Version: 0.0.2
+Summary: Page Object pattern for Scrapy
+Home-page: https://github.com/scrapinghub/scrapy-poet
+Author: Mikhail Korobov
+Author-email: kmike84@gmail.com
+License: UNKNOWN
+Description: ===========
+        scrapy-poet
+        ===========
+        
+        .. image:: https://img.shields.io/pypi/v/scrapy-poet.svg
+           :target: https://pypi.python.org/pypi/scrapy-poet
+           :alt: PyPI Version
+        
+        .. image:: https://img.shields.io/pypi/pyversions/scrapy-poet.svg
+           :target: https://pypi.python.org/pypi/scrapy-poet
+           :alt: Supported Python Versions
+        
+        .. image:: https://travis-ci.com/scrapinghub/scrapy-po.svg?branch=master
+           :target: https://travis-ci.com/scrapinghub/scrapy-po
+           :alt: Build Status
+        
+        .. image:: https://codecov.io/github/scrapinghub/scrapy-poet/coverage.svg?branch=master
+           :target: https://codecov.io/gh/scrapinghub/scrapy-poet
+           :alt: Coverage report
+        
+        .. warning::
+            Current status is "experimental".
+        
+        ``scrapy-poet`` implements Page Object pattern for Scrapy.
+        
+        License is BSD 3-clause.
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install scrapy-poet
+        
+        scrapy-poet requires Python >= 3.6 and Scrapy 2.1.0+.
+        
+        Usage
+        =====
+        
+        First, enable middleware in your settings.py::
+        
+            DOWNLOADER_MIDDLEWARES = {
+               'scrapy_poet.InjectionMiddleware': 543,
+            }
+        
+        After that you can write spiders which use page object pattern to separate
+        extraction code from a spider:
+        
+        .. code-block:: python
+        
+            import scrapy
+            from web_poet.pages import WebPage
+        
+        
+            class BookPage(WebPage):
+                def to_item(self):
+                    return {
+                        'url': self.url,
+                        'name': self.css("title::text").get(),
+                    }
+        
+        
+            class BooksSpider(scrapy.Spider):
+                name = 'books'
+                start_urls = ['http://books.toscrape.com/']
+        
+                def parse(self, response):
+                    for url in response.css('.image_container a::attr(href)').getall():
+                        yield response.follow(url, self.parse_book)
+        
+                def parse_book(self, response, book_page: BookPage):
+                    yield book_page.to_item()
+        
+        TODO: document motivation, the rest of the features, provide
+        more usage examples, explain shortcuts, etc.
+        For now, please check spiders in "example" folder:
+        https://github.com/scrapinghub/scrapy-poet/tree/master/example/example/spiders
+        
+        Contributing
+        ============
+        
+        * Source code: https://github.com/scrapinghub/scrapy-poet
+        * Issue tracker: https://github.com/scrapinghub/scrapy-poet/issues
+        
+        Use tox_ to run tests with different Python versions::
+        
+            tox
+        
+        The command above also runs type checks; we use mypy.
+        
+        .. _tox: https://tox.readthedocs.io
+        
+        
+        Changes
+        =======
+        
+        0.0.2 (2020-04-28)
+        ------------------
+        
+        The repository is renamed to ``scrapy-poet``, and split into two:
+        
+        * ``web-poet`` (https://github.com/scrapinghub/web-poet) contains
+          definitions and code useful for writing Page Objects for web
+          data extraction - it is not tied to Scrapy;
+        * ``scrapy-poet`` (this package) provides Scrapy integration for such
+          Page Objects.
+        
+        API of the library changed in a backwards incompatible way;
+        see README and examples.
+        
+        New features:
+        
+        * ``DummyResponse`` annotation allows to skip downloading of scrapy Response.
+        * ``callback_for`` works for Scrapy disk queues if it is used to create
+          a spider method (but not in its inline form)
+        * Page objects may require page objects as dependencies; dependencies are
+          resolved recursively and built as needed.
+        * InjectionMiddleware supports ``async def`` and asyncio providers.
+        
+        
+        0.0.1 (2019-08-28)
+        ------------------
+        
+        Initial release.
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Scrapy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
