@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: randomname
+Version: 0.0.2
+Summary: Generate random adj-noun names like docker and github.
+Home-page: https://github.com/beasteers/randomname
+Author: Bea Steers
+Author-email: bea.steers@gmail.com
+License: MIT License
+Description: # randomname
+        
+        Generate random unique ids using real words - like docker containers or github repos.
+Platform: UNKNOWN
