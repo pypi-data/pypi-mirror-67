@@ -1,0 +1,12 @@
+graspfile/__init__.py,sha256=SBv-xzDRP8K37q6Vm-g3I7EWNCVnxoCxxo9aOMWOYa8,254
+graspfile/cut.py,sha256=xrcmgtIDTCX_bIbe7TGG905mVvruCF4xmAFQMifRaB0,9475
+graspfile/grid.py,sha256=qw9KdQDZ89FUTtTJSbfBLPtXGNe4gnj3dxEvHXBJ_uU,9711
+graspfile/torfile.py,sha256=5AhUUu4wDpSH8I4P2Z5DPyO9QXsHz10dBnWdX9wbXrU,11488
+graspfile/torparser.py,sha256=Pi29_ZS3NU_Qmd5udwVMtWNcPuCD2r684S0lqOuBjEs,1681
+python_graspfile-0.2.0.dist-info/AUTHORS.rst,sha256=Dwaf_EeiZT9fHD3Qxzhyy2Dx406qeMgc7RDkE86AKCs,59
+python_graspfile-0.2.0.dist-info/LICENSE,sha256=wWMB80Kj0-tSwJJ0Jpc8DcWKpdFWZ-U69xeTphXPDG8,1104
+python_graspfile-0.2.0.dist-info/METADATA,sha256=d4T90svURtp6o3Z23Do6btfn1YYiJsBVxPeuw_O74mc,3066
+python_graspfile-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_graspfile-0.2.0.dist-info/entry_points.txt,sha256=hrF_AGqjXVz3jgOcO99-nWOQ30bGN-VcMGYBOvxXtNU,57
+python_graspfile-0.2.0.dist-info/top_level.txt,sha256=dBodJJl6jPbbzIxT6kxziq7lSNlJLc671owlgwmN0Fk,10
+python_graspfile-0.2.0.dist-info/RECORD,,
