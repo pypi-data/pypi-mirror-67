@@ -1,0 +1,8 @@
+tensorflow>=2
+scipy
+pandas
+scikit-learn
+matplotlib
+tensorflow-probability
+numexpr
+pillow
