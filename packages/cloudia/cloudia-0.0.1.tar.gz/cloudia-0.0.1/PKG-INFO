@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cloudia
+Version: 0.0.1
+Summary: Tools to easily create a word cloud
+Home-page: https://github.com/vaaaaanquish/cloudia
+License: MIT
+Keywords: wordcloud,matplotlib
+Author: vaaaaanquish
+Author-email: 6syun9@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: japanize_matplotlib
+Requires-Dist: matplotlib
+Requires-Dist: nagisa
+Requires-Dist: pandas
+Requires-Dist: wordcloud
+Project-URL: Repository, https://github.com/vaaaaanquish/cloudia
+Description-Content-Type: text/markdown
+
+# Cloudia
+Tools to easily create a word cloud.
+
+
+# Require
+
+I'm waiting for this [PR](https://github.com/uehara1414/japanize-matplotlib/pull/9).
+```
+pip install git+https://github.com/vaaaaanquish/japanize-matplotlib
+```
+
+# Install
+
+```
+pip install cloudia
+```
+
