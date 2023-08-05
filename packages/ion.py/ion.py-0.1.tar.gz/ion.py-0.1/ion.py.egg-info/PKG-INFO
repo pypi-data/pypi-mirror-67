@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ion.py
+Version: 0.1
+Summary: Ion service discovery for python services
+Home-page: https://github.com/pion/ion.py
+Author: Tarrence van As
+Author-email: tarrence13@gmail.com
+License: MIT License
+Description: Asyncio based Python serice disconvery client for ION.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

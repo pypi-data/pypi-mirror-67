@@ -1,0 +1,8 @@
+README.md
+setup.py
+ion/__init__.py
+ion.py.egg-info/PKG-INFO
+ion.py.egg-info/SOURCES.txt
+ion.py.egg-info/dependency_links.txt
+ion.py.egg-info/top_level.txt
+ion.py.egg-info/zip-safe
