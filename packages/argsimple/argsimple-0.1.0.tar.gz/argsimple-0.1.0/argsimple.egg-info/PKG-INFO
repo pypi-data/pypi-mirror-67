@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: argsimple
+Version: 0.1.0
+Summary: Build a command line interface with as little configuration as possible.
+Home-page: https://github.com/mattdoug604/argsimple.git
+Author: mattdoug604
+Author-email: mattdoug604@gmail.com
+License: https://spdx.org/licenses/MIT.html
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
