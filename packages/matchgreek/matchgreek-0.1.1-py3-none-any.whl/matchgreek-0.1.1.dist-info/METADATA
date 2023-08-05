@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: matchgreek
+Version: 0.1.1
+Summary: See which greek letters you used in your TeX file
+Home-page: https://github.com/seyhunsaral/matchgreek
+Author: Ali Seyhun Saral
+Author-email: saral@posteo.de
+License: GNU GPL-3
+Keywords: Tex LaTeX greek letters
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: pathlib
+
+matchgreek is a tool to see which greek 
+letters you use in your TeX file.
+

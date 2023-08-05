@@ -1,0 +1,3 @@
+[console_scripts]
+matchgreek = matchgreek.matchgreek:main
+
