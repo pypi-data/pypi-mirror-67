@@ -1,0 +1,7 @@
+spglib-1.15.1.dist-info/top_level.txt,sha256=CNMzkZzggIXHWmc5CQpyO1DSgiAoCJSkrXzaNQCnczo,7
+spglib-1.15.1.dist-info/RECORD,,
+spglib-1.15.1.dist-info/METADATA,sha256=Rcq4T7Zku9NSsH-iJcY5Pjtah0Dve2k-iJ7xWTg_-lA,1905
+spglib-1.15.1.dist-info/WHEEL,sha256=lcFHRL9nxOeSwmwIxlbY5bPkh5a_GtD4XbV-xJYB-ZU,111
+spglib/_spglib.cpython-38-x86_64-linux-gnu.so,sha256=bSkY9oXgRR27VfZ5_yWjWWXDlBMiQFGu3bx6-5N9Eek,908672
+spglib/spglib.py,sha256=qHqjrUGc1vq0YKlLV7ihT_xK1yi1OwUE98gXz-412zQ,36085
+spglib/__init__.py,sha256=26SjDvipl8ilGVfm9vJbx92lpcdvWkmDellrdhTeyKI,2475
