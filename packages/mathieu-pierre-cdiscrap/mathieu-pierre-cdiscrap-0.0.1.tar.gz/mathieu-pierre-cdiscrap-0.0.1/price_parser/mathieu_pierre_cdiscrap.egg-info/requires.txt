@@ -1,0 +1,6 @@
+beautifulsoup4
+urllib.request
+re
+
+[dev]
+pytest>=3.7
