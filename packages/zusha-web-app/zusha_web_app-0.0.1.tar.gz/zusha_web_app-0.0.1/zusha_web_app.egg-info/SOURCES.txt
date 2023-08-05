@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+zusha_web_app.egg-info/PKG-INFO
+zusha_web_app.egg-info/SOURCES.txt
+zusha_web_app.egg-info/dependency_links.txt
+zusha_web_app.egg-info/top_level.txt
