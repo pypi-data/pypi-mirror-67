@@ -1,0 +1,69 @@
+language: python
+dist: xenial
+cache: false
+env:
+  global:
+  - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
+  - SEGFAULT_SIGNALS=all
+matrix:
+  include:
+  - python: '3.6'
+    env:
+    - TOXENV=docs
+  - env:
+    - TOXENV=py35
+    python: '3.5'
+  - env:
+    - TOXENV=py36
+    python: '3.6'
+  - env:
+    - TOXENV=py37
+    python: '3.7'
+  - env:
+    - TOXENV=py38
+    python: '3.8'
+before_install:
+- python --version
+- uname -a
+- lsb_release -a || true
+install:
+- python -mpip install --progress-bar=off tox -rci/requirements.txt
+- virtualenv --version
+- easy_install --version
+- pip --version
+- tox --version
+script:
+- tox -v
+after_failure:
+- more .tox/log/* | cat
+- more .tox/*/log/* | cat
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+before_deploy:
+- python setup.py sdist
+- python setup.py bdist_wheel
+- echo $TRAVIS_TAG
+deploy:
+- provider: releases
+  skip_cleanup: true
+  file: dist/*
+  file_glob: true
+  api_key:
+    secure: 'LgXjzxDSTA6kG6+MOuGK9KkPLspDfi/bQauJ7ztxnGg58eWWukQ0Uz3WdWlC4pEzR7XpDNm6tkSRrYP1F/ERfgpwX+onzELEvwFes/n7mbL0891InrUl5gfBI3+3TTSzGyy3pyISW3PtVbNMx4TIsmxr2PcwmOmBbcM76s2lQpV3Vo9eYRaVHvO41oCNgGrM7TfKi5HuZEEbvlFVXseEVLGiyihjHFhsnGULH3dvh58LAxDAsC4tqpL3hrkdIe4rVJQbwe1aupJuPOH9U8n5GHLJNJKjCHnD0wmiXK80n7vLeDIRZVoNiPaCbjHMKaegRDTIHIwHJJpu7HhBr7yQZDox8f0znemEkHiUKbymrpfPI/Gdb+v0ihQt4Inrg12ArYb/siDPmfoRD1AJEzuzgWsi+91geAKUJpp41STf+AlZ5kHiIw9RVHkL3gH6gjWn3LA2XQA9pK1Vc6Zqze2teLQBX8+nKsIir2MnOoBR3i6YYPppjMTYl/YAuvdFmXnCn0gtyz+O31j9Zoy4t1ewIjxEoM5eUuYo4PvdUnntlevjJF5y/6caA/CBL+eeC6AX8OzEqnecTeUXmN9J/71SIllWYNqP9uqRazQQKYr6dJiCbZwLBAbyfBdF1WgH4gK0BvnYxE+rfX91vr2I3JxG6NUrCH5oNLHP3Datz2yQHLk='
+  on:
+    repo: yangchoo/symmetrical_chainsaw
+    tags: true
+    python: '3.6'
+    condition: '$TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$'
+- provider: pypi
+  skip_cleanup: true
+  username: '__token__'
+  edge: true
+  on:
+    tags: true
+    python: '3.6'
+    condition: '$TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$'
+  password:
+    secure: 'IILFS7E6yDggaobWbNzkOkR80UmCOFfJ/NbedAWdrLDf62H/qq63e8s3HVDdEThlwwiGEQ0nKTywz7SlkZozPtk5dcBLVtJ2HEQ4TgW8ZyMfqzXkTpNL3UoD0eeR7vwCwEdYRzuOPHcuuZSdb1SIKOPoSaxrAq0bVtx4Yefd4WR7wsW+DxQh2tnbjBKsl/NMIEPs6cIKTpNMk+kFYRuKsKg99KVG9/sykyRYj3XNXyEBloHnleYh8PWTGC+icAsJBpc4v60s+jRuQm8uO4F5fE/35xJeLBK3QlcPmUhorgl/JFSMsdZMztfpdobDtpuHhosz7UDppmBJNe1ExhzKEka7UJGt+jm7UStLlZ8FGnEf+MxbgLei95bKGpyA6IlxD7rqSHxPxuyAAQKxWN2X8dz3yG1LT3pWTZvbYGnxbuiggIPROuDBkCIBy0X96hiDUGyro1yLyCPbmsTSqRqHAOFHkaRmZr71pBZZRklmr44Nnf6DfxZzvv+fiMdTdGZ5IPKuEhEOlPz8XE0Y4dMj1pIrF/qJgWABDXTTBicyS/8W8NjaT2bisjsTIo5shVADaEomv2X89aZgGXFEVsim7jY/Zle+AgTbDnGon1ANodrM0K7dODZ0hm9IIYhEM8GCR8JNVw/RpOn6HjC90t/alt9yYVPdOJGob6lk/v0nK6o='
