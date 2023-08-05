@@ -1,0 +1,3 @@
+[console_scripts]
+birdview-demo = birdview.__main__:main
+

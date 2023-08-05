@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+carla_birdeye_view.egg-info/PKG-INFO
+carla_birdeye_view.egg-info/SOURCES.txt
+carla_birdeye_view.egg-info/dependency_links.txt
+carla_birdeye_view.egg-info/entry_points.txt
+carla_birdeye_view.egg-info/requires.txt
+carla_birdeye_view.egg-info/top_level.txt
