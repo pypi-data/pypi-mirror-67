@@ -1,0 +1,9 @@
+genie.libs.robot-20.4-py3.6-nspkg.pth,sha256=ObYoD8sL3pc4avNcQOL6mdv2IdNlOmFr3c3nD1iDADQ,1676
+genie/libs/robot/GenieRobot.py,sha256=CLpBlZKLruBFKSdZK9x0jE6CXbq6z7wxZyu0d1U58yE,34637
+genie/libs/robot/GenieRobotApis.py,sha256=qsULDpHHl3TATbzojMz1JeL4SerOyMFHp3gIou14wnQ,1931
+genie/libs/robot/__init__.py,sha256=_SHd6e6SWkXaGUNTeq2GErunn3VuW6FevI33AXer5dM,389
+genie.libs.robot-20.4.dist-info/METADATA,sha256=wBGXfunPNlkWqZ4aMyZctiAP7gX4Z6PMPPR_emWVHwA,3544
+genie.libs.robot-20.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+genie.libs.robot-20.4.dist-info/namespace_packages.txt,sha256=k0OxVAETbf7Ou2EqqjuxO-JdrIdJtxZsUDHdrIkrOFE,17
+genie.libs.robot-20.4.dist-info/top_level.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.libs.robot-20.4.dist-info/RECORD,,
