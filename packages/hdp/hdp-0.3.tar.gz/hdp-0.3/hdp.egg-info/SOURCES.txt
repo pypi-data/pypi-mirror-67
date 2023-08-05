@@ -1,0 +1,8 @@
+README.md
+setup.py
+hdp/__init__.py
+hdp.egg-info/PKG-INFO
+hdp.egg-info/SOURCES.txt
+hdp.egg-info/dependency_links.txt
+hdp.egg-info/not-zip-safe
+hdp.egg-info/top_level.txt
