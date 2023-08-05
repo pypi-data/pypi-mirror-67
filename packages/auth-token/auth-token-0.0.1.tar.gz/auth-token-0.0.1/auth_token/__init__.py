@@ -1,0 +1,4 @@
+
+__call__ = (
+    'AuthToken'
+)
