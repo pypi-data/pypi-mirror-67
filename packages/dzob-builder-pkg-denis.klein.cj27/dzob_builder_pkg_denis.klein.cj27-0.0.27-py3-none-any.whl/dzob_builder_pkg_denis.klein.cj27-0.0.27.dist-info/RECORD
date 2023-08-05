@@ -1,0 +1,11 @@
+dzob_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dzob_builder/builder.py,sha256=llZuTmov00FtpI-UQ_faKf9Zla1R6_fE57vKEpsGLP0,2167
+dzob_builder/db_interface.py,sha256=WPZiv2aVBCpGUF26Bx3bcRX3yuQb4mOW9dUP36kjeXY,1301
+dzob_builder/imglib.py,sha256=j3qXHZqdmtIYM4vmIchGwJFCEWIFbTtgLln5CXf5iYc,10621
+dzob_builder/loc_interface.py,sha256=KRcVcroSP6nbG3mItjaskY2DFYHjSzz6Ge2xXhzqYOs,6652
+dzob_builder/util.py,sha256=CWDb5BKI9Q2E-ZNV1S0nxdk2QgicVmx4EE8CamSaLhk,1521
+dzob_builder_pkg_denis.klein.cj27-0.0.27.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dzob_builder_pkg_denis.klein.cj27-0.0.27.dist-info/METADATA,sha256=MWdEl6NEw9zaAfzqcofBab2kuAQa2WC-6EtEakhtZpg,628
+dzob_builder_pkg_denis.klein.cj27-0.0.27.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dzob_builder_pkg_denis.klein.cj27-0.0.27.dist-info/top_level.txt,sha256=6wp8r_xaQgPfoYFuxuZ_zDKH6l53P9VgFJNTcTRB5b0,13
+dzob_builder_pkg_denis.klein.cj27-0.0.27.dist-info/RECORD,,
