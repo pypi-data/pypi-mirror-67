@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: parallel-python-twitter
+Version: 0.1.0
+Summary: Python Twitter client to distribute requests across API keys
+Home-page: https://github.com/neelsomani/parallel-python-twitter
+Author: Neel Somani
+Author-email: neeljaysomani@gmail.com
+License: MIT
+Download-URL: https://github.com/neelsomani/parallel-python-twitter/releases
+Description: UNKNOWN
+Keywords: twitter,twitter api,python-twitter,scraping,twint
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
