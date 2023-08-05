@@ -1,0 +1,8 @@
+README.md
+setup.py
+prodglob/__init__.py
+prodglob/core.py
+prodglob.egg-info/PKG-INFO
+prodglob.egg-info/SOURCES.txt
+prodglob.egg-info/dependency_links.txt
+prodglob.egg-info/top_level.txt
