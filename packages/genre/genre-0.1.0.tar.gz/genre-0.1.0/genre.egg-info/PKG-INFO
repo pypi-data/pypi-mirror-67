@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: genre
+Version: 0.1.0
+Summary: a concise and simple requirements.txt generator
+Home-page: https://github.com/BaichuanLi/genre
+Author: Baichuan Li
+Author-email: baichuan@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
