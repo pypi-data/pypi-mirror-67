@@ -1,0 +1,9 @@
+README.md
+setup.py
+teleapi/__init__.py
+teleapi/core.py
+teleapi.egg-info/PKG-INFO
+teleapi.egg-info/SOURCES.txt
+teleapi.egg-info/dependency_links.txt
+teleapi.egg-info/requires.txt
+teleapi.egg-info/top_level.txt
