@@ -1,0 +1,36 @@
+.gitignore
+LICENSE.md
+Makefile
+README.md
+setup.py
+.github/scripts/ModuleTest (feature).sh
+.github/scripts/ModuleTest (master).sh
+.github/scripts/VersionCheck (feature).sh
+.github/scripts/VersionCheck (master).sh
+.github/workflows/ModuleTest (Linux) (feature).yml
+.github/workflows/ModuleTest (Linux) (master).yml
+.github/workflows/ModuleTest (macOS) (feature).yml
+.github/workflows/ModuleTest (macOS) (master).yml
+.github/workflows/VersionCheck (feature).yml
+.github/workflows/VersionCheck (master).yml
+Архивы/Библиотека.zip
+Архивы/Модуль.zip
+Архивы/Примеры.zip
+Библиотека/scats/prec.h
+Библиотека/scats/scats.h
+Библиотека/scats/api/scats_deallocate.h
+Библиотека/scats/api/scats_read_input.h
+Библиотека/scats/input/scats_input.h
+Библиотека/scats/input/scats_input_deallocate.h
+Библиотека/scats/input/scats_input_exceptions.h
+Библиотека/scats/input/scats_input_read.h
+Модуль/scats/build.py
+Модуль/scats/scats.cpp
+Модуль/scats/scats.egg-info/PKG-INFO
+Модуль/scats/scats.egg-info/SOURCES.txt
+Модуль/scats/scats.egg-info/dependency_links.txt
+Модуль/scats/scats.egg-info/requires.txt
+Модуль/scats/scats.egg-info/top_level.txt
+Модуль/scats/scats.egg-info/zip-safe
+Примеры/main.py
+Примеры/Файлы/input

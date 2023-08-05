@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scats
+Version: 0.2.1
+Summary: Спектрально-корреляционный анализ временных рядов
+Home-page: https://github.com/Paveloom/C3.1
+Author: Pavel Sobolev
+Author-email: paveloom@mail.ru
+License: Unlicense
+Description: [![](https://img.shields.io/badge/GitHub-Paveloom/C3.1-5DA399.svg)](https://github.com/Paveloom/C3.1) [![](https://img.shields.io/badge/license-Unlicense-5DA399.svg)](https://github.com/Paveloom/C3/blob/master/LICENSE.md) <br>
+        [![](https://img.shields.io/badge/release-v0.2.1-informational.svg)](https://github.com/Paveloom/C3.1/releases/tag/v0.2.1) [![](https://img.shields.io/badge/platforms-linux,%20macOS-3E6680.svg)](#) [![](https://img.shields.io/badge/requires-python%203.7%2B-critical.svg)](https://www.python.org/downloads/)
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Description-Content-Type: text/markdown
