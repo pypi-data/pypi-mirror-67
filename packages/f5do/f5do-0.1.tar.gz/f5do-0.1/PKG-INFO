@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: f5do
+Version: 0.1
+Summary: This is a Python module to easily use the F5 Declarative Onboarding interface
+Home-page: https://pypi.python.org/pypi?:action=display&name=f5do&version=0.1
+Author: Pete White
+Author-email: pwhite@f5.com
+License: PSF
+Description: DO
+        ===
+        
+        This is a python module to simplify using F5 Networks' Declarative Onboarding interface.
+        
+        Install using pip:
+        
+        ``pip install DO``
+        
+        
+Platform: UNKNOWN

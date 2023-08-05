@@ -1,0 +1,9 @@
+README.rst
+setup.py
+f5do/__init__.py
+f5do/f5do.py
+f5do.egg-info/PKG-INFO
+f5do.egg-info/SOURCES.txt
+f5do.egg-info/dependency_links.txt
+f5do.egg-info/requires.txt
+f5do.egg-info/top_level.txt
