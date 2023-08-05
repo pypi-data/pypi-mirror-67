@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "my-rolodex"
+version = "0.1.0"
+description = "Animal Logic: Technical Challenge"
+authors = ["Yani Lathouris <ylathouris@gmail.com>"]
+packages = [
+    { include = "rolodex", from = "source" }
+]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ylathouris/rolodex"
+repository = "https://github.com/ylathouris/rolodex"
+keywords = ["code-challenge"]
+classifiers = [
+    "Environment :: Console",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.1.1"
+pydantic = "^1.5"
+structlog = "^20.1.0"
+colorama = "^0.4.3"
+pyyaml = "^5.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+pytest_cov = "^2.8.1"
+coverage-badge = "^1.0.1"
+
+[tool.poetry.scripts]
+rolodex = "rolodex.cli:app"
+
+[tool.poetry.plugins]
+
+[tool.poetry.plugins."rolodex.readers"]  # built-in readers
+"json" = "rolodex.io:JSONReader"
+"yaml" = "rolodex.io:YAMLReader"
+
+[tool.poetry.plugins."rolodex.writers"]  # built-in writers
+"json" = "rolodex.io:JSONWriter"
+"yaml" = "rolodex.io:YAMLWriter"
+
+[tool.poetry.plugins."rolodex.storage"]  # built-in storage
+"json" = "rolodex.store:JSONStore"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

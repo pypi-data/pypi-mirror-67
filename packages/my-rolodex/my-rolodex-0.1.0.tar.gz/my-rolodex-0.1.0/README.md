@@ -1,0 +1,54 @@
+[![CircleCI](https://circleci.com/gh/ylathouris/bio.svg?style=shield)](https://circleci.com/gh/ylathouris/rolodex)  ![Coverage](coverage.svg)
+
+---
+
+# Rolodex
+
+This is my submission for Animal Logic's technical challenge. It is a
+simple application for managing people's contacts and addresses.
+Before getting started, let's go over the requirements:
+
+<br/>
+
+### The Requirements
+
+**1:**
+> Create a repository on one of the major development platforms
+> (i.e GitHub, Bitbucket)_
+
+**2:**
+> Provide a CI setup that clones the repository and runs the
+> tests of your code every time code is committed (in any branch).
+
+**3:**
+> Write a command-line tool in python that takes some sets
+> of personal data (name, address, phone number) and serialise
+> them/deserialise them in at least 2 formats, and also display the
+> data it in at least 2 different ways.
+>
+>  * ​There is no need to use a GUI Framework - text output/HTML or
+>    any other human-readable format is fine.
+>
+>  * There is no need to support manual data entry - you could provide
+>    a file in one of your chosen formats to use as input test data.
+>
+>  * Write it in such a way that it would be easy for a developer to:
+>    * add support for additional storage formats.
+>    * query a list of currently supported formats.
+>    * supply an alternative reader/writer for one of the supported
+>      formats.​
+
+
+<br/>
+
+## Next Steps
+
+* [Installation](docs/installation.md)
+* [Concepts](docs/concepts.md)
+* [CLI](docs/cli.md)
+* [API](docs/api.md)
+* [Plugins](docs/plugins.md)
+
+
+
+<br/>
