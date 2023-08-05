@@ -1,0 +1,9 @@
+rolodex/__init__.py,sha256=byOmLTcw8g16h-GjJJzZ-MIHENWaJA0c-V6fM-GqeGQ,458
+rolodex/api.py,sha256=JNW6OVcV2Me3u2sixAT4vTx-q9KNYhhS9SfHmyjGxos,4072
+rolodex/cli.py,sha256=7D_MpmcGDUKUPSnr4bJMRb-yuk2tUc9SKDNaTLYD-Vs,1714
+rolodex/io.py,sha256=2vsTcNWyG39JWGN0igbsvL3QpSfv0QDm___5TnG3xns,5256
+rolodex/store.py,sha256=sGEzmdRizCFYXr71BTFYcPbPvJcfj9EN0-42cWv8fmI,4479
+my_rolodex-0.2.0.dist-info/entry_points.txt,sha256=RmA1fvs-bFpm8Fc-pX6Ndtdeo_G6nwJ4uZ-37zfwUgQ,237
+my_rolodex-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+my_rolodex-0.2.0.dist-info/METADATA,sha256=ddracr1by52lDwxv_5UsA_q-MDadL9UobqYlbqfvpw0,2509
+my_rolodex-0.2.0.dist-info/RECORD,,
