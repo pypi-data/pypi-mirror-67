@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyromenu
+Version: 1.1
+Summary: Object-oriented way to build telegram keyboard-menus
+Home-page: https://github.com/IlhomBahoraliev/pyromenu
+Author: LidaRandom
+Author-email: bahoralievdev@yandex.com
+License: UNKNOWN
+Description: **Pyromenu** is object-oriented library to build keyboard-menu for telegram bots on pyrogram
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
