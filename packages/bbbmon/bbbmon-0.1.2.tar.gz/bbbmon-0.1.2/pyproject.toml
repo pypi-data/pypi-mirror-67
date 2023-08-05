@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bbbmon"
+version = "0.1.2"
+description = "A small CLI utility to monitor bbb usage"
+authors = ["David Huss <david.huss@hfbk-hamburg.de>"]
+maintainers = ["David Huss <david.huss@hfbk-hamburg.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+requests = "^2.23.0"
+appdirs = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+bbbmon = "bbbmon.bbbmon:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
