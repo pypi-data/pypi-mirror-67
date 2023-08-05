@@ -1,0 +1,3 @@
+[console_scripts]
+ldr = load_distributed.main:main
+
