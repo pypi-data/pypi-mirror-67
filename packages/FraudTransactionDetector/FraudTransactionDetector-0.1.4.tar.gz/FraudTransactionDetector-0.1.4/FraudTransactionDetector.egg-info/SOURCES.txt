@@ -1,0 +1,13 @@
+License.txt
+MANIFEST.in
+README.txt
+setup.py
+FraudTransactionDetector.egg-info/PKG-INFO
+FraudTransactionDetector.egg-info/SOURCES.txt
+FraudTransactionDetector.egg-info/dependency_links.txt
+FraudTransactionDetector.egg-info/requires.txt
+FraudTransactionDetector.egg-info/top_level.txt
+bin/sample-anomaly-classifier.py
+data/Technical test sample data.ods
+fraudtransactiondetector/__init__.py
+fraudtransactiondetector/utils.py
