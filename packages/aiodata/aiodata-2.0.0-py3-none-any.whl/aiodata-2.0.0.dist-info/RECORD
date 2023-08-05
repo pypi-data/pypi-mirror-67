@@ -1,0 +1,9 @@
+aiodata/__init__.py,sha256=AVnOaFoyxjQ135ORO0uRSkFeENKtpAtUY3EUMbT5MIM,23
+aiodata/client.py,sha256=FtOXfgJtF25yAnGPL6bKBewtCnvfAOo3h4LrO1Rb0Oc,8761
+aiodata/server.py,sha256=DRxp9f37Jsr_by84BB0fGqvs_Hx83KoVBmLef5T2I0o,11764
+aiodata-2.0.0.dist-info/LICENCE,sha256=nc2u5Ll9ZSVE7wcwVOenq4RyQTkTwMSbhdAZqKIEkto,1078
+aiodata-2.0.0.dist-info/METADATA,sha256=chtTfQVpbdzI4KC52e7BJLpK_-XBzCFtrWvtoIeF5Jg,567
+aiodata-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aiodata-2.0.0.dist-info/entry_points.txt,sha256=UddjYERr0oHjxX0Xst9mSzj5hqfGklkvc4ST0ieHRiA,50
+aiodata-2.0.0.dist-info/top_level.txt,sha256=8Mb5odlCWAn2qyhGw_VPE7dcOP2wL2q1m2L7Jwsb4qo,8
+aiodata-2.0.0.dist-info/RECORD,,
