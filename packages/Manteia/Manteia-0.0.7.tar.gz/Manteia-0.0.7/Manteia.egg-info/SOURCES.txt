@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Manteia/Classification.py
+Manteia/Data.py
+Manteia/Manteia.py
+Manteia/Model.py
+Manteia/Statistic.py
+Manteia/__init__.py
+Manteia/exemple_Classification.py
+Manteia/exemple_Statistic.py
+Manteia.egg-info/PKG-INFO
+Manteia.egg-info/SOURCES.txt
+Manteia.egg-info/dependency_links.txt
+Manteia.egg-info/entry_points.txt
+Manteia.egg-info/top_level.txt
