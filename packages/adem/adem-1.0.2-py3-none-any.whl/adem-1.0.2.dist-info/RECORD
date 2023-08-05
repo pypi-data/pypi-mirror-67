@@ -1,0 +1,15 @@
+adem/__init__.py,sha256=rZJAFtgbpzOqGxd0fVKLtDZV48kp2lmrA1l49xgzoww,74
+adem/setup.py,sha256=d2FzW68tebVHCAX4ok5djr1LPAFQmdmV2juV25luI04,999
+adem/arrays/__init__.py,sha256=65SF1WSP2z0GxUHQ28UgO0qx7nJ9qx0txztJo9Mmne0,23
+adem/arrays/matrix.py,sha256=q0MWYatjH89Q_wPEM4ZjmtRpNhQrAyNtu7iIs-LLyo8,32511
+adem/errors/__init__.py,sha256=TCyTZQV4EFDk_mbN_07ZgNQ57fS3p4Fb7CTUatksU64,27
+adem/errors/exceptions.py,sha256=3GVdcy-ZzKht1cic5rRs1S2hfo6UTzgVmswMlp_R2Z8,265
+adem/misc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adem/misc/gen.py,sha256=YuI0RfpglHrhzYB_GXJVfwgarqEiSRfiwD-SfWHXWrA,439
+adem/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adem/tools/exprs.py,sha256=hNyElih9vuoWPBiGUqenNyCkKLAOqvch49brfxOh-_w,21971
+adem-1.0.2.dist-info/LICENSE,sha256=ZN72UUfBC_7tD2zr0SWAJnwGmymYwXssOVLeLumNwXw,1080
+adem-1.0.2.dist-info/METADATA,sha256=Va-o3t5kha6FomLXFsetlad6EwGpf_dMRADh-GH3RJM,1298
+adem-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+adem-1.0.2.dist-info/top_level.txt,sha256=nclIOTfccsGgzAPD_SjYccpYZexBeCCu3cACX2pZZZw,5
+adem-1.0.2.dist-info/RECORD,,
