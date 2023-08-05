@@ -1,0 +1,13 @@
+README.rst
+setup.py
+antivirals/__init__.py
+antivirals/__main__.py
+antivirals/chem.py
+antivirals/data.py
+antivirals/schema.py
+antivirals.egg-info/PKG-INFO
+antivirals.egg-info/SOURCES.txt
+antivirals.egg-info/dependency_links.txt
+antivirals.egg-info/entry_points.txt
+antivirals.egg-info/requires.txt
+antivirals.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+tqdm
+sqlalchemy
+numpy
+pysmiles
+scikit-learn
+pandas
+fire
+gensim
+
+[cpu]
+tensorflow
+
+[gpu]
+tensorflow-gpu
