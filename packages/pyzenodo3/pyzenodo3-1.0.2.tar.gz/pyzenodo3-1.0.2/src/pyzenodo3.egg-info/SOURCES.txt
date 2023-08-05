@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+search_zenodo.py
+setup.cfg
+setup.py
+upload_zenodo.py
+src/pyzenodo3/__init__.py
+src/pyzenodo3/base.py
+src/pyzenodo3/upload.py
+src/pyzenodo3.egg-info/PKG-INFO
+src/pyzenodo3.egg-info/SOURCES.txt
+src/pyzenodo3.egg-info/dependency_links.txt
+src/pyzenodo3.egg-info/entry_points.txt
+src/pyzenodo3.egg-info/requires.txt
+src/pyzenodo3.egg-info/top_level.txt
