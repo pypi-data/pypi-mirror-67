@@ -1,0 +1,9 @@
+click
+numpy
+Splipy>=1.4
+lrsplines>=1.5
+h5py
+vtk
+
+[VTF]
+vtfwriter
