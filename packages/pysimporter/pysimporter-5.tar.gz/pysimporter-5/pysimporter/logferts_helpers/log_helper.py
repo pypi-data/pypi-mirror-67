@@ -1,0 +1,79 @@
+import logging
+
+
+from os import path, makedirs
+from traceback import format_exc
+from time import gmtime, strftime
+
+
+class LogHelper:
+    """This class allows to manage logger.
+
+       Sets console log or file log -> Choose the log level. Allows to write log on different log levels.
+    """
+
+    def __init__(self, lg_name=None, log_level=None, file_name=None, log_directory=None, enable_console_log_mode=False):
+        self._log_level = log_level
+        self._file_name = file_name
+        self._log_directory_path = None
+        self._log_directory = log_directory
+        self._enable_console_log_mode = enable_console_log_mode
+
+        self._create_log_directory()
+        self._set_logger_preferences()
+        self.logger = logging.getLogger(lg_name)
+
+    def _set_logger_preferences(self) -> None:
+        """Logger initializing.
+
+        Sets console log mode or file log mode -> Sets filename and log directory if file log mode enabled.
+
+        @:returns: None
+        @:rtype: NoneType
+        """
+        log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+        numeric_level = getattr(logging, self._log_level.upper(), None)
+        if not isinstance(numeric_level, int):
+            raise ValueError('Invalid log level: %s' % self._log_level)
+
+        if self._enable_console_log_mode:
+            logging.basicConfig(format=log_format, level=numeric_level)
+        else:
+            if not self._file_name:
+                self._file_name = 'log'
+            filename = '{}/{}_{}.log'.format(self._log_directory_path, self._file_name, strftime("%Y-%m-%d-%H-%M",
+                                                                                                 gmtime()))
+            logging.basicConfig(filename=filename, format=log_format, level=numeric_level)
+
+    def write(self, lvl: int, msg: str) -> None:
+        """Writes a log message.
+
+        @:param lvl: log level
+        @:param msg: message to write
+        @:type lvl: int
+        @:type msg: str
+
+        Writes a log message with certain log level and message.
+
+        @:returns: None
+        @:rtype: NoneType
+        """
+
+        if (not msg) and (not lvl):
+            msg = '{}'.format(format_exc())
+        self.logger.log(lvl, msg)
+
+    def _create_log_directory(self) -> None:
+        """Creates log directory.
+
+        @:returns: None
+        @:rtype: NoneType
+        """
+
+        if not self._log_directory:
+            self._log_directory = 'log'
+        self._log_directory_path = path.join(path.dirname(path.dirname(__file__)), self._log_directory)
+
+        if not path.exists(self._log_directory_path):
+            makedirs(self._log_directory_path)

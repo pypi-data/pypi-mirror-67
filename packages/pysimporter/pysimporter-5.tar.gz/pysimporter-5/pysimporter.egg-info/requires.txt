@@ -1,0 +1,5 @@
+SQLAlchemy
+bs4
+pyodbc
+requests
+urllib3
