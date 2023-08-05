@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ftests
+Version: 0.0.1
+Summary: A simple and efficient functional testing tool.
+Home-page: https://github.com/Atomot/ftests
+Author: Hugo Atomot
+Author-email: hugoatomot@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Source, https://github.com/Atomot/ftests
+Description: # ftests
+        A simple and efficient functional testing tool.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
