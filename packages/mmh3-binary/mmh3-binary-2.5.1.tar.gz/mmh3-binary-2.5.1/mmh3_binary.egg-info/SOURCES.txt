@@ -1,0 +1,10 @@
+MANIFEST.in
+MurmurHash3.cpp
+MurmurHash3.h
+README.rst
+mmh3module.cpp
+setup.py
+mmh3_binary.egg-info/PKG-INFO
+mmh3_binary.egg-info/SOURCES.txt
+mmh3_binary.egg-info/dependency_links.txt
+mmh3_binary.egg-info/top_level.txt
