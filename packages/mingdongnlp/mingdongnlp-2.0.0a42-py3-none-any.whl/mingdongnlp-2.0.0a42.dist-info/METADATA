@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mingdongnlp
+Version: 2.0.0a42
+Summary: mingdongnlp: ZH Language Processing
+Home-page: UNKNOWN
+Author: hankcs
+Author-email: 
+License: Apache License 2.0
+Keywords: corpus,machine-learning,NLU,NLP
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (==2.1.0)
+Requires-Dist: fasttext (==0.9.1)
+Requires-Dist: bert-for-tf2 (==0.12.7)
+Requires-Dist: py-params (==0.8.2)
+Requires-Dist: params-flow (==0.7.4)
+Requires-Dist: sentencepiece (==0.1.85)
+
+UNKNOWN
+
+
