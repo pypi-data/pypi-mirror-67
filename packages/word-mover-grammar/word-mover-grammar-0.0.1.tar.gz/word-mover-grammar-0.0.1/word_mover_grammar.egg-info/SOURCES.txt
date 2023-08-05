@@ -1,0 +1,11 @@
+README.md
+setup.py
+word_mover_grammar/__init__.py
+word_mover_grammar/earley.py
+word_mover_grammar/grammar.py
+word_mover_grammar/text_to_grammar.py
+word_mover_grammar.egg-info/PKG-INFO
+word_mover_grammar.egg-info/SOURCES.txt
+word_mover_grammar.egg-info/dependency_links.txt
+word_mover_grammar.egg-info/requires.txt
+word_mover_grammar.egg-info/top_level.txt

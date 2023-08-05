@@ -1,0 +1,4 @@
+
+[rumorph]
+pymorphy2[fast]
+pymorphy2-dicts-ru
