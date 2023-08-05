@@ -1,0 +1,13 @@
+ann/ANNFaiss.py,sha256=8_PME3pixoT2lQaVhAxd1SK2jYAvkAweYkOepJ1B7kE,4485
+ann/ANNMilvus.py,sha256=3oE5Tk-e2QLZd3WWavDFCno9M5_gzgBU5K0ISKROJ3g,4239
+ann/MilvusANN.py,sha256=GJvmgPDyPpV356r6ukF7lnFiwYLQVCMdloAP93Jl4ko,4598
+ann/__init__.py,sha256=w3mP2WB-VTACOUp9oPztTVd1TsQW1A2Tb-fC6Qk5zVM,311
+ann/utils.py,sha256=g1gs7c5WX8l4fAO0_M8N9QR_H3G9-RU1pnnzIRz31Gc,778
+ann/utils/__init__.py,sha256=SJQ2gawIfCtMFgb2s-sHuutFfFeRY77A6ka2nAsZTJ4,281
+ann/utils/data_processor_utils.py,sha256=XmxLQd4QxJMcfrbM038h8nIP19VFfGDN-mx2tCr7x0w,440
+ann/utils/logger.py,sha256=--lWq5NctbmHQftENB5Gowjc3zShY5elUWPnzipYSkI,1328
+fast_ann-2020.4.27.15.5.40.dist-info/METADATA,sha256=momEkz_lvzlr6Xq2F8gpyQ0rf8WGziXOsDs0suomK6s,1236
+fast_ann-2020.4.27.15.5.40.dist-info/RECORD,,
+fast_ann-2020.4.27.15.5.40.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+fast_ann-2020.4.27.15.5.40.dist-info/entry_points.txt,sha256=2IdGZK1NmftNtHm_zLTVOunMuFbJ_B1guQeEy-JeHTQ,47
+fast_ann-2020.4.27.15.5.40.dist-info/top_level.txt,sha256=KjvAXQfWP2DojfH4VK8xQkiUspMBxnG5xX50vCsBKqg,4
