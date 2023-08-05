@@ -1,0 +1,8 @@
+README.md
+setup.py
+builder/__init__.py
+builder/builder.py
+gids.egg-info/PKG-INFO
+gids.egg-info/SOURCES.txt
+gids.egg-info/dependency_links.txt
+gids.egg-info/top_level.txt
