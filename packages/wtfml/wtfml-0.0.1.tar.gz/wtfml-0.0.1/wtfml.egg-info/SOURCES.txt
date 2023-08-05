@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+wtfml/__init__.py
+wtfml.egg-info/PKG-INFO
+wtfml.egg-info/SOURCES.txt
+wtfml.egg-info/dependency_links.txt
+wtfml.egg-info/requires.txt
+wtfml.egg-info/top_level.txt
+wtfml/logger/__init__.py
+wtfml/logger/logger.py
