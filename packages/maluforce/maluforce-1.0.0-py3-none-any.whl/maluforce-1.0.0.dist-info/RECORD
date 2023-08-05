@@ -1,0 +1,11 @@
+maluforce/__init__.py,sha256=2Jf3HX0b0LmBxEY09JFcg-KSyyFOTag1_V8oUBP7-ws,178
+maluforce/__version__.py,sha256=VmXQNc5AZdNJebtZJiUO7DPIlKwHFN3zTR-jq5EKqfQ,430
+maluforce/core.py,sha256=p4a2pEQ9f8xMSVgZx4pJR1a3UvCyotmiIITzwzhBlHQ,10068
+maluforce/fileutils.py,sha256=qArGf9-CLGavyLBoMumoRC9KV1DNvFIgIa7UkEhTJ4o,4720
+maluforce/reportutils.py,sha256=3fOFQhVxOgPtY0YuJGA1z-xp9om-cgUX5effTu7djUk,3060
+maluforce/validators.py,sha256=-zeo9DOke2jn7dVU3vaUiMaBMtwd_KL5xX8VSPFNzv8,967
+maluforce-1.0.0.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+maluforce-1.0.0.dist-info/METADATA,sha256=HY70wTXrg7FiQFXvnk1viiMk2iSExbnHzI4VWfPlgBI,1046
+maluforce-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+maluforce-1.0.0.dist-info/top_level.txt,sha256=4gWVu8J-Duf83qHs8uACU998Aa00WAaeXJUoEZQJaH4,10
+maluforce-1.0.0.dist-info/RECORD,,
