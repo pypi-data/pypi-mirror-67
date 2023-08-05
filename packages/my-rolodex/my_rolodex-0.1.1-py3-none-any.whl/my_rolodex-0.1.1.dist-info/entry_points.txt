@@ -1,0 +1,14 @@
+[console_scripts]
+rolodex=rolodex.cli:app
+
+[rolodex.readers]
+json=rolodex.io:JSONReader
+yaml=rolodex.io:YAMLReader
+
+[rolodex.storage]
+json=rolodex.store:JSONStore
+
+[rolodex.writers]
+json=rolodex.io:JSONWriter
+yaml=rolodex.io:YAMLWriter
+
