@@ -1,0 +1,16 @@
+dicom_upload/__init__.py,sha256=2VdsWR4aLuCU73E43nc2XyHRW8Fbp2JFoEVQvRXa2oU,1041
+dicom_upload/_frontend.py,sha256=l3xjflu-k5Q7ntXFSMpB6btLw3EC_a4b9HOZBcU1QeY,118
+dicom_upload/_version.py,sha256=dsXJJOVnhluEtcyVu1n5bZSK9FeLIJ5tXFO6pv0LC1s,423
+dicom_upload/widget_upload.py,sha256=0MoJeqhY7uoSLOKqu4s7_BwGe1OuVt-ePKZGyiNhh6w,3756
+dicom_upload/static/extension.js,sha256=q7MdHa-JKvnnBe--pT6DZjM2zD_m0N_CDoyrbNTxCzE,3342
+dicom_upload/static/index.js,sha256=SugskKeS7YkCOw8uCLY-0fdli-4ccP5bekyOaSVONCE,1020630
+dicom_upload/static/index.js.map,sha256=H5E7x8lST0Mz8Z-nNPwVQvlTRIBSl1-rnO_ByppPOXI,1236911
+dicom_upload-0.2.0.data/data/etc/jupyter/nbconfig/notebook.d/dicom-upload.json,sha256=gcG9wrutXaRU0M9TboXVjOZz6Os8xjeLg77vipLTpi0,66
+dicom_upload-0.2.0.data/data/share/jupyter/nbextensions/dicom-upload/extension.js,sha256=q7MdHa-JKvnnBe--pT6DZjM2zD_m0N_CDoyrbNTxCzE,3342
+dicom_upload-0.2.0.data/data/share/jupyter/nbextensions/dicom-upload/index.js,sha256=SugskKeS7YkCOw8uCLY-0fdli-4ccP5bekyOaSVONCE,1020630
+dicom_upload-0.2.0.data/data/share/jupyter/nbextensions/dicom-upload/index.js.map,sha256=H5E7x8lST0Mz8Z-nNPwVQvlTRIBSl1-rnO_ByppPOXI,1236911
+dicom_upload-0.2.0.dist-info/LICENSE.txt,sha256=E9bR2J6miggXLwtR6AawXZPXc8FpJzR0_d3b72_KEwA,1563
+dicom_upload-0.2.0.dist-info/METADATA,sha256=dt_m73YjUhXXF2SHOImACW310N0fb8KaeyYv14KhieI,2235
+dicom_upload-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dicom_upload-0.2.0.dist-info/top_level.txt,sha256=H69_fp02y2hDEh84d7mEK5akKz9FHuFfVRiOQFCmtDE,13
+dicom_upload-0.2.0.dist-info/RECORD,,
