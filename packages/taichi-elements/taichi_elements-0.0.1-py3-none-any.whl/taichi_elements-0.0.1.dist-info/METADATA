@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: taichi-elements
+Version: 0.0.1
+Summary: Taichi Elements
+Home-page: https://github.com/taichi-dev/taichi_elements
+Author: Taichi Elements Developers
+Author-email: yuanmhu@gmail.com
+License: MIT
+Keywords: graphics,simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: taichi (>=0.5.15)
+
+UNKNOWN
+
+
