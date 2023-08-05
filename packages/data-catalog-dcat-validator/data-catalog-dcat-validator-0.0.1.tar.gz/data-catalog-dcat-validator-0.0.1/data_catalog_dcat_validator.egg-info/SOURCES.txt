@@ -1,0 +1,11 @@
+README.md
+setup.py
+data_catalog_dcat_validator/__init__.py
+data_catalog_dcat_validator/dcat_validator.py
+data_catalog_dcat_validator.egg-info/PKG-INFO
+data_catalog_dcat_validator.egg-info/SOURCES.txt
+data_catalog_dcat_validator.egg-info/dependency_links.txt
+data_catalog_dcat_validator.egg-info/requires.txt
+data_catalog_dcat_validator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_validator.py
