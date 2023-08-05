@@ -1,0 +1,8 @@
+README.md
+setup.py
+expdata/__init__.py
+expdata/explore.py
+expdata.egg-info/PKG-INFO
+expdata.egg-info/SOURCES.txt
+expdata.egg-info/dependency_links.txt
+expdata.egg-info/top_level.txt
