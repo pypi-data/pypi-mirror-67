@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: spotifyscraper
+Version: 1.0.0
+Summary: A sample Python project
+Home-page: https://github.com/pypa/sampleproject
+Author: The Python Packaging Authority
+Author-email: pypa-dev@googlegroups.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Description: # DOC and README WILL BE FINISHED SOON.
+Keywords: spotify spotifydownloader downloader mp3downloader webscraper spotifyscraper music cover setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
