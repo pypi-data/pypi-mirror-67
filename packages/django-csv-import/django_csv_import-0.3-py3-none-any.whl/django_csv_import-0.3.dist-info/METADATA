@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-csv-import
+Version: 0.3
+Summary: Library to upload csv directly through django admin interface
+Home-page: https://github.com/DevAbhinav2073/csv_importer
+Author: Abhinav Dev
+Author-email: theabhinavdev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
