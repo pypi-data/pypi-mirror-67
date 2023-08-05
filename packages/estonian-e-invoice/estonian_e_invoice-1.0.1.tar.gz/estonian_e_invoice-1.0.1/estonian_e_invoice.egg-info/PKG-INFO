@@ -1,0 +1,77 @@
+Metadata-Version: 1.2
+Name: estonian-e-invoice
+Version: 1.0.1
+Summary: Estonian e-invoice generator
+Home-page: https://github.com/thorgate/estonian_e_invoice
+Author: Thorgate
+Author-email: code@thorgate.eu
+License: MIT license
+Description: ==================
+        Estonian E-Invoice
+        ==================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/estonian_e_invoice.svg
+                :target: https://pypi.python.org/pypi/estonian_e_invoice
+        
+        .. image:: https://img.shields.io/travis/thorgate/estonian_e_invoice.svg
+                :target: https://travis-ci.org/thorgate/estonian_e_invoice
+        
+        .. image:: https://readthedocs.org/projects/estonian-e-invoice/badge/?version=latest
+                :target: https://estonian-e-invoice.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        .. image:: https://pyup.io/repos/github/thorgate/estonian_e_invoice/shield.svg
+             :target: https://pyup.io/repos/github/thorgate/estonian_e_invoice/
+             :alt: Updates
+        
+        
+        
+        Estonian e-invoice generator
+        
+        
+        * Free software: MIT license
+        * Documentation: https://estonian-e-invoice.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        1.0.1 (2020-04-29)
+        ------------------
+        
+        * Project meta data changes.
+        
+        1.0.0 (2020-04-29)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: estonian_e_invoice
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
