@@ -1,0 +1,11 @@
+README.md
+setup.py
+pytest_ckan/__init__.py
+pytest_ckan/fixtures.py
+pytest_ckan/plugin.py
+pytest_ckan.egg-info/PKG-INFO
+pytest_ckan.egg-info/SOURCES.txt
+pytest_ckan.egg-info/dependency_links.txt
+pytest_ckan.egg-info/entry_points.txt
+pytest_ckan.egg-info/requires.txt
+pytest_ckan.egg-info/top_level.txt
