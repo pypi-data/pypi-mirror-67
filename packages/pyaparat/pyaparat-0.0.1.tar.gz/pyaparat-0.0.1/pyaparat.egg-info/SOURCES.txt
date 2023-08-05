@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyaparat/__init__.py
+pyaparat/exceptions.py
+pyaparat/main.py
+pyaparat/scraper.py
+pyaparat.egg-info/PKG-INFO
+pyaparat.egg-info/SOURCES.txt
+pyaparat.egg-info/dependency_links.txt
+pyaparat.egg-info/top_level.txt
