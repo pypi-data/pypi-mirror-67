@@ -1,0 +1,10 @@
+elasticsearch_sbs/__init__.py,sha256=hytJNyZheRNN_3-MnqUTyl702k0YaCmB-iOejlB3aWQ,234
+elasticsearch_sbs/custom_exceptions.py,sha256=M7ySQvZ62NPqEEbLFYO47CUvGBnmIDpWGKc551dHRvg,288
+elasticsearch_sbs/my_tests.py,sha256=mHbqQ0Kx5JgYoLjYv9oRkvEHqRzPq0ww3XjVmbut8MU,372
+elasticsearch_sbs/part_one.py,sha256=z0JmEj-vQOmNNOA6p7vDEdHIdswj9wZC8RCSyv2IuOk,1384
+elasticsearch_sbs/part_two.py,sha256=BN8JKotLrT5pMucobV-FeNLQv5nhOSQWwEMtItIcGgo,236
+elasticsearch_sbs-1.1.5.dist-info/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+elasticsearch_sbs-1.1.5.dist-info/METADATA,sha256=FkPyLZIF-wnZ4saYkg1xAys9kAJVV6ANzdQfxfKdor8,594
+elasticsearch_sbs-1.1.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+elasticsearch_sbs-1.1.5.dist-info/top_level.txt,sha256=zh-hVETpV4LuR_jxxvjTcEW2A1lCwxm1IrNxG5rBO1M,18
+elasticsearch_sbs-1.1.5.dist-info/RECORD,,
