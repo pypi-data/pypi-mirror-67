@@ -1,0 +1,14 @@
+printy/__init__.py,sha256=egkkjLAV3uc0RXcepWBZ_bYSD82Q4Rzqi2eLJIKdi1s,995
+printy/__main__.py,sha256=bf-n2K0Ce4zrrQf67sf_bxByrjTiGY3JBCWqXk35AVU,203
+printy/core.py,sha256=jAY5RZJPIcMdT-PGRHjz2TPYgsesPtrJotryC8X6tGM,19007
+printy/exceptions.py,sha256=c2uf1DvcxOGkP23ZvADWslNIU3-oJqiHrTSS4u6dfXU,535
+printy/flags.py,sha256=Ga6Hxu4d2BB58z5hc_wLXCQpg7JlUYAlBQfYrcvKeNo,4002
+printy/helpme.py,sha256=qB8NfNJb0_Qg_p1wVdeT5RnQk72h0J5KesWxI2esmbg,4875
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests_core.py,sha256=A9CGX-RP0hJQMq1ctlo9m0Ubm9_UUSJQh4ViUUFZels,20296
+tests/tests_exceptions.py,sha256=ZdLvf7YBTnLZaUtdo-7uOKgBomZOydR-1QAQLTb4Uo0,906
+printy-2.0.0.dist-info/LICENSE,sha256=IlbFP1tVl4DeFd5OVjAeKC-8XZBCOlWHRn4SUttJuwQ,1073
+printy-2.0.0.dist-info/METADATA,sha256=4NAUOVWI2kz8SRWTtQEEE-mfu1Jj7CITqf3Tr24seW8,12181
+printy-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+printy-2.0.0.dist-info/top_level.txt,sha256=n3w1DTjx7zOCGF_wEb9h5lgpmyiZsrQenaaPuFDy9yc,13
+printy-2.0.0.dist-info/RECORD,,
