@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: cdsdashboards
+Version: 0.0.6
+Summary: ContainDS Dashboards extension for JupyterHub
+Home-page: https://containds.com/
+Author: Ideonate
+Author-email: dan@containds.com
+License: BSD
+Description: UNKNOWN
+Keywords: containds jupyterhub
+Platform: Linux
+Platform: Mac OS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
