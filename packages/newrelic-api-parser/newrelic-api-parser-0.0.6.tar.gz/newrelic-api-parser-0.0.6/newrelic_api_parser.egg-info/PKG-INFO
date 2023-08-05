@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: newrelic-api-parser
+Version: 0.0.6
+Summary: A plug-n-play package to start using new relic APIs for data gathering
+Home-page: https://github.com/Bharat23/newrelic-api-parser
+Author: Bharat Sinha
+Author-email: bharat.sinha.2307@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: new relic api,insights,new relic
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
