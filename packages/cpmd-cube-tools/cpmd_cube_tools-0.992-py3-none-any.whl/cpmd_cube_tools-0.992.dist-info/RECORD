@@ -1,0 +1,16 @@
+cpmd_cube_tools/__init__.py,sha256=-sj4ai7D4Za5YH8gc8-gpEoQ_5XAmYFiNUkOeYFI4i8,23
+cpmd_cube_tools/_citation.py,sha256=T0gbLYpWI0dEqug_osrb2TdH9OGGnI9HO2c-Ad8wnjg,406
+cpmd_cube_tools/_version.py,sha256=5wQ2T-nOrptsS3fqjgsJMmQN6JVktt5iIgRiA8NmfJs,1158
+cpmd_cube_tools/api.py,sha256=L_otnRcUlqM0ZEZE7yxZXYvsIZCbHS4GCvGeTyFdIJA,2704
+cpmd_cube_tools/core.py,sha256=rF8jmRpLw0CQx0_PehsbNMh_gYMUDmfOg5FQMgE8knA,15816
+cpmd_cube_tools/main.py,sha256=Zsbl2mfWduZZVfeH0EWYvwy816ZDZBWufhuT3Ft51jM,4583
+cpmd_cube_tools/test/DENSITY.cube,sha256=L5JTrEEgCGE0PfXyE30APWDvsJH3Vhgd4aMormftzvk,8192645
+cpmd_cube_tools/test/GEOMETRY,sha256=SJ05olcA0LYhmkP-Ujnkd9tr_te3mGJRzIA5Q6PuHu4,3999
+cpmd_cube_tools/test/mm2qm_overlap.inp,sha256=aEOkFRgbcvpaZjLYfg-HPfBFYmb9ERAELhEaD5QNbJI,309
+cpmd_cube_tools-0.992.data/scripts/cubetool.py,sha256=COOCFqI6wLksCSJDrl3IFb5Ttz-MLTVgXr1G9j0Kkso,83
+cpmd_cube_tools-0.992.data/scripts/test.py,sha256=Xs95djuw0_GMR20tRMFi3TqOAGHynqtT9D2_9hRjcxg,1929
+cpmd_cube_tools-0.992.dist-info/LICENSE,sha256=hXge63iw4MPSxGDHW47bwaYQMAGFge_Sy7o60Mk0b_8,805
+cpmd_cube_tools-0.992.dist-info/METADATA,sha256=9_maO06ExJpzBtQd0_-yuKxnB4XGbU6QZYDaJCT9Qo8,5879
+cpmd_cube_tools-0.992.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cpmd_cube_tools-0.992.dist-info/top_level.txt,sha256=Hon23o12AlIk2e_9PNRs0ucQ_yNsj5V2FkNEKEka-3o,16
+cpmd_cube_tools-0.992.dist-info/RECORD,,
