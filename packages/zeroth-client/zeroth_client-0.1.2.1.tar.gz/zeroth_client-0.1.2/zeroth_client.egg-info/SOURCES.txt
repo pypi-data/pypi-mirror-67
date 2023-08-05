@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+bin/zeroth_client
+zeroth_client/__init__.py
+zeroth_client/at_mic.py
+zeroth_client/client_module.py
+zeroth_client.egg-info/PKG-INFO
+zeroth_client.egg-info/SOURCES.txt
+zeroth_client.egg-info/dependency_links.txt
+zeroth_client.egg-info/not-zip-safe
+zeroth_client.egg-info/top_level.txt
