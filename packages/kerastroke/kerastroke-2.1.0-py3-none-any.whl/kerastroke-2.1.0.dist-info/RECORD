@@ -1,0 +1,10 @@
+kerastroke/__init__.py,sha256=nyWqRn1hO2Y5oyMClzfmJAXgR_zlKmzjpYYO-QX3jY0,121
+kerastroke/neuroplast.py,sha256=9fxAOiWFIFdrU2mMms71aGOKqD9gymvh8BJDLfwULzA,2728
+kerastroke/pruning.py,sha256=JrkTifny7wWAOHnlFB2-gg5OigDK4ovX-bwQTwWUk6U,2261
+kerastroke/stroke.py,sha256=EQCaApFtrRO2ybGlQDNkY5gWtzx9qfTFpsCvwckeISQ,2996
+kerastroke-2.1.0.data/scripts/__init__.py,sha256=nyWqRn1hO2Y5oyMClzfmJAXgR_zlKmzjpYYO-QX3jY0,121
+kerastroke-2.1.0.dist-info/LICENSE,sha256=sqNVTtUpJ0ikX-tz0aXgmi3AGO9FXdPETfjOC_AzVU8,1072
+kerastroke-2.1.0.dist-info/METADATA,sha256=GGhPx1Dn-RE-oOG2XgDjWfDXi7j391PNnttvY1UoMMo,4610
+kerastroke-2.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kerastroke-2.1.0.dist-info/top_level.txt,sha256=DspxjgsgreYMXYxXjE7jJo3ri9pgVuTcgOQDdJfj4VA,11
+kerastroke-2.1.0.dist-info/RECORD,,
