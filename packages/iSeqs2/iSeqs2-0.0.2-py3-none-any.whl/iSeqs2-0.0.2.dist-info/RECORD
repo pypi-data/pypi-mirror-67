@@ -1,0 +1,13 @@
+iSeqs2-0.0.2.data/scripts/build_leukemia_genes_list.py,sha256=h9rJGXdTmADYNn3oFTb5SndaRn1pev112zvMwHZ1QhA,2651
+iSeqs2-0.0.2.data/scripts/filter_by_normal_expression.py,sha256=RB3b27skb0rOgIH-uP1Fb1FXGQHLG7zHqpmYgv6VqG8,3223
+iSeqs2-0.0.2.data/scripts/filter_strelka2.py,sha256=PbPkktHf62azwPtJCPyP0_F80CejZGEqyw1gVoKjrYc,3494
+iSeqs2-0.0.2.data/scripts/filter_varscan2_vcfs.py,sha256=Tgac0OqvgP7UnEzFMrcmttOrUUbH6ZWTgGv_29A82rk,3362
+iSeqs2-0.0.2.data/scripts/filter_vcf_by_gene_names.py,sha256=ovzqbE1He09WL24glsvCBm1kQjNDadcKXTqKBmyShVM,3223
+iSeqs2-0.0.2.data/scripts/join_tables_from_snpsift_extractFields.py,sha256=abCQWbhRUICjGUe0CpfKfDbciWp67oyjMDwY7ovYt6I,10137
+iSeqs2-0.0.2.data/scripts/remove_snps_from_cosmic.py,sha256=7FojzcKZoN8RBIAI9Cxp8U2J-YRYbp-kDTTfptwyD6A,2093
+iseqs2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iSeqs2-0.0.2.dist-info/LICENSE,sha256=B6T_x6LfMaVtnEeGKIlUHOY8ql1zgZ0JSyrIm6h_6YY,1073
+iSeqs2-0.0.2.dist-info/METADATA,sha256=8FklduA0X6cvyO6W1l8PqnC6_ESZ0j01AP5WVXNuE6s,433
+iSeqs2-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iSeqs2-0.0.2.dist-info/top_level.txt,sha256=MWG2LmCQFI4LM3mP8NGxlEQCf1ribf7sOEl95g15hLw,7
+iSeqs2-0.0.2.dist-info/RECORD,,
