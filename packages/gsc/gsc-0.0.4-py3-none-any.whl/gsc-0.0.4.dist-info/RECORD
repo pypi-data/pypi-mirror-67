@@ -1,0 +1,16 @@
+gsc/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+gsc/auth.py,sha256=1Mky0sP0EuyHnbWO3hc_ZtIrxSUubMSoM3Yb8vYluZw,2219
+gsc/cli.py,sha256=P5Xo_zIiX5BKunSFfOIFQQ1RCUHI_Qs29kURr1PlZJE,1913
+gsc/client.py,sha256=yP38_9VwbvECCpZaz83VS5UmWFMDIESyDrS4C5ov5lc,930
+gsc/exercises/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gsc/exercises/my_first_commit.py,sha256=8MVB30bITgbcC4n1sbbKYIF6i2-xnL_7QP3RrkL12rA,1373
+gsc/exercises/push_and_pull.py,sha256=v-bijLSbW7PgQiqCM1G4xOljw2cE-A33UG2g15nD8S8,2507
+gsc/exercises/ssh_clone.py,sha256=vgWCHyReeVW4lYfwItDYEHxCJRLS_nQlCgVoQcTnzj8,316
+gsc/exercises/utils.py,sha256=IRkIgyPC6gi3ZNQ-hpxFZzn814A9LCxCxAO7lPyFFZE,1514
+gsc/setup_exercise.py,sha256=Av5dBCHj4V1avnYfoq9Z1IbSO2XAWEGCTJUtaoVQw2k,573
+gsc/verifier.py,sha256=uLjVDy2P7iqZm0XdG-uAT8g2HoW9zXXXki-mg2WnRyE,1515
+gsc-0.0.4.dist-info/entry_points.txt,sha256=ZmcVEWrGCzxBtEcoJ50MVSqNDHB6T6WjwpY7WzX9XO0,36
+gsc-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gsc-0.0.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+gsc-0.0.4.dist-info/METADATA,sha256=h1hkeP7K4W5VRWApexuh3abtDzQvIJ4F6FyU_tJMEXU,759
+gsc-0.0.4.dist-info/RECORD,,
