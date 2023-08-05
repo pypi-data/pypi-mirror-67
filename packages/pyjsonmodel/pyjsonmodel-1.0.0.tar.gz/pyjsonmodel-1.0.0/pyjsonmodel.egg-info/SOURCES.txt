@@ -1,0 +1,10 @@
+README
+setup.py
+jsonModel/__init__.py
+jsonModel/decoder.py
+jsonModel/encoder.py
+pyjsonmodel.egg-info/PKG-INFO
+pyjsonmodel.egg-info/SOURCES.txt
+pyjsonmodel.egg-info/dependency_links.txt
+pyjsonmodel.egg-info/top_level.txt
+pyjsonmodel.egg-info/zip-safe
