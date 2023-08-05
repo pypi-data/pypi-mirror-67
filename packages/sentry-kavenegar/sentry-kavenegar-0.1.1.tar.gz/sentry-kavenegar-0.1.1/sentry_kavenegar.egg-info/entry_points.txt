@@ -1,0 +1,6 @@
+[sentry.apps]
+kavenegar = sentry_kavenegar
+
+[sentry.plugins]
+kavenegar = sentry_kavenegar.models:KavenegarPlugin
+
