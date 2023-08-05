@@ -1,0 +1,9 @@
+README.md
+setup.py
+wayforpay-client/__init__.py
+wayforpay-client/api.py
+wayforpay.egg-info/PKG-INFO
+wayforpay.egg-info/SOURCES.txt
+wayforpay.egg-info/dependency_links.txt
+wayforpay.egg-info/requires.txt
+wayforpay.egg-info/top_level.txt
