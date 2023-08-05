@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fastlog
+Version: 1.0.0b3
+Summary: Simple and colorful Python logging module
+Home-page: https://github.com/Gbps/fastlog
+Author: Gbps
+Author-email: gbps@ctf.re
+License: UNKNOWN
+Keywords: fastlog logging simple fast colored colorful logs log
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System
+Classifier: Topic :: System :: Console Fonts
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Terminals
+Requires-Dist: six
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+Simple and colorful Python logging module
+
+
