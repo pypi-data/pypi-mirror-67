@@ -1,0 +1,10 @@
+README.md
+setup.py
+on_this_day/__init__.py
+on_this_day/__main__.py
+on_this_day.egg-info/PKG-INFO
+on_this_day.egg-info/SOURCES.txt
+on_this_day.egg-info/dependency_links.txt
+on_this_day.egg-info/entry_points.txt
+on_this_day.egg-info/requires.txt
+on_this_day.egg-info/top_level.txt

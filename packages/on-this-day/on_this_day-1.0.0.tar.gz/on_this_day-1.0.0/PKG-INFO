@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: on_this_day
+Version: 1.0.0
+Summary: What happened on this day on the past
+Home-page: https://github.com/thevirusx3/on-this-day
+Author: Saroj Bhattarai
+Author-email: sarojbhattarai2053@gmail.com
+License: MIT
+Description: # This Day In History
+        
+        Find what happened on a particular day in history.
+        
+        # Requirements
+        
+        `pip3 install -r requirements.txt`
+        
+        # Usage
+        
+        
+        ```
+        python3 find_this_day.py -m 1 -d 1 Births
+        
+        This will output the list of famous births in January 1st.
+        ```
+        
+        #### Arguments
+        ```
+        -m/--month = month (optional argument),
+        -d/--day = day (optional argument) and
+        occurrence = postional argument.
+        
+        If no arguments are provided then the default value for month and day will be the current date and
+        Holidays_and_observances will be the default value for occurrence.
+        ```
+        
+        #### Occurrence Choices
+        * Events
+        * Births
+        * Deaths
+        * Holidays_and_observances
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
