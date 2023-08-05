@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+urlpy.py
+urlpy.egg-info/PKG-INFO
+urlpy.egg-info/SOURCES.txt
+urlpy.egg-info/dependency_links.txt
+urlpy.egg-info/requires.txt
+urlpy.egg-info/top_level.txt
