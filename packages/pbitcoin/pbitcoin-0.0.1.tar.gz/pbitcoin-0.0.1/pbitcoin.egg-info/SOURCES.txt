@@ -1,0 +1,8 @@
+README.md
+setup.py
+pbitcoin/__init__.py
+pbitcoin/constant.py
+pbitcoin.egg-info/PKG-INFO
+pbitcoin.egg-info/SOURCES.txt
+pbitcoin.egg-info/dependency_links.txt
+pbitcoin.egg-info/top_level.txt
