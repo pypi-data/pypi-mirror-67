@@ -1,0 +1,11 @@
+belvo/__init__.py,sha256=DgpLNbv0e1LIEOOe54Db8_390i9pelMEFEnsBsNmyhA,23
+belvo/client.py,sha256=q1zPdO7Vb2AHy8etErixVQ8Z-oMdhJOaag9O7ozfKeE,1896
+belvo/enums.py,sha256=ijnQJvCaTcPmghGDzcFkwbt0DrGzgrlNd7aeFWG4RJI,114
+belvo/exceptions.py,sha256=I6xDC_4EtB5i32S3brlOVhR7lg70S-hX_IY6CzMDoJE,233
+belvo/http.py,sha256=Tn6AILRe-dXdf6l1z6I5ss5H52a9sZ0GtIbRaYdsXYc,3688
+belvo/resources.py,sha256=-7TVxIEOFFyNtRMFNY0Jix2BgMKmTYPptm20VJ3T9XU,10467
+belvo_python-0.13.0.dist-info/LICENSE,sha256=cuhOmWc7nH2hcCJCuElSbsuoLtxluRsvrRWtkFQ3F0Y,1058
+belvo_python-0.13.0.dist-info/METADATA,sha256=0X-K9XJdemI5-9jc4Avk5LGW91O9w_tzhyw3P4ngLOg,2773
+belvo_python-0.13.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+belvo_python-0.13.0.dist-info/top_level.txt,sha256=1G9isdC3e5SMd216OORUokT1oo8W5YmAg25fF8f1RIg,6
+belvo_python-0.13.0.dist-info/RECORD,,
