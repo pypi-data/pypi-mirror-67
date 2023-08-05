@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: toponym
+Version: 0.5.1
+Summary: Extract and count countries and cities (+their synonyms) from text
+Home-page: https://github.com/iwpnd/toponym
+Author: Benjamin Ramser
+Author-email: ahoi@iwpnd.pw
