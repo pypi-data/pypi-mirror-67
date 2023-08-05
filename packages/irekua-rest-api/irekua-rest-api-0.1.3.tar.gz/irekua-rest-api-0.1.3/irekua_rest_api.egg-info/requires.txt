@@ -1,0 +1,9 @@
+irekua_database
+irekua_models
+irekua_filters
+irekua_permissions
+djangorestframework
+markdown
+django-filter
+coreapi
+pyyaml
