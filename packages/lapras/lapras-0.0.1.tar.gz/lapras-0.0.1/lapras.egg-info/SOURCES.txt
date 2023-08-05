@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+lapras.egg-info/PKG-INFO
+lapras.egg-info/SOURCES.txt
+lapras.egg-info/dependency_links.txt
+lapras.egg-info/entry_points.txt
+lapras.egg-info/top_level.txt

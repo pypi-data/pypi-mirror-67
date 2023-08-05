@@ -1,0 +1,3 @@
+[console_scripts]
+MSE-Manager = MSE.Worker.Manager:main
+
