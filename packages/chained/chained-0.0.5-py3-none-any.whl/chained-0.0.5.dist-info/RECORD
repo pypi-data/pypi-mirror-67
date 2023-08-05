@@ -1,0 +1,12 @@
+chained/__init__.py,sha256=iKnb1qH4hEO79UCXbV_jz8WWSEFnDaST359Ck75KdA0,28153
+chained/functions/__init__.py,sha256=7obbvBrQ905bAafFgsEPrTu7A5eetKG72RaFVnpJj9s,8532
+chained/functions/optimized.py,sha256=wLGP3bNj3HC9hmrlYR4UleGjtktAMHGK9HrLGTXLt_0,4690
+chained/typing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chained/typing/protocol.py,sha256=sHD-Dq5F3x7kP53d5F1tfy0ecnX3PCVcEErV_kz_g-8,1133
+chained/typing/typevar.py,sha256=x6I2GYUUTZ0RySz-Ks9zXELMvChEi3P1a48pYIRNPM0,193
+chained-0.0.5.dist-info/LICENCE,sha256=B9I8jGKEt0jsNfDwdzGWFeCTQMzYzeuXCLegET6YUgg,1099
+chained-0.0.5.dist-info/METADATA,sha256=9uIUCH34hL0f2Hwn-aI_6htXVzVJXH9FgwhPg14ekPo,594
+chained-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chained-0.0.5.dist-info/top_level.txt,sha256=8y4cn3WbknQb5o_RSwilu8WkcJl76YjrH_tA67zKQZE,8
+chained-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+chained-0.0.5.dist-info/RECORD,,
