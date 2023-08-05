@@ -1,0 +1,5 @@
+requests
+beautifulsoup4==4.8.2
+jinja2
+configparser
+boto==2.49.0
