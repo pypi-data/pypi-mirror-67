@@ -1,0 +1,6 @@
+setup.py
+src/Ufd.py
+src/Ufd.egg-info/PKG-INFO
+src/Ufd.egg-info/SOURCES.txt
+src/Ufd.egg-info/dependency_links.txt
+src/Ufd.egg-info/top_level.txt
