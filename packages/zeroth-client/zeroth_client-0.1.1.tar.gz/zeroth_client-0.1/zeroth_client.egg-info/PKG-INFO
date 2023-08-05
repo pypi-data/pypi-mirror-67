@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: zeroth-client
+Version: 0.1
+Summary: python client package for zeroth
+Home-page: UNKNOWN
+Author: henry.kim
+Author-email: henry@atlaslabs.ai
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
