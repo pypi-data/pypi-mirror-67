@@ -1,0 +1,3 @@
+[console_scripts]
+riffaraffa = riffaraffa.cli:main
+
