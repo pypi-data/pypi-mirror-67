@@ -1,0 +1,8 @@
+README.md
+setup.py
+sbs/__init__.py
+sbs/sbs.py
+sbs_SaraBenShabbat.egg-info/PKG-INFO
+sbs_SaraBenShabbat.egg-info/SOURCES.txt
+sbs_SaraBenShabbat.egg-info/dependency_links.txt
+sbs_SaraBenShabbat.egg-info/top_level.txt
