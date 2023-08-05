@@ -1,0 +1,1 @@
+Celery and RabbitMQ producer and consumer made easy with celery-rmq
