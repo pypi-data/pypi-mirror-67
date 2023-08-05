@@ -1,0 +1,17 @@
+odoo/addons/kpi_dashboard_test/README.rst,sha256=NosnLHRWwHTm-Yj_ezkSyWrfpsF-IUAtzD4Qyjcukvo,2679
+odoo/addons/kpi_dashboard_test/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/kpi_dashboard_test/__manifest__.py,sha256=WWSzfIxjFYou0AIcsbDQ0RrFgizK8Ca9J94YoFFAZsc,431
+odoo/addons/kpi_dashboard_test/demo/demo_dashboard.xml,sha256=hjRuqZHnNXHo_3nOOk8PMQW8SdrH54pkTA3I9RDPYNA,4877
+odoo/addons/kpi_dashboard_test/i18n/kpi_dashboard_test.pot,sha256=jcA_zd_GuUgaWWrW-1-6V8cE1_yCAMA1PL0X_udt00Q,480
+odoo/addons/kpi_dashboard_test/models/__init__.py,sha256=nq65Y1Huozss_nhfxlA2AV3FgRrUEBuCIflBUQIoZfo,22
+odoo/addons/kpi_dashboard_test/models/kpi_kpi.py,sha256=s6fO7bvaL0htDaeB38-Sq6jtPF6ZiMU4rKvQDXq1Cgw,1302
+odoo/addons/kpi_dashboard_test/readme/CONTRIBUTORS.rst,sha256=okC5oUytz6l8wtkSnOgx_v81TJU3bDNcExRpiEuD0dM,41
+odoo/addons/kpi_dashboard_test/readme/DESCRIPTION.rst,sha256=-NqQpa9LBFICfHZtPL1nzv-PpwP3F8VRT1Xi3w8tXKw,51
+odoo/addons/kpi_dashboard_test/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/kpi_dashboard_test/static/description/index.html,sha256=QuT_ilvT1--vF72uOQjdbq6L8SAiTEKmfncS8InMO-A,11790
+odoo/addons/kpi_dashboard_test/tests/__init__.py,sha256=HXJPna4zAMb4iIwPAGKAqiQJw7s-q5quQ4QRyj_t_U0,33
+odoo/addons/kpi_dashboard_test/tests/test_kpi_dashboard.py,sha256=6ICXMycsR42F7wjktdeMgyrPAui_QuMnj95DKn0VNZc,4331
+odoo12_addon_kpi_dashboard_test-12.0.1.0.1.dist-info/METADATA,sha256=dduM-Z9sJ41mWuk0_m5oWnuHfqbb4lQKm-QAXEdrjI4,3221
+odoo12_addon_kpi_dashboard_test-12.0.1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo12_addon_kpi_dashboard_test-12.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_kpi_dashboard_test-12.0.1.0.1.dist-info/RECORD,,
