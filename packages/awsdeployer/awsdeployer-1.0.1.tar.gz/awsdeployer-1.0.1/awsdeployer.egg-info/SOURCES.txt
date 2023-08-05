@@ -1,0 +1,10 @@
+README.md
+setup.py
+awsdeployer/__init__.py
+awsdeployer/gatewayres.py
+awsdeployer.egg-info/PKG-INFO
+awsdeployer.egg-info/SOURCES.txt
+awsdeployer.egg-info/dependency_links.txt
+awsdeployer.egg-info/top_level.txt
+bin/apigateway
+bin/lambda
