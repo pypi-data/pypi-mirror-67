@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: multivar-hypergeom
+Version: 0.0.1
+Summary: A Python module for sampling from the Multivariate Hypergeometric distribution.
+Home-page: https://github.com/smorin8674/multivar_hypergeom
+Author: Sarah Morin
+Author-email: smorin8674@gmail.com
+License: MIT
+Project-URL: Documentation, https://multivar_hypergeom.readthedocs.io/
+Project-URL: Changelog, https://multivar_hypergeom.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/smorin8674/multivar_hypergeom/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+
+
+===========================
+Multivariate Hypergeometric
+===========================
+
+
+
+
+
+
+A Python module for sampling from the Multivariate Hypergeometric distribution.
+
+
+Free Software: MIT License
+
+Installation
+------------
+
+::
+
+        pip install multivar_hypergeom
+
+
+You can also install the in-development version with: ::
+
+        pip install https://github.com/sarahmorin/multivar_hypergeom/archive/master.zip
+
+
+
+Documentation
+-------------
+
+`Read The Docs <https://multivar_hypergeom.readthedocs.io/>`_
+
+Development
+-----------
+
+To run all tests run: ::
+
+        tox
+
+
+Changelog
+=========
+
+0.0.0 (2020-03-02)
+------------------
+
+* First release on PyPI.
+
+0.0.1 (2020-04-27)
+------------------
+
+* Bug fixes in CDF
+  * Catches empty distribution
+  * Uses 64-bit floats
+* Improvements to documentation
+* Updated dependencies (per PyUp)
+
+
