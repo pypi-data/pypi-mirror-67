@@ -1,0 +1,3 @@
+[console_scripts]
+Auto-process = Auto_process.Auto_python:main
+
