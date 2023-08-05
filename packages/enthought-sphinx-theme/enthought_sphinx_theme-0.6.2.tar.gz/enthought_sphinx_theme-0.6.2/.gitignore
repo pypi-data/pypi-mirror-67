@@ -1,0 +1,17 @@
+*.pyc
+*.swp
+*.pyd
+*.so
+*.o
+*.lo
+*.la
+*~
+*.bak
+*.swp
+.\#*
+.deps
+.libs
+.tox
+build/
+dist/
+*.egg-info
