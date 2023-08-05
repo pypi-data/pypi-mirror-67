@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+tox_server.egg-info/PKG-INFO
+tox_server.egg-info/SOURCES.txt
+tox_server.egg-info/dependency_links.txt
+tox_server.egg-info/entry_points.txt
+tox_server.egg-info/requires.txt
+tox_server.egg-info/top_level.txt
