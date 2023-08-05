@@ -1,0 +1,14 @@
+loguru
+lz4
+mypy
+rltk
+seaborn
+sentence_transformers
+sh
+sklearn
+SPARQLWrapper
+tqdm
+etk
+simplejson
+pyrallel.lib
+attrs
