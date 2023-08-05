@@ -1,0 +1,11 @@
+flexga/__init__.py,sha256=16x3MHxtfRcF6t4ajSHNVSw4DiY9CPf8WBBT0GuEZSM,48
+flexga/argmeta.py,sha256=-rRwII-VXuXg1jPJjnHcgoLoPn3ZhlgQXSncI9aJhkM,5870
+flexga/flexga.py,sha256=fTkfs_j_ml-Wg5vQPl_FlbGHNSZswWboHPKzkUV9Vwk,6186
+flexga/genome.py,sha256=3xNSsTCYVggpShYEsvCx2z2eCS757exmlmQIDpjzgU4,4706
+flexga/population.py,sha256=gwkDF3tAQyXx-U9p61hJaiG121Bxv-PpaHkMr7uRwAw,3976
+flexga/utils.py,sha256=kWjoQJOQKo5NU79AZA0sjXN1W9mtxiEJbCE3_x15g4Y,1370
+flexga-1.1.2.dist-info/LICENSE,sha256=GRDZ8CqmdNpQRxrIEOVYumpg-1jIlyJw_Pp25T6HBg0,1070
+flexga-1.1.2.dist-info/METADATA,sha256=2X4A5wQTGlEsBWqxrVUyVQdmHZi4je_5hdE8oTowYBg,340
+flexga-1.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flexga-1.1.2.dist-info/top_level.txt,sha256=OxaFWW-8EOztUp32abWJzPwKUIA7eOrz5FasmReBeks,7
+flexga-1.1.2.dist-info/RECORD,,
