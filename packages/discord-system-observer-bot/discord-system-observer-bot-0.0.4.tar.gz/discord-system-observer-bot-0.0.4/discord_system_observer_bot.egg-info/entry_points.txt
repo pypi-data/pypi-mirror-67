@@ -1,0 +1,3 @@
+[console_scripts]
+dbot-observe = discord_system_observer_bot.cli:main
+
