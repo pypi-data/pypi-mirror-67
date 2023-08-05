@@ -1,0 +1,8 @@
+[pyats.topology.loader]
+README.md = creators.README.md:Readme.Md
+ansible = creators.ansible:Ansible
+file = creators.file:File
+interactive = creators.interactive:Interactive
+netbox = creators.netbox:Netbox
+template = creators.template:Template
+
