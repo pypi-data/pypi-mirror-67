@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Py-Stream-Api
+Version: 0.1
+Summary: Java Stream Api analogue.
+Home-page: https://github.com/RikiTikkiTavi/PyStream-API
+Author: Yahor Paromau
+Author-email: yahor.paromau@gmail.com
+License: MIT
+Download-URL: https://github.com/RikiTikkiTavi/PyStream-API/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: stream-api,functional,stream
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
