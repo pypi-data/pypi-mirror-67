@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-admintool-command
+Version: 0.1
+Summary: A reusable Django app that allows to run mangement commands from admin site
+
+Home-page: https://github.com/daadu/django-admintool-command
+Author: Harsh Bhikadia
+Author-email: harsh@bhikadia.com
+License: The MIT License
+Description: UNKNOWN
+Keywords: django,django admin,django management commands,app,reusable
+Platform: OS Independent
+Provides-Extra: dev
