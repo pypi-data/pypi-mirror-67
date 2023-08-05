@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+Pipfile
+Pipfile.lock
+README.md
+index.py
+pytest.ini
+setup.py
+lambda_gateway/__init__.py
+lambda_gateway/server.py
+lambda_gateway.egg-info/PKG-INFO
+lambda_gateway.egg-info/SOURCES.txt
+lambda_gateway.egg-info/dependency_links.txt
+lambda_gateway.egg-info/entry_points.txt
+lambda_gateway.egg-info/top_level.txt
+tests/__init__.py
