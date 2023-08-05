@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: scipion-em-localrec
+Version: 3.0.0
+Summary: Localrec ready to use in scipion.
+Home-page: https://github.com/scipion-em/scipion-em-localrec
+Author: Laboratory of Structural Biology
+Author-email: grp-lsb-software@helsinki.fi
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: localizedreconstruction cryoem imageprocessing scipion-3.0
+Platform: UNKNOWN
