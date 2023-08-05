@@ -1,0 +1,9 @@
+
+[:python_version < "3.5"]
+Sphinx<2
+
+[:python_version < "3.6"]
+Sphinx<3
+
+[:python_version >= "3.6"]
+Sphinx
