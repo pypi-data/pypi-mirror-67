@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zfpy
+Version: 0.5.5rc1
+Summary: zfp compression in Python
+Home-page: https://computing.llnl.gov/projects/floating-point-compression
+Author: Peter Lindstrom
+Author-email: zfp@llnl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+
+zfp compression in Python
+
+
