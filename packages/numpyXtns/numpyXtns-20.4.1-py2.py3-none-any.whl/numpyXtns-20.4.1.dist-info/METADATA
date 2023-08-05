@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: numpyXtns
+Version: 20.4.1
+Summary: Numpy extension functions.
+Home-page: https://github.com/mommebutenschoen/numpyXtns
+Author: Momme Butenschön
+Author-email: mommebu@yahoo.de
+License: GPL
+Keywords: numpy,scipy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+
+
+================
+numpyXtns README
+================
+
+This package contains various small extension functions for the numpy library.
+
+
+Installation:
+-------------
+
+After downloading the source from the repository install via pip, descending
+into the top-level of the source tree and launching::
+
+  pip install .
+
+or to install in developers mode::
+
+  pip install -e .
+
+Documentation:
+--------------
+
+Documentation to this package can be found on readthedocs_.
+
+
+.. _readthedocs: https://numpyxtns.readthedocs.io/
+
+
