@@ -1,0 +1,11 @@
+coveragecheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coveragecheck/coveragecheck.py,sha256=TMo6u9Ep6lW0Hhhmq_itKV4sY5nSRoFL1S98LJsCwk4,6742
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/lib.py,sha256=e07qklLJQKNAfYPyvNz_4p_au_R9ZASL0uJK1-sTJA0,203
+example/test.py,sha256=cQAXxwj7RGUF0WJLhupssqVGwh1wqBBEJipczf-yI_k,458
+coveragecheck-0.0.3.dist-info/LICENSE,sha256=PhU1pJrORPz2mgfk_-RnkoS1v4rmHQP7Pp2vjX33qzs,1070
+coveragecheck-0.0.3.dist-info/METADATA,sha256=hrDoOSC1AR8KldtZ490lO5iOuBHmBAMltnlOiW-wL-A,2822
+coveragecheck-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+coveragecheck-0.0.3.dist-info/entry_points.txt,sha256=APVlwFusxgarp_b9eziIgxirF1nbPLEA8L4nwx9lixg,68
+coveragecheck-0.0.3.dist-info/top_level.txt,sha256=uqvwIeohmvUPWCraASX6MXMfyFFbMQX0CBIjYeUefgY,22
+coveragecheck-0.0.3.dist-info/RECORD,,
