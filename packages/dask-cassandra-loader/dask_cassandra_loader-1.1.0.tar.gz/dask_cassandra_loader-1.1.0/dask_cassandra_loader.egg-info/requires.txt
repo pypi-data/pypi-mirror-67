@@ -1,0 +1,10 @@
+cassandra-driver
+dask
+distributed
+fsspec
+pandas
+sqlalchemy
+
+[dev]
+prospector[with_pyroma]
+isort
