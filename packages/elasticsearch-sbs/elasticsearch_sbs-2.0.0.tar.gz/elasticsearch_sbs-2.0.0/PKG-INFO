@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: elasticsearch_sbs
+Version: 2.0.0
+Summary: A package for ElasticSearch operations.
+Home-page: UNKNOWN
+Author: Sara Ben Shabbat
+Author-email: sarabenshabbat@gmail.com
+License: UNKNOWN
+Description: # elasticsearch_sbs
+        
+        This is a package for achieving ElastiSearch operations, with minimum of work
+        and maximum of simplicity.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
