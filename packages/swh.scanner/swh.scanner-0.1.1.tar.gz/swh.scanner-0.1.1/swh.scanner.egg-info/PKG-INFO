@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: swh.scanner
+Version: 0.1.1
+Summary: Software Heritage code scanner
+Home-page: https://forge.softwareheritage.org/diffusion/DTSCN/
+Author: Software Heritage developers
+Author-email: swh-devel@inria.fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://forge.softwareheritage.org/maniphest
+Project-URL: Funding, https://www.softwareheritage.org/donate
+Project-URL: Source, https://forge.softwareheritage.org/source/swh-scanner
+Description: Software Heritage - Code Scanner
+        ================================
+        
+        Source code scanner using the
+        `Software Heritage` <https://www.softwareheritage.org/>_
+        `archive <https://archive.softwareheritage.org/>`_
+        as knowledge base.
+        
+        
+        Sample usage
+        ------------
+        
+        .. code-block:: shell
+        
+           $ swh scanner scan --help
+        
+           Usage: swh scanner scan [OPTIONS] PATH
+        
+           Scan a source code project to discover files and directories already
+           present in the archive
+        
+           Options:
+             -u, --api-url API_URL     url for the api request  [default:
+        			       https://archive.softwareheritage.org/api/1]
+             -f, --format [text|json]  select the output format
+             -h, --help                Show this message and exit.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: testing
