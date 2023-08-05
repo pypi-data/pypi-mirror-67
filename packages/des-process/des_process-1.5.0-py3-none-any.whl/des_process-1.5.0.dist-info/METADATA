@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: des-process
+Version: 1.5.0
+Summary: A collection of functions for fetching processes and products from DES.
+Home-page: https://github.com/linea-it/des-process
+Author: Matheus Allein
+Author-email: mtsallein@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.23.0)
+Provides-Extra: dev
+Requires-Dist: pycodestyle (==2.5.0) ; extra == 'dev'
+Requires-Dist: snapshottest (==0.5.1) ; extra == 'dev'
+Requires-Dist: coverage (==5.0.4) ; extra == 'dev'
+Requires-Dist: pytest (==5.4.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.8.1) ; extra == 'dev'
+
+# DES Process (Dark Energy Survey Portal Process)
+[![Coverage Status](https://coveralls.io/repos/github/linea-it/des-process/badge.svg?branch=master)](https://coveralls.io/github/linea-it/des-process?branch=master)
+
+## What is it?
+**[DES Process](https://github.com/linea-it/des-process)** is a collection of functions for fetching processes and products from DES portal.
+
+
