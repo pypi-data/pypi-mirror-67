@@ -1,0 +1,14 @@
+sgextVersion.py,sha256=oaJI24IkYf2wjFgLZOZRhqmnwakwYAeiK1FXS40OrUU,679
+sgext/__init__.py,sha256=MV5mzWZVua9jUtzi42gN8SQR1ShHyyYnpN2SIUyFgC0,22
+sgext/_sgext.cpython-36m-darwin.so,sha256=3ch8ERZyxgdcIKPiE1Zn4CHuK2g6w5F1JWdUu401Xmc,26358956
+sgext-0.9.data/data/lib/libSGAnalyze.a,sha256=3PnNGSzwhWEDzuLCY6fOhlOnh0tWzm8A7KKUmdOn7xA,66704
+sgext-0.9.data/data/lib/libSGCompare.a,sha256=lZbwFEdTQFXogu8_CSY7e4ohNP6MxXKXoErGQgq97pg,204432
+sgext-0.9.data/data/lib/libSGCore.a,sha256=VNXsGs3GdEkWnLYaS5rPGaZtYMb2CUBuVy-Rb08oXFU,1071432
+sgext-0.9.data/data/lib/libSGDynamics.a,sha256=YSeb1WXvJVs0ZlwqMjJH5_PTKjJUG9DcuMchMYdvDTc,179416
+sgext-0.9.data/data/lib/libSGExtract.a,sha256=bKLcig132UvswzwgnHCh3AVcLsuzY9FFwA0jbb2ycl0,120808
+sgext-0.9.data/data/lib/libSGGenerate.a,sha256=2hNx3N96Sj91yc3WcH44UvTCya7oybl9mNwp8i0eFbE,588040
+sgext-0.9.data/data/lib/libSGLocate.a,sha256=z7UYTsASM7oNDI9zPxE2BHkMUHIeHio6pkkcVctih_Y,60008
+sgext-0.9.dist-info/METADATA,sha256=u3Xpj031SpZWXtXhnCoUUuTj4SOkUwRiyMGZUXukPj0,1494
+sgext-0.9.dist-info/WHEEL,sha256=IK7FzMvgV0KBgsO9yx7DkfXw1a_rHEARmIzMXa1ILvw,116
+sgext-0.9.dist-info/top_level.txt,sha256=SO29HFAhWcb01Wgl9oqj4GlrDv0LltJ1qJCxSZljbuQ,19
+sgext-0.9.dist-info/RECORD,,
