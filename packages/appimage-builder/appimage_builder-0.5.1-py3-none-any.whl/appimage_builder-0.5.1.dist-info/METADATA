@@ -1,0 +1,45 @@
+Metadata-Version: 2.0
+Name: appimage-builder
+Version: 0.5.1
+Summary: Recipe based AppImage creation meta-tool
+Home-page: https://github.com/AppImageCrafters/AppImageBuilder
+Author: Alexis Lopez Zubieta
+Author-email: contact@azubieta.net
+License: MIT
+Project-URL: Bug Tracker, https://github.com/AppImageCrafters/AppImageBuilder/issues
+Project-URL: Documentation, https://appimage-builder.readthedocs.io
+Project-URL: Source Code, https://github.com/AppImageCrafters/AppImageBuilder
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml (>=5)
+Requires-Dist: docker
+Requires-Dist: bash.py
+Requires-Dist: requests
+Requires-Dist: schema
+Requires-Dist: packaging
+Requires-Dist: questionary
+Requires-Dist: emrichen
+
+# appimage-builder
+
+`appimage-builder` allows packing applications along with all of its dependencies. It uses
+traditional GNU/Linux software package tools like `apt` or `yum` to obtain binaries and resolve
+dependencies creating a self-sufficient bundle. The embedded binaries are configured to be
+relocatable and to interact with the rest. Finally, the whole bundle is compressed as a
+`squashfs` filesystem and attached to a launcher binary using `appimagetool` making a
+nice AppImage.
+
+**Features**:
+ - Recipe based.
+ - Self-sufficient bundles.
+ - Backward and forwards compatibility.
+ - Cross bundling (don't confuse it with cross-compilation, that's out of the tool scope).
+ - Basic license compliance (package license files will be bundled).
+ - `apt` package manager support.
+ - `yum` package manager support (experimental).
+
+
+
