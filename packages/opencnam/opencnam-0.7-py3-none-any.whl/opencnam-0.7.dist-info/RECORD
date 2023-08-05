@@ -1,0 +1,9 @@
+opencnam/__init__.py,sha256=yOlQoKnrszQXMX1h8271fzXTNMlZSS1VDre0QyjYBpE,373
+opencnam/errors.py,sha256=3BwCe6457HuVUb_khQVmKnJ_16gaPRgMgdMuuftazls,257
+opencnam/opencnam.py,sha256=C-cyKnEwBsOUGrRAnMFlvhj5AHjL9z9vqDL377sjkkw,2551
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_opencnam.py,sha256=xaQJMNaU1Ux5yUgFtH4-ocoK4NT54RoX68xf2j44nos,1123
+opencnam-0.7.dist-info/METADATA,sha256=cYshXI7uavibQrnTzxTNRNYTKvPSHkO59ILU5OVTKLk,3391
+opencnam-0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+opencnam-0.7.dist-info/top_level.txt,sha256=uRXwfVlBaAfeOtBYs4cCSqHYc0wkHUCRtjIS_SfcyRU,15
+opencnam-0.7.dist-info/RECORD,,
