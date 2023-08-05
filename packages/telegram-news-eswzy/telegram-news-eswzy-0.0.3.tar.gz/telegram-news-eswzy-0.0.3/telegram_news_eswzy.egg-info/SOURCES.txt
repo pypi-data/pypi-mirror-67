@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+setup.py
+telegram_news/__init__.py
+telegram_news/displaypolicy.py
+telegram_news/table.sql
+telegram_news/utils.py
+telegram_news/template/__init__.py
+telegram_news/template/common.py
+telegram_news_eswzy.egg-info/PKG-INFO
+telegram_news_eswzy.egg-info/SOURCES.txt
+telegram_news_eswzy.egg-info/dependency_links.txt
+telegram_news_eswzy.egg-info/requires.txt
+telegram_news_eswzy.egg-info/top_level.txt
