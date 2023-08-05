@@ -1,0 +1,8 @@
+README.md
+setup.py
+validdocbr
+validdocbr.egg-info/PKG-INFO
+validdocbr.egg-info/SOURCES.txt
+validdocbr.egg-info/dependency_links.txt
+validdocbr.egg-info/not-zip-safe
+validdocbr.egg-info/top_level.txt
