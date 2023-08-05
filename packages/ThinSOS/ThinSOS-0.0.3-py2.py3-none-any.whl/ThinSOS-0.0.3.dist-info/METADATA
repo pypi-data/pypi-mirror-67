@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ThinSOS
+Version: 0.0.3
+Summary: Python API to the 52North SOS implementation
+Home-page: https://github.com/mullenkamp/ThinSOS
+Author: Mike Kittridge
+Author-email: mullenkamp1@gmail.com
+License: Apache
+Requires-Dist: pandas
+Requires-Dist: requests
+
+ThinSOS - Python API to the 52North SOS implementation
+
+
