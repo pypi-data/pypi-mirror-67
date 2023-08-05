@@ -1,0 +1,10 @@
+README.md
+setup.py
+genre/__init__.py
+genre/genre.py
+genre.egg-info/PKG-INFO
+genre.egg-info/SOURCES.txt
+genre.egg-info/dependency_links.txt
+genre.egg-info/entry_points.txt
+genre.egg-info/requires.txt
+genre.egg-info/top_level.txt
