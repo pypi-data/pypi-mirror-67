@@ -1,0 +1,12 @@
+tkinterx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkinterx/meta.py,sha256=qIHIQ3EFoBF6RvyLCT0oB4kipwUajlW9Vk5XPR4aXFc,3551
+tkinterx/utils.py,sha256=83ZLnQUpmEG67hETKw9obfA7qy_tcwKZNE3mshY1UbQ,384
+tkinterx/window.py,sha256=aHtiaGIZ3ud15OLEA_mfX5uo-J_CPqJlxGHsbKqC3as,5287
+tkinterx/graph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkinterx/graph/canvas.py,sha256=XZJwaxrQMf6Y7_JOt9S9HEfpEcU8DeqfzYJvV5rgAuw,9851
+tkinterx/graph/canvas_design.py,sha256=FkqyzOrrBoU_apfnncuxvRXh_TvkmGXLrtweV2Dxneg,5728
+tkinterx-0.0.7.dist-info/LICENSE,sha256=iSMdwgCikGwqVel5UlzkgIxdrd6y4LJPYbiUZJnvNxY,1088
+tkinterx-0.0.7.dist-info/METADATA,sha256=sZtFHnHHSMnuhbZlIjOfEUZFdRvb7wFxBf8LVvx-BVE,4022
+tkinterx-0.0.7.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+tkinterx-0.0.7.dist-info/top_level.txt,sha256=6jgFH2npOzFAnpkhm2gQ-cXUsnetNHpo5iCeF0cnBKQ,9
+tkinterx-0.0.7.dist-info/RECORD,,
