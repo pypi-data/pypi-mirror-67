@@ -1,0 +1,2 @@
+1. Настроить конфигурацию запуска/остановки robotDaemonConfiguration.json
+2. Запустить исполняемый файл демона runProcessOpenRPARobotDaemon_x32.cmd
