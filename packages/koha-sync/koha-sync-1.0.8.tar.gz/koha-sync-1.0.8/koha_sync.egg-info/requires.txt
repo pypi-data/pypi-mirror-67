@@ -1,0 +1,9 @@
+click
+tqdm
+jsonschema
+requests
+peewee
+pymysql
+loguru
+setuptools
+wheel
