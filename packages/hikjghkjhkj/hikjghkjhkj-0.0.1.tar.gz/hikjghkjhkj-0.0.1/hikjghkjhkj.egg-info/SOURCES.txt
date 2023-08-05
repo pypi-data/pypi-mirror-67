@@ -1,0 +1,8 @@
+setup.py
+hikjghkjhkj.egg-info/PKG-INFO
+hikjghkjhkj.egg-info/SOURCES.txt
+hikjghkjhkj.egg-info/dependency_links.txt
+hikjghkjhkj.egg-info/requires.txt
+hikjghkjhkj.egg-info/top_level.txt
+main/__init__.py
+main/primary.py
