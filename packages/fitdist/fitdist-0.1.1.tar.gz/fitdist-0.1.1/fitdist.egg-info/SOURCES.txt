@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fitdist/__init__.py
+fitdist/examples.py
+fitdist/fitdist.py
+fitdist.egg-info/PKG-INFO
+fitdist.egg-info/SOURCES.txt
+fitdist.egg-info/dependency_links.txt
+fitdist.egg-info/requires.txt
+fitdist.egg-info/top_level.txt
