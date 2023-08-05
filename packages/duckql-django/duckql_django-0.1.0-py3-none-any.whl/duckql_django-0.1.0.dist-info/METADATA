@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: duckql-django
+Version: 0.1.0
+Summary: duckQL Django bindings
+Home-page: https://github.com/Sibyx/duckql-django
+Author: Jakub Dubec
+Author-email: jakub.dubec@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: django (>=2)
+Requires-Dist: duckql (>=0.2.0)
+Requires-Dist: django-enum-choices (>=2.1.2)
+
+# duckql-django 🐥
+
+backboneQL bindings into [Django](https://www.djangoproject.com/) ORM and permissions system. This package suppose
+to provide:
+
+- Database introspection
+- Ability to grant permissions to models and their properties
+- Custom back-end query validation
+
+---
+Made with ☕️ and ❤️ by Jakub Dubec & [BACKBONE s.r.o.](https://www.backbone.sk/en/)
+
+# Changelog
+
+## 0.1.0 : 2020-04-29
+
+- Initial release
+
+

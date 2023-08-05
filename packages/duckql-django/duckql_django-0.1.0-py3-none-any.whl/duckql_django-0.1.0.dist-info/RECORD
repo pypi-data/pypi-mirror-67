@@ -1,0 +1,10 @@
+duckql_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckql_django/models.py,sha256=FsQ76WhtTr2GVCKa-ko9tPQvYuyJl3kwEBwJM0b2zRA,247
+duckql_django/schema.py,sha256=a8_AdGOa7yio6xWmndmnmhP8extXlFr8wNqNpEtJRgM,5817
+duckql_django/version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+duckql_django/wrapper.py,sha256=yCLTiPpF-9BzG0tc9_PY_0mYY4m8KNfF_pvbOBDeMkU,1112
+duckql_django-0.1.0.dist-info/LICENSE,sha256=R0yDmcRn5Ir-uIIWt38KG9_315EX2UmZAyBXhUxKWag,1068
+duckql_django-0.1.0.dist-info/METADATA,sha256=ls48kfZQOQRSgKbbHAKQOnKonRs7UdJg_3Gcyx3u_RE,1475
+duckql_django-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+duckql_django-0.1.0.dist-info/top_level.txt,sha256=O_RfZB9AaVmJlf31lgMlDEd17fPljbBEdwkgUbxN1s4,14
+duckql_django-0.1.0.dist-info/RECORD,,
