@@ -1,0 +1,11 @@
+README.md
+setup.py
+./code-prep/build/jupyterterminals/terminals.css
+./code-prep/build/jupyterterminals/terminals.js
+./code-prep/build/jupyterterminals/xterm.css
+jupyter-config/nbconfig/notebook.d/jupyterterminals.json
+jupyterterminals.egg-info/PKG-INFO
+jupyterterminals.egg-info/SOURCES.txt
+jupyterterminals.egg-info/dependency_links.txt
+jupyterterminals.egg-info/not-zip-safe
+jupyterterminals.egg-info/top_level.txt
