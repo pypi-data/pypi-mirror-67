@@ -1,0 +1,3 @@
+[console_scripts]
+sprite-unpacker = sprite_unpacker.__main__:sprite_unpacker
+

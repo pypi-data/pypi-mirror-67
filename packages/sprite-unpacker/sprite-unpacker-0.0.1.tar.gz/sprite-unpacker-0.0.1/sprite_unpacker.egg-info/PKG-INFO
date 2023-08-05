@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: sprite-unpacker
+Version: 0.0.1
+Summary: Sprite Unpacker for Animal Crossing
+Home-page: https://github.com/DANancy/sprite-unpacker
+Author: DA Nancy
+Author-email: gnancy417@gmail.com
+License: MIT
+Download-URL: https://github.com/DANancy/sprite-unpacker/releases/tag/v.0.0.1
+Description: UNKNOWN
+Keywords: Images,Animal Crossing,Sprites
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

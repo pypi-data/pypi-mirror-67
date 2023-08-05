@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+sprite_unpacker/__init__.py
+sprite_unpacker/__main__.py
+sprite_unpacker.egg-info/PKG-INFO
+sprite_unpacker.egg-info/SOURCES.txt
+sprite_unpacker.egg-info/dependency_links.txt
+sprite_unpacker.egg-info/entry_points.txt
+sprite_unpacker.egg-info/requires.txt
+sprite_unpacker.egg-info/top_level.txt
