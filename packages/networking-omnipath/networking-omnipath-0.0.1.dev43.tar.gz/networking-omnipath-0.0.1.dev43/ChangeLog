@@ -1,0 +1,44 @@
+CHANGES
+=======
+
+* Add OPA enabling document
+* Fix the bind error
+* Add alembic>=0.8.10 as requirement
+* Bump hacking to >=1.1.0 and fix PEP8
+* Add release notes for newest version
+* Correct and improve documentation
+* Replace TBDs in README with the correct info
+* Fix wrong "abort" command for opafmvf
+* Pass OPA guid via dhcp\_extra\_opts option 61
+* Improve port binding for Ironic use case
+* Fix bad guid format
+* Unify and use constants file
+* Fix bad operation "bind", use "add" instead
+* Update devstack/functions
+* Adds more unit tests
+* Add more log debug lines
+* update devstack installation doc and add zuul
+* Remove .zuul.yaml
+* add .zuul.yaml
+* update tox.ini and requirements
+* update neutron\_lib dependency for sqlalchemytypes
+* Reload fabric after network updates
+* Add fabric\_agent tests and remove dead code
+* Add more unit tests and remove dead code
+* Add functional db migration tests
+* Remove unused code and use constants
+* Remove type driver and update .gitignore
+* setup stestr and add unit tests for mechanism driver
+* Fix tox -e docs
+* Fix pep8 styles issues and add release notes
+* Update plugin.sh
+* Fix devstack README
+* fix typos in README
+* Add Documentation guide
+* Add initial testing framework
+* fix functions and devstack plugin
+* add devstack install plugins and fix imports
+* add initial db migration and fix driver path
+* initial commit of networking-omnipath
+* Initial commit
+* Initial commit

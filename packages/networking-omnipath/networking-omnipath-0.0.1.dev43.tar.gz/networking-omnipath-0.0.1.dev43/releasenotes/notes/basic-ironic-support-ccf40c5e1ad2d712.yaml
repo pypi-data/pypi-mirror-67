@@ -1,0 +1,28 @@
+---
+features:
+  - |
+    Ironic baremetal provisioning with Intel Omni-Path Architecture virtual
+    fabrics (networks) attached is now supported.
+issues:
+  - |
+    Directly provisioning the baremetal nodes over the OPA interface is not
+    a capability of this release. Nodes still have to be PXE-booted over an
+    Ethernet interface.
+upgrade:
+  - |
+    To upgrade, simply update this package and restart neutron-server.
+fixes:
+  - |
+    Fixed calling of OPA Fabric Manager with certain incorrect operations.
+  - |
+    Fixed devstack injection of configuration options to have the right order
+    of mechanism drivers.
+  - |
+    Other fixes and improvements
+other:
+  - |
+    This release no longer needs an Ironic out-of-tree change for client-id,
+    instead using option 61 of extra_dhcp_opts to pass the portguid from
+    Ironic to Neutron and then to the Fabric Manager.
+  - |
+    Documentation improvements
