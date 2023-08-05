@@ -1,0 +1,43 @@
+#!/usr/bin/python3 -u
+# BOTLIB - Framework to program bots.
+#
+# bin/bot (irc bot)
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+import bot
+import lo
+import logging
+import os
+import sys
+import time
+
+from botd import __version__
+from bot.krn import Kernel
+from lo.csl import Console
+from lo.shl import daemon, enable_history, execute, parse_cli, set_completer
+
+opts = [
+    ('-w', '--workdir', 'store', str, "", "directory to work on", 'workdir'),
+    ('-m', '--modules', 'store', str, "bot.shw", 'modules to load.', 'modules'),
+    ('-l', '--loglevel', 'store', str, "error", 'set loglevel.', 'level'),
+]
+
+def main():
+    cfg = parse_cli("botd", opts, __version__, """\n\n$ bot\t\t\tstarts a shell\n$ bot <cmd>\t\texecutes a command\n$ bot -m mod1,mod2\tloads modules""")
+    lo.workdir = cfg.workdir or os.path.join(os.path.expanduser("~/.botd"))
+    lo.cdir(lo.workdir)
+    k = Kernel()
+    mods = k.walk(cfg.modules)
+    k.scan(mods)
+    if cfg.txt:
+        k.cmd(cfg.txt)
+        return
+    k.start(True)
+    k.init(mods)
+    set_completer(k.cmds)
+    enable_history()
+    k.wait()
+    
+execute(main)
+os._exit(0)
