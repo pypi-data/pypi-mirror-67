@@ -1,0 +1,11 @@
+README.md
+setup.py
+fast_requests/__init__.py
+fast_requests/fast_requests.py
+fast_requests/fast_requetst_cpp.pyd
+fast_requests/libcurl.dll
+fast_requests/zlib1.dll
+requests_cpp.egg-info/PKG-INFO
+requests_cpp.egg-info/SOURCES.txt
+requests_cpp.egg-info/dependency_links.txt
+requests_cpp.egg-info/top_level.txt
