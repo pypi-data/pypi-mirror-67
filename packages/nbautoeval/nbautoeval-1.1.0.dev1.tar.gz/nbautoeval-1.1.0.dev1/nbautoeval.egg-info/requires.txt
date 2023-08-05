@@ -1,0 +1,5 @@
+ipython
+ipywidgets
+numpy
+markdown2
+PyYAML
