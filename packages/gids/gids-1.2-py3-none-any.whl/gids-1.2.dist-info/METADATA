@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gids
+Version: 1.2
+Summary: Google-images-downloader module using selenium
+Home-page: https://github.com/jinkyuhan/google-images-download
+Author-email: gkswlsrb95@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: beautifulsoup4 (==4.9.0)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.9)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: soupsieve (==2.0)
+Requires-Dist: urllib3 (==1.25.9)
+
+UNKNOWN
+
+
