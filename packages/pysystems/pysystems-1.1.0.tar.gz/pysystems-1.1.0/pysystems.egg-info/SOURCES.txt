@@ -1,0 +1,8 @@
+README.txt
+setup.py
+pysystems/__init__.py
+pysystems.egg-info/PKG-INFO
+pysystems.egg-info/SOURCES.txt
+pysystems.egg-info/dependency_links.txt
+pysystems.egg-info/requires.txt
+pysystems.egg-info/top_level.txt
