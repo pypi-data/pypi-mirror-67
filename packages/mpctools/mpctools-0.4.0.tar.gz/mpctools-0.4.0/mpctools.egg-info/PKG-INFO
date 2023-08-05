@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mpctools
+Version: 0.4.0
+Summary: A set of tools and utilities for extending common libraries and providing parallel capabilities.
+Home-page: https://github.com/michael-camilleri/mpctools
+Author: Michael P. J. Camilleri
+Author-email: michael.p.camilleri@ed.ac.uk
+License: GNU GPL
+Download-URL: https://github.com/michael-camilleri/mpctools/archive/v_0400.tar.gz
+Description: UNKNOWN
+Keywords: extensions,parallel,utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3 :: Only
