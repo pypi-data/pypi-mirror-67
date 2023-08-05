@@ -1,0 +1,9 @@
+setup.py
+scrapy_random_fake_ua/__init__.py
+scrapy_random_fake_ua/middleware.py
+scrapy_random_fake_ua.egg-info/PKG-INFO
+scrapy_random_fake_ua.egg-info/SOURCES.txt
+scrapy_random_fake_ua.egg-info/dependency_links.txt
+scrapy_random_fake_ua.egg-info/entry_points.txt
+scrapy_random_fake_ua.egg-info/requires.txt
+scrapy_random_fake_ua.egg-info/top_level.txt
