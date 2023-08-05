@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: remtorch
+Version: 0.0.1
+Summary: A pytorch dataset that allows you to iterate the data that is on the remote machine without having to copy all the data.
+Home-page: https://github.com/NRshka/remote-dataset
+Author: ['A. Makarov']
+Author-email: makarov.alxr@yandex.ru
+License: MIT license
+Description: ===================================
+        Dataset class to access remote data
+        ===================================
+        
+        **Example of usage**
+        
+        .. code-block:: python
+        
+            import io
+            from PIL import Image
+            import numpy as np
+            import torch
+            from remtorch import RemoteDataset
+        
+        
+            class ImageDataset(RemoteDataset):
+                def prepare_item(self, item):
+                  buf = io.BytesIO(item)
+                  buf.seek(0)
+                  img = Image.open(buf)
+                  return np.array(img)
+        
+            ds = ImageDataset(
+              'servername',
+              'username',
+              'password',
+              '/path/to/files',
+              batchsize
+            )
+        
+            dl = torch.utils.data.DataLoader(ds, batchsize)
+            for img in dl:
+              # do smth
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
