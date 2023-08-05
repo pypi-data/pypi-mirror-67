@@ -1,0 +1,302 @@
+import torch
+import ctypes
+import torch.distributed as dist
+import math
+from torch.nn.utils import clip_grad_norm_
+from mlbench_core.utils.pytorch.distributed import AllReduceAggregationFP16, AllReduceAggregation
+
+try:
+    from apex.optimizers import FusedAdam
+    from apex import amp
+except ImportError as e:
+    pass
+
+
+lib = ctypes.cdll.LoadLibrary(None)
+lib.THCudaHalfTensor_normall.argtypes = [ctypes.c_void_p, ctypes.c_void_p]
+lib.THCudaHalfTensor_normall.restype = ctypes.c_float
+
+
+def fused_norm(input):
+    if input.type() == "torch.cuda.HalfTensor":
+        # 16384 is half 2 if you stare at it long enough
+        return lib.THCudaHalfTensor_normall(
+            torch.cuda._state_cdata, input._cdata, 16384
+        )
+    else:
+        return input.norm()
+
+
+class FP16Optimizer:
+    """
+    Mixed precision optimizer with dynamic loss scaling and backoff.
+    https://docs.nvidia.com/deeplearning/sdk/mixed-precision-training/index.html#scalefactor
+    """
+
+    def __init__(
+        self,
+        fp16_model,
+        grad_clip=float("inf"),
+        loss_scale=1024,
+        dls_downscale=2,
+        dls_upscale=2,
+        dls_upscale_interval=128,
+    ):
+        """
+        Constructor for the Fp16Optimizer.
+
+        :param fp16_model: model (previously casted to half)
+        :param grad_clip: coefficient for gradient clipping, max L2 norm of the
+            gradients
+        :param loss_scale: initial loss scale
+        :param dls_downscale: loss downscale factor, loss scale is divided by
+            this factor when NaN/INF occurs in the gradients
+        :param dls_upscale: loss upscale factor, loss scale is multiplied by
+            this factor if previous dls_upscale_interval batches finished
+            successfully
+        :param dls_upscale_interval: interval for loss scale upscaling
+        """
+        self.fp16_model = fp16_model
+        self.fp16_params, self.fp32_params = self.initialize_flat_fp32_weight()
+        self.since_last_invalid = 0
+        self.loss_scale = loss_scale
+        self.dls_downscale = dls_downscale
+        self.dls_upscale = dls_upscale
+        self.dls_upscale_interval = dls_upscale_interval
+        self.grad_clip = grad_clip
+        self.world_size = dist.get_world_size()
+
+        self.optimizer = None
+
+    def set_optimizer(self, optimizer):
+        self.optimizer = optimizer
+
+    # Flattening master weight
+    def initialize_flat_fp32_weight(self):
+        # Set all gradients to None
+        for p in self.fp16_model.parameters():
+            p.grad = None
+
+        # Count number of parameters per layer
+        nelem = 0
+        for p in self.fp16_model.parameters():
+            nelem += p.numel()
+        fp32_params = torch.empty(nelem, dtype=torch.float32)
+        fp16_params = torch.empty(nelem, dtype=torch.float16)
+
+        pointer = 0
+        for p in self.fp16_model.parameters():
+            nelem = p.numel()
+            fp32_params[pointer : pointer + nelem].copy_(p.data.view(-1))
+            fp16_params[pointer : pointer + nelem].copy_(p.data.view(-1))
+            pointer += nelem
+
+        fp32_params = torch.nn.Parameter(fp32_params, requires_grad=True)
+        fp32_params.grad = torch.autograd.Variable(
+            fp32_params.data.new(*fp32_params.size())
+        )
+
+        fp16_params = torch.nn.Parameter(fp16_params, requires_grad=True)
+        fp16_params.grad = torch.autograd.Variable(
+            fp16_params.data.new(*fp16_params.size())
+        )
+
+        return fp16_params, fp32_params
+
+    @staticmethod
+    def fp16_to_fp32_flat_grad(fp32_params, fp16_model):
+        pointer = 0
+        for p in fp16_model.parameters():
+            nelem = p.numel()
+            fp32_params.grad.data[pointer : pointer + nelem].copy_(p.grad.data.view(-1))
+            pointer += nelem
+
+    @staticmethod
+    def fp16_to_fp16_flat_grad(fp16_params, fp16_model):
+        fp16_params.grad.data = torch.cat(
+            [p.grad.data.view(-1) for p in fp16_model.parameters()]
+        )
+
+    @staticmethod
+    def fp32_to_fp16_grads(fp16_model, fp32_params):
+        pointer = 0
+        for p in fp16_model.parameters():
+            nelem = p.numel()
+            p.data.view(-1).copy_(fp32_params.data[pointer : pointer + nelem])
+            pointer += nelem
+
+    def backward_loss(self, loss):
+        loss *= self.loss_scale
+        loss.backward()
+
+    def step(self, closure=None):
+        """
+        Performs one step of the optimizer.
+        Applies loss scaling, computes gradients in fp16, converts gradients to
+        fp32, inverts scaling and applies optional gradient norm clipping.
+        If gradients are finite, it applies update to fp32 master weights and
+        copies updated parameters to fp16 model for the next iteration. If
+        gradients are not finite, it skips the batch and adjusts scaling factor
+        for the next iteration.
+
+        :param loss: value of loss function
+        :param optimizer: optimizer
+        :param update: if True executes weight update
+        """
+
+        scaling_factor = self.loss_scale
+
+        # Fused adam optim
+        if isinstance(self.optimizer, FusedAdam):
+            # if self.world_size != 1 and self.fp16_model.retain_allreduce_buffers:
+            #     assert len(self.fp16_model.allreduce_buffers) == 1
+            #     self.fp16_params.grad.data = self.fp16_model.allreduce_buffers[0]
+            #
+            #     # Average the all-reduced gradients by world size if APEX
+            #     # doesn't do that
+            #     if not self.fp16_model.gradient_average:
+            #         scaling_factor *= self.world_size
+            # else:
+            #     self.fp16_to_fp16_flat_grad(self.fp16_params, self.fp16_model)
+
+            norm = fused_norm(self.fp16_params.grad.data) / scaling_factor
+        else:
+            self.fp16_to_fp32_flat_grad(self.fp32_params, self.fp16_model)
+            if scaling_factor != 1.0:
+                self.fp32_params.grad.data /= scaling_factor
+
+            norm = clip_grad_norm_([self.fp32_params], self.grad_clip)
+
+        if math.isfinite(norm):
+            if isinstance(self.optimizer, FusedAdam):
+                clip_coef = self.grad_clip / (norm + 1e-6)
+                if clip_coef >= 1:
+                    clip_coef = scaling_factor
+                else:
+                    clip_coef = scaling_factor / clip_coef
+                self.optimizer.step(closure=closure, grads=[self.fp16_params.grad], scale=clip_coef)
+            else:
+                self.optimizer.step(closure=closure)
+            self.fp32_to_fp16_grads(self.fp16_model, self.fp32_params)
+            self.since_last_invalid += 1
+        else:
+            self.loss_scale /= self.dls_downscale
+            self.since_last_invalid = 0
+
+        if self.since_last_invalid >= self.dls_upscale_interval:
+            self.loss_scale *= self.dls_upscale
+            self.loss_scale = min(self.loss_scale, 8192.0)
+            self.since_last_invalid = 0
+
+        for p in self.fp16_model.parameters():
+            p.grad = None
+
+    def zero_grad(self):
+        self.optimizer.zero_grad()
+
+
+class FP32Optimizer:
+    """
+    Standard optimizer, computes backward and applies weight update.
+    """
+
+    def __init__(self, model, grad_clip=None):
+        """
+        Constructor for the Fp32Optimizer
+
+        Args:
+            model (torch.nn.Module): Model
+            grad_clip (float): Coefficient for gradient clipping (max L2 norm of gradients)
+        """
+        self.model = model
+        self.grad_clip = grad_clip
+        self.optimizer = None
+
+    def set_optimizer(self, optimizer):
+        self.optimizer = optimizer
+
+    def step(self, closure=None):
+        """
+        Performs one step of the optimizer.
+        """
+        if self.grad_clip != float("inf"):
+            clip_grad_norm_(self.model.parameters(), self.grad_clip)
+
+        loss = self.optimizer.step(closure=closure)
+        return loss
+
+    def backward_loss(self, loss):
+        loss.backward()
+
+    def zero_grad(self):
+        self.optimizer.zero_grad()
+
+
+class AMPOptimizer:
+    """
+    Optimizer compatible with AMP.
+    Uses AMP to apply loss scaling, computes backward and applies weight
+    update.
+    """
+
+    def __init__(
+        self,
+        model,
+        optimizer,
+        grad_clip=None,
+        loss_scale=8192,
+        dls_upscale_interval=128,
+        average_models=True,
+        world_size=1,
+        use_cuda=False,
+        by_layer=False,
+        use_horovod=False,
+    ):
+        """
+        Constructor for the AMPOptimizer
+
+        Args:
+            model (torch.nn.Module): Model
+            optimizer (torch.optim.optimizer.Optimizer): The underlying optimizer
+            grad_clip (float): Coefficient for gradient clipping, max L2 norm of the gradients
+            loss_scale:
+            dls_upscale_interval:
+        """
+        self.model = model
+        self.grad_clip = grad_clip
+        self.optimizer = optimizer
+        loss_scaler = amp._amp_state.loss_scalers[0]
+        loss_scaler._loss_scale = loss_scale
+        loss_scaler._scale_seq_len = dls_upscale_interval
+
+        if average_models:
+            self.agg_mode = "avg"
+        else:
+            raise NotImplementedError("Only average model is supported right now.")
+
+        if use_horovod:
+            self.agg = AllReduceAggregationFP16(
+                world_size=world_size, use_cuda=use_cuda
+            ).agg_grad(by_layer=by_layer)
+        else:
+            self.agg = AllReduceAggregation(
+                world_size=world_size, use_cuda=use_cuda
+            ).agg_grad(by_layer=by_layer)
+
+    def backward_loss(self, loss):
+        with amp.scale_loss(loss, self.optimizer) as scaled_loss:
+            scaled_loss.backward()
+
+    def step(self, closure=None):
+        """
+        Performs one step of the optimizer.
+        """
+        if self.grad_clip != float("inf"):
+            clip_grad_norm_(amp.master_params(self.optimizer), self.grad_clip)
+
+        self.agg(self.model, self.agg_mode)
+        loss = self.optimizer.step(closure=closure)
+        return loss
+
+    def zero_grad(self):
+        self.optimizer.zero_grad()
