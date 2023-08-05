@@ -1,0 +1,14 @@
+arango_crud/__init__.py,sha256=SYWZtzUBU5yzenuyy6ngWYGbQq53FwiSIu4FScPS56Q,546
+arango_crud/auths.py,sha256=RILwMiWL2O9eaUUBt91BwJtr2H2MmMq82H9UdWAjnHo,20001
+arango_crud/back_off_strategies.py,sha256=p78m3-JDdOFjPWZerDcW_ZLIRSXXmctkmDgOaKFaPF0,1786
+arango_crud/clusters.py,sha256=B3PuAcydHC5RYb9-o7gfuq_G_p_GywUaU-1y2NseFko,2757
+arango_crud/collection.py,sha256=VvSH_nxn8EzCNsgmHcDqDSwLQKkhgDln1krJb5BVBFk,7765
+arango_crud/config.py,sha256=hE0DAHq4Fy7bC6wtEWzyv4424NoYXzFdxv75JGS4XWs,5666
+arango_crud/database.py,sha256=YpSMPXMUsANlRWWMWO4mN2yChQV7NKt3O8auWIO9xr0,4368
+arango_crud/document.py,sha256=VfzftLRp3Kz6GJWizHLGw9InxQOlRxXIVq0dAC1AsvA,12382
+arango_crud/env_config.py,sha256=74nQA2K4V9reduffyrq7QQO8CN2NfMuDwisQdsjNwL8,21502
+arango_crud/helper.py,sha256=O2BzuDjQ5iNYLziPxlxO12x9ddQIKdKn3T4_o4EuArw,3529
+arango_crud-1.0.0.dist-info/METADATA,sha256=MAigF2P-54sdEEt47rK4xpYavShUduMq99cKBlBCXlM,15934
+arango_crud-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+arango_crud-1.0.0.dist-info/top_level.txt,sha256=mHrAMpGf0bDbUwcLSk_Uf8_TM9n4UYXqbIVzR_LyFzE,12
+arango_crud-1.0.0.dist-info/RECORD,,
