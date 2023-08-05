@@ -1,0 +1,9 @@
+dotgit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotgit/args.py,sha256=nftaEzn-LV0nRAbBTnuSxfr8C3MQWmw0lCkBOlFlRs4,661
+dotgit/dotgit.py,sha256=3yRtbZlt9YFe3TNFH7hPgvic2aOtjnvv69RrAja8XuU,192
+dotgit/info.py,sha256=6JlldU1b0-HTiQe5aSSmWmi6AMJQPdp4tWv6RiQP-Gw,209
+dotgit-2.0.0a0.dist-info/LICENSE,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+dotgit-2.0.0a0.dist-info/METADATA,sha256=J16UYwfpJ-GtiszElux2Bauldu36s9jv5PxNMbftxMU,905
+dotgit-2.0.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dotgit-2.0.0a0.dist-info/top_level.txt,sha256=-uguP0IePjixAWNC_-JjFqtxwPsZazRYQzvH2UctgdE,7
+dotgit-2.0.0a0.dist-info/RECORD,,
