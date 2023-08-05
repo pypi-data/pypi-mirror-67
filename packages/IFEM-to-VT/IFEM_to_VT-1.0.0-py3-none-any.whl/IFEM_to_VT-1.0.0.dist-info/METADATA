@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: IFEM-to-VT
+Version: 1.0.0
+Summary: Converts IFEM result files to VT* formats.
+Home-page: UNKNOWN
+Maintainer: Eivind Fonn
+Maintainer-email: eivind.fonn@sintef.no
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: Splipy (>=1.4)
+Requires-Dist: lrsplines (>=1.5)
+Requires-Dist: h5py
+Requires-Dist: vtk
+Provides-Extra: vtf
+Requires-Dist: vtfwriter ; extra == 'vtf'
+
+UNKNOWN
+
+
