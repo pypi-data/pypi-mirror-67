@@ -1,0 +1,4 @@
+aredis<2,>=1.1
+
+[test]
+asynctest<0.14
