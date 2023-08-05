@@ -1,0 +1,9 @@
+aiolog/__init__.py,sha256=XvXIlXxGYhETKM7qRLjB9-8TfOy9jiXOAal-9jUJ6MI,337
+aiolog/base.py,sha256=5rvhTqDPetCcuuyH-Q67m3b8XYUjF7j3KwIqqmZYNR4,1957
+aiolog/smtp.py,sha256=Wk8JO4IFfBIEb49eAgiBkoR1xGDXf3NvLZXB4d4hhsU,1099
+aiolog/telegram.py,sha256=PBPUA_6QjuUcqKFY0fVJmCFhEnNHFTez-t1CuyHB6zI,817
+aiolog-0.1.0.dist-info/LICENSE,sha256=0BDHwBbqPGnM7ZEFv3mLDiUwq7M8sFAUNndMt9gu2Ro,725
+aiolog-0.1.0.dist-info/METADATA,sha256=uTVPj3klX9g2PYJx7MBOTWBRfOYgdkhqA3evc0sC8oU,2740
+aiolog-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiolog-0.1.0.dist-info/top_level.txt,sha256=myWyLunzV-i1xuW7Nwt1Sb4zDbSCbvXw0USTJeQXOAQ,7
+aiolog-0.1.0.dist-info/RECORD,,
