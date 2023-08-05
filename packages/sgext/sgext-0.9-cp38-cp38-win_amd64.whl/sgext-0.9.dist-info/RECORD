@@ -1,0 +1,14 @@
+sgextVersion.py,sha256=Kw_M899KSGSqcUAMzTo_UiQAgIRMLI1XdHXONeqiCmQ,704
+sgext/__init__.py,sha256=-freK-wcbtJgRtP4FRCqqupeuegwPWdcLZBJ6tIUTWQ,23
+sgext/_sgext.cp38-win_amd64.pyd,sha256=fjBOA1IqLJx3isojHzKD0MKIaqjRxCLl7KP8CfT3Yjw,15524864
+sgext-0.9.data/data/lib/SGAnalyze.lib,sha256=rXzkU0ElmwHjkFEOMo0vqv4f0B2T-xYTP5UOujeApVM,716436
+sgext-0.9.data/data/lib/SGCompare.lib,sha256=MYZpAPTTEqFueiZUW5_ZjOAF1S_xF0sTnnIlTVRvKoY,6268622
+sgext-0.9.data/data/lib/SGCore.lib,sha256=-R0HnDvIXXEspPh9lpNr8AJTX1hJ-7obCopYrEqsyj4,16130090
+sgext-0.9.data/data/lib/SGDynamics.lib,sha256=tVMCbfeOVKF0nhGVmkMZz-I1uDewFOoMWqgVOzc_jvw,2068346
+sgext-0.9.data/data/lib/SGExtract.lib,sha256=xD13pCc0T-5ojCXB1eNiN496Opg9w64pvd2lselAkus,4107366
+sgext-0.9.data/data/lib/SGGenerate.lib,sha256=wiuhknhPT0UAQfRP5rtwBgZ3-TPdSz8t1VUB-rDBhuc,8073640
+sgext-0.9.data/data/lib/SGLocate.lib,sha256=asDWH-5npIaSxZXKfkUI2BA_OIVT4ERZ0NXwRK8ka6A,1253822
+sgext-0.9.dist-info/METADATA,sha256=u3Xpj031SpZWXtXhnCoUUuTj4SOkUwRiyMGZUXukPj0,1494
+sgext-0.9.dist-info/WHEEL,sha256=DBpK2PkZ8eso1drWn9T2PR4ArRrkj2sp0KOQXjFG3-Y,111
+sgext-0.9.dist-info/top_level.txt,sha256=SO29HFAhWcb01Wgl9oqj4GlrDv0LltJ1qJCxSZljbuQ,19
+sgext-0.9.dist-info/RECORD,,
