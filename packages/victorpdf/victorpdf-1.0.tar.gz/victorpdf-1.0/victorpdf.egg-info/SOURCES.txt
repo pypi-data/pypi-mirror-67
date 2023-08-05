@@ -1,0 +1,9 @@
+README.md
+setup.py
+victorpdf/__init__.py
+victorpdf/pdf2image.py
+victorpdf/pdf2text.py
+victorpdf.egg-info/PKG-INFO
+victorpdf.egg-info/SOURCES.txt
+victorpdf.egg-info/dependency_links.txt
+victorpdf.egg-info/top_level.txt
