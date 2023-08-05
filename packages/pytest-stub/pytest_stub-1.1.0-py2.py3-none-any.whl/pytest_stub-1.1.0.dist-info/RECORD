@@ -1,0 +1,11 @@
+pytest_stub/__init__.py,sha256=Yz29WB9g2_eUAGH0eZY9X_NJJcuzcy2dqqRAlIi5Fiw,145
+pytest_stub/stub.py,sha256=N4wgVB3T7NqYVJKVeq4qARIHvq5D1ftMEsNICfEhKco,737
+pytest_stub/toolbox.py,sha256=0n644cXORB98oL_ihXtGwVsXPqpxXzs9KsbuNCVQysQ,39
+pytest_stub/utils.py,sha256=-JfifV40f762YFxrdbBDVnq4k1Z0LdkamlobIyRhmgc,2425
+pytest_stub-1.1.0.dist-info/AUTHORS,sha256=X_dYx-vl8TzH2VbnQE-tCvwitgAZAXVTAKTKZopwb7w,187
+pytest_stub-1.1.0.dist-info/LICENSE,sha256=T0J6BwhobDkDcDwzX2-LY0nyS7iFShm-Q6Dw5f9QqbU,1504
+pytest_stub-1.1.0.dist-info/METADATA,sha256=bN1dQQSoApXG_R043D-D0Z4JQ6hvy7YwkfF2k383n6Q,3257
+pytest_stub-1.1.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+pytest_stub-1.1.0.dist-info/entry_points.txt,sha256=bsgcvIs0BbwSs3aG4Hn6dPafy_FoDlb5ryISEeit-z4,36
+pytest_stub-1.1.0.dist-info/top_level.txt,sha256=rZ-pY8mCak9VUx_1p_CaD_8KgcpNxFV5K6csE-ZFpS0,12
+pytest_stub-1.1.0.dist-info/RECORD,,
