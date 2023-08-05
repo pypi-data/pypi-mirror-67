@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zotero2wordcloud
+Version: 0.0.1
+Summary: A package to create a word cloud from a collection of papers in a user's Zotero collection.
+Home-page: https://github.com/rgulli/zotero2wordcloud/
+Author: Roberto A. Gulli
+Author-email: robertoagulli@gmail.com
+License: UNKNOWN
+Description: # zotero2wordcloud
+        Create a word cloud based on a specified field of a collection of papers from Zotero. 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
