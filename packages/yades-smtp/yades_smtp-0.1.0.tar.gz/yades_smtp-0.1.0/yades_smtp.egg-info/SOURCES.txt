@@ -1,0 +1,12 @@
+README.md
+setup.py
+yades_smtp/__init__.py
+yades_smtp/controller.py
+yades_smtp/main.py
+yades_smtp/utils.py
+yades_smtp.egg-info/PKG-INFO
+yades_smtp.egg-info/SOURCES.txt
+yades_smtp.egg-info/dependency_links.txt
+yades_smtp.egg-info/entry_points.txt
+yades_smtp.egg-info/requires.txt
+yades_smtp.egg-info/top_level.txt

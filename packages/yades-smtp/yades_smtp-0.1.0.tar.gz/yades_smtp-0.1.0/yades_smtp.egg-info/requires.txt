@@ -1,0 +1,5 @@
+aiosmtpd==1.2
+dnspython==1.16.0
+environs==7.4.0
+flanker==0.9.11
+motor==2.1.0

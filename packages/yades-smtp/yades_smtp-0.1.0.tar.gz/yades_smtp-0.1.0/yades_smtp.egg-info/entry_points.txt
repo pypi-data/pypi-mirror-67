@@ -1,0 +1,3 @@
+[console_scripts]
+yades_smtp = yades_smtp.main:main
+
