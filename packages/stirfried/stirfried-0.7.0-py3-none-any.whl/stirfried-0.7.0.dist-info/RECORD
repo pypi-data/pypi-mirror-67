@@ -1,0 +1,6 @@
+stirfried/__init__.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+stirfried/celery.py,sha256=ZWHI-l1Yj8E1I7PjXgZrme0zfFp86LhlJ3q6BT_q4Os,3870
+stirfried/server.py,sha256=C38l7cOfw7ZHXYQqwtoGeTzifJBiuT-Pw0czqdPn6WA,5924
+stirfried-0.7.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+stirfried-0.7.0.dist-info/METADATA,sha256=K3B9YwJc_WtOx2ldtYp196eC70roWE9SNAv444enI6A,12164
+stirfried-0.7.0.dist-info/RECORD,,
