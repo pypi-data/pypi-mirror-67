@@ -1,0 +1,8 @@
+README.md
+setup.py
+letterpress/__init__.py
+letterpress.egg-info/PKG-INFO
+letterpress.egg-info/SOURCES.txt
+letterpress.egg-info/dependency_links.txt
+letterpress.egg-info/requires.txt
+letterpress.egg-info/top_level.txt

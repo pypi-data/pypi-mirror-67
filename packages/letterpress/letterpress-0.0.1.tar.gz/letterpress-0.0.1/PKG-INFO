@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: letterpress
+Version: 0.0.1
+Summary: batch docx generation
+Home-page: https://github.com/littercodersh/letterpress
+Author: LittleCoder
+Author-email: i7meavnktqegm1b@qq.com
+License: UNKNOWN
+Description: # Letterpress
+        
+        Letterpress取意于活字印刷，是帮需要批量生成Word的朋友写的一个小工具。
+        
+        每一套信息需要生成大量文件，Word自带的邮件生成也帮不了他。
+        
+        ## Installation
+        
+        ```bash
+        python -m pip install letterpress
+        ```
+        
+        ## Usage
+        
+        假设你有一个Word文件，起名为template.docx，其中的内容是这样的：
+        
+        ```
+        标题：{{ topic }}
+        正文: {{ content }}
+        ```
+        
+        这些内容可以在正文，可以在表格，甚至可以在页眉页脚或者嵌套的表格中。
+        
+        当然，也可以在页眉页脚嵌套的表格中。
+        
+        这些内容也可以是任何格式，任何大小，甚至大括号与变量名都不需要统一格式。
+        
+        唯一需要注意的是，需要用两个大括号和一个空格包围你的变量名。
+        
+        然后运行下面的Python代码：
+        
+        ```python
+        from letterpress import TemplateDocument
+        
+        vm = {
+            'topic': 'my-topic',
+            'content': 'my-content',
+        }
+        template = TemplateDocument('template.docx', vm.keys())
+        template.parse_document()
+        template.replace_and_save(vm, 'outcome.docx')
+        
+        vm = {
+            'topic': 'my-another-topic',
+            'content': 'my-another-content',
+        }
+        template.replace_and_save(vm, 'another-outcome.docx')
+        ```
+        
+        就根据给定的内容生成了两个Word文件。
+        
+        ## FAQ
+        
+        Q: Word文件无法读取，显示检测到不是Word文件。
+        A: python-docx读取的方式不适用于老版本Word，升级到docx就好了。
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
