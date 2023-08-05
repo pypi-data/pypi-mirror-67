@@ -1,0 +1,9 @@
+filecollector/__init__.py,sha256=Y4d1DMWtk3v4w3QBMUZkJWixfwnMN5UnmZgDS1wCdw0,806
+filecollector/collector.py,sha256=MJzsLQSSSMtHuMnkxj4TyrCfbVUb1lV47IuRagwGu58,5376
+filecollector/server.py,sha256=t6Jaq_6AHQh6_rIaYz2h4OLomEXqkeqMGUv-jXP7iXw,2381
+filecollector-0.0.1.data/scripts/filecollector,sha256=vbvKsUBCjjRWl4PiKsoMOzwJcj-Te2-48gcTmVNdpG8,4899
+filecollector-0.0.1.dist-info/LICENSE,sha256=0VMj8M8QQ40lSQTNljewlCMkDDQjaJY-94zWax91BXk,11349
+filecollector-0.0.1.dist-info/METADATA,sha256=AuqIoLoJePOlSsCjEi2MG2OPP7O3dIY60ZPgDfyoJoY,4219
+filecollector-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+filecollector-0.0.1.dist-info/top_level.txt,sha256=CQkiN2D5XlpU4HpAAQcmWwIGKqA5ytxTpj2qFqESlPo,14
+filecollector-0.0.1.dist-info/RECORD,,
