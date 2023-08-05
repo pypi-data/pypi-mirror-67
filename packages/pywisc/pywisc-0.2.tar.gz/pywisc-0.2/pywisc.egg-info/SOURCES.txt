@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pywisc/prueba_base.py
+pywisc/wisc_base.py
+pywisc.egg-info/PKG-INFO
+pywisc.egg-info/SOURCES.txt
+pywisc.egg-info/dependency_links.txt
+pywisc.egg-info/top_level.txt
+test/test_base.py
