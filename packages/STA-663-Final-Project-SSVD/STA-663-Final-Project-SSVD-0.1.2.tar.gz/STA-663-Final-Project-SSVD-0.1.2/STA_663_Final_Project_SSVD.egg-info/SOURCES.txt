@@ -1,0 +1,16 @@
+Biclustering via Sparse Singular Value Decomposition.html
+Biclustering via Sparse Singular Value Decomposition.ipynb
+MANIFEST.in
+README.md
+STA-663-Final-Project-SSVD.py
+Start_Project.py
+setup.py
+SSVD/__init__.py
+SSVD/sources.py
+STA_663_Final_Project_SSVD.egg-info/PKG-INFO
+STA_663_Final_Project_SSVD.egg-info/SOURCES.txt
+STA_663_Final_Project_SSVD.egg-info/dependency_links.txt
+STA_663_Final_Project_SSVD.egg-info/top_level.txt
+data/breast_cancer.txt
+data/lung_cancer.txt
+data/ssvd_results.txt
