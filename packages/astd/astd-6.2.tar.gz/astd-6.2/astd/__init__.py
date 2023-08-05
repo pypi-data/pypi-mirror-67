@@ -1,0 +1,96 @@
+from enum import Enum
+from typing import List
+import asyncio
+    
+class async_state_transition:
+    def __init__(self, *, taskMapName : str, stateToChangeName : str, validEntryStates : List[Enum], transitionState : Enum, feedback, signal, arg):
+        """
+        A decorator for an asyncronous state transition.
+        (i,e the state transition request call will return imeditely, but the state transition will only happen in the future).
+        After the state transition request call is made, the state will transition to the transitionState, and then will only transition to the
+        desired state after an event has occured.
+        The request will only be succseffull if the state is currently is one of the validEntryStates, and if it is not currently allready transitioning.
+        Requests can be canceled using the cancel() method on the task (See example code).
+        The function this is decorating must be a member function, and the owning class must have a dict to store the currenty pending tasks.
+        @param taskMapName: The name of the Dict of pending tasks, belonging to the class that owns the member function that this is decorating
+        @param stateToChangeName: The name of the state to change, belonging to the class that owns the member function that this is decorating
+        @param validEntryStates: a list of enums of possible entry states that this trasition can be made from. If the state to change is not one of these,
+            the request will fail
+        @param transitionState: if the request is successufull, the state to change will imediely go into this transition state
+        @param feedback: provide feedback from signal while state is changing
+        @param signal: an awaitable (async) function pointer that blocks the transition from happening imeditely. E.g this could be a timer if the state transition
+            should happen afetr a time delay, or it could be a blocking function that waits untill an event has occured.
+        @param *args: arguments for the signal. These are optional
+        """
+        self.__taskMapName = taskMapName
+        self.__stateToChangeName = stateToChangeName
+        self.__validEntryStates = validEntryStates
+        self.__transitionState = transitionState
+        self.__feedback = feedback
+        self.__signal = signal
+        self.__signalArg = arg
+        
+    def __call__(self, f):
+        def wrapped_f(*args):
+                        
+             # f must be a member function, so arg 0 is self, i.e the class that owns the member function
+            obj = args[0]
+
+            # obj must have a task map. the name of the task map is set in __init__
+            taskMap = obj.__getattribute__(self.__taskMapName)
+            
+            # check transition is valid
+            if obj.__getattribute__(self.__stateToChangeName) not in self.__validEntryStates:
+                msg = "state \"" + self.__stateToChangeName + "\" can only transition from: " + str(self.__validEntryStates)
+                print(msg)
+                return (False, msg)
+            
+            # check transition is valid
+            if self.__stateToChangeName in taskMap.keys():
+                msg = "state \"" + self.__stateToChangeName + "\" transition already in progress"
+                print(msg)
+                return (False, msg)
+            
+            # imeditely transition to the transition state
+            obj.__setattr__(self.__stateToChangeName, self.__transitionState)
+            
+            # Schedule a job to be executed when signal has finished executing
+            async def __job():
+                await self.__signal(self.__feedback, self.__signalArg)
+                await f(*args) # transition to the final state
+                taskMap.pop(self.__stateToChangeName) # remove task from the pending task map
+
+            taskMap[self.__stateToChangeName] = asyncio.ensure_future(__job())
+            
+            # Return true once job has been scehduled
+            return (True, "")
+                        
+        return wrapped_f
+ 
+async def timeDelay(feedback, time):
+    for i in range(0,100):
+        feedback(i)
+        await asyncio.sleep(time/100)
+
+class state_transition_canceler:
+    def __init__(self, taskMapName : str, stateToChangeName : str, newState):
+        self.__taskMapName = taskMapName
+        self.__stateToChangeName = stateToChangeName
+        self.__newState = newState
+    def __call__(self, f):
+        def wrapped_f(*args):
+            
+             # f must be a member function, so arg 0 is self, i.e the class that owns the member function
+            obj = args[0]
+
+            # obj must have a task map. the name of the task map is set in __init__
+            taskMap = obj.__getattribute__(self.__taskMapName)
+            
+            if self.__stateToChangeName in taskMap:
+                taskMap[self.__stateToChangeName].cancel()
+                taskMap.pop(self.__stateToChangeName)
+                obj.__setattr__(self.__stateToChangeName, self.__newState) # imeditely transition to the transition state
+            else:
+                print("No transition is in progress")
+            f(*args)
+        return wrapped_f
