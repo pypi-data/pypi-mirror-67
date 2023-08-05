@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: alias
+Version: 0.3.8
+Summary: Alias is the container.
+Home-page: https://github.com/psytron/alias
+Author: Mico Malecki
+Author-email: m@psytron.com
+License: PSYTRON
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: keycache
+Requires-Dist: sysfinger
+Requires-Dist: pandas
+Requires-Dist: ccxt
+
+### Alias
+Identity Management Container
+
+
+
