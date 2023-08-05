@@ -1,0 +1,3 @@
+[console_scripts]
+dld = nesteddict.dictlistdict:main
+
