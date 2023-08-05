@@ -1,0 +1,8 @@
+README.md
+setup.py
+pytest_mutagen.egg-info/PKG-INFO
+pytest_mutagen.egg-info/SOURCES.txt
+pytest_mutagen.egg-info/dependency_links.txt
+pytest_mutagen.egg-info/entry_points.txt
+pytest_mutagen.egg-info/requires.txt
+pytest_mutagen.egg-info/top_level.txt
