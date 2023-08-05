@@ -1,0 +1,5 @@
+setup.py
+expressintegrations.egg-info/PKG-INFO
+expressintegrations.egg-info/SOURCES.txt
+expressintegrations.egg-info/dependency_links.txt
+expressintegrations.egg-info/top_level.txt
