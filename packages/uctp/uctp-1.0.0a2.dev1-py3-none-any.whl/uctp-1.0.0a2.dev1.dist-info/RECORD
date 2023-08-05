@@ -1,0 +1,11 @@
+uctp/__init__.py,sha256=TxMCFFiXyn9agk6Jjq4Nbtq-uIBB45NhOMmh6F3tJnI,209
+uctp/additional.py,sha256=mcpR0_Dc8C6g8BX0iRFL1nu4yQBHDV6wIv-YZCoR3iY,286
+uctp/cli.py,sha256=wqciW0YMCPM6CokmBwFAfr_rK6EKVMsT3m7_5mfav8Y,9453
+uctp/peer.py,sha256=MPmOQcXcmNGWORkWoTjInP6cUAzLM5w5KC6uFnFgkXI,29822
+uctp/protocol.py,sha256=SFy5tPDKIZxNRGMh8ALfvFGRagYwYCMoc2LDvqYXhLg,7112
+uctp-1.0.0a2.dev1.data/scripts/uctp,sha256=xvuybBfOFGqa5qiLSeHCTCcys-2QjlhGatn1qIkJzZs,43
+uctp-1.0.0a2.dev1.dist-info/LICENSE.md,sha256=9lckBJZxYVrFtQzuJqXk3itHcVnBuboML8HkFfVepJk,1072
+uctp-1.0.0a2.dev1.dist-info/METADATA,sha256=onVU1D4UokDBS8af7sLlQw6cb3sw5HGsnt8IIdRnxWU,899
+uctp-1.0.0a2.dev1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+uctp-1.0.0a2.dev1.dist-info/top_level.txt,sha256=-Yk5VECVxO9rYd3FRtc6l7vwHAnOEi3PYJ0RtIo48b0,5
+uctp-1.0.0a2.dev1.dist-info/RECORD,,
