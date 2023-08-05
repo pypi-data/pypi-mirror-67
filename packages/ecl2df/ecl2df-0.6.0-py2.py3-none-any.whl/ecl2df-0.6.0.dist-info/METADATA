@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ecl2df
+Version: 0.6.0
+Summary: Convert Eclipse 100 input and output to DataFrames
+Home-page: http://github.com/equinor/ecl2df
+Author: Håvard Berland
+Author-email: havb@equinor.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: libecl
+Requires-Dist: pandas
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: treelib
+Provides-Extra: tests
+Requires-Dist: networkx ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: sphinx ; extra == 'tests'
+Requires-Dist: sphinx-argparse ; extra == 'tests'
+Requires-Dist: sphinx-rtd-theme ; extra == 'tests'
+Requires-Dist: black ; (python_version >= "3") and extra == 'tests'
+
+UNKNOWN
+
+
