@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: krakenio3
+Version: 0.1.1
+Summary: Kraken.io API Client
+Home-page: https://github.com/TomAnthony/kraken-python
+Author: Nekkra UG
+Author-email: support@kraken.io
+License: MIT
+Description: Python 3 client for Kraken.io.
+Keywords: kraken kraken.io image optimizer optimiser resizer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
