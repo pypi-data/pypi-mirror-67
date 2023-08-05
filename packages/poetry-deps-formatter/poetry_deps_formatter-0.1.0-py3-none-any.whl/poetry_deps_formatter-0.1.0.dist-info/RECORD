@@ -1,0 +1,6 @@
+poetry_deps_formatter/__init__.py,sha256=09RR4uNJ1q1jM_xo58mcLjPCXFFlG1RGhM_yEjQCOBw,125
+poetry_deps_formatter/formatter.py,sha256=q-FhfWRelZZ5LSRgeStemgHus-BFwtvROgooCwJ7zWU,1235
+poetry_deps_formatter-0.1.0.dist-info/entry_points.txt,sha256=3Na2FMgMD_2vEZtF8dLslYCwxNcGv1GE-yDG-GWk12o,58
+poetry_deps_formatter-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+poetry_deps_formatter-0.1.0.dist-info/METADATA,sha256=4e5u1Piu4-5mt5ZTrFPg6_rOkJaucUuYhkEofSgxCBk,404
+poetry_deps_formatter-0.1.0.dist-info/RECORD,,
