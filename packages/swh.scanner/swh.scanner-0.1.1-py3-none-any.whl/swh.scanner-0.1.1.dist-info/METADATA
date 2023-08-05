@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: swh.scanner
+Version: 0.1.1
+Summary: Software Heritage code scanner
+Home-page: https://forge.softwareheritage.org/diffusion/DTSCN/
+Author: Software Heritage developers
+Author-email: swh-devel@inria.fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://forge.softwareheritage.org/maniphest
+Project-URL: Funding, https://www.softwareheritage.org/donate
+Project-URL: Source, https://forge.softwareheritage.org/source/swh-scanner
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: vcversioner
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: plotly
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: dulwich
+Requires-Dist: swh.core
+Requires-Dist: swh.model (>=0.0.64)
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: aioresponses ; extra == 'testing'
+Requires-Dist: pytest-asyncio ; extra == 'testing'
+Requires-Dist: pytest-flask ; extra == 'testing'
+Requires-Dist: swh.core[testing-core] ; extra == 'testing'
+Requires-Dist: swh.model[testing] ; extra == 'testing'
+Requires-Dist: swh.storage[testing] ; extra == 'testing'
+Requires-Dist: swh.web[testing] ; extra == 'testing'
+
+Software Heritage - Code Scanner
+================================
+
+Source code scanner using the
+`Software Heritage` <https://www.softwareheritage.org/>_
+`archive <https://archive.softwareheritage.org/>`_
+as knowledge base.
+
+
+Sample usage
+------------
+
+.. code-block:: shell
+
+   $ swh scanner scan --help
+
+   Usage: swh scanner scan [OPTIONS] PATH
+
+   Scan a source code project to discover files and directories already
+   present in the archive
+
+   Options:
+     -u, --api-url API_URL     url for the api request  [default:
+			       https://archive.softwareheritage.org/api/1]
+     -f, --format [text|json]  select the output format
+     -h, --help                Show this message and exit.
+
+
