@@ -1,0 +1,15 @@
+bottle
+deepdiff
+Deprecated
+fuzzywuzzy
+keyring
+pychromecast
+PyGObject
+python-dateutil
+python-Levenshtein
+python-mpv
+pyyaml
+requests
+
+[:sys_platform == "darwin"]
+osxmmkeys
