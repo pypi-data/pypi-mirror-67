@@ -1,0 +1,7 @@
+README.md
+setup.py
+config_onion/__init__.py
+config_onion.egg-info/PKG-INFO
+config_onion.egg-info/SOURCES.txt
+config_onion.egg-info/dependency_links.txt
+config_onion.egg-info/top_level.txt
