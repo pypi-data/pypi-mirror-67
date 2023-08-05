@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: pytest-ansible-playbook-runner
+Version: 0.0.4
+Summary: Pytest fixture which runs given ansible playbook file.
+Home-page: https://github.com/final-israel/pytest-ansible-playbook-runner
+Author: Martin Bukatovič
+Author-email: mbukatov@redhat.com
+Maintainer: Pavel Rogovoy
+Maintainer-email: pavelr@final.co.il
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: POSIX
