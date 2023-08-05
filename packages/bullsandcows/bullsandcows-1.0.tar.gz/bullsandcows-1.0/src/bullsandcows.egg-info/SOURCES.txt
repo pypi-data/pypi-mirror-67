@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/bullsandcows.py
+src/bullsandcows.egg-info/PKG-INFO
+src/bullsandcows.egg-info/SOURCES.txt
+src/bullsandcows.egg-info/dependency_links.txt
+src/bullsandcows.egg-info/top_level.txt
