@@ -1,0 +1,9 @@
+bbbmon/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+bbbmon/bbbmon.py,sha256=pNcuocUSREOw1rFXqpPmLUR8YW1ABCK89t8qyYofIoo,8025
+bbbmon/configuration.py,sha256=2bqile0rhG32wgXQUONP3favNp-S9Di3IRzl6GjAKo8,3446
+bbbmon/xmldict.py,sha256=dLrCyaNSqEctRYAXe3cACPxlXwuEFXiAVG6TaN2hO40,2682
+bbbmon-0.1.7.dist-info/entry_points.txt,sha256=9F6qcv8zaQSEm4edt7O4qPCnVE5J1Jm6Vd4CPffz0Ok,42
+bbbmon-0.1.7.dist-info/LICENSE,sha256=E9_VY9hEW6ZnLI86svPFLc-A86G3iWKt4xnwosh1-fM,35063
+bbbmon-0.1.7.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+bbbmon-0.1.7.dist-info/METADATA,sha256=z9bVk3etbiBp5zbnbaJZ7JdxZ6j70ZJPMDw0cbJe8tI,2804
+bbbmon-0.1.7.dist-info/RECORD,,
