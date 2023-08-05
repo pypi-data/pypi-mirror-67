@@ -1,0 +1,7 @@
+docs/images/IDE_SetSrc.png,sha256=DEZtBL_W6HjpUe1-Vlz4c_fBqDCNbu6bp3HLwm5zPWk,79887
+runtime_syspath/__init__.py,sha256=ILxHyqVJEcJVS8qYwxuzI7OVn65-vIPPTUTL5vE_Ta4,417
+runtime_syspath/add_srcdirs_to_syspath.py,sha256=hYHBbwx9cDVfopssoH_TM3kRPKotfmkYQrpNBJyP-3M,2382
+runtime_syspath/print_sorted_syspath.py,sha256=7TWP3bK8KUFQ1wMAszuyMEIZ1ELfUBGDei_v_xjfXkY,2341
+runtime_syspath-0.1.7.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+runtime_syspath-0.1.7.dist-info/METADATA,sha256=6oJcLZ_jyjZZySfMIlXxtEZmcnv2-bKCzOpRdFd7o0U,5059
+runtime_syspath-0.1.7.dist-info/RECORD,,
