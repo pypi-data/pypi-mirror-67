@@ -1,0 +1,12 @@
+# Include meta data
+include LICENSE
+include README.rst
+
+# Include documentation and files needed by documentation.
+recursive-include docs *.py *.rst *.jpg *.png
+
+# Include tests and files needed by tests.
+recursive-include tests *.py
+include pyproject.toml
+include tox.ini
+include .semaphore/semaphore.yml
