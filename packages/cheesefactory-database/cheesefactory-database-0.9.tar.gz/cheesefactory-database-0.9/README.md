@@ -1,0 +1,152 @@
+# cheesefactory-database
+
+-----------------
+
+##### A wrapper for psycopg2.
+[![PyPI Latest Release](https://img.shields.io/pypi/v/cheesefactory-database.svg)](https://pypi.org/project/cheesefactory-database/)
+[![PyPI status](https://img.shields.io/pypi/status/cheesefactory-database.svg)](https://pypi.python.org/pypi/cheesefactory-database/)
+[![PyPI download month](https://img.shields.io/pypi/dm/cheesefactory-database.svg)](https://pypi.python.org/pypi/cheesefactory-database/)
+[![PyPI download week](https://img.shields.io/pypi/dw/cheesefactory-database.svg)](https://pypi.python.org/pypi/cheesefactory-database/)
+[![PyPI download day](https://img.shields.io/pypi/dd/cheesefactory-database.svg)](https://pypi.python.org/pypi/cheesefactory-database/)
+
+## Main Features
+
+* Built on psycopg2.
+* Pandas dataframe support.
+* Test table existence.
+* Test field existence.
+
+**Note:** _This package is still in beta status. As such, future versions may not be backwards compatible and features may change._
+
+## Installation
+The source is hosted at https://bitbucket.org/hellsgrannies/cheesefactory-database
+
+
+```sh
+pip install cheesefactory-database
+```
+
+## Dependencies
+
+* [psycopg2](https://www.psycopg.org/)
+  
+## License
+
+## Examples
+
+**Connect to the remote PostgreSQL server and execute a query**
+
+```python
+from cheesefactory_database.postgresql import CfPostgresql
+
+db = CfPostgresql(host='myhostname', user='myusername', password='mypassword', database='mydatabase')
+```
+
+Args:
+* _host_ (str): PostgreSQL server hostname/IP. Default: 127.0.0.1
+* _port_ (str): PostgreSQL server port. Default: 5432
+* _user_ (str): Username for authentication.
+* _password_ (str): Password for authentication.
+* _database_ (str): Database for connection
+* _autocommit_ (bool): Use autocommit on changes? Default: False
+* _dictionary_cursor_ (bool): Return the results as a dictionary? Default: False
+* _encoding_ (str): Database client encoding ("utf8", "latin1", "usascii"). Default: utf8
+
+Returns:
+* (CfPostgresql): An instance of the database connection.
+
+**Execute a query**
+
+```python
+results = db.execute("SELECT first_name, last_name FROM person WHERE last_name = 'Smith'")
+```
+Args:
+* _query_ (str): SQL query to execute.
+* _dataframe_ (bool): Output the results to a pandas.Dataframe?
+* _fetchall_ (bool): Perform a fetchall() and return the results?
+
+Returns:
+* If _fetchall_=False, None is returned.
+* If _dataframe_=True, a pandas.Dataframe is returned.
+
+**Check connection status**
+
+```python
+status = db.connection_status()
+```
+
+Returns:
+* (str): Connection status: "OK" or "Error"
+
+**Check database existence**
+
+```python
+status = db.database_exists(database_name='my_database')
+```
+
+Args:
+* _database_name_ (str): Name of the database to search for
+
+Returns:
+* (bool): True, if database exists. False, if not.
+
+**Check schema existence**
+
+```python
+status = db.schema_exists(schema_name='my_schema')
+```
+
+Args:
+* _schema_name_ (str): Name of the schema to search for.
+
+Returns:
+* (bool): True, if schema exists. False, if not.
+
+**Check table existence**
+
+```python
+status = db.table_exists(table_path='my_schema.my_table')
+```
+
+Args:
+* _table_path_ (str): Table name in the form &lt;schema>.&lt;table>
+
+Returns:
+* (bool): True, if table exists. False, if not.
+
+**Check field existence**
+
+```python
+status = db.fields_exist(table_path='my_schema.my_table', table_fields=['first_name', 'last_name'])
+```
+
+Args:
+* _table_path_ (str): Table name in the form &lt;schema>.&lt;table>
+* _table_fields_ (str): A list of fields to check.
+
+Returns:
+* (bool): True, if all fields are present in the table. False, if not.
+
+**Get a table's primary keys**
+
+```python
+primary_keys = db.get_primary_keys(table_path='my_schema.my_table')
+```
+
+Args:
+* _table_path_ (str): Table name in the form &lt;schema>.&lt;table>
+
+Returns:
+* (List): A list of primary keys.
+
+**Quote PostgreSQL reserved words in a list**
+
+```python
+quoted_word_list = CfPostgresql.quote_reserved_words(word_list)
+```
+
+Args:
+* _word_list_ (List): A list of words to check
+
+Returnes:
+* (List): _word_list_ with all PostgreSQL reserved words surrounded in double-quotes.
