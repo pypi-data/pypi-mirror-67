@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: separator-vbar
+Version: 1.1
+Summary: Port of separator to Python 3
+Home-page: http://nlp.fi.muni.cz/projekty/rozdelovac_vet
+Author: Petr Machovec, Vaclav Barta
+Author-email: pyauth@mangrove.cz
+License: BSD New
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
