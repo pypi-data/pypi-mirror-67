@@ -1,0 +1,12 @@
+pytest_reporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_reporter/hooks.py,sha256=m0hN9Sg7uAdbHOs6VAl-yBsVo_bnPSfsXzUU7Co9zFk,444
+pytest_reporter/plugin.py,sha256=LsRyq8vMxU6JwHzNMAwsfnv9MyireQqYXaLDfz9bvp8,5205
+pytest_reporter/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_reporter/engines/jinja2.py,sha256=aJix4FdEIX_CFKwR9Bn032KgRLRuB3cxBITSobTY690,856
+pytest_reporter/engines/mako.py,sha256=-VxJIhfSD4YcN_Bls0qxLgwLxejS4oY8rJ6l_g8950E,620
+pytest_reporter-0.1.0a1.dist-info/LICENSE,sha256=9UEk_CYqFfXf04Jsh6AIBXmPa3-rS--7h67Kqu996Bo,1086
+pytest_reporter-0.1.0a1.dist-info/METADATA,sha256=aWpxBJBsd-WdFNIOiZYkNO9yXRrH6SuFXRmCGbU6NW4,1908
+pytest_reporter-0.1.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_reporter-0.1.0a1.dist-info/entry_points.txt,sha256=-NjCmXnSBK3XdlFUFEowPxZmVn0O70O6uivzOU9Ynuw,46
+pytest_reporter-0.1.0a1.dist-info/top_level.txt,sha256=jUn-iAfa-V9q6PtEv5aJVgqu_2JrbMqsDWfVOZH1I58,16
+pytest_reporter-0.1.0a1.dist-info/RECORD,,
