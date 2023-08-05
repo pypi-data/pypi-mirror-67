@@ -1,0 +1,8 @@
+netCDF4
+pyyaml
+numpy
+
+[dev]
+check-manifest
+
+[test]

@@ -1,0 +1,4 @@
+[console_scripts]
+netCDFTemplate = ncPyTools.netCDFTemplate:ncdfTemplate
+netCDFView = ncPyTools.netCDFView:ncdfView
+

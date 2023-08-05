@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+ncPyTools/__init__.py
+ncPyTools/ncoGridFile.py
+ncPyTools/netCDFReduce.py
+ncPyTools/netCDFTemplate.py
+ncPyTools/netCDFView.py
+ncPyTools.egg-info/PKG-INFO
+ncPyTools.egg-info/SOURCES.txt
+ncPyTools.egg-info/dependency_links.txt
+ncPyTools.egg-info/entry_points.txt
+ncPyTools.egg-info/requires.txt
+ncPyTools.egg-info/top_level.txt
