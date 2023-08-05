@@ -1,0 +1,2 @@
+recursive-include dicom_upload/static *.*
+include dicom-upload.json
