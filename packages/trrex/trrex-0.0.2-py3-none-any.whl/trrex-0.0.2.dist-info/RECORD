@@ -1,0 +1,13 @@
+trex/__init__.py,sha256=jzWJicSoR_6QMv37dWwyShQxhC8AQVvYp8APcHlYBJc,42
+trex/trex.py,sha256=PEOlhIpbjCbSnu2oMmEjxH7PnVEl5E5NZPNO5pEKwuk,3163
+trex/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trex/tests/test_basic_functions.py,sha256=YE0aZQz0EcadC66UrqMs4yUAi2ove0Z4eFjmiLRqz30,1548
+trrex/__init__.py,sha256=3mX8qZ-DB5U2t_3dJn8JpbckSCm6j6EOIyV883iPI_Y,43
+trrex/trrex.py,sha256=PEOlhIpbjCbSnu2oMmEjxH7PnVEl5E5NZPNO5pEKwuk,3163
+trrex/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trrex/tests/test_basic_functions.py,sha256=YE0aZQz0EcadC66UrqMs4yUAi2ove0Z4eFjmiLRqz30,1548
+trrex-0.0.2.dist-info/LICENSE,sha256=uua627oLeycvPHO6Ss3dPSYhtWW4fOp2Pju58WLL9qU,1076
+trrex-0.0.2.dist-info/METADATA,sha256=D6kXMXHMtEPcxrNgjmSU6Apkw9FJRC11Sjd7KyQguFg,2425
+trrex-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trrex-0.0.2.dist-info/top_level.txt,sha256=LlwQtJdS1eHwc7Tjxz3rJ1iJr3umDo69tMbj6nCZML8,6
+trrex-0.0.2.dist-info/RECORD,,
