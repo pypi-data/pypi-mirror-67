@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: pylibgeohash
+Version: 0.2.1
+Summary: Thin wrapper around the geohash codebase
+Home-page: https://github.com/bauman/libgeohash
+Author: Dan Bauman
+Author-email: bauman.85@osu.edu
+License: UNKNOWN
+Keywords: geohash,geohashes
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
