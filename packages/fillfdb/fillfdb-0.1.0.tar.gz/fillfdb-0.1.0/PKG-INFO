@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fillfdb
+Version: 0.1.0
+Summary: 
+Author: Yannick Koehler
+Author-email: ykoehler@arubanetworks.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: scapy (>=2.4.3,<3.0.0)
