@@ -1,0 +1,7 @@
+README.md
+setup.py
+inko/__init__.py
+inko_py.egg-info/PKG-INFO
+inko_py.egg-info/SOURCES.txt
+inko_py.egg-info/dependency_links.txt
+inko_py.egg-info/top_level.txt
