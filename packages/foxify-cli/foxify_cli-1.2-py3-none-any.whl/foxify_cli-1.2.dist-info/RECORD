@@ -1,0 +1,15 @@
+foxify_cli/__init__.py,sha256=1tY4_3NG1bFpo8_KhMYfQhYZlYQ6BJHbA26utf28yQI,15
+foxify_cli/__main__.py,sha256=7Su01RdtYH5Epd1IVM0jo81kbAYoXNvbtS81ngfBwIg,239
+foxify_cli/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foxify_cli/config/startup.py,sha256=JlPPfCzxXisGX5DXBBLpdjbHcuo_RsFoG9RsHuTeRAA,4959
+foxify_cli/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foxify_cli/core/argparser.py,sha256=NmTnq3hMDp6vb_qRJTop3WYIfEDg8c2p2-VRhU5_fA8,4075
+foxify_cli/core/methods.py,sha256=pU-JcfxYWpNfGG-AM5zcAMvgyUNcr_QzX3WTDPh2o4s,18179
+foxify_cli/logger/__init__.py,sha256=pPxOdPP4FN_fcpJuxh9Wbe2Tjr2cBgbBpX2D8zeBMr8,459
+foxify_cli-1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+foxify_cli-1.2.dist-info/METADATA,sha256=hXQXvumSQly_WAoDSqxXXZNFhzAgdQKzhJpzgEBPSRk,5262
+foxify_cli-1.2.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+foxify_cli-1.2.dist-info/entry_points.txt,sha256=oZiS6uZkmluC2YXTu0TgWPWMaCXh-kNcpMGyOlj_ma0,53
+foxify_cli-1.2.dist-info/top_level.txt,sha256=whDabmcfj1J3wTWFgV8dXT_ohoMXTchDpMVNzK4V7I4,11
+foxify_cli-1.2.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+foxify_cli-1.2.dist-info/RECORD,,
