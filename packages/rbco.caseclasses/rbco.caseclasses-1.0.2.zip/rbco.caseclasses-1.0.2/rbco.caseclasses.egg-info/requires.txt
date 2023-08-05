@@ -1,0 +1,4 @@
+setuptools
+funcsigs
+
+[test]
