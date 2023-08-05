@@ -1,0 +1,11 @@
+autobahn
+pem
+psutil
+pyOpenSSL
+python-dateutil
+requests
+schedule
+scrapy
+tabulate
+twisted
+tzlocal
