@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: runrex
+Version: 0.1.2
+Summary: Library to aid in organizing, running, and debugging regular expressions against large bodies of text.
+Home-page: https://github.com/dcronkite/runrex
+Author: dcronkite
+Author-email: dcronkite+pypi@gmail.com
