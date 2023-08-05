@@ -1,0 +1,17 @@
+.skins {
+
+  &__info-box {
+    align-items: center;
+    border-bottom: 1px solid var(--skins-box-border-color);
+
+    border-top: 1px solid var(--skins-box-border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem .5rem;
+    text-align: center;
+  }
+
+  &__icon {
+    width: 4rem;
+  }
+}

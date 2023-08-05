@@ -1,0 +1,144 @@
+@use "sass:map";
+
+@use "_variables.scss";
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+
+@mixin flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--skins-body-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: safe center;
+  padding: 0;
+
+  * {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h2:first-of-type {
+    margin: .4rem 0;
+  }
+}
+
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.skins {
+
+  &__app-logo {
+    margin-top: 1rem;
+    width: 7.5%;
+
+    @media (max-width: map.get($breakpoints, "md")) {
+      width: 15%;
+    }
+  }
+
+  &__transparent-box {
+    color: var(--skins-text-gray);
+    margin: 1.5rem 0;
+    width: 100%;
+
+    @include flex-center;
+
+    a {
+      margin-left: .4rem;
+    }
+  }
+
+  &__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+
+    @media (min-width: map.get($breakpoints, "md")) {
+      width: 60%;
+    }
+
+    @media (min-width: map.get($breakpoints, "lg")) {
+      width: 45%;
+    }
+
+    @media (min-width: map.get($breakpoints, "xl")) {
+      width: 30%;
+    }
+
+    a {
+      color: var(--skins-link-fg-color);
+      text-decoration: none;
+
+      &:visited {
+        color: var(--skins-link-fg-color-visited);
+      }
+    }
+  }
+
+  &__bordered-box {
+    background-color: var(--skins-box-bg-color);
+    border: 1px solid var(--skins-box-border-color);
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px -5px var(--skins-box-border-color);
+    padding: 1rem 2rem;
+    width: 100%;
+
+    @media (max-width: map.get($breakpoints, "lg")) {
+      padding: .8rem;
+    }
+  }
+
+  &__message-box {
+    background-color: var(--skins-message-bg-color);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: var(--skins-message-fg-color);
+    margin: 0 2rem 1rem;
+
+    opacity: 0;
+    padding: 1rem 2rem;
+    transition: opacity 5s;
+    width: 100%;
+
+    @include flex-center;
+
+    &--loaded {
+      opacity: .5;
+    }
+  }
+}

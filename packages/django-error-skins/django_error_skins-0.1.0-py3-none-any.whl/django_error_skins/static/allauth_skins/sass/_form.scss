@@ -1,0 +1,102 @@
+@use "_variables.scss";
+
+
+.skins {
+
+  &__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__input-field {
+    margin: .5rem 0 .5rem 0;
+    width: 100%;
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: .3rem;
+    }
+
+    input {
+      background-clip: padding-box;
+      background-color: var(--skins-input-bg-color);
+      border: 2px solid var(--skins-input-border-color);
+      border-radius: .1rem;
+      box-sizing: border-box;
+      color: var(--skins-input-fg-color);
+      font-size: 1rem;
+      line-height: 1.5;
+      padding: .8rem;
+      width: 100%;
+    }
+
+    &--error {
+
+      input {
+        border-color: hsla(0, 90%, 70%, 1);
+        border-width: 1px;
+      }
+    }
+  }
+
+  &__input-errors {
+    margin: .1rem 0 .25rem 0;
+  }
+
+  &__input-error {
+    color: rgb(202, 12, 12);
+    margin: .1rem 0 .1rem .5rem;
+  }
+
+  &__btn {
+    @extend %btn-base;
+
+    background-color: var(--skins-btn-bg-color);
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px -3px rgba(0,0,0,.75);
+    color: var(--skins-btn-fg-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding: .8rem 2rem;
+    transition: opacity .25s ease-in-out;
+
+    &:hover {
+      opacity: .85;
+    }
+  }
+
+  &__btn-wide {
+    width: 100%;
+
+    @extend %btn-base;
+  }
+
+  &__btn-link {
+    color: var(--skins-btn-fg-color) !important;
+
+    @extend %btn-base;
+
+  }
+}
+
+%btn-base {
+  background-color: var(--skins-btn-bg-color);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px -3px rgba(0,0,0,.75);
+  color: var(--skins-btn-fg-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding: .8rem 2rem;
+  transition: opacity .25s ease-in-out;
+
+  &:hover {
+    opacity: .85;
+  }
+}
