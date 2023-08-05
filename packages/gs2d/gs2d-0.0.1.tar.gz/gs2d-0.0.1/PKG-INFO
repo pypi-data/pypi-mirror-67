@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gs2d
+Version: 0.0.1
+Summary: gs2d: Generic Serial-bus Servo Driver library for Python
+Home-page: https://github.com/karakuri-products/gs2d-python
+Author: Hideyuki Takei
+Author-email: hide@krkrpro.com
+License: Apache License Version 2.0
+Description: Library for Generic Serial-bus Servo Driver library kr-sac001 from Karakuri Products
+Platform: UNKNOWN
