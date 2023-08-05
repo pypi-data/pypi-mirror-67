@@ -1,0 +1,3 @@
+[sceptre.hooks]
+stack_termination_protection = hook.stack_termination_protection:StackTerminationProtection
+

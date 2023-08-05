@@ -1,0 +1,7 @@
+hook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hook/stack_termination_protection.py,sha256=MH7kAupmRY8qxUrLjf3vbTcdSk2dC9fsXPtQlytPunA,2300
+sceptre_stack_termination_protection_hook-1.1.0.dist-info/METADATA,sha256=m7zW3kEjYRiudO3tIQYHTmz4F8VJ7pfuobvVuwmHMLU,1836
+sceptre_stack_termination_protection_hook-1.1.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+sceptre_stack_termination_protection_hook-1.1.0.dist-info/entry_points.txt,sha256=FrRHu4l5HkNZWGUPuGH20YOxsqmnp3faHLDzFpm-RTQ,109
+sceptre_stack_termination_protection_hook-1.1.0.dist-info/top_level.txt,sha256=1TTpwDxDJiyC5rism06scAWwD1avNNikqf8HK9syKSg,5
+sceptre_stack_termination_protection_hook-1.1.0.dist-info/RECORD,,
