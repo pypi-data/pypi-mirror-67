@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: followthemoney-cellebrite
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Organized Crime and Corruption Reporting Project
+Author-email: data@occrp.org
+License: MIT
+Description: # followthemoney-cellebrite
+        
+        Extract FollowTheMoney entities from a Cellebrite XML report file.
+        
+        Example command:
+        
+        ```
+        ftm import-cellebrite -i test/testdata/3gs-report.xml -o entities.json --owner "John Doe" --country "US"
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
