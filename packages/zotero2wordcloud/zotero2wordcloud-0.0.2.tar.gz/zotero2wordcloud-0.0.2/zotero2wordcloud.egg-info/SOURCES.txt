@@ -1,0 +1,9 @@
+README.md
+setup.py
+zotero2wordcloud/__init__.py
+zotero2wordcloud/zotero2wordcloud.py
+zotero2wordcloud.egg-info/PKG-INFO
+zotero2wordcloud.egg-info/SOURCES.txt
+zotero2wordcloud.egg-info/dependency_links.txt
+zotero2wordcloud.egg-info/requires.txt
+zotero2wordcloud.egg-info/top_level.txt
