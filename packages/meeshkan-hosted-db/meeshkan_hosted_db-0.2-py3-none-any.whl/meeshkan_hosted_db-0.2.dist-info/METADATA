@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: meeshkan-hosted-db
+Version: 0.2
+Summary: Utility package to access a Cloud SQL database on meeshkan.io
+Home-page: https://github.com/meeshkan/meeshkan-hosted-db
+Author: Meeshkan Dev Team
+Author-email: dev@meeshkan.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: meeshkan-hosted-secrets (>=0.4)
+Requires-Dist: psycopg2-binary (==2.8.5)
+
+
+# meeshkan-hosted-db
+Utility python package to access a [Cloud SQL for PostgreSQL](https://cloud.google.com/sql/docs/postgres) database using [psycopg2](https://www.psycopg.org/) on [meeshkan.io](https://meeshkan.io).
+
+```python
+from meeshkan_hosted_db import connect_to_db
+
+with connect_to_db() as db:
+    with db.cursor() as cursor:
+        cursor.execute("SELECT NOW() as now;")
+        result = cursor.fetchall()
+    current_time = result[0][0]
+```
+
+
