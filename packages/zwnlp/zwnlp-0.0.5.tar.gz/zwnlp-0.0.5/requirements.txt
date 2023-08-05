@@ -1,0 +1,7 @@
+protobuf==3.6.1 # mysql-connector-python 8.0.19 use 3.6.1 while conflict with stanza
+zwdb
+zwutils
+pyhanlp
+stanza
+langid
+schedule
