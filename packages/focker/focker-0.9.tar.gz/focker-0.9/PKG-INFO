@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: focker
+Version: 0.9
+Summary: Focker is a FreeBSD image orchestration tool in the vein of Docker.
+Home-page: https://github.com/sadaszewski/focker
+Author: Stanislaw Adaszewski
+Author-email: s.adaszewski@gmail.com
+License: The GNU General Public License v3.0
+Description: Focker is a FreeBSD image orchestration tool in the vein of Docker.
+Platform: UNKNOWN
