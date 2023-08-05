@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+naturalcolors/__about__.py
+naturalcolors/__init__.py
+naturalcolors/colormaps.json
+naturalcolors/colorpalette.py
+naturalcolors.egg-info/PKG-INFO
+naturalcolors.egg-info/SOURCES.txt
+naturalcolors.egg-info/dependency_links.txt
+naturalcolors.egg-info/requires.txt
+naturalcolors.egg-info/top_level.txt
