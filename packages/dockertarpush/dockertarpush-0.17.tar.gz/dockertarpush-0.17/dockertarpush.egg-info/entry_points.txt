@@ -1,0 +1,3 @@
+[console_scripts]
+docker-tar-push = dockertarpusher.command_line:main
+

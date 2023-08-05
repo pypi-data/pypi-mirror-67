@@ -1,0 +1,12 @@
+README.md
+setup.py
+dockertarpush.egg-info/PKG-INFO
+dockertarpush.egg-info/SOURCES.txt
+dockertarpush.egg-info/dependency_links.txt
+dockertarpush.egg-info/entry_points.txt
+dockertarpush.egg-info/requires.txt
+dockertarpush.egg-info/top_level.txt
+dockertarpusher/__init__.py
+dockertarpusher/command_line.py
+dockertarpusher/dockertarpusher.py
+dockertarpusher/manifestcreator.py
