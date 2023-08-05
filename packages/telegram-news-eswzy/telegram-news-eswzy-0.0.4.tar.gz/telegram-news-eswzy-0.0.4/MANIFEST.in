@@ -1,0 +1,2 @@
+include LICENSE
+include telegram_news/table.sql

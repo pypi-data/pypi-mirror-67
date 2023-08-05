@@ -1,0 +1,5 @@
+requests
+SQLAlchemy
+beautifulsoup4
+lxml
+xmltodict
