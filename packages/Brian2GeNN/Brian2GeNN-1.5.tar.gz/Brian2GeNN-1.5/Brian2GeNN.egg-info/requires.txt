@@ -1,0 +1,7 @@
+brian2>=2.3
+setuptools>=6.0
+six
+
+[docs]
+sphinx>=1.0.1
+sphinxcontrib-issuetracker
