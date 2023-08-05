@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: equinor-libres
+Version: 3.3.1a0
+Summary: Part of the Ensemble based Reservoir Tool (ERT)
+Home-page: https://github.com/equinor/libres
+Author: Equinor ASA
+License: GPL-3.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: libecl
+Requires-Dist: numpy (<=1.16.6)
+Requires-Dist: pandas (<=0.25.3)
+Requires-Dist: six
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: jinja2
+Requires-Dist: pyyaml
+Requires-Dist: futures
+Requires-Dist: future ; python_version == "2.7"
+Requires-Dist: functools32 ; python_version == "2.7"
+
+# libres [![Build Status](https://travis-ci.org/equinor/libres.svg?branch=master)](https://travis-ci.org/equinor/libres)
+
+`libres` is part of the `ERT` project: _[Ensemble based Reservoir Tool](https://github.com/Equinor/ert)_.
+
+```bash
+$ pip install equinor-libres
+```
+
+## Building libres
+
+*libres* is now a Python-only package. It does, however, have a C++ library component. As such, a C++11-compatible compiler is required to be installed as well as CMake 3.
+
+### 1. Building and installing
+If you have `pip >= 19`, you may simply do the following to build and install *libres*:
+```
+$ pip install .
+```
+
+Otherwise, you may install the requirements manually.
+
+```
+$ pip install -r requirements.txt
+$ pip install wheel
+$ python setup.py bdist_wheel  # Build a "wheel" and place it in dist/
+$ pip install dist/*
+```
+
+### 2. Building for development
+If you have `pip >= 19`, you may do the following to build and install *libres*
+into the source directory. Installing into the source directory allows Python to
+use the Python module immediately.
+
+```
+$ pip install --edit .  # "-e ." is also valid
+```
+
+Otherwise, you may install the requirements manually.
+
+```
+$ pip install -r requirements.txt
+$ pip install -r test_requirements.txt
+$ python setup.py develop
+```
+
+To use this development version, have the `PYTHONPATH` environment variable point to
+the `python/` directory.
+```
+$ PYTHONPATH=$PWD/python pytest python/tests
+```
+
+__To test the C library:__
+```
+$ mkdir build
+$ cd build
+$ cmake .. -DBUILD_TESTS=ON
+$ cmake --build .
+$ ctest --output-on-failure
+```
+
+### 3. postinstall configuration
+
+#### 3.1. The `site_config` file
+As part of the installation process `libres` will install a file called
+`site-config` in the `res`-module's `.data/ert/site-config`; when ert starts
+this file will be loaded before the users personal config file. For more
+extensive use of `ert` it might be benefical to customize the `site-config` file
+to your personal site. To do so, you must set the environment variable
+`ERT_SITE_CONFIG` to point to an alternative file that will be used when
+bootstrapping.
+
+The default `site-config` is perfectly acceptable to start with, however.
+
+#### 3.2 Forward models
+
+The `libres` code contains basic functionality for forward models to run the
+reservoir simulators Eclipse/flow and the geomodelling program RMS. Exactly how
+these programs depend on the setup on your site and you must make some
+modifications to two files installed with `libres`:
+
+##### 3.2.1. Eclipse/flow configuration
+
+In the Python distribution installed by `libres` there is a file:
+`res/fm/ecl/ecl_config.yml` which is used to configure the eclipse/flow versions
+are available at the location. You should edit this file to correspond to the
+conditions at your site; alternatively you can store an alternative
+configuration file elsewhere and set the environment variable `ECL_SITE_CONFIG`
+to point to the alternative file.
+
+
+##### 3.2.2. RMS configuration
+
+In the Python distribution installed by `libres` there is a file:
+`res/fm/rms/rms_config.yml` which contains some site specific RMS configuration.
+You should update this file with your local path to the `rms` wrapper script
+supplied by `Roxar`; alternatively you can store an alternative configuration
+file elseswhere and set the environment variable `RMS_SITE_CONFIG` to point to
+the alternative file.
+
+
