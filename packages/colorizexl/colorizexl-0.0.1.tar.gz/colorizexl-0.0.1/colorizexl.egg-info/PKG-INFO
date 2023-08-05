@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: colorizexl
+Version: 0.0.1
+Summary: Colorize and recolorize large images
+Home-page: https://github.com/pypa/sampleproject
+Author: M. Linfoot, N. Freundlich
+Author-email: linfoot2@illinois.edu, norbert4@illinois.edu
+License: UNKNOWN
+Description: # ColorizeXL
+        
+        ## Colorize your B&W images
+        # TODO
+        
+        ## Recolorize existing images
+        # TODO
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
