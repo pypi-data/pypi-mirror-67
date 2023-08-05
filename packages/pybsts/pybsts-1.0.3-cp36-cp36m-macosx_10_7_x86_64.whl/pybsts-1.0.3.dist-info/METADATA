@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pybsts
+Version: 1.0.3
+Summary: Python interface to Bayesian Structured Time Series
+Home-page: UNKNOWN
+Author: Vitalii Ostrovskyi
+Author-email: vitos@vitos.org.ua
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cython
+Requires-Dist: numpy
+
+UNKNOWN
+
+
