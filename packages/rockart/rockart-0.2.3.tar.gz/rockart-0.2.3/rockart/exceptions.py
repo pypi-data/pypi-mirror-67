@@ -1,0 +1,2 @@
+class RockartException(Exception):
+    pass
