@@ -1,0 +1,10 @@
+yades_smtp/__init__.py,sha256=h8BLutSjgVbybgClmqNNb3LutAAR58nyZR1ocrB1aj8,51
+yades_smtp/controller.py,sha256=8eOFQvC2PpZTl_hVPlj2WpDNoE_F5uWsr7kDuzP4Rw0,3561
+yades_smtp/main.py,sha256=kQDXlaKplOPI4YcXYY8--KJzRgHMm7LUkNPkvGIaICU,2281
+yades_smtp/utils.py,sha256=hOyo8kXhoSySuxtC_Fm8i3Wt1Agy5OfeiFIaSG_MGUA,324
+yades_smtp-0.1.0.dist-info/LICENCE,sha256=v5k_qKsqFo-xd84Jw84sMGzNmS2zMTaoe_Kr9bAJZsc,1070
+yades_smtp-0.1.0.dist-info/METADATA,sha256=JNSOTKvtc6rJOg4XGaeKJRg1zenGRKGCvrwrhx7TSI8,1075
+yades_smtp-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+yades_smtp-0.1.0.dist-info/entry_points.txt,sha256=HsMR5_fvtcNtdCf--prOBw99iOzhvSXdvJ5Mc4c9hNI,53
+yades_smtp-0.1.0.dist-info/top_level.txt,sha256=mN360iG94RH0mUz8CCZUlQsEOaxj1vXC-Wd0jVMRs5k,11
+yades_smtp-0.1.0.dist-info/RECORD,,

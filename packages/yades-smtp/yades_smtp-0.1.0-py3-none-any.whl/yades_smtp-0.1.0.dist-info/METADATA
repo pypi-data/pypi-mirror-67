@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: yades-smtp
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/yades/yades-smtp/
+Author: Ivan Khomutov
+License: MIT
+Keywords: email smtp asyncio
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: aiosmtpd (==1.2)
+Requires-Dist: dnspython (==1.16.0)
+Requires-Dist: environs (==7.4.0)
+Requires-Dist: flanker (==0.9.11)
+Requires-Dist: motor (==2.1.0)
+
+# yades-smtp
+
+## Installation
+
+Install using `pip`...
+
+    pip install yades-smtp
+
+
+
