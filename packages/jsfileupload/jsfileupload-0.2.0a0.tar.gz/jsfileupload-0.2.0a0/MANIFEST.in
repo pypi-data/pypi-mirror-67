@@ -1,0 +1,2 @@
+recursive-include jsfileupload/static *.*
+include jsfileupload.json
