@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    deframe = deframed.command:cmd
+    
