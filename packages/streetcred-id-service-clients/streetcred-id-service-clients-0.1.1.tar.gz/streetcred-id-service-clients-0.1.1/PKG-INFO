@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: streetcred-id-service-clients
+Version: 0.1.1
+Summary: Service Clients for our Agency and Custodian API
+Home-page: https://github.com/streetcred-id/
+Author: Streetcred ID
+Author-email: michael.black@streetcred.id
+License: UNKNOWN
+Description: # Streetcred ID Agency API
+        Welcome to our API. Learn more at https://docs.streetcred.id
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
