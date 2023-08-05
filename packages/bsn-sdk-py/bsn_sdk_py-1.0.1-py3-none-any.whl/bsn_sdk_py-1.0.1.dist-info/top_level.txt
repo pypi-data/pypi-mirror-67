@@ -1,0 +1,2 @@
+bsn_sdk_py
+test
