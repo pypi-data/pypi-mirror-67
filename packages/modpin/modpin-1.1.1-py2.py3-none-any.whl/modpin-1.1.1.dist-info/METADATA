@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: modpin
+Version: 1.1.1
+Summary: SET OF PYTHON SCRIPTS TO MODEL AND ANALYZE PROTEIN-PROTEIN INTERACTIONS
+Home-page: UNKNOWN
+Author: GRIB
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: protein interaction modelling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: numpy
+Requires-Dist: biopython
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
