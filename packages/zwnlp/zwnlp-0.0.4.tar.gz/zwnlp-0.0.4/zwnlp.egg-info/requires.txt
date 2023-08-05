@@ -1,0 +1,7 @@
+protobuf==3.6.1
+zwdb
+zwutils
+pyhanlp
+stanza
+langid
+schedule

@@ -1,0 +1,10 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+protobuf==3.6.1 # mysql-connector-python 8.0.19 use 3.6.1 while conflict with stanza
+torch==1.5.0 #to work with windows, used by stanza
+torchvision==0.6.0 #to work with windows, used by stanza
+zwdb
+zwutils
+pyhanlp
+stanza
+langid
+schedule
