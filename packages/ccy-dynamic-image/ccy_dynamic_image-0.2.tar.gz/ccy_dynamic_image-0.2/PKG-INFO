@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ccy_dynamic_image
+Version: 0.2
+Summary: add dynamic effect to text or image
+Home-page: https://github.com/tenderzada/ccy_dynamic_images
+Author: Chen Jiao
+Author-email: chenjiao@mail.ynu.edu.com
+License: UNKNOWN
+Description: # ccy_dynamic_image
+        
+        
+        Add dynamic effect to image
+        
+        `ccy_dynamic_image` 是一个给图片添加动态效果的库
+        
+        
+        ### 示例
+        
+        原图
+        
+        ![](./orig.jpeg)
+        
+        转换后的代码图片
+        
+        ![](./out.jpeg)
+        
+        
+        ### 使用方式
+        
+        ```
+        usage: ccy_dynamic_image [-h] [--image IMAGEFILE] [--out OUTIMAGE]
+        
+        optional arguments:
+          -h, --help         show this help message and exit
+          --image IMAGEFILE  path of image to add effect
+          --out OUTIMAGE     path of output image
+        ```
+        
+        
+        ### 安装
+        
+        ```
+        $ pip install ccy_dynamic_image
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
