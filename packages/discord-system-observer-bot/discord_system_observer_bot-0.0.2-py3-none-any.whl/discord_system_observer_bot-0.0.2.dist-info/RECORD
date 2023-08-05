@@ -1,0 +1,13 @@
+discord_system_observer_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_system_observer_bot/__main__.py,sha256=IT-7gJv9jLxn3v66hXXVFTVMS0YfXtrK6gRSjYh9oMQ,88
+discord_system_observer_bot/bot.py,sha256=ViUaSSegYSd4ONWmkIyTI13vNp1pVMKTDXwFJyjbvTk,19323
+discord_system_observer_bot/cli.py,sha256=uaGEALgpoXUhZz-xM1saZyYMt9jqRLXOKAojw69B10w,3468
+discord_system_observer_bot/gpuinfo.py,sha256=1oKwjkY-QxrvWj7hTF9POojy1xHAOqxdISxCOSt5b_8,1851
+discord_system_observer_bot/statsobserver.py,sha256=3KVRie0KJH7gykIhfpEICpUav_dk02SjIkWPvSkC4UU,12099
+discord_system_observer_bot/sysinfo.py,sha256=NaI1cSor579dpCJdaML-02j7VzTzBfWk2HfIUlFBEdM,3802
+discord_system_observer_bot-0.0.2.dist-info/LICENSE,sha256=LHJY-Xy_sN4igSs9HV5C7uQESJSNKA3Bo_MJgSPXo0E,1064
+discord_system_observer_bot-0.0.2.dist-info/METADATA,sha256=taqzPxCXeDH_E62SZyIAds2jTkrXr6f-7heieL16zd4,9501
+discord_system_observer_bot-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+discord_system_observer_bot-0.0.2.dist-info/entry_points.txt,sha256=EGArLxYfYPr1V_ZzIH4XR4uskmdutIMB5d4x2pwmfqw,71
+discord_system_observer_bot-0.0.2.dist-info/top_level.txt,sha256=3KxKtE4tBja8EY4E6C-G5y_v_YOsQCbe3xEUYUr7McQ,28
+discord_system_observer_bot-0.0.2.dist-info/RECORD,,
