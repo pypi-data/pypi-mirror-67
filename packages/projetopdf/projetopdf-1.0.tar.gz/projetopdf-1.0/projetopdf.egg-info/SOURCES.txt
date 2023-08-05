@@ -1,0 +1,9 @@
+README.md
+setup.py
+projetopdf/__init__.py
+projetopdf/pdf2imagine.py
+projetopdf/pdf2text.py
+projetopdf.egg-info/PKG-INFO
+projetopdf.egg-info/SOURCES.txt
+projetopdf.egg-info/dependency_links.txt
+projetopdf.egg-info/top_level.txt
