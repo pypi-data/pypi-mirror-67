@@ -1,0 +1,3 @@
+[console_scripts]
+coveragecheck = coveragecheck.coveragecheck:main
+

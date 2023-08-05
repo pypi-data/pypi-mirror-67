@@ -1,0 +1,13 @@
+README.md
+setup.py
+coveragecheck/__init__.py
+coveragecheck/coveragecheck.py
+coveragecheck.egg-info/PKG-INFO
+coveragecheck.egg-info/SOURCES.txt
+coveragecheck.egg-info/dependency_links.txt
+coveragecheck.egg-info/entry_points.txt
+coveragecheck.egg-info/requires.txt
+coveragecheck.egg-info/top_level.txt
+example/__init__.py
+example/lib.py
+example/test.py
