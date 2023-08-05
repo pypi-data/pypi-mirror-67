@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: WrightSim
+Version: 0.1.0
+Summary: A simulation package for multidimensional spectroscopy.
+Home-page: https://github.com/wright-group/WrightSim
+Author: WrightSim Developers
+License: MIT
+Keywords: spectroscopy science multidimensional simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: h5py (>=2.7.0)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: WrightTools
+Provides-Extra: cuda
+Requires-Dist: pycuda ; extra == 'cuda'
+Provides-Extra: docs
+Requires-Dist: sphinx-gallery (>=0.1.9) ; extra == 'docs'
+
+UNKNOWN
+
+
