@@ -1,0 +1,65 @@
+"""Модуль для работы с состояниями."""
+import inspect
+from abc import ABCMeta
+from typing import List, Callable, Tuple
+
+from pywood.exceptions import EventHandled
+
+
+class BaseState(metaclass=ABCMeta):
+    """The base class for all states.
+
+    Create custom states by inheriting from it.
+    """
+
+    def _handlers(self) -> List[Tuple[str, Callable]]:
+        """Получить методы которые декорированы декораторами event и events."""
+
+        def predicate(value) -> bool:
+            return inspect.ismethod(value) and hasattr(value, '_event_handler')
+
+        return inspect.getmembers(self, predicate=predicate)
+
+    def _no_event_handler(self) -> Tuple[str, Callable]:
+        """Получить метод, который декорирован декоратором no_events"""
+
+        def predicate(value):
+            return inspect.ismethod(value) and hasattr(value, '_no_events')
+
+        return inspect.getmembers(self, predicate=predicate)[0]
+
+    def _traverse_handlers(self, update, data):
+        """Пройти через обработчики."""
+        for method_name, method in self._handlers():
+            try:
+                method(update, data)
+            except EventHandled:
+                return
+        else:
+            try:
+                method_name, method = self._no_event_handler()
+                method(update, data)
+            except IndexError:
+                pass
+
+    def after_handling(self, method_name, event_cls):
+        """Метод, который выполняется после обработки события.
+
+        :param method_name: имя метода
+        :type method_name: str
+
+        :param event_cls: класс события
+        :type event_cls: класс
+        """
+        pass
+
+    def before_handling(self, method_name, event_cls):
+        """Метод, который выполняется перед обработкой события.
+
+        :param method_name: имя метода
+        :type method_name: str
+
+        :param event_cls: класс события
+        :type event_cls: класс
+        """
+        pass
