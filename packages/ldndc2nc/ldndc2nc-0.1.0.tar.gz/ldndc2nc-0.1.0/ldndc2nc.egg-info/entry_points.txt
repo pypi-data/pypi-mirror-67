@@ -1,0 +1,3 @@
+[console_scripts]
+ldndc2nc = ldndc2nc.ldndc2nc:main
+
