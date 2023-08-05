@@ -1,0 +1,8 @@
+pytest_reporter_html1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_reporter_html1/plugin.py,sha256=aKSkG7vPg-9sCBxjEL7lYOKwyNEcZPxIuJYjdD2ZHl4,1601
+pytest_reporter_html1-0.1.0a1.dist-info/LICENSE,sha256=9UEk_CYqFfXf04Jsh6AIBXmPa3-rS--7h67Kqu996Bo,1086
+pytest_reporter_html1-0.1.0a1.dist-info/METADATA,sha256=k_C-16UGpQ0LJkiE7BAVtQcuYpwT50uKtlB51xKTbPg,1962
+pytest_reporter_html1-0.1.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_reporter_html1-0.1.0a1.dist-info/entry_points.txt,sha256=v_WJ2FYHJPkQKq5HstEkNT6_BKQ9uq59KbOfR3f8hg8,58
+pytest_reporter_html1-0.1.0a1.dist-info/top_level.txt,sha256=4CQLmwWKwl_EtcVK8kNNFMl2r9c0oaEorouWcDs3_5I,22
+pytest_reporter_html1-0.1.0a1.dist-info/RECORD,,
