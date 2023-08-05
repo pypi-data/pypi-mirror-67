@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: reine
+Version: 0.1
+Summary: Classification automatisée et organisation interne du discours.
+Home-page: https://github.com/demangejeremy/reine
+Author: Jérémy DEMANGE
+Author-email: jeremy@fakir.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Algorithme Reine
+
+Classification automatisée et organisation interne du discours.
+
