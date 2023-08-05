@@ -1,0 +1,9 @@
+data_catalog_dcat_validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_catalog_dcat_validator/dcat_validator.py,sha256=SF9EUcMVQjBdYhxS4EIYFpUyHrbEiK8m0kLlFoLXNLk,10619
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validator.py,sha256=cP47KP1R8TuE2THgomkqjIiuXypovppE8hVQQIqouTg,3099
+data_catalog_dcat_validator-0.0.1.dist-info/LICENSE,sha256=t3gUvwdu3KsToJIX_UBZHlWvksg3hc5AHyKpm3qfM4M,1060
+data_catalog_dcat_validator-0.0.1.dist-info/METADATA,sha256=uUcq_OtfqgFm1Aylkmpk8NrR9CEnEq_kYtwXw6kAavk,708
+data_catalog_dcat_validator-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+data_catalog_dcat_validator-0.0.1.dist-info/top_level.txt,sha256=vd95oIgx70dequQa-Ad4qcs-OfdMVlm6I8XErF74-qU,34
+data_catalog_dcat_validator-0.0.1.dist-info/RECORD,,
