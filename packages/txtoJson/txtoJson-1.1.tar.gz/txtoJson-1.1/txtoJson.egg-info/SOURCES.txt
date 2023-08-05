@@ -1,0 +1,6 @@
+README.md
+setup.py
+txtoJson.egg-info/PKG-INFO
+txtoJson.egg-info/SOURCES.txt
+txtoJson.egg-info/dependency_links.txt
+txtoJson.egg-info/top_level.txt
