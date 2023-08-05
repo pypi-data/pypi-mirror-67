@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: adn_tools
+Version: 0.1
+Summary: A helper that converts XLSX to api calls.
+Home-page: http://github.com/test/test
+Author: Mikael Lundin
+Author-email: mikael@adnuntius.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
