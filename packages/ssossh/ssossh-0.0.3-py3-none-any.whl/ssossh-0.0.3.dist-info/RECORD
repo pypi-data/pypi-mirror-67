@@ -1,0 +1,16 @@
+ssossh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ssossh/__main__.py,sha256=lDy-WG7wl8i6IbrmPX0pLZESb-ENrNR31tFOifXQZuw,5713
+ssossh/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ssossh/config/authservers.json,sha256=7wDEJy1BpqCDSoBkR9NjyeEo24YIo9S-9cOzdHiqln0,1531
+ssossh/config/authservers.json~,sha256=BIytggnYctRu8cuhUz9ZZZzt3JAW51Ys7qLeN0DDJeY,1527
+ssossh/config/__pycache__/__init__.cpython-37.pyc,sha256=XcFoR8UphooG4cGv5kzOdg5v5LGnrkG34I1QaSVbr_M,137
+ssossh/config/__pycache__/__init__.cpython-38.pyc,sha256=YOTB3uL9nPYpaEaWfH7hsjJL9G2TZb2_PDLsfFqpAG4,141
+ssossh/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ssossh/templates/call_back.html,sha256=Js5kFr_rcyF4ESoX5pJWqeaH3iEwA2LRLjI8JojHvsg,829
+ssossh/templates/__pycache__/__init__.cpython-37.pyc,sha256=c2jHkq6mIWuT3tM0hvuYTbtNswFf8TnPSErXBzF6AF0,140
+ssossh-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ssossh-0.0.3.dist-info/METADATA,sha256=tvUvO-qIMORwjvr_MZfpeWhnJOZk7Ms1ob0DHBSMzgU,636
+ssossh-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ssossh-0.0.3.dist-info/entry_points.txt,sha256=WIPmnvSbgaXuveJA88J_-z4KNdyIK23yvXZCa5OKlwM,65
+ssossh-0.0.3.dist-info/top_level.txt,sha256=ZfzJh1LNdWSb-XGDS2NFo7Jz1yO6sMq8l90Wne5aQZc,7
+ssossh-0.0.3.dist-info/RECORD,,
