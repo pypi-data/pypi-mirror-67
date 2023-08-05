@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: imagepypelines
+Version: 0.3.0a0
+Summary: data pipeline and convienence library targeted at accelerating the development of imaging projects and research
+Home-page: https://www.imagepypelines.org
+Author: Jeff Maggio, Ryan Hartzell, and collaborators
+Author-email: jmaggio14@gmail.com
+Maintainer: Jeff Maggio
+Maintainer-email: jmaggio14@gmail.com
+License: MIT
+Download-URL: https://github.com/jmaggio14/imagepypelines
+Keywords: imaging-science machine-learning computer-vision data-pipelines
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Requires-Python: >=3.5.*
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools (>=39.0)
+Requires-Dist: colorama (>=0.4.0)
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: termcolor (>=1.0)
+Requires-Dist: imagepypelines-tools
+Requires-Dist: networkx (>=2.4)
+Requires-Dist: cryptography
+
+UNKNOWN
+
+
