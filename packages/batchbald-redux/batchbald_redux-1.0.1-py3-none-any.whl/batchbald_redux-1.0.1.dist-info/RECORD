@@ -1,0 +1,13 @@
+batchbald_redux/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+batchbald_redux/_nbdev.py,sha256=NP7zuKY-sAdRg9_yTyGThv5_4KqFnuKRtcNJkpZm1Ds,2060
+batchbald_redux/active_learning.py,sha256=-FeHxqmpwn9xyqJcaWklrk4VaQaiMuuz2suuNB6_wD8,4929
+batchbald_redux/batchbald.py,sha256=n2HkHwJavWEBQLPl_p_gERzBqOCACp0Wg54eBDKHP9o,5382
+batchbald_redux/consistent_mc_dropout.py,sha256=yP9qTVV-xSgjPAjsYnYRYEQpGjFhl2ZiAUfM_Q8-d2Y,5784
+batchbald_redux/joint_entropy.py,sha256=Jd-FjYO8No0AaTA0YI98WvHPbLT3FGK8-Z-IZzzZBhA,11110
+batchbald_redux/repeated_mnist.py,sha256=K88awN71vsxZcI6_WHua5icou0iTieK7Dd03rKElpQI,2859
+batchbald_redux-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+batchbald_redux-1.0.1.dist-info/METADATA,sha256=sWggkbRqJp9qcdHsfRVwWLW4oU2hf2QQnmo59-WwUsM,3301
+batchbald_redux-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+batchbald_redux-1.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+batchbald_redux-1.0.1.dist-info/top_level.txt,sha256=P2DVbB6DZPLwsZOqNn0avFULLJ3LVNQaD8jy4yxy5bA,16
+batchbald_redux-1.0.1.dist-info/RECORD,,
