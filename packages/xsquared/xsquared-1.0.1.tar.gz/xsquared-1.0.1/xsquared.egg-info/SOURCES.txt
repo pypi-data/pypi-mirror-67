@@ -1,0 +1,8 @@
+README.txt
+setup.py
+xsquared/__init__.py
+xsquared.egg-info/PKG-INFO
+xsquared.egg-info/SOURCES.txt
+xsquared.egg-info/dependency_links.txt
+xsquared.egg-info/requires.txt
+xsquared.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: xsquared
+Version: 1.0.1
+Summary: a python package that squares its imput
+Home-page: https://github.com/gubareve/x-squared/
+Author: Evan Gubarev
+Author-email: evan@evangubarev.com
+License: MIT
+Description: this is a test
+        
+Platform: UNKNOWN
