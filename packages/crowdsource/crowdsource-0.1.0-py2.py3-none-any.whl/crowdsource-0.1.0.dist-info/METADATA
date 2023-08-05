@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: crowdsource
+Version: 0.1.0
+Summary: Realtime Competitions
+Home-page: https://github.com/timkpaine/crowdsource
+Author: Tim Paine
+Author-email: timothy.k.paine@gmail.com
+License: Apache 2.0
+Keywords: realtime competition streaming
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cufflinks (>=0.17.0)
+Requires-Dist: IPython (>=7.4.0)
+Requires-Dist: jinja2 (>=2.10)
+Requires-Dist: numpy (>=1.17.2)
+Requires-Dist: pandas (>=0.25.0)
+Requires-Dist: perspective-python (>=0.4.0rc6)
+Requires-Dist: psycopg2 (>=2.7.6.1)
+Requires-Dist: scikit-learn (>=0.21.3)
+Requires-Dist: scipy (>=1.2.1)
+Requires-Dist: sqlalchemy (>=1.3.0)
+Requires-Dist: tornado-sqlalchemy-login (>=0.1.0)
+Requires-Dist: tornado (>=6.0.3)
+Requires-Dist: ujson (>=1.35)
+Requires-Dist: validators (>=0.12.4)
+Provides-Extra: dev
+Requires-Dist: flake8 (>=3.7.8) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pybind11 (>=2.4.0) ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: Sphinx (>=1.8.4) ; extra == 'dev'
+Requires-Dist: sphinx-markdown-builder (>=0.5.2) ; extra == 'dev'
+Requires-Dist: cufflinks (>=0.17.0) ; extra == 'dev'
+Requires-Dist: IPython (>=7.4.0) ; extra == 'dev'
+Requires-Dist: jinja2 (>=2.10) ; extra == 'dev'
+Requires-Dist: numpy (>=1.17.2) ; extra == 'dev'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'dev'
+Requires-Dist: perspective-python (>=0.4.0rc6) ; extra == 'dev'
+Requires-Dist: psycopg2 (>=2.7.6.1) ; extra == 'dev'
+Requires-Dist: scikit-learn (>=0.21.3) ; extra == 'dev'
+Requires-Dist: scipy (>=1.2.1) ; extra == 'dev'
+Requires-Dist: sqlalchemy (>=1.3.0) ; extra == 'dev'
+Requires-Dist: tornado-sqlalchemy-login (>=0.1.0) ; extra == 'dev'
+Requires-Dist: tornado (>=6.0.3) ; extra == 'dev'
+Requires-Dist: ujson (>=1.35) ; extra == 'dev'
+Requires-Dist: validators (>=0.12.4) ; extra == 'dev'
+
+# crowdsource
+Crowdsourcing answers
+
+[![Build Status](https://travis-ci.org/timkpaine/crowdsource.svg?branch=master)](https://travis-ci.org/timkpaine/crowdsource)
+[![GitHub issues](https://img.shields.io/github/issues/timkpaine/crowdsource.svg)]()
+[![codecov](https://codecov.io/gh/timkpaine/crowdsource/branch/master/graph/badge.svg?token=fQFntZ90kS)](https://codecov.io/gh/timkpaine/crowdsource)
+[![PyPI](https://img.shields.io/pypi/l/crowdsource.svg)](https://pypi.python.org/pypi/crowdsource)
+[![PyPI](https://img.shields.io/pypi/v/crowdsource.svg)](https://pypi.python.org/pypi/crowdsource)
+[![Docs](https://readthedocs.org/projects/crowdsource/badge/?version=latest)](http://crowdsource.readthedocs.io/en/latest/?badge=latest)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/crowd_source/Lobby)
+
+## Installation
+`pip install crowdsource` or from source `python setup.py install`
+
+## Running the Server
+`python -m crowdsource.server`
+
+![](https://raw.githubusercontent.com/timkpaine/crowdsource/master/docs/img/screenshot.png)
+
