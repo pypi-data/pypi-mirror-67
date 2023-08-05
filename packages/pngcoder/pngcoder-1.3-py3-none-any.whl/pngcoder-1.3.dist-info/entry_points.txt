@@ -1,0 +1,4 @@
+[console_scripts]
+pngcoder = src.pngcoder:main
+wavcoder = src.wavcoder:main
+
