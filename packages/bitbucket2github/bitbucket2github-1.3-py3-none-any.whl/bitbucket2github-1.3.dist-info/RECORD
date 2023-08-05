@@ -1,0 +1,10 @@
+bitbucket2github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bitbucket2github/bitbucket_client.py,sha256=ByHqWK0EObsO4YkCm1JuunSjtI9YEiWeV7bAvLILSEA,876
+bitbucket2github/cli.py,sha256=uNKa93kgu9MOaRFu-lkfQZJWsh4hHFrr0qb-etxneHw,1879
+bitbucket2github/github_client.py,sha256=OyYzG_lQ_aDBOWGdbnFgXHz762b1C7-wOecgdSAwHHk,2282
+bitbucket2github/processor.py,sha256=a1oIYzqswa5ONFGRR4zlEtEGi8VZuI7IUlHfq5FZNY0,1592
+bitbucket2github-1.3.dist-info/METADATA,sha256=MWJ0Elaqh74e_aC2GQ4U-MfI6GU-zp6hltLTQMI9_Ig,1901
+bitbucket2github-1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bitbucket2github-1.3.dist-info/entry_points.txt,sha256=DfmsXba5lDsQdMuM5aq250HerW7cMc_UVXlpOGD6ABQ,67
+bitbucket2github-1.3.dist-info/top_level.txt,sha256=kLy6y_HCh2A7G88QzOimsD3gBmtREvna1Zq9AJhBDF0,17
+bitbucket2github-1.3.dist-info/RECORD,,
