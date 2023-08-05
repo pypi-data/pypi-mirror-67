@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: vantage6-server
+Version: 1.0.0b3
+Summary: Vantage6 server
+Home-page: https://github.com/IKNL/vantage6-server
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: flask (==1.1.1)
+Requires-Dist: Flask-RESTful (==0.3.8)
+Requires-Dist: Flask-Cors (==3.0.8)
+Requires-Dist: Flask-JWT-Extended (==3.24.1)
+Requires-Dist: flask-marshmallow (==0.11.0)
+Requires-Dist: Flask-SocketIO (==4.2.1)
+Requires-Dist: Flask-SQLAlchemy (==2.4.1)
+Requires-Dist: flasgger (==0.9.4)
+Requires-Dist: schema (==0.7.1)
+Requires-Dist: bcrypt (==3.1.7)
+Requires-Dist: questionary (==1.5.1)
+Requires-Dist: marshmallow (==2.16.3)
+Requires-Dist: marshmallow-sqlalchemy (==0.15.0)
+Requires-Dist: ipython (==7.13.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: psutil (==5.7.0)
+Requires-Dist: gevent (==1.4.0)
+Requires-Dist: vantage6-common (>=1.0.0b2)
+Provides-Extra: dev
+Requires-Dist: termcolor (==1.1.0) ; extra == 'dev'
+Requires-Dist: coverage (==4.5.4) ; extra == 'dev'
+
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/vantage6.png?raw=true" width=200 align="right">
+
+[![Coverage Status](https://coveralls.io/repos/github/IKNL/vantage6-server/badge.svg?branch=master)](https://coveralls.io/github/IKNL/vantage6-server?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/707833fa47a94393b3f8ab9f2c598034)](https://www.codacy.com/gh/IKNL/vantage6-server?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=IKNL/vantage6-server&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/IKNL/ppDLI.svg?branch=master)](https://travis-ci.org/IKNL/vantage6-server)
+<!--[![PyPI version](https://badge.fury.io/py/ppDLI.svg)](https://badge.fury.io/py/ppDLI) -->
+
+# Introduction
+The growing complexity of cancer diagnosis and treatment requires data sets that are larger than currently available in a single hospital or even in cancer registries. However, sharing patient data is difficult due to patient privacy and data protection needs. Federated learning technology has the potential to overcome these limitations. In this approach, organizations can collaborate by exchanging aggregated data and/or statistics while keeping the underlying data safely on site and undisclosed. This repository contains software (and instructions) to setup a federated learning infrastructure.
+
+For an overview of the architecture and information on how to use the infrastructure, please see [https://vantage6.ai](https://vantage6.ai). For documentation, please see [https://docs.distributedlearning.ai/](https://docs.distributedlearning.ai/).
+
+## Hardware and software requirements
+Running the central server requires a (virtual) machine that:
+* is accessible from the internet
+* has Python 3.6+ and the ppdli package installed (`pip install vantage6-server`)
+
+## Installation
+See the [documentation](https://docs.distributedlearning.ai/) for detailed instructions on how to install the server and nodes. 
+
+
