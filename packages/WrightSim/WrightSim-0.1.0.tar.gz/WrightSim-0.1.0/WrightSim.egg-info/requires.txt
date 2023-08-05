@@ -1,0 +1,10 @@
+h5py>=2.7.0
+numpy
+scipy
+WrightTools
+
+[cuda]
+pycuda
+
+[docs]
+sphinx-gallery>=0.1.9
