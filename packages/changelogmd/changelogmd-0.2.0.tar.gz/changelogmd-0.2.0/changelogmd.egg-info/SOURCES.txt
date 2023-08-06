@@ -1,0 +1,10 @@
+README.md
+setup.py
+changelogmd/Changelog.py
+changelogmd/__init__.py
+changelogmd/__main__.py
+changelogmd.egg-info/PKG-INFO
+changelogmd.egg-info/SOURCES.txt
+changelogmd.egg-info/dependency_links.txt
+changelogmd.egg-info/entry_points.txt
+changelogmd.egg-info/top_level.txt

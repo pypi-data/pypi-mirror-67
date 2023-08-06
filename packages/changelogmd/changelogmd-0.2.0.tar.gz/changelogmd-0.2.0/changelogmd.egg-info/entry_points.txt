@@ -1,0 +1,3 @@
+[console_scripts]
+changelogmd = changelogmd.__main__:main
+
