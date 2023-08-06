@@ -1,0 +1,14 @@
+CHANGES.rst
+DESCRIPTION.rst
+MANIFEST.in
+README.md
+setup.py
+src/pypulseprofilestray/__init__.py
+src/pypulseprofilestray/icon.png
+src/pypulseprofilestray/tray.py
+src/python_pulseaudio_profiles_trayicon.egg-info/PKG-INFO
+src/python_pulseaudio_profiles_trayicon.egg-info/SOURCES.txt
+src/python_pulseaudio_profiles_trayicon.egg-info/dependency_links.txt
+src/python_pulseaudio_profiles_trayicon.egg-info/entry_points.txt
+src/python_pulseaudio_profiles_trayicon.egg-info/requires.txt
+src/python_pulseaudio_profiles_trayicon.egg-info/top_level.txt
