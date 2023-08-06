@@ -1,0 +1,8 @@
+flowws
+flowws-analysis
+flowws-freud
+freud-analysis
+plato-draw
+rowan
+scikit-learn
+spglib
