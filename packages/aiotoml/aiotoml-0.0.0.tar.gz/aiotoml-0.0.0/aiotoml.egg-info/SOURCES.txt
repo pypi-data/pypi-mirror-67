@@ -1,0 +1,7 @@
+README.md
+setup.py
+aiotoml/__init__.py
+aiotoml.egg-info/PKG-INFO
+aiotoml.egg-info/SOURCES.txt
+aiotoml.egg-info/dependency_links.txt
+aiotoml.egg-info/top_level.txt
