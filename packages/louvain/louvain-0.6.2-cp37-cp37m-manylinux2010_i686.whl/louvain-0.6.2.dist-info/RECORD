@@ -1,0 +1,12 @@
+louvain.libs/libz-9f7255d3.so.1.2.3,sha256=cmkyidpVXM7SmPkPJ2vG6Zm0kSaqzlQ_OgIgUVI4NZg,79128
+louvain.libs/libxml2-e8dcf98b.so.2.7.6,sha256=y3WtKP_OSAPprs7Kd9w_1afPGKvyeu2eMgW4PIJ4Psc,1441844
+louvain/functions.py,sha256=dHi3f7kdbDCJ5vBGVHwiNKlvSZLVMTYKGNy4yt2OuU4,17730
+louvain/Optimiser.py,sha256=zS93fzKDY-8YkmkPr-VuyrG9qpdZx5KGXe9X_Jxgaj0,16551
+louvain/__init__.py,sha256=xXZWsmEpBKKktcn4ZONBaojEYELzA9b3TOSFn0SKXuU,2779
+louvain/VertexPartition.py,sha256=hR-byy2hl1dRjRd4Dnf_TZGC3eelAi-Xvhtw6FvB35A,36626
+louvain/_c_louvain.cpython-37m-i386-linux-gnu.so,sha256=En6k1MStit4oNk_NAZlJvWuAJtuDFN3_DTcDh9RllC0,3459356
+louvain-0.6.2.dist-info/WHEEL,sha256=8J3yEBKxNSkiCTCD5jA_VkHRD22o0XE5C8WwrwvCsik,110
+louvain-0.6.2.dist-info/METADATA,sha256=yh5qmQl_aU2Pu3KRunGgXz4pLRJ96cxxVADlatt4KZc,1434
+louvain-0.6.2.dist-info/RECORD,,
+louvain-0.6.2.dist-info/top_level.txt,sha256=_uGptjKo4FbjodRFDADZjZkGMPLP1s-WRXsYPHSGzJI,8
+louvain-0.6.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
