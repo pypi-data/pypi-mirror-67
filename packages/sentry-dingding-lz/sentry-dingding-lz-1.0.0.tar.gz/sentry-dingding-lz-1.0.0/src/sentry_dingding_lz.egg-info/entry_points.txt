@@ -1,0 +1,3 @@
+[sentry.plugins]
+sentry_dingding_lz = sentry_dingding.plugin:DingDingLzPlugin
+
