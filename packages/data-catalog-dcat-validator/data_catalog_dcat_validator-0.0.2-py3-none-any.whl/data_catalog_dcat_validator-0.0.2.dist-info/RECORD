@@ -1,0 +1,13 @@
+data_catalog_dcat_validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_catalog_dcat_validator/errors.py,sha256=NdWHVyR5Mt8Yzm6dgRYVQRiEtOsPkyUr0YYJl6NOtkA,1313
+data_catalog_dcat_validator/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_catalog_dcat_validator/models/dataset.py,sha256=RN4vhqsI6hKA6fUpHDj7dIK7PNd-nOEY1xNuSPgjNQU,1254
+data_catalog_dcat_validator/models/dcat.py,sha256=ZOmk4lx3dHWLnFOXtvCZIJCcVmzyP4N0jpqt9rvvUR0,6171
+data_catalog_dcat_validator/validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_catalog_dcat_validator/validators/base.py,sha256=CWVkhUTjW_WfEdXapXzXdrZfbMMwSrNu7i5n6viaOiU,301
+data_catalog_dcat_validator/validators/validators.py,sha256=CqIdl8NSlONUA1DznyLxNBypJUB4N-GAmS-9fuVgTK8,3464
+data_catalog_dcat_validator-0.0.2.dist-info/LICENSE,sha256=t3gUvwdu3KsToJIX_UBZHlWvksg3hc5AHyKpm3qfM4M,1060
+data_catalog_dcat_validator-0.0.2.dist-info/METADATA,sha256=rAo2E6oSdZpsyqM4ogvZPhjubViSKZ1e7HCngfmzJiE,708
+data_catalog_dcat_validator-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+data_catalog_dcat_validator-0.0.2.dist-info/top_level.txt,sha256=y-A_96dJESZ0xMi6mOjxubC1oQxv4SwI4kYygOGlLnQ,28
+data_catalog_dcat_validator-0.0.2.dist-info/RECORD,,
