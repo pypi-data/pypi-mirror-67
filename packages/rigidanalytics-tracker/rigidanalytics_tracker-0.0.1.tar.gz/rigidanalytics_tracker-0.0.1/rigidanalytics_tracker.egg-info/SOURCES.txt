@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+rigidanalytics/__init__.py
+rigidanalytics/_compat.py
+rigidanalytics/_types.py
+rigidanalytics/apps.py
+rigidanalytics/middleware.py
+rigidanalytics/transport.py
+rigidanalytics/utils.py
+rigidanalytics/worker.py
+rigidanalytics_tracker.egg-info/PKG-INFO
+rigidanalytics_tracker.egg-info/SOURCES.txt
+rigidanalytics_tracker.egg-info/dependency_links.txt
+rigidanalytics_tracker.egg-info/requires.txt
+rigidanalytics_tracker.egg-info/top_level.txt
