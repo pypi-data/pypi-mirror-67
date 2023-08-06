@@ -1,0 +1,7 @@
+README.md
+setup.py
+uc_tftp/__init__.py
+uc_tftp.egg-info/PKG-INFO
+uc_tftp.egg-info/SOURCES.txt
+uc_tftp.egg-info/dependency_links.txt
+uc_tftp.egg-info/top_level.txt
