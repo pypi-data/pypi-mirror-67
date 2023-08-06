@@ -1,0 +1,4 @@
+
+    [gui_scripts]
+    whatifmachine=whatifmachine.__main__:main
+    

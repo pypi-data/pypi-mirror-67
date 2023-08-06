@@ -1,0 +1,12 @@
+README.rst
+setup.py
+whatifmachine/__init__.py
+whatifmachine/__main__.py
+whatifmachine/profiler.py
+whatifmachine.egg-info/PKG-INFO
+whatifmachine.egg-info/SOURCES.txt
+whatifmachine.egg-info/dependency_links.txt
+whatifmachine.egg-info/entry_points.txt
+whatifmachine.egg-info/not-zip-safe
+whatifmachine.egg-info/requires.txt
+whatifmachine.egg-info/top_level.txt
