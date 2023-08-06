@@ -1,0 +1,3 @@
+[console_scripts]
+bpy_post_install = blenderpy.post_install:post_install
+
