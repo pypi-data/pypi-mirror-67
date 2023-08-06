@@ -1,0 +1,4 @@
+[console_scripts]
+paste2sms = paste2sms.__main__:main
+sendsms = paste2sms._sendsms.__main__:main
+
