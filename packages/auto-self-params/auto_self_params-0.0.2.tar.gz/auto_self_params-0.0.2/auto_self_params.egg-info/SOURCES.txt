@@ -1,0 +1,8 @@
+README.md
+setup.py
+auto_self_params/__init__.py
+auto_self_params/auto_self_params.py
+auto_self_params.egg-info/PKG-INFO
+auto_self_params.egg-info/SOURCES.txt
+auto_self_params.egg-info/dependency_links.txt
+auto_self_params.egg-info/top_level.txt
