@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: volumential
+Version: 2017.1a0
+Summary: Volume potential computation powered by FMM.
+Home-page: UNKNOWN
+Author: Xiaoyu Wei
+Author-email: wxy0516@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: boxtree
+Requires-Dist: h5py
+Requires-Dist: loo.py
+Requires-Dist: meshmode
+Requires-Dist: modepy
+Requires-Dist: pyevtk
+Requires-Dist: pymbolic
+Requires-Dist: pytential
+Requires-Dist: scipy
+Requires-Dist: sumpy
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: gmsh_support
+Requires-Dist: gmsh-interop ; extra == 'gmsh_support'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: gmsh-interop ; extra == 'test'
+
+# Volumential
+
+Volumential (VOLUME poteNTIAL) provides toolset to solve volume potential integral equations
+efficiently via Fast Multipole Method.
+
+## Documentation
+
+[Browse the documentation online.](http://xiaoyu-wei.com/docs/volumential/)
+
+## License
+
+Volumential is developed and released under the terms of the MIT license,
+though it also makes use of third-party packages under their own licensing
+terms. See the [LICENSE](./LICENSE.md) file for details.
+
+## Acknowledgements
+
+We would like to thank people and organizations that contributed to or supported the
+Volumential project, without whom the project would not have been possible.
+
+The research that started the Volumential project was supported by the
+[National Science Foundation][nsf] under grant DMS-1654756,
+and by the [Department of Computer Science][uiuc-cs] at the
+[University of Illinois at Urbana-Champaign][uiuc].
+Part of the work was performed while the authors were participating in
+the [HKUST][hkust]-[ICERM][icerm] workshop "Integral Equation Methods, Fast
+Algorithms and Their Applications to Fluid Dynamics and Materials
+Science" held in 2017.
+
+Thanks very much to the [Department of Mathematics][hkust-math] at
+[Hong Kong University of Science and Technology][hkust]
+for funding Xiaoyu Wei to work on the project
+as a PhD student under the Postgraduate Studentship and
+the Overseas Research Award.
+
+The project's name `volumential` [courtesy of Andreas Klöckner][volumential-name].
+
+[nsf]: https://www.nsf.gov/
+[hkust-math]: https://www.math.ust.hk/
+[hkust]: https://www.ust.hk/home
+[icerm]: https://icerm.brown.edu/
+[uiuc-cs]: https://cs.illinois.edu/
+[uiuc]: https://illinois.edu/
+[volumential-name]: https://gitlab.tiker.net/xywei/volumential/issues/2
+
+
