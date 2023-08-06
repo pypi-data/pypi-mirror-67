@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+SeleniumAuthProxy/SeleniumAuthProxy.py
+SeleniumAuthProxy/__init__.py
+SeleniumAuthProxy.egg-info/PKG-INFO
+SeleniumAuthProxy.egg-info/SOURCES.txt
+SeleniumAuthProxy.egg-info/dependency_links.txt
+SeleniumAuthProxy.egg-info/not-zip-safe
+SeleniumAuthProxy.egg-info/top_level.txt
