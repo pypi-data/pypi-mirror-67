@@ -1,0 +1,9 @@
+README.md
+npmworkon.py
+setup.py
+npmworkon.egg-info/PKG-INFO
+npmworkon.egg-info/SOURCES.txt
+npmworkon.egg-info/dependency_links.txt
+npmworkon.egg-info/entry_points.txt
+npmworkon.egg-info/requires.txt
+npmworkon.egg-info/top_level.txt
