@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyzemberek.egg-info/PKG-INFO
+pyzemberek.egg-info/SOURCES.txt
+pyzemberek.egg-info/dependency_links.txt
+pyzemberek.egg-info/requires.txt
+pyzemberek.egg-info/top_level.txt
+zemberek/__init__.py
+zemberek/stemmer.py
+zemberek/tokenization.py
