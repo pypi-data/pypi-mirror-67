@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sphinx-abcnotation
+Version: 0.4
+Summary: A abc directive for Sphinx
+Home-page: https://github.com/stfwn/sphinx_abcnotation
+Author: stfwn
+Author-email: hi@stfwn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Sphinx ABC Notation
+
+This extension adds an `abc` directive to Sphinx. The content of the directive
+will be rendered to `svg` by [abcm2ps](https://github.com/leesavide/abcm2ps)
+and included in the rendered document as an image.
+
+## Usage
+
+```rst
+Here are 12 notes on a staff.
+
+.. abc::
+
+    X:1
+    L:1/4
+    K:C
+    A, ^A, B, C ^C D ^D E F ^F G ^G
+    w: a a♯ b c c♯ d d♯ e f f♯ g g♯
+```
+
+Here are 12 notes on a staff.
+
+![](example.svg)
+
+
