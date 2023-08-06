@@ -1,0 +1,7 @@
+evapotranspiration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evapotranspiration/penman_monteith_daily.py,sha256=ROHKiAWhjIAUYJ-Na6YCN-GiP8y4OcV4UE4VChBpCes,44264
+evapotranspiration-0.0.4.dist-info/LICENSE.txt,sha256=OicDPLiF6S833RUYf5VDa5NGMn7RmR9V3DgUSP__ZVo,1099
+evapotranspiration-0.0.4.dist-info/METADATA,sha256=s3PhNi65IgtU4erlDUMY497REQcHnjRz98KM0Wixrfc,768
+evapotranspiration-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+evapotranspiration-0.0.4.dist-info/top_level.txt,sha256=p_wW1XaWVYFYMsFOua1mZbaD3n_6pVdG9jnQANzNvIE,19
+evapotranspiration-0.0.4.dist-info/RECORD,,
