@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: MetaPhlAn
+Version: 3.0.0a1
+Summary: MetaPhlAn: Metagenomic Phylogenetic Analysis, v3
+Home-page: http://github.com/biobakery/MetaPhlAn/
+Author: Francesco Beghini
+Author-email: francesco.beghini@unitn.it
+License: LICENSE.txt
+Description: MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea and Eukaryotes) from metagenomic shotgun sequencing data (i.e. not 16S) with species-level. With the newly added StrainPhlAn module, it is now possible to perform accurate strain-level microbial profiling.
+Platform: UNKNOWN
