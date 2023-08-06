@@ -1,0 +1,10 @@
+clima/__init__.py,sha256=O0A6bnp00SN0TZ2UGzitsRa-jYDjrVqAD31IyR9MmN8,98
+clima/configfile.py,sha256=9X4-OS59CNv-tRHoH5FonVBpAcAol5XzLDCUW7O_ZJ0,1261
+clima/core.py,sha256=lMhbRSmmq5ijqy45IGHH2W64Vnphrl7k3Z73sO8xgyk,4670
+clima/docstring.py,sha256=fSuVSp1Zw5SU2WRE_sKYmADXCrag4vlrpvuMDoXrIkU,3246
+clima/schema.py,sha256=suNU7sfNZOBLXQ7k2SRfFiPf7912zggJ7VUdnTmRyHM,1834
+clima/utils.py,sha256=MEioZbzOJEAbC4Zjg2yOtxjYnI1tWIdtXfJWBiROqGc,588
+clima-0.4.0.dist-info/LICENSE,sha256=0M25B4w0zxXvslJ5seSMwDzWcbvFV6j_f6MgZk3J2Xo,1079
+clima-0.4.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+clima-0.4.0.dist-info/METADATA,sha256=B17vY6fo9SnhHNVi44zyBuKKzS9Uw8MTq6mHzpMpS3U,10414
+clima-0.4.0.dist-info/RECORD,,
