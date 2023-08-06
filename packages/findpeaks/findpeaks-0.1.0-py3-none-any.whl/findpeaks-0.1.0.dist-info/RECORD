@@ -1,0 +1,10 @@
+findpeaks/__init__.py,sha256=p-RumzNsRKBWLr15xlwXpLc6OQz-WTl9sWNW-sEVlG8,824
+findpeaks/examples.py,sha256=hC-mE-XV6Mgdxmag895_8BxavUKI144xMjvj5snRT6M,947
+findpeaks/findpeaks.py,sha256=0o_eexb4kC2ty2qt_X3IlehdpuVaeho3aph3qmGWaDI,5250
+findpeaks/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findpeaks/utils/smoothline.py,sha256=W0VQ90xlGH83T7MPd4E5hEMmk9eh2ZWF2zl2PM8tB4k,4914
+findpeaks-0.1.0.dist-info/LICENSE,sha256=4OJs0O1OXWmEajycw6JguIOE6rk1lvDQh0NKJCSXy9M,1122
+findpeaks-0.1.0.dist-info/METADATA,sha256=W1g3QznaxvBtKfhHqQFUS1OMy25G1wUpB4TS1bWAKb8,3342
+findpeaks-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+findpeaks-0.1.0.dist-info/top_level.txt,sha256=HND0Pn81OXxXHW7MkhO3wu2AkSaczV2RtQTriF1z8Ug,10
+findpeaks-0.1.0.dist-info/RECORD,,
