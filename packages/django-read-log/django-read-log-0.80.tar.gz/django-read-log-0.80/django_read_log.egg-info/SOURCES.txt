@@ -1,0 +1,14 @@
+README.rst
+setup.py
+django_read_log.egg-info/PKG-INFO
+django_read_log.egg-info/SOURCES.txt
+django_read_log.egg-info/dependency_links.txt
+django_read_log.egg-info/not-zip-safe
+django_read_log.egg-info/requires.txt
+django_read_log.egg-info/top_level.txt
+read_log/__init__.py
+read_log/apps.py
+read_log/models.py
+read_log/view_mixins.py
+read_log/migrations/0001_initial.py
+read_log/migrations/__init__.py
