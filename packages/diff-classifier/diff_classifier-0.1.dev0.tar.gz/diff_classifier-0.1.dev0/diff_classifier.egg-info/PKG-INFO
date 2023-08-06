@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: diff-classifier
+Version: 0.1.dev0
+Summary:  
+Home-page: https://github.com/ccurtis7/diff_classifier
+Author: Chad Curtis
+Author-email: ccurtis7@uw.edu
+Maintainer: Chad Curtis
+Maintainer-email: ccurtis7@uw.edu
+License: MIT
+Description:  
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
