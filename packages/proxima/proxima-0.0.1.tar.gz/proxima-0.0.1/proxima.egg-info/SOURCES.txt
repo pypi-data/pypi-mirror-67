@@ -1,0 +1,6 @@
+README.rst
+setup.py
+proxima.egg-info/PKG-INFO
+proxima.egg-info/SOURCES.txt
+proxima.egg-info/dependency_links.txt
+proxima.egg-info/top_level.txt
