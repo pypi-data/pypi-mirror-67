@@ -1,0 +1,6 @@
+Growtopia.egg-info/PKG-INFO
+Growtopia.egg-info/SOURCES.txt
+Growtopia.egg-info/dependency_links.txt
+Growtopia.egg-info/not-zip-safe
+Growtopia.egg-info/requires.txt
+Growtopia.egg-info/top_level.txt
