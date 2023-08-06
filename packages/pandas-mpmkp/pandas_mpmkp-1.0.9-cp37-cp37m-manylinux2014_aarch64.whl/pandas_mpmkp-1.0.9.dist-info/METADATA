@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pandas-mpmkp
+Version: 1.0.9
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Maintainer: The PyData Development Team
+Maintainer-email: pydata@googlegroups.com
+License: BSD
+Project-URL: Bug Tracker, https://github.com/pandas-dev/pandas/issues
+Project-URL: Documentation, https://pandas.pydata.org/pandas-docs/stable/
+Project-URL: Source Code, https://github.com/pandas-dev/pandas
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6.1
+Requires-Dist: python-dateutil (>=2.6.1)
+Requires-Dist: pytz (>=2017.2)
+Requires-Dist: numpy (>=1.13.3)
+Provides-Extra: test
+Requires-Dist: pytest (>=4.0.2) ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: hypothesis (>=3.58) ; extra == 'test'
+
+
+**pandas-mpmkp2020** is a test Python package
+----------------------------------------------
+1)  I am working on a generatting aarch64 pandas wheel.
+2)  This project is where I am testing the things.
+3)  You must not use this project to grab pandas features.
+4)  I am expecting it to go away at some point in the future.
+5)  Pip version>=19.3 supports multi-arch.
+6)  Please visit official pypi page: https://pypi.org/project/pandas/ to install pandas.
+
+
+
