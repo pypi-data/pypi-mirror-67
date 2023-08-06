@@ -1,0 +1,2 @@
+include src/mpfit/mpfit.h
+include src/PulseGaussianFitting.h
