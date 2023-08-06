@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: django-cms-forms
+Version: 0.1.2
+Summary: Set of Django CMS plugins for creating forms
+Home-page: https://github.com/sim1234/cms_forms
+Author: Szymon Zmilczak
+Author-email: szymon.zmilczak@gmail.com
+Maintainer: Szymon Zmilczak
+Maintainer-email: szymon.zmilczak@gmail.com
+License: MIT
+Keywords: django,django cms,cms,forms
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: django-cms (>=3.7)
+
+# Django CMS Forms
+
+![Test pipeline](https://github.com/sim1234/cms_forms/workflows/Test%20pipeline/badge.svg)
+[![codecov](https://codecov.io/gh/sim1234/cms_forms/branch/master/graph/badge.svg?token=SP8ZN53C11)](https://codecov.io/gh/sim1234/cms_forms)
+[![pypi](http://img.shields.io/pypi/v/django-cms-forms.svg?style=flat-square)](https://pypi.python.org/pypi/django-cms-forms/)
+
+Source: [https://github.com/sim1234/cms_forms/](https://github.com/sim1234/cms_forms/)
+
+
+## Installation 
+
+ - Install `django-cms-forms` package.
+ - Add `cms_forms` to `INSTALLED_APPS` django setting.
+ - Add `path("forms/", include("cms_forms.urls"))` to your main url config.
+
+## Configuration
+
+Configure this package by setting these variables in your django settings.
+All settings are optional. The default values can be imported from `cms_forms.config_defaults`.
+
+`CMS_FORMS_REGISTER_PLUGINS`: bool - A flag indicating if the package should register to cms all plugins mentioned in the following lists.
+
+`CMS_FORM_PLUGINS`: List[str] - List of dot delimited paths to form plugins. 
+
+`CMS_FIELD_PLUGINS`: List[str] - List of dot delimited paths to form field plugins. 
+
+`CMS_WIDGET_PLUGINS`: List[str] - List of dot delimited paths to field widget plugins.
+
+`CMS_CHOICE_OPTION_PLUGINS`: List[str] - List of dot delimited paths to choice option plugins.
+
+`CMS_CHOICE_FIELD_PLUGINS`: List[str] - List of dot delimited paths to choice field plugins.
+
+`CMS_BUTTON_PLUGINS`: List[str] - List of dot delimited paths to button plugins.
+
+
+## Documentation
+
+TODO
+
+
+## Contributing
+
+Feel free to propose any change, as long as it tested and passes the repo checks.
+
+Here is a simple guide to development installation of the project:
+
+```
+git clone https://github.com/sim1234/cms_forms.git && cd cms_forms
+apt-get install python3.8 docker docker-compose  # these are system requirements
+python3.8 -m venv venv && source venv/bin/activate
+export PYTHONPATH=$PYTHONPATH:$(pwd)/examples
+export DJANGO_SETTINGS_MODULE=installation.settings
+pip install -r requirements-test.txt
+flake8 .
+black --line-length 120 .
+pytest --cov cms_forms tests
+docker-compose down && docker volume prune -f && docker-compose up --build --abort-on-container-exit # run selenium tests
+```
+
+The project  is automatically built on tag push and a new release is published.
+
+
+
