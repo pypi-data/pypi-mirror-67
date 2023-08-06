@@ -1,0 +1,4 @@
+[console_scripts]
+RepTate-test = RepTate:main
+RepTateCL-test = RepTate.CL:main
+
