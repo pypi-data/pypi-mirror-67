@@ -1,0 +1,14 @@
+.gitignore
+.travis.yml
+LICENSE
+MANIFEST.in
+README.md
+escapism.py
+setup.cfg
+setup.py
+test-requirements.txt
+escapism.egg-info/PKG-INFO
+escapism.egg-info/SOURCES.txt
+escapism.egg-info/dependency_links.txt
+escapism.egg-info/top_level.txt
+tests/test_escapism.py
