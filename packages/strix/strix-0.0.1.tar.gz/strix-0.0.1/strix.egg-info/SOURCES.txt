@@ -1,0 +1,7 @@
+README.md
+setup.py
+strix/__init__.py
+strix.egg-info/PKG-INFO
+strix.egg-info/SOURCES.txt
+strix.egg-info/dependency_links.txt
+strix.egg-info/top_level.txt
