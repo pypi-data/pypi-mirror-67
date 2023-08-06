@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+processdigit/__init__.py
+processdigit/app.py
+processdigit/process_image.py
+processdigit.egg-info/PKG-INFO
+processdigit.egg-info/SOURCES.txt
+processdigit.egg-info/dependency_links.txt
+processdigit.egg-info/requires.txt
+processdigit.egg-info/top_level.txt

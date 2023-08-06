@@ -1,0 +1,11 @@
+scikit-learn
+Keras
+tensorflow
+theano
+opencv-python
+pygame
+pandas
+numpy
+scipy
+matplotlib
+six>=1.12.0
