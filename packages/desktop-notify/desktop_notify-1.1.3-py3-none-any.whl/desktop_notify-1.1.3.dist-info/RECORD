@@ -1,0 +1,10 @@
+desktop_notify/__init__.py,sha256=-TowW12EzYJ9TeXGi4XX3zDpmRjul3L92667dU1BR9s,2102
+desktop_notify/action.py,sha256=Ekz3w0q_1gdoCS1oe-D2dtF-oFHvSpjQaXRYdyEALeI,254
+desktop_notify/notify.py,sha256=zdPUgoeVPdQrZuhCUTj7oL8pWPt5QHjqzDmz1vrqJ98,2799
+desktop_notify/server.py,sha256=_qcdelqdxfQSuBK6DwJuZR1G9aZgQRKs1XNfBMIDlqY,2385
+desktop_notify-1.1.3.dist-info/LICENSE,sha256=2Lv7YeIUomQ2uezVzgOnOTJr3grD0Reqd0VYIzjZt6A,1057
+desktop_notify-1.1.3.dist-info/METADATA,sha256=iU-ENqPsiDkl7p5MOPAPwGhn5geVqP-J4KGYr-eI8sM,3030
+desktop_notify-1.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+desktop_notify-1.1.3.dist-info/entry_points.txt,sha256=YQ8IxHMOPH2K5csxAFLsHKqPZFX2V1RWM2aoc9FFPG4,56
+desktop_notify-1.1.3.dist-info/top_level.txt,sha256=aUjajzKiupgIgtenTG3W0kc6IWd2XMhScVo6cEkNXbc,15
+desktop_notify-1.1.3.dist-info/RECORD,,
