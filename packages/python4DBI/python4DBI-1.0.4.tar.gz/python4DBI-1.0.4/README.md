@@ -1,0 +1,950 @@
+# Python4DBI
+
+###### In Memory Of Edson de Sousa (14/04/94 - 16/08/18), i will see you again
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [API](#api)
+	* [Cursor](#cursor)
+		* [Properties](#properties)
+			* [row_number](#row_number)
+			* [row_count](#row_count)
+			* [description](#description)
+		* [Methods](#methods)
+			* [close](#close)
+			* [prepare_statement](#prepare_statement)
+			* [set_input_sizes](#set_input_sizes)
+			* [set_output_size](#set_output_size)
+			* [execute](#execute)
+			* [fetch_one](#fetch_one)
+			* [fetch_many](#fetch_many)
+			* [fetch_all](#fetch_all)
+			* [start_transaction](#start_transaction)
+			* [cancel_transaction](#cancel_transaction)
+			* [rollback](#rollback)
+			* [commit](#commit)
+			* [validate_transaction](#validate_transaction)
+			* [send_messages_in_base_64](#send_messages_in_base_64)
+			* [set_protocol_version](#set_protocol_version)
+			* [set_preferred_image_types](#set_preferred_image_types)
+			* [set_fmt](#set_fmt)
+			* [print_result](#print_result)
+	* [Database Interface](#database-interface)
+		* [Methods](#methods-1)
+			* [connect](#connect)
+			* [close](#close-1)
+			* [cursor](#cursor-1)
+			* [connected](#connected)
+			* [get_socket](#get_socket)
+			* [get_socket_timeout](#get_socket_timeout)
+			* [get_host](#get_host)
+			* [get_port](#get_port)
+			* [get_user](#get_user)
+			* [get_password](#get_password)
+			* [get_logger](#get_logger)
+
+* [Examples](#example)
+
+## General info
+* 4D is an incredibly productive development platform that lets you focus on your data model and your business rules.
+* The 4D framework takes care of running your application code natively on macOS and Windows.
+* The 4DBI is written in pure python and allows a python program to use SQL to access one or more databases from a 
+single application without using the 4D ODBC driver.
+* 4D and 4D Server both provide a native SQL server that enables this functionality.
+
+## Technologies
+Project is created with:
+* Python
+* texttable - https://github.com/foutaise/texttable/
+
+
+## Setup
+To run this project, install it locally using pip:
+
+```
+$ pip install python4DBI
+```
+
+## API
+### Cursor
+
+It consists of pure application logic, which interacts with the database.
+It includes all the information to represent data to the end user.
+
+#### Properties
+###### row_number
+
+		Return: int or None
+
+This read-only attribute provides the current 0-based index of the cursor in the result set
+or None if the index cannot be determined
+
+
+###### row_count
+
+		Return: int
+
+This read-only attribute specifies the number of rows that the last .execute*()
+
+###### description
+
+		Return: List
+
+A Cursor object's description attribute returns information about each of the result columns of a query.
+
+
+#### Methods
+###### close
+
+		Return: None
+
+Close the current 4D SQL server cursor
+
+###### prepare_statement
+
+		Params: query ( str )
+		Return: int
+
+Checks if the statement is valid should always be execute before an execute statement
+returns FOURD_OK or FOURD_ERROR
+
+###### set_input_sizes
+
+**Not implemented!**
+
+		Params: size ( int )
+		Return: None
+
+This can be used before a call to .execute*() to predefine memory areas for the operation's parameters.
+
+###### set_output_size
+
+**Not implemented!**
+
+		Params: size ( int )
+		Return: None
+
+Set a column buffer size for fetches of large columns (e.g. LONGs, BLOBs, etc.).
+the column is specified as an index into the result sequence.
+Not specifying the column will set the default size for all large columns in the cursor.
+
+###### execute
+
+		Params: query (str), params (dict), page_size (int), on_before_execute (funtion), on_executed (funtion), *args, **kwargs
+		Return: None
+
+Prepare and execute a database operation (query or command).
+
+###### fetch_one
+
+
+		Return: List or None
+
+Fetch the next row of a query result set, returning a single sequence, or None when no more data is available.
+
+###### fetch_many
+
+		Params: size (int)
+		Return: Two-dimensional List or None
+
+Fetch the next set of rows of a query result, returning a sequence of sequences (e.g. a list of tuples).
+An empty sequence is returned when no more rows are available.
+
+###### fetch_all
+
+		Return: Two-dimensional List or None
+
+Fetch all (remaining) rows of a query result.
+Note that the cursor's array size attribute can affect the performance of this operation.
+
+
+###### start_transaction
+
+		Return: None
+
+Opens a transaction
+
+###### cancel_transaction
+
+		Return: None
+
+Rollback an open transaction
+Same operation as rollback method
+
+###### rollback
+
+		Return: None
+
+Rollback an open transaction
+Same operation as cancel_transaction method
+
+###### commit
+
+		Return: None
+
+Commits an open transaction
+Same operation as validate_transaction method
+
+###### validate_transaction
+
+		Return: None
+
+Commits an open transaction
+Same operation as commit method
+
+###### send_messages_in_base_64
+
+		Params: use_b64 (bool)
+		Return: None
+
+Sets the base 64 mode
+
+###### set_protocol_version
+
+		Params: protocol_version (str)
+		Return: None
+
+Sets the 4D SQL server protocol version
+
+###### set_preferred_image_types
+
+		Params: preferred_image_types (str)
+		Return: None
+
+Sets the preferred image type
+>Currently only supports 'png' pr 'jpg' formats
+
+###### set_fmt
+
+
+		Params: fmt (str)
+		Return: None
+
+Prints a 4D SQL server cursor result
+
+Sets the type of binary architecture
+>Currently supports the following formats:
+>
+>'<' little-endian for MAC OS X - RVLB
+>
+>'>'	big-endian for Windows - BLVR
+
+###### print_result
+
+		Params: headers (List), rows (List), max_width (int), logger(obj)
+		Return: None
+
+### Database Interface
+
+It acts as an intermediary between view and model
+
+#### Methods
+###### connect
+
+		Params:	** kwargs
+		Return: None
+
+Opens a socket connection to the 4D SQL Server
+
+kwargs supported are:
+
+* socket_timeout : int (default 10)
+* dsn : str (default '')
+* host : str (default '127.0.0.1')
+* port : int (default 19812)
+* user : str (default '')
+* password : str (default '')
+
+###### close
+
+		Return: None
+
+Closes the current 4D SQL server socket connection
+
+###### cursor
+
+		Return: _python4DCursor object
+
+Returns a 4D SQL server cursor object
+
+###### connected
+
+			Return: bool
+
+Returns true if the socket is connected to the 4D SQL server and false otherwise
+
+###### get_socket
+
+		Return: self._socket object
+
+Returns the current socket object
+
+###### get_socket_timeout
+
+		Return: int
+
+Returns the current socket timeout
+
+###### get_host
+
+		Return: str
+
+Returns the current to 4D SQL server host
+
+###### get_port
+
+		Return: int
+
+Returns the current to 4D SQL server port
+
+###### get_user
+
+		Return: str
+
+Returns the current to 4D SQL server user
+
+###### get_password
+
+		Return: str
+
+Returns the current to 4D SQL server password
+
+###### get_logger
+
+		Return: str
+
+Returns the logger object
+
+## Example
+
+```python
+
+import time
+from python4DBI.python4DBI import python4DBI
+
+con = python4DBI()
+con.connect(user='theUser', password='thePassword')
+cursor = con.cursor()
+
+t0 = time.time()
+cursor.execute(query='SELECT * FROM EMPLOYEES')
+if cursor.row_count > 0:
+    result = cursor.fetch_all()
+    con.print_result(headers=cursor.description, rows=result)
+t1 = time.time()
+total = t1-t0
+```
+```
++------------+--------+----------+----------+----------+----------+----------+----------+-----------+------+---------+-----------+--------+-------+-------+------+
+| EmployeeID | Last   | Name     | First    | Name     | Address1 | Address2 | Zip      | Code      | City | Country | Telephone | Mobile | Phone | Birth | Date |
++------------+--------+----------+----------+----------+----------+----------+----------+-----------+------+---------+-----------+--------+-------+-------+------+
+| 1          | Barros | Marciano | Address1 | Address2 | 9000     | FUNCHAL  | Portugal | 3.510e+09 |      | None    |           | None   | None  |       |      |
++------------+--------+----------+----------+----------+----------+----------+----------+-----------+------+---------+-----------+--------+-------+-------+------+
+
+Execution time : 0.022388219833374023
+```
+
+## Template example 1
+```python
+"""
+Learn how to open a connection to the 4D SQL Server.
+"""
+
+ # Instantiate a connection object
+    con = python4DBI()
+
+    # Authentication
+    con.connect(user='theUser', password='thePassword')
+
+    # Check if the socket is connected
+    if con.connected() is True:
+        # Do stuff
+        pass
+
+    # Close the socket connection
+    con.close()
+
+```
+
+## Template example 2
+```python
+"""
+Learn to open a connection to the 4D SQL Server and handle the exceptions.
+    
+To learn more about the exceptions raised at a particular method please read the doc strings.
+    
+For example:
+- help(python4DBI) will print the documentation for the 4DBI interface
+- help(python4DBI.__init) will print the documentation for the 4DBI constructor.
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+    except OperationalError:
+        # Handle error
+        con = None
+    except Exception as e:
+        # Handle error
+        con = None
+    
+    if con:
+
+        try:
+            # Authentication
+            con.connect(user='theUser', password='thePassword')
+        except ProgrammingError:
+            # Handle error
+            pass
+        except OperationalError:
+            # Handle error
+            pass
+        except Exception as e:
+            # Handle error
+            pass
+
+        if con.connected():
+            # Do stuff
+            pass
+
+        try:
+            # Close the socket connection
+            con.close()
+        except Exception as e:
+            # Handle error
+            pass    
+```
+
+## Template example 3
+```python 
+"""
+As we have seen in previous examples handling errors will exponentiate the number of try/except cases
+because every function on the DBI will have the potential of raising errors in this example I will show 
+how to simplify the 'try catch' with the usage of superclass's.
+
+4DBI Error Classes List
+     StandardError
+     |__Warning
+     |__Error
+        |__InterfaceError
+        |__DatabaseError
+           |__DataError
+           |__OperationalError
+           |__IntegrityError
+           |__InternalError
+           |__ProgrammingError
+           |__NotSupportedError
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Do stuff
+            pass
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle warning
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass    
+```
+
+## Template example 4
+```python
+"""
+I will show how to change the standard logging file and level.
+    
+Note: All exception raised are logged before being raised.
+The default logging file is "python4DBI.log" and the default level is CRITICAL.
+The 'logging_file' should be the absolute file path by default is the same path as the module.
+Be careful enabling DEBUG level logging, will make the DBI slower, because every iteration with
+the DB will be logged and such configuration is not recommended for production environments.
+"""
+
+    try:
+        # Instantiate a connection object with custom logging level and log location
+        con = python4DBI(logging_level=logging.DEBUG, logging_file='../python4DBI.log')
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Do stuff
+            pass
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass
+```
+
+## Template example 5
+```python
+"""
+Getting a 4D cursor.
+    
+The 4D cursor database cursor is a control structure that enables traversal over the records in a database. 
+Cursors facilitate subsequent processing in conjunction with the traversal, such as retrieval, addition 
+and removal of database records. 
+
+Cursors are used by database programmers to process individual rows returned by database system queries. 
+Cursors enable manipulation of whole result sets at once.
+
+Note: Normally a cursor can be viewed as a pointer to one row in a set of rows. 
+The cursor can only reference one row at a time, but can move to other rows of the result set as needed.
+In this DBI was not possible to implement such behavior so every time you execute an SQL command you will
+receive the result set in a Python list, if there is a need to update or operate directly at the DB 
+level you need to make use of the 'SELECT FOR UPDATE' clause on the specific row/record.
+"""
+
+    try:
+        # Instantiate a connection object with custom logging level and log location
+        con = python4DBI(logging_level=logging.DEBUG, logging_file='../python4DBI.log')
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Get cursor
+            cursor = con.cursor()
+
+            # Do stuff
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass
+```
+
+## Template example 6
+```python
+"""
+Prepare an SQL statement.
+    
+It is a good practice before executing an SQL statement to make a validation.
+This command will return false if the SQL statement is not valid and true otherwise.
+    
+Note: If the programmer does not validate the SQL statement the DBI always validates the the query before
+executing the difference is that on the execute the DBI will raise an error.
+"""
+
+    try:
+        # Instantiate a connection object with custom logging level and log location
+        con = python4DBI(logging_level=logging.DEBUG, logging_file='../python4DBI.log')
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'SELECT * FROM EMPLOYEES'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+                # Do stuff
+                pass
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass
+```
+
+## Template example 7
+```python
+"""
+Execute an SQL statement.
+    
+Note: After executing an SQL statement the programmer can use the row_count to check the
+number of result rows. The 'fetch_all' is not always the best approach since it can result
+in a slower fetch imagine that the size of the result set is 100000 rows, that means that the
+return list will be a list of size 100000! 
+In such cases the programmer can use the 'fetch_one' will return only the first row or the
+'fetch_many'.
+    
+The are some caveats regarding the way that the DBI works internally since the 4D SQL protocol
+puts the result page in a buffer every time you execute an SQL statement the DBI will fetch by default
+a page size of 100 rows i.e. imagine if you use execute a statement then a 'fetch_one' internally the
+DBI will fetch the first page i.e. at least 100 rows, if the programmer knows before hand that it only needs
+the first N records than it is more efficient to execute the SQL statement with a page size of N.
+"""
+
+    try:
+        # Instantiate a connection object with custom logging level and log location
+        con = python4DBI(logging_level=logging.DEBUG, logging_file='../python4DBI.log')
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'SELECT * FROM EMPLOYEES'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                # Execute the query
+                cursor.execute(query=query)
+
+                # Check the results
+                if cursor.row_count > 0:
+
+                    # Fetch all the results
+                    result_rows = cursor.fetch_all()
+
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass   
+```
+
+## Template example 8
+```python
+"""
+Printing results to the console.
+    
+Note: Every time you execute the an SQL statement the DBI will create a list of the row headers with tha name
+of the DB columns, the programmer can use 'description' for such purposes.
+The 'print_result' is implemented on the DBI and will provide a 'terminal/console' way to see the results formatted
+into a table, and can be usefully for debugging purposes.
+"""
+
+    try:
+        con = python4DBI(logging_level=logging.DEBUG, logging_file='../python4DBI.log')
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+        if con.connected():
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'SELECT * FROM EMPLOYEES'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                # Execute the query
+                cursor.execute(query=query)
+
+                # Check the results
+                if cursor.row_count > 0:
+
+                    # Fetch all the results
+                    result_rows = cursor.fetch_all()
+
+                    # Print result page to console
+                    cursor.print_result(headers=cursor.description, rows=result_rows)
+
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass
+```
+
+## Template example 9
+```python
+"""
+Using params in SQL statements.
+Using transactions.
+    
+Note: Normally a DBI will implement only on or tow ways of using param styles in SQL queries, on
+this DBI is available qmark, name, format and pyformat.
+    
+qmark	- Question mark style, e.g. ...WHERE name=?
+named	- Named style, e.g. ...WHERE name=:name
+format - ANSI C printf format codes, e.g. ...WHERE name=%s
+pyformat - Python extended format codes, e.g. ...WHERE name=%(name)s
+    
+It can be used only one type of param style per query!
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+
+        # Check if the socket is connected
+        if con.connected() is True:
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'INSERT INTO EMPLOYEES (EmployeeID, City) VALUES(:id, :city)'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                # Start a transaction
+                cursor.start_transaction()
+
+                for i in range(1, 100):
+                    params = {'id': str(i),
+                              'city': fake.city(),
+                              'Date': fake.date()
+                              }
+                    cursor.execute(query=query, params=params)
+
+                # Commit the transaction
+                cursor.commit()
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Warning as e:
+        # Handle error
+        pass
+    except Error as e:
+        # Handle error
+        pass
+    except Exception as e:
+        # Handle error
+        pass
+```
+
+## Example 1
+```python
+"""
+Time of execution for multiple results.
+    
+Note: This examples use the 4D DB that is available at the project level if you wish
+to do the same tests please use this DB project.
+If you need to seed the DB with data please use the 'Example 3'.
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+
+        # Check if the socket is connected
+        if con.connected() is True:
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'SELECT * FROM EMPLOYEES'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                t0 = time.time()
+
+                # Execute the query
+                cursor.execute(query=query)
+
+                # Check the results
+                if cursor.row_count > 0:
+
+                    # Fetch all the results
+                    result = cursor.fetch_all()
+
+                t1 = time.time()
+                total = round(t1 - t0, 4)
+                print('Execution time : {} seconds'.format(total))
+
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Exception as e:
+        print("Can not continue - reason : {}".format(e))
+```
+
+## Example 2
+```python
+"""
+Time of execution for single result.
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+
+        # Check if the socket is connected
+        if con.connected() is True:
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'SELECT EmployeeID FROM EMPLOYEES WHERE EmployeeID = :id'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                t0 = time.time()
+
+                # Execute the query
+                cursor.execute(query=query, params={'id': '1'})
+
+                # Check the results
+                if cursor.row_count > 0:
+                    # Fetch all the results
+                    result = cursor.fetch_all()
+
+                t1 = time.time()
+                total = round(t1 - t0, 4)
+                print('Execution time : {} seconds'.format(total))
+
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Exception as e:
+        print("Can not continue - reason : {}".format(e))
+```
+
+## Example 3
+```python
+"""
+DB data seed.
+"""
+
+    try:
+        # Instantiate a connection object
+        con = python4DBI()
+
+        # Authentication
+        con.connect(user='theUser', password='thePassword')
+
+        # Check if the socket is connected
+        if con.connected() is True:
+            # Get cursor
+            cursor = con.cursor()
+
+            # Prepare the statement i.e check if it OK for execution
+            query = 'INSERT INTO EMPLOYEES (EmployeeID, Address1, Address2, City) ' \
+                    'VALUES (:EmployeeID, :Address1, :Address2, :City)'
+            result = cursor.prepare_statement(query=query)
+            if result is FOURD_OK:
+
+                for i in range(0, 1000):
+                    _id = str(i+1)
+                    _name = fake.name()
+                    _first_name = _name.split()[:1]
+                    _last_name = _name.split()[-1:]
+                    _address1 = fake.address()
+                    _address2 = fake.address()
+                    _zipcode = fake.zipcode()
+                    _city = fake.city()
+                    _country = fake.country()
+                    _phone = fake.phone_number()
+
+                    # Execute the query
+                    params = {'EmployeeID': _id,
+                              'Address1': _address1,
+                              'Address2': _address2,
+                              'City': _city,
+                              }
+                    cursor.execute(query=query, params=params)
+
+            else:
+                # Handle wrong statement
+                pass
+
+            # Close cursor
+            cursor.close()
+
+        # Close the socket connection
+        con.close()
+
+    except Exception as e:
+        print("Can not continue - reason : {}".format(e))
+```
