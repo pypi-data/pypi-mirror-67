@@ -1,0 +1,3 @@
+[console_scripts]
+pypnp-run = pypnp.run:main
+

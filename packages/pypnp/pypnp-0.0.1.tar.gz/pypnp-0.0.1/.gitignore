@@ -1,0 +1,9 @@
+*.egg-info
+__pycache__
+*.venv
+*.log
+.eggs
+dist
+version.txt
+
+.vscode

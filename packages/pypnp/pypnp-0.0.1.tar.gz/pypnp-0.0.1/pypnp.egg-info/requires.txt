@@ -1,0 +1,10 @@
+
+[dev]
+invoke
+pip-tools
+semver
+twine
+wheel
+black
+isort
+py-githooks
