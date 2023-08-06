@@ -1,0 +1,8 @@
+mnist/__init__.py,sha256=hHG9NfEJST9gySId3kYEBK4NHL2BzQ7vRXSyneDxXCk,313
+mnist/mnist.py,sha256=f3z84KtSbWX6L5TnRB8c7dTbEmsCygQRzywt7uSkZt4,7661
+get_mnist-1.0.1.dist-info/LICENSE.txt,sha256=78sagJZRz0IKgrf-PiO91azym0Yhv9oAw6RQhPh5CEA,1052
+get_mnist-1.0.1.dist-info/METADATA,sha256=trog0IE8OGRti_PzUee2Zxs6ubbmL-eGImqlVeJs-mE,2035
+get_mnist-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+get_mnist-1.0.1.dist-info/entry_points.txt,sha256=WFy4sVff8XC8CTaV0odwU2yfDpYd8Dt-ww2sx-JPD3o,44
+get_mnist-1.0.1.dist-info/top_level.txt,sha256=LZk4DcL6HJ7bDK2qWX3Jgg25BAR1cgCUo--jQ78YiHg,6
+get_mnist-1.0.1.dist-info/RECORD,,
