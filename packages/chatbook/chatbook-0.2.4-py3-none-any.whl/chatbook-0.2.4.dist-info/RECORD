@@ -1,0 +1,14 @@
+chatbook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatbook/api.py,sha256=1_e-jC3sTvsiG3A896QSkvRnXZ2Me_qvdlphl4B2PMY,1218
+chatbook/down.py,sha256=UwGf95iyNlyuhUyjs5OtXzha4KaV0KV-BWIap66cj4U,391
+chatbook/params.py,sha256=7YrZLDWPGl2_ATVvOjmfkKCkhmnrO0WjPw9uut-zolE,2458
+chatbook/sim.py,sha256=wKRrNcYVhVs63VLDmiXJgusrfvC6tqBpLrSZ5TPXuRI,2263
+chatbook/talk.py,sha256=ZE4cZelDiIr9rdk6SV96fckrC3n7ClHPlUQNS9pyq8Y,26764
+docbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docbot/app.py,sha256=ID9LgZZXN_8El-fwXaaIGHitoG2ZDDjEltHmdzr8Ats,1887
+docbot/docbot.py,sha256=Azfmd_IpTc0SfCDLW1aWTSqBUytXoH9jH0wYmQWY7wQ,1701
+chatbook-0.2.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chatbook-0.2.4.dist-info/METADATA,sha256=eoq9LevQKKmz_iTKFjLIi7O08qgwgxa7JbK_eJu9myc,1899
+chatbook-0.2.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+chatbook-0.2.4.dist-info/top_level.txt,sha256=EsExsRMNKnuEJLQ0A-M1rGMbjrdQ7ctZn_RmFTKCfvc,16
+chatbook-0.2.4.dist-info/RECORD,,
