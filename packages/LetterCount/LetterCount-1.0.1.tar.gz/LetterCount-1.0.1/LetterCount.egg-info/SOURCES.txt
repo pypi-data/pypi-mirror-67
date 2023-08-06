@@ -1,0 +1,8 @@
+README.md
+setup.py
+LetterCount/LetterCount.py
+LetterCount/__init__.py
+LetterCount.egg-info/PKG-INFO
+LetterCount.egg-info/SOURCES.txt
+LetterCount.egg-info/dependency_links.txt
+LetterCount.egg-info/top_level.txt

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: LetterCount
+Version: 1.0.1
+Summary: A small package to count repetition of a letter in a string
+Home-page: https://github.com/SACHIN1625/LetterCount/
+Author: Sachin_S
+Author-email: sachinshanmugam07@gmail.com
+License: UNKNOWN
+Description: # LetterCount
+        
+        
+        .
+        
+        ## How to install
+        
+        ```
+        pip install LetterCount
+        ```
+        ## If you are trouble installing, try this
+        ```
+        pip3 install LetterCount
+        ```
+        ## How to use
+        
+        Below example will help you
+        
+        ```
+        from LetterCount install LetterCount
+        sample_string= "python"
+        LetterCount(sample_string,letter)	# returns the number of times letter occured in string
+        
+        
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
