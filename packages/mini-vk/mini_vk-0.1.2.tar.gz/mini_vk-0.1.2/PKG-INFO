@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mini_vk
+Version: 0.1.2
+Summary: Small wrapper over the VK API
+Home-page: https://github.com/SemenovAV/mini_vk
+Author: SemenovAV
+Author-email: 7.on.off@gmail.com
+License: MIT
+Description: # Mini_VK
+        
+        A  module Python, small wrapper over the VK API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
