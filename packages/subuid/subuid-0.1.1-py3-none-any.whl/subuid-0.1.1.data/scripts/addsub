@@ -1,0 +1,52 @@
+#!python
+
+import sys
+import logging
+from subuid.utils import parse_subuid_file as parse_file
+from subuid.utils import write_subuid_file as write_file
+
+log = logging.getLogger(__name__)
+
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-D", "--debug", help="Enable debug logging",
+                        dest="debug", action='store_true')
+    parser.add_argument("-V", "--verbose", help="Enable verbose logging",
+                        dest="verbose", action='store_true')
+    parser.add_argument("-f", "--filename", help="filename", dest="filename")
+    parser.add_argument('username', help="Username")
+    parser.add_argument('--start', type=int, dest="start",
+                        help="Numeric uid to start")
+    parser.add_argument('--count', type=int, dest="count",
+                        help="Number of uids to allocate")
+    parser.add_argument('--verify', action='store_true', dest='verify',
+                        help="Verify the user exists in the file")
+    args = parser.parse_args()
+
+    if args.debug:
+        logging_level = logging.DEBUG
+    elif args.verbose:
+        logging_level = logging.INFO
+    else:
+        logging_level = logging.WARNING
+    logging.basicConfig(level=logging_level)
+
+    subuids = parse_file(args.filename)
+
+    # Verify the user exists in the file
+    if args.verify:
+        for subuid in subuids:
+            if subuid.name == args.username:
+                log.info('Verified user %s exists in file %s.' %
+                         (args.username, args.filename))
+                sys.exit(0)
+        log.info('User %s does not exist in the file %s.' %
+                 (args.username, args.filename))
+        sys.exit(1)
+
+    subuids.allocate(name=args.username, start=args.start,
+                     count=args.count)
+
+    write_file(args.filename, subuids)

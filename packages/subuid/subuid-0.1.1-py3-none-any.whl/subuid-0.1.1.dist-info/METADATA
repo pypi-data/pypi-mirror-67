@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: subuid
+Version: 0.1.1
+Summary: Utilties to mange subuid/subgid lists
+Home-page: https://gitlab.umiacs.umd.edu/derek/subuid
+Author: Derek Yarnell
+Author-email: derek@umiacs.umd.edu
+License: UNKNOWN
+Platform: UNIX/Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
