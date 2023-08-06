@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+godaddyip/__main__.py
+godaddyip.egg-info/PKG-INFO
+godaddyip.egg-info/SOURCES.txt
+godaddyip.egg-info/dependency_links.txt
+godaddyip.egg-info/entry_points.txt
+godaddyip.egg-info/requires.txt
+godaddyip.egg-info/top_level.txt

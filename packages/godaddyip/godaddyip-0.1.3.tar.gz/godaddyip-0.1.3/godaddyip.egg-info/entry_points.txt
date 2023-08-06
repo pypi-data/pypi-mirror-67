@@ -1,0 +1,3 @@
+[console_scripts]
+godaddyip = godaddyip.__main__:main
+
