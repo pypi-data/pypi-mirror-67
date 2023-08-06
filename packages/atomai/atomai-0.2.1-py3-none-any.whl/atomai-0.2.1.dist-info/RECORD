@@ -1,0 +1,12 @@
+atomai/__init__.py,sha256=8daPyGOfdXhEwhl27Jzx-MxCvbVAtAsA4XxK71fbrQA,127
+atomai/__version__.py,sha256=Yx5DKpLTu_fTHJs2CG6CMlIYBYiW-iKv6NM1AncLOSo,18
+atomai/atomnet.py,sha256=Q0QUCbGdSAAUjztrzcEvMgaUrvxvZylE9P2xfde7n3s,22596
+atomai/atomstat.py,sha256=rcCl8jOHpn9BP-1ZNKTkA-RK8pBbXttNR5loO8QL8HE,46027
+atomai/losses_metrics.py,sha256=ybcKOFIxDXspLYWI6Ban0E_pH053nC6ZZa9g8nfQDn0,2856
+atomai/models.py,sha256=XVmKiRsC5NzGkI4JL2KYF5Rae3oSU5sG7pRO2S5w6cg,14012
+atomai/utils.py,sha256=50xYHSPGY2XJNXPotuHoke_a2hgYxRW1yIcQX9R3dys,46022
+atomai-0.2.1.dist-info/LICENSE,sha256=Es2ZfG1BK-9BAFPPS8qL9TuHXDU3BMg-kS9lJASLGzw,1072
+atomai-0.2.1.dist-info/METADATA,sha256=diRLdtK-0jeLOD9V9SqvsNgcr_0rbJ_E3eNMha9zL5M,5921
+atomai-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+atomai-0.2.1.dist-info/top_level.txt,sha256=-FX01uVLCXKul24p1VdgPjRhkPWH7fC8ITqnvl_jCco,7
+atomai-0.2.1.dist-info/RECORD,,
