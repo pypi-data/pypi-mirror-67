@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: pollevbot
+Version: 1.0.2
+Summary: A Python script that automatically responds to polls on PollEverywhere.
+Home-page: https://github.com/danielqiang/pollevbot
+Author: Daniel Qiang
+Author-email: daniel_qiang@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
