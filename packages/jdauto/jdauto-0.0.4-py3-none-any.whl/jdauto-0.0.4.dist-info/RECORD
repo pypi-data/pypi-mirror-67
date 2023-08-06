@@ -1,0 +1,11 @@
+jdauto/__init__.py,sha256=4yUfBzAvyoInXdnYyDHwcR_LXn6NcJBVNWIdlaYLXD0,331
+jdauto/_version.py,sha256=1Mr5v7yIQLpga0nitLYb_Hjlmo8joiV5M06w_NJy-0U,127
+jdauto/jdauto.py,sha256=7WlwuqFpVoO5wSZRxk2hMrICq2mjC0yMll4lFZvYf-I,9465
+jdauto-0.0.4.dist-info/DESCRIPTION.rst,sha256=YqpqOFkm4iYjPgL9OG4sxBjPDfeBIWeMp1D6z3EZwkg,34
+jdauto-0.0.4.dist-info/METADATA,sha256=3gfHFhLZTArpE76q77tr10he7KQLzvXQSz2hUz_6F1Q,596
+jdauto-0.0.4.dist-info/RECORD,,
+jdauto-0.0.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+jdauto-0.0.4.dist-info/entry_points.txt,sha256=p1oVkZp4QxJEUqY0emZjLEbGBSAejUoN-Xs1BKfvK1M,47
+jdauto-0.0.4.dist-info/metadata.json,sha256=e5FqqL6LPWMJi9DzoLMsKn2SKgMvhrcsROXRWw5rsfs,853
+jdauto-0.0.4.dist-info/top_level.txt,sha256=MgFYeArMAtrSxzHrwb1ftye9WehDPuVSTbPblUWCnOs,7
+jdauto-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
