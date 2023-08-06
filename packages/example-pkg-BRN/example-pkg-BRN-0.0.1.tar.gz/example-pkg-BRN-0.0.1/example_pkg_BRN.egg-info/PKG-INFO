@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: example-pkg-BRN
+Version: 0.0.1
+Summary: An example package
+Home-page: https://github.com/josine-cqm/BEgenerator
+Author: Josine Bruin
+Author-email: josine.bruin@cqm.nl
+License: UNKNOWN
+Description: Generates all BE options for a given BE size, max pallet weight, max pallet height and max BE weight.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
