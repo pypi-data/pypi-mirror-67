@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: PyEqCloud
+Version: 0.1.0
+Summary: Gather Data via a REST-Connection from the Kontron AIS GmbH EquipmentCloud
+Home-page: UNKNOWN
+Author: Patrick Thiem
+Author-email: Patrick.Thiem@kontron-ais.com
+License: MIT
+Description: UNKNOWN
+Keywords: equipment cloud
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
