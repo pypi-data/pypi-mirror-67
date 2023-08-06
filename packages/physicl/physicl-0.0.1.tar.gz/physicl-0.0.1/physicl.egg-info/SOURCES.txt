@@ -1,0 +1,12 @@
+README.md
+setup.py
+physicl/__init__.py
+physicl/light.py
+physicl/newton.py
+physicl.egg-info/PKG-INFO
+physicl.egg-info/SOURCES.txt
+physicl.egg-info/dependency_links.txt
+physicl.egg-info/requires.txt
+physicl.egg-info/top_level.txt
+test/test_light.py
+test/test_units.py
