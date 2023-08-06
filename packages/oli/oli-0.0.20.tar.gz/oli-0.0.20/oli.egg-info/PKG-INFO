@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: oli
+Version: 0.0.20
+Summary: One Liner Installer for Linux & MacOs
+Home-page: https://github.com/StanGirard/OneLiners
+Author: StanGirard
+Author-email: stan@primates.dev
+License: UNKNOWN
+Description: # Oli
+        
+        Oli is a one liner installer aimed at easing you with the installation of everything you need on different platforms.
+        
+        ## Installation
+        
+        Run `pip install oli`
+        
+        or 
+        
+        ```Bash
+        git clone https://github.com/StanGirard/Oli
+        cd Oli
+        ```
+        
+        ## Usage 
+        
+        Run in your bash `oli`
+        
+        or 
+        
+        `python3 -m oli.run`
+        
+        ## Programs
+        
+        ### Macos
+        
+        -  Homebrew
+        -  Oh My Zsh
+        -  Development Setup
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
