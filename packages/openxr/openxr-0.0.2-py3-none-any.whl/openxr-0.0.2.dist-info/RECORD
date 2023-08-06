@@ -1,0 +1,14 @@
+openxr/__init__.py,sha256=YZdTISrzkUeP0NyB-gedoVHCmbMgOa99oOttRUfvWFs,437
+openxr/abi.py,sha256=iaFTtBUaBGfNHYTIg9mknWophWY_bNH8fewXtZiZYWE,7840
+openxr/api.py,sha256=Q375xYVva-y-PxfzkviLRU--Z9PCX6xoyf29E_QaM38,14253
+openxr/error.py,sha256=ougw65kzj4Oz7K7tKQeR7Jhu3u6TJByFC1Ez4Aiw9Bw,160
+openxr/extension.py,sha256=BmBE4Ot7O_UmO0hq3hO-_BGiNZZZo6bVuc04ujP3UG0,275
+openxr/instance.py,sha256=igby79EBkNvWnyxCGNxmCuZ3tdqxh9OPZrGIP4ClFbw,358
+openxr/layer.py,sha256=3ExRie6dZCqYrG6NEAf0d-cxHiYRhsiGHtA-YqRVoK0,185
+openxr/session.py,sha256=bPFXeSDPQ_7bPd7NICvYw5S_Y3649SuwXGXOBrWbo5g,184
+openxr/system.py,sha256=iItGg_KErNQnpG9OQZPpANytMrzqHag01LAySlmQhkM,265
+openxr-0.0.2.dist-info/METADATA,sha256=vDzPOpsltVGqT04DPIZ2_lA9nW5i6CuwiRvfwWxSq50,2885
+openxr-0.0.2.dist-info/UNLICENSE,sha256=tQZYOMusRS38hVum5uAxSBrSxoQG9w0h6tkyE3RlPmw,1212
+openxr-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openxr-0.0.2.dist-info/top_level.txt,sha256=xkAJnFNNXOT-Hmd0WVIeuKSSdSS-051ygPSXaO-imRU,7
+openxr-0.0.2.dist-info/RECORD,,
