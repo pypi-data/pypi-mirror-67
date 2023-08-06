@@ -1,0 +1,5 @@
+pyautogui
+pywin32
+opencv-python
+pynput
+win32gui
