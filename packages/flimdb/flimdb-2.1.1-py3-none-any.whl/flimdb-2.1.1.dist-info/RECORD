@@ -1,0 +1,15 @@
+Users/alin/.config/flimdb/config.toml,sha256=vn-5mqVe40MteOwLDWEUSAbwi0dEc6fbemuj-PpLyxc,240
+flimdb/__init__.py,sha256=4j4AppTFR5UFH_Rc4Cj2bi259isjifq6c-dja0BmY3E,746
+flimdb/filelist.py,sha256=bS_HoQDVM6wrAPi7IlllXzBjc42bGzIZa7nPRn3mUVQ,4638
+flimdb/flimdb.py,sha256=hhYMHyx0UALi-4GiWVbIAnnvhg3uzo_roJvMh7kMhBo,3650
+flimdb/movielib.py,sha256=esex6Bd2N4gTgtUuU_Hz33uyAriE5m8dnr9H7PTOkW4,2634
+flimdb/torrentlib.py,sha256=8kAeHJJJyqoloNfHjRODbVnRWnfN8vTvfqsR4nMJdT4,4344
+flimdb/config/config.toml,sha256=vn-5mqVe40MteOwLDWEUSAbwi0dEc6fbemuj-PpLyxc,240
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flimdb-2.1.1.dist-info/LICENSE-APACHE,sha256=_IWiDtBKLvcWUTT2we7xb4n4H8v-fYUhGJDVFAH0pKY,9753
+flimdb-2.1.1.dist-info/LICENSE-MIT,sha256=WL9_nwHTySx_A_qm1y4nkOEak9Sp8nmIQTky02gX1ck,1070
+flimdb-2.1.1.dist-info/METADATA,sha256=riOIP0A6-ZdDzrdjGAKQ6BXwQltTDMcA_CZ2-pIB3pE,1554
+flimdb-2.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flimdb-2.1.1.dist-info/entry_points.txt,sha256=FOtJ751V-WZ88ksNNrOWfDn_R3xsHgSQTI_L-NpZhUE,79
+flimdb-2.1.1.dist-info/top_level.txt,sha256=n6XzDFk9QffcBnT0PE1qmVR31HeqNwjASZzXq9KNNDE,13
+flimdb-2.1.1.dist-info/RECORD,,
