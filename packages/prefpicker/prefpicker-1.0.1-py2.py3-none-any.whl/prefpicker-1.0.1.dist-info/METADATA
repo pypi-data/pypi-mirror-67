@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prefpicker
+Version: 1.0.1
+Summary: PrefPicker - Manage & generate prefs.js files
+Home-page: https://github.com/MozillaSecurity/prefpicker
+Author: Tyson Smith
+Maintainer: Mozilla Fuzzing Team
+Maintainer-email: fuzzing@mozilla.com
+License: MPL 2.0
+Keywords: firefox fuzz fuzzing test testing
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
