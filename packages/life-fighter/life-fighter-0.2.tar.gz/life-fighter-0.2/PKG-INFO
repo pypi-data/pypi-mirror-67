@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: life-fighter
+Version: 0.2
+Summary: Variante del Juego de la Vida de Conway para un jugador
+Home-page: https://github.com/jjconti/life-fighter
+License: GPL-2.0-only
+Author: Juanjo Conti
+Author-email: jjconti@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pygame (>=2.0.0.dev8,<3.0.0)

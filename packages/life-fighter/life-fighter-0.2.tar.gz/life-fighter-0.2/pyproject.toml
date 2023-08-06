@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "life-fighter"
+version = "0.2"
+description = "Variante del Juego de la Vida de Conway para un jugador"
+authors = ["Juanjo Conti <jjconti@gmail.com>"]
+license = "GPL-2.0-only"
+homepage = "https://github.com/jjconti/life-fighter"
+include = ["data/*"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pygame = "^2.0.0.dev8"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.2"
+rope = "^0.17.0"
+
+[toos.poetry.scripts]
+life-fighter = "life_fighter.run:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
