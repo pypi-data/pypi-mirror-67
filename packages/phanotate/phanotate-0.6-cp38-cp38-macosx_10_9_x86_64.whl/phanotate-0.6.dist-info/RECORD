@@ -1,0 +1,15 @@
+phanotate_connect.cpython-38-darwin.so,sha256=xA43ICs646K6LjnxdybLEI18OFDDcaQH4zBd-cLzTQs,15272
+phanotate/__init__.py,sha256=hm-_RFQLN9E3kBhWoL3qLM8EYGxDWjKeIaOr2F3uZbk,218
+phanotate/edges.py,sha256=KBduTZILRC_JP03CrkOP2yXqyjmlwtPvHJgDcAJhOXk,2155
+phanotate/file_handling.py,sha256=nXxhPIaGTF_e-5n9HzlKgNuLB6xAATI0ypM9EevIkn0,6870
+phanotate/functions.py,sha256=q6Jrc-WPwH3FXArmkZR7Ths8qkJDeZGVKEMT4GHKKM8,18528
+phanotate/gc_frame_plot.py,sha256=YZgK6kvohEeGmb8syNEntT0c3YsBjN8X5fCQTRB8cO0,2156
+phanotate/graphs.py,sha256=Rjib9orQo_iELhmT6aKm4ronyhXZ-fPbz_UoYOPQweU,9888
+phanotate/nodes.py,sha256=jsNGnJy2xNMiOCdPuH2zO9g7Ehc-gqKtJ_De2khQPJw,563
+phanotate/orfs.py,sha256=uGJMp5uVOMG5RF__ABgfPo4UBpNF2LI0IkDwUog0ujk,5780
+phanotate-0.6.data/scripts/phanotate.py,sha256=ZS9aIisTqybIk7vUQmxQ4jlL7Nkf_dfkyk_3YAqAosw,2646
+phanotate-0.6.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+phanotate-0.6.dist-info/METADATA,sha256=4AiTfi4fE7nULhkWcBhGF2DmXOUfIfrjHSDZQkeSslo,1438
+phanotate-0.6.dist-info/WHEEL,sha256=Hic4Br7HyqQlo_WBiWK58UvEogCnWnn00TOHJ0MUqpc,109
+phanotate-0.6.dist-info/top_level.txt,sha256=4uYVvxDrcx2BT5EIUYkeJMH0kRewooTWz8qhYH9WZRo,28
+phanotate-0.6.dist-info/RECORD,,
