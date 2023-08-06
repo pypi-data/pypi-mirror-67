@@ -1,0 +1,9 @@
+README.md
+setup.py
+talmud_debts/__init__.py
+talmud_debts/text.py
+talmud_debts.egg-info/PKG-INFO
+talmud_debts.egg-info/SOURCES.txt
+talmud_debts.egg-info/dependency_links.txt
+talmud_debts.egg-info/requires.txt
+talmud_debts.egg-info/top_level.txt
