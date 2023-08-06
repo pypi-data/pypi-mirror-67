@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datazeus/__init__.py
+datazeus/classifiers.py
+datazeus/main.py
+datazeus.egg-info/PKG-INFO
+datazeus.egg-info/SOURCES.txt
+datazeus.egg-info/dependency_links.txt
+datazeus.egg-info/requires.txt
+datazeus.egg-info/top_level.txt
