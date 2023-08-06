@@ -1,0 +1,11 @@
+notemodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notemodel/database/__init__.py,sha256=cMX1Q_947_I8Jy-BtZC9HDBBOPaecF2qTH1grrw6FpI,193
+notemodel/database/core.py,sha256=-hpaZJCUZVEJbDoXfyXILISP6DvgL97TqPRUM9k8GD8,5366
+notemodel/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notemodel/models/yolo.py,sha256=tEx4igkzGIxO7XO3l1Yu2aRBNaauOqTV4lWV-nJiMZg,1493
+notemodel/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notemodel/util/core.py,sha256=fu3QQSGB4hPgRtHAVrI1YUzo57wKK-KVAESJlwEK-YU,111
+notemodel-0.1.0.dist-info/METADATA,sha256=PgIv0V6I-q1w_C16J63OZsin5pqreMyAFiUhwEj2djs,232
+notemodel-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+notemodel-0.1.0.dist-info/top_level.txt,sha256=xykbgSs5YhvVpeo3aiM9J0_XntADZ53TdWMOV6FmnL8,10
+notemodel-0.1.0.dist-info/RECORD,,
