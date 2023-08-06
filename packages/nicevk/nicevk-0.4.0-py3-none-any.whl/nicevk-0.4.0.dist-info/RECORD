@@ -1,0 +1,14 @@
+nicevk/__init__.py,sha256=njmp8_qogA68NeEeUqGTaWxrxggknasxssODwUCEAUw,27
+nicevk/api.py,sha256=wDRqABCm_T2GCJ5HWUrr6_OWE7ZWS97P_NNj-TTlNwM,758
+nicevk/cli.py,sha256=ffnsVKlXjfnVOmUMg-G-mF81JrIOXNJA3tgfYsTmHGo,551
+nicevk/plugins/help_plugin.py,sha256=IuPt39tWf7m3Is0q01T9u7mWo1v4Rnw_4oYno1gTrOk,256
+nicevk/plugins/ignore_plugin.py,sha256=Xr9bxqz9AghePtwA8c3GrtMy3G-K6aV6xrU4hS0L20E,1516
+nicevk/plugins/load_plugin.py,sha256=K7MIvKM11aQtmefUxCFIaUlrtC0XvlRIsp7hxArU900,655
+nicevk/plugins/neofetch_plugin.py,sha256=7Na-OVNY0bHGzCh-eq0UbxCyAWCR7pVew4y5HYMf0m8,543
+nicevk/plugins/notes_plugin.py,sha256=Rkc38cGperB0hWNJn3G7b8olLlxwlgN9Z4UQtbsidbs,1228
+nicevk/plugins/restart_plugin.py,sha256=j84j5kho2nA2Lu38fvPZwPV25RQ0S9JMuniGXAnwJ60,971
+nicevk/plugins/spam_plugin.py,sha256=wBEGfdmfZjyhYzGByCwtGXX44MjRz118jTojNrn-1L8,391
+nicevk-0.4.0.dist-info/entry_points.txt,sha256=vWXG633nybFFJSocl_QWQB8Zm67dC2wL36K01aR953w,41
+nicevk-0.4.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+nicevk-0.4.0.dist-info/METADATA,sha256=K60oRVSO2EisKhf6wobkBTmOwPAK5HT6BqEbMgM8Cjo,397
+nicevk-0.4.0.dist-info/RECORD,,
