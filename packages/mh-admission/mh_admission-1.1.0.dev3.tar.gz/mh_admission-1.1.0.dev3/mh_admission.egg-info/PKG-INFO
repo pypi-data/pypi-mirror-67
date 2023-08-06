@@ -1,0 +1,312 @@
+Metadata-Version: 2.1
+Name: mh-admission
+Version: 1.1.0.dev3
+Summary: Maharashtra admission tools
+Home-page: https://gitlab.com/prasad.deshpande13/mh_cet_admission_utils
+Author: Deshpande Prasad S.
+Author-email: prasad.deshpande13@gmail.com
+License: UNKNOWN
+Description: [![pipeline status](https://gitlab.com/prasad.deshpande13/mh_cet_admission_utils/badges/develop/pipeline.svg)](https://gitlab.com/prasad.deshpande13/mh_cet_admission_utils/-/commits/develop)
+        
+        
+        [![coverage report](https://gitlab.com/prasad.deshpande13/mh_cet_admission_utils/badges/develop/coverage.svg)](https://gitlab.com/prasad.deshpande13/mh_cet_admission_utils/-/commits/develop)
+        
+        # Maharashtra Admission data parsing tool
+        
+        ## Introduction
+        
+        This python module will help to parse and populate admission data for collages from Maharashtra, India.
+        This module is intended to parse and populate data for following catagories.
+        
+            ├───DIPLOMA
+            │   ├───Direct 2nd Year Diploma
+            │   ├───Post HSC Diploma
+            │   │   ├───HMCT
+            │   │   │   ├───2017-18
+            │   │   │   ├───2018-19
+            │   │   │   └───2019-20
+            │   │   ├───PHARMACY
+            │   │   │   ├───2017-18
+            │   │   │   ├───2018-19
+            │   │   │   └───2019-20
+            │   │   └───SCT
+            │   │       ├───2017-18
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   └───Post SSC Diploma
+            │       ├───2017-18
+            │       ├───2018-19
+            │       └───2019-20
+            ├───Post-Graduation
+            │   ├───Health Science Courses
+            │   │   ├───All India Quota Ayush
+            │   │   │   ├───Previous Year Cut Off
+            │   │   │   └───Seat Matrix
+            │   │   ├───All India Quota _ Deemed Medical
+            │   │   │   ├───Certificate of Format
+            │   │   │   │   ├───All India Quota
+            │   │   │   │   └───DNB PDCET
+            │   │   │   ├───Previous Year Cut Off
+            │   │   │   │   ├───All India Quota _ Deemed
+            │   │   │   │   │   ├───Dental
+            │   │   │   │   │   │   ├───2017
+            │   │   │   │   │   │   ├───2018
+            │   │   │   │   │   │   └───2019
+            │   │   │   │   │   └───Medical
+            │   │   │   │   │       ├───2017
+            │   │   │   │   │       ├───2018
+            │   │   │   │   │       └───2019
+            │   │   │   │   └───DNB PD CET
+            │   │   │   │       ├───2018
+            │   │   │   │       └───2019
+            │   │   │   └───Seat Matrix
+            │   │   │       ├───Dental
+            │   │   │       │   ├───All India Quota
+            │   │   │       │   └───Deemed
+            │   │   │       ├───Diploma
+            │   │   │       │   └───PD CET Seat Matrix
+            │   │   │       └───Medical
+            │   │   │           ├───All India Quota
+            │   │   │           └───Deemed
+            │   │   ├───MH-State Ayush
+            │   │   │   ├───Fee Structure
+            │   │   │   ├───Previous Year Cut Off
+            │   │   │   │   ├───Ayurved
+            │   │   │   │   └───Homoeopathy
+            │   │   │   └───Seat Matrix
+            │   │   └───MH-State Medica-Dental
+            │   │       ├───Previous Year Cut off
+            │   │       │   └───2019
+            │   │       │       ├───Dental
+            │   │       │       └───Medical
+            │   │       └───Seat Matrix
+            │   │           ├───NEET MDS
+            │   │           └───NEET PG
+            │   ├───M. HMCT
+            │   ├───M.Arch
+            │   │   └───Previous Year Cut off
+            │   │       └───2019-20
+            │   ├───M.Pharm
+            │   ├───MBA-MMS
+            │   │   └───Previous Year Cut off
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   ├───MCA
+            │   │   └───Previous Year Cut Off
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   └───ME-M.TECH
+            │       └───Previous Year Cut off
+            │           ├───2018-19
+            │           └───2019-20
+            └───Under-Graduation
+            ├───Agriculture
+            │   ├───Agri MH State
+            │   │   └───Previous Year Cut Off
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   └───ICAR UG
+            ├───Architecture
+            │   └───Previous Year Cut Off
+            ├───Dairy
+            ├───Engineering - Done
+            │   ├───B.E.- B.TECH (Maharashtra)
+            │   │   └───Previous Year Cut Off
+            │   │       ├───2017-18
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   ├───D. S Y ENG
+            │   │   └───Previous Year Cut Off
+            │   │       └───2019-20
+            │   └───IITs, NITs, IIEST, IIITs and Other-GFTIs
+            │       └───Previous Year Cut Off
+            │           ├───2017
+            │           ├───2018
+            │           └───2019
+            │               └───CSAB Round
+            ├───Fine Arts
+            │   └───Previous Year Cut off
+            │       └───2019-20
+            ├───Fishery
+            │   └───Previous Year Cut Off
+            │       ├───2018-19
+            │       └───2019-20
+            ├───Health Science Courses
+            │   ├───AFMC
+            │   ├───AIIMS
+            │   │   └───Previous Year Cut Off
+            │   ├───ALL INDIA DEEMED MBBS BDS
+            │   │   ├───Fee Structure
+            │   │   ├───Previous Year Cut Off
+            │   │   │   ├───2017-18
+            │   │   │   ├───2018-19
+            │   │   │   └───2019-20
+            │   │   └───Seat Matrix
+            │   ├───ALL INDIA QUOTA BAMS BHMS BUMS BSMS
+            │   │   ├───Fee Structure
+            │   │   └───Previous Year Cut Off
+            │   │       └───2019-20
+            │   ├───JIPMER
+            │   └───MH-State
+            │       ├───Previous Cut Off
+            │       │   ├───2017-18
+            │       │   ├───2018-19
+            │       │   └───2019-20
+            │       └───Seat Matrix
+            ├───Hotel Management
+            │   └───Previous Year Cut Off
+            │       └───2019-20
+            │           ├───Round 1
+            │           ├───Round 2
+            │           └───Round 3
+            ├───Law
+            │   ├───3 Years
+            │   │   └───Previous Year Cut Off
+            │   └───5 Years
+            │       └───Previous Cut Off
+            ├───Pharmacy
+            │   ├───B Pharm-Pharm D MH State
+            │   │   └───Previous Year Cut Off
+            │   │       ├───2017-18
+            │   │       ├───2018-19
+            │   │       └───2019-20
+            │   └───D. S Y PHARM
+            │       └───Previous Year Cut Off
+            │           └───2019-20
+            └───Veterinary
+                ├───MH State
+                │   └───Previous Year Cut Off
+                │       ├───2018-19
+                │       └───2019-20
+                └───VCI All India Quota
+                    └───Previous Year Cut off
+        
+        *  Current state of the module handle Engineering data. Rest would be taken care in future.
+           Depends upon funding
+        
+        ## Setup
+        
+        >```python
+        > $ pip install setuptools
+        > $ pip install mh-admission
+        >```
+        ## Command line arguments
+        * You are ready, try to run mh_admission:
+        
+        > ```python
+        > $ mh_admission -h
+        > usage: mh_admission [-h] {eng,populate_db} ...
+        > positional arguments:
+        >  {eng,populate_db}  Specify a command for Maharastrha CET admission
+        >    eng              Argument for Engineering admission
+        >    populate_db      Argument to populate database with engineering admission
+        >                     data
+        >
+        > optional arguments:
+        >  -h, --help         show this help message and exit
+        > 
+        > $ mh_admission eng -h
+        > usage: mh_admission eng [-h] {create_tables} ...
+        >
+        > positional arguments:
+        >  {create_tables}  Argument for Engineering admission
+        >
+        > optional arguments:
+        >  -h, --help       show this help message and exit
+        >  
+        > mh_admission eng create_tables -h
+        > 
+        > usage: mh_admission eng create_tables [-h] [-d DB_DIALECT] [-dd DB_DRIVER]
+        >                                       [-u DB_USERNAME] [-p DB_PASSWORD]
+        >                                       [-host DB_HOSTNAME] [-dp DB_PORT]
+        >                                       [-n DB_NAME]
+        > 
+        > If an arg is specified in more than one place, then commandline values
+        > override environment variables which override defaults.
+        > 
+        > optional arguments:
+        >   -h, --help            show this help message and exit
+        >   -d DB_DIALECT, --db_dialect DB_DIALECT
+        >                         Database dialect Name [env var: DATABASE_DIALECT_NAME]
+        >   -dd DB_DRIVER, --db_driver DB_DRIVER
+        >                         Database driver [env var: DATABASE_DRIVER_NAME]
+        >   -u DB_USERNAME, --db_username DB_USERNAME
+        >                         Database user name [env var: DATABASE_USER_NAME]
+        >   -p DB_PASSWORD, --db_password DB_PASSWORD
+        >                         Database user password [env var:
+        >                         DATABASE_USER_PASSWORD]
+        >   -host DB_HOSTNAME, --db_hostname DB_HOSTNAME
+        >                         Database host name [env var: DATABASE_HOSTNAME]
+        >   -dp DB_PORT, --db_port DB_PORT
+        >                         Database port [env var: DATABASE_PORT]
+        >   -n DB_NAME, --db_name DB_NAME
+        >                         Database connection name [env var: DB_SID_NAME]
+        > 
+        > mh_admission populate_db -h
+        > 
+        > usage: mh_admission populate_db [-h] [-r RESOURCE_LOCATION] [-d DB_DIALECT]
+        >                                [-dd DB_DRIVER] [-u DB_USERNAME]
+        >                                [-p DB_PASSWORD] [-host DB_HOSTNAME]
+        >                                [-dp DB_PORT] [-n DB_NAME] [-engg] [-be] [-i]
+        >
+        > f an arg is specified in more than one place, then commandline values
+        > verride environment variables which override defaults.
+        >
+        > ptional arguments:
+        >  -h, --help            show this help message and exit
+        >  -r RESOURCE_LOCATION, --resource_location RESOURCE_LOCATION
+        >                        Excel file location for Admission data [env var:
+        >                        RESOURCE_ROOT_LOCATION]
+        >  -d DB_DIALECT, --db_dialect DB_DIALECT
+        >                        Database dialect Name [env var: DATABASE_DIALECT_NAME]
+        >  -dd DB_DRIVER, --db_driver DB_DRIVER
+        >                        Database driver [env var: DATABASE_DRIVER_NAME]
+        >  -u DB_USERNAME, --db_username DB_USERNAME
+        >                        Database user name [env var: DATABASE_USER_NAME]
+        >  -p DB_PASSWORD, --db_password DB_PASSWORD
+        >                        Database user password [env var:
+        >                        DATABASE_USER_PASSWORD]
+        >  -host DB_HOSTNAME, --db_hostname DB_HOSTNAME
+        >                        Database host name [env var: DATABASE_HOSTNAME]
+        >  -dp DB_PORT, --db_port DB_PORT
+        >                        Database port [env var: DATABASE_PORT]
+        >  -n DB_NAME, --db_name DB_NAME
+        >                        Database connection name [env var: DB_SID_NAME]
+        >  -engg, --enggineering
+        >                        Flag to populate engineering admission data available
+        >  -be, --engg_be        Flag to populate engineering admission data For
+        >                        Bachelor Of Engineering
+        >  -i, --do_insert       Flag not to populate engineering admission
+        >
+        > ```
+        
+        ## Or you can adjust environment variables: 
+        *  **RESOURCE_ROOT_LOCATION** - Excel file location for Admission data
+        *  **DATABASE_DIALECT_NAME** - Database dialect Name
+        *  **DATABASE_DRIVER_NAME** - Database driver
+        *  **DATABASE_USER_NAME** - Database user name
+        *  **DATABASE_USER_PASSWORD** - Database user password
+        *  **DATABASE_HOSTNAME** - Database host name
+        *  **DATABASE_PORT** - Database port
+        *  **DB_SID_NAME** - Database connection name
+        
+        ## How it Works
+        
+        Keep all all default values.
+        Use mysql for database
+        To create database schema with name `admissiondb`, keep everything default.
+        
+        * Create database Table:-
+        >```python
+        > $ mh_admission eng create_tables
+        >```
+        
+        * Populate Engineering Admission data to database tables:-
+        >```python
+        > $ mh_admission populate_db -engg -be -i
+        >```
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+__all_= ["AdmissionEnums"]
+
+from .AdmissionEnums import SeatType
+from .AdmissionEnums import Gender
+from .AdmissionEnums import CapRound
+from .AdmissionEnums import HOME_UNIVERSITY_SEATS_ALLOTTED_TO_HOME_UNIVERSITY_CANDIDATES
+from .AdmissionEnums import OTHER_THAN_HOME_UNIVERSITY_SEATS_ALLOTTED_TO_HOME_UNIVERSITY_CANDIDATES
+from .AdmissionEnums import HOME_UNIVERSITY_SEATS_ALLOTTED_TO_OTHER_THAN_HOME_UNIVERSITY_CANDIDATES
+from .AdmissionEnums import OTHER_THAN_HOME_UNIVERSITY_SEATS_ALLOTTED_TO_OTHER_THAN_HOME_UNIVERSITY_CANDIDATES
+from .AdmissionEnums import STATE_LEVEL
