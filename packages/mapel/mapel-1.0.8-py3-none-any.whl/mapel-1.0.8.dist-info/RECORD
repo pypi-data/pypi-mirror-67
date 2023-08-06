@@ -1,0 +1,16 @@
+mapel/__init__.py,sha256=EFWx-KFwb-xFekS74Oh2jg28-LZBgFCAhTwExPD79Ds,456
+mapel/__init__.pyc,sha256=Sq3QkwrvEyBFyOBE7flxWuQ_abC5LYUqUS-Sh7Pxjf8,1196
+mapel/__pycache__/__init__.cpython-36.pyc,sha256=Hrt1ezjsM-aQeg0fYh2vz1L4U_i3ISOq8vGTYlZUUh8,858
+mapel/voting/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+mapel/voting/__init__.pyc,sha256=kki6YXk6N3N0ZGVI15rQt5AkcXmhxRpRXtRp6RNruHo,152
+mapel/voting/modern.py,sha256=AVJ0MvgbjNurdzRKAlKaulzbnz22MFoQsZRXSFJWdAI,10902
+mapel/voting/modern.pyc,sha256=31gL5ROvh9kRdcnYSBZRFaP9krNDgPLTV7y1ybXNF-g,9413
+mapel/voting/objects.py,sha256=fXKFeeAHoOmmZYBr1Pcg_2Br6GjNtLOiC-jTr3dDiRE,7046
+mapel/voting/objects.pyc,sha256=VMCw1yG-el9_6K4CwbCMbhA5X69ibucsKJ7vO2OEDGI,8490
+mapel/voting/__pycache__/__init__.cpython-36.pyc,sha256=6wVtzhRHIca0s5TZS0cSjAewdWm8AOaG6wVvlJLaK1Y,148
+mapel/voting/__pycache__/modern.cpython-36.pyc,sha256=FGvw1WWoBYqnPScdSTm2ZLCY6ixaZq3B86CTGwICvIw,8276
+mapel/voting/__pycache__/objects.cpython-36.pyc,sha256=Qr19UEk_zVOUObAURHCtSJZwdB3n1SvGO-kl-Fuv4WI,7620
+mapel-1.0.8.dist-info/METADATA,sha256=fbS4gHkLpryOIvHs1Av8kW6WdPQ5VBBWZm86Ewyagyg,651
+mapel-1.0.8.dist-info/RECORD,,
+mapel-1.0.8.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+mapel-1.0.8.dist-info/top_level.txt,sha256=Ov-eXk2A-G1wjlvjVJ-ZsmFvTmRVwgUFREIJu3K6hBI,6
