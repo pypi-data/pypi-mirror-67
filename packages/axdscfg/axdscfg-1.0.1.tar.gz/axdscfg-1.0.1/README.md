@@ -1,0 +1,69 @@
+# AXDS_CFG - Biblioteca para credenciais
+
+Essa biblioteca tem a função de criar arquivos encriptados que podem ser compartilhados entre os servidores privados da _**Axiomas Tecnologia LTDA**_.
+O uso dessa biblioteca surge da necessidade de não compartilhar as credenciais necessárias à aplicação entre os usuários e/ou desenvolvedores que obtiverem acesso ao código.
+
+### Instalação
+
+Para instalar o pacote, utilize o pip, do Python 3:
+
+~~~bash
+pip3 install axdscfg
+~~~
+
+
+### Começando
+
+Os arquivos com credenciais devem ser escritos no formato de configuração de sessões, chaves e valores como o exemplo a seguir:
+
+~~~
+[sessao-1]
+usuario-1 = nome do usuario
+senha-1 = senha_secreta_1234!
+
+[sessao-2]
+chave = awmfon5#2%$aw4
+segredo = fi54643tn43n\f8543&434$33%febeafi5
+~~~
+
+O arquivo deve ser nomeado como _**credentials**_ e depois encriptado utilizando uma chave de 32 _bytes_.
+Para gerar uma chave, utilize o comando abaixo.
+
+~~~bash
+axdscfg -g
+~~~
+
+O comando acima deve gerar um arquivo nomeado _**axds_cfg.key**_.
+Para encriptar o arquivo com a chave gerada utilize o comando abaixo:
+
+~~~bash
+axdscfg -e
+~~~
+
+O comando acima deve gerar um arquivo nomeado _**credentials.enc**_ no mesmo diretório.
+
+Pode-se recuperar as credenciais como no exemplo abaixo:
+
+~~~python
+secrets = Credentials(config_path)
+
+usuario = secrets.get_config_param('sessao-1', 'usuario-1')
+~~~
+
+### Testes
+Após qualquer alteração, deve-se utilizar o _**pytest**_ no diretório _'/tests'_ para verificar o funcionamento do projeto.
+
+>Apenas faça o _upload_ se as alterações passarem pelos testes.
+
+### Dependências
+
+Essa biblioteca é compatível com _**Python 3.5+**_.
+É necessário instalar junto com a biblioteca os seguintos pacotes _pip_ para funcionar:
+
+>configparser >= 3.7.4
+
+>PyNaCl >= 1.3.0
+
+### Observações
+
+Alterar o changelog, sempre que houver alterações, especificando a versão, data e uma descrição do que foi alterado.

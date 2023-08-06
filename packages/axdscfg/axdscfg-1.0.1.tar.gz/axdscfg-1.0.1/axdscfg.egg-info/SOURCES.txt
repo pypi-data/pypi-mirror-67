@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+axdscfg/__init__.py
+axdscfg/axdscfg.py
+axdscfg/credentials.py
+axdscfg/exceptions.py
+axdscfg/utils.py
+axdscfg.egg-info/PKG-INFO
+axdscfg.egg-info/SOURCES.txt
+axdscfg.egg-info/dependency_links.txt
+axdscfg.egg-info/entry_points.txt
+axdscfg.egg-info/requires.txt
+axdscfg.egg-info/top_level.txt
