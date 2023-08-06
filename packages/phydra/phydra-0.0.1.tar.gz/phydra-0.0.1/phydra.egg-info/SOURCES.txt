@@ -1,0 +1,5 @@
+setup.py
+phydra.egg-info/PKG-INFO
+phydra.egg-info/SOURCES.txt
+phydra.egg-info/dependency_links.txt
+phydra.egg-info/top_level.txt
