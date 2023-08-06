@@ -1,0 +1,17 @@
+MANIFEST.in
+Readme.md
+license.txt
+setup.py
+simpleocr/__init__.py
+simpleocr/ocr.py
+simpleocr.egg-info/PKG-INFO
+simpleocr.egg-info/SOURCES.txt
+simpleocr.egg-info/dependency_links.txt
+simpleocr.egg-info/requires.txt
+simpleocr.egg-info/top_level.txt
+simpleocr/data/config.txt
+simpleocr/data/label.txt
+simpleocr/localization/model.py
+simpleocr/localization/__pycache__/model.cpython-37.pyc
+simpleocr/recognition/model.py
+simpleocr/recognition/__pycache__/model.cpython-37.pyc
