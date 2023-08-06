@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: CoronaTest
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Karigor
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+
+## Installation:
+
+```
+pip install CoronaTest
+```
+
+
+## Usage:
+```python
+>>>  from CoronaTest import test
+>>>  check_status = True
+>>>  i = None
+>>>  data = None
+
+if check_status==True:
+    i, reply, check_status = StartTest.StartTest(i, data)
+
+
+```
+
+
