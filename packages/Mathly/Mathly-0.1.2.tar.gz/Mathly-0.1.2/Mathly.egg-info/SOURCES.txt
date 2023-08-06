@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+Mathly.egg-info/PKG-INFO
+Mathly.egg-info/SOURCES.txt
+Mathly.egg-info/dependency_links.txt
+Mathly.egg-info/top_level.txt

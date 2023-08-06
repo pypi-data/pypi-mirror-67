@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Mathly
+Version: 0.1.2
+Summary: Mathly is an open-source Python library for mathematics with strong Linear Algebra support.
+Home-page: https://github.com/aaronhma/mathly
+Author: Aaron Ma
+License: MIT
+Description: # Mathly
+        Mathly is an open-source, end-to-end library for mathematics in Python, with strong support for both linear algebra and calculus.
+        
+        [![Build Status](https://travis-ci.com/aaronhma/mathly.svg?branch=master)](https://travis-ci.com/aaronhma/mathly)
+        ![PyPi Status](https://img.shields.io/pypi/v/mathly.svg)
+        
+        ## Getting Started Guide
+        
+        1. Install with PIP:
+        ```bash
+        $ pip install mathly
+        ```
+        
+        Or with Conda:
+        ```bash
+        # NOTE: This won't work yet!
+        $ conda install mathly
+        ```
+Keywords: math,linear algebra,mathly
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
