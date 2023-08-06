@@ -1,0 +1,15 @@
+web_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web_downloader/clean_env.py,sha256=1gBvrEljbhw7CfPMQRThK7rIWoMG_TLR88jJp0y7sV4,364
+web_downloader/create_db.py,sha256=qgvbqPL0UojOECnXovbKF81qQjHnu_bXr2oi7rerQt0,248
+web_downloader/process_url.py,sha256=eNDeQXBe1ipwPVlMPhzePpxER_5ooU0mvthPoS2gucQ,175
+web_downloader/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web_downloader/lib/db.py,sha256=cylfZwQqUtr9gnkL97A7Dvos5VIbIVQSDh-TRDUCPQk,4384
+web_downloader/lib/download_webpage.py,sha256=KMeW4WKVyO6DDSBx4GfZMZeROeUV4WnH_vai6FmrWas,2340
+web_downloader/lib/get_firefox_driver.py,sha256=7PD91WHnT4TaKMIuLp-pnlw830nSf3EIwGc5kx91eBA,1014
+web_downloader/lib/parse_webpage.py,sha256=izPxl8oaobx-t4oLG6MVyORZqpAQiNMVkW4cC17c214,1009
+web_downloader/lib/paths_management.py,sha256=wE0HLmONdn-2aJ923rsbxVbXQYI_S1tQCrzN8NTrkGI,1346
+web_downloader-0.0.4.dist-info/LICENSE,sha256=3QULYVfXvLerRMpw9KjDBscDkQKLoRyzJpSWBe5P0jQ,1091
+web_downloader-0.0.4.dist-info/METADATA,sha256=YdEHBEYYgqWmoIUoay5bYgLiMyBi4P3525yFoTiYvAw,458
+web_downloader-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+web_downloader-0.0.4.dist-info/top_level.txt,sha256=os3D0R50l2Og66cHAdReSI0rZjzo2S0i_hmJU5XgiXE,15
+web_downloader-0.0.4.dist-info/RECORD,,
