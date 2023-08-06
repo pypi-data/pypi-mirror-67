@@ -1,0 +1,129 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "opportunityId": {
+      "type": ["string", "null"]
+    },
+    "createdAt": {
+      "type": ["integer", "null"]
+    },
+    "creator": {
+      "type": ["string", "null"]
+    },
+    "status": {
+      "type": ["string", "null"]
+    },
+    "fields": {
+      "type": ["null", "array"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "text": {
+            "type": ["string", "null"]
+          },
+          "identifier": {
+            "type": ["string", "null"]
+          },
+          "value": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "signatures": {
+      "type": ["object", "null"],
+      "properties": {
+        "role": {
+          "type": ["string", "null"]
+        },
+        "name": {
+          "type": ["string", "null"]
+        },
+        "email": {
+          "type": ["string", "null"]
+        },
+        "firstOpenedAt": {
+          "type": ["integer", "null"]
+        },
+        "lastOpenedAt": {
+          "type": ["integer", "null"]
+        },
+        "signedAt": {
+          "type": ["integer", "null"]
+        },
+        "signed": {
+          "type": ["boolean", "null"]
+        },
+        "candidate": {
+          "type": ["object", "null"],
+          "properties": {
+            "email": {
+              "type": ["string", "null"]
+            },
+            "lastOpenedAt": {
+              "type": ["integer", "null"]
+            },
+            "role": {
+              "type": ["string", "null"]
+            },
+            "signedAt": {
+              "type": ["integer", "null"]
+            },
+            "firstOpenedAt": {
+              "type": ["integer", "null"]
+            },
+            "signed": {
+              "type": ["boolean", "null"]
+            },
+            "name": {
+              "type": ["string", "null"]
+            }
+          }
+        }
+      }
+    },
+    "approvedAt": {
+      "type": ["integer", "null"]
+    },
+    "sentAt": {
+      "type": ["integer", "null"]
+    },
+    "approved": {
+      "type": ["boolean", "null"]
+    },
+    "posting": {
+      "type": ["string", "null"]
+    },
+    "sentDocument": {
+      "type": ["object", "null"],
+      "properties": {
+        "uploadedAt": {
+          "type": ["integer", "null"]
+        },
+        "downloadUrl": {
+          "type": ["string", "null"]
+        },
+        "fileName": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "signedDocument": {
+      "type": ["object", "null"],
+      "properties": {
+        "uploadedAt": {
+          "type": ["integer", "null"]
+        },
+        "downloadUrl": {
+          "type": ["string", "null"]
+        },
+        "fileName": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}
