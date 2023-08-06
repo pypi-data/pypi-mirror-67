@@ -1,0 +1,11 @@
+README.md
+setup.py
+libcfinder/__init__.py
+libcfinder/libcfinder.py
+libcfinder.egg-info/PKG-INFO
+libcfinder.egg-info/SOURCES (petitnau's conflicted copy 2020-05-03).txt
+libcfinder.egg-info/SOURCES.txt
+libcfinder.egg-info/dependency_links.txt
+libcfinder.egg-info/requires.txt
+libcfinder.egg-info/top_level (petitnau's conflicted copy 2020-05-03).txt
+libcfinder.egg-info/top_level.txt
