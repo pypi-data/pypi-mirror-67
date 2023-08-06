@@ -1,0 +1,15 @@
+parse_2d/__init__.py,sha256=N8c-dDcYQIfKmet1c1PUnTx8RR5WU9jQdu2Uu2lLpQY,664
+parse_2d/diagram.py,sha256=LL9kuSO3ebEJwzPsVUhL3bjM4uryBwxhBzecD2Sx9yU,3136
+parse_2d/regions.py,sha256=XKxF-8QJtnQDauuyKMIPZDSI4o8seaNJuZAUotmhF9E,1397
+parse_2d/tokens/__init__.py,sha256=DuMpzSuhL3bHyvKWladYlV0fsU7hlLETUHuddTIwT10,592
+parse_2d/tokens/box_tokenizer.py,sha256=kXDHdPqafByRxZi3oHkUllTubR0HmlTwr6Hv7uL2eJs,3784
+parse_2d/tokens/template_tokenizer.py,sha256=yS03Ah2y3yR6pxZjlZp719DzXZo_-TB40_Y6Z26EOqM,1947
+parse_2d/tokens/tiny_tokenizer.py,sha256=Q0KTSy_yiiJaFxFjth1FR94jV26QXL_mm6SInKcXfv8,860
+parse_2d/tokens/translation.py,sha256=K8OH3OEq-Ysogjzu8gToY6rxpEU9wWyXzKREAoURMtA,1105
+parse_2d/tokens/types.py,sha256=uWvU_5z3PVob_Q-v6WwtfXUSJz35xd44POdkZMhCRoE,1566
+parse_2d/tokens/wire_tokenizer.py,sha256=oON5ls57JrwMKbbJUmKeXxBd3EWvnbCmUMYLLXAGSf8,3127
+parse_2d-1.0.0.dist-info/LICENSE,sha256=wbGmIwLLBZ9oDRrSufCwhvR5XvHiZ6RU5l2IykhkzRo,1067
+parse_2d-1.0.0.dist-info/METADATA,sha256=bqBs2dPWzCpzHfRmpi7LZMA8ZSARtK41cW_mYFpIxq4,5122
+parse_2d-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+parse_2d-1.0.0.dist-info/top_level.txt,sha256=y0d1b-J6Loiij9gYKNvnv2-geGeEgoYtqIdaiy-SkSI,9
+parse_2d-1.0.0.dist-info/RECORD,,
