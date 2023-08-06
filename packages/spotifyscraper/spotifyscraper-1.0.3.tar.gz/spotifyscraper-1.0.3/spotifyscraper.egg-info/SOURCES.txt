@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+SpotifyScraper/__init__.py
+SpotifyScraper/request.py
+SpotifyScraper/scraper.py
+spotifyscraper.egg-info/PKG-INFO
+spotifyscraper.egg-info/SOURCES.txt
+spotifyscraper.egg-info/dependency_links.txt
+spotifyscraper.egg-info/requires.txt
+spotifyscraper.egg-info/top_level.txt
