@@ -1,0 +1,8 @@
+README.md
+setup.py
+review_saas/viva_review_saas.egg-info/PKG-INFO
+review_saas/viva_review_saas.egg-info/SOURCES.txt
+review_saas/viva_review_saas.egg-info/dependency_links.txt
+review_saas/viva_review_saas.egg-info/not-zip-safe
+review_saas/viva_review_saas.egg-info/requires.txt
+review_saas/viva_review_saas.egg-info/top_level.txt
