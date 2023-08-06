@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+Test_izqjhduzd.egg-info/PKG-INFO
+Test_izqjhduzd.egg-info/SOURCES.txt
+Test_izqjhduzd.egg-info/dependency_links.txt
+Test_izqjhduzd.egg-info/top_level.txt
