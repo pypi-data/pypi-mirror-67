@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hitools
+Version: 0.0.3
+Summary: Package of utility functions
+Home-page: UNKNOWN
+Author: HiLearn
+Author-email: info@hilearn.io
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: python-json-logger (==0.1.11)
+
+# hitools
+
+
