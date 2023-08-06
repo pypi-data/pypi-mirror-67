@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ncbitax2lin"
+version = "2.0.0-alpha.1"
+description = "A tool that converts NCBI taxonomy dump into lineages"
+authors = ["Zhuyi Xue <zhuyi@alum.utoronto.ca>"]
+readme = "README.md"
+homepage = "https://github.com/zyxue/ncbitax2lin"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.3"
+fire = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+mypy = "^0.770"
+pylint = "^2.5.0"
+
+[tool.poetry.scripts]
+poetry = "ncbitax2lin.ncbitax2lin:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
