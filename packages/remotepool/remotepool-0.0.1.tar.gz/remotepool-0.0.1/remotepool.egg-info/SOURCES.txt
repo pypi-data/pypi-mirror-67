@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+remotepool/__init__.py
+remotepool.egg-info/PKG-INFO
+remotepool.egg-info/SOURCES.txt
+remotepool.egg-info/dependency_links.txt
+remotepool.egg-info/entry_points.txt
+remotepool.egg-info/not-zip-safe
+remotepool.egg-info/top_level.txt

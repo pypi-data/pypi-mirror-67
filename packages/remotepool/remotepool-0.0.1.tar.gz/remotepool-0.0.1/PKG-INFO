@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: remotepool
+Version: 0.0.1
+Summary: Python Process Executor for the Cloud
+Home-page: http://nqbao.com
+Author: Bao Nguyen
+Author-email: qbao.nguyen@gmail.com
+License: UNKNOWN
+Description: Python Process Executor for the Cloud
+Platform: UNKNOWN
+Requires-Python: >= 3
