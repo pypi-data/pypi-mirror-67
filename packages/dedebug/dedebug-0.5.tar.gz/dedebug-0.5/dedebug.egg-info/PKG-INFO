@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dedebug
+Version: 0.5
+Summary: Telegram debuger
+Home-page: https://github.com/user/markolofsen
+Author: Mark
+Author-email: markolofsen@gmail.com
+License: MIT
+Description: Library for sending telegram debug messages
+        
+        ### Install
+        ```python
+        pip3 install dedebug
+        ```
+        
+        ### How to use
+        ```python
+        from dedebug import sendDebug
+        
+        # variant 1
+        res = sendDebug(project_name='demo').message('Hello')
+        
+        # variant 2
+        res = sendDebug(project_name='demo').message([1, 2, 3])
+        ```
+Keywords: telegram
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
