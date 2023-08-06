@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: datazeus
+Version: 0.0.1
+Summary: Busca de parâmetros para machine learning
+Home-page: https://github.com/mfhorita
+Author: Marcelo Horita
+Author-email: mfhorita@gmail.com.br
+License: MIT
+Keywords: datazeus sklearn learn knn logistic naive bayes decision tree forests classifier
+Platform: UNKNOWN
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: scikit-learn (>=0.22.2)
+Requires-Dist: pandas (>=0.25.3)
+
+Pacote de busca dos melhores parâmetros para machine learning
+
+
