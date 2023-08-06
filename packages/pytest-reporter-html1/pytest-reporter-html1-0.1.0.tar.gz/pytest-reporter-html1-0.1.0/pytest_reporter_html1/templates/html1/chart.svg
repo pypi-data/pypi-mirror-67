@@ -1,0 +1,23 @@
+<svg viewBox="0 0 42 42">
+  {% set ns = namespace(sum=0) %}
+  {% set total = tests|count %}
+  {% set r = 16 %}
+  {% set C = 2 * 3.14159 * r %}
+  {% for category, sub_tests in tests|groupby('status.category') %}
+    {% set count = sub_tests|count %}
+    {% set L = count / total * C %}
+    <circle
+      class="donut-segment {{ category }} {{ sub_tests|map(attribute='status.style')|first|join(' ') }}"
+      stroke-dasharray="{{ L }} {{ C - L }}"
+      stroke-dashoffset="{{ C - ns.sum + (C / 4) }}"
+      cx="21"
+      cy="21"
+      r="{{ r }}"
+      fill="transparent"
+      stroke="#ce4b99"
+      stroke-width="3">
+    </circle>
+    {% set ns.sum = ns.sum + L %}
+  {% endfor %}
+  <text x="21" y="25" text-anchor="middle">{{ total }}</text>
+</svg>
