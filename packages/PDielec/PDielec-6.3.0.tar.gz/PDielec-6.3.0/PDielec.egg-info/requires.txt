@@ -1,0 +1,9 @@
+numpy
+scipy
+PyYAML
+matplotlib
+termcolor
+xlsxwriter
+openpyxl
+imageio
+PyMieScatt
