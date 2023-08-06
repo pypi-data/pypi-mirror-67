@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: jmesobj
+Version: 0.0.1
+Summary: JMESPath-powered data container ideal for JSON payloads.
+Home-page: https://github.com/rmax/jmesobj
+Author: R Max Espinoza
+Author-email: me@rmax.io
+License: MIT
+Project-URL: Source, https://github.com/rmax/jmesobj
+Project-URL: Tracker, https://github.com/rmax/jmesobj/issues
+Description: JMESObj Lightweight Data Container
+        ----------------------------------
+        
+        This project contains a class with index-like JMESPath querying.
+        
+        Example::
+        
+          >>> from jmesobj import JMESObj
+          >>> obj = JMESObj.from_json('{"foo": {"bar": true, "baz": false}}')
+          >>> obj['foo.bar']
+          True
+          >>> obj['foo.*']
+          [True, False]
+        
+        Installation
+        ============
+        
+        Using ``pip``::
+        
+          $ pip install jmesobj
+        
+        
+        Development
+        ===========
+        
+        Development environment is set up by ``pipenv``::
+        
+          $ pipenv install --dev
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
