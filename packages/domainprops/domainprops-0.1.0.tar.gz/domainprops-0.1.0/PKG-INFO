@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: domainprops
+Version: 0.1.0
+Summary: Parse domain name properties.
+Author: Viktor Persson
+Author-email: viktor.persson@arcsin.se
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
