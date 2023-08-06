@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: eulerlabs
+Version: 0.0.0
+Summary: SQL driven Data Science in Python
+Home-page: https://github.com/AnilSingh79/eulerlabs
+Author: Anil Singh
+Author-email: singh.ap79@gmail.com
+License: MIT
+Download-URL: https://github.com/AnilSingh79/eulerlabs/archive/v1.tar.gz
+Description: UNKNOWN
+Keywords: Data Science,SQLite,SQL,CSV,SQL query
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
