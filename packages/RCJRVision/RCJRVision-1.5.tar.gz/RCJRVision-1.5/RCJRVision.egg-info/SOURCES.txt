@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+RCJRVision/RCJRVision.py
+RCJRVision/__init__.py
+RCJRVision/contours.py
+RCJRVision/msgs.py
+RCJRVision/params.py
+RCJRVision/saveSampleContours.py
+RCJRVision.egg-info/PKG-INFO
+RCJRVision.egg-info/SOURCES.txt
+RCJRVision.egg-info/dependency_links.txt
+RCJRVision.egg-info/requires.txt
+RCJRVision.egg-info/top_level.txt
