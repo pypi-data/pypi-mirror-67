@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% block head %}
+        <title>Appel crises</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="{% static "appel_crises/css/appel-crises.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "appel_crises/css/responsive.css" %}"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Passion+One:400,700&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% endblock %}
+</head>
+<body>
+
+{% block content %}{% endblock %}
+
+<footer class="flex-row" style="justify-content: center">
+    <div class="mention flex-col  flex-sb">
+        <a href=""><p>Mentions légales</p></a>
+    </div>
+    <div class="contact flex-col flex-sb" style="margin-left: 10vw">
+        <div>
+            <p>Contact presse</p>
+            <a href="mailto:press@appel-commun-reconstruction.org" id="email" style="font-weight: bold">press@appel-commun-reconstruction.org</a>
+        </div>
+        <div class="social flex-row">
+            <a href=""><img src="{% static "appel_crises/img/facebook.svg" %}" alt="Logo Facebbok"></a>
+            <a href=""><img src="{% static "appel_crises/img/twitter.svg" %}" alt="Logo Twitter"></a>
+            <a href=""><img src="{% static "appel_crises/img/linkedin.svg" %}" alt="Logo LinkedIn"></a>
+            <a href=""><img src="{% static "appel_crises/img/instagram.svg" %}" alt="Logo Instagram"></a>
+            <a href=""><img src="{% static "appel_crises/img/whatsapp.svg" %}" alt="Logo Whatsapp"></a>
+        </div>
+    </div>
+</footer>
+
+{% block extra_js %}{% endblock %}
+
+</body>
+</html>
