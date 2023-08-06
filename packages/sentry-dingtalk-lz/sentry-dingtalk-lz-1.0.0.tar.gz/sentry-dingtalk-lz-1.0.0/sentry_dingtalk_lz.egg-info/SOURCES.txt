@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentry_dingtalk/__init__.py
+sentry_dingtalk/plugin.py
+sentry_dingtalk_lz.egg-info/PKG-INFO
+sentry_dingtalk_lz.egg-info/SOURCES.txt
+sentry_dingtalk_lz.egg-info/dependency_links.txt
+sentry_dingtalk_lz.egg-info/entry_points.txt
+sentry_dingtalk_lz.egg-info/not-zip-safe
+sentry_dingtalk_lz.egg-info/requires.txt
+sentry_dingtalk_lz.egg-info/top_level.txt
