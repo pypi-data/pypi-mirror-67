@@ -1,0 +1,13 @@
+nattka/__init__.py,sha256=cORijOw6ZgvWo1kMj9UqGPf6QYKVFyqGBuIN4jzLSlk,107
+nattka/bugzilla.py,sha256=cSoBtXcfP-J6ANeRYvs9bOyvWIKL5wjAOVJFid_GyWY,14895
+nattka/cli.py,sha256=GJTnZlSKMakE4nb2NxBcwpXx4iqqb4l4m3_mfxIJNrQ,38922
+nattka/depgraph.py,sha256=r0Ss4UmxTq65GLIfRXNgYiGB9f2v5VLl5sz1SRFwL1o,3295
+nattka/git.py,sha256=olACfHTuejqcFhMZ21M29GShVZ5BVQFtA7RICu3_raA,3602
+nattka/keyword.py,sha256=IO2KmsXIie3AcUxsX_iXNfpMUGQFPdiWmmJZhauucq4,3531
+nattka/package.py,sha256=Yvl34p58k0D0NLR22k0dJQyWmuaAt6IPdDkhlaEw11M,18116
+nattka-0.2.3.dist-info/COPYING,sha256=BX6k7bCYkPBtWuOgvKM07UTFy5WKZiRg_kRcm2EB-8w,1300
+nattka-0.2.3.dist-info/METADATA,sha256=6Md4SO0yarQDqTsLAzrrHu9OMc71P5sFoftqEZIzfwA,649
+nattka-0.2.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nattka-0.2.3.dist-info/entry_points.txt,sha256=9LA1Onxko6M5ovLGVQ1ITL3nnLk-x4A6A4u6P2YcPf0,55
+nattka-0.2.3.dist-info/top_level.txt,sha256=N8ElsR08wM0VSlouaZ1VT4jcUxKMpMvaWrdwKd1ZkVA,7
+nattka-0.2.3.dist-info/RECORD,,
