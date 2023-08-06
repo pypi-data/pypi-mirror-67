@@ -1,0 +1,11 @@
+priyapdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+priyapdf/pdftoimage.py,sha256=gaG9rGYxgeADE7I_iqaK3RyLTyenHFaG8n50kOelhyc,72
+priyapdf/pdftotext.py,sha256=3NUYmoN8VIJhCRrM9gJoTUzI8dtgrJYCpRJ_jjbYRgc,64
+priyapdf1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+priyapdf1/pdftoimage.py,sha256=gaG9rGYxgeADE7I_iqaK3RyLTyenHFaG8n50kOelhyc,72
+priyapdf1/pdftotext.py,sha256=3NUYmoN8VIJhCRrM9gJoTUzI8dtgrJYCpRJ_jjbYRgc,64
+priyapdf1-1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+priyapdf1-1.0.dist-info/METADATA,sha256=Q9kfEWrrIiHlHfZXGbAVLHKty4fEzSKIT0I1K_8UEbM,200
+priyapdf1-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+priyapdf1-1.0.dist-info/top_level.txt,sha256=R1pJLLgn-kHlZHpQLN6H1XALoZ6FqiUlVHCZlsYeTOg,10
+priyapdf1-1.0.dist-info/RECORD,,
