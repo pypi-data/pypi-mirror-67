@@ -1,0 +1,8 @@
+README.md
+setup.py
+pytwitchchat/__init__.py
+pytwitchchat/py_twitch_chat.py
+pytwitchchat.egg-info/PKG-INFO
+pytwitchchat.egg-info/SOURCES.txt
+pytwitchchat.egg-info/dependency_links.txt
+pytwitchchat.egg-info/top_level.txt
