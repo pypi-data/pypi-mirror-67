@@ -1,0 +1,12 @@
+simple_zuora_client/__init__.py,sha256=mOMN29VDBfbNyV4JX59U0Hdt0NJITciw64BzPMin4-4,127
+simple_zuora_client/zuora_basic_client.py,sha256=DidF5Drhml_7uw-quA21hJcR5qqQ5mbEShLH5-juWlE,3777
+simple_zuora_client/zuora_client.py,sha256=QlZezx4LVdCci_gsgznz5Pl7yHYvQ-9dwe1AOkOjK4E,4163
+simple_zuora_client/client_libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_zuora_client/client_libs/data_wrappers.py,sha256=AJ7aebMq5YxrNJxSk-xkzNkF0mnaG1zdX_Wqwq_QOG8,2299
+simple_zuora_client/client_libs/zuora_client_exceptions.py,sha256=PC_w7BHh3L2HG1PfldDDbKuGxWTAaDVpO2f8jdY3BBo,1238
+simple_zuora_client-0.1.4.dist-info/DESCRIPTION.rst,sha256=u1t8sglzeXF1B8-vapVSw4Zn__Vc9I4BqTpPULY5fZ8,1396
+simple_zuora_client-0.1.4.dist-info/METADATA,sha256=o2CzY6-N9B88LZrl9oMK7SyLzOCN66bOSKRzjNFr8KU,1728
+simple_zuora_client-0.1.4.dist-info/RECORD,,
+simple_zuora_client-0.1.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+simple_zuora_client-0.1.4.dist-info/metadata.json,sha256=noHK318IDi1FgSMXPHsmG-MPjv4YWcSI0B_fn1zd6uA,544
+simple_zuora_client-0.1.4.dist-info/top_level.txt,sha256=6GXhhIz1KoLBuK_Umo8Xubf8W0foKmSyCL3e0kWpTNg,20
