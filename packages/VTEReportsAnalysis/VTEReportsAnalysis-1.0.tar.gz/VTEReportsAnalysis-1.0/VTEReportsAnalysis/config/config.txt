@@ -1,0 +1,44 @@
+#target_phrases
+embolus 
+embolism 
+emboli
+clot
+clots
+thromboemboli
+thromboembolism
+thromboembolic
+filling defect
+pe
+thrombus
+thrombi
+
+#skip_phrases
+evaluate 
+evaluation 
+history 
+indication 
+technique 
+comparison 
+assessment 
+nondiagnostic 
+uninterpretable 
+artifact 
+artifactual 
+repeat
+
+#absolute_negative_assertions
+no evidence of acute pulmonary embolus
+no evidence of acute pulmonary emboli
+no evidence of pulmonary embolus
+no evidence of pulmonary emboli
+no acute pulmonary embolus
+no acute pulmonary emboli
+no pulmonary embolus
+no pulmonary emboli
+No filling defects
+No acute filling defects
+
+#absolute_positive_assertions
+
+#start_phrase
+Impression:
