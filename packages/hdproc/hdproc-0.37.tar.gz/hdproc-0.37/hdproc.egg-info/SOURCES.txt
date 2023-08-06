@@ -1,0 +1,10 @@
+README.md
+setup.py
+hdproc/HDP.py
+hdproc/__init__.py
+hdproc/text_prep.py
+hdproc.egg-info/PKG-INFO
+hdproc.egg-info/SOURCES.txt
+hdproc.egg-info/dependency_links.txt
+hdproc.egg-info/not-zip-safe
+hdproc.egg-info/top_level.txt
