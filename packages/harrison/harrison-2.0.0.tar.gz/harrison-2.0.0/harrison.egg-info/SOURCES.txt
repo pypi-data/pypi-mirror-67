@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+harrison/__init__.py
+harrison/package_version.py
+harrison/profile.py
+harrison/registered_timer.py
+harrison/test_timer.py
+harrison/timer.py
+harrison.egg-info/PKG-INFO
+harrison.egg-info/SOURCES.txt
+harrison.egg-info/dependency_links.txt
+harrison.egg-info/top_level.txt
+harrison/util/__init__.py
+harrison/util/inspectlib.py
+harrison/util/test_inspectlib.py
