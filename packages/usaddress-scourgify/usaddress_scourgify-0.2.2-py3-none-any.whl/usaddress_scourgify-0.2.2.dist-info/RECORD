@@ -1,0 +1,15 @@
+scourgify/__init__.py,sha256=U1EaY9rDUI-nCb6DUho8Dj2zf0l0FtpKvJKWSrLFDbk,222
+scourgify/address_constants.py,sha256=byetUXl0cpLDBOfnNdzHjsfvNkENTdrCtSQzTTsAbqU,15587
+scourgify/cleaning.py,sha256=VZ2iyXb47ZkVrgGy-4mBmMBb-MHVK5ddOxyUZ-gozcU,8690
+scourgify/exceptions.py,sha256=uviKS1-6yngcFNy4BLKaKteBY47FQa2kBYAPycDrplk,1789
+scourgify/normalize.py,sha256=lxi8ucTuqH5zXndUAx7cMglSBnU8hBfA2E1noC3pJ4A,26128
+scourgify/validations.py,sha256=irc1C-QUyQqPxU1mJ7zIDlrpm9e5nkQblm9F7OcXD-c,4110
+scourgify/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scourgify/tests/test_address_normalization.py,sha256=J6y1VcUvWmtGE1jV_6OCsScuIPI_K4Pf1Ky2IQz32gk,24825
+scourgify/tests/test_cleaning.py,sha256=N3uDX5kj9qRz2P_GEHWoP4OS6VS85SLIyA_UBt6Isak,1093
+scourgify/tests/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usaddress_scourgify-0.2.2.dist-info/LICENSE,sha256=a1-OWhbnBstyAWQ_2qyrjOmHuRi3CTjYfxeaGa6RuA0,1099
+usaddress_scourgify-0.2.2.dist-info/METADATA,sha256=fYmo2MVl2DXv7w-JyrvzLc1S4Yc7kHb8_alXRD2PDl4,905
+usaddress_scourgify-0.2.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+usaddress_scourgify-0.2.2.dist-info/top_level.txt,sha256=tG1gC0oV3C8OnJln8JydMTUbSnQNELiTEvb9Ej_re2s,10
+usaddress_scourgify-0.2.2.dist-info/RECORD,,
