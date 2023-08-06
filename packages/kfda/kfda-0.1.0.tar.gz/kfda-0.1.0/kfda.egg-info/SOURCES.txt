@@ -1,0 +1,8 @@
+README.md
+setup.py
+kfda/__init__.py
+kfda/kfda.py
+kfda.egg-info/PKG-INFO
+kfda.egg-info/SOURCES.txt
+kfda.egg-info/dependency_links.txt
+kfda.egg-info/top_level.txt
