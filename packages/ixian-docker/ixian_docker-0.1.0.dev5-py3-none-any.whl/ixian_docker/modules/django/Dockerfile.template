@@ -1,0 +1,27 @@
+# Copyright [2018-2020] Peter Krenesky
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+RUN apt-get install -y \
+        postgresql-client
+
+
+ENV DJANGO_SETTINGS_MODULE {{ CONFIG.DJANGO.SETTINGS_FILE }}
+EXPOSE {{ CONFIG.DJANGO.PORT }}
+RUN ln -s $PROJECT_DIR/manage.py $APP_DIR \\
+ && ln -s $PROJECT_DIR/{{ CONFIG.DJANGO.UWSGI_INI }} $APP_DIR/uwsgi.ini
+
+# Honcho - this is used to start/stop app services (web server, celery, etc)
+RUN ln -s $PROJECT_DIR/Procfile $APP_DIR
+CMD ["honcho", "start"]
