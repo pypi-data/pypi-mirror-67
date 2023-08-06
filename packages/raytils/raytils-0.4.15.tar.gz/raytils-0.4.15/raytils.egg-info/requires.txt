@@ -1,0 +1,8 @@
+Cython
+numpy
+scikit-image
+scipy
+opencv-python
+imagesize
+tqdm
+rays_pycocotools
