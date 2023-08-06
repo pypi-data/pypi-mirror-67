@@ -1,0 +1,4 @@
+[console_scripts]
+themekitcli = themekitcli.__main__:main
+tkcli = themekitcli.__main__:main
+
