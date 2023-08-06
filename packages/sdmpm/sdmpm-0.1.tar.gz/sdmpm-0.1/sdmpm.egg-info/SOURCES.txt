@@ -1,0 +1,7 @@
+README.md
+setup.py
+sdmpm.egg-info/PKG-INFO
+sdmpm.egg-info/SOURCES.txt
+sdmpm.egg-info/dependency_links.txt
+sdmpm.egg-info/top_level.txt
+src/sdmpm.py
