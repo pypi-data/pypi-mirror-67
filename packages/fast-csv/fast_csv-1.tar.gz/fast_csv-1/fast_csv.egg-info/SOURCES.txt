@@ -1,0 +1,10 @@
+README.md
+setup.py
+fast_csv/__init__.py
+fast_csv/fast_csv.py
+fast_csv.egg-info/PKG-INFO
+fast_csv.egg-info/SOURCES.txt
+fast_csv.egg-info/dependency_links.txt
+fast_csv.egg-info/entry_points.txt
+fast_csv.egg-info/requires.txt
+fast_csv.egg-info/top_level.txt
