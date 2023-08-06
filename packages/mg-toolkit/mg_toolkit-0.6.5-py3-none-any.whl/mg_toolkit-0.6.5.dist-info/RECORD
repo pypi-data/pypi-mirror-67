@@ -1,0 +1,11 @@
+mg_toolkit/__init__.py,sha256=PUCZlLjTXdua50Q1jhXzdnODfjaXKbmL8JqxS0nRMEY,7129
+mg_toolkit/bulk_download.py,sha256=KLaYtfnaQxci9umEwccY2IpVunbt8jeSFVoAlQeUqbM,10172
+mg_toolkit/metadata.py,sha256=FaXtUAeJdI4YAQjGGpOhYN0ccFpE-1UzKNxyQaCGDCM,3227
+mg_toolkit/search.py,sha256=AL9X5iyJhp0YRA9n4BatW_OL8mKNcBaM0vWnpp8cIsw,8520
+mg_toolkit/utils.py,sha256=ROQxqOFLBiEE0Qw6yBqTYXkL6pn68F127sU-uIjUFlo,1542
+mg_toolkit-0.6.5.dist-info/LICENSE,sha256=4DukHX-rIHAHaf5BGLq1DYAMt0-ZA1OgXS9f_xwig2M,11558
+mg_toolkit-0.6.5.dist-info/METADATA,sha256=bhWZ4veFn4vFzV2XLH_b2SN1TdFcnFnwKFHxQSMBGYE,5114
+mg_toolkit-0.6.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mg_toolkit-0.6.5.dist-info/entry_points.txt,sha256=fs94p59ax6EysKsZdv_Ip2QYrQrqWeMyyKdMn_i-_Gc,48
+mg_toolkit-0.6.5.dist-info/top_level.txt,sha256=t43Q34xZBPTQg64EoL9QzU1AAZj5HooAamXRpOCghbo,11
+mg_toolkit-0.6.5.dist-info/RECORD,,
