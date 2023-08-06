@@ -1,0 +1,166 @@
+#!python
+
+import argparse
+import subprocess
+import os.path
+
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+rRun = ["R", "--vanilla", "--silent", "-e"]
+rDumpCode = """
+require("remotes")
+packages <- installed.packages(
+  fields = c("GithubUsername", "GithubRepo", "GithubSubdir")
+)
+
+from_cran <- packages[
+  is.na(packages[, "GithubRepo"]),
+  c("Package")
+  ]
+
+from_github <- packages[
+  !is.na(packages[, "GithubRepo"]),
+  c("GithubUsername", "GithubRepo", "GithubSubdir")
+  ]
+
+cran_out <- lapply(from_cran, function(x) paste("cran", x, sep=" "))
+lapply(cran_out, write, file="Rfile", append=TRUE)
+
+repo <- paste0(
+  from_github[1], "/",
+  from_github[2],
+  ifelse(is.na(from_github[3]), "", paste0("/", from_github[3]))
+)
+
+gh_out <- lapply(repo, function(x) paste("github", x, sep=" "))
+
+lapply(gh_out, write, file="Rfile", append=TRUE)
+"""
+
+
+def rfileExists():
+    return os.path.isfile("Rfile")
+
+
+def checkInstalled(packages):
+    need = list()
+    run = list()
+
+    run = rRun
+    for package in packages:
+        pkg = ""
+        if '/' in package:
+            # We only want the repo name, not the entire GH path
+            path = package.split("/")
+            pkg = path[-1]
+        else:
+            pkg = package
+
+        run.append('require("{}")'.format(pkg))
+        out = subprocess.run(run, capture_output=True)
+        # Clean the list more pythonically
+        run.pop()
+        # The negative case works for both CRAN and Github packages.'require' is
+        # strange for finding Github packages and blindly says that things are
+        # attached.
+        if b'there is no package called' in out.stderr:
+            need.append(package)
+        else:
+            continue
+
+    return need
+
+
+def installPackages(mirror):
+    with open("Rfile") as f:
+        lines = f.readlines()
+
+    githubs = list()
+    crans = list()
+    for line in lines:
+        repo, pkg = line.strip("\t\n\r").split()
+        if repo == "cran":
+            crans.append(pkg)
+        if repo == "github":
+            githubs.append(pkg)
+    cneed = checkInstalled(crans)
+    gneed = checkInstalled(githubs)
+    print("Need to install {} packages".format(len(cneed)+len(gneed)))
+    installCrans(mirror, cneed)
+    installGithub(gneed)
+
+
+def installCrans(mirror, crans):
+    run = []
+    count = 1
+    lcran = len(crans)
+    for cran in crans:
+        print("{:>3}/{} [CRAN] Installing {}... ".format(count,
+                                                         lcran, cran), end="")
+        install = "install.packages('{}', repo = '{}')".format(cran, mirror)
+        run = rRun.copy()
+        run.append(install)
+        out = subprocess.run(run, capture_output=True)
+        msg = " {} Done.{}".format(bcolors.OKGREEN, bcolors.ENDC)
+        if b'is not available' in out.stderr:
+            msg = " {}Failed. Not available.{}".format(
+                bcolors.FAIL, bcolors.ENDC)
+        print(msg)
+        count += 1
+        run.clear()
+
+
+def installGithub(githubs):
+    run = []
+    count = 1
+    lgithubs = len(githubs)
+    for gh in githubs:
+        print("{:>3}/{} [Github] Installing {}...".format(count,
+                                                          lgithubs, gh), end="")
+        install = "devtools::install_github('{}')".format(gh)
+        run = rRun.copy()
+        run.append(install)
+        out = subprocess.run(run, capture_output=True)
+        msg = " {}Done.{}".format(bcolors.OKGREEN, bcolors.ENDC)
+        if b'unknown package' in out.stderr:
+            msg = " {}Failed. Unknown package.{}".format(
+                bcolors.FAIL, bcolors.ENDC)
+        print(msg)
+        count += 1
+        run.clear()
+
+
+def runExternalR(rRuntimeList):
+    subprocess.run(rRuntimeList, capture_output=False,
+                   stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+
+
+def makeRfile():
+    print("Generating new Rfile")
+    run = rRun
+    run.append(rDumpCode)
+    runExternalR(run)
+
+
+parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+                                 description="Generate an Rfile for your packages")
+parser.add_argument("-m", "--mirror", default="http://cran.us.r-project.org",
+                    help="Enter a mirror to use for CRAN")
+
+opts = parser.parse_args()
+
+if rfileExists():
+    print("Using {} as CRAN mirror.".format(opts.mirror))
+    installPackages(opts.mirror)
+else:
+    makeRfile()
