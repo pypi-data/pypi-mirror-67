@@ -1,0 +1,6 @@
+[console_scripts]
+nccsv = nccsv.__main__:main
+
+[gui_scripts]
+nccsv = nccsv.__main__:main
+
