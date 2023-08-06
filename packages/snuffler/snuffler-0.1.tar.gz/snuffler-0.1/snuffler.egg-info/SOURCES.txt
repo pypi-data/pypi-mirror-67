@@ -1,0 +1,9 @@
+README.md
+setup.py
+snuffler/Snuffler.py
+snuffler/__init__.py
+snuffler.egg-info/PKG-INFO
+snuffler.egg-info/SOURCES.txt
+snuffler.egg-info/dependency_links.txt
+snuffler.egg-info/not-zip-safe
+snuffler.egg-info/top_level.txt
