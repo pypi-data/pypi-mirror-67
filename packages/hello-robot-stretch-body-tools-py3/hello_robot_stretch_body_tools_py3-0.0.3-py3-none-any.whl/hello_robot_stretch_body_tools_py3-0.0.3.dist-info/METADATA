@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: hello-robot-stretch-body-tools-py3
+Version: 0.0.3
+Summary: Stretch Body Tools
+Home-page: https://github.com/hello-robot/stretch_body
+Author: Aaron Edsinger
+Author-email: aedsinger@hello-robot.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This package provides Python3 tools that work with the Hello Robot Stretch Body package.
+
+
