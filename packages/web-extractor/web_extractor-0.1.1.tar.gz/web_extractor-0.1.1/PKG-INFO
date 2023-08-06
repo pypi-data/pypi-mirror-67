@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: web_extractor
+Version: 0.1.1
+Summary: WEB Content Extractor
+Home-page: https://github.com/justinzm/WE_pypi
+Author: Justin Zm
+Author-email: 3907721@qq.com
+Maintainer: Justin Zm
+Maintainer-email: 3907721@qq.com
+License: MIT
+Description: ## Web-Extractor (python3)
+        
+        Web-Extractor 支持Python 3.6+，旨在更方便更智能提取Html中所需内容。
+        
+        #### 建议安装方法
+            pip install web-extractor
+        
+        #### 升级方法
+            pip install web-extractor --upgrade
+        
+        #### 使用方法
+        
+        ```buildoutcfg
+        from web_extractor import NewsExtractor
+        
+        extractor = NewsExtractor()
+        result = extractor.extract(html)
+        print(result)
+        ```
+        
+        
+Platform: all
+Description-Content-Type: text/markdown
