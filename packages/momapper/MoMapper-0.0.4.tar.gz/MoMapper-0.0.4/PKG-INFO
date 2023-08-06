@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: momapper
+Version: 0.0.4
+Summary: Python Mapper for MongoDB models
+Home-page: https://github.com/devilicecream/MoMapper
+License: MIT
+Author: Walter Danilo Galante
+Author-email: walter.galante@ovalmoney.com
+Requires-Python: >=3.6,<4
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pymongo (>=3.10.1,<4.0.0)
+Project-URL: Repository, https://github.com/devilicecream/MoMapper
+Description-Content-Type: text/x-rst
+
+=======================
+MoMapper (Mongo Mapper)
+=======================
+
+Python Mapper for MongoDB models
+
+
+.. image:: https://img.shields.io/pypi/v/momapper.svg
+    :target: https://pypi.python.org/pypi/momapper
+
+.. image:: https://img.shields.io/travis/OvalMoney/momapper.svg
+    :target: https://travis-ci.org/OvalMoney/momapper
+
+Features
+--------
+
+* Schema validation for documents.
+* Type validation for document fields.
+* 100% compatible with Pymongo API.
+* Implements Mapper_ design pattern, separating schema and type validation from storage logic.
+
+Installation:
+-------------
+
+.. code-block:: console
+
+    $ pip install momapper
+
+Usage:
+------
+
+Check it out in the doc_.
+
+License
+-------
+
+Free software: MIT_ license.
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `wboxx1/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`wboxx1/cookiecutter-pypackage`: https://github.com/wboxx1/cookiecutter-pypackage-poetry
+.. _MIT: ./LICENSE
+.. _Mapper: https://en.wikipedia.org/wiki/Data_mapper_pattern
+.. _doc: ./docs/usage.rst
+
