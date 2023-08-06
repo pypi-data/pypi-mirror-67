@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PyLMD
+Version: 1.0.1
+Summary: Jonathan S. Smith. The local mean decomposition and its application to EEG perception data. Journal of the Royal Society Interface, 2005, 2(5): 443-454
+Home-page: https://github.com/shownlin/PyLMD
+Author: Lin, Qun-Wei
+Author-email: r07922164@csie.ntu.edu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyLMD
+Method of decomposing signal into Product Functions
+
+# Examples
+```python
+>>> import numpy as np
+>>> from PyLMD import LMD
+>>> x = np.linspace(0, 100, 101)
+>>> y = 2 / 3 * np.sin(x * 30) + 2 / 3 * np.sin(x * 17.5) + 4 / 5 * np.cos(x * 2)
+>>> lmd = LMD()
+>>> PFs, resdue = lmd.lmd(y)
+>>> PFs.shape
+(6, 101)
+```
+
