@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: Insp-json
+Version: 1.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+The package 'Insp_json' converts a file(.py) specified in the form of path
+into java-script object notation format.In order to compute the things 
+throguh this package, your software must have the following
+imperative modules:
+1.json module .
+2.pathlib module .
+So, make sure the above written modules must be in the IDE or in the editor.
+In this package, you can generate a json formatteed file by just incepting 
+the operation of the program using the path pointing out the target file.
+Moreover, this package allows you to specify the path of that file which is
+generated after the processing.The path should be written in descriptive 
+manner which means that while entering the path in the terminal, you must
+write the complete path in order to demestify the things for the interpreter().
+For example:
+On windows operating system, the source file 'm' is in a folder say 'x' which is itself present in another folder 'y' and the folder 'y' is present in the local disk drive 'D'
+We can write the path by citing the following format in order to facilitate the steps:
+path = Path("d:\\y\\x\\m.type_of_format")
+where:
+'path' is an object storing the path of a specific file and
+'Path' is a class embedded in the pathlib module which is
+used by an interpreter to get the path of what is going to
+be processed in the future.
+...      
+
