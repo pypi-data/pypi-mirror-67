@@ -1,0 +1,3 @@
+[console_scripts]
+mo_onnx = mo.mo_onnx:main
+
