@@ -1,0 +1,7 @@
+README.md
+setup.py
+wintemp/wintemp.py
+wintemp.egg-info/PKG-INFO
+wintemp.egg-info/SOURCES.txt
+wintemp.egg-info/dependency_links.txt
+wintemp.egg-info/top_level.txt

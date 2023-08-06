@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: wintemp
+Version: 1.0.0
+Summary: Remove Windows Temporary Files
+Home-page: UNKNOWN
+Author: Arjun Basandrai
+Author-email: arjunbasandrai2004@gmail.com
+License: UNKNOWN
+Description: # Temp Remover for Windows
+        
+        The Temp Remover for Windows, as the name suggests, is a basic Windows Temporary File remover that removes all unwanted .tmp files from the C:/Windows/Temp directory.
+        
+        ## Installation
+        
+        You can install Temp Remover for Windows using Pip
+        
+            pip install wintemp==1.0.0
+        
+        ## How to Use
+        
+        Usage of the Temp Remover is very simple and staightforward. You can use the following sample code to clean you Windows Temp directory.
+        
+            from wintemp import wintemp
+        
+            clean = wintemp.temp_cleaner()
+        
+        The default **Temp** folder is set to **C:/Windows/Temp**
+        
+        You can, if you want to, use a custom directory to clean.
+        
+        Look at the sample code below
+        
+            from wintemp import wintemp
+        
+            clean = wintemp.temp_cleaner(folder = 'your custom folder')
+        Just replace **your custom folder** with the path of the directory you want to empty.
+        
+        You can also get an output **.txt** file that has the information of all the files deleted.
+        
+        Look at the sample code below
+        
+            from wintemp import wintemp
+        
+            clean = wintemp.temp_cleaner(out_file = True)
+        
+        The default value for **out_file** parameter is set to **False**. Changing it **True** would create an output file with information of all the Deleted Files and also the Files with Error.
+        
+        ## Contact
+        
+        Email at [arjunbasandrai2004@gmail.com](mailto:arjunbasandrai2004@gmail.com) to report any bugs or for module usage queries.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
