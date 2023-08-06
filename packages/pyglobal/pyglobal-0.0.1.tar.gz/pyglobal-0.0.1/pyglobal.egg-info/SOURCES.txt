@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+cglobal/cglobal.cpp
+pyglobal/__init__.py
+pyglobal/__meta__.py
+pyglobal.egg-info/PKG-INFO
+pyglobal.egg-info/SOURCES.txt
+pyglobal.egg-info/dependency_links.txt
+pyglobal.egg-info/top_level.txt
