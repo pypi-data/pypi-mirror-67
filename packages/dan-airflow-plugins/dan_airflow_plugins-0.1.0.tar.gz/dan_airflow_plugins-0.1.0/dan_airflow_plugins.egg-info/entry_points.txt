@@ -1,0 +1,3 @@
+[airflow.plugins]
+dan_airflow_plugins = dan_airflow_plugins.plugin:DanPlugin
+
