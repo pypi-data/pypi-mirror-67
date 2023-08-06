@@ -1,0 +1,9 @@
+setup.py
+pms_stats/GaussianDistribution.py
+pms_stats/GeneralDistribution.py
+pms_stats/__init__.py
+pms_stats.egg-info/PKG-INFO
+pms_stats.egg-info/SOURCES.txt
+pms_stats.egg-info/dependency_links.txt
+pms_stats.egg-info/not-zip-safe
+pms_stats.egg-info/top_level.txt
