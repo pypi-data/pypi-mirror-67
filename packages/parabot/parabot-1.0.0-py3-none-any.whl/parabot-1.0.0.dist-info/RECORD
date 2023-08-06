@@ -1,0 +1,10 @@
+parabot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parabot/__main__.py,sha256=kwwk_ApbWSIkQYrCYi9vYEbpME4tzGj_78VJCL5fe0g,65
+parabot/parabot.py,sha256=SImzaemK5azDEJdIoZ9sx_rGuE75hkHGrMD_HvZf0DA,3131
+parabot/setup.py,sha256=2v3v93Ehq1f5iK0MhHFKvkCvXD2uoheb_xcfx6E74g0,882
+parabot/utils.py,sha256=l_AVt50pu26WsajSQC02pzTHV9rKe-u7DLBuuEx20UQ,2773
+parabot-1.0.0.dist-info/LICENSE,sha256=NqaY1m8EfzNMpuwy_csi5xVXJDUSlZ78zAS2wLJ3iE8,1067
+parabot-1.0.0.dist-info/METADATA,sha256=rlRmCRpBuxCCLWOKfrU9V1kButTjN6XndxuskRqVx5s,3797
+parabot-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+parabot-1.0.0.dist-info/top_level.txt,sha256=4NkDqBUB1hKWkxjbINU13Mf8nLu7tlWV5zJVVxr1ABc,8
+parabot-1.0.0.dist-info/RECORD,,
