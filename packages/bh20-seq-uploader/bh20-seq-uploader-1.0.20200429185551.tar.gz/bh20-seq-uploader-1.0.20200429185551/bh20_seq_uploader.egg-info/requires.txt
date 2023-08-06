@@ -1,0 +1,8 @@
+arvados-python-client
+schema-salad
+python-magic
+pyshex
+
+[web]
+flask
+pyyaml
