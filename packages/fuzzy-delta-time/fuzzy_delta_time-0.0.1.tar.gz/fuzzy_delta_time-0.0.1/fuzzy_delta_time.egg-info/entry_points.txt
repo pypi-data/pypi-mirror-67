@@ -1,0 +1,3 @@
+[console_scripts]
+fuzzy_delta_time = fuzzy_delta_time.cli:main
+
