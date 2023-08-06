@@ -1,0 +1,10 @@
+panns_inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panns_inference/config.py,sha256=FRCgoEpos-F5YX9-AdnBTfUybhILTASpgQkh9Vb-uig,1000
+panns_inference/inference.py,sha256=_ATG2h7mideK8a0TA8knym5vHUCl-P7nngBormgxOkU,4021
+panns_inference/models.py,sha256=E21BKenKBh6tEdoFHVyaLE3ixFPO23g2amSx8eJU-qE,9995
+panns_inference/pytorch_utils.py,sha256=4jgtbPa5xTVhfilFXPYA7zXGrLNC-ZH-F9V55QYfsEg,1539
+panns_inference-0.0.4.dist-info/LICENSE.MIT,sha256=6_aAqIFvFbNnmB9I1GE2mphIopyc5kTCSbvLqkgxoB8,1099
+panns_inference-0.0.4.dist-info/METADATA,sha256=dXdRL4rZGEnYbCl5XUINv1fOAV-Tk42HRQ3ITVI6A_E,2334
+panns_inference-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+panns_inference-0.0.4.dist-info/top_level.txt,sha256=7hhCGDjTr5mtX4tcYrIx3jv5clUN2aLwLhrr7PH3nK8,16
+panns_inference-0.0.4.dist-info/RECORD,,
