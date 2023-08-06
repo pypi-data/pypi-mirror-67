@@ -1,0 +1,10 @@
+setup.py
+vi_dist/Binomialdistribution.py
+vi_dist/Gaussiandistribution.py
+vi_dist/Generaldistribution.py
+vi_dist/__init__.py
+vi_dist.egg-info/PKG-INFO
+vi_dist.egg-info/SOURCES.txt
+vi_dist.egg-info/dependency_links.txt
+vi_dist.egg-info/not-zip-safe
+vi_dist.egg-info/top_level.txt
