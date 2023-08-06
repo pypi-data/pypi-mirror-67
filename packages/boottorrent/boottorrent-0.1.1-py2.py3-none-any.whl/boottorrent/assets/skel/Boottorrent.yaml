@@ -1,0 +1,23 @@
+boottorrent:
+    version: 0
+    timeout: 30
+    # default_os:
+    seed_time: 30
+    host_ip: 192.168.1.1
+
+dnsmasq:
+    enable_dhcp: True
+    # user: nobody
+    interface: eth0
+    bind_interfaces: True
+    dhcp_range: "192.168.1.50,192.168.1.150,12h"
+    enable_tftp: True
+
+opentracker:
+    enable: True
+    port: 10001
+
+aria2:
+    bt_enable_lpd: False
+    enable_peer_exchange: True
+    console_log_level: error
