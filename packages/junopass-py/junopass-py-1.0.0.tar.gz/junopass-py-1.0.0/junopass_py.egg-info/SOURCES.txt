@@ -1,0 +1,6 @@
+README.md
+setup.py
+junopass_py.egg-info/PKG-INFO
+junopass_py.egg-info/SOURCES.txt
+junopass_py.egg-info/dependency_links.txt
+junopass_py.egg-info/top_level.txt
