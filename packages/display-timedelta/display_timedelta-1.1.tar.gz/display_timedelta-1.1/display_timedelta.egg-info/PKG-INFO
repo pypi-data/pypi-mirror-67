@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: display-timedelta
+Version: 1.1
+Summary: Displays a timedelta object for human consumption.
+Home-page: https://github.com/kavigupta/display-timedelta
+Author: Kavi Gupta
+Author-email: display_timedelta@kavigupta.org
+License: UNKNOWN
+Description: 
+        # display-timedelta
+        
+        Simple package for displaying timedeltas for human consumption
+        
+        Basic usage example
+        
+        ```python
+        >>> from datetime import timedelta
+        >>> from display_timedelta import display_timedelta
+        >>> display_timedelta(timedelta(hours=25, seconds=3))
+        '1 day, 1 hour, and 3 seconds'
+        >>> display_timedelta(timedelta(0))
+        'right now'
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
