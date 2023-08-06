@@ -1,0 +1,14 @@
+deethon/__init__.py,sha256=SveDkY2qIbniF3aaQY0sgU9-lCxcG_JGOlHz38dHxtk,61
+deethon/constants.py,sha256=kzCgbwyikLJ0Uosxqs8x_4U3tewVrHlKyiyjuUUdTV8,173
+deethon/deezer.py,sha256=xVe5f_JJo2yPWgCeODUNAB9e_6kMUpkjWRU1tCWPgjU,2385
+deethon/tag.py,sha256=EE8gkMpwJdj25lg-rC-wxpKI_Rsf81jov3yZoqiSLxI,2393
+deethon/track.py,sha256=_ou7uQJ2bPf2u8i5m3J--kISs5cBHzBgA3NT60d0jkw,2058
+deethon/utils.py,sha256=o_OPdI6KVvZxb9jTaFtJ3vUbZAgH3KloxudaUWmpwKw,1294
+deethon/types/__init__.py,sha256=txi39-I4MrPCTbPGCN0Pn1zRPe95MkNjMmuuIgxe8PQ,52
+deethon/types/album.py,sha256=PQKmA2h71S4MbCdvyglKtur4GOFNOzRUuij66ovN6Ys,920
+deethon/types/track.py,sha256=7d4jj-VnpOeEbRdz_dUUVx7yt8XA63ynRYJIsgVfIAU,1215
+deethon-0.0.4.dist-info/LICENSE,sha256=Hj8j4uqKVMkg9dYpJ_zmYgBzeKoXZ3GyAUIgyXvYJYM,1088
+deethon-0.0.4.dist-info/METADATA,sha256=8cmJDcZ2yDX9Smv9zgbibey9tfiD6frudLuTYox955g,634
+deethon-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+deethon-0.0.4.dist-info/top_level.txt,sha256=8NhXDm0VdC6wnSrbS0uBiZnM_RArguFvI628EEZ9VSM,8
+deethon-0.0.4.dist-info/RECORD,,
