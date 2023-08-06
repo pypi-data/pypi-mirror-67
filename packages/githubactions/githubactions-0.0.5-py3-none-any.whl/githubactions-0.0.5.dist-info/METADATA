@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: githubactions
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/deric4/githubactions
+Author: deric4
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: pydantic
+
+UNKNOWN
+
+
