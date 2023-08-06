@@ -1,0 +1,8 @@
+torchxrayvision/__init__.py,sha256=WVOZ9_a2Wu6dVvz_DnFi_FtfFwfk5dACWh7uwjzkmfQ,43
+torchxrayvision/datasets.py,sha256=I3_dRnhuOESLL2mt25zlO8UfOZQLeFy5qlH3RBjyZ48,38620
+torchxrayvision/models.py,sha256=8iuOxlGNetp9pACmR0N151TlusODKbRY19ZpHYXxFu4,11383
+torchxrayvision-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+torchxrayvision-0.0.7.dist-info/METADATA,sha256=MS6SS5Pcb6TGhvhnKmaBSqDCyZX9w0lA2Z2AyhnautI,3772
+torchxrayvision-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torchxrayvision-0.0.7.dist-info/top_level.txt,sha256=ZDslmbmaMyP53yEXILfTefGlWiTwJ8aqMd8yKwSAo6s,16
+torchxrayvision-0.0.7.dist-info/RECORD,,
