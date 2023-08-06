@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rockart-examples
+Version: 0.2.1
+Summary: Collection of Rockart usage examples
+Home-page: https://github.com/van-kalsing/rockart-examples
+Author: van-kalsing
+Author-email: kalsin@inbox.ru
+License: MIT
+Project-URL: Bug Tracker, https://github.com/van-kalsing/rockart-examples/issues
+Project-URL: Source Code, https://github.com/van-kalsing/rockart-examples
+Keywords: pseudographics semigraphics braille terminal console
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Requires-Dist: rockart (==0.2.*)
+
+# ROCKART EXAMPLES
+
+[Rockart Examples](https://github.com/van-kalsing/rockart-examples) - collection of
+[Rockart](https://github.com/van-kalsing/rockart) usage examples.
+
+
