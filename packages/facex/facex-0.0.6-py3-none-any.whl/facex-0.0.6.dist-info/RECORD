@@ -1,0 +1,8 @@
+facex/__init__.py,sha256=S0xNbMKtmp8LLqVklUhHdPtpzdDJ-8cOH5c20tyy7Hw,22
+facex/facex.py,sha256=Ol6NMQtRw4jjmtw4C1F0oA-wNlgpYcWkP7TcjX6Fulo,1167
+facex/model_optimized.tflite,sha256=GB6dxrWxm3pKPuZh2N6ZaSSbcsMXsggNeawS0rcCfaU,2615520
+facex-0.0.6.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+facex-0.0.6.dist-info/METADATA,sha256=N53gNNziti2Qb1tz1zB0WqGBP5hD6fBdAVuck095MVQ,494
+facex-0.0.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+facex-0.0.6.dist-info/top_level.txt,sha256=lZHXpKo2RmEU_PxLFXaNl9y_bWPbMkkhJ5U-6JsucjA,6
+facex-0.0.6.dist-info/RECORD,,
