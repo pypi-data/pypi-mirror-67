@@ -1,0 +1,5 @@
+[console_scripts]
+pppf_download_databases = pppf_databases:download_all_databases
+pppf_list_genomes = pppf_db:list_all_genomes
+pppf_print_proteins = pppf_db:print_all_proteins
+
