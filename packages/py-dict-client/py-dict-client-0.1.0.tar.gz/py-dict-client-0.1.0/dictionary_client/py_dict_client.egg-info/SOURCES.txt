@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+dictionary_client/py_dict_client.egg-info/PKG-INFO
+dictionary_client/py_dict_client.egg-info/SOURCES.txt
+dictionary_client/py_dict_client.egg-info/dependency_links.txt
+dictionary_client/py_dict_client.egg-info/top_level.txt
