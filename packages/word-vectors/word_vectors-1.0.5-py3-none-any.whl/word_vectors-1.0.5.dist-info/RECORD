@@ -1,0 +1,10 @@
+word_vectors/__init__.py,sha256=Ol62RI9OraC340W7VN6BRTp9HmlCrQEX3JRu93f0bf4,351
+word_vectors/read.py,sha256=PA38MTANLhUp2WCPGA4m2whb-qP2Axq5Q8Td2T3cBDs,4641
+word_vectors/utils.py,sha256=W8gRgdwCy9EvnDRkC0ArpNoFwLLyXjx3CQZNVxMTHoE,386
+word_vectors/write.py,sha256=Hqe1MSMqFmHLfpaoK0RsXkBG8NqmG_g_UO8j-zxeUeo,2461
+word_vectors-1.0.5.dist-info/LICENSE.txt,sha256=78sagJZRz0IKgrf-PiO91azym0Yhv9oAw6RQhPh5CEA,1052
+word_vectors-1.0.5.dist-info/METADATA,sha256=lTqp1a71X8aX3nHpJ8oWssr6_KKk3Qnerf5ygAJxlXw,2331
+word_vectors-1.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+word_vectors-1.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+word_vectors-1.0.5.dist-info/top_level.txt,sha256=Ca8vC6odQ4ryty2lGd1rivBbhvGIbRCFUXXhynjG5rM,13
+word_vectors-1.0.5.dist-info/RECORD,,
