@@ -1,0 +1,11 @@
+vquery/__init__.py,sha256=MyAGfKEnZ7S7WBwzRgLLON1s5ajzJBVRJ7ENAA7p_ss,112
+vquery/pchelper.py,sha256=gIHVLoDpGSdrcVnTwVcjlfo7yQW1yFtNhsD_SLXlc70,3067
+vquery/vqconfig.py,sha256=OTR1CiceA9oA4Ce_2pt3ngtDxulP2FdJxjQAwFAtVZg,2761
+vquery/vqconnect.py,sha256=zvnAl3_FjuCLsyV4CIidX2nqfmFC75MX3oJeTzJbypQ,2042
+vquery/vqcore.py,sha256=mqsPi4kLe8N-998CRJlwm6kkbRwn7GT1hXH6lf5z8co,5810
+vquery-0.33.data/scripts/vq,sha256=q2htYwstHM0rNtfhXanGj_YqxDfME1b00h5tK8kT4RY,13332
+vquery-0.33.dist-info/LICENSE.txt,sha256=q4zXJt7ViU_JBveMAb8_uyMn6bM4teDtnyrp24KLDuA,1067
+vquery-0.33.dist-info/METADATA,sha256=yDmqobyoUWlCAencImJfT2GVw0iBzJSKnresKAy2sOA,378
+vquery-0.33.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vquery-0.33.dist-info/top_level.txt,sha256=S834Rtvxksfs_PLrCiyBCHkCcY7zeIcxUfQR63hjpcY,7
+vquery-0.33.dist-info/RECORD,,

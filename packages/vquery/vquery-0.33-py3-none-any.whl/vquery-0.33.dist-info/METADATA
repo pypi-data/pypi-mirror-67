@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vquery
+Version: 0.33
+Summary: A tool for querying vCenter for various information.
+Home-page: https://github.com/rymdlego/vquery
+Author: Jakob Svanholm
+Author-email: rymdlego@gmail.com
+License: UNKNOWN
+Keywords: vSphere VMware vCenter
+Platform: UNKNOWN
+Requires-Dist: docopt
+Requires-Dist: future
+Requires-Dist: pyVmomi
+Requires-Dist: six
+
+UNKNOWN
+
+
