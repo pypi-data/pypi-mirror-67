@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: covidsafescan
+Version: 1.6
+Summary: Covid Safe Scanner
+Home-page: https://github.com/xssfox/covidsafescan
+Author: xssfox
+Author-email: pypi@sprocketfox.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bleak
+Requires-Dist: twisted
+
+UNKNOWN
+
+
