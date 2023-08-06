@@ -1,0 +1,4 @@
+pandas>=1.0.3
+selenium>=3.141.0
+scrapy>=2.1.0
+webdriver-manager>=2.4.0
