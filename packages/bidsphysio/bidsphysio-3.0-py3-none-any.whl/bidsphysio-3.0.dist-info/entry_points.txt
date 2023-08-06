@@ -1,0 +1,6 @@
+[console_scripts]
+acq2bidsphysio = bidsphysio.acq2bidsphysio:main
+dcm2bidsphysio = bidsphysio.dcm2bidsphysio:main
+physio2bidsphysio = bidsphysio.physio2bidsphysio:main
+pmu2bidsphysio = bidsphysio.pmu2bidsphysio:main
+
