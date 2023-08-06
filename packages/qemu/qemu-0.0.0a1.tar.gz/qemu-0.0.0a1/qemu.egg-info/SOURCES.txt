@@ -1,0 +1,7 @@
+README.rst
+setup.py
+qemu/__init__.py
+qemu.egg-info/PKG-INFO
+qemu.egg-info/SOURCES.txt
+qemu.egg-info/dependency_links.txt
+qemu.egg-info/top_level.txt
