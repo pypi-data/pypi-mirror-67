@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+lmbr_reader.egg-info/PKG-INFO
+lmbr_reader.egg-info/SOURCES.txt
+lmbr_reader.egg-info/dependency_links.txt
+lmbr_reader.egg-info/entry_points.txt
+lmbr_reader.egg-info/requires.txt
+lmbr_reader.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
