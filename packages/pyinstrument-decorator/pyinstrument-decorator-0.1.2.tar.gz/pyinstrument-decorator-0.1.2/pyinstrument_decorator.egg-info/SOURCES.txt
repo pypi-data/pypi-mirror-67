@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyinstrument_decorator/__init__.py
+pyinstrument_decorator/profile.py
+pyinstrument_decorator.egg-info/PKG-INFO
+pyinstrument_decorator.egg-info/SOURCES.txt
+pyinstrument_decorator.egg-info/dependency_links.txt
+pyinstrument_decorator.egg-info/requires.txt
+pyinstrument_decorator.egg-info/top_level.txt
