@@ -1,0 +1,11 @@
+tts_wrapper/__init__.py,sha256=FPt2H1Boppbc0-zurMbuBJCfpIU4UdrapVYkerZpa_w,139
+tts_wrapper/google.py,sha256=3r004_-cwBTC5tsOrVWsnIOOKo18bBVbDbcQ_990OEI,1517
+tts_wrapper/microsoft.py,sha256=ggqzClTvtdt6G3jFKqraSyWkwciFp4I_v0oQbeSRr4U,1773
+tts_wrapper/polly.py,sha256=L-R6sefluecZTEPBdaps6-7MTuMb4zdvBvZqbFp8gsE,1505
+tts_wrapper/tts.py,sha256=AvsQ-6iXgk2i_Ndi0UKnvhVcnwVaTOaoVWMmQ6TpNYc,1048
+tts_wrapper/watson.py,sha256=ledVexlmfu2gI8dJCmgrUROvSwhr744A--canLcD8Vo,943
+TTS_Wrapper-0.4.1.dist-info/LICENSE,sha256=3QjQYM2B9EPX13FC8jqoowTyWhF13B7HwglnNYhiqzI,1079
+TTS_Wrapper-0.4.1.dist-info/METADATA,sha256=8WPvJEI9nNDi0cttNblBnrTvFEh3a6sIkTgm-8ZBrHM,3831
+TTS_Wrapper-0.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+TTS_Wrapper-0.4.1.dist-info/top_level.txt,sha256=F7LmHanUGg7mL-A1IacX75DFsVtZHoua312ybrMIrhw,12
+TTS_Wrapper-0.4.1.dist-info/RECORD,,
