@@ -1,0 +1,7 @@
+SQLAlchemy
+Werkzeug
+Flask-SQLAlchemy
+
+[test]
+nose2
+Flask
