@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: prob-distribution
+Version: 0.2
+Summary: Probability distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: # prob_distribution package
+        
+        This package has Gaussian and Binomial classes.
+        
+        # Files
+        
+        1. Generaldistribution.py - This contains the parent class that is used to read data from any file and assign values to mean and standard deviation
+        
+        2. Gaussiandistribution.py - This contains the Gaussian class with attributes mean and standard deviation. It provides the functionality to calculate the mean and standard deviation from the data, to visulaize the distribution and two add Gaussian distributions.
+        
+        3. Binomialdistribution.py - This contains the Binomial class with attributes size, probability, mean and standard deviation. It provides the functionality to calculate the mean and standard deviation from the data, to visulaize the distribution and two add Binomial distributions.
+        
+        # Installation
+        
+        The code should run with no issues using Python versions 3.*.
+        No extra besides the built-in libraries from Anaconda needed to run this project Math matplotlib
+        
+Platform: UNKNOWN
