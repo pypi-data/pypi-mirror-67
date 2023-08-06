@@ -1,0 +1,8 @@
+hdproc/HDP.py,sha256=LmWmaVuei0v9zoNTEC2moo2JSnyQjyf1Y58-2dCkX8g,12107
+hdproc/__init__.py,sha256=M1tl59GXIrocGZzOKEKIF-V0oncsq85AfwWfst0EYAM,73
+hdproc/text_prep.py,sha256=JYrE5apHGLhonyA3MtYrTAhD7phWss9on3ctzRKbluc,2151
+hdproc-0.31.dist-info/LICENSE,sha256=iBaKyks9hKE_6LEGTA3mUOvw9d1sxq0r5h7vx1PGiyk,1095
+hdproc-0.31.dist-info/METADATA,sha256=rlzAx33IECom7B5oFoUcNj_BLWCYra2v68XejsJRBrY,270
+hdproc-0.31.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hdproc-0.31.dist-info/top_level.txt,sha256=jg9rLiqtKKnimboBsBqTWp3b1nsbf9uTPmnEqDoLMUw,7
+hdproc-0.31.dist-info/RECORD,,
