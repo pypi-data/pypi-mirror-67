@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: certgrinderd
+Version: 0.13.0a0
+Summary: The server part of the Certgrinder project. Use with the 'certgrinder' client package.
+Home-page: https://github.com/tykling/certgrinder
+Author: Thomas Steen Rasmussen
+Author-email: thomas@gibfest.dk
+License: BSD License
+Description: # certgrinder-server
+        
+        [![Checked with mypy](badges/mypy_badge.svg)](http://mypy-lang.org/)
+        [![Checked with flake8](badges/flake8-OK-green.svg)](http://flake8.pycqa.org/en/latest/)
+        [![Codestyle black](badges/black.svg)](https://github.com/psf/black/)
+        
+        More info at ReadTheDocs: https://certgrinder.readthedocs.io/en/latest/introduction.html or https://certgrinder.readthedocs.io/en/latest/certgrinderd.html
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
