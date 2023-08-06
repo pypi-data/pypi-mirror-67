@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kov-utils
+Version: 0.0.1
+Summary: A small utils package
+Home-page: https://github.com/Zselter07/Utilities
+Author: Pentek Zsolt
+Author-email: zsoltpentek@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fake-useragent
+
+# Utils package
+
+Utilities to save time and code
+
+kjson.py - json save and load simplified 
+paths.py - easier work with paths, file extensions 
+rand.py - random string and sleep time 
+request.py - request with retry mechanism 
+sh.py - subprocess commands 
+strings.py - string utilities
+
