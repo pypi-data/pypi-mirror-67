@@ -1,0 +1,17 @@
+django_grpc_framework/__init__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+django_grpc_framework/apps.py,sha256=yXot_P0pj03M7JAcfL0R6RPKRzQYEcGgFu2ldtCiD3s,158
+django_grpc_framework/generics.py,sha256=hgGClabyExw3s1xpIV_2tGUaDz4iVUM33oObZYRO4ls,5550
+django_grpc_framework/mixins.py,sha256=78ad2wQ_-FxVxL8TKQeZ9-Gs00NLeVWslZSDfMT8n-k,2364
+django_grpc_framework/services.py,sha256=OFdqOd0XiJmArK_m7bP9e3koILpws1lhiS-ooD7u264,2202
+django_grpc_framework/settings.py,sha256=0jn69fexmRjGYP-IWmeaQSJscv6bzx_inS-sJqMMuBI,3829
+django_grpc_framework/test.py,sha256=ySjO1wb1IT0B02mGWUaTV4irfLiJ54G5oVbPqxKgNcM,2095
+django_grpc_framework/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_grpc_framework/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_grpc_framework/management/commands/grpcrunserver.py,sha256=JqmjZ9hP3EfHc_vgaQOmNM1_c9XaFBGiyaIS1KmQgFc,4014
+django_grpc_framework/protobuf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_grpc_framework/protobuf/json_format.py,sha256=y3fDc4UCLvV65lTfbuGPSmr7P1OhGTumI3O5gqBl7L8,420
+djangogrpcframework-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+djangogrpcframework-0.1.dist-info/METADATA,sha256=r0-HX9b1m0TXeD9wf4oTR2VMy_4aTGZbLz0XQNadGcQ,3815
+djangogrpcframework-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+djangogrpcframework-0.1.dist-info/top_level.txt,sha256=MMHcTcfxqIhndE6n3J3h2mgkvMm3BhdkNwo_1FoT9MQ,22
+djangogrpcframework-0.1.dist-info/RECORD,,
