@@ -1,0 +1,8 @@
+README.md
+setup.py
+django-multiplechoicefield/__init__.py
+django-multiplechoicefield/fields.py
+django_multiplechoicefield.egg-info/PKG-INFO
+django_multiplechoicefield.egg-info/SOURCES.txt
+django_multiplechoicefield.egg-info/dependency_links.txt
+django_multiplechoicefield.egg-info/top_level.txt
