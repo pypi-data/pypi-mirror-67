@@ -1,0 +1,8 @@
+README.md
+setup.py
+DBoW3Py.egg-info/PKG-INFO
+DBoW3Py.egg-info/SOURCES.txt
+DBoW3Py.egg-info/dependency_links.txt
+DBoW3Py.egg-info/not-zip-safe
+DBoW3Py.egg-info/requires.txt
+DBoW3Py.egg-info/top_level.txt
