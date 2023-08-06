@@ -1,0 +1,3 @@
+pipenv
+requests
+bs4

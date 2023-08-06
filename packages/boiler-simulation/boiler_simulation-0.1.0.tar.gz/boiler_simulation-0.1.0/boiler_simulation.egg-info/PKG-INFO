@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: boiler-simulation
+Version: 0.1.0
+Summary: boiler simulation software
+Home-page: UNKNOWN
+Author: Boostheat
+Author-email: boostheat@boostheat.com
+License: WTFPL
+Description: boiler_simulation : boiler software
+        ========================================================
+        
+        Ce module permet d'effectuer la simulation numÃ©rique de notre chaudiÃ¨re.
+        
+        Vous pouvez l'installer avec pip:
+        
+            pip install boiler_simulation
+        
+        Exemple d'usage:
+        
+            >>> from boiler_simulation import Simulation
+            >>> sim=Simulation()
+            
+        
+            >>> help(Simulation)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Communications
