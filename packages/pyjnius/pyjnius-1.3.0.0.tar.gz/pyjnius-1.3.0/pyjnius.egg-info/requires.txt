@@ -1,0 +1,13 @@
+six>=1.7.0
+cython
+
+[ci]
+coveralls
+pytest-rerunfailures
+setuptools>=34.4.0
+
+[dev]
+pytest
+wheel
+pytest-cov
+pycodestyle
