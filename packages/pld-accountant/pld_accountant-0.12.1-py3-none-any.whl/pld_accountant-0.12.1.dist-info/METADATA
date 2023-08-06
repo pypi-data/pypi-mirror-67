@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pld-accountant
+Version: 0.12.1
+Summary: Fourier Accountant for Differential Privacy 
+Home-page: https://github.com/DPBayes/PLD-Accountant
+Author: Antti Koskela
+Author-email: anttik123@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Fourier Accountant
+
+MIGRATED TO `fourier-accountant` - any new releases will go there
+
+Python code for computing tight DP-guarantees for the subsampled Gaussian mechanism.
+
+The method is described in:
+
+Antti Koskela, Joonas Jälkö, Antti Honkela:
+Computing Tight Differential Privacy Guarantees Using FFT
+
+https://arxiv.org/abs/1906.03049
+
+
+
