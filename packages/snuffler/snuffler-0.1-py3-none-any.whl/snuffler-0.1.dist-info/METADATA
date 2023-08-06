@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: snuffler
+Version: 0.1
+Summary: Sniffing Tools
+Home-page: https://github.com/m1ghtfr3e/snuffler
+Author: m1ghtfr3e
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+---
+
+### Sniffing Tools
+
+---
+
+
+Works fine in Linux, could be complicated on Windows though.
+
+For more information visit:
+[Repository on Github](https://github.com/m1ghtfr3e/snuffler)
+
+
