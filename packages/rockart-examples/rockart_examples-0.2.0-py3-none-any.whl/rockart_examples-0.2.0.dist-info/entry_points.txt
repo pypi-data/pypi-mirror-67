@@ -1,0 +1,3 @@
+[console_scripts]
+rockart-life = rockart_examples.life.entry:entry
+
