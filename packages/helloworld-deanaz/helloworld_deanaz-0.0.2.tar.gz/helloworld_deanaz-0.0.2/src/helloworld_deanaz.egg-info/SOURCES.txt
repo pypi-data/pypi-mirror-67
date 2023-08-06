@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+dist/helloworld_deanaz-0.0.2-py3-none-any.whl
+dist/helloworld_deanaz-0.0.2.tar.gz
+src/helloworld_deanaz.py
+src/test_helloworld_deanaz.py
+src/__pycache__/helloworld_deanaz.cpython-38.pyc
+src/helloworld_deanaz.egg-info/PKG-INFO
+src/helloworld_deanaz.egg-info/SOURCES.txt
+src/helloworld_deanaz.egg-info/dependency_links.txt
+src/helloworld_deanaz.egg-info/top_level.txt
