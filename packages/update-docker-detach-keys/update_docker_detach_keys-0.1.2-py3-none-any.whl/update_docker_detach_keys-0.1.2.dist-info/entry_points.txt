@@ -1,0 +1,3 @@
+[console_scripts]
+update-docker-detach-keys=update_docker_detach_keys.cli:cli
+
