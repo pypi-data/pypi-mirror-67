@@ -1,0 +1,154 @@
+neathgeohash
+============
+
+[![Coverage Status](https://coveralls.io/repos/github/mpdwulit/neathgeohash/badge.svg?branch=master)](https://coveralls.io/github/mpdwulit/neathgeohash?branch=master)  ![travis status](https://travis-ci.org/mpdwulit/neathgeohash.svg?branch=master) 
+
+Neathgeohash is a Python module that provides functions for finding an approximation of a Line 
+and an ellipsoid (a surface) with a set of geohashes. Behind the neathgeohash library, there is the power of NumPy. 
+The geohasing implementation is approximately thirty times faster than the pygeohash implementation for large data sets.
+
+The code includes Leonard Norrgård’s [Geohash](https://github.com/vinsci/geohash) code, 
+with necessary extensions to plot vectors using geohashes as pixels.
+
+The example shows ellipsoid with the ellipse center at 51.00 lattitude and 0 longitude and 305m major and 385m minor
+
+Example 1::
+
+```
+import neathgeohash
+ellipse = ngh.Ellipse(51, 0, 305, 385, 0)
+ellipse_as_ghl = ellipse.estimate_probability_coverage_with_fixed_geohash_depth()
+print(ellipse_as_ghl)
+
+{'gcpfpur': 0.0701562499999992, 'gcpfpuq': 0.05140624999999959, 'gcpfpuw': 0.020625000000000015, 
+'gcpfpux': 0.02828125000000002, 'u1040h8': 0.02781250000000002, 'u1040h2': 0.06640624999999928, 
+'u1040h0': 0.06609374999999929, 'gcpfpun': 0.048437499999999654, 'gcpfpum': 0.03515624999999994, 
+'gcpfput': 0.013906250000000009, 'gcpfpup': 0.060624999999999395, 'gcpfpuj': 0.02734375000000002, 
+'gcpfpuv': 0.0031250000000000006, 'gcpfpuy': 0.004843750000000002, 'gcpfpuz': 0.005468750000000002, 
+'u1040hb': 0.0029687500000000005, 'u1040hc': 0.00234375, 'u1040h9': 0.021562500000000016, 
+'u1040h3': 0.05515624999999951, 'u1040h1': 0.048437499999999654, 'u10405c': 0.018750000000000013, 
+'gcpfpgz': 0.022812500000000017, 'gcpfpgv': 0.011093750000000006, 'gcpfpuk': 0.01687500000000001, 
+'gcpfpus': 0.008437500000000004, 'gcpfpuh': 0.01484375000000001, 'gcpfpuu': 0.0009375000000000001, 
+'u10405b': 0.024062500000000018, 'gcpfpgy': 0.01703125000000001, 'gcpfpgu': 0.0057812500000000025, 
+'gcpfpvn': 0.00015625, 'gcpfpvp': 0.00015625, 'u1040j0': 0.000625, 'u1040j1': 0, 'u1040hf': 0.0009375000000000001, 
+'u1040hd': 0.01625000000000001, 'u1040h6': 0.03281249999999999, 'u1040h4': 0.028593750000000022, 
+'u10405f': 0.010312500000000006, 'u10405d': 0.00109375, 'u104058': 0.0028125000000000003, 
+'gcpfpgw': 0.0017187499999999998, 'gcpfpgs': 0.000625, 'gcpfpu7': 0.005937500000000003, 
+'gcpfpue': 0.0018749999999999997, 'gcpfpu5': 0.005937500000000003, 'gcpfpug': 0.00046875, 
+'gcpfpgg': 0.0020312499999999996, 'u104059': 0.005312500000000002, 'gcpfpgx': 0.003906250000000001, 
+'gcpfpgt': 0.0021874999999999998, 'gcpfpge': 0.00015625, 'u1040hg': 0.000625, 'u1040he': 0.006718750000000003, 
+'u1040h7': 0.01609375000000001, 'u1040h5': 0.01593750000000001, 'u10405g': 0.004218750000000001, 
+'u10405e': 0.00078125, 'u1040hu': 0.00046875, 'u1040hs': 0.00140625, 'u1040hk': 0.005000000000000002, 
+'u1040hh': 0.007031250000000004, 'u10405u': 0.0015624999999999999, 'u10405s': 0.00046875}
+
+```
+
+
+Example 2::
+
+![Example](https://github.com/mpdwulit/neathgeohash/blob/master/samples/ellipse_coverage.png)
+
+To see image follow the url: https://github.com/mpdwulit/neathgeohash/blob/master/samples/ellipse_coverage.geojson
+
+Performance ~(30x faster)
+================
+
+In version 0.5.0, the geohash encoding was added. The original code was copied from https://github.com/vinsci/geohash 
+and extended by fast_encode function. Fast_encode for performance uses NumPy. Here is a comparison between initial 
+implementation and NumPy implementation. Implementation based on blog: https://mmcloughlin.com/posts/geohash-assembly
+
+Performance testing code
+
+![Performance](https://github.com/mpdwulit/neathgeohash/blob/dev/samples/performance.png)
+
+```text
+=========ngh.encode()================
+
+         63000002 function calls in 26.743 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.308    0.308   26.743   26.743 performance_cmp.py:22(<listcomp>)
+  1000000   22.988    0.000   26.436    0.000 geohash.py:86(encode)
+ 61000000    3.255    0.000    3.255    0.000 {built-in method builtins.len}
+  1000000    0.193    0.000    0.193    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        
+        
+=========ngh.fast_encode()===========
+
+        160 function calls (159 primitive calls) in 0.899 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.114    0.114    0.899    0.899 geohash.py:167(fast_encode)
+    36/35    0.366    0.010    0.366    0.010 {built-in method numpy.core._multiarray_umath.implement_array_function}
+       32    0.000    0.000    0.336    0.010 <__array_function__ internals>:2(where)
+       26    0.273    0.010    0.273    0.010 {built-in method numpy.array}
+        1    0.086    0.086    0.111    0.111 geohash.py:123(__encode_into_uint64)
+        1    0.051    0.051    0.066    0.066 geohash.py:149(__encode_base32)
+        1    0.000    0.000    0.017    0.017 <__array_function__ internals>:2(dot)
+        1    0.000    0.000    0.014    0.014 <__array_function__ internals>:2(column_stack)
+        1    0.000    0.000    0.014    0.014 shape_base.py:612(column_stack)
+        1    0.000    0.000    0.014    0.014 <__array_function__ internals>:2(concatenate)
+        1    0.008    0.008    0.008    0.008 {method 'dot' of 'numpy.ndarray' objects}
+       32    0.000    0.000    0.000    0.000 multiarray.py:312(where)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(squeeze)
+        3    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 shape_base.py:608(_column_stack_dispatcher)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:1426(squeeze)
+        1    0.000    0.000    0.000    0.000 shape_base.py:209(_arrays_for_stack_dispatcher)
+       12    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {method 'squeeze' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 multiarray.py:707(dot)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:1422(_squeeze_dispatcher)
+        1    0.000    0.000    0.000    0.000 multiarray.py:145(concatenate)
+
+```
+
+
+
+TODO
+====
+
+1. Add more efficient implementation for finding geohash coverage
+2. Add Box-Muller Sampling from multivariate normal distribution
+3. Improve Monte Carlo integration
+
+License
+=======
+
+Copyright (c) 2020 Marek Dwulit
+
+MIT License
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Keywords
+========
+
+Geohash, GIS, latitude, longitude, encode, decode, Galileo, GPS, WGS84, coordinates, geotagging.
+
