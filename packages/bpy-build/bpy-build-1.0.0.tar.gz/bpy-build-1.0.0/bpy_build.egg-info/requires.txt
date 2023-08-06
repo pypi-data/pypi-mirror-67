@@ -1,0 +1,4 @@
+cmake
+cmake-generators>=1.0.5
+GitPython
+svn
