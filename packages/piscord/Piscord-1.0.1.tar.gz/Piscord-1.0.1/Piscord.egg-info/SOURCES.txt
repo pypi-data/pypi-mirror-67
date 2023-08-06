@@ -1,0 +1,7 @@
+README.md
+setup.py
+Piscord/__init__.py
+Piscord.egg-info/PKG-INFO
+Piscord.egg-info/SOURCES.txt
+Piscord.egg-info/dependency_links.txt
+Piscord.egg-info/top_level.txt
