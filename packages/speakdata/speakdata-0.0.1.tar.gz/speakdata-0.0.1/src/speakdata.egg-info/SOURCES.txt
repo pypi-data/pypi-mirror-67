@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/speakdata/__about__.py
+src/speakdata/__init__.py
+src/speakdata/__main__.py
+src/speakdata/speakdata.py
+src/speakdata.egg-info/PKG-INFO
+src/speakdata.egg-info/SOURCES.txt
+src/speakdata.egg-info/dependency_links.txt
+src/speakdata.egg-info/entry_points.txt
+src/speakdata.egg-info/top_level.txt
