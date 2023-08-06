@@ -1,0 +1,3 @@
+[console_scripts]
+sarscov2_meta_extract = sarscov2metaextract.cli:main
+
