@@ -1,0 +1,16 @@
+lsqfitgp/_Deriv.py,sha256=Wv7H6QLUe_4mxFaR514-b-pilRR_2L88RLb8K_-U9Rc,3440
+lsqfitgp/_GP.py,sha256=_A8Igv9ikuH3OEP_Vg_GgD9zfNiLxNIXZxBBMp69BnU,36295
+lsqfitgp/_Kernel.py,sha256=mvtPXKmE2vhvpCH31DzUSVlyslFdCjJEobgPJKJA8l8,20540
+lsqfitgp/__init__.py,sha256=53b95MXUVyw6fhIHHRnp8T3aX4qgCbjddxO_Kk7q38M,3600
+lsqfitgp/_array.py,sha256=VTDRyu7NUGGuPx2xxz-KV6rszFU3NkjYDV65-Yoh__4,6269
+lsqfitgp/_fit.py,sha256=gbKtBS8y5V_wRAHQKchEbpl6scF_7zgXRTjPHS3D9IA,4950
+lsqfitgp/_gvar_autograd.py,sha256=oFXGj_Ad644gBbPqzJzI9kFBiFpltht6BzVlaLEaNBo,1647
+lsqfitgp/_imports.py,sha256=8ieoTOVTMd4gmoyIwKkl73gW8KZdPBP0_fmT__1g05w,1226
+lsqfitgp/_kernels.py,sha256=ElU4WntDZqPCti-GjfJ9sJmtebKX48j4qu44ZFZQeCA,14027
+lsqfitgp/_linalg.py,sha256=DGWd40bx3iAxHjXQ6bS-nmtCr3wYjbnzNPjWCQQP_ts,14147
+lsqfitgp/_patch_autograd.py,sha256=HTU7p2R3g4HgvbFSEzloVvF_OZdIOMK2IsRl1fiX4Ro,675
+lsqfitgp-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lsqfitgp-0.1.4.dist-info/METADATA,sha256=I-BprrB3MGXBzSKpnRtWJg4rjagbWLEFbT__WKtyZH8,2661
+lsqfitgp-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lsqfitgp-0.1.4.dist-info/top_level.txt,sha256=WECZd-FEZauSWL-leGWxTB-tEcY9C6KjirkZgfbRLeQ,9
+lsqfitgp-0.1.4.dist-info/RECORD,,
