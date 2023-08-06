@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_trees_python
+Version: 1.0.0
+Summary: object-oriented implementations of binary tree, BST, AVL and heap
+Home-page: https://github.com/ferlozanom/trees
+Author: Fernanda Lozano Martinez
+Author-email: flozano21@cmc.edu
+License: GNU General Public License v3.0
+Description: # Trees ![](https://api.travis-ci.com/ferlozanom/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
