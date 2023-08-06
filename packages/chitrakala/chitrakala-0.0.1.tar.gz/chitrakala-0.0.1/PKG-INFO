@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chitrakala
+Version: 0.0.1
+Summary: Annotate images with created at timestamp
+Home-page: https://pypi.org/projects/chitrakala
+Author: avellable
+Author-email: contact@avellable.dev
+License: UNKNOWN
+Description: ## Chitrakala
+        A tool to annotate images with created at timestamp.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown

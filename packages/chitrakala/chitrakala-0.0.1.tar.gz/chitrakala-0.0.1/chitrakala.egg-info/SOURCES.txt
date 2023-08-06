@@ -1,0 +1,7 @@
+README.md
+setup.py
+chitrakala/__init__.py
+chitrakala.egg-info/PKG-INFO
+chitrakala.egg-info/SOURCES.txt
+chitrakala.egg-info/dependency_links.txt
+chitrakala.egg-info/top_level.txt
