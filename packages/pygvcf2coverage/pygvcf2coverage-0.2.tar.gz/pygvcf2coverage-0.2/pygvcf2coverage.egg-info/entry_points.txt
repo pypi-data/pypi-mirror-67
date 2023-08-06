@@ -1,0 +1,3 @@
+[console_scripts]
+pygvcf2coverage = pygvcf2coverage:main
+

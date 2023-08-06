@@ -1,0 +1,10 @@
+README.md
+setup.py
+pygvcf2coverage/__init__.py
+pygvcf2coverage.egg-info/PKG-INFO
+pygvcf2coverage.egg-info/SOURCES.txt
+pygvcf2coverage.egg-info/dependency_links.txt
+pygvcf2coverage.egg-info/entry_points.txt
+pygvcf2coverage.egg-info/not-zip-safe
+pygvcf2coverage.egg-info/requires.txt
+pygvcf2coverage.egg-info/top_level.txt
