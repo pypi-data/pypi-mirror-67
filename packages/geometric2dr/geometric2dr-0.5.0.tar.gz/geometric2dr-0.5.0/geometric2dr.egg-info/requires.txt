@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+networkx
+tqdm
+ipython
+torch
+torchvision
