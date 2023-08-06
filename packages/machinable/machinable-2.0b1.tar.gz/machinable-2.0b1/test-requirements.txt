@@ -1,0 +1,8 @@
+pytest-cov
+pytest
+ray[tune]
+numpy
+pytest-ordering
+pandas
+black
+isort
