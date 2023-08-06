@@ -1,0 +1,8 @@
+README.md
+setup.py
+jellybean_esoma.egg-info/PKG-INFO
+jellybean_esoma.egg-info/SOURCES.txt
+jellybean_esoma.egg-info/dependency_links.txt
+jellybean_esoma.egg-info/requires.txt
+jellybean_esoma.egg-info/top_level.txt
+test/test_display.py
