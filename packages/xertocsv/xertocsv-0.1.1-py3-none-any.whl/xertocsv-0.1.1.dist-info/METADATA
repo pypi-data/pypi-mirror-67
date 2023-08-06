@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xertocsv
+Version: 0.1.1
+Summary: XER to CSV convertor
+Home-page: https://github.com/constantintcacenco/xer-to-csv-converter
+Author: Constantin Tcacenco
+Author-email: constantin.tcacenco@gmail.com
+License: Constantin Tcacenco
+Download-URL: https://github.com/constantintcacenco/xer-to-csv-converter
+Keywords: csv,xer,converter
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
+
