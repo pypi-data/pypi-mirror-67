@@ -1,0 +1,16 @@
+arcus/__init__.py,sha256=AVXISdk5A6R30MVefVOc03rRokM7LLPi03S0t3M3YlA,17
+arcus/ml/__init__.py,sha256=8pUIIaP-iPqSSbejzwzrIgvi7MUM5-qS32_1rRnAFR0,155
+arcus/ml/dataframes.py,sha256=gJpRQ8gTSJ0E3uHsElCx-jaUsDVQMorkHhXkklicInU,3572
+arcus/ml/evaluation/__init__.py,sha256=_d_JwQcLyMCjR8DkvFSRab8QCj2Qk9aicrxI0-i_Zjs,29
+arcus/ml/evaluation/classification.py,sha256=rxkjMiWEEkr9M1kKmiolMEXlih_wzgMf_XcLkufJY3s,2263
+arcus/ml/images/__init__.py,sha256=_X_Szns-omrdkkqPi3vIMK_Et0HBoDbxTmLlMWGhqhY,43
+arcus/ml/images/conversion.py,sha256=zc_u1OIuOprisoTpuURwWtHCjb-avDtkl_FRoPVERlU,1129
+arcus/ml/images/explorer.py,sha256=t9GPcVPJKegOpRxjlvZdvfm2tNH0Kf6kmM69fHv6qYM,2277
+arcus/ml/images/io.py,sha256=E4aAaDuRP6s9qFcI6rHur_Cc8nTfRiHC9Kev_NWybs4,1994
+arcus/ml/neuralnetworks/__init__.py,sha256=7rv778gVSMAWVhzI6x6atwBTIv4We6BnYdj02ZACzqc,20
+arcus/ml/neuralnetworks/keras.py,sha256=74eDex_PBULkVGkoYOkWw3OcKCFMRr0W62TunCfGCYE,1208
+arcus_ml-1.0.5a2020043003.dist-info/LICENSE,sha256=I0JKBBpeJMUIYsCoVO-LH-4GufgGb1_JXjLgpIcy97I,1062
+arcus_ml-1.0.5a2020043003.dist-info/METADATA,sha256=6rMvFNpsoZA3csZToyb4u-tXmABfve2cEWTkHXPfkDI,785
+arcus_ml-1.0.5a2020043003.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+arcus_ml-1.0.5a2020043003.dist-info/top_level.txt,sha256=DGszUD7jPw7LE2QDzBus71-Z-4--7S0SFW0GD_3tp_s,6
+arcus_ml-1.0.5a2020043003.dist-info/RECORD,,
