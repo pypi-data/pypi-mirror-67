@@ -1,0 +1,10 @@
+brunodb/__init__.py,sha256=5EBUPN-mloUeMz65-G55dYxWVancB2B-kpDBJjUMhxs,35
+brunodb/cars_example.py,sha256=vYRyezKYJ2i4-hHF6vmHUKsH2hwXaLmWA6OYP508USA,803
+brunodb/database.py,sha256=0itg4os0olmv5F-iLhdklXzUTk4AS5DnG0685tmRvD0,2608
+brunodb/sqlite_utils.py,sha256=5Zk3bjZGsp6BPIt_sEwT2_uzzgFeaVLLw8fLDnr2VPY,4050
+brunodb/table.py,sha256=mN1995bI8wIvcToNcj6QeeVvlKSGU_ITR0NaYOI4hBM,4785
+brunodb-0.1.0.dist-info/LICENSE.txt,sha256=OW50HvUHkoPzfF-h2Ppn132X03-AaAjjROKhrBPNJSI,1063
+brunodb-0.1.0.dist-info/METADATA,sha256=ILVXGzle-UpkDhj52Im5P6YvaDHrMTU5R5y_3q4kjkg,445
+brunodb-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+brunodb-0.1.0.dist-info/top_level.txt,sha256=VKud4XIMVbwRHVMLZJ8jhyXdtmnEZuowTosC9XB5Lbk,8
+brunodb-0.1.0.dist-info/RECORD,,

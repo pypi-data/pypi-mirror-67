@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: brunodb
+Version: 0.1.0
+Summary: Useful wrapper for SQLite
+Home-page: https://github.com/dave31415/brunodb
+Author: David Johnston
+Author-email: dave31415@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/brunodb/
+Keywords: SQLite
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+# brunodb
+Lightweight but useful python interface for sqlite
+
+
+First version April 30, 2020
+
+
+
