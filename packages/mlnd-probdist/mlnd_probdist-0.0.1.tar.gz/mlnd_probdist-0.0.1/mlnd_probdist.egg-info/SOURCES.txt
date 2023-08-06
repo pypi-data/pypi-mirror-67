@@ -1,0 +1,10 @@
+setup.py
+mlnd_probdist/Binomialdistribution.py
+mlnd_probdist/Gaussiandistribution.py
+mlnd_probdist/Generaldistribution.py
+mlnd_probdist/__init__.py
+mlnd_probdist.egg-info/PKG-INFO
+mlnd_probdist.egg-info/SOURCES.txt
+mlnd_probdist.egg-info/dependency_links.txt
+mlnd_probdist.egg-info/not-zip-safe
+mlnd_probdist.egg-info/top_level.txt
