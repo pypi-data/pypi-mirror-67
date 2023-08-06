@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pytest-pop
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Tyler Johnson
+Author-email: tjohnson@saltstack.com
+License: UNKNOWN
+Description: **********
+        PYTEST-POP
+        **********
+        **A pytest plugin to help with testing pop projects**
+        
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
