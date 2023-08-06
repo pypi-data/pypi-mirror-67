@@ -1,0 +1,11 @@
+xpathwrapper/__init__.py,sha256=p6cAScVkK2AdlTkwcC64KBbMPDDBEDfwZ8-bp7eoe48,48
+xpathwrapper/baseI.py,sha256=uKS2JXnO87BQ9Nbp3cCeUW3pHMTOkwdxtNh8Flx-Yc8,9628
+xpathwrapper/basec.py,sha256=aJVdAoNjV3QRX1PCAIr8f-RMaCw0HVtx4ooSR8-leLk,9831
+xpathwrapper/basef.py,sha256=P0FLAo0pBX8PIl1cBKJa_BiKuLRBeX3J3MtfSO2QH4o,9832
+xpathwrapper/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpathwrapper/drivers/example/1.py,sha256=afW3X5rO-EnvWl_MJbmeduR7tl9UUzKtVhH3WYn0z7s,173
+xpathwrapper/drivers/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpathwrapper-1.0.dist-info/METADATA,sha256=35VJn4FKub9I-cMt2Hi9TDNkPuryAtoXstg6gXu5-BA,9326
+xpathwrapper-1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+xpathwrapper-1.0.dist-info/top_level.txt,sha256=-GrEyExHXLv_9_pFKPPWjfH6BkTF0MmzeB6QxIXolwY,13
+xpathwrapper-1.0.dist-info/RECORD,,
