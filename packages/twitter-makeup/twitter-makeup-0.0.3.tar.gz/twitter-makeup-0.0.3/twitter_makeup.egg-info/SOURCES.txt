@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+tests.py
+./data/banner-morning.jpg
+./data/banner-night.jpg
+./data/profile-regular.jpg
+./data/profile-xmas.jpg
+twitter_makeup/__init__.py
+twitter_makeup.egg-info/PKG-INFO
+twitter_makeup.egg-info/SOURCES.txt
+twitter_makeup.egg-info/dependency_links.txt
+twitter_makeup.egg-info/requires.txt
+twitter_makeup.egg-info/top_level.txt
