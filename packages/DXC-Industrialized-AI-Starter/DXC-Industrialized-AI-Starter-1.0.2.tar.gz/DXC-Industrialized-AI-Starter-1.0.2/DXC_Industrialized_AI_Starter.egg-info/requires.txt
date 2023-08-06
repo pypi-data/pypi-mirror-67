@@ -1,0 +1,14 @@
+JIRA
+auto_ml
+Algorithmia
+gitpython
+flatten_json
+pyjanitor
+ftfy
+arrow
+scrubadub
+yellowbrick==1.1
+datacleaner
+missingno
+pymongo
+IPython
