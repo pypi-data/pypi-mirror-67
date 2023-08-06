@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: k3s-status-lcd
+Version: 0.1.1
+Summary: A small service to retrive the status of a k3s cluster on a Raspberry Pi and render on an attached LCD
+Author: Mark Woolley
+Author-email: mw@marknet15.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: i2c_lcd (>=0.1.0,<0.2.0)
+Requires-Dist: kubernetes (>=11.0.0,<12.0.0)
