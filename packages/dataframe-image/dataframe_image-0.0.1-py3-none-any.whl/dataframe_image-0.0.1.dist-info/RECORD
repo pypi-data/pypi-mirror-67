@@ -1,0 +1,10 @@
+dataframe_image/__init__.py,sha256=pOmLPldlVu9Vy-SirYZsl6dCqNG-FVL0NtdY7_HUIzs,28
+dataframe_image/_to_image.py,sha256=5trfZDQDRC373xbrY_k66Czbeo6eZZTIFaduOBu51HE,2156
+dataframe_image/convert.py,sha256=Hgplpj_ZJe7K5tmsRJvU7WRYJl8XuypdYTYrXZjeiic,6900
+dataframe_image/image_maker.py,sha256=NECTGGJSTSc2JrlYpN5QFdh9o5iiqeHWEyEebDVYfQE,3673
+dataframe_image/css/style.css,sha256=suAm3UVQcSQr93ei1dPQtfbIlVcn7O8KqEqo4mXVESE,720
+dataframe_image-0.0.1.dist-info/LICENSE,sha256=aYEO07IDvIhcN20TczGub9YGntTYRVSNDLBWN5WSUi0,1063
+dataframe_image-0.0.1.dist-info/METADATA,sha256=7lUgdv7TBg9nrKjajWjSnzo4fJQJ_otmdZ69a7WGlHg,2085
+dataframe_image-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dataframe_image-0.0.1.dist-info/top_level.txt,sha256=VCh2K4FKv2olmP53fuvETC_egboLkDGa3TDRCX0cEEE,16
+dataframe_image-0.0.1.dist-info/RECORD,,
