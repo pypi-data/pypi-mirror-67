@@ -1,0 +1,11 @@
+joblib_windower/__init__.py,sha256=p0QkmfdenOenZ2VJW_-MF-anKea2jIWNR_3nrXukm1A,407
+joblib_windower/errors.py,sha256=At_WtiteAkZiRi_vjn5kYXKnaE-JXsFJb9MXQHba3mg,545
+joblib_windower/ndarray_windower.py,sha256=Vh7QBD-cWIbfrPUaZcoHLoItsdz_5eYDqD71jSyQWHU,5230
+joblib_windower/ndframe_windower.py,sha256=JGjdePIjPaW-LiTEs5k5IvW96MLqlJdK18WFgxnDM2s,7126
+joblib_windower/slide_ndarrays.py,sha256=yI5ST7R8mzGgdorCaVfUoBkUv14ElSvQpuOv3T4IuZ4,7012
+joblib_windower/slide_ndframes.py,sha256=xXlxzx3GQrcWT9Z1NyLT5JdUElVfWWTj_9dyrLAmulg,8412
+joblib_windower/utilities.py,sha256=FTUhVgxSKbQkMV8rUxkUnjeJk6iHp3S9rTqurplO6hQ,6568
+joblib_windower-0.3.10.dist-info/METADATA,sha256=aoLAFI-ckCvU1dh8GL2VA-DU9Bp0u9YfffOFJZSsQUY,523
+joblib_windower-0.3.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+joblib_windower-0.3.10.dist-info/top_level.txt,sha256=bDngfaCZ58yaklPmg-tmdat1M9VP-7QH1QtXgYsG4rs,16
+joblib_windower-0.3.10.dist-info/RECORD,,
