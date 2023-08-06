@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aws-pinpoint-campaign-builder
+Version: 0.1
+Summary: Package for building AWS pinpoint campaign
+Home-page: https://github.com/sajalsirohi/aws_pinpoint_campaign_builder
+Author: Sajal Sirohi
+Author-email: sirohisajal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#Package for building a Pinpoint Campaign on AWS
+
+Currently supported channels -
+1. EMAIL
+2. SMS
+
+
