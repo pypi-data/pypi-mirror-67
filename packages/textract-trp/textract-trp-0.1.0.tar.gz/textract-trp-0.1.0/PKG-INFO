@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: textract-trp
+Version: 0.1.0
+Summary: Parser for Amazon Textract results.
+Home-page: https://github.com/mludvig/amazon-textract-trp
+License: MIT
+Keywords: textract,trp
+Author: Michael Ludvig
+Author-email: mludvig@logix.net.nz
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/mludvig/amazon-textract-trp
+Description-Content-Type: text/markdown
+
+
