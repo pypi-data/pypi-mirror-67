@@ -1,0 +1,6 @@
+nl4py==0.5.2
+pyzmq==18.0.0
+deap
+scoop
+numpy
+pandas
