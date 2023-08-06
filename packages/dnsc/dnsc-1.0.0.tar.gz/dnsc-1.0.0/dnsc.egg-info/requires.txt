@@ -1,0 +1,10 @@
+aiofiles
+aiodns
+tldextract
+asyncpg
+uvloop
+certstream
+construct
+aiohttp
+pyopenssl
+b2
