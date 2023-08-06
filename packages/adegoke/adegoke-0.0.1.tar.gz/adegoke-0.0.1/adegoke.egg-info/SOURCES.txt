@@ -1,0 +1,7 @@
+README.md
+setup.py
+adegoke.egg-info/PKG-INFO
+adegoke.egg-info/SOURCES.txt
+adegoke.egg-info/dependency_links.txt
+adegoke.egg-info/top_level.txt
+example_pkg/__init__.py
