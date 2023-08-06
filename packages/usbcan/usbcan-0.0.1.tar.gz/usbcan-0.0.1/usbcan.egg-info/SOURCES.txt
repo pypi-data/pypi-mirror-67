@@ -1,0 +1,7 @@
+README.rst
+setup.py
+usbcan/__init__.py
+usbcan.egg-info/PKG-INFO
+usbcan.egg-info/SOURCES.txt
+usbcan.egg-info/dependency_links.txt
+usbcan.egg-info/top_level.txt
