@@ -1,0 +1,10 @@
+louvain/Optimiser.py,sha256=zS93fzKDY-8YkmkPr-VuyrG9qpdZx5KGXe9X_Jxgaj0,16551
+louvain/VertexPartition.py,sha256=hR-byy2hl1dRjRd4Dnf_TZGC3eelAi-Xvhtw6FvB35A,36626
+louvain/__init__.py,sha256=xXZWsmEpBKKktcn4ZONBaojEYELzA9b3TOSFn0SKXuU,2779
+louvain/_c_louvain.cp37-win32.pyd,sha256=w59vfhpaNZPlSNkTIB-J8xcaeIEJv_SG_miRE6JSgTk,647680
+louvain/functions.py,sha256=dHi3f7kdbDCJ5vBGVHwiNKlvSZLVMTYKGNy4yt2OuU4,17730
+louvain-0.6.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+louvain-0.6.2.dist-info/METADATA,sha256=yh5qmQl_aU2Pu3KRunGgXz4pLRJ96cxxVADlatt4KZc,1434
+louvain-0.6.2.dist-info/WHEEL,sha256=W7gQNdCXaaCQL4_mS6kf-ClnoFRCfSnJ5Gcl1436agg,102
+louvain-0.6.2.dist-info/top_level.txt,sha256=_uGptjKo4FbjodRFDADZjZkGMPLP1s-WRXsYPHSGzJI,8
+louvain-0.6.2.dist-info/RECORD,,
