@@ -1,0 +1,14 @@
+osrs_api/__init__.py,sha256=qidbVnzm9tBaJJJdC2tGgwVUVgc9tIPiKaE9XEhh4iA,204
+osrs_api/const.py,sha256=FLckD0L_tm8cmdcBZymwMtvn4gkPRbf77rQZUN4AYDg,2981
+osrs_api/grandexchange.py,sha256=sppQzLthDK8qyjtjbn7MZ5f2dE1hhHrdH-pQZq8YZrQ,3106
+osrs_api/hiscores.py,sha256=kISOi8Qt7kdj5AVZuV9RH4uJrQRi_ftO7PNhEQ0dZtU,5753
+osrs_api/item.py,sha256=1PXVsHNHD7nqh0u0sRT4Zb8tF8xokHDDiTxt68xKpKw,1745
+osrs_api/items_osrs.json,sha256=i2IunZQrt4aeHlW4ZD2C3VFFLRvEn0WCzJ0SY0yKvLQ,1284340
+osrs_api/priceinfo.py,sha256=NUZrxTzAq27IVvOhPsJ3t8txmqSV2Sz50VsrB5Md-wQ,486
+osrs_api/pricetrend.py,sha256=j-5dNH9H-F5s2nCf73d6SgG-E783hnUQ8ns_97sVo7Y,1286
+osrs_api/skill.py,sha256=wdrM2wB7hv6ILXBfmrDD5dpNOmbsE5j8k02h3xCqLA4,645
+python_osrsapi-0.0.1.dist-info/LICENSE,sha256=9-fNmWdr23mWTLCTHVy1EvuVjNZCsvf9dtEhj7kO770,1064
+python_osrsapi-0.0.1.dist-info/METADATA,sha256=bjLZ7oeKMRKdZ3MLX23W8n41sTefrrXlxjQcEbvLkEs,2389
+python_osrsapi-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_osrsapi-0.0.1.dist-info/top_level.txt,sha256=H6zyx1E_69QNn3XAjbeTSWyPc8gB7SfaWtRsmzX97bA,9
+python_osrsapi-0.0.1.dist-info/RECORD,,
