@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Electrum-Zcash-Random-Fork
+Version: 3.1.3b5
+Summary: Lightweight Zcash Wallet
+Home-page: https://github.com/zebra-lucky/electrum-zcash
+Author: Thomas Voegtlin
+Author-email: thomasv@electrum.org
+License: MIT License
+Description: Lightweight Zcash Wallet
+Platform: UNKNOWN
+Provides-Extra: full
