@@ -1,0 +1,73 @@
+# Portuguese (Brazil) translations for osirisvalidator.
+# Copyright (C) 2020 David Veiga
+# This file is distributed under the same license as the osirisvalidator project.
+# FIRST AUTHOR david@david.blog.br, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: osirisvalidator 0.0.2\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-05-03 21:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: David Veiga <david@david.blog.br>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <david@david.blog.br>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: osiris/internet.py:9 osiris/intl/br.py:8 osiris/intl/br.py:39
+#: osiris/intl/br.py:70
+msgid "{0} must be valid."
+msgstr "{0} deve ser válido."
+
+#: osiris/number.py:10 osiris/string.py:113
+msgid "Min param must be filled."
+msgstr "Parametro Min deve ser preenchido."
+
+#: osiris/number.py:13 osiris/string.py:116
+msgid "Max param must be filled."
+msgstr "Parametro Max deve ser preenchido."
+
+#: osiris/number.py:16
+msgid "{0} must be between {1} and {2}."
+msgstr "{0} deve estar entre {1} e {2}."
+
+#: osiris/osiris.py:7
+msgid "arg field is missing"
+msgstr "arg field is missing"
+
+#: osiris/string.py:9
+msgid "{0} may not be empty."
+msgstr "{0} não pode estar vazio."
+
+#: osiris/string.py:24
+msgid "{0} may not be blank."
+msgstr "{0} não pode estar em branco."
+
+#: osiris/string.py:38 osiris/string.py:53
+msgid "{0} must contain only letters."
+msgstr "{0] deve conter letras somente."
+
+#: osiris/string.py:67 osiris/string.py:82
+msgid "{0} must contain only letters and digits."
+msgstr "{0} deve conter letras e dígitos somente."
+
+#: osiris/string.py:97
+msgid "{0} must contain only digits."
+msgstr "{0} deve conter somente dígitos."
+
+#: osiris/string.py:119
+msgid "{0} must be a minimum of {1} characters and a maximum of {2}."
+msgstr "{0} deve conter um mínimo de {1} caracteres e um máximo de {2}."
+
+#: osiris/string.py:135
+msgid "Regex param must be filled."
+msgstr "Parâmetro Regex deve ser preenchido."
+
+#: osiris/string.py:137
+msgid "{0} is incorrect."
+msgstr "{0} está incorreto."
+
