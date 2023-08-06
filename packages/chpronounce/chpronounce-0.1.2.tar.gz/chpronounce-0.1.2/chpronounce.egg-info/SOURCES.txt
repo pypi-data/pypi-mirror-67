@@ -1,0 +1,12 @@
+README.md
+setup.py
+chpronounce/__init__.py
+chpronounce/chp.py
+chpronounce/postag
+chpronounce/t2s
+chpronounce/xdic.pkl
+chpronounce.egg-info/PKG-INFO
+chpronounce.egg-info/SOURCES.txt
+chpronounce.egg-info/dependency_links.txt
+chpronounce.egg-info/requires.txt
+chpronounce.egg-info/top_level.txt
