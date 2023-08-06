@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+py_dict_client.egg-info/PKG-INFO
+py_dict_client.egg-info/SOURCES.txt
+py_dict_client.egg-info/dependency_links.txt
+py_dict_client.egg-info/top_level.txt
