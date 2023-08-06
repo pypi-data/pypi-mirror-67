@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+calmatuc_progmatucentral.egg-info/PKG-INFO
+calmatuc_progmatucentral.egg-info/SOURCES.txt
+calmatuc_progmatucentral.egg-info/dependency_links.txt
+calmatuc_progmatucentral.egg-info/requires.txt
+calmatuc_progmatucentral.egg-info/top_level.txt
