@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: amqp-mock
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/nikitanovosibirsk/amqp-mock
+Author: Nikita Tsvetkov
+Author-email: nikitanovosibirsk@yandex.com
+License: Apache-2.0
+Description: # AMQP Mock
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
