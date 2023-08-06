@@ -1,0 +1,17 @@
+discord.py
+psutil
+
+[dev]
+black
+pylint
+twine
+wheel
+
+[doc]
+pdoc3
+
+[gpu]
+gputil
+
+[plot]
+matplotlib
