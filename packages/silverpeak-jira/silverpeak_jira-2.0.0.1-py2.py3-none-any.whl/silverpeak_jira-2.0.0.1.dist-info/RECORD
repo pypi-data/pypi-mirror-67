@@ -1,0 +1,14 @@
+silverpeak_jira/__init__.py,sha256=Kw55pSIPUN8hF8NF2gFKGslgUpuZE8CYXy7R8PVStOA,1093
+silverpeak_jira/client.py,sha256=M5xYOuPQTe7vJa2XqyT7SiPWgdfK5ph9No7yaoxTehs,144965
+silverpeak_jira/config.py,sha256=jNhSyM48-ppryOdU5dI_jbzFgDflfl_CLrTiMCeGXWk,3375
+silverpeak_jira/exceptions.py,sha256=LEvkPYvaSUNYCWFmleBL-GXiGYb2EmUL2KvTn11YAqk,2251
+silverpeak_jira/jirashell.py,sha256=spgqLPk0_dtXWAN0ZcdvmmOJTlFrhppFwgy26Pa102g,9617
+silverpeak_jira/resilientsession.py,sha256=Q0b6Lu9tsNgZld0eN8Er6BM1nMpHVcdFs-KF0dUujqw,6778
+silverpeak_jira/resources.py,sha256=J9Bf0JrhNwTtpEhwowjcB8vtOIsvQNB4_3M1kbcntRE,35299
+silverpeak_jira/utils/__init__.py,sha256=ps1vb4pO0vdJFwPy8BnRrHtU7W1qwG5Oe_koyEnxHPM,2496
+silverpeak_jira-2.0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+silverpeak_jira-2.0.0.1.dist-info/METADATA,sha256=DoUAjMbt30ZMSW9lj9Wy43L8F4eV9PfWS0U2E0EAQwA,1325
+silverpeak_jira-2.0.0.1.dist-info/RECORD,,
+silverpeak_jira-2.0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+silverpeak_jira-2.0.0.1.dist-info/metadata.json,sha256=ceGkZZwFKeBtEhD0uTwqKxpRSmeFqIKhJlwaEvnWo2A,1292
+silverpeak_jira-2.0.0.1.dist-info/top_level.txt,sha256=Pp9_n_jxCJ8i-2Xoz_t47XWdjLuww7pHHsGDS1FB-X0,16
