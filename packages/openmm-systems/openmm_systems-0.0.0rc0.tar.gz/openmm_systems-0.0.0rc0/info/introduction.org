@@ -1,0 +1,9 @@
+* Introduction
+
+** Getting Started
+
+Once you have the package installed
+@@rst::any:`installed <installation>`@@ you can
+check out the @@rst::any:`quickstart <quick_start>`@@ to get a rough
+idea of how it works.
+

@@ -1,0 +1,33 @@
+
+* Changelog
+
+Adapted from [[https://keepachangelog.com][keepachangelog.com]] for org-mode.
+
+Adheres to [[https://github.com/salotz/rfcs/blob/master/rfcs/salotz.002_semantic-changelog.org][RFC: salotz.002_semantic-changelog]].
+
+See the git commit log history for full details.
+
+** Unreleased
+
+*** Breakages
+
+*** Regressions
+
+*** Growth
+
+
+** [0.0.0] - 2020-04-29
+
+*** Breakages
+
+*** Regressions
+
+*** Growth
+
+Copied from ~OpenMM-Tools~.
+
+This release is a simple copy paste from ~OpenMM-Tools~. If we evolve
+things further these will go in major releases so that this remains
+backwards compatible.
+
+Currently only have tested the few systems that we are using for ~wepy~.
