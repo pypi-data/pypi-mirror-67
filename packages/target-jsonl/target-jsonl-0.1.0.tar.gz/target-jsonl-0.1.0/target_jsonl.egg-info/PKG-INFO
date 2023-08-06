@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: target-jsonl
+Version: 0.1.0
+Summary: Singer.io target for writing JSON Line files
+Home-page: https://singer.io
+Author: Andy Huynh
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
