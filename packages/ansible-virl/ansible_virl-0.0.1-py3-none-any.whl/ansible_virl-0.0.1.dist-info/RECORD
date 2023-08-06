@@ -1,0 +1,7 @@
+ansible/plugins/inventory/virl.py,sha256=kHqGtd-3PSU3_BeNb4746E8ckXD0pHP-TazpwqbHqyA,7940
+ansible/plugins/inventory/virl2.py,sha256=3R7Nhc1G6M-32lyFPPW-TO1sUGbr1SVeTtj193gnH28,6788
+ansible_virl-0.0.1.dist-info/LICENSE,sha256=kaHqgAo9Rvt8UEZ19tCN5VbW-hYdMXyJ8zayCkzAy5g,5030
+ansible_virl-0.0.1.dist-info/METADATA,sha256=aFsseIl2f-Lpp1eq4lHU0S95y-_njAA3ka61g-JUN1E,230
+ansible_virl-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ansible_virl-0.0.1.dist-info/top_level.txt,sha256=bP1o-RYLYg8m00qC3A9r7ijpfW549hd0u6Y9uxQxRK4,8
+ansible_virl-0.0.1.dist-info/RECORD,,
