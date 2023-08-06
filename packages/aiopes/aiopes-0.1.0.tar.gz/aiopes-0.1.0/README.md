@@ -1,0 +1,56 @@
+#### Version 0.1.0 is NOT backwards compatibility with anything below that version.
+
+[Pacifices Cloud Documentation](https://api.pacifices.cloud/docs.html) | [API](#API)
+
+## Install
+Install git and run ``pip3 install git+https://github.com/WardPearce/aiopes.git``
+
+### Example
+```py
+import asyncio
+import aiopes
+
+async def example():
+    # Pass your own aiohttp session if you
+    #  don't want a new one created.
+    pes_client = aiopes.client(api_key="", session=None)
+
+    print(await pes_client.server(server_id="").get())
+
+    await pes_client.session.close()
+    
+loop = asyncio.get_event_loop()
+loop.run_until_complete(example())
+loop.close()
+```
+
+### API
+#### aiopes.client()
+``aiopes.client(api_key, session=None)``
+
+- If you aren't passing a ``aiohttp.ClientSession`` object created within the event loop ``aiopes.client`` should be ran within the context of the loop.
+##### aiopes.client(...)
+    - locations(self)
+    - mapgroups(self)
+    - mods(self)
+    - plugins(self)
+    - tickrates(self)
+    - gamemodes(self)
+    - files(self)
+#### aiopes.client(...).validate
+    - create(self, payload: dict)
+    - settings(self, payload: dict)
+#### aiopes.client(...).server(server_id=None)
+    - list(self, **kwargs)
+    - create(self, payload: dict)
+    - get(self)
+    - delete(self)
+    - settings(self, payload: dict)
+    - logs(self, json=True)
+    - player_history(self)
+    - player_count(self)
+    - version(self)
+    - command(self, command)
+    - restart(self)
+    - update(self)
+    - history(self)
