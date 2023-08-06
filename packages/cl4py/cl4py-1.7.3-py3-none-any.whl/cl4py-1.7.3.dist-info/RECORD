@@ -1,0 +1,12 @@
+cl4py/__init__.py,sha256=rhZkAPFvvrtu_5bMxULO7-JzbTd4RbjZ_q8ovSPCfLE,89
+cl4py/circularity.py,sha256=YX5UNsm3FzuraxQ3UYzMC8qcQx713HsKVlb5sNFa2C8,4912
+cl4py/data.py,sha256=mmmKl6Rv3E2d-0EHX9yMu7QdxoQSGhURylnsM5_ulJ8,6813
+cl4py/lisp.py,sha256=A-ucB4f1eHKPbdxo4o8VymMB9dp4F7_qKrtZaHf5S9g,4298
+cl4py/py.lisp,sha256=HCjgHQEOhq-kF1BTqQ2k-UCwsuFLxLb4wHpiiEdSm9I,31405
+cl4py/reader.py,sha256=AxixUs9-X6I2qyBDnxB-Kt9FJULPDAMQkprpRsmMnHA,12050
+cl4py/writer.py,sha256=wmaQGto9QfJAMEH8sSfN_fY6V2pCMt6pOIoraGuHh1M,3625
+cl4py-1.7.3.dist-info/LICENSE,sha256=pgtOuRZ3fm0avPvXWQjqowP0nVh8SjkjLJvb2c80rgs,1102
+cl4py-1.7.3.dist-info/METADATA,sha256=bYuA_bcd9wsgQBkpD1OSRS-fjmYjndYI9b4M7TpEl-k,5213
+cl4py-1.7.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+cl4py-1.7.3.dist-info/top_level.txt,sha256=3N9azXPy1xd--ZkTb9zfT-iPVFt28RAf5-51ITNjb6o,6
+cl4py-1.7.3.dist-info/RECORD,,
