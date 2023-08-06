@@ -1,0 +1,10 @@
+tf2_bert/__init__.py,sha256=_UkPU8J0S1Y5f0xba5NwxanbbkTt5RB84qSGdZRLjtM,33
+tf2_bert/activation.py,sha256=qVIvva-nL6h59B4mPmkvhfe26aXY72Qk0H9v4g7EeqI,1293
+tf2_bert/layers.py,sha256=CIIR7uuqKRzc70AdAh8zdE1Vyb8lzobHyI6SFZnwXEQ,14186
+tf2_bert/models.py,sha256=fldYee55VNuhD_SQBU5QROGuOFr1f9MO-bEECnqUHrM,21181
+tf2_bert/tokenizers.py,sha256=fCsvIomchJNXTRSsnw2qAkjKypSW6rNZXmBKyjVje18,13998
+tf2_bert-0.11.dist-info/LICENSE,sha256=IobbHdHdQZtBZRuOjLBufUVnIjJh_0-XtZFYYwP5spQ,1066
+tf2_bert-0.11.dist-info/METADATA,sha256=Wrghv_QR-ouEeF-pQlARampwaCt_xTwKQ_FycDRamTE,473
+tf2_bert-0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tf2_bert-0.11.dist-info/top_level.txt,sha256=p_IROgy2Tnqs89fdKxbRHFn_EpL4kFS7y9s2wW9mGsQ,9
+tf2_bert-0.11.dist-info/RECORD,,
