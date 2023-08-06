@@ -1,0 +1,13 @@
+Click
+PyYAML
+
+[dev]
+pylint
+mypy
+black
+isort
+pre-commit
+
+[test]
+pytest
+pytest-cov
