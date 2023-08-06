@@ -1,0 +1,7 @@
+parse_vcf.py,sha256=mgP8qssOrVqp1F7Sywp7SbpsZYk91vQLDAVba0zKj3U,66249
+test_parse_vcf.py,sha256=UjEs2AbTjO8ANxW8LHRYsvnWYxrub_3Uv2sWYmqnYNo,7032
+parse_vcf-0.2.8.dist-info/LICENSE.txt,sha256=nieIgiLRs1xHwKVEpiP4sQ_GEv-t0PVaTxzJFXuYe0Q,1072
+parse_vcf-0.2.8.dist-info/METADATA,sha256=jPnEltXoP-G3MaAb1oQYz_iuHPeI6cJWRYxym5rWiJI,698
+parse_vcf-0.2.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+parse_vcf-0.2.8.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+parse_vcf-0.2.8.dist-info/RECORD,,
