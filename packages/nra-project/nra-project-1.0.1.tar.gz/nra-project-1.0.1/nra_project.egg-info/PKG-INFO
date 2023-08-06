@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nra-project
+Version: 1.0.1
+Summary: library and helper for analitycs
+Home-page: https://github.com/nim4n136/nra_project
+Author: nim4n136
+Author-email: nim4n136@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
