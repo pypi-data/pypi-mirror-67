@@ -1,0 +1,15 @@
+erlab_coat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erlab_coat/meta.py,sha256=ETqVfjX-Di4f6sAzp-gGmr5KJYjpLKeNXA_GDdErBnA,23722
+erlab_coat/plots.py,sha256=UQpiuTBqzOWJmz2R1PM9LuV8JyzLNcQKlBePd8V12fs,19227
+erlab_coat/preprocessing.py,sha256=kWtYPSYSEpcj8NEEPxKYXu7CboJ-S8qYTFqbWfti5t8,31597
+erlab_coat/statistics.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erlab_coat/twitter.py,sha256=wuSdiBgo6fx0faBXt_ucOSCVUNRfiIdUxvOcMd9DkUY,7757
+erlab_coat/inference_engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erlab_coat/inference_engine/covid19_occurrence_prediction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+erlab_coat/inference_engine/covid19_occurrence_prediction/data.py,sha256=1ukquy47PfNhInWhx--_Mgy2G3TFsdDyzhpSOaTTMIA,13619
+erlab_coat/inference_engine/covid19_occurrence_prediction/models.py,sha256=kkNp5C10Zd7DDP9YUToJ3TGcrW69ahtdYpt6XxmHV_M,4560
+erlab_coat/inference_engine/covid19_occurrence_prediction/trainers.py,sha256=sfGnA21eXa7Tpfzqlt0OYRd-tmlX_jhfS-Q7-Yg6Jnw,3169
+erlab_coat-0.2.4b0.dist-info/METADATA,sha256=qDRS6YAHHAZq9PhrZrvyItQT325HaNJISPnFse07kUU,877
+erlab_coat-0.2.4b0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+erlab_coat-0.2.4b0.dist-info/top_level.txt,sha256=kjPMX2fF-GlvmuaoCYFLd1oVvuQs9Qqp8QPt-C6eT84,11
+erlab_coat-0.2.4b0.dist-info/RECORD,,
