@@ -1,0 +1,9 @@
+README.md
+setup.py
+brainglobe/__init__.py
+brainglobe.egg-info/PKG-INFO
+brainglobe.egg-info/SOURCES.txt
+brainglobe.egg-info/dependency_links.txt
+brainglobe.egg-info/not-zip-safe
+brainglobe.egg-info/requires.txt
+brainglobe.egg-info/top_level.txt
