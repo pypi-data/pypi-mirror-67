@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "sageup"
+version = "0.1.2"
+description = "Interactive CLI tool for creating a SageMaker notebook instance from terminal, getting signed URL and opening it in browser"
+authors = ["Iman Kamyabi <engkamyabi@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/imankamyabi/sageup"
+repository = "https://github.com/imankamyabi/sageup"
+keywords = ["jupyter", "notebook", "sagemaker", "sagemaker-notebook", "jupyter-notebook", "aws", "aws-notebook"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyfiglet = "^0.8.post1"
+colorama = "^0.4.3"
+click = "^7.1.2"
+boto3 = "^1.12.49"
+inquirer = "^2.6.3"
+pprint = "^0.1"
+yaspin = "^0.16.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+sageup = 'sageup:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

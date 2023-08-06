@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sageup
+Version: 0.1.2
+Summary: Interactive CLI tool for creating a SageMaker notebook instance from terminal, getting signed URL and opening it in browser
+Home-page: https://github.com/imankamyabi/sageup
+License: MIT
+Keywords: jupyter,notebook,sagemaker,sagemaker-notebook,jupyter-notebook,aws,aws-notebook
+Author: Iman Kamyabi
+Author-email: engkamyabi@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: boto3 (>=1.12.49,<2.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: inquirer (>=2.6.3,<3.0.0)
+Requires-Dist: pprint (>=0.1,<0.2)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: yaspin (>=0.16.0,<0.17.0)
+Project-URL: Repository, https://github.com/imankamyabi/sageup
+Description-Content-Type: text/markdown
+
+# SageUp
+Interactive CLI tool for creating a SageMaker notebook instance from terminal, getting signed URL and opening it in browser.
+
+![Screenshot](https://raw.githubusercontent.com/imankamyabi/sageup/master/images/sageup-demo.gif)
+
+
+## Installation:
+```shell
+pip install sageup
+```
+
+## Usage
+
+### Run
+Starts an interactive session to create a SageMaker notebook instance and launch it in browser
+
+```shell
+sageup run
+```
+
+## Notes:
+Default IAM role has full access to SageMaker and S3. Use a custom IAM role if need granular access, more security and protection against accidental change of resources by the notebook.
+
+More features coming soon!
+
+Author: Iman Kamyabi
+ 
+Feedback: contact@imankamyabi.com
