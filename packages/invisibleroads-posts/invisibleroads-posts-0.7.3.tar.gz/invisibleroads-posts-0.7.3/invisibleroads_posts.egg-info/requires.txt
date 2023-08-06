@@ -1,0 +1,12 @@
+pyramid
+pytest
+dogpile.cache
+invisibleroads
+invisibleroads-macros-configuration
+invisibleroads-macros-descriptor
+invisibleroads-macros-disk
+invisibleroads-macros-security
+invisibleroads-macros-text
+
+[test]
+pytest-cov
