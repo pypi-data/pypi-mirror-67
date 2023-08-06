@@ -1,0 +1,6 @@
+README.md
+setup.py
+spoticlean.egg-info/PKG-INFO
+spoticlean.egg-info/SOURCES.txt
+spoticlean.egg-info/dependency_links.txt
+spoticlean.egg-info/top_level.txt
