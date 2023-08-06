@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: parent-map
+Version: 1.0.4
+Summary: Analyze parental contributions to evolved or engineered protein or DNA sequences
+Home-page: https://github.com/damienmarsic/parent-map
+Author: Damien Marsic
+Author-email: damien.marsic@gmail.com
+License: UNKNOWN
+Description: # Parent-map
+        Analyze parental contributions to evolved or engineered protein or DNA sequences.
+        Run parent-map.py without arguments to start in GUI mode.
+        Run parent-map.py with arguments to start in console mode.
+        Run parent-map.py -h for help.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
