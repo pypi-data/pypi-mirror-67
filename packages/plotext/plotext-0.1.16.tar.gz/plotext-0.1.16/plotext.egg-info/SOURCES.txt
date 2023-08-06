@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+plotext/__init__.py
+plotext/plot.py
+plotext/plot_back.py
+plotext.egg-info/PKG-INFO
+plotext.egg-info/SOURCES.txt
+plotext.egg-info/dependency_links.txt
+plotext.egg-info/requires.txt
+plotext.egg-info/top_level.txt
