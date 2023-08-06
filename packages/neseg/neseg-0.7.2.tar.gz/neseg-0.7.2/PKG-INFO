@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: neseg
+Version: 0.7.2
+Summary: Named Entity Segmentation
+Home-page: https://github.com/myosmatrix/neseg
+Author: pastoral
+Author-email: huhongjun@gmail.com
+License: Apache License 2.0
+Description: # Named Entity Segmentation
+        
+        ## 简介
+        
+        本项目是字符串令牌流分割库；
+        neseg -n 中国北京市联想科技有限公司 -d dict
+        
+        ### 功能
+        
+        - 字符串令牌解析； 
+        - 支持令牌流；
+        - 解析器可以是自定义字典机械分割，每个token一个独立字典；
+        - 解析器也可以是正则表达式；
+        - 分割分正向和反向，都是从头开始；
+        - 生成对应令牌名称和解析出来的字符创元组，最后剩下的归为一组；
+        
+        ### 应用场景
+        
+        - 各种名称的解析，如中文机构名、药品名称、地址的分割标注；
+        
+        ### TODO
+        
+        - 设计参考re.scanner；
+        - 可以用生成器yield来做技术实现；
+        - 程序返回元组列表；
+        
+        ## 附录 - 源码文件说明
+        
+            neseg
+                /lib
+                    FMM.py  正向切词
+                    RMM.py  反向切词
+                seg.py      
+                main.py   主程序：无界面,参数命令行
+            changelog.md    软件更新日志
+            readme.md       软件使用、安装指南
+        
+Keywords: corpus,NLP
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
