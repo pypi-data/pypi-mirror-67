@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: nanologger
+Version: 1.0.3
+Summary: A tiny logger tool for Python
+Home-page: UNKNOWN
+Author: frogstair
+Author-email: daniladudkin412@gmail.com
+License: UNKNOWN
+Description: #  nanologger
+        nanologger is a tiny logger made with Python.
+        
+        It includes basic functionality such as
+        1. A basic log
+        2. Warning logs
+        3. Fatal logs
+        4. Success logs
+        
+        This tiny package also includes time format editing and enabling/disabling colors
+        
+        ***Warning***: Windows does not support color in console, so it is automatically disabled
+        
+        ##  Example code:
+        ```python
+        import nanologger as log
+        
+        print("The first four logs will be printed, and will not exit on Fatal call")
+        log.Log("Database service is up")
+        log.Warning("File not found, using default directory")
+        log.Fatal("Cannot connect to server", exit = False)
+        log.Success("Operation Complete\n")
+        
+        print("Next three four will be printed without color")
+        log.hasColor = False
+        log.Log("Database service is up")
+        log.Warning("File not found, using default directory")
+        log.Fatal("Cannot connect to server", exit = False)
+        log.Success("Operation Complete\n")
+        
+        print("Next three four will be printed without timestamp")
+        log.hasColor = True
+        log.hasTimestamp = False
+        log.Log("Database service is up")
+        log.Warning("File not found, using default directory")
+        log.Fatal("Cannot connect to server", exit = False)
+        log.Success("Operation Complete\n")
+        
+        print("Next three logs will be printed in a different time format, and exit on Fatal call")
+        log.hasTimestamp = True
+        log.hasColor = True
+        log.timeFormat = "%Y-%m-%d"
+        log.Log("Database service is up")
+        log.Warning("File not found, using default directory")
+        log.Fatal("Cannot connect to server")
+        log.Success("Operation Complete")
+        ```
+        ##  Methods:
+        1.  `Log` prints a log with a timestamp
+        2.  `Warning` prints a warning with timestamp
+        3.  `Fatal` prints a fatal log (terminates program if appropeiate value set)
+        4.  `Success` prints a success log
+        
+        ##  Variables:
+        1. `timeFormat` is a string, supports regular Python timestamps **default: "%d-%m-%Y %H:%M:%S"**
+        2. `hasColor` is a boolean that sets/removes color from the logs **default: True**
+        3. `hasTimestamp` is a boolean that sets/removes the timestamp **default: True**
+        
+        ##  Installation
+        Install the package  by running
+        ```bash
+        pip install nanologger
+        ```
+        Import it with
+        ```python
+        import nanologger
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
