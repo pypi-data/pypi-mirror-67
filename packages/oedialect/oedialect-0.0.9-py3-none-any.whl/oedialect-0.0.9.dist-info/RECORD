@@ -1,0 +1,14 @@
+oedialect/__init__.py,sha256=Uvct27qe8eLXnAYtCjnhhoKIHIwpNh6217ax-O1hYC0,140
+oedialect/compiler.py,sha256=xMavKr5wqWytnEq49v-xWcX5rGEGiwXv8-bIpHOuDbg,40075
+oedialect/dbapi.py,sha256=GTk4gsu1hh2Fiti8_-Q668hv85y5wLHT44FbSYjn_rI,234
+oedialect/dialect.py,sha256=v4wv6ixckR8vER7SItkgMulsUx15OiO_C-JGWDqHWQU,17579
+oedialect/engine.py,sha256=NpvUdzUrE63bHbp0kJK_0IgrFKuDBhzjVL4m-ueVyfg,11995
+oedialect/error.py,sha256=b7NybYxfc9U32ydt3cSGhXfen3sUw4pYOaF9iwHmZ2M,140
+oedialect/requirements.py,sha256=_uF-ZapualG3hg9-n-yrbCSGlyFAHBdPsW-lWLVyaaE,512
+oedialect-0.0.9.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+oedialect-0.0.9.dist-info/METADATA,sha256=kj1QVm3GwNRuNq4VIY8UtcPBvmSypOxIMpXUW_9Ur74,1682
+oedialect-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+oedialect-0.0.9.dist-info/entry_points.txt,sha256=PKp4lsO7oNTc8MYakt0wImA5GTSrN9jSoSl0tscEsL0,72
+oedialect-0.0.9.dist-info/test.py,sha256=32ptidSATLuxQ7v4rH56bA7d680qcsIoTGgCPQVcjEk,1460
+oedialect-0.0.9.dist-info/top_level.txt,sha256=-yk6EOjl3mdfKbVsbJPsrf_En7PIvvCRutPNMHQRWpU,10
+oedialect-0.0.9.dist-info/RECORD,,
