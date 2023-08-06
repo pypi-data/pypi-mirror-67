@@ -1,0 +1,3 @@
+from typing import Generator
+
+def in_sandbox() -> Generator: ...
