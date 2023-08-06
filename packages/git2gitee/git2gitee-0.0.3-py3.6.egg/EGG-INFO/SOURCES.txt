@@ -1,0 +1,11 @@
+README.md
+setup.py
+git2gitee/__init__.py
+git2gitee/config.py
+git2gitee/cross.py
+git2gitee/example.py
+git2gitee.egg-info/PKG-INFO
+git2gitee.egg-info/SOURCES.txt
+git2gitee.egg-info/dependency_links.txt
+git2gitee.egg-info/entry_points.txt
+git2gitee.egg-info/top_level.txt
