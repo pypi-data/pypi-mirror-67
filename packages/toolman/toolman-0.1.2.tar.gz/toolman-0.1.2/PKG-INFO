@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: toolman
+Version: 0.1.2
+Summary: Python utility tools for research
+Home-page: https://github.com/bohaohuang/toolman
+Author: bohaohuang
+Author-email: hbhzhuce@gmail.com
+License: MIT
+Description: # ToolMan: Python utility functions for R&D
+        See the source for this project [here](https://github.com/bohaohuang/toolman)
+        ## Modules:
+        ### *[misc_utils.py](./toolman/misc_utils.py)*: 
+        miscellaneous utility functions including data I/O and processing  
+        a) Read/write different formats of files in one function:
+        ```python
+        import toolman as tm
+        data = tm.misc_utils.load_file(file_name)
+        tm.misc_utils.save_file(file_name, data)
+        ```
+        Currently support extensions including: `.npy`, `.pkl`, `.txt`, `.csv`, `.json` and commonly used image formats.  
+        b) Argument parser, parse nested argument list:
+        ```python
+        import sys
+        import argparse
+        import toolman as tm
+        parser = argparse.ArgumentParser()
+        args, extras = parser.parse_known_args(sys.argv[1:])
+        cfg_dict = tm.misc_utils.parse_args(extras)
+        ```
+        
+        ### *[vis_utils.py](./toolman/vis_utils.py)*: 
+        Matplotlib utility functions for visualization  
+        a) Display images in side by side with axis linked
+        ```python
+        import toolman as tm
+        fig1 = tm.misc_utils.load_file(img_name_1)
+        fig2 = tm.misc_utils.load_file(img_name_1)
+        tm.vis_utils.compare_figures([fig1, fig2], (1, 2), fig_size=(12, 5))
+        ```
+        ### *[img_utils](./toolman/img_utils.py)*: 
+        image specific utility functions
+        
+        ### *[pytorch_utils](./toolman/pytorch_utils.py)*: 
+        pytorch specific utility functions
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
