@@ -1,0 +1,9 @@
+falcon_crossorigin/__init__.py,sha256=R_HjWIU6MPKPWSuVR4rzEX0P4Lk1yNR3ti5UPiV5Iyo,82
+falcon_crossorigin/cross_origin.py,sha256=dIZUsdFx0QFD40plkaKiOLL35b8U0ULNwAP2sH9iwgY,3153
+falcon_crossorigin/header.py,sha256=MmewSge6qrn2KFKkz4hbWDVGh9bEqcJIr5DZxLGkWy8,600
+falcon_crossorigin/method.py,sha256=damIwsaATQxUfEDjTm0LqTWNKXuTD0OgysERwV8-pX4,155
+falcon_crossorigin/util.py,sha256=PV5dzCu3FUDQIbq6h6KwYerK2GX3T_0gDMRQX9shbeU,886
+falcon_crossorigin-0.1.0.dist-info/METADATA,sha256=S4smXRnEch8GZ1up5EtcLGtQjlpbHkq2_0TmSExy2to,660
+falcon_crossorigin-0.1.0.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+falcon_crossorigin-0.1.0.dist-info/top_level.txt,sha256=6OUB4tfBZQRmsg7EfkxQI2dMxWZ4dXewA3AquTMSP34,19
+falcon_crossorigin-0.1.0.dist-info/RECORD,,
