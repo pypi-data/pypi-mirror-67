@@ -1,0 +1,9 @@
+scaleway_api/__init__.py,sha256=xTO-yPMfRtFifg3CNuWZUsIAYXFtjD3c1RjSwuh-vsQ,2364
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_request.py,sha256=vmYVb3FDXp5-vuFB2tQNRgqWbVKRUBngJu0AuFgI3OI,1292
+tests/test_urls.py,sha256=pFP9V8BWd_ZxSAWDI9Ih2tWqimoD7AP4jBrHQ3u1CTk,2398
+scaleway_api-0.0.1.dist-info/LICENSE,sha256=wWN80Krbp7qk1OBceee7BnGAQXXc5RZs1xeqgP8Jpao,1058
+scaleway_api-0.0.1.dist-info/METADATA,sha256=EL0v5yGsOfMzjmCO6-_F8qKbxE4kvs6BWCYziHNdKwA,1670
+scaleway_api-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scaleway_api-0.0.1.dist-info/top_level.txt,sha256=iWeAl7hSt7Dl8zLZ5scYf1C-_7FmvccvjOJiL-jq7Xg,19
+scaleway_api-0.0.1.dist-info/RECORD,,
