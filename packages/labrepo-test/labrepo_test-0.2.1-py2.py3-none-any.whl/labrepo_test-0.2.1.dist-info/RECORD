@@ -1,0 +1,15 @@
+labrepo_test/__init__.py,sha256=UW1g9Od-XiLKZWfBFFpUZuQ89ctA5RANMSyLnkjWKCA,305
+labrepo_test/labrepo_test.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+labrepo_test/SubPackage1/MyClass1.py,sha256=2sOL1OkXNksQ1toR8hwJecHYboM47WAMJo0vxJmdhn8,4572
+labrepo_test/SubPackage1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labrepo_test/SubPackage2/MyClass2.py,sha256=-cAnRbqbyjbq3Oorz220aL6rFj06fQfAELaULpW1API,776
+labrepo_test/SubPackage2/MyClass3.py,sha256=bci6GE_lb77bcxt1eKi1ir56Vs4l1ezD1JZ7HNxwkDQ,776
+labrepo_test/SubPackage2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=59RV1fsqMUdwp4doMJKhft7fS97U09cFzRkLcbREVcM,42
+tests/test_labrepo_test.py,sha256=2CIqb5D1z4MMzPxbfRKj6xJMlU3unWzGojyu8iVT7Ck,568
+labrepo_test-0.2.1.dist-info/AUTHORS.rst,sha256=qMGcFyH3EGu0Znme1OrZ9sY5xqFMGB8d3F60R84Lc8E,164
+labrepo_test-0.2.1.dist-info/LICENSE,sha256=X2Eemvzo4VudSeChcKR3LUEdet5GeSxR900ks5D3cQw,1567
+labrepo_test-0.2.1.dist-info/METADATA,sha256=OMSeI1_3yWN3ld9W8v5Ta2lqlL47yvZgnWQ-ua6-2QQ,2154
+labrepo_test-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+labrepo_test-0.2.1.dist-info/top_level.txt,sha256=LH6k6qLfPa6cGSBjNUkIP5HAEGxiWzbXOYamzG9Zp-U,19
+labrepo_test-0.2.1.dist-info/RECORD,,
