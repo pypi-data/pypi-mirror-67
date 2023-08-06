@@ -1,0 +1,4 @@
+[console_scripts]
+pypi-dep-tree = pypideptree.pypi:main
+pypi-root-pkgs = pypideptree.pypi:root_pkgs
+
