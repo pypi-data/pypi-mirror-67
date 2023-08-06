@@ -1,0 +1,9 @@
+README.md
+setup.py
+synthpops/__init__.py
+synthpops/version.py
+synthpops.egg-info/PKG-INFO
+synthpops.egg-info/SOURCES.txt
+synthpops.egg-info/dependency_links.txt
+synthpops.egg-info/requires.txt
+synthpops.egg-info/top_level.txt
