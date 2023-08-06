@@ -1,0 +1,17 @@
+blipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blipy/Http/__Lime.py,sha256=rLhYB3np8ylVdaCNidczKl136U0BvPVt_h5464oCsIs,2010
+blipy/Http/__Postmaster.py,sha256=A5QtwSEhfUAzOB8kDxPWAPJ4f-sESR9quUWAeHJIGsY,712
+blipy/Http/__init__.py,sha256=DFh3LqqGOfSK7NP6D5cnMAy3cSIA0-MwVWhkNzDq4o8,84
+blipy/Postmasters/__AI.py,sha256=WuG1XGXCoi924vMV74lgac0ZH2HiVDLSObQskn1JGIA,391
+blipy/Postmasters/__init__.py,sha256=CNgqg_cfSvWPZ9w-ITsmM7idYUE--eORd8ZEF5BIeWY,49
+blipy/Types/__Data.py,sha256=ri4raoIoCPxe8TBMPB7KFYY8Ossaf64T3xToSeObgoM,419
+blipy/Types/__Method.py,sha256=ATid4MFGCx_EnBwjltWmgWEzxJyS58JnC6PARDX039M,63
+blipy/Types/__Response.py,sha256=8kTMySrrnOHo6it9bnUoeYAOB82gTEKruOK0UiavUiU,772
+blipy/Types/__Seriable.py,sha256=1qNa6LcU7XyfZ5rIUA7k1Z0sCVHHEeRJuxlQ5b0O_I0,171
+blipy/Types/__URI.py,sha256=pirPhSi6MnBqLjHdsFTONIFlQsWv93fiQFcss1OWkrI,365
+blipy/Types/__init__.py,sha256=ACI3fOJKNmu03i7Nll0iGfFIpB4cw_qpcNyPnAva9MY,178
+blipy-0.0.4.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+blipy-0.0.4.dist-info/METADATA,sha256=eMK5VneadwRUOVwvA9rtKB31x-gGZs4xoKtiIGkYL_g,1129
+blipy-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+blipy-0.0.4.dist-info/top_level.txt,sha256=EjZTBkuMu4tIsFkTRyByBQRHzeTKwQWh_u7yDridJk4,6
+blipy-0.0.4.dist-info/RECORD,,
