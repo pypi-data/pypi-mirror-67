@@ -1,0 +1,15 @@
+staticsql/__init__.py,sha256=tGhK6bFJKVEjo9m7ItUzg7HjnzgqpBbJVVy-pbD84VM,23
+staticsql/api.py,sha256=-GhQqyt4xRP95YAYyz5r2dvyNs182YRBDMzriLVsCNM,1433
+staticsql/database.py,sha256=4CIwu5rPY_RGgFHwRioiEKfwkON0Nlui2YDiWOKt1Rc,3045
+staticsql/entity.py,sha256=bi1b6Eh8G3ea_yL7RsYjRsWVmtJ6RfdzXWgWXnAgZ9I,3619
+staticsql/sql.py,sha256=Jiglu4eXGGLl0Hfaj7oRN5eLKCkAIawQs5s36RNKmPU,11252
+staticsql/util.py,sha256=v4N59t5GZO3COFzTDdQmiQONk6x0gtO6q_UmwHtvv04,537
+tests/__init__.py,sha256=MnOUzL5vKLSoqYDpS1Pkv-e8Fv63ULgo7Y_mPBSOOco,105
+tests/test_complex_sql.py,sha256=TzHTMsL0F_jtgLJfPnSpAYcXeojGb2vpkSnygfyDkVA,588
+tests/test_json.py,sha256=GWhJcFQl2-egDJNAdtMsPeDZ8a-yA2fLWp83ACriJAI,842
+tests/test_simple_sql.py,sha256=qTx9NXbx5NUv_N5t5WhVdFK6IRS-SdApWf7Uki97Fuc,3667
+staticsql-0.9.3.dist-info/LICENCE,sha256=P1bhd_onz8_3joMwGsrtwZ-VBwvyQji5xBnuB8Ni0bA,1080
+staticsql-0.9.3.dist-info/METADATA,sha256=OZHXKA5T8nRYicVRVuYHY9M64Sy7UdAW_AEO5JtycOE,4528
+staticsql-0.9.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+staticsql-0.9.3.dist-info/top_level.txt,sha256=nY0GFmdygubH-X02WUjNPbQiVlJrK6Yrp2E3XRKmZV4,16
+staticsql-0.9.3.dist-info/RECORD,,
