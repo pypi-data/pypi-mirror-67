@@ -1,0 +1,14 @@
+favicon/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+favicon/admin.py,sha256=akADp9mf-2kAk-r1qyHGi_9PhIKbrGadCAlEHmVmoqo,735
+favicon/models.py,sha256=JfpnDLLnI_vDxHVL9K6alaG6MVVjoi_0p2Q6wJXj1VM,3715
+favicon/migrations/0001_initial.py,sha256=_8bhRlYYKvfz8o4Y4KcrS2V6TAWtzyxr652YQpaZ2Hw,1389
+favicon/migrations/0002_favicon_site.py,sha256=Ym2xd-6HjZmjgi2A_Lnf4zD7sL3m-rOhsDV0P943c0g,668
+favicon/migrations/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+favicon/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+favicon/templatetags/favtags.py,sha256=irLPDf-1fhTQAiYKpkzKXXSsg8ZTpAI1_4xB7TtlAJI,918
+django_favicon_plus_reloaded-1.0.0.dist-info/AUTHORS.txt,sha256=4OZDv2O4PdcjArwrOQW89s6Suce4pO-sO7Anbi-MW04,129
+django_favicon_plus_reloaded-1.0.0.dist-info/LICENSE,sha256=tizeOucnSpQ4pq_QAsVEnj3KiOw1pmAeipcBMWGiL8E,1111
+django_favicon_plus_reloaded-1.0.0.dist-info/METADATA,sha256=zdOWQ0d66EB8_Pu_o7opiPvd134PYcj2pZ3KDopR78E,6601
+django_favicon_plus_reloaded-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_favicon_plus_reloaded-1.0.0.dist-info/top_level.txt,sha256=xEow5ioM_wdjvkrPZXaIzi0vIqvs1zjK_BfdKInTJvw,8
+django_favicon_plus_reloaded-1.0.0.dist-info/RECORD,,
