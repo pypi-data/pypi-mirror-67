@@ -1,0 +1,10 @@
+README.md
+setup.py
+connectors/__init__.py
+connectors/ah.py
+connectors/errors.py
+connectors/jumbo.py
+supermarktconnector.egg-info/PKG-INFO
+supermarktconnector.egg-info/SOURCES.txt
+supermarktconnector.egg-info/dependency_links.txt
+supermarktconnector.egg-info/top_level.txt
