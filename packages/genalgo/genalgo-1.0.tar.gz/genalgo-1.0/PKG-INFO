@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: genalgo
+Version: 1.0
+Summary: Basic Pythonic Implementation of Genetic Algorithm
+Home-page: https://github.com/GOSHROW/genalgo
+Author: GOSHROW
+Author-email: goshrow@gmail.com
+License: MIT
+Download-URL: https://github.com/GOSHROW/genalgo/archive/v1.0-alpha.tar.gz
+Description: UNKNOWN
+Keywords: python,genetic algorithm,GA,algorithms,computational intelligence,CI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
