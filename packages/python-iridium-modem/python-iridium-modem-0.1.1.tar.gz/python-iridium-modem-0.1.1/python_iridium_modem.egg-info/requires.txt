@@ -1,0 +1,9 @@
+pyserial
+python-dateutil
+python-gsmmodem-new
+
+[dev]
+check-manifest
+
+[test]
+coverage
