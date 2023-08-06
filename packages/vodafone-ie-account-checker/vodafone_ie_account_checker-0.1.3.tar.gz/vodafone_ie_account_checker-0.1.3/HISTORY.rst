@@ -1,0 +1,18 @@
+=======
+History
+=======
+
+0.1.0 (2020-04-29)
+------------------
+
+* First release on PyPI.
+
+0.1.2 (2020-04-29)
+------------------
+
+* Basic first working release returning data usage and time since date.
+
+0.1.3 (2020-04-30)
+------------------
+
+* Switch to returning single items in results.
