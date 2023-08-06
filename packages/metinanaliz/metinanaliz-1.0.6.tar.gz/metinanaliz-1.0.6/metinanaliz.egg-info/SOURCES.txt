@@ -1,0 +1,6 @@
+README.md
+setup.py
+metinanaliz.egg-info/PKG-INFO
+metinanaliz.egg-info/SOURCES.txt
+metinanaliz.egg-info/dependency_links.txt
+metinanaliz.egg-info/top_level.txt
