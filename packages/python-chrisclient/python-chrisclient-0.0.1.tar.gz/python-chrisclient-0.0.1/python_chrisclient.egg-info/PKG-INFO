@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: python-chrisclient
+Version: 0.0.1
+Summary: (Python) client for the ChRIS API
+Home-page: https://github.com/FNNDSC/python-chrisclient
+Author: FNNDSC
+Author-email: dev@babymri.org
+License: MIT
+Description: ##################
+        python-chrisclient
+        ##################
+        
+        A python client for the ChRIS API.
+        
+        .. image:: https://travis-ci.org/FNNDSC/python-chrisclient.svg?branch=master
+            :target: https://travis-ci.org/FNNDSC/python-chrisclient
+Platform: UNKNOWN
