@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ecrivain
+Version: 0.1.1
+Summary: 
+Author: Khalid
+Author-email: khalidck@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: XlsxWriter (>=1.2.8,<2.0.0)
+Description-Content-Type: text/x-rst
+
+README
+======
+
+Write nice formatted report with good enough formating.
+
+Install
+-------
+
+Usage
+-----
+
+Write your dataframe with sensible default. No question asked.
+
+.. code:: python
+
+   from ecrivain import xlsx
+
+   xlsx.write(df,'mytable.xlsx')
+
+If you want to have more control use ``autofit``
+
+.. code:: python
+
+   writer = autofit(data,path,sheetname='data',factor=1.1,threshold=250)
+   writer.save()
+
