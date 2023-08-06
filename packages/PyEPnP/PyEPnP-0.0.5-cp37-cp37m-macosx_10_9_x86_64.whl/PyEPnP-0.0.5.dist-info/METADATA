@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyEPnP
+Version: 0.0.5
+Summary: a simple binding of EPnP
+Home-page: https://github.com/Cenbylin/Python-EPnP
+Author: Ancheng Lin
+Author-email: ancheng.lin@ieee.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
