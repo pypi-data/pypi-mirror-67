@@ -1,0 +1,14 @@
+README.md
+setup.py
+trusat/__init__.py
+trusat/caccelerated.c
+trusat/elfind.py
+trusat/iod.py
+trusat/satfit.py
+trusat/satid.py
+trusat/tle_util.py
+trusat.egg-info/PKG-INFO
+trusat.egg-info/SOURCES.txt
+trusat.egg-info/dependency_links.txt
+trusat.egg-info/requires.txt
+trusat.egg-info/top_level.txt

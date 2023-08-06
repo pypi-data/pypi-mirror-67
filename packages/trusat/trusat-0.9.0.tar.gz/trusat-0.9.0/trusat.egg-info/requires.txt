@@ -1,0 +1,5 @@
+cython
+numpy
+sgp4>=2.7
+spacetrack
+trusat_backend==1.1.0
