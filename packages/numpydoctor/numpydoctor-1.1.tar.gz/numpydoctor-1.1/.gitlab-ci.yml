@@ -1,0 +1,43 @@
+image: "python:3.8"
+
+before_script:
+  - python --version
+
+stages:
+  - test
+  - deploy
+
+lint:
+  stage: test
+  before_script:
+    - pip install flake8
+  script:
+    - flake8 numpydoctor
+  allow_failure: true
+
+test:
+  stage: test
+  before_script:
+    - pip install .[testing]
+  script:
+    - nosetests --with-coverage --cover-erase --cover-package=numpydoctor --rednose --verbose
+
+pypi_release:
+  stage: deploy
+  cache: {}
+  script:
+    - pip install twine
+    - python setup.py sdist bdist_wheel
+    - echo $CI_COMMIT_TAG
+    - twine check dist/*
+    # try uploading to testbed first
+    - twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+    - pip install --no-deps --index-url https://test.pypi.org/simple/ numpydoctor
+    - pip uninstall numpydoctor -y
+    # now publish for real
+    - twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+    - pip install numpydoctor
+    - numpydoctor --help
+    - pip uninstall numpydoctor -y
+  only:
+    - tags

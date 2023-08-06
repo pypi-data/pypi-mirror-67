@@ -1,0 +1,3 @@
+[console_scripts]
+numpydoctor = numpydoctor.__main__:main
+
