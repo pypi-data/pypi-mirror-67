@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: handshake-client
+Version: 0.0.0
+Summary: Handshake API client by Python
+License: MIT
+Author: naoki-maeda
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: python-bitcoinrpc (>=1.0,<2.0)
+Requires-Dist: python-socketio[client] (>=4.5.1,<5.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
