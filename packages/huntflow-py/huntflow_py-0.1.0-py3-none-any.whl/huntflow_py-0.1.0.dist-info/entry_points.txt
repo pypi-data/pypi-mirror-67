@@ -1,0 +1,3 @@
+[console_scripts]
+test=python3-mdoctest./huntflow_py/*
+
