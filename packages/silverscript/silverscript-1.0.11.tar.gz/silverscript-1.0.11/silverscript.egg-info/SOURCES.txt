@@ -1,0 +1,17 @@
+README.md
+setup.py
+silver/__init__.py
+silver/script.py
+silver/src/Git.py
+silver/src/__init__.py
+silver/src/tests/__init__.py
+silver/src/tests/test_add.py
+silver/src/tests/test_clone.py
+silver/src/tests/test_commit.py
+silver/src/tests/test_privateClone.py
+silver/src/tests/test_push.py
+silverscript.egg-info/PKG-INFO
+silverscript.egg-info/SOURCES.txt
+silverscript.egg-info/dependency_links.txt
+silverscript.egg-info/entry_points.txt
+silverscript.egg-info/top_level.txt
