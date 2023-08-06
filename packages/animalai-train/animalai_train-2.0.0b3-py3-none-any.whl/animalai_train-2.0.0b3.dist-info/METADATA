@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: animalai-train
+Version: 2.0.0b3
+Summary: Animal AI training library
+Home-page: https://github.com/beyretb/AnimalAI-Olympics
+Author: Benjamin Beyret
+Author-email: beyretb@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.1
+Requires-Dist: animalai (==2.0.0b3)
+Requires-Dist: mlagents (==0.15.0)
+
+UNKNOWN
+
+
