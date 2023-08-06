@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: take_photo
+Version: 1.0.1
+Summary: Take a photo with a webcam
+Home-page: https://github.com/m-nez/take_photo
+Author: Michał Nieznański
+Author-email: nieznanm@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
