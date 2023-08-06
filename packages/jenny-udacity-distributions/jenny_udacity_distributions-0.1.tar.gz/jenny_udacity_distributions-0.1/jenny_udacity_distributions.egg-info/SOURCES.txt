@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jenny_udacity_distributions/Binomialdistribution.py
+jenny_udacity_distributions/Gaussiandistribution.py
+jenny_udacity_distributions/Generaldistribution.py
+jenny_udacity_distributions/__init__.py
+jenny_udacity_distributions.egg-info/PKG-INFO
+jenny_udacity_distributions.egg-info/SOURCES.txt
+jenny_udacity_distributions.egg-info/dependency_links.txt
+jenny_udacity_distributions.egg-info/not-zip-safe
+jenny_udacity_distributions.egg-info/top_level.txt
