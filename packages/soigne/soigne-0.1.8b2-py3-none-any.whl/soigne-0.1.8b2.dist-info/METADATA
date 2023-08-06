@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: soigne
+Version: 0.1.8b2
+Summary: A Python application framework.
+Home-page: https://github.com/jm-organization/soigne
+Author: gromovjm
+Author-email: vany.58.98.2013@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: pygame (==2.0.0.dev6)
+Requires-Dist: python-version (>"3.8")
+
+UNKNOWN
+
+
