@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: wielder
+Version: 0.1
+Summary: A reactive debuggable CI-CD & orchestration management tool for local & cloud deployments e.g. kubernetes, airflow & data lakes
+Home-page: https://github.com/hamshif/Wielder.git
+Author: Hamshif
+Author-email: hamshif@gmail.com
+License: Apache License Version 2.0
+Download-URL: https://github.com/hamshif/Wielder/archive/v0.1-beta.tar.gz
+Description: UNKNOWN
+Keywords: CI-CD,Kubernetes,Reactive
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
