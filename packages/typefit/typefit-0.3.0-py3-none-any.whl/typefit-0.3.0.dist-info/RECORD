@@ -1,0 +1,15 @@
+typefit/__init__.py,sha256=b9E3Bm41M5RUdU5bwZysgEwLoZxACYlNzUfa2t4YDlo,198
+typefit/api.py,sha256=PHNUDuQn19ocWeN5oszGZqwrfAXFC532JotGGbdyYgQ,13821
+typefit/compat.py,sha256=sS1T3PCAD5ROKFKN5SObNhtZsGC47gvVBi4nL1OxfY8,1966
+typefit/fitting.py,sha256=T8TEGxweBEn0MuBYFyzl61hqvOt6EC8EGQn7-XFE0Q4,7084
+typefit/httpx_models.py,sha256=__fiXypbLElUj0li4diQlW8RmGWPfzFoB0FsrQsmNFs,458
+typefit/meta.py,sha256=2zypkW_0apOv5faoEgCd4_kWwZaPIoY1F4Z3oPAw8aU,1644
+typefit/narrows.py,sha256=TyqOwHtUqq911AAzYcjAKNXqrGiE0d9MkGOOu9zmDtY,1204
+typefit/nodes.py,sha256=saaFEJsRFVNv9rLwlztzo2ZMc2cFEwkQcwxN1HhFB_4,14751
+typefit/reporting.py,sha256=8pVjQiICJj-SEFVqYcoFmK2Ss8cysSdAQpZTrAzmxk0,9698
+typefit/serialize.py,sha256=gbScanCoD2y8CEKpoJb4tjeLODV5EXP0dGLZrI_14B4,7517
+typefit/utils.py,sha256=9yGDywwFN-4n9GoZJYHOolkYw85xJ2DwZ0vFoxRnbH4,2895
+typefit-0.3.0.dist-info/LICENSE,sha256=djc4a1-B6KcZyjNiMxSQBeX6KLXmBU6ntn3kk1WwrUA,484
+typefit-0.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+typefit-0.3.0.dist-info/METADATA,sha256=yCRp-TzbZZqLOhVddtzJ2nFkU_pLOo1-2OEtJ7gd55E,2240
+typefit-0.3.0.dist-info/RECORD,,
