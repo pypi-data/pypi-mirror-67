@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nepal-company-registrar
+Version: 0.0.1
+Summary: A package for nepal company registrar
+Home-page: https://github.com/sbishnu019/nepal-company-registrar.git
+Author: Bishnu Sharma
+Author-email: sbishnu019@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/sbishnu019/nepal-company-registrar/archive/v0.0.1.tar.gz
+Description: # Nepal Company Registrar
+        
+        Nepal Company Registrar is a Python library for dealing with companies registered in Nepal Company Registrar.
+        
+        
+        ## Usage
+        Nepal Company Registrar
+        
+        ```python
+        from nepali_company_registrar import NepalCompanyRegistrar
+        
+        nepali_company_registrar = NepalCompanyRegistrar(company_name_input='AGRICULTURAL DEVELOPMENT BANK') # for company input
+        
+        nepali_company_registrar.is_valid()   # returns "True" if it is registered company name
+                                              # returns "False" if it is not registered in company registrar
+        
+        nepali_company_registrar.get_company_detail()      # returns company detail eg. {'name': 'AGRICULTURAL DEVELOPMENT BANK', 'name_in_nepali': 'कृषि विकास बैंक', 'registration_number': '928', 'registration_date': '2062-3-30', 'company_type': 'Public', 'share_holder': None, 'address': 'का.म.न.पा.-११,काठमाण्डौ,बाग्मती'}
+        
+        nepali_company_registrar.list_similar_companies()    # returns list of similar companies registered in company registrar
+        ```
+        
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
