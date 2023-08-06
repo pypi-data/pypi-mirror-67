@@ -1,0 +1,15 @@
+gift_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gift_wrapper/colors.py,sha256=pl-Ve0a_48qLFh2Jtv_UpzOwQxegKYhO-qWfiV1-MPk,254
+gift_wrapper/core.py,sha256=_sFW5Q8qizm_F-TFIS_itvdoftwzgePJi-teVFWzKeo,4887
+gift_wrapper/gift.py,sha256=rCAfBXS_ZkI9aVWUX1ciO_6MGyEyI1P95WCTjQ9dtOM,3759
+gift_wrapper/image.py,sha256=n0rDNj5E736XlkUyxDcE7a5_T_k_PB68a44b0t13J98,1643
+gift_wrapper/latex.py,sha256=CLkh5a1HsqS7iO_GFbWDgOzwSqLWa8VEsb57bSmxnTI,1720
+gift_wrapper/question.py,sha256=kOyCg1taNfVXRz35-l286MKyFExyE98Z6vNhmc7U9Ro,10372
+gift_wrapper/remote.py,sha256=ytvEaU_UW1p4KRtE28kLvDDv-HYPuRsc-y455rco7YY,3756
+gift_wrapper/wrap.py,sha256=9O4wIfkRReWTLuQg7yhci8tAd3bLGBpVrsWCd622it0,4232
+gift_wrapper-1.2.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gift_wrapper-1.2.5.1.dist-info/METADATA,sha256=QL-OKRfah90eeCPByWXqJE_7XoP0V7IcpBUnCo6AHbs,8358
+gift_wrapper-1.2.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gift_wrapper-1.2.5.1.dist-info/entry_points.txt,sha256=SIL6kUnFwLEnZIdBZpifJh264dMtq9_HtlhAmHlBRJc,52
+gift_wrapper-1.2.5.1.dist-info/top_level.txt,sha256=0V_BO7gCtRm7j1dt-boJ-T2NZKK0FLHM5zLt6iRsnyA,13
+gift_wrapper-1.2.5.1.dist-info/RECORD,,
