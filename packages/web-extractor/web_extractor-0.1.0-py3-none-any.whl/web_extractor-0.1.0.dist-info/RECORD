@@ -1,0 +1,13 @@
+web_extractor/__init__.py,sha256=CvbqlFMlMuXa2oj6C1ocl8c80EmFBoG4ajj-K-_F7BE,256
+web_extractor/cons.py,sha256=0IdtvnUonhkqXszb8zcbJAcDvm5hU0IdrKvItEL8A5Y,5744
+web_extractor/utils.py,sha256=aaY4KtdmcplHE85QLvHrNN7ePmU834I59QeZSTRTcbA,3883
+web_extractor/new_extractor/AuthorExtractor.py,sha256=9kuUkkQFGNw3YMIh6O5YCJm6Ide76sQy9T80vJU_gh0,707
+web_extractor/new_extractor/ContentExtractor.py,sha256=vKt_iWZFnZHj2b3ySMaQdpRTglj12ARPrwHjvu5aPQE,5474
+web_extractor/new_extractor/NewExtractor.py,sha256=aeuqo3el7uNECPNcszh47Ff2jj5fE_D_h_DGa0oJCxk,187
+web_extractor/new_extractor/TimeExtractor.py,sha256=hnDNm8HJ0oeNDcys0rMSEoSU9pgA893fEHFlOwZ8VTs,1772
+web_extractor/new_extractor/TitleExtractor.py,sha256=5JllgYAzlemctN8PkotUKqy9YxgLmRvf1h3HZToZ6cQ,1200
+web_extractor/new_extractor/__init__.py,sha256=9gyRt-8KXTD7t2CEdUc2plsgNKOLzkJ-nlEWhBUpFr0,1876
+web_extractor-0.1.0.dist-info/METADATA,sha256=3SQ2agmzBUvvsYmUDwc-B2UXWJQHuLBczJJvEJsnwGY,351
+web_extractor-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+web_extractor-0.1.0.dist-info/top_level.txt,sha256=I09cUWBUCGylYd2KrdClqHtKMsgwUk0BmGdCFp3uQH4,14
+web_extractor-0.1.0.dist-info/RECORD,,
