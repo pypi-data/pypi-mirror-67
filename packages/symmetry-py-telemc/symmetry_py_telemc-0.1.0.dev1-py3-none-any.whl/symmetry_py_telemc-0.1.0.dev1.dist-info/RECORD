@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/testutil.py,sha256=LncQy6M3Y8O9lhZEK_U04Kq-Z6ZMNoQSf63zAInBGCc,624
+tests/telemc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/telemc/test_recorder.py,sha256=1YdsltAfXJFM6hxrPMCRFfzVX1nr1m3J9uD9FOk6ONo,2410
+symmetry_py_telemc-0.1.0.dev1.dist-info/METADATA,sha256=w1o7UN-tPUakkxiOpx1o6JHSJaLwxKuvUk8xih6DQHc,499
+symmetry_py_telemc-0.1.0.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+symmetry_py_telemc-0.1.0.dev1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+symmetry_py_telemc-0.1.0.dev1.dist-info/RECORD,,
