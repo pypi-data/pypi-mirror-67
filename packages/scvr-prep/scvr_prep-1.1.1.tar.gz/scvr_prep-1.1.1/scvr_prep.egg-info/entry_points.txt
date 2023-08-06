@@ -1,0 +1,3 @@
+[console_scripts]
+scvr_prep = scvr_prep.command_line:main
+
