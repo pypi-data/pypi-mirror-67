@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+fdir.egg-info/PKG-INFO
+fdir.egg-info/SOURCES.txt
+fdir.egg-info/dependency_links.txt
+fdir.egg-info/top_level.txt
+src/_error_types_.h
+src/_fdir_.c
+src/_fdir_.h
