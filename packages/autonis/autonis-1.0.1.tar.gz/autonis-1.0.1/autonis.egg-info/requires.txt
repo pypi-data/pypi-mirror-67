@@ -1,0 +1,5 @@
+urllib3
+wikipedia
+requests
+bs4
+speedtest-cli

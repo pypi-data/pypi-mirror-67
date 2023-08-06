@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+autonis/__init__.py
+autonis.egg-info/PKG-INFO
+autonis.egg-info/SOURCES.txt
+autonis.egg-info/dependency_links.txt
+autonis.egg-info/requires.txt
+autonis.egg-info/top_level.txt
