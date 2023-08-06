@@ -1,0 +1,11 @@
+lmproof/__init__.py,sha256=n6mJ72jjkW0WY80VNwoJJ1u658B6_lnZb6wrYwNXEM8,69
+lmproof/candidate_generators.py,sha256=1PRBMTuM_YDqBsxao-OZKOMnUnCEkmshRWN4re4i2rU,5327
+lmproof/edit.py,sha256=SYIZfXHqPbyMLTEWXFcvzbtk_oQHx-Z-UEORAVXFmxA,185
+lmproof/proofreader.py,sha256=ilxukOyYHnhn1RymxJUixRTK3b-98Hl7jnvL8lDf1A8,5575
+lmproof/resources/frequency_dictionary_en_82_765.txt,sha256=QyI6qDtVUZhR1ck7r5b3hD5fVBDyYjqc4mNAmrUDFLI,1331886
+lmproof/scorer.py,sha256=PDjVS_rtWM43g8wuv14zIHHPHVg5rp2OEDOHH1AQARg,4172
+lmproof/substitutions.py,sha256=FpWhDr5r5qVgsZLN2IyHn6v1RSs8ZZDqE3iACM4Z0Sg,571
+lmproof-0.3.0.dist-info/LICENSE.md,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+lmproof-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+lmproof-0.3.0.dist-info/METADATA,sha256=vvIZYWXwOM8NFf2_o61_tlt8r-CSbmAB9zlc7MwfLfE,3392
+lmproof-0.3.0.dist-info/RECORD,,
