@@ -1,0 +1,8 @@
+# Include the license file
+include LICENSE
+
+# Include readme file
+include README.rst
+
+# Include datasets
+recursive-include sklearn/datasets *.csv *.csv.gz
