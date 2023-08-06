@@ -1,0 +1,4 @@
+[fs.opener]
+http = httpfs:HttpFsOpener
+https = httpfs:HttpFsOpener
+
