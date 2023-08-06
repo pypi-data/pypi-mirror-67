@@ -1,0 +1,11 @@
+ndx_bipolar_scheme/__init__.py,sha256=eQ3XRGhldYJ_Zy1Y2bWHKGRkrDCRrESN1wa9g-fEd8s,719
+ndx_bipolar_scheme/bipolar_scheme.py,sha256=t_SACCgmnckPE47Bry3imRg13Nx-EBCQ6_aIjGxmsO4,1506
+ndx_bipolar_scheme/spec/ndx-bipolar-scheme.extensions.yaml,sha256=IyOK421dsRRmrI4eXJ59WeqlNj6RmxQNjG_gbA8M9Hs,1156
+ndx_bipolar_scheme/spec/ndx-bipolar-scheme.namespace.yaml,sha256=8TBK0T1mAo8Tsnx1mYfG9BJp0Pd3fJsc472SQviNyT0,388
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ext.py,sha256=ucHaFdalUUlINLAF-uRzss7XmcJ87mT7KjVQyYZ7BUc,2106
+ndx_bipolar_scheme-0.3.0.dist-info/LICENSE,sha256=J1G58Db5XLqRxqN5gnlfYlvkO0B7TDZYWTOEQ9DI0VE,1530
+ndx_bipolar_scheme-0.3.0.dist-info/METADATA,sha256=051TfNLaqz8S9c2qBEILoMG8rcF1qEz6eSYvnxPkMw8,3068
+ndx_bipolar_scheme-0.3.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ndx_bipolar_scheme-0.3.0.dist-info/top_level.txt,sha256=VlSrN1I4sfvnRNIbjHyslBCEl78d0OrxN7TVTuKKSTo,25
+ndx_bipolar_scheme-0.3.0.dist-info/RECORD,,
