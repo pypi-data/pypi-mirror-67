@@ -1,0 +1,9 @@
+SCBert/SCBert.py,sha256=bBqpKF8gkunMzM_K0r3CoiYGkyUrhYKoEZ7WQQMopZA,16915
+SCBert/__init__.py,sha256=UqfYShw7db1ojLwVlTOgZ0JrIOoSmu9SCrwppxhUad8,108
+SCBert/load_data.py,sha256=WkSLnEsXK0Kz7gkOze55F5r_QGPcHCOlD3Q_2ZbZjrQ,362
+SCBert/data/CLS-fr.csv,sha256=vXeY4HKk1x3xrNCCqUKl1PequXoslIowS_cxUDkBg94,4038792
+SCBert-0.0.3.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+SCBert-0.0.3.dist-info/METADATA,sha256=Xm2s8pnsaDDCxQf3mVGxr2A9H8P52oR3vHPPdEkDVG4,2525
+SCBert-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SCBert-0.0.3.dist-info/top_level.txt,sha256=vDIddf2n0azIsFTm4UC_B5M3HXOhHYghh5BheyBZKIY,7
+SCBert-0.0.3.dist-info/RECORD,,
