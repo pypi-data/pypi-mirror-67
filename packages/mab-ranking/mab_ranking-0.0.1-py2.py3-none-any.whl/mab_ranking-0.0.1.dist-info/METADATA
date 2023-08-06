@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: mab-ranking
+Version: 0.0.1
+Summary: Online Ranking with Multi-Armed-Bandits
+Home-page: https://github.com/Kenza-AI/mab-ranking
+Author: Pavlos Mitsoulis Ntompos, Ioakeim (Joakim) Lazakis
+Author-email: pavlos@kenza.ai, joakim@kenza.ai
+License: MIT
+Keywords: mab-ranking machine-learning machine-learning-deploy machine-learning-production multi-armed-bandits ranking online-ranking multi-armed-bandits-production
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Environment :: Console
+Requires-Python: ~=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: paramiko (<2.4.99,>=2.4.2)
+Requires-Dist: pathlib2 (<2.3.99,>=2.3.0)
+Requires-Dist: requests (<2.20.99,>=2.20.0)
+Requires-Dist: sagemaker (<1.50.99,>=1.50.0)
+Requires-Dist: six (<1.11.99,>=1.10)
+Requires-Dist: future (<0.17.99,>=0.16.0)
+
+# mab-ranking
+
+A library for Online Ranking with Multi-Armed-Bandits. This library is useful to find the best Top N items among a relatively small candidate set. 
+
+For example:
+1. Show the Top 5 News Articles among 200 articles every day
+2. Recommend the Top 10 Trending Products every week
+3. Rank components on websites to drive more engagement (Whole Page Optimization)
+
+## Installation
+
+### Prerequisites
+
+mab-ranking requires the following:
+
+1. Python (3.6, 3.7, 3.8)
+
+### Install mab-ranking
+
+At the command line:
+
+    pip install mab-ranking
+
+## Getting started
+
+Let's say that you want to recommend the top 5 trending products to your website visitors every week among the 300 most selling products. Every Monday at some time T you'll define a new `RankBandit` implementation. For example:
+
+```
+num_ranks = 5
+num_arms = 300
+rank_bandit = IndependentBandits(num_ranks, BetaThompsonSampling, num_arms=num_arms)
+```
+
+Then, every time a visitor X is landed on your home page for the rest of the week, you need to select which 5 products to show them in section `Top Trending Products`. So, you'll do the following:
+
+```
+selected_arms = rank_bandit.choose()
+```
+
+Let's say that the `selected_arms` equals `[30, 2, 200, 42]`. That means that you need to show products, 30, 2, 200 and 42 in this order. You can keep your own mapping from product UUIDS to integer arm ids in your app's business logic.
+
+The visitor X viewed this selected order. Let's say that (s)he clicked on products 2 and 42. Then the `rewards` list will be `[0.0, 1.0, 0.0, 1.0]`. So:
+
+```
+rewards = [0.0, 1.0, 0.0, 1.0]
+rank_bandit.choose(selected_arms, rewards)
+```
+
+## Implementation Details
+
+Implementations of `RankBandit`:
+- `IndependentBandits`: from [Microsoft Paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/kss_aaai2013.pdf), "A Fast Bandit Algorithm for Recommendations to Users with Heterogeneous" 
+
+Implementations of `Bandit`:
+- `BetaThompsonSampling`: Beta Thompson Sampling MAB
+
+

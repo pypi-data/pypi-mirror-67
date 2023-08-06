@@ -1,0 +1,14 @@
+mab_ranking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mab_ranking/bandits/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mab_ranking/bandits/bandits.py,sha256=Jo9cVoaYNTphDHXwnw7vTf7VvpnzuuEGReKyRp8_EcM,2074
+mab_ranking/bandits/rank_bandits.py,sha256=GQ9_1bbH29lumGiFaYQxy_WXErMxYVMQ8thdPe9WT8Q,2190
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bandits/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bandits/test_bandits.py,sha256=6ziXvXG9CLizEgn3eSVWGnoCdoGSdyh3hiGraRazTp0,1282
+tests/bandits/test_rank_bandits.py,sha256=1bS_0fTNgHIxy59vuwocy9X5Wwnz59_uJ4W7_ZCPo-U,1624
+mab_ranking-0.0.1.dist-info/LICENSE,sha256=ovjynJBxzJyqtYaJhRyO2rLdlXcJIhZeBv2S4zpOGfM,1062
+mab_ranking-0.0.1.dist-info/METADATA,sha256=0aTCF_LUWQocXLiaf64r7r8wYR4ukTLPCrXfDK5A3Z0,3377
+mab_ranking-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+mab_ranking-0.0.1.dist-info/top_level.txt,sha256=awDyN6xixPbjxURWr4X7BNPGGftN8z_GTHg0YTrxhV4,18
+mab_ranking-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mab_ranking-0.0.1.dist-info/RECORD,,
