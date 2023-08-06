@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-image
+pillow
+n2
+urwid
+
+[develop]
+pytest
+pytest-cov
+sphinx
+sphinx_autodoc_typehints
