@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cthreepo
+Version: 0.1
+Summary: A python tool to interconvert seq-ids in gff3, gtf, bed and other files.
+Home-page: http://github.com/vkkodali/cthreepo
+Author: Vamsi Kodali
+Author-email: vkkodali@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
