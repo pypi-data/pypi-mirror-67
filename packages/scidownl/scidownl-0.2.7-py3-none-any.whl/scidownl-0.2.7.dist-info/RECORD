@@ -1,0 +1,12 @@
+scidownl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scidownl/cur_scihub_index.txt,sha256=a4ayc_80_OGda4BO_1o_V0etpOqiLx1JwB5S3beHW0s,1
+scidownl/link.txt,sha256=5CvSnd4ooyAUdn-Z7naLH7Tc3hnM1Dbb4TDaaDY2AiU,111
+scidownl/scidownl.py,sha256=Ec44SlvtW1jGnyhKnR5_ISKhb3qzCNDFOhCBoaRKmtY,2279
+scidownl/scihub.py,sha256=UCZ02Gzr5BNPCEgqy2HGs0cTzYcuX1a9ulh-758O9lU,9368
+scidownl/update_link.py,sha256=LDlw4GUCGvQ2QNfYy86rgFhnVBFYKL45-AdQCDQopiw,2595
+scidownl-0.2.7.dist-info/LICENSE,sha256=clx0CseHpEPp8F1Z6-w8QEOIHXwfuPafxJyxscTpHkA,1064
+scidownl-0.2.7.dist-info/METADATA,sha256=iv10hxm7aBCFqLx1wc6v9KJXCa9LtwzqEzOCsnq65X4,4088
+scidownl-0.2.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scidownl-0.2.7.dist-info/entry_points.txt,sha256=97XM-QwTDf8Aa2Fj_8JQrzuZW7PUNLYZ3kqa93WeYy0,53
+scidownl-0.2.7.dist-info/top_level.txt,sha256=JwEngUjZvECTImdzgsKqW7H5q4v4gcNA3GoDtj2X-8U,9
+scidownl-0.2.7.dist-info/RECORD,,
