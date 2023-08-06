@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "requests_security_extra"
+dist-name = "requests-security-extra"
+author = "Seth Michael Larson"
+author-email = "sethmichaellarson@gmail.com"
+home-page = "https://github.com/psf/requests"
+classifiers = ["License :: OSI Approved :: MIT License"]
