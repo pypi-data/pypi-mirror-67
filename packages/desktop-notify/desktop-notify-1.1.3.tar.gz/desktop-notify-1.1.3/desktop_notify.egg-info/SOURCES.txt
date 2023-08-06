@@ -1,0 +1,12 @@
+README.md
+setup.py
+desktop_notify/__init__.py
+desktop_notify/action.py
+desktop_notify/notify.py
+desktop_notify/server.py
+desktop_notify.egg-info/PKG-INFO
+desktop_notify.egg-info/SOURCES.txt
+desktop_notify.egg-info/dependency_links.txt
+desktop_notify.egg-info/entry_points.txt
+desktop_notify.egg-info/requires.txt
+desktop_notify.egg-info/top_level.txt
