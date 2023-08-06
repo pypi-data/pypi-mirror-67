@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: tethys
+Version: 0.0.0
+Summary: A flexible open-source platform for data streams management
+Home-page: https://tethys.xyz/
+Author: Vadim Sharay
+Author-email: vadim.sharay@tethys.xyz
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.5.2
+Description-Content-Type: text/markdown
+Requires-Dist: requests (~=2.22)
+Requires-Dist: serobj (~=0.0)
+Requires-Dist: uritools (~=2.2)
+Requires-Dist: persist-queue (~=0.5)
+Requires-Dist: click (==7.0)
+Requires-Dist: pid (~=2.2)
+Requires-Dist: jsonpath-ng (~=1.4)
+Requires-Dist: pyyaml (~=5.1)
+Requires-Dist: python-daemon (~=2.2)
+Provides-Extra: all
+Requires-Dist: pymongo (~=3.10) ; extra == 'all'
+Requires-Dist: pika (~=1.1) ; extra == 'all'
+Requires-Dist: kafka-python (~=2.0) ; extra == 'all'
+Requires-Dist: tox (~=3.14) ; extra == 'all'
+Requires-Dist: pre-commit (~=1.20) ; extra == 'all'
+Requires-Dist: flake8 (~=3.7) ; extra == 'all'
+Requires-Dist: flake8-black (~=0.1) ; extra == 'all'
+Requires-Dist: black (==19.10b0) ; extra == 'all'
+Requires-Dist: bandit (~=1.6) ; extra == 'all'
+Requires-Dist: pytest (~=5.0) ; extra == 'all'
+Requires-Dist: pytest-cov (~=2.8) ; extra == 'all'
+Requires-Dist: pytest-env (~=0.6) ; extra == 'all'
+Requires-Dist: pytest-xdist (~=1.30) ; extra == 'all'
+Requires-Dist: sphinx (~=2.2) ; extra == 'all'
+Requires-Dist: sphinx-autoapi (~=1.2) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (~=0.4) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: tox (~=3.14) ; extra == 'dev'
+Requires-Dist: pre-commit (~=1.20) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.7) ; extra == 'dev'
+Requires-Dist: flake8-black (~=0.1) ; extra == 'dev'
+Requires-Dist: black (==19.10b0) ; extra == 'dev'
+Requires-Dist: bandit (~=1.6) ; extra == 'dev'
+Requires-Dist: pytest (~=5.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.8) ; extra == 'dev'
+Requires-Dist: pytest-env (~=0.6) ; extra == 'dev'
+Requires-Dist: pytest-xdist (~=1.30) ; extra == 'dev'
+Requires-Dist: sphinx (~=2.2) ; extra == 'dev'
+Requires-Dist: sphinx-autoapi (~=1.2) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (~=0.4) ; extra == 'dev'
+Provides-Extra: extended
+Requires-Dist: pymongo (~=3.10) ; extra == 'extended'
+Requires-Dist: pika (~=1.1) ; extra == 'extended'
+Requires-Dist: kafka-python (~=2.0) ; extra == 'extended'
+Provides-Extra: kafka
+Requires-Dist: kafka-python (~=2.0) ; extra == 'kafka'
+Provides-Extra: mongo
+Requires-Dist: pymongo (~=3.10) ; extra == 'mongo'
+Provides-Extra: rabbit
+Requires-Dist: pika (~=1.1) ; extra == 'rabbit'
+
+<!--
+ Copyright 2020 Konstruktor, Inc. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+
+# Tethys
+
+[![License](http://img.shields.io/:license-Apache%202-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+Tethys is a flexible, open-source platform for data flow management.
+Tethys use all features of python language (version 3) to accomplish objectives in managing your data flows.
+
+
+## Getting started
+
+Run ``pip install tethys`` to install the latest stable version from [PyPI](https://pypi.python.org/pypi/tethys). 
+
+[Documentation of project](https://tethys.readthedocs.io/en/stable/) is hosted on https://readthedocs.org/.
+
