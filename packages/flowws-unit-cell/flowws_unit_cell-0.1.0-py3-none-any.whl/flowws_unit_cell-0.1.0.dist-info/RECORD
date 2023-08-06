@@ -1,0 +1,11 @@
+flowws_unit_cell/BasisSelection.py,sha256=b12OpmC2V170gW001lW9oobmuI16ExLEHco6vm9OgRs,11292
+flowws_unit_cell/CenterSpaceGroup.py,sha256=_TwMA0O6RM3CPFxOaRV3CK-xHmAioZEwnk6g8yTlpyE,4304
+flowws_unit_cell/Projection.py,sha256=9VipP4YKgtU44W8R3UebWkSEPDj9ZY8R84aUJ_LB6pk,6929
+flowws_unit_cell/__init__.py,sha256=n_bZkpG7zRJAmh3fuk45P3MoVBcDfknZ4dXd1l-RJGk,296
+flowws_unit_cell/version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+flowws_unit_cell-0.1.0.dist-info/LICENSE.txt,sha256=naEQI2M8m4CeqXy5YEF991GYzdCH2yxnaKpHt9BE3hY,1547
+flowws_unit_cell-0.1.0.dist-info/METADATA,sha256=ThRN5BitynWZ1PbcIIdvtTduF7cLOXlCBAIdhlOkFV0,1861
+flowws_unit_cell-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flowws_unit_cell-0.1.0.dist-info/entry_points.txt,sha256=JNhPzGNe0B_nvrKDeFwfb8TP-QHPSFbd95hOPuQXcIQ,441
+flowws_unit_cell-0.1.0.dist-info/top_level.txt,sha256=lGOuTCd3lurTbf1E3BcRdJtzl4sOneL2YWS07_rpSdw,17
+flowws_unit_cell-0.1.0.dist-info/RECORD,,

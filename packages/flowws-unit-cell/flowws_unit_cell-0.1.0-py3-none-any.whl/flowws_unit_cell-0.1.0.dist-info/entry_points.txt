@@ -1,0 +1,8 @@
+[flowws_modules]
+BasisSelection = flowws_unit_cell.BasisSelection:BasisSelection
+CenterSpaceGroup = flowws_unit_cell.CenterSpaceGroup:CenterSpaceGroup
+Projection = flowws_unit_cell.Projection:Projection
+flowws_unit_cell.BasisSelection = flowws_unit_cell.BasisSelection:BasisSelection
+flowws_unit_cell.CenterSpaceGroup = flowws_unit_cell.CenterSpaceGroup:CenterSpaceGroup
+flowws_unit_cell.Projection = flowws_unit_cell.Projection:Projection
+
