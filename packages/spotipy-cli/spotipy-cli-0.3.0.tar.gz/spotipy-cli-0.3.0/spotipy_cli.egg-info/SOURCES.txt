@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+spotipy_cli/__init__.py
+spotipy_cli/__main__.py
+spotipy_cli/config.py
+spotipy_cli/webApi.py
+spotipy_cli.egg-info/PKG-INFO
+spotipy_cli.egg-info/SOURCES.txt
+spotipy_cli.egg-info/dependency_links.txt
+spotipy_cli.egg-info/entry_points.txt
+spotipy_cli.egg-info/not-zip-safe
+spotipy_cli.egg-info/requires.txt
+spotipy_cli.egg-info/top_level.txt
+spotipy_cli/auth/__init__.py
+spotipy_cli/auth/spotipyAuth.py
