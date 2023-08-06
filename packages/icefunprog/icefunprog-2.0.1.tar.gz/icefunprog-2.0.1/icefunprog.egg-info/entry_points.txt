@@ -1,0 +1,3 @@
+[console_scripts]
+icefunprog = icefunprog.__main__:main
+
