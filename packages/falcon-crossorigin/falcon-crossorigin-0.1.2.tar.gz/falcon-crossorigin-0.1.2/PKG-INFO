@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: falcon-crossorigin
+Version: 0.1.2
+Summary: Falcon cross-origin middleware
+Home-page: http://github.com/admiralobviou/falcon-crossorigin
+Author: Alexandre Ferland
+Author-email: aferlandqc@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
