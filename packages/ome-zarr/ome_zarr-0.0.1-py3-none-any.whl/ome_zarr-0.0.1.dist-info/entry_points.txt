@@ -1,0 +1,3 @@
+[napari.plugin]
+ome_zarr = ome_zarr
+
