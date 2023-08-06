@@ -1,0 +1,9 @@
+README.md
+setup.py
+devalpdf.egg-info/PKG-INFO
+devalpdf.egg-info/SOURCES.txt
+devalpdf.egg-info/dependency_links.txt
+devalpdf.egg-info/top_level.txt
+pdf/__init__.py
+pdf/pdf2image.py
+pdf/pdf2text.py
