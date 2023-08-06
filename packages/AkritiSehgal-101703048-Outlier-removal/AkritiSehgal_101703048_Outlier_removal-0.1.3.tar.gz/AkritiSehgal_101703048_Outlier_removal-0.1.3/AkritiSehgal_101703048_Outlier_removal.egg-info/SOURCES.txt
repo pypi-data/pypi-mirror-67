@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+AkritiSehgal_101703048_Outlier_removal/__init__.py
+AkritiSehgal_101703048_Outlier_removal/outlier_removal.py
+AkritiSehgal_101703048_Outlier_removal.egg-info/PKG-INFO
+AkritiSehgal_101703048_Outlier_removal.egg-info/SOURCES.txt
+AkritiSehgal_101703048_Outlier_removal.egg-info/dependency_links.txt
+AkritiSehgal_101703048_Outlier_removal.egg-info/top_level.txt
