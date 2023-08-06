@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: libjpg-bins
+Version: 0.0.8
+Summary: Libraries for LibJPG Turbo on Alpine Linux
+Home-page: https://github.com/spencer-hanson/libjpeg-turbo
+Author: Spencer Hanson
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Libraries for LibJPG Turbo on Alpine Linux
+Keywords: libjpg
+Platform: UNKNOWN
