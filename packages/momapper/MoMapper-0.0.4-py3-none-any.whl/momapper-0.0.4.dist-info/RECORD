@@ -1,0 +1,12 @@
+momapper/__init__.py,sha256=gCEY9geXRpeJZ81cEvy-uS8idkMViasVckiCgrA6kNw,370
+momapper/fields.py,sha256=NV6eAt4cBaq64fhJRgMMeXfbp0KsUeDrsPd4tPdrF-s,3964
+momapper/mappedclass.py,sha256=CXg0eiNVEWqkIGhXHzlAGd3xt-oEG65VejBB9lhBoHs,2805
+momapper/mongodb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+momapper/mongodb/collection.py,sha256=2iqMAtrdwaecH4w2ISczMiKlQVAq4OgeWZGhNsYmpwE,2127
+momapper/mongodb/cursor.py,sha256=vFDG10OTwrNAz5DRN-DQ6s9lD3ZgX_TI35mE-E8kapM,872
+momapper/mongodb/manager.py,sha256=k9CcAwmRTnjWsXPQdldb3tLvJh3Lw08RbNLYfi5Q-4w,1772
+momapper/types.py,sha256=5CqGIKrnQor_zZoiXZYWD_oPPaj_VgcsYtX-k9qc3OI,3584
+momapper-0.0.4.dist-info/LICENSE,sha256=BhQA_ZxEH2Z9D4phjo_7YNWv5iBH8ryQCXb7e8L65xQ,1080
+momapper-0.0.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+momapper-0.0.4.dist-info/METADATA,sha256=clEUg1us-rBaQdHKVeyT8vpwm81jhK-mPsy5iZeemU8,1995
+momapper-0.0.4.dist-info/RECORD,,
