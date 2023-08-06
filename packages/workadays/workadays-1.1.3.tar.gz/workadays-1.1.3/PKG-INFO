@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: workadays
+Version: 1.1.3
+Summary: Calendário de dias úteis
+Home-page: https://github.com/mfhorita
+Author: Marcelo Horita
+Author-email: datazeus.tecnologia@gmail.com.br
+License: MIT
+Description: Pacote para adicionar ou subtrair datas em dias úteis. A princípio decidir focar apenas nos seguintes países: Brasil, Estados Unidos e Luxemburgo. No entanto, precisando de incluir novos países, estados ou regiões, será um prazer.
+Keywords: workdays workadays feriados holidays diasuteis uteis
+Platform: UNKNOWN
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
