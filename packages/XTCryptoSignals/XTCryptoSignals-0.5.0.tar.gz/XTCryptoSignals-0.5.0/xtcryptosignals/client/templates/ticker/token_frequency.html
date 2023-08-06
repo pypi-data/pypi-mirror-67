@@ -1,0 +1,107 @@
+{% extends 'ticker/ticker.html' %}
+
+{% block title %}{{ coin_or_token }} - {{frequency}}{% endblock %}
+
+{% block body %}
+
+{% with url_ticker='ticker.token_frequency', params=dict(coin_or_token=coin_or_token) %}
+{% include 'menu.html' %}
+{% endwith %}
+
+<br/>
+
+<div id="summary">
+    <div class="row">
+      <h5>{{ project.name.upper() }} <small>({{ coin_or_token }})</small></h5>
+    {% if project.summary %}
+        {{ project.summary|replace('. ', '.<br/>')|replace(project.name + ' ', '<code>' + project.name + '</code> ')|safe }} <a href="{{ project.wikipedia }}">[+]</a>
+    {% else %}
+        (no summary available)
+    {% endif %}
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="six columns">
+          <ul>
+            <li><strong>Website</strong>: <a href="{{ project.website }}">{{ project.website|replace("https://", "") }}</a></li>
+              <li><strong>Twitter</strong>: <a href="{{ project.twitter }}">{{ project.twitter|replace("https://", "") }}</a> {{ project_twitter.num_followers|default("?", true) }} followers</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns">
+        <table class="u-full-width">
+            <caption><h5>{{ coin_or_token }} - {{frequency}}</h5></caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Pair</th>
+                    <th>Exchange</th>
+                    {% for _i, att in attributes.items() if _i != 'price_usdt' %}
+                        <th style="text-align: right;">{{ att }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+{% for i in symbols_per_exchange %}
+    {% for exchange, d in i.items() %}
+    {% if d['pairs']%}
+        {% for c, r in d['pairs'] %}
+        <tr>
+            <td style="width: 32px; vertical-align: middle;"><img src="/static/imgs/logos/{{c}}.png" alt="{{c}}"/></td>
+            <td style="width: 100px;"><a href="{{url_for('ticker.pair_frequency', frequency=frequency, pair=c+r)}}">{{c}}-{{r}}</a></td>
+            <td style="width: 100px;"><a href="{{url_for('ticker.ticker', frequency=frequency)}}#{{exchange.upper()}}">{{exchange.replace('_', ' ').upper()}}</a>
+            </td>
+        {% for att, _ in attributes.items() if att != 'price_usdt' %}
+            {% set _id = "{}_{}{}_{}_{}".format(exchange.lower(), c.lower(), r.lower(), att, frequency) %}
+            {% if 'price_change_chart' != att %}
+                <td style="text-align: right;">
+                    <span id="{{_id}}" style='padding-left: 8px'>-</span>
+                </td>
+            {% else %}
+                <td id="{{_id}}" style="width: 120px;"></td>
+            {% endif %}
+        {% endfor %}
+        </tr>
+        {% endfor %}
+    {% endif %}
+    {% endfor %}
+{% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="/static/js/charts/coin-or-token.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    get_chart_coin_or_token_data(render_data_charts, '{{ coin_or_token }}', '{{ frequency }}');
+});
+</script>
+
+<script type="text/javascript">
+function post_ticker_emit(id, json) {
+    _post_and_get_ticker_emit(
+        id, json, '{{ reference["name"] }}', '{{ reference["pair"] }}', '{{ coin_or_token }}'
+    );
+}
+</script>
+
+<br/><br/>
+
+<div class="row">
+    <div class="twelve columns" id="row_chart_{{ coin_or_token }}{{ frequency }}" style="display: none;">
+        <div id="chart_{{ coin_or_token }}{{ frequency }}"></div>
+        <p class="highcharts-description" style="font-size:small">
+            <b>Source:</b> {{ reference['name']|capitalize }}, <b>Pair:</b> {{ coin_or_token }}/{{ reference['pair'] }}
+        </p>
+        <br/><br/>
+    </div>
+</div>
+
+{% endblock %}
