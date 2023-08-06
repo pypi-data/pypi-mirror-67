@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyapic/APIConnect.py
+pyapic/__init__.py
+pyapic.egg-info/PKG-INFO
+pyapic.egg-info/SOURCES.txt
+pyapic.egg-info/dependency_links.txt
+pyapic.egg-info/requires.txt
+pyapic.egg-info/top_level.txt
