@@ -1,0 +1,16 @@
+[
+  "test_mildew.py::test_number_of_ids",
+  "test_mildew.py::test_plate_id",
+  "test_mildew.py::test_csv_file",
+  "test_mildew.py::test_image_tresholded",
+  "test_mildew.py::test_image_backlight",
+  "test_mildew.py::test_image_red",
+  "test_mildew.py::test_image_blue",
+  "test_mildew.py::test_image_green",
+  "test_mildew.py::test_image_rgb",
+  "test_mildew.py::test_image_uvs",
+  "test_mildew.py::test_lanes_roi_rgb",
+  "test_mildew.py::test_lanes_roi_binary",
+  "test_mildew.py::test_lanes_roi_minrgb",
+  "test_mildew.py::test_predicted_lanes"
+]
