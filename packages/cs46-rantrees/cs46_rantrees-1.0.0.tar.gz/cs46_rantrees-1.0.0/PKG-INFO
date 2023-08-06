@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_rantrees
+Version: 1.0.0
+Summary: implentation of BST, Heaps, AVL
+Home-page: https://github.com/michael-ran/trees
+Author: Michael Ran
+License: MIT
+Description: # Trees ![](https://api.travis-ci.com/michael-ran/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
