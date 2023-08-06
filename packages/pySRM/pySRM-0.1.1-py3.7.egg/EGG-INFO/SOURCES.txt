@@ -1,0 +1,8 @@
+README.txt
+setup.py
+src/modules/SR.py
+src/modules/__init__.py
+src/pySRM.egg-info/PKG-INFO
+src/pySRM.egg-info/SOURCES.txt
+src/pySRM.egg-info/dependency_links.txt
+src/pySRM.egg-info/top_level.txt
