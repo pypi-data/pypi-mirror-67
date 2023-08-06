@@ -1,0 +1,15 @@
+pandas
+numpy
+db-ops
+config-checker
+python-dateutil
+pytz
+requests
+urllib3
+idna
+certifi
+appdirs
+chardet
+et-xmlfile
+jdcal
+openpyxl
