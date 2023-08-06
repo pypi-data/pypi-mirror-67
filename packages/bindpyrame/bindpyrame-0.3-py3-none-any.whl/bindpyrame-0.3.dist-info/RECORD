@@ -1,0 +1,9 @@
+bindpyrame/__init__.py,sha256=Rf1to28VityrwN-BNMmHq4fqzFWWlCbvZlAYw8hpaHc,50
+bindpyrame/bindpyrame.py,sha256=d5TZEnGvg3KjBr2lIlCnZQqeIvttOQrfMNFD7xhfmqw,8588
+bindpyrame/proxy.py,sha256=AKJqN0EJKsEnwoTtG2L0nvkZHpTpeJKR8s0JBZNbHFo,10425
+bindpyrame/sendcmd.py,sha256=64t90e2zMr--6G-kz16JzofpzYNeHH1swoBvihTRIoo,1734
+bindpyrame-0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bindpyrame-0.3.dist-info/METADATA,sha256=51NLixyRc8dDM3HQ8cRBO3ZEjTRTXqYmozGYcNok-kM,888
+bindpyrame-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bindpyrame-0.3.dist-info/top_level.txt,sha256=mdMSdGN7X4rf74q15-3w6G-uCS52UV2QFAygtshacR8,11
+bindpyrame-0.3.dist-info/RECORD,,
