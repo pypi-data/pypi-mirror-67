@@ -1,0 +1,1 @@
+This project converts pdf to text or images
