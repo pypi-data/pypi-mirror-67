@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/itd/__init__.py
+src/itd.egg-info/PKG-INFO
+src/itd.egg-info/SOURCES.txt
+src/itd.egg-info/dependency_links.txt
+src/itd.egg-info/top_level.txt
