@@ -1,0 +1,7 @@
+README.md
+setup.py
+jsmb/__init__.py
+jsmb.egg-info/PKG-INFO
+jsmb.egg-info/SOURCES.txt
+jsmb.egg-info/dependency_links.txt
+jsmb.egg-info/top_level.txt
