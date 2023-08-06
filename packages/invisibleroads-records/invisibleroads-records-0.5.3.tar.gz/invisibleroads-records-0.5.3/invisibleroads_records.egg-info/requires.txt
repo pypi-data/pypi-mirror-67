@@ -1,0 +1,15 @@
+pyramid
+pytest
+invisibleroads-posts
+invisibleroads-macros-configuration
+invisibleroads-macros-log
+invisibleroads-macros-security
+alembic
+pyramid-retry
+pyramid-tm
+sqlalchemy
+transaction
+zope.sqlalchemy
+
+[test]
+pytest-cov
