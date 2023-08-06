@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: oneDpack
+Version: 0.26
+Summary: one dimentional library
+Home-page: https://github.com/whatever/whatever
+Author: Kyle
+Author-email: hoge@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: one dimentional library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
