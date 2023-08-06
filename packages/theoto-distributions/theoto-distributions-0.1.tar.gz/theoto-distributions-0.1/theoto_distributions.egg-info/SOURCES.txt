@@ -1,0 +1,10 @@
+setup.py
+theoto-distributions/Binomialdistribution.py
+theoto-distributions/Gaussiandistribution.py
+theoto-distributions/Generaldistribution.py
+theoto-distributions/__init__.py
+theoto_distributions.egg-info/PKG-INFO
+theoto_distributions.egg-info/SOURCES.txt
+theoto_distributions.egg-info/dependency_links.txt
+theoto_distributions.egg-info/not-zip-safe
+theoto_distributions.egg-info/top_level.txt
