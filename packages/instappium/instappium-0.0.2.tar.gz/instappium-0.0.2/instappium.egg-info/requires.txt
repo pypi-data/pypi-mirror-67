@@ -1,0 +1,9 @@
+transitions
+selenium
+Appium-Python-Client>=0.50
+pure-python-adb>=0.2.3.dev0
+
+[test]
+tox
+virtualenv
+tox-venv
