@@ -1,0 +1,9 @@
+bookstack/__init__.py,sha256=6J6hz5X4mOg9C0ZwcOmY3qM_lcyiQckCempAZeIJu24,29
+bookstack/__version__.py,sha256=inWfr4RlObeJ2kITGGFizXMtF_FDOi3ClYCoIOw8iyI,266
+bookstack/models.py,sha256=4fq2HYI13_H925l1s3PJRyauLkw-ck7bf2D_ZACu0xI,2930
+bookstack/utils.py,sha256=QzhTcdNUnJzseTlZ9HTCp_TXiKEQaayccXRvAIPfmoc,618
+bookstack-0.1.0b0.dist-info/LICENSE,sha256=qwOabGIOEznl7JK72RWLAOIsbfbvnaMfFLsZIISM-Wg,1068
+bookstack-0.1.0b0.dist-info/METADATA,sha256=170wfOYi6XRvDnDfHQuA2obbvHu8Qql1ptG8mYrYDf8,2394
+bookstack-0.1.0b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bookstack-0.1.0b0.dist-info/top_level.txt,sha256=BpWre2AnlwVL15je2Z20sJFH4wwbdPfgbHsIeqexDP0,10
+bookstack-0.1.0b0.dist-info/RECORD,,
