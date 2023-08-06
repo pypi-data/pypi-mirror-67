@@ -1,0 +1,13 @@
+README.md
+setup.py
+nubium_canon_mappers/__init__.py
+nubium_canon_mappers/eloqua/__init__.py
+nubium_canon_mappers/eloqua/mappers.py
+nubium_canon_mappers/eloqua/timestamp_helpers.py
+nubium_schemas/__init__.py
+nubium_schemas/campaign_response.py
+nubium_schemas/person.py
+nubium_schemas.egg-info/PKG-INFO
+nubium_schemas.egg-info/SOURCES.txt
+nubium_schemas.egg-info/dependency_links.txt
+nubium_schemas.egg-info/top_level.txt
