@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tests/__init__.py
+tests/conftest.py
+tests/test_pdf.py
+zwpdf/__init__.py
+zwpdf/__version__.py
+zwpdf/pdf.py
+zwpdf.egg-info/PKG-INFO
+zwpdf.egg-info/SOURCES.txt
+zwpdf.egg-info/dependency_links.txt
+zwpdf.egg-info/requires.txt
+zwpdf.egg-info/top_level.txt

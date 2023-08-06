@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zwpdf
+Version: 0.0.3
+Summary: Personal PDF utils.
+Home-page: https://github.com/njzhaowei/zwpdf
+Author: Zhao Wei
+Author-email: yewberry@163.com
+License: Apache 2.0
+Description: # Personal PDF utils
+        Notes:
+        - 使用[pdf2htmlex](https://github.com/coolwanglu/pdf2htmlEX)进行pdf->html的转换，默认使用docker镜像运行(docker pull bwits/pdf2htmlex)
+        
+        
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
