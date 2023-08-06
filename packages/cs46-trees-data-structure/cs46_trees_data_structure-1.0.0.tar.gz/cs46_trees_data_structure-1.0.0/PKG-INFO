@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_trees_data_structure
+Version: 1.0.0
+Summary: This is a simple tree data structure implementation in Python covering Binary Search Trees, AVL Trees and Heaps.
+Home-page: https://github.com/shashankvineet/trees
+Author: Shashank Vineet
+Author-email: shashankvineet98@gmail.com
+License: GPLv3
+Description: # Trees ![](https://api.travis-ci.com/shashankvineet/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
