@@ -1,0 +1,13 @@
+tag_spy/__init__.py,sha256=8S8WlRlc0lfh4yXQGmCJUVqhN_BD4wWV6uRdNbpZKAg,976
+tag_spy/_version.py,sha256=-J-c4wxqPIzgCkqwdDpeMAFSTaeBQSyHdoAvqM0695s,497
+tag_spy/api.py,sha256=iDQ3vtMpjEcRRkaBmwAMFUp0EPyAKKrruBX3ikbKA1c,3549
+tag_spy/cli.py,sha256=WgttOfORyfKFOTu-C6apBef669Czc9pUh1lUwZR80bY,1987
+tag_spy/filter_helpers.py,sha256=3TBbfwyaJTRtQUZFqLI7etHkGprUZcEUV6KbwL3jj1s,3707
+tag_spy/registry_helpers.py,sha256=Jx7K4gbMFPar1z5a75c3DimT_qSQumCAPfGvomxX70o,6957
+tag_spy-0.2.0.dist-info/LICENSE,sha256=lWiisVXmasPguh_YC1K4J7lGDmz28jMSXny8qOIG3cM,10174
+tag_spy-0.2.0.dist-info/METADATA,sha256=YQ5nKxHG17IcUmZUOxE3vnBLu33A6axXN2P7Mlu5Y_0,4148
+tag_spy-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tag_spy-0.2.0.dist-info/entry_points.txt,sha256=WIDQ3XJi_UnA8Nt8uNfVlayxFSFyzrVEsy0XI28i7ko,46
+tag_spy-0.2.0.dist-info/top_level.txt,sha256=IXL3F6tlNjl3kUV-IWkGbsXrJh6aKOy-QUfC43AzE84,8
+tag_spy-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tag_spy-0.2.0.dist-info/RECORD,,
