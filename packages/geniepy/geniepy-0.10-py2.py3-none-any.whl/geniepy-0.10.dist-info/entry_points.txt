@@ -1,0 +1,4 @@
+[console_scripts]
+genie-predict = geniepy:run_predictions
+genie-update = geniepy:update_tables
+
