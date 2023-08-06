@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyDistrib/__init__.py
+pyDistrib/pyDistribServer.py
+pyDistrib.egg-info/PKG-INFO
+pyDistrib.egg-info/SOURCES.txt
+pyDistrib.egg-info/dependency_links.txt
+pyDistrib.egg-info/top_level.txt
