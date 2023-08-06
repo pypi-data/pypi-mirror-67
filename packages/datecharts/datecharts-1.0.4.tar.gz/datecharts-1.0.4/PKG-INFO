@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: datecharts
+Version: 1.0.4
+Summary: Simple utility to graph time series data
+Home-page: UNKNOWN
+Author: Petr Pavlu
+Author-email: ppavlu@cisco.com
+License: MIT
+Description: Sample Python class providing basic graph plotting of time series data.
+        It is used mainly for practicing Python code/app packaging.
+        
+Keywords: time series data graph chart plot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
