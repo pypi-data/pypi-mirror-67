@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nnperm
+Version: 0.0.1
+Summary: Conditional density estimation using neural networks and Fourier series
+Home-page: http://nnperm.marcoinacio.com/
+Author: Marco Inacio
+Author-email: pythonpackages@marcoinacio.com
+License: GPL3
+Description: UNKNOWN
+Keywords: neural networks,permutation test,nonparametric
+Platform: UNKNOWN

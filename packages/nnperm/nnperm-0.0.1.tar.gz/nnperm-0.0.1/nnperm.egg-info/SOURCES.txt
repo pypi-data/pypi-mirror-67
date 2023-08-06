@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+setup.py
+nnperm/__init__.py
+nnperm/core.py
+nnperm.egg-info/PKG-INFO
+nnperm.egg-info/SOURCES.txt
+nnperm.egg-info/dependency_links.txt
+nnperm.egg-info/requires.txt
+nnperm.egg-info/top_level.txt
