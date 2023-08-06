@@ -1,0 +1,9 @@
+README.md
+setup.py
+zalvipdf/__init__.py
+zalvipdf/pdf2image.py
+zalvipdf/pdf2text.py
+zalvipdf.egg-info/PKG-INFO
+zalvipdf.egg-info/SOURCES.txt
+zalvipdf.egg-info/dependency_links.txt
+zalvipdf.egg-info/top_level.txt
