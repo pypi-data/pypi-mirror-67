@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyabr
+Version: 0.0.3
+Summary: pyabr clouding system
+Home-page: https://github.com/manijamali2003/pyabr
+Author: Mani Jamali
+Author-email: manijamali2003@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: pyqtconsole
+
+# Pyabr
+
+Pyabr Clouding System
+[Git source code](https://github.com/manijamali2003/pyabr)
+
+
