@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+newdex/__init__.py
+newdex/api_newdex.py
+newdex.egg-info/PKG-INFO
+newdex.egg-info/SOURCES.txt
+newdex.egg-info/dependency_links.txt
+newdex.egg-info/requires.txt
+newdex.egg-info/top_level.txt
+newdex/util/__init__.py
+newdex/util/exceptions.py
+newdex/util/logger.py
