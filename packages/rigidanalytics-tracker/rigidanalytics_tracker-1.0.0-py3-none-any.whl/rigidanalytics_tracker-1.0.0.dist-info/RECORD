@@ -1,0 +1,16 @@
+rigidanalytics_tracker/__init__.py,sha256=28y2CQ2JlBSJHMUcXEolgP0fHKB3-BfNeqKPU7_L81M,2859
+rigidanalytics_tracker/_compat.py,sha256=cUMPer1gX74Gtx9LNUNZEyPVYkLCuUZW_6aL37NhUUo,2265
+rigidanalytics_tracker/_types.py,sha256=g1nueyo_-1nGf6AAJDAEz5qBLUmYZz7VRZ1olDDYppM,764
+rigidanalytics_tracker/apps.py,sha256=AWymu58pxJk5iSmBJvtomklJ5qyuoJsT5D8d4VHbi-g,108
+rigidanalytics_tracker/middleware.py,sha256=7EskimlWcA3PvuHYLVwpa21akZQUrB5H-j0TrWleNdY,616
+rigidanalytics_tracker/transport.py,sha256=ngbLozXM4yKS__lpq0mi9iFurfXYkAstxYhELRHZTnY,3837
+rigidanalytics_tracker/worker.py,sha256=jvVaQpkNfwbtCCxD6v__kL6dz0Cr5S1mz-0Lmsl2T2w,3552
+rigidanalytics_tracker/django/__init__.py,sha256=57R23HGjpUllRtXxTcKPtGGKMIH4vhjk8eSl_2xpYNM,46
+rigidanalytics_tracker/django/tracker.py,sha256=2EQAHw0Le25eyM_vk0Zkv7cFXecbN2m2XCYipv_v888,1313
+rigidanalytics_tracker/flask/__init__.py,sha256=84qeWqrBpm7lFLbxDNwHlaHw5k48twiikDJRDlogakw,45
+rigidanalytics_tracker/flask/tracker.py,sha256=niD0u00Y8D5y7__z2It9I70hTfAeIiEFYfNm2A8ZRVU,2034
+rigidanalytics_tracker-1.0.0.dist-info/LICENSE,sha256=Zd3bnV6mPy6UkkjK4FfT-1zm8Xwo4syxS8GFz92moQA,1113
+rigidanalytics_tracker-1.0.0.dist-info/METADATA,sha256=gYfGQRLnmoQnJNYJHqEcfboDT062pk154KmOX2TrReE,3457
+rigidanalytics_tracker-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rigidanalytics_tracker-1.0.0.dist-info/top_level.txt,sha256=1m7qnXcZgXz4PyIn6tc2r1d0uFiLyBFFlbxWeS45sts,23
+rigidanalytics_tracker-1.0.0.dist-info/RECORD,,
