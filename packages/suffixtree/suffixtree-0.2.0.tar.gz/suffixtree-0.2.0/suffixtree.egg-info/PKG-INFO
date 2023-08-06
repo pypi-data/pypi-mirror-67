@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: suffixtree
+Version: 0.2.0
+Summary: Yet another suffix tree implementation in Python
+Home-page: https://github.com/cartoonist/suffixtree
+Author: Ali Ghaffaari
+Author-email: ali.ghaffaari@mpi-inf.mpg.de
+License: MIT
+Download-URL: https://github.com/cartoonist/suffixtree/tarball/0.2.0
+Description: [![Build Status](https://img.shields.io/travis/cartoonist/suffixtree.svg?style=flat-square)](https://travis-ci.org/cartoonist/suffixtree)
+        [![PyPI Release](https://img.shields.io/pypi/v/suffixtree.svg?style=flat-square)](https://pypi.python.org/pypi/suffixtree)
+        [![PyPI Status](https://img.shields.io/pypi/status/suffixtree.svg?style=flat-square)](https://pypi.python.org/pypi/suffixtree)
+        [![Python](https://img.shields.io/pypi/pyversions/suffixtree.svg?style=flat-square)](https://www.python.org/download/releases/3.0/)
+        [![License](https://img.shields.io/pypi/l/suffixtree.svg?style=flat-square)](https://github.com/cartoonist/suffixtree/blob/master/LICENSE)
+        
+        # Suffix tree library
+        A Python (Python3) implementation of suffix tree. The suffix tree is constructed by Ukkonen's algorithm.
+        
+        ## Installation
+        You can install the library using `pip` (`pip3`):
+        
+            pip install suffixtree
+        
+        ## Examples
+        TODO
+        
+Keywords: suffix tree indexing data-structure
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Text Processing :: Indexing
+Description-Content-Type: text/markdown
+Provides-Extra: test

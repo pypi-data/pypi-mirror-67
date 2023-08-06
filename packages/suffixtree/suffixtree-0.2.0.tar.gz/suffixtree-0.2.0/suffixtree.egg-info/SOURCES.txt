@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+suffixtree/__init__.py
+suffixtree/release.py
+suffixtree/suffixtree.py
+suffixtree/tree.py
+suffixtree.egg-info/PKG-INFO
+suffixtree.egg-info/SOURCES.txt
+suffixtree.egg-info/dependency_links.txt
+suffixtree.egg-info/entry_points.txt
+suffixtree.egg-info/requires.txt
+suffixtree.egg-info/top_level.txt
