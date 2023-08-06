@@ -1,0 +1,7 @@
+
+        [console_scripts]
+        ddb3cython = ddb3cython.cli:cli_main
+        ddb3cython-pipes = ddb3cython.pipes:cli_main
+        ddb3cython-server = ddb3cython.server:cli_main
+        ddb3cython-service = ddb3cython.service:cli_main
+        
