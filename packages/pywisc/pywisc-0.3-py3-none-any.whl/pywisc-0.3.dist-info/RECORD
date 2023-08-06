@@ -1,0 +1,12 @@
+pywisc/command_line.py,sha256=def8ae719Sq8SaGAtS3_8Bxz8o30huJZcBT5BBclinY,358
+pywisc/escalares.py,sha256=qOv4YbwJh1i9KK26WVHFqF11hHd6t0hS3H_SNjPTfl4,1829
+pywisc/evaluacion.py,sha256=ZThTpsFpBHFV9utyVLqy9UtnbnBGllrnK-m1ZBOXxV8,5415
+pywisc/prueba.py,sha256=EsrMcCAUOVMUVpRLGiIz9QAkfz1xrBciA_2M_bQVwq0,1256
+pywisc/wisc.py,sha256=EooK496P5kZqyN6DUudEoGugdGR3L0numBbF6reHce4,2192
+pywisc/data/data_4_es.json,sha256=6DAlqpz6dvpuIzLg2-KQojJ1q92EMAk-6jd3aytIt7c,435
+pywisc/data/wisc_4_es_ar.json,sha256=OgS9CbCq71GMCaCHQAWGgTWw7_soKVPURGF4ZJsRhnw,2591
+pywisc-0.3.dist-info/METADATA,sha256=Shf6AgHVdgSFH-j9XaAIjHKmK-NDg843940b6AakNtc,896
+pywisc-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pywisc-0.3.dist-info/entry_points.txt,sha256=fJRVgLXOj-27qGMUnAnjfT1KwFGQFrHex81Vk3G7DUA,51
+pywisc-0.3.dist-info/top_level.txt,sha256=1RLohXy8YrEdo_8uE-JDvRq7tAT6E8DWWAUWM9v5cF4,7
+pywisc-0.3.dist-info/RECORD,,
