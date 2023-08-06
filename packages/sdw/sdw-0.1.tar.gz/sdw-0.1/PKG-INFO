@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: sdw
+Version: 0.1
+Summary: Simple Modules Encode code python
+Home-page: https://github.com/Mr-XsZ
+Author: Mr XsZ
+Author-email: wareares@gmail.com
+License: MIT
+Description: 
+        
+        1.Simple Send Data To Web
+        
+        >>> # How To Send
+        >>> import wesnd
+        >>> wesnd.dns('code')
+        
+        
+        
+Keywords: encode,python,pythonencode
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
