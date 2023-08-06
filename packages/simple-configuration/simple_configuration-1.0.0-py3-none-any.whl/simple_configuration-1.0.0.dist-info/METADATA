@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-configuration
+Version: 1.0.0
+Summary: A simple and lightweight config parser and handler.
+Home-page: UNKNOWN
+Author: Luis Felipe Muller
+Author-email: luisfmuller@gmail.com
+License: UNKNOWN
+Keywords: config,settings,config parser
+Platform: UNKNOWN
+Requires-Dist: pyyaml (==5.3.1)
+
+UNKNOWN
+
+
