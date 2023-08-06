@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        modeltool=modeltool.command:cli
+    
