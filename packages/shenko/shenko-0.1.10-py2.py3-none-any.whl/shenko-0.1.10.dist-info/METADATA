@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: shenko
+Version: 0.1.10
+Summary: visit us at www.shenko.org
+Home-page: https://github.com/shenko/shenko
+Author: Danny Dowshenko
+Author-email: dowshenko225@gmail.com
+License: GNU General Public License v3
+Keywords: shenko
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Click (>=6.0)
+Requires-Dist: panda3d (==1.10.0)
+
+======
+Shenko
+======
+
+
+=======
+History
+=======
+
+0.1.0 (2018-02-18)
+------------------
+
+* First release on PyPI.
+
+
