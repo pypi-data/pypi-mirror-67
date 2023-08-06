@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sparsepy
+Version: 0.0.1
+Summary: Efficient python package for image processing with Sparse Representations model
+Home-page: UNKNOWN
+Author: Tomás Juan Link
+Author-email: tomaslink@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+Efficient python package for image processing with Sparse Representations model
+
+
