@@ -1,0 +1,7 @@
+gym
+more-itertools
+pandas
+
+[examples]
+tensorflow<=1.15.2
+stable-baselines
