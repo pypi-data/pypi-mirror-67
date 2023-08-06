@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        he=he.he:cli
+    
