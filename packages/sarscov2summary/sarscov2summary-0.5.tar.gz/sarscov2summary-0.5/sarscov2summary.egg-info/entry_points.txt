@@ -1,0 +1,3 @@
+[console_scripts]
+sarscov2summary = sarscov2summary.cli:main
+

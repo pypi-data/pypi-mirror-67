@@ -1,0 +1,10 @@
+README.md
+setup.py
+sarscov2summary/__init__.py
+sarscov2summary/cli.py
+sarscov2summary.egg-info/PKG-INFO
+sarscov2summary.egg-info/SOURCES.txt
+sarscov2summary.egg-info/dependency_links.txt
+sarscov2summary.egg-info/entry_points.txt
+sarscov2summary.egg-info/requires.txt
+sarscov2summary.egg-info/top_level.txt
