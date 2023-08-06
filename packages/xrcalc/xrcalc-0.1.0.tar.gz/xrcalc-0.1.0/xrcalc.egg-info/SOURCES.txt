@@ -1,0 +1,9 @@
+README.rst
+setup.py
+xrcalc/__init__.py
+xrcalc.egg-info/PKG-INFO
+xrcalc.egg-info/SOURCES.txt
+xrcalc.egg-info/dependency_links.txt
+xrcalc.egg-info/entry_points.txt
+xrcalc.egg-info/requires.txt
+xrcalc.egg-info/top_level.txt
