@@ -1,0 +1,11 @@
+tcolorpy/__init__.py,sha256=MpcKbi_ETXJWRrYRlPj58Ca3LWDg22AWp40AQQpcOR8,705
+tcolorpy/__main__.py,sha256=yzF-gZzVsqr8Qebl4RF2y1z5iiAeGv2NlXsYK-E84OQ,1484
+tcolorpy/__version__.py,sha256=_ZHCbQE7JpGFvRXUj_siXlHDhx1GSulGd5K1aOxQ0Kw,209
+tcolorpy/_const.py,sha256=XS2rzsxY7SKxg0HreYTR_kEGeSi_59gOrrntI2_kG1o,1080
+tcolorpy/_truecolor.py,sha256=e8w-8fHC-41u3bYBaSSvF_fBa6GuTSow1N4_QAzvTYs,6239
+tcolorpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcolorpy-0.0.3.dist-info/LICENSE,sha256=9BoEVtXyu6Jf1NflC1GpXeMEdw_x21p5UV0DOXqRTY0,1074
+tcolorpy-0.0.3.dist-info/METADATA,sha256=QbwKJnqcR-HVMQJZF9QxxfMsQcZ9_tN_JDc8srHN130,3846
+tcolorpy-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tcolorpy-0.0.3.dist-info/top_level.txt,sha256=g8LDaQz0FVP61jibPz7OTwQqiseVV9pxUYDeGp2lFAI,9
+tcolorpy-0.0.3.dist-info/RECORD,,
