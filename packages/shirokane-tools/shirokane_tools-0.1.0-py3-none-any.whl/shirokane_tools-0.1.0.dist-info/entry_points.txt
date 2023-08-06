@@ -1,0 +1,4 @@
+[console_scripts]
+array_job_task_runner=shirokane_tools.qsub_tasks:array_job_task_runner
+run_tasks=shirokane_tools.qsub_tasks:run_tasks
+
