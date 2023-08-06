@@ -1,0 +1,15 @@
+setup.py
+libjpg/__init__.py
+libjpg/ld-musl-x86_64.so.1
+libjpg/libc.musl-x86_64.so.1
+libjpg/libjpeg.so
+libjpg/libjpeg.so.62
+libjpg/libjpeg.so.62.3.0
+libjpg/libturbojpeg.so
+libjpg/libturbojpeg.so.0
+libjpg/libturbojpeg.so.0.2.0
+libjpg_bins.egg-info/PKG-INFO
+libjpg_bins.egg-info/SOURCES.txt
+libjpg_bins.egg-info/dependency_links.txt
+libjpg_bins.egg-info/not-zip-safe
+libjpg_bins.egg-info/top_level.txt
