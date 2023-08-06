@@ -1,0 +1,11 @@
+.bumpversion.cfg
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyom/__init__.py
+python_object_mapper.egg-info/PKG-INFO
+python_object_mapper.egg-info/SOURCES.txt
+python_object_mapper.egg-info/dependency_links.txt
+python_object_mapper.egg-info/top_level.txt
