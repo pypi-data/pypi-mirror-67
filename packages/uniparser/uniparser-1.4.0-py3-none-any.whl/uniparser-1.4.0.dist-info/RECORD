@@ -1,0 +1,17 @@
+uniparser/__init__.py,sha256=X_RYbqqJiLz6Fi58DqlDjDOXIx5hmmV4zxO9unhvtbM,652
+uniparser/__main__.py,sha256=gm3Ii-uCxcFT5d34qVMVZf-LwyNtOm9P1DGKpCPOrNc,227
+uniparser/config.py,sha256=oI9Zj4ZMLiwO5ocKsaJrgv6ObOvI9TP7qr7dTMB9OvE,331
+uniparser/crawler.py,sha256=q4FOFfMY36-02rAj5aqx51QOULpDFP5b41XkusMRlxE,8024
+uniparser/exceptions.py,sha256=rJkHfriIDVkkvXHMtb7F4IzYMJJXtUIv_8E5FDwoIT8,180
+uniparser/parsers.py,sha256=P8CuG8gc1P5_1s9oA94_ACgoewv8L4vwkPNWtt_hySw,45646
+uniparser/utils.py,sha256=IG8Q7HDhCOZizWC6eSHfvpeI-X1fuPpLYNFk0dHHhFc,19727
+uniparser/webui.py,sha256=IimJ815c6_WYYivty2tGmRFmkg-ZUy5w-aVGLQxS7Ag,4038
+uniparser/fastapi_ui/__init__.py,sha256=Vh7n21xwolyvjfXLSZJgy1yHLkpZEsPNAGPT2BYB4Kg,23
+uniparser/fastapi_ui/views.py,sha256=2xS9HWwmaZeRzBTfhyVi-OV6zmhzsrw5KNHys9mrUtY,4294
+uniparser/static/uniparser.js,sha256=NUS6eC8Sry2nfVyPv72behWrbnTQtB2LM1eDZHmyOmE,11712
+uniparser/static/uniparser.min.js,sha256=qlCikLhwpZRYsYbGbmC4fPS6QDh5tXmd75cIcYwvTHQ,7001
+uniparser/templates/index.html,sha256=5zJTaHkRzF5pq0YpBLQrYXmGGTrKsLru2JPx7YLYl_8,11256
+uniparser-1.4.0.dist-info/METADATA,sha256=9Pqc7wviaaj3r2cxLrvMlcDTLa2YRYu5Uok5n5xYtQI,12233
+uniparser-1.4.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+uniparser-1.4.0.dist-info/top_level.txt,sha256=-gGz96QFSsidz9n7XvgtPpEwWR3SnPdsxm9SZS10Np4,10
+uniparser-1.4.0.dist-info/RECORD,,
