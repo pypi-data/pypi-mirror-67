@@ -1,0 +1,10 @@
+README.md
+parabot/__init__.py
+parabot/parabot.py
+parabot/setup.py
+parabot/utils.py
+parabot.egg-info/PKG-INFO
+parabot.egg-info/SOURCES.txt
+parabot.egg-info/dependency_links.txt
+parabot.egg-info/requires.txt
+parabot.egg-info/top_level.txt

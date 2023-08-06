@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: parabot
+Version: 0.0.1
+Summary: Execute robotframework test files/tests in paralel, even without special preparation of them
+Home-page: UNKNOWN
+Author: bednaJedna
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: robotframework,parallel execution,test,testing
+Platform: UNKNOWN
