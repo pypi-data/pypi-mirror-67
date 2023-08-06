@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: decisiveml
+Version: 0.0.2
+Summary: 
+Author: ly
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.2.1,<4.0.0)
+Requires-Dist: statsmodels (>=0.11.1,<0.12.0)
