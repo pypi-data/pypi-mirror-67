@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: LSHCy
+Version: 1.1
+Summary: Hierarchical Agglomerative Clustering based on Locality Sensitive Hashing
+Home-page: https://github.com/Brian1357/STA663-Project-LSHLink
+Author: Boyang Pan
+Author-email: boyang.pan@outlook.com
+License: MIT
+Project-URL: Documentation, https://github.com/Brian1357/STA663-Project-LSHLink
+Project-URL: Code, https://github.com/Brian1357/STA663-Project-LSHLink
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.17)
+Provides-Extra: dev
+Requires-Dist: pytest (>=5.1) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.7) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+LSH-Link (Cython Version)
+======================
+
+Purpose
+-------
+
+The purpose of this package is to demonstrate how and organize a project developed using Cython.
+It shows a suitable folder structure according to the best practices, how to create extension modules with Cython, how to implement functions in C and make them available to Cython, how to include package data, how to write a `setup.py` script that allows users without Cython to install the package nonetheless.
+
+Installation
+------------
+
+### From a repository checkout
+
+```bash
+make install
+```
+or
+```bash
+USE_CYTHON=1 pip install --user .
+```
+
+### From PyPi
+
+```bash
+pip install --user cython-package-example
+```
+
+
