@@ -1,0 +1,4 @@
+pytz
+six
+pymongo<4.0.0,>=2.7.2
+django
