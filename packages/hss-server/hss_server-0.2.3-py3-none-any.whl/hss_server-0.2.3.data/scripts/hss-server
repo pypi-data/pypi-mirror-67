@@ -1,0 +1,215 @@
+#!python
+# -----------------------------------------------------------------------------
+# HSS - Hermes Skill Server
+# Copyright (c) 2020 - Patrick Fial
+# -----------------------------------------------------------------------------
+# hss-server
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Imports
+# -----------------------------------------------------------------------------
+
+import logging
+import sys
+import os
+import signal
+import configparser
+import pkg_resources
+
+from appdirs import user_config_dir
+
+from hss_server import logger
+from hss_server import skillserver
+
+# ------------------------------------------------------------------------------
+# globals
+# ------------------------------------------------------------------------------
+
+try:
+    __version__ = pkg_resources.require("hss_server")[0].version
+except Exception as e:
+    __version__ = "0.0.0"
+
+server = None
+skill_directory = None
+config_dir = None
+
+# ------------------------------------------------------------------------------
+# parseArgs
+# ------------------------------------------------------------------------------
+
+
+def parseArgs():
+    res = {}
+
+    for i in range(len(sys.argv)):
+        arg = sys.argv[i]
+
+        if arg.startswith("--") or arg.startswith("-"):
+            if i+1 < len(sys.argv) and not sys.argv[i+1].startswith("-"):
+                res[arg.replace("-", "")] = sys.argv[i+1]
+            else:
+                res[arg.replace("-", "")] = None
+
+    return res
+
+# ------------------------------------------------------------------------------
+# help
+# ------------------------------------------------------------------------------
+
+
+def help():
+    version()
+
+    print("\nUsage:")
+    print("   $ ./hss-server [-dhv][-hptTurcl arg]")
+    print("\nOptions:")
+    print("\n   -h [host]          MQTT host to connect to (default: localhost)")
+    print("   -p [port]          MQTT port (default: 1883)")
+    print("   -t [topic]         MQTT topic to listen on (default: hermes/intent/#)")
+    print("\n   -T [topic]         MQTT topic to publish TTS to (default: hermes/tts/say)")
+    print("   -u [url]           URL to post TTS to. If set, TTS is not sent via MQTT (default: None)")
+    print("\n   -r [port]          Starting port for RCP communication (default: 51000)")
+    print("\n   -c [dir]           Directory path where the server's config.ini is located (default: user config dir)")
+    print("\n   -l [file]          Log file to write log entries to (default: console)")
+    print("   -d                 Enable debug log output")
+    print("\n   --help         Show this help and exit")
+    print("   -v, --version      Show version and exit")
+    print("\n")
+
+# ------------------------------------------------------------------------------
+# version
+# ------------------------------------------------------------------------------
+
+
+def version(log=None):
+    if log:
+        log.info("Hermes Skill Server v{}".format(__version__))
+    else:
+        print("Hermes Skill Server v{}".format(__version__))
+
+# ------------------------------------------------------------------------------
+# run
+# ------------------------------------------------------------------------------
+
+
+def run():
+    global server
+
+    if 'l' not in args:
+        logger.Logger.static_init(
+            None, logging.DEBUG if "d" in args else logging.INFO)
+    else:
+        logger.Logger.static_init(
+            args["l"], logging.DEBUG if "d" in args else logging.INFO)
+
+    log = logging.getLogger("hss")
+
+    version(log)
+
+    log.info("Using config dir '{}'".format(config_dir))
+    log.info("Loading skills from '{}'".format(skill_directory))
+
+    # attach default arguments
+
+    if not "h" in args:
+        args["h"] = "localhost"
+
+    if not "p" in args:
+        args["p"] = 1883
+    else:
+        args["p"] = int(args["p"])
+
+    if not "t" in args:
+        args["t"] = "hermes/intent/#"
+
+    if not "T" in args:
+        args["T"] = "hermes/tts/say"
+
+    if not "r" in args:
+        args["r"] = 51000
+
+    # start skill server (blocks)
+
+    server = skillserver.SkillServer(args, skill_directory)
+    server.start()
+
+    # goodbye
+
+    log.info("Bye.")
+
+
+# ------------------------------------------------------------------------------
+# signal_handler
+# ------------------------------------------------------------------------------
+
+
+def signal_handler(sig, frame):
+    server.stop()
+
+# ------------------------------------------------------------------------------
+# init_config
+# ------------------------------------------------------------------------------
+
+
+def init_config():
+    global skill_directory
+    global config_dir
+
+    config = configparser.ConfigParser()
+    config_dir = args["c"] if "c" in args else user_config_dir("hss_server", "s710")
+    config_ini = os.path.join(config_dir, "config.ini")
+    skill_directory = os.path.join(config_dir, "skills")
+
+    # bail out of anything is weird
+
+    if not config_dir:
+        raise Exception("Unable to get configuration dir. Use -c option.")
+
+    # create config dir if it does not yet exist (~/.config/hss_server)
+
+    if not os.path.exists(config_dir):
+        os.makedirs(config_dir, exist_ok=True)
+        os.makedirs(skill_directory, exist_ok=True)
+
+    # if ~/.config/hss_server/config.ini exists, load it
+
+    if os.path.exists(config_ini) and os.path.isfile(config_ini):
+        config.read(config_ini)
+
+    # if config does not exist yet or if it does not contain the skill-directory,
+    # use the default & save it back to the config file
+
+    if not "server" in config or not "skill_directory" in config["server"]:
+        if not "server" in config:
+            config.add_section("server")
+
+        config["server"]["skill_directory"] = skill_directory
+
+        with open(config_ini, 'w') as file:
+            config.write(file)
+
+    # when ending up here, ~/.config/hss_server/config.ini exists and
+    # contains the skill-directory
+
+    skill_directory = config["server"]["skill_directory"]
+
+# ------------------------------------------------------------------------------
+# main
+# ------------------------------------------------------------------------------
+
+
+if __name__ == "__main__":
+    signal.signal(signal.SIGINT, signal_handler)
+    signal.signal(signal.SIGTERM, signal_handler)
+
+    args = parseArgs()
+
+    init_config()
+
+    if args is None or "help" in args:
+        help()
+    elif "version" in args or "v" in args:
+        version()
+    else:
+        run()
