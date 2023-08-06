@@ -1,0 +1,6 @@
+README.md
+setup.py
+pylevenshtein.egg-info/PKG-INFO
+pylevenshtein.egg-info/SOURCES.txt
+pylevenshtein.egg-info/dependency_links.txt
+pylevenshtein.egg-info/top_level.txt
