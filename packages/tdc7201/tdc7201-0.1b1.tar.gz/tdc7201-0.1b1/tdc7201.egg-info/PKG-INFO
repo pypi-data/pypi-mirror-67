@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: tdc7201
+Version: 0.1b1
+Summary: Driver for T.I. TDC7201 chip
+Home-page: https://github.com/HowardALandman/QTD/src/tdc7201
+Author: Howard A. Landman
+Author-email: howard@riverrock.org
+License: MIT
+Description: Raspberry Pi driver for Texas Instruments TDC7201 Time-to-Digital-Converter chip
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
