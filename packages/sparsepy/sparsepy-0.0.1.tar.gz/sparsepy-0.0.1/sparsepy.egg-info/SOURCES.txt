@@ -1,0 +1,6 @@
+README.md
+setup.py
+sparsepy.egg-info/PKG-INFO
+sparsepy.egg-info/SOURCES.txt
+sparsepy.egg-info/dependency_links.txt
+sparsepy.egg-info/top_level.txt
