@@ -1,0 +1,4 @@
+django_reporter_pro
+report_templates
+static
+static-collects
