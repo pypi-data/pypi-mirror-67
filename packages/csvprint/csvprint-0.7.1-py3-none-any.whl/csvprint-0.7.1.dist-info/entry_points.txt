@@ -1,0 +1,3 @@
+[console_scripts]
+csvprint=bin.csvprint:main
+
