@@ -1,0 +1,9 @@
+README.md
+setup.py
+dawidpdf/__init__.py
+dawidpdf/pdf2image.py
+dawidpdf/pdf2txt.py
+dawidpdf.egg-info/PKG-INFO
+dawidpdf.egg-info/SOURCES.txt
+dawidpdf.egg-info/dependency_links.txt
+dawidpdf.egg-info/top_level.txt
