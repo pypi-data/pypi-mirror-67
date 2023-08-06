@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: speakdata
+Version: 0.1.0
+Summary: How to pronounce binary data
+Home-page: https://github.com/tyehle/speakdata
+Author: Tobin Yehle
+Author-email: tobinyehle@gmail.com
+License: MIT
+Description: # speakdata
+        A very useful guide on how to pronounce byte sequences
+        
+        ```pycon
+        >>> import random
+        >>> import speakdata
+        >>> 
+        >>> data = [random.randint(0, 255) for _ in range(8)]
+        >>> 
+        >>> print(":".join(f"{byte:02x}" for byte in data))
+        ed:6f:16:9b:eb:a8:d0:07
+        >>> 
+        >>> print(speakdata.pronounce(data))
+        Toijeyting bownining tutul saibaking.
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
