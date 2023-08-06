@@ -1,0 +1,8 @@
+README.rst
+setup.py
+slprint/__init__.py
+slprint/slowprint.py
+slprint_pkg.egg-info/PKG-INFO
+slprint_pkg.egg-info/SOURCES.txt
+slprint_pkg.egg-info/dependency_links.txt
+slprint_pkg.egg-info/top_level.txt
