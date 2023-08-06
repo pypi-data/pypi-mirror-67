@@ -1,0 +1,13 @@
+README.md
+setup.py
+./colorizexl/__init__.py
+./colorizexl/colorizexl.py
+./colorizexl/data/boy.png
+./colorizexl/data/boy_annotated.png
+./colorizexl/data/chair.png
+./colorizexl/data/chair_annotated.png
+colorizexl.egg-info/PKG-INFO
+colorizexl.egg-info/SOURCES.txt
+colorizexl.egg-info/dependency_links.txt
+colorizexl.egg-info/requires.txt
+colorizexl.egg-info/top_level.txt
