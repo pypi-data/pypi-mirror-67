@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ansible-virl
+Version: 0.0.4
+Summary: Cisco DevNet VIRL Ansible Modules
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: virl2-client
+
+UNKNOWN
+
+
