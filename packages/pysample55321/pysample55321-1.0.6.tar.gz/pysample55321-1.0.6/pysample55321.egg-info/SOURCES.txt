@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pysample55321/__init__.py
+pysample55321.egg-info/PKG-INFO
+pysample55321.egg-info/SOURCES.txt
+pysample55321.egg-info/dependency_links.txt
+pysample55321.egg-info/not-zip-safe
+pysample55321.egg-info/top_level.txt
+pysample55321/../main/pyhellocpp.so
