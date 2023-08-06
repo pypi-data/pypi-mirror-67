@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: QuarticSolver
+Version: 0.1.1
+Summary: A CPU/GPU library for finding the minimum of a quartic function
+Home-page: https://github.com/qureshizawar/CUDA-quartic-solver
+Author: Zawar Qureshi
+Author-email: qureshizawar@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/qureshizawar/CUDA-quartic-solver/archive/v_011.tar.gz
+Description: UNKNOWN
+Keywords: CUDA,QUARTIC,OPTIMISATION
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
