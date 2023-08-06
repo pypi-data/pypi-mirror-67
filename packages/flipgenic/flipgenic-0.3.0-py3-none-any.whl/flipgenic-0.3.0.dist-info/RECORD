@@ -1,0 +1,10 @@
+flipgenic/__init__.py,sha256=zTsPQpfZi7a70WUd72i8tYms_PUfJI9ywNXbCjNr5sE,2328
+flipgenic/db_models.py,sha256=4AdwMcj-iqGeXUH2CuU4y6iktQcRtVYbIg5INJ3-WQs,289
+flipgenic/response.py,sha256=Xfq2aHkdu6gvcxTocChi9XjUi9QXqR7jsPe3HZaSnxc,2155
+flipgenic/train.py,sha256=Fwv-kTsUTxf7-6Rt1QmpWyBOzSodXNqhTiaqBjB0n2k,1253
+flipgenic/vector.py,sha256=WpUwwj9GG5Vb52_n7vsypUWzLs6vreYVOQ59V6-TLoo,725
+flipgenic-0.3.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+flipgenic-0.3.0.dist-info/METADATA,sha256=EOZ-kg8RxE9a7JYzym7hp1-9kDZgB8GdNkuVw35qyo0,998
+flipgenic-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flipgenic-0.3.0.dist-info/top_level.txt,sha256=-CfT5nc8XBRtUR4T9QOUf3r0sVSvGoQhjSkyqylFdyA,10
+flipgenic-0.3.0.dist-info/RECORD,,
