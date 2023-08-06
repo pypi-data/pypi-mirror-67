@@ -1,0 +1,8 @@
+aws_cdk/aws_lambda_event_sources/__init__.py,sha256=Ywj6eYGldz7NxrWwp5mDQr9VQbftlddNxHIz7Ei2UJI,56827
+aws_cdk/aws_lambda_event_sources/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_lambda_event_sources/_jsii/__init__.py,sha256=_w_TNG9mXKB6cubK5sS4zC6kC3VdGIxR-3sP4pHL9rE,674
+aws_cdk/aws_lambda_event_sources/_jsii/aws-lambda-event-sources@1.37.0.jsii.tgz,sha256=AgLqIVr2W1u_FBfJb8GmqRnPtMbKB7ke_I3t1_zUKeY,55504
+aws_cdk.aws_lambda_event_sources-1.37.0.dist-info/METADATA,sha256=6p77MQBLF3y3CJ70dxTScNPOWrOlU28Ex_O0PcHsGA0,12591
+aws_cdk.aws_lambda_event_sources-1.37.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_lambda_event_sources-1.37.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_lambda_event_sources-1.37.0.dist-info/RECORD,,
