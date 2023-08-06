@@ -1,0 +1,31 @@
+---
+# where to put keys and certificates and pidfile
+path: "~/certificates"
+
+# a list of sets of domains to get certificates for
+domainlist:
+  - 'example.com'
+  - 'example.org,example.net'
+
+# command to reach the certgrinder server - command gets CSR on stdin
+certgrinderd: "ssh certgrinder@certgrinder.example.com"
+
+# renew certificate when this many days or fewer validity left, default 30
+#cert_renew_threshold_days: 30
+
+# run these after renewal of one or more certificates
+#post_renew_hooks:
+#  - '/usr/sbin/service nginx reload'
+
+# set this if the ssh source ip is important
+#bind_ip: "192.0.2.23"
+
+# the full path to the sudo binary, defaults to /usr/local/bin/sudo
+#sudo_path: '/usr/local/bin/sudo'
+
+# syslog facility defaults to 'user' but can be change to 'local0' or whatever
+# syslog_facility: 'user'
+
+# syslog_socket defaults to '/var/run/log'
+# syslog_socket: '/var/run/log'
+
