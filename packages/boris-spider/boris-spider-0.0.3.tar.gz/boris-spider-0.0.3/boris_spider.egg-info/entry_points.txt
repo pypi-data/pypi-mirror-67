@@ -1,0 +1,3 @@
+[console_scripts]
+spider-create = spider.base.create_builder:main
+
