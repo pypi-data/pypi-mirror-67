@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>nfldb.category API documentation</title>
+<meta name="description" content="" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>nfldb.category</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">categories = [
+    (82, False, &#34;player&#34;, &#34;defense_ast&#34;, &#34;Assist to a tackle.&#34;),
+    (91, False, &#34;player&#34;, &#34;defense_ffum&#34;, &#34;Defensive player forced a fumble.&#34;),
+    (88, False, &#34;player&#34;, &#34;defense_fgblk&#34;, &#34;Defensive player blocked a field goal.&#34;),
+    (60, False, &#34;player&#34;, &#34;defense_frec&#34;, &#34;Defensive player recovered a fumble by the opposing team.&#34;),
+    (62, False, &#34;player&#34;, &#34;defense_frec_tds&#34;, &#34;Defensive player scored a touchdown after recovering a fumble by the opposing team.&#34;),
+    (62, False, &#34;player&#34;, &#34;defense_frec_yds&#34;, &#34;Yards gained by a defensive player after recovering a fumble by the opposing team.&#34;),
+    (26, False, &#34;player&#34;, &#34;defense_int&#34;, &#34;An interception.&#34;),
+    (28, False, &#34;player&#34;, &#34;defense_int_tds&#34;, &#34;A touchdown scored after an interception.&#34;),
+    (28, False, &#34;player&#34;, &#34;defense_int_yds&#34;, &#34;Yards gained after an interception.&#34;),
+    (64, False, &#34;player&#34;, &#34;defense_misc_tds&#34;, &#34;A touchdown scored on miscellaneous yardage (e.g., on a missed field goal or a blocked punt).&#34;),
+    (64, False, &#34;player&#34;, &#34;defense_misc_yds&#34;, &#34;Miscellaneous yards gained by a defensive player (e.g., yardage on a missed field goal or blocked punt).&#34;),
+    (85, False, &#34;player&#34;, &#34;defense_pass_def&#34;, &#34;Incomplete pass was due primarily to a defensive player&#39;s action.&#34;),
+    (86, False, &#34;player&#34;, &#34;defense_puntblk&#34;, &#34;Defensive player blocked a punt.&#34;),
+    (110, False, &#34;player&#34;, &#34;defense_qbhit&#34;, &#34;Defensive player knocked the quarterback to the ground and the quarterback was not the ball carrier.&#34;),
+    (89, False, &#34;player&#34;, &#34;defense_safe&#34;, &#34;Tackle by a defensive player that resulted in a safety. This is in addition to a tackle.&#34;),
+    (84, True, &#34;player&#34;, &#34;defense_sk&#34;, &#34;Defensive player sacked the quarterback. Note that this is the only field that is a floating point number. Namely, there can be half-credit sacks.&#34;),
+    (84, False, &#34;player&#34;, &#34;defense_sk_yds&#34;, &#34;Yards lost as a result of a sack.&#34;),
+    (80, False, &#34;player&#34;, &#34;defense_tkl&#34;, &#34;A defensive player tackle. (This include defense_tkl_primary.)&#34;),
+    (120, False, &#34;player&#34;, &#34;defense_tkl_loss&#34;, &#34;Defensive player tackled the runner behind the line of scrimmage. Play must have ended, player must have received a tackle stat, has to be an offensive player tackled.&#34;),
+    (402, False, &#34;player&#34;, &#34;defense_tkl_loss_yds&#34;, &#34;The number of yards lost caused by a defensive tackle behind the line of scrimmage.&#34;),
+    (80, False, &#34;player&#34;, &#34;defense_tkl_primary&#34;, &#34;Defensive player was the primary tackler.&#34;),
+    (87, False, &#34;player&#34;, &#34;defense_xpblk&#34;, &#34;Defensive player blocked the extra point.&#34;),
+    (5, False, &#34;play&#34;, &#34;first_down&#34;, &#34;A first down or TD occurred due to a penalty. A play can have a first down from a pass or rush and from a penalty.&#34;),
+    (9, False, &#34;play&#34;, &#34;fourth_down_att&#34;, &#34;4th down play.&#34;),
+    (8, False, &#34;play&#34;, &#34;fourth_down_conv&#34;, &#34;4th down play resulted in a first down or touchdown.&#34;),
+    (9, False, &#34;play&#34;, &#34;fourth_down_failed&#34;, &#34;4th down play did not result in a first down or touchdown.&#34;),
+    (52, False, &#34;player&#34;, &#34;fumbles_forced&#34;, &#34;Player fumbled the ball, fumble was forced by another player.&#34;),
+    (106, False, &#34;player&#34;, &#34;fumbles_lost&#34;, &#34;Player fumbled the ball and the opposing team recovered it.&#34;),
+    (53, False, &#34;player&#34;, &#34;fumbles_notforced&#34;, &#34;Player fumbled the ball that was not caused by a defensive player.&#34;),
+    (54, False, &#34;player&#34;, &#34;fumbles_oob&#34;, &#34;Player fumbled the ball, and the ball went out of bounds.&#34;),
+    (56, False, &#34;player&#34;, &#34;fumbles_rec&#34;, &#34;Fumble recovery from a player on the same team.&#34;),
+    (58, False, &#34;player&#34;, &#34;fumbles_rec_tds&#34;, &#34;A touchdown after a fumble recovery from a player on the same team.&#34;),
+    (58, False, &#34;player&#34;, &#34;fumbles_rec_yds&#34;, &#34;Yards gained after a fumble recovery from a player on the same team.&#34;),
+    (54, False, &#34;player&#34;, &#34;fumbles_tot&#34;, &#34;Total number of fumbles by a player. Includes forced, not forced and out-of-bounds.&#34;),
+    (410, False, &#34;player&#34;, &#34;kicking_all_yds&#34;, &#34;Kickoff and length of kick. Includes end zone yards for all kicks into the end zone, including kickoffs ending in a touchback.&#34;),
+    (102, False, &#34;player&#34;, &#34;kicking_downed&#34;, &#34;A downed kickoff. A kickoff is downed when touched by an offensive player within the 10 yard free zone, and the ball is awarded to the receivers at the spot of the touch.&#34;),
+    (71, False, &#34;player&#34;, &#34;kicking_fga&#34;, &#34;A field goal attempt, including blocked field goals. Unlike a punt, a field goal is statistically blocked even if the ball does go beyond the line of scrimmage.&#34;),
+    (71, False, &#34;player&#34;, &#34;kicking_fgb&#34;, &#34;Field goal was blocked. Unlike a punt, a field goal is statistically blocked even if the ball does go beyond the line of scrimmage.&#34;),
+    (70, False, &#34;player&#34;, &#34;kicking_fgm&#34;, &#34;A field goal.&#34;),
+    (70, False, &#34;player&#34;, &#34;kicking_fgm_yds&#34;, &#34;The length of a successful field goal.&#34;),
+    (71, False, &#34;player&#34;, &#34;kicking_fgmissed&#34;, &#34;The field goal was unsuccessful, including blocked field goals. Unlike a punt, a field goal is statistically blocked even if the ball does go beyond the line of scrimmage.&#34;),
+    (71, False, &#34;player&#34;, &#34;kicking_fgmissed_yds&#34;, &#34;The length of an unsuccessful field goal, including blocked field goals. Unlike a punt, a field goal is statistically blocked even if the ball does go beyond the line of scrimmage.&#34;),
+    (42, False, &#34;player&#34;, &#34;kicking_i20&#34;, &#34;Kickoff and length of kick, where return ended inside opponent&#39;s 20 yard line.&#34;),
+    (108, False, &#34;player&#34;, &#34;kicking_rec&#34;, &#34;Recovery of own kickoff, whether or not the kickoff is onside.&#34;),
+    (108, False, &#34;player&#34;, &#34;kicking_rec_tds&#34;, &#34;Touchdown resulting from direct recovery in endzone of own kickoff, whether or not the kickoff is onside.&#34;),
+    (44, False, &#34;player&#34;, &#34;kicking_tot&#34;, &#34;A kickoff.&#34;),
+    (44, False, &#34;player&#34;, &#34;kicking_touchback&#34;, &#34;A kickoff that resulted in a touchback.&#34;),
+    (74, False, &#34;player&#34;, &#34;kicking_xpa&#34;, &#34;An extra point attempt.&#34;),
+    (74, False, &#34;player&#34;, &#34;kicking_xpb&#34;, &#34;Extra point was blocked.&#34;),
+    (72, False, &#34;player&#34;, &#34;kicking_xpmade&#34;, &#34;Extra point good.&#34;),
+    (74, False, &#34;player&#34;, &#34;kicking_xpmissed&#34;, &#34;Extra point missed. This includes blocked extra points.&#34;),
+    (44, False, &#34;player&#34;, &#34;kicking_yds&#34;, &#34;The length of a kickoff.&#34;),
+    (50, False, &#34;player&#34;, &#34;kickret_fair&#34;, &#34;A fair catch kickoff return.&#34;),
+    (49, False, &#34;player&#34;, &#34;kickret_oob&#34;, &#34;Kicked ball went out of bounds.&#34;),
+    (46, False, &#34;player&#34;, &#34;kickret_ret&#34;, &#34;A kickoff return.&#34;),
+    (48, False, &#34;player&#34;, &#34;kickret_tds&#34;, &#34;A kickoff return touchdown.&#34;),
+    (51, False, &#34;player&#34;, &#34;kickret_touchback&#34;, &#34;A kickoff return that resulted in a touchback.&#34;),
+    (48, False, &#34;player&#34;, &#34;kickret_yds&#34;, &#34;Yards gained by a kickoff return.&#34;),
+    (19, False, &#34;player&#34;, &#34;passing_att&#34;, &#34;A pass attempt.&#34;),
+    (16, False, &#34;player&#34;, &#34;passing_cmp&#34;, &#34;A pass completion.&#34;),
+    (111, False, &#34;player&#34;, &#34;passing_cmp_air_yds&#34;, &#34;Length of a pass, not including the yards gained by the receiver after the catch.&#34;),
+    (4, False, &#34;play&#34;, &#34;passing_first_down&#34;, &#34;A first down or TD occurred due to a pass.&#34;),
+    (19, False, &#34;player&#34;, &#34;passing_incmp&#34;, &#34;Pass was incomplete.&#34;),
+    (112, False, &#34;player&#34;, &#34;passing_incmp_air_yds&#34;, &#34;Length of the pass, if it would have been a completion.&#34;),
+    (19, False, &#34;player&#34;, &#34;passing_int&#34;, &#34;Pass attempt that resulted in an interception.&#34;),
+    (20, False, &#34;player&#34;, &#34;passing_sk&#34;, &#34;The player was sacked.&#34;),
+    (103, False, &#34;player&#34;, &#34;passing_sk_yds&#34;, &#34;The yards lost by a player that was sacked.&#34;),
+    (16, False, &#34;player&#34;, &#34;passing_tds&#34;, &#34;A pass completion that resulted in a touchdown.&#34;),
+    (78, False, &#34;player&#34;, &#34;passing_twopta&#34;, &#34;A passing two-point conversion attempt.&#34;),
+    (77, False, &#34;player&#34;, &#34;passing_twoptm&#34;, &#34;A successful passing two-point conversion.&#34;),
+    (78, False, &#34;player&#34;, &#34;passing_twoptmissed&#34;, &#34;An unsuccessful passing two-point conversion.&#34;),
+    (16, False, &#34;player&#34;, &#34;passing_yds&#34;, &#34;Total yards resulting from a pass completion.&#34;),
+    (93, False, &#34;play&#34;, &#34;penalty&#34;, &#34;A penalty occurred.&#34;),
+    (5, False, &#34;play&#34;, &#34;penalty_first_down&#34;, &#34;A first down or TD occurred due to a penalty.&#34;),
+    (93, False, &#34;play&#34;, &#34;penalty_yds&#34;, &#34;The number of yards gained or lost from a penalty.&#34;),
+    (2, False, &#34;player&#34;, &#34;punting_blk&#34;, &#34;Punt was blocked. A blocked punt is a punt that is touched behind the line of scrimmage, and is recovered, or goes out of bounds, behind the line of scrimmage. If the impetus of the punt takes it beyond the line of scrimmage, it is not a blocked punt.&#34;),
+    (30, False, &#34;player&#34;, &#34;punting_i20&#34;, &#34;A punt where the punt return ended inside the opponent&#39;s 20 yard line.&#34;),
+    (32, False, &#34;player&#34;, &#34;punting_tot&#34;, &#34;A punt.&#34;),
+    (32, False, &#34;player&#34;, &#34;punting_touchback&#34;, &#34;A punt that results in a touchback.&#34;),
+    (32, False, &#34;player&#34;, &#34;punting_yds&#34;, &#34;The length of a punt.&#34;),
+    (38, False, &#34;player&#34;, &#34;puntret_downed&#34;, &#34;Punt return where the ball was downed by kicking team.&#34;),
+    (39, False, &#34;player&#34;, &#34;puntret_fair&#34;, &#34;Punt return resulted in a fair catch.&#34;),
+    (37, False, &#34;player&#34;, &#34;puntret_oob&#34;, &#34;Punt went out of bounds.&#34;),
+    (36, False, &#34;player&#34;, &#34;puntret_tds&#34;, &#34;A punt return touchdown.&#34;),
+    (34, False, &#34;player&#34;, &#34;puntret_tot&#34;, &#34;A punt return.&#34;),
+    (40, False, &#34;player&#34;, &#34;puntret_touchback&#34;, &#34;A punt return that resulted in a touchback.&#34;),
+    (36, False, &#34;player&#34;, &#34;puntret_yds&#34;, &#34;Yards gained by a punt return.&#34;),
+    (22, False, &#34;player&#34;, &#34;receiving_rec&#34;, &#34;A reception.&#34;),
+    (115, False, &#34;player&#34;, &#34;receiving_tar&#34;, &#34;Player was the target of a pass attempt.&#34;),
+    (24, False, &#34;player&#34;, &#34;receiving_tds&#34;, &#34;A reception that results in a touchdown.&#34;),
+    (105, False, &#34;player&#34;, &#34;receiving_twopta&#34;, &#34;A receiving two-point conversion attempt.&#34;),
+    (104, False, &#34;player&#34;, &#34;receiving_twoptm&#34;, &#34;A successful receiving two-point conversion.&#34;),
+    (105, False, &#34;player&#34;, &#34;receiving_twoptmissed&#34;, &#34;An unsuccessful receiving two-point conversion.&#34;),
+    (113, False, &#34;player&#34;, &#34;receiving_yac_yds&#34;, &#34;Yardage from where the ball was caught until the player&#39;s action was over.&#34;),
+    (24, False, &#34;player&#34;, &#34;receiving_yds&#34;, &#34;Yards resulting from a reception.&#34;),
+    (11, False, &#34;player&#34;, &#34;rushing_att&#34;, &#34;A rushing attempt.&#34;),
+    (3, False, &#34;play&#34;, &#34;rushing_first_down&#34;, &#34;A first down or TD occurred due to a rush.&#34;),
+    (95, False, &#34;player&#34;, &#34;rushing_loss&#34;, &#34;Ball carrier was tackled for a loss behind the line of scrimmage, where at least one defensive player is credited with ending the rush with a tackle, or tackle assist.&#34;),
+    (95, False, &#34;player&#34;, &#34;rushing_loss_yds&#34;, &#34;Yards lost from the ball carrier being tackled for a loss behind the line of scrimmage, where at least one defensive player is credited with ending the rush with a tackle, or tackle assist.&#34;),
+    (13, False, &#34;player&#34;, &#34;rushing_tds&#34;, &#34;A touchdown resulting from a rush attempt.&#34;),
+    (76, False, &#34;player&#34;, &#34;rushing_twopta&#34;, &#34;A rushing two-point conversion attempt.&#34;),
+    (75, False, &#34;player&#34;, &#34;rushing_twoptm&#34;, &#34;A successful rushing two-point conversion.&#34;),
+    (76, False, &#34;player&#34;, &#34;rushing_twoptmissed&#34;, &#34;An unsuccessful rushing two-point conversion.&#34;),
+    (13, False, &#34;player&#34;, &#34;rushing_yds&#34;, &#34;Yards resulting from a rush.&#34;),
+    (7, False, &#34;play&#34;, &#34;third_down_att&#34;, &#34;3rd down play.&#34;),
+    (6, False, &#34;play&#34;, &#34;third_down_conv&#34;, &#34;3rd down play resulted in a first down or touchdown.&#34;),
+    (7, False, &#34;play&#34;, &#34;third_down_failed&#34;, &#34;3rd down play did not result in a first down or touchdown.&#34;),
+    (68, False, &#34;play&#34;, &#34;timeout&#34;, &#34;Team took a time out.&#34;),
+    (301, False, &#34;play&#34;, &#34;xp_aborted&#34;, &#34;The extra point was aborted.&#34;),
+]</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="nfldb" href="index.html">nfldb</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>

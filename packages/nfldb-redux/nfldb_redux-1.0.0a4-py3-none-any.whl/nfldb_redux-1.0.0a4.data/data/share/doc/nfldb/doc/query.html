@@ -1,0 +1,3341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>nfldb.query API documentation</title>
+<meta name="description" content="" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>nfldb.query</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">from collections import defaultdict
+try:
+    from collections import OrderedDict
+except ImportError:
+    from ordereddict import OrderedDict
+import re
+
+from psycopg2.extensions import cursor as tuple_cursor
+
+from nfldb.db import Tx
+import nfldb.sql as sql
+import nfldb.types as types
+
+try:
+    strtype = str
+except NameError:
+    strtype = str
+
+__pdoc__ = {}
+
+_ENTITIES = {
+    &#39;game&#39;: types.Game,
+    &#39;drive&#39;: types.Drive,
+    &#39;play&#39;: types.Play,
+    &#39;play_player&#39;: types.PlayPlayer,
+    &#39;player&#39;: types.Player,
+}
+
+def aggregate(objs):
+    &#34;&#34;&#34;
+    Given any collection of Python objects that provide a
+    `play_players` attribute, `aggregate` will return a list of
+    `PlayPlayer` objects with statistics aggregated (summed) over each
+    player. (As a special case, if an element in `objs` is itself a
+    `nfldb.PlayPlayer` object, then it is used and a `play_players`
+    attribute is not rquired.)
+
+    For example, `objs` could be a mixed list of `nfldb.Game` and
+    `nfldb.Play` objects.
+
+    The order of the list returned is stable with respect to the
+    order of players obtained from each element in `objs`.
+
+    It is recommended to use `nfldb.Query.aggregate` and
+    `nfldb.Query.as_aggregate` instead of this function since summing
+    statistics in the database is much faster. However, this function
+    is provided for aggregation that cannot be expressed by the query
+    interface.
+    &#34;&#34;&#34;
+    summed = OrderedDict()
+    for obj in objs:
+        pps = [obj] if isinstance(obj, types.PlayPlayer) else obj.play_players
+        for pp in pps:
+            if pp.player_id not in summed:
+                summed[pp.player_id] = pp._copy()
+            else:
+                summed[pp.player_id]._add(pp)
+    return list(summed.values())
+
+
+def current(db):
+    &#34;&#34;&#34;
+    Returns a triple of `nfldb.Enums.season_phase`, season year and week
+    corresponding to values that `nfldb` thinks are current.
+
+    Note that this only queries the database. Only the `nfldb-update`
+    script fetches the current state from NFL.com.
+
+    The values retrieved may be `None` if the season is over or if they
+    haven&#39;t been updated yet by the `nfldb-update` script.
+    &#34;&#34;&#34;
+    with Tx(db, factory=tuple_cursor) as cursor:
+        cursor.execute(&#39;SELECT season_type, season_year, week FROM meta&#39;)
+        return cursor.fetchone()
+    return tuple([None] * 3)
+
+
+def _entities_by_ids(db, entity, *ids):
+    &#34;&#34;&#34;
+    Given an `nfldb` `entity` like `nfldb.Play` and a list of tuples
+    `ids` where each tuple is the primary key (or a subset of the
+    primary key) for `entity`, return a list of instances of `entity`
+    corresponding to the `ids` given.
+
+    The order of the returned entities is undefined.
+    &#34;&#34;&#34;
+    funs = {
+        types.Game: {&#39;query&#39;: Query.game, &#39;results&#39;: Query.as_games},
+        types.Drive: {&#39;query&#39;: Query.drive, &#39;results&#39;: Query.as_drives},
+        types.Play: {&#39;query&#39;: Query.play, &#39;results&#39;: Query.as_plays},
+        types.PlayPlayer: {&#39;query&#39;: Query.play_player,
+                           &#39;results&#39;: Query.as_play_players},
+        types.Player: {&#39;query&#39;: Query.player, &#39;results&#39;: Query.as_players},
+    }[entity]
+    q = Query(db)
+    entq = funs[&#39;query&#39;]
+    for pkey in ids:
+        named = dict(list(zip(entity._sql_tables[&#39;primary&#39;], pkey)))
+        q.orelse(entq(Query(db), **named))
+    return funs[&#39;results&#39;](q)
+
+
+def player_search(db, full_name, team=None, position=None,
+                  limit=1, soundex=False):
+    &#34;&#34;&#34;
+    Given a database handle and a player&#39;s full name, this function
+    searches the database for players with full names *similar* to the
+    one given. Similarity is measured by the
+    [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance),
+    or by [Soundex similarity](http://en.wikipedia.org/wiki/Soundex).
+
+    Results are returned as tuples. The first element is the is a
+    `nfldb.Player` object and the second element is the Levenshtein
+    (or Soundex) distance. When `limit` is `1` (the default), then the
+    return value is a tuple.  When `limit` is more than `1`, then the
+    return value is a list of tuples.
+
+    If no results are found, then `(None, None)` is returned when
+    `limit == 1` or the empty list is returned when `limit &gt; 1`.
+
+    If `team` is not `None`, then only players **currently** on the
+    team provided will be returned. Any players with an unknown team
+    are therefore omitted.
+
+    If `position` is not `None`, then only players **currently**
+    at that position will be returned. Any players with an unknown
+    position are therefore omitted.
+
+    In order to use this function, the PostgreSQL `levenshtein`
+    function must be available. If running this functions gives
+    you an error about &#34;No function matches the given name and
+    argument types&#34;, then you can install the `levenshtein` function
+    into your database by running the SQL query `CREATE EXTENSION
+    fuzzystrmatch` as a superuser like `postgres`. For example:
+
+        #!bash
+        psql -U postgres -c &#39;CREATE EXTENSION fuzzystrmatch;&#39; nfldb
+
+    Note that enabled the `fuzzystrmatch` extension also provides
+    functions for comparing using Soundex.
+    &#34;&#34;&#34;
+    assert isinstance(limit, int) and limit &gt;= 1
+
+    if soundex:
+        # Careful, soundex distances are sorted in reverse of Levenshtein
+        # distances.
+        # Difference yields an integer in [0, 4].
+        # A 4 is an exact match.
+        fuzzy = &#39;difference(full_name, %s)&#39;
+        q = &#39;&#39;&#39;
+            SELECT {columns}
+            FROM player
+            WHERE {where}
+            ORDER BY distance DESC LIMIT {limit}
+        &#39;&#39;&#39;
+    else:
+        fuzzy = &#39;levenshtein(full_name, %s)&#39;
+        q = &#39;&#39;&#39;
+            SELECT {columns}
+            FROM player
+            WHERE {where}
+            ORDER BY distance ASC LIMIT {limit}
+        &#39;&#39;&#39;
+    qteam, qposition = &#39;&#39;, &#39;&#39;
+    results = []
+    with Tx(db) as cursor:
+        if team is not None:
+            qteam = cursor.mogrify(&#39;team = %s&#39;, (team,)).decode(&#39;utf-8&#39;)
+        if position is not None:
+            qposition = cursor.mogrify(&#39;position = %s&#39;, (position,)).decode(&#39;utf-8&#39;)
+
+        fuzzy_filled = cursor.mogrify(fuzzy, (full_name,))
+        columns = types.Player._sql_select_fields(types.Player.sql_fields())
+        columns.append(&#39;%s AS distance&#39; % fuzzy_filled)
+        q = q.format(
+            columns=&#39;, &#39;.join(columns),
+            where=sql.ands(fuzzy_filled + &#39; IS NOT NULL&#39;, qteam, qposition),
+            limit=limit)
+        cursor.execute(q, (full_name,))
+
+        for row in cursor.fetchall():
+            r = (types.Player.from_row_dict(db, row), row[&#39;distance&#39;])
+            results.append(r)
+    if limit == 1:
+        if len(results) == 0:
+            return (None, None)
+        return results[0]
+    return results
+
+
+def guess_position(pps):
+    &#34;&#34;&#34;
+    Given a list of `nfldb.PlayPlayer` objects for the same player,
+    guess the position of the player based on the statistics recorded.
+
+    Note that this only distinguishes the offensive positions of QB,
+    RB, WR, P and K. If defensive stats are detected, then the position
+    returned defaults to LB.
+
+    The algorithm used is simple majority vote. Whichever position is
+    the most common is returned (and this may be `UNK`).
+    &#34;&#34;&#34;
+    if len(pps) == 0:
+        return types.Enums.player_pos.UNK
+
+    counts = defaultdict(int)
+    for pp in pps:
+        counts[pp.guess_position] += 1
+    return max(list(counts.items()), key=lambda __count: __count[1])[0]
+
+
+def _append_conds(conds, entity, kwargs):
+    &#34;&#34;&#34;
+    Adds `nfldb.Condition` objects to the condition list `conds`
+    for the `entity` type given. Only the values in `kwargs` that
+    correspond to fields in `entity` are used.
+    &#34;&#34;&#34;
+    allowed = set(entity.sql_fields())
+    for k, v in list(kwargs.items()):
+        kbare = _no_comp_suffix(k)
+        assert kbare in allowed, \
+            &#34;The key &#39;%s&#39; does not exist for entity &#39;%s&#39;.&#34; \
+            % (kbare, entity.__name__)
+        conds.append(Comparison(entity, k, v))
+
+
+def _no_comp_suffix(s):
+    &#34;&#34;&#34;Removes the comparison operator suffix from a search field.&#34;&#34;&#34;
+    return re.sub(&#39;__(eq|ne|gt|lt|ge|le)$&#39;, &#39;&#39;, s)
+
+
+def _comp_suffix(s):
+    &#34;&#34;&#34;
+    Returns the comparison operator suffix given a search field.
+    This does not include the `__` (double underscore).
+
+    If no suffix is present, then `eq` is returned.
+    &#34;&#34;&#34;
+    suffixes = [&#39;eq&#39;, &#39;ne&#39;, &#39;lt&#39;, &#39;le&#39;, &#39;gt&#39;, &#39;ge&#39;]
+    for suffix in suffixes:
+        if s.endswith(suffix):
+            return suffix
+    return &#39;eq&#39;
+
+
+class Condition (object):
+    &#34;&#34;&#34;
+    An abstract class that describes the interface of components
+    in a SQL query.
+    &#34;&#34;&#34;
+    def __init__(self):
+        assert False, &#34;Condition class cannot be instantiated.&#34;
+
+    def _entities(self):
+        &#34;&#34;&#34;
+        Returns a `set` of entity types, inheriting from
+        `nfldb.Entity`, that are used in this condition.
+        &#34;&#34;&#34;
+        assert False, &#34;subclass responsibility&#34;
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns an escaped SQL string that can be safely substituted
+        into the WHERE clause of a SELECT query for a particular.
+
+        See the documentation for `nfldb.Entity` for information on
+        the `aliases` parameter.
+
+        If `aggregate` is `True`, then aggregate conditions should
+        be used instead of regular conditions.
+        &#34;&#34;&#34;
+        assert False, &#34;subclass responsibility&#34;
+
+    @classmethod
+    def _disjunctions(cls, cursor, disjuncts, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns a valid SQL condition expression of the form:
+
+            (d00 &amp; d01 &amp; ...) | (d10 &amp; d11 &amp; ...) | ...
+
+        Where `d{N}` is a `nfldb.Condition` element in `disjuncts` and
+        `d{Ni}` is an element in `d{N}`.
+        &#34;&#34;&#34;
+        def sql(c):
+            return c._sql_where(cursor, aliases=aliases, aggregate=aggregate)
+        ds = []
+        for conjuncts in disjuncts:
+            ds.append(&#39; AND &#39;.join(&#39;(%s)&#39; % sql(c) for c in conjuncts))
+        return &#39; OR &#39;.join(&#39;(%s)&#39; % d for d in ds if d)
+
+
+class Comparison (Condition):
+    &#34;&#34;&#34;
+    A representation of a single comparison in a `nfldb.Query`.
+
+    This corresponds to a field name, a value and one of the following
+    operators: `=`, `!=`, `&lt;`, `&lt;=`, `&gt;` or `&gt;=`. A value may be a list
+    or a tuple, in which case PostgreSQL&#39;s `ANY` is used along with the
+    given operator.
+    &#34;&#34;&#34;
+
+    def __init__(self, entity, kw, value):
+        &#34;&#34;&#34;
+        Introduces a new condition given a user specified keyword `kw`
+        with a `entity` (e.g., `nfldb.Play`) and a user provided
+        value. The operator to be used is inferred from the suffix of
+        `kw`. If `kw` has no suffix or a `__eq` suffix, then `=` is
+        used. A suffix of `__ge` means `&gt;=` is used, `__lt` means `&lt;`,
+        and so on.
+        &#34;&#34;&#34;
+        self.operator = &#39;=&#39;
+        &#34;&#34;&#34;The operator used in this condition.&#34;&#34;&#34;
+
+        self.entity = entity
+        &#34;&#34;&#34;The table type for this column.&#34;&#34;&#34;
+
+        self.column = None
+        &#34;&#34;&#34;The SQL column name in this condition.&#34;&#34;&#34;
+
+        self.value = value
+        &#34;&#34;&#34;The Python value to compare the SQL column to.&#34;&#34;&#34;
+
+        suffixes = {
+            &#39;__eq&#39;: &#39;=&#39;, &#39;__ne&#39;: &#39;!=&#39;,
+            &#39;__lt&#39;: &#39;&lt;&#39;, &#39;__le&#39;: &#39;&lt;=&#39;, &#39;__gt&#39;: &#39;&gt;&#39;, &#39;__ge&#39;: &#39;&gt;=&#39;,
+        }
+        for suffix, op in list(suffixes.items()):
+            if kw.endswith(suffix):
+                self.operator = op
+                self.column = kw[0:-4]
+        if self.column is None:
+            self.column = kw
+
+    def _entities(self):
+        return set([self.entity])
+
+    def __str__(self):
+        return &#39;%s %s %s&#39; \
+               % (self.entity._sql_field(self.column),
+                  self.operator, self.value)
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        field = self.entity._sql_field(self.column, aliases=aliases)
+        if aggregate:
+            field = &#39;SUM(%s)&#39; % field
+        if isinstance(self.value, tuple) or isinstance(self.value, list):
+            assert self.operator == &#39;=&#39;, \
+                &#39;Disjunctions must use &#34;=&#34; for column &#34;%s&#34;&#39; % field
+            vals = [cursor.mogrify(&#39;%s&#39;, (v,).decod(&#39;utf-8&#39;)) for v in self.value]
+            return &#39;%s IN (%s)&#39; % (field, &#39;, &#39;.join(vals))
+        else:
+            paramed = &#39;%s %s %s&#39; % (field, self.operator, &#39;%s&#39;)
+            return cursor.mogrify(paramed, (self.value,)).decode(&#39;utf-8&#39;)
+
+def QueryOR(db):
+    &#34;&#34;&#34;
+    Creates a disjunctive `nfldb.Query` object, where every
+    condition is combined disjunctively. Namely, it is an alias for
+    `nfldb.Query(db, orelse=True)`.
+    &#34;&#34;&#34;
+    return Query(db, orelse=True)
+
+class Query (Condition):
+    &#34;&#34;&#34;
+    A query represents a set of criteria to search nfldb&#39;s PostgreSQL
+    database. Its primary feature is to provide a high-level API for
+    searching NFL game, drive, play and player data very quickly.
+
+    The basic workflow is to specify all of the search criteria that
+    you want, and then use one of the `as_*` methods to actually
+    perform the search and return results from the database.
+
+    For example, to get all Patriots games as `nfldb.Game` objects from
+    the 2012 regular season, we could do:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;, team=&#39;NE&#39;)
+        for game in q.as_games():
+            print game
+
+    Other comparison operators like `&lt;` or `&gt;=` can also be used. To use
+    them, append a suffix like `__lt` to the end of a field name. So to get
+    all games with a home score greater than or equal to 50:
+
+        #!python
+        q = Query(db).game(home_score__ge=50)
+        for game in q.as_games():
+            print game
+
+    Other suffixes are available: `__lt` for `&lt;`, `__le` for `&lt;=`,
+    `__gt` for `&gt;`, `__ge` for `&gt;=`, `__ne` for `!=` and `__eq` for
+    `==`. Although, the `__eq` suffix is used by default and is
+    therefore never necessary to use.
+
+    More criteria can be specified by chaining search criteria. For
+    example, to get only plays as `nfldb.Play` objects where Tom Brady
+    threw a touchdown pass:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.player(full_name=&#34;Tom Brady&#34;).play(passing_tds=1)
+        for play in q.as_plays():
+            print play
+
+    By default, all critera specified are combined conjunctively (i.e.,
+    all criteria must be met for each result returned). However,
+    sometimes you may want to specify disjunctive criteria (i.e., any
+    of the criteria can be met for a result to be returned). To do this
+    for a single field, simply use a list. For example, to get all
+    Patriot games from the 2009 to 2013 seasons:
+
+        #!python
+        q = Query(db).game(season_type=&#39;Regular&#39;, team=&#39;NE&#39;)
+        q.game(season_year=[2009, 2010, 2011, 2012, 2013])
+        for game in q.as_games():
+            print game
+
+    Disjunctions can also be applied to multiple fields by creating a
+    `nfldb.Query` object with `nfldb.QueryOR`. For example, to find
+    all games where either team had more than 50 points:
+
+        #!python
+        q = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+        for game in q.as_games():
+            print game
+
+    Finally, multiple queries can be combined with `nfldb.Query.andalso`.
+    For example, to restrict the last search to games in the 2012 regular
+    season:
+
+        #!python
+        big_score = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.andalso(big_score)
+        for game in q.as_games():
+            print game
+
+    This is only the beginning of what can be done. More examples that run
+    the gamut can be found on
+    [nfldb&#39;s wiki](https://github.com/derek-adair/nfldb/wiki).
+    &#34;&#34;&#34;
+
+    def __init__(self, db, orelse=False):
+        &#34;&#34;&#34;
+        Introduces a new `nfldb.Query` object. Criteria can be
+        added with any combination of the `nfldb.Query.game`,
+        `nfldb.Query.drive`, `nfldb.Query.play`, `nfldb.Query.player`
+        and `nfldb.Query.aggregate` methods. Results can
+        then be retrieved with any of the `as_*` methods:
+        `nfldb.Query.as_games`, `nfldb.Query.as_drives`,
+        `nfldb.Query.as_plays`, `nfldb.Query.as_play_players`,
+        `nfldb.Query.as_players` and `nfldb.Query.as_aggregate`.
+
+        Note that if aggregate criteria are specified with
+        `nfldb.Query.aggregate`, then the **only** way to retrieve
+        results is with the `nfldb.Query.as_aggregate` method. Invoking
+        any of the other `as_*` methods will raise an assertion error.
+        &#34;&#34;&#34;
+
+        self._db = db
+        &#34;&#34;&#34;A psycopg2 database connection object.&#34;&#34;&#34;
+
+        self._sort_exprs = None
+        &#34;&#34;&#34;Expressions used to sort the results.&#34;&#34;&#34;
+
+        self._limit = None
+        &#34;&#34;&#34;The number of results to limit the search to.&#34;&#34;&#34;
+
+        self._andalso = []
+        &#34;&#34;&#34;A list of conjunctive conditions.&#34;&#34;&#34;
+
+        self._orelse = []
+        &#34;&#34;&#34;
+        A list of disjunctive conditions applied to
+        `Query._andalso`.
+        &#34;&#34;&#34;
+
+        self._default_cond = self._orelse if orelse else self._andalso
+        &#34;&#34;&#34;
+        Whether to use conjunctive or disjunctive conditions by
+        default.
+        &#34;&#34;&#34;
+
+        # The aggregate counter-parts of the above.
+        self._agg_andalso, self._agg_orelse = [], []
+        if orelse:
+            self._agg_default_cond = self._agg_orelse
+        else:
+            self._agg_default_cond = self._agg_andalso
+
+    def sort(self, exprs):
+        &#34;&#34;&#34;
+        Specify sorting criteria for the result set returned by
+        using sort expressions. A sort expression is a tuple with
+        two elements: a field to sort by and the order to use. The
+        field should correspond to an attribute of the objects you&#39;re
+        returning and the order should be `asc` for ascending (smallest
+        to biggest) or `desc` for descending (biggest to smallest).
+
+        For example, `(&#39;passing_yds&#39;, &#39;desc&#39;)` would sort plays by the
+        number of passing yards in the play, with the biggest coming
+        first.
+
+        Remember that a sort field must be an attribute of the
+        results being returned. For example, you can&#39;t sort plays by
+        `home_score`, which is an attribute of a `nfldb.Game` object.
+        If you require this behavior, you will need to do it in Python
+        with its `sorted` built in function. (Or alternatively, use
+        two separate queries if the result set is large.)
+
+        You may provide multiple sort expressions. For example,
+        `[(&#39;gsis_id&#39;, &#39;asc&#39;), (&#39;time&#39;, &#39;asc&#39;), (&#39;play_id&#39;, &#39;asc&#39;)]`
+        would sort plays in the order in which they occurred within
+        each game.
+
+        `exprs` may also just be a string specifying a single
+        field which defaults to a descending order. For example,
+        `sort(&#39;passing_yds&#39;)` sorts plays by passing yards in
+        descending order.
+
+        If `exprs` is set to the empty list, then sorting will be
+        disabled for this query.
+
+        Note that sorting criteria can be combined with
+        `nfldb.Query.limit` to limit results which can dramatically
+        speed up larger searches. For example, to fetch the top 10
+        passing plays in the 2012 season:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            q.sort(&#39;passing_yds&#39;).limit(10)
+            for p in q.as_plays():
+                print p
+
+        A more naive approach might be to fetch all plays and sort them
+        with Python:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            plays = q.as_plays()
+
+            plays = sorted(plays, key=lambda p: p.passing_yds, reverse=True)
+            for p in plays[:10]:
+                print p
+
+        But this is over **43 times slower** on my machine than using
+        `nfldb.Query.sort` and `nfldb.Query.limit`. (The performance
+        difference is due to making PostgreSQL perform the search and
+        restricting the number of results returned to process.)
+        &#34;&#34;&#34;
+        self._sort_exprs = exprs
+        return self
+
+    def limit(self, count):
+        &#34;&#34;&#34;
+        Limits the number of results to the integer `count`. If `count` is
+        `0` (the default), then no limiting is done.
+
+        See the documentation for `nfldb.Query.sort` for an example on how
+        to combine it with `nfldb.Query.limit` to get results quickly.
+        &#34;&#34;&#34;
+        self._limit = count
+        return self
+
+    def _sorter(self, default_entity):
+        return Sorter(default_entity, self._sort_exprs, self._limit)
+
+    def _assert_no_aggregate(self):
+        assert len(self._agg_andalso) == 0 and len(self._agg_orelse) == 0, \
+            &#39;aggregate criteria are only compatible with as_aggregate&#39;
+
+    def andalso(self, *conds):
+        &#34;&#34;&#34;
+        Adds the list of `nfldb.Query` objects in `conds` to this
+        query&#39;s list of conjunctive conditions.
+        &#34;&#34;&#34;
+        self._andalso += conds
+        return self
+
+    def orelse(self, *conds):
+        &#34;&#34;&#34;
+        Adds the list of `nfldb.Query` objects in `conds` to this
+        query&#39;s list of disjunctive conditions.
+        &#34;&#34;&#34;
+        self._orelse += conds
+        return self
+
+    def game(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for an NFL game. The possible fields
+        correspond to columns in the `game` table (or derived columns).
+        They are documented as instance variables in the `nfldb.Game`
+        class. Additionally, there are some special fields that provide
+        convenient access to common conditions:
+
+          * **team** - Find games that the team given played in, regardless
+                       of whether it is the home or away team.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+
+        Please
+        [open an issue](https://github.com/derek-adair/nfldb/issues/new)
+        if you can think of other special fields to add.
+        &#34;&#34;&#34;
+        if &#39;team&#39; in kw:
+            team = kw.pop(&#39;team&#39;)
+            ors = {&#39;home_team&#39;: team, &#39;away_team&#39;: team}
+            self.andalso(Query(self._db, orelse=True).game(**ors))
+        _append_conds(self._default_cond, types.Game, kw)
+        return self
+
+    def drive(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a drive. The possible fields
+        correspond to columns in the `drive` table (or derived
+        columns). They are documented as instance variables in the
+        `nfldb.Drive` class.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Drive, kw)
+        return self
+
+    def play(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a play. The possible fields
+        correspond to columns in the `play` or `play_player` tables (or
+        derived columns). They are documented as instance variables in
+        the `nfldb.Play` and `nfldb.PlayPlayer` classes. Additionally,
+        the fields listed on the
+        [statistical categories](http://goo.gl/1qYG3C)
+        wiki page may be used. That includes **both** `play` and
+        `player` statistical categories.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Play, kw)
+        return self
+
+    def play_player(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for individual play player statistics.
+        The allowed fields are the columns in the `play_player`
+        table.  They are documented as instance variables in the
+        `nfldb.PlayPlayer` class. Additionally, the fields listed on
+        the [statistical categories](http://goo.gl/1qYG3C) wiki page
+        may be used. (Only the `player` statistical categories.)
+
+        This method differs from `nfldb.Query.play` in that it can be
+        used to select for individual player statistics in a play. In
+        particular, there are *zero or more* player statistics for
+        every play.
+        &#34;&#34;&#34;
+        # Technically, it isn&#39;t necessary to handle derived fields manually
+        # since their SQL can be generated automatically, but it can be
+        # much faster to express them in terms of boolean logic with other
+        # fields rather than generate them.
+        for field, value in list(kw.items()):
+            nosuff = _no_comp_suffix(field)
+            suff = _comp_suffix(field)
+
+            def replace_or(*fields):
+                q = Query(self._db, orelse=True)
+                ors = dict([(&#39;%s__%s&#39; % (f, suff), value) for f in fields])
+                self.andalso(q.play_player(**ors))
+
+            if nosuff in types.PlayPlayer._derived_combined:
+                replace_or(*types.PlayPlayer._derived_combined[nosuff])
+                kw.pop(field)
+
+        # Now add the rest of the query.
+        _append_conds(self._default_cond, types.PlayPlayer, kw)
+        return self
+
+    def player(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a player. The possible fields
+        correspond to columns in the `player` table (or derived
+        columns). They are documented as instance variables in the
+        `nfldb.Player` class.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Player, kw)
+        return self
+
+    def aggregate(self, **kw):
+        &#34;&#34;&#34;
+        This is just like `nfldb.Query.play_player`, except the search
+        parameters are applied to aggregate statistics.
+
+        For example, to retrieve all quarterbacks who passed for at
+        least 4000 yards in the 2012 season:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            q.aggregate(passing_yds__ge=4000)
+            for pp in q.as_aggregate():
+                print pp.player, pp.passing_yds
+
+        Aggregate results can also be sorted:
+
+            #!python
+            for pp in q.sort(&#39;passing_yds&#39;).as_aggregate():
+                print pp.player, pp.passing_yds
+
+        Note that this method can **only** be used with
+        `nfldb.Query.as_aggregate`. Use with any of the other
+        `as_*` methods will result in an assertion error. Note
+        though that regular criteria can still be specified with
+        `nfldb.Query.game`, `nfldb.Query.play`, etc. (Regular criteria
+        restrict *what to aggregate* while aggregate criteria restrict
+        *aggregated results*.)
+        &#34;&#34;&#34;
+        _append_conds(self._agg_default_cond, types.PlayPlayer, kw)
+        return self
+
+    def _make_join_query(self, cursor, entity, only_prim=False, sorter=None,
+                         ent_fillers=None):
+        if sorter is None:
+            sorter = self._sorter(entity)
+
+        entities = self._entities()
+        entities.update(sorter.entities)
+        for ent in ent_fillers or []:
+            entities.add(ent)
+        entities.discard(entity)
+
+        # If we&#39;re joining the `player` table with any other table except
+        # `play_player`, then we MUST add `play_player` as a joining table.
+        # It is the only way to bridge players and games/drives/plays.
+        #
+        # TODO: This could probably be automatically deduced in general case,
+        # but we only have one case so just check for it manually.
+        if (entity is not types.PlayPlayer and types.Player in entities) \
+                or (entity is types.Player and len(entities) &gt; 0):
+            entities.add(types.PlayPlayer)
+
+        if only_prim:
+            columns = entity._sql_tables[&#39;primary&#39;]
+            fields = entity._sql_select_fields(fields=columns)
+        else:
+            fields = []
+            for ent in ent_fillers or []:
+                fields += ent._sql_select_fields(fields=ent.sql_fields())
+            fields += entity._sql_select_fields(fields=entity.sql_fields())
+        args = {
+            &#39;columns&#39;: &#39;, &#39;.join(fields),
+            &#39;from&#39;: entity._sql_from(),
+            &#39;joins&#39;: entity._sql_join_all(entities),
+            &#39;where&#39;: sql.ands(self._sql_where(cursor)),
+            &#39;groupby&#39;: &#39;&#39;,
+            &#39;sortby&#39;: sorter.sql(),
+        }
+
+        # We need a GROUP BY if we&#39;re joining with a table that has more
+        # specific information. e.g., selecting from game with criteria
+        # for plays.
+        if any(entity._sql_relation_distance(to) &gt; 0 for to in entities):
+            fields = []
+            for table, _ in entity._sql_tables[&#39;tables&#39;]:
+                fields += entity._sql_primary_key(table)
+            args[&#39;groupby&#39;] = &#39;GROUP BY &#39; + &#39;, &#39;.join(fields)
+
+        q = &#39;&#39;&#39;
+            SELECT {columns} {from} {joins}
+            WHERE {where}
+            {groupby}
+            {sortby}
+        &#39;&#39;&#39;.format(**args)
+        return q
+
+    def as_games(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Game` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            q = self._make_join_query(cursor, types.Game)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(types.Game.from_row_tuple(self._db, row))
+        return results
+
+    def as_drives(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Drive` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            q = self._make_join_query(cursor, types.Drive)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(types.Drive.from_row_tuple(self._db, row))
+        return results
+
+    def as_plays(self, fill=True):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a dictionary
+        of `nlfdb.Play` objects that don&#39;t have the `play_player`
+        attribute filled. The keys of the dictionary are play id
+        tuples with the spec `(gsis_id, drive_id, play_id)`.
+
+        The primary key membership SQL expression is also returned.
+        &#34;&#34;&#34;
+        def make_pid(play):
+            return (play.gsis_id, play.drive_id, play.play_id)
+
+        self._assert_no_aggregate()
+
+        # This is pretty terrifying.
+        # Apparently PostgreSQL can change the order of rows returned
+        # depending on the columns selected. So e.g., if you sort by `down`
+        # and limit to 20 results, you might get a different 20 plays if
+        # you change which columns you&#39;re selecting.
+        # This is pertinent here because if we&#39;re filling plays with player
+        # statistics, then we are assuming that this order never changes.
+        # To make the ordering consistent, we add the play&#39;s primary key to
+        # the existing sort criteria, which guarantees that the sort will
+        # always be the same.
+        # (We are careful not to override the user specified
+        # `self._sort_exprs`.)
+        #
+        # That was a lie. We override the user settings if the user asks
+        # to sort by `gsis_id`, `drive_id` or `play_id`.
+        consistent = [(c, &#39;asc&#39;) for c in [&#39;gsis_id&#39;, &#39;drive_id&#39;, &#39;play_id&#39;]]
+        sorter = Sorter(types.Play, self._sort_exprs, self._limit)
+        sorter.add_exprs(*consistent)
+
+        if not fill:
+            results = []
+            with Tx(self._db, factory=tuple_cursor) as cursor:
+                init = types.Play.from_row_tuple
+                q = self._make_join_query(cursor, types.Play, sorter=sorter)
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    results.append(init(self._db, row))
+            return results
+        else:
+            plays = OrderedDict()
+            with Tx(self._db, factory=tuple_cursor) as cursor:
+                init_play = types.Play.from_row_tuple
+                q = self._make_join_query(cursor, types.Play, sorter=sorter)
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    play = init_play(self._db, row)
+                    play._play_players = []
+                    plays[make_pid(play)] = play
+
+                # Run the above query *again* as a subquery.
+                # This time, only fetch the primary key, and use that to
+                # fetch all the `play_player` records in one swoop.
+                aliases = {&#39;play_player&#39;: &#39;pp&#39;}
+                ids = self._make_join_query(cursor, types.Play,
+                                            only_prim=True, sorter=sorter)
+                from_tables = types.PlayPlayer._sql_from(aliases=aliases)
+                columns = types.PlayPlayer._sql_select_fields(
+                    fields=types.PlayPlayer.sql_fields(), aliases=aliases)
+                q = &#39;&#39;&#39;
+                    SELECT {columns} {from_tables}
+                    WHERE (pp.gsis_id, pp.drive_id, pp.play_id) IN ({ids})
+                &#39;&#39;&#39;.format(columns=&#39;, &#39;.join(columns),
+                           from_tables=from_tables, ids=ids)
+
+                init_pp = types.PlayPlayer.from_row_tuple
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    pp = init_pp(self._db, row)
+                    plays[make_pid(pp)]._play_players.append(pp)
+            return list(plays.values())
+
+    def as_play_players(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nlfdb.PlayPlayer` objects.
+
+        This provides a way to access player statistics directly
+        by bypassing play data. Usually the results of this method
+        are passed to `nfldb.aggregate`. It is recommended to use
+        `nfldb.Query.aggregate` and `nfldb.Query.as_aggregate` when
+        possible, since it is significantly faster to sum statistics in
+        the database as opposed to Python.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            init = types.PlayPlayer.from_row_tuple
+            q = self._make_join_query(cursor, types.PlayPlayer)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(init(self._db, row))
+        return results
+
+    def as_players(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Player` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db) as cursor:
+            q = self._make_join_query(cursor, types.Player)
+            cursor.execute(q)
+
+            for row in cursor.fetchall():
+                results.append(types.Player.from_row_dict(self._db, row))
+        return results
+
+    def as_aggregate(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as aggregated
+        `nfldb.PlayPlayer` objects. This method is meant to be a more
+        restricted but much faster version of `nfldb.aggregate`.
+        Namely, this method uses PostgreSQL to compute the aggregate
+        statistics while `nfldb.aggregate` computes them in Python
+        code.
+
+        If any sorting criteria is specified, it is applied to the
+        aggregate *player* values only.
+        &#34;&#34;&#34;
+        class AggPP (types.PlayPlayer):
+            @classmethod
+            def _sql_field(cls, name, aliases=None):
+
+                if name in cls._derived_combined:
+                    fields = cls._derived_combined[name]
+                    fields = [cls._sql_field(f, aliases=aliases) for f in fields]
+                    return &#39; + &#39;.join(fields)
+                elif name == &#39;points&#39;:
+                    fields = [&#39;(%s * %d)&#39; % (cls._sql_field(f, aliases=aliases), pval)
+                              for f, pval in cls._point_values]
+                    return &#39; + &#39;.join(fields)
+                else:
+                    sql = super(AggPP, cls)._sql_field(name, aliases=aliases)
+                    return &#39;SUM(%s)&#39; % sql
+
+        joins = &#39;&#39;
+        results = []
+        with Tx(self._db) as cur:
+            for ent in self._entities():
+                if ent is types.PlayPlayer:
+                    continue
+                joins += types.PlayPlayer._sql_join_to_all(ent)
+
+            sum_fields = list(types._player_categories.keys()) \
+                + AggPP._sql_tables[&#39;derived&#39;]
+            select_sum_fields = AggPP._sql_select_fields(sum_fields)
+            where = self._sql_where(cur)
+            having = self._sql_where(cur, aggregate=True)
+            q = &#39;&#39;&#39;
+                SELECT
+                    play_player.player_id AS play_player_player_id, {sum_fields}
+                FROM play_player
+                {joins}
+                WHERE {where}
+                GROUP BY play_player.player_id
+                HAVING {having}
+                {order}
+            &#39;&#39;&#39;.format(
+                sum_fields=&#39;, &#39;.join(select_sum_fields),
+                joins=joins,
+                where=sql.ands(where),
+                having=sql.ands(having),
+                order=self._sorter(AggPP).sql(),
+            )
+
+            init = AggPP.from_row_dict
+            cur.execute(q)
+            for row in cur.fetchall():
+                results.append(init(self._db, row))
+        return results
+
+    def _entities(self):
+        &#34;&#34;&#34;
+        Returns all the entity types referenced in the search criteria.
+        &#34;&#34;&#34;
+        tabs = set()
+        for cond in self._andalso + self._orelse:
+            tabs = tabs.union(cond._entities())
+        return tabs
+
+    def show_where(self, aggregate=False):
+        &#34;&#34;&#34;
+        Returns an approximate WHERE clause corresponding to the
+        criteria specified in `self`. Note that the WHERE clause given
+        is never explicitly used for performance reasons, but one hopes
+        that it describes the criteria in `self`.
+
+        If `aggregate` is `True`, then aggregate criteria for the
+        `play` and `play_player` tables is shown with aggregate
+        functions applied.
+        &#34;&#34;&#34;
+        with Tx(self._db) as cur:
+            return self._sql_where(cur, aggregate=aggregate)
+        return &#39;&#39;
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns a WHERE expression representing the search criteria
+        in `self` and restricted to the tables in `tables`.
+
+        If `aggregate` is `True`, then the appropriate aggregate
+        functions are used.
+        &#34;&#34;&#34;
+        if aggregate:
+            return Condition._disjunctions(
+                cursor, [self._agg_andalso] + [[c] for c in self._agg_orelse],
+                aliases=aliases, aggregate=aggregate)
+        else:
+            return Condition._disjunctions(
+                cursor, [self._andalso] + [[c] for c in self._orelse],
+                aliases=aliases, aggregate=aggregate)
+
+class Sorter (object):
+    &#34;&#34;&#34;
+    A representation of sort, order and limit criteria that can
+    be applied in a SQL query.
+    &#34;&#34;&#34;
+    @staticmethod
+    def _normalize_order(order):
+        order = order.upper()
+        assert order in (&#39;ASC&#39;, &#39;DESC&#39;), &#39;order must be &#34;asc&#34; or &#34;desc&#34;&#39;
+        return order
+
+    def __init__(self, default_entity, exprs=None, limit=None):
+        self.default_entity = default_entity
+        self.entities = set([default_entity])
+        self.limit = int(limit or 0)
+        self.exprs = []
+        if isinstance(exprs, strtype) or isinstance(exprs, tuple):
+            self.add_exprs(exprs)
+        else:
+            self.add_exprs(*(exprs or []))
+
+    def add_exprs(self, *exprs):
+        for e in exprs:
+            e = self.normal_expr(e)
+            self.entities.add(e[0])
+            self.exprs.append(e)
+
+    def normal_expr(self, e):
+        if isinstance(e, strtype):
+            return (self.default_entity, e, &#39;DESC&#39;)
+        elif isinstance(e, tuple):
+            assert len(e) == 2, &#39;invalid sort expression&#39;
+            return (self.default_entity, e[0], self._normalize_order(e[1]))
+            # elif len(e) == 3:
+                # assert e[0] in _ENTITIES, &#39;invalid entity: %s&#39; % e[0]
+                # self.entities.add(_ENTITIES[e[0]])
+                # return (_ENTITIES[e[0]], e[1], self._normalize_order(e[2]))
+        else:
+            raise ValueError(
+                &#34;Sortby expressions must be strings &#34;
+                &#34;or two-element tuples like (column, order). &#34;
+                &#34;Got value &#39;%s&#39; with type &#39;%s&#39;.&#34; % (e, type(e)))
+
+    def sql(self, aliases=None):
+        &#34;&#34;&#34;
+        Return a SQL `ORDER BY ... LIMIT` expression corresponding to
+        the criteria in `self`. If there are no ordering expressions
+        in the sorting criteria, then an empty string is returned
+        regardless of any limit criteria. (That is, specifying a limit
+        requires at least one order expression.)
+
+        The value of `prefix` is passed to the `tabtype._as_sql`
+        function.
+        &#34;&#34;&#34;
+        s = &#39;&#39;
+        if len(self.exprs) &gt; 0:
+            sort_fields = []
+            for ent, field, order in self.exprs:
+                try:
+                    field = ent._sql_field(field, aliases=aliases)
+                except KeyError:
+                    raise ValueError(
+                        &#39;%s is not a valid sort field for %s&#39;
+                        % (field, ent.__name__))
+                sort_fields.append(&#39;%s %s&#39; % (field, order))
+            s += &#39;ORDER BY %s&#39; % &#39;, &#39;.join(sort_fields)
+        if self.limit &gt; 0:
+            s += &#39; LIMIT %d&#39; % self.limit
+        return &#39; &#39; + s + &#39; &#39;</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="nfldb.query.QueryOR"><code class="name flex">
+<span>def <span class="ident">QueryOR</span></span>(<span>db)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Creates a disjunctive <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> object, where every
+condition is combined disjunctively. Namely, it is an alias for
+<code>nfldb.Query(db, orelse=True)</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def QueryOR(db):
+    &#34;&#34;&#34;
+    Creates a disjunctive `nfldb.Query` object, where every
+    condition is combined disjunctively. Namely, it is an alias for
+    `nfldb.Query(db, orelse=True)`.
+    &#34;&#34;&#34;
+    return Query(db, orelse=True)</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.aggregate"><code class="name flex">
+<span>def <span class="ident">aggregate</span></span>(<span>objs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given any collection of Python objects that provide a
+<code>play_players</code> attribute, <code><a title="nfldb.query.aggregate" href="#nfldb.query.aggregate">aggregate()</a></code> will return a list of
+<code>PlayPlayer</code> objects with statistics aggregated (summed) over each
+player. (As a special case, if an element in <code>objs</code> is itself a
+<code><a title="nfldb.PlayPlayer" href="index.html#nfldb.PlayPlayer">PlayPlayer</a></code> object, then it is used and a <code>play_players</code>
+attribute is not rquired.)</p>
+<p>For example, <code>objs</code> could be a mixed list of <code><a title="nfldb.Game" href="index.html#nfldb.Game">Game</a></code> and
+<code><a title="nfldb.Play" href="index.html#nfldb.Play">Play</a></code> objects.</p>
+<p>The order of the list returned is stable with respect to the
+order of players obtained from each element in <code>objs</code>.</p>
+<p>It is recommended to use <code><a title="nfldb.Query.aggregate" href="index.html#nfldb.Query.aggregate">Query.aggregate()</a></code> and
+<code><a title="nfldb.Query.as_aggregate" href="index.html#nfldb.Query.as_aggregate">Query.as_aggregate()</a></code> instead of this function since summing
+statistics in the database is much faster. However, this function
+is provided for aggregation that cannot be expressed by the query
+interface.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def aggregate(objs):
+    &#34;&#34;&#34;
+    Given any collection of Python objects that provide a
+    `play_players` attribute, `aggregate` will return a list of
+    `PlayPlayer` objects with statistics aggregated (summed) over each
+    player. (As a special case, if an element in `objs` is itself a
+    `nfldb.PlayPlayer` object, then it is used and a `play_players`
+    attribute is not rquired.)
+
+    For example, `objs` could be a mixed list of `nfldb.Game` and
+    `nfldb.Play` objects.
+
+    The order of the list returned is stable with respect to the
+    order of players obtained from each element in `objs`.
+
+    It is recommended to use `nfldb.Query.aggregate` and
+    `nfldb.Query.as_aggregate` instead of this function since summing
+    statistics in the database is much faster. However, this function
+    is provided for aggregation that cannot be expressed by the query
+    interface.
+    &#34;&#34;&#34;
+    summed = OrderedDict()
+    for obj in objs:
+        pps = [obj] if isinstance(obj, types.PlayPlayer) else obj.play_players
+        for pp in pps:
+            if pp.player_id not in summed:
+                summed[pp.player_id] = pp._copy()
+            else:
+                summed[pp.player_id]._add(pp)
+    return list(summed.values())</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.current"><code class="name flex">
+<span>def <span class="ident">current</span></span>(<span>db)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Returns a triple of <code><a title="nfldb.Enums.season_phase" href="index.html#nfldb.Enums.season_phase">Enums.season_phase</a></code>, season year and week
+corresponding to values that <code><a title="nfldb" href="index.html">nfldb</a></code> thinks are current.</p>
+<p>Note that this only queries the database. Only the <code>nfldb-update</code>
+script fetches the current state from NFL.com.</p>
+<p>The values retrieved may be <code>None</code> if the season is over or if they
+haven't been updated yet by the <code>nfldb-update</code> script.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def current(db):
+    &#34;&#34;&#34;
+    Returns a triple of `nfldb.Enums.season_phase`, season year and week
+    corresponding to values that `nfldb` thinks are current.
+
+    Note that this only queries the database. Only the `nfldb-update`
+    script fetches the current state from NFL.com.
+
+    The values retrieved may be `None` if the season is over or if they
+    haven&#39;t been updated yet by the `nfldb-update` script.
+    &#34;&#34;&#34;
+    with Tx(db, factory=tuple_cursor) as cursor:
+        cursor.execute(&#39;SELECT season_type, season_year, week FROM meta&#39;)
+        return cursor.fetchone()
+    return tuple([None] * 3)</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.guess_position"><code class="name flex">
+<span>def <span class="ident">guess_position</span></span>(<span>pps)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a list of <code><a title="nfldb.PlayPlayer" href="index.html#nfldb.PlayPlayer">PlayPlayer</a></code> objects for the same player,
+guess the position of the player based on the statistics recorded.</p>
+<p>Note that this only distinguishes the offensive positions of QB,
+RB, WR, P and K. If defensive stats are detected, then the position
+returned defaults to LB.</p>
+<p>The algorithm used is simple majority vote. Whichever position is
+the most common is returned (and this may be <code>UNK</code>).</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def guess_position(pps):
+    &#34;&#34;&#34;
+    Given a list of `nfldb.PlayPlayer` objects for the same player,
+    guess the position of the player based on the statistics recorded.
+
+    Note that this only distinguishes the offensive positions of QB,
+    RB, WR, P and K. If defensive stats are detected, then the position
+    returned defaults to LB.
+
+    The algorithm used is simple majority vote. Whichever position is
+    the most common is returned (and this may be `UNK`).
+    &#34;&#34;&#34;
+    if len(pps) == 0:
+        return types.Enums.player_pos.UNK
+
+    counts = defaultdict(int)
+    for pp in pps:
+        counts[pp.guess_position] += 1
+    return max(list(counts.items()), key=lambda __count: __count[1])[0]</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.player_search"><code class="name flex">
+<span>def <span class="ident">player_search</span></span>(<span>db, full_name, team=None, position=None, limit=1, soundex=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a database handle and a player's full name, this function
+searches the database for players with full names <em>similar</em> to the
+one given. Similarity is measured by the
+<a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Levenshtein distance</a>,
+or by <a href="http://en.wikipedia.org/wiki/Soundex">Soundex similarity</a>.</p>
+<p>Results are returned as tuples. The first element is the is a
+<code><a title="nfldb.Player" href="index.html#nfldb.Player">Player</a></code> object and the second element is the Levenshtein
+(or Soundex) distance. When <code>limit</code> is <code>1</code> (the default), then the
+return value is a tuple.
+When <code>limit</code> is more than <code>1</code>, then the
+return value is a list of tuples.</p>
+<p>If no results are found, then <code>(None, None)</code> is returned when
+<code>limit == 1</code> or the empty list is returned when <code>limit &gt; 1</code>.</p>
+<p>If <code>team</code> is not <code>None</code>, then only players <strong>currently</strong> on the
+team provided will be returned. Any players with an unknown team
+are therefore omitted.</p>
+<p>If <code>position</code> is not <code>None</code>, then only players <strong>currently</strong>
+at that position will be returned. Any players with an unknown
+position are therefore omitted.</p>
+<p>In order to use this function, the PostgreSQL <code>levenshtein</code>
+function must be available. If running this functions gives
+you an error about "No function matches the given name and
+argument types", then you can install the <code>levenshtein</code> function
+into your database by running the SQL query <code>CREATE EXTENSION
+fuzzystrmatch&lt;code&gt; as a superuser like &lt;/code&gt;postgres</code>. For example:</p>
+<pre><code>#!bash
+psql -U postgres -c 'CREATE EXTENSION fuzzystrmatch;' nfldb
+</code></pre>
+<p>Note that enabled the <code>fuzzystrmatch</code> extension also provides
+functions for comparing using Soundex.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def player_search(db, full_name, team=None, position=None,
+                  limit=1, soundex=False):
+    &#34;&#34;&#34;
+    Given a database handle and a player&#39;s full name, this function
+    searches the database for players with full names *similar* to the
+    one given. Similarity is measured by the
+    [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance),
+    or by [Soundex similarity](http://en.wikipedia.org/wiki/Soundex).
+
+    Results are returned as tuples. The first element is the is a
+    `nfldb.Player` object and the second element is the Levenshtein
+    (or Soundex) distance. When `limit` is `1` (the default), then the
+    return value is a tuple.  When `limit` is more than `1`, then the
+    return value is a list of tuples.
+
+    If no results are found, then `(None, None)` is returned when
+    `limit == 1` or the empty list is returned when `limit &gt; 1`.
+
+    If `team` is not `None`, then only players **currently** on the
+    team provided will be returned. Any players with an unknown team
+    are therefore omitted.
+
+    If `position` is not `None`, then only players **currently**
+    at that position will be returned. Any players with an unknown
+    position are therefore omitted.
+
+    In order to use this function, the PostgreSQL `levenshtein`
+    function must be available. If running this functions gives
+    you an error about &#34;No function matches the given name and
+    argument types&#34;, then you can install the `levenshtein` function
+    into your database by running the SQL query `CREATE EXTENSION
+    fuzzystrmatch` as a superuser like `postgres`. For example:
+
+        #!bash
+        psql -U postgres -c &#39;CREATE EXTENSION fuzzystrmatch;&#39; nfldb
+
+    Note that enabled the `fuzzystrmatch` extension also provides
+    functions for comparing using Soundex.
+    &#34;&#34;&#34;
+    assert isinstance(limit, int) and limit &gt;= 1
+
+    if soundex:
+        # Careful, soundex distances are sorted in reverse of Levenshtein
+        # distances.
+        # Difference yields an integer in [0, 4].
+        # A 4 is an exact match.
+        fuzzy = &#39;difference(full_name, %s)&#39;
+        q = &#39;&#39;&#39;
+            SELECT {columns}
+            FROM player
+            WHERE {where}
+            ORDER BY distance DESC LIMIT {limit}
+        &#39;&#39;&#39;
+    else:
+        fuzzy = &#39;levenshtein(full_name, %s)&#39;
+        q = &#39;&#39;&#39;
+            SELECT {columns}
+            FROM player
+            WHERE {where}
+            ORDER BY distance ASC LIMIT {limit}
+        &#39;&#39;&#39;
+    qteam, qposition = &#39;&#39;, &#39;&#39;
+    results = []
+    with Tx(db) as cursor:
+        if team is not None:
+            qteam = cursor.mogrify(&#39;team = %s&#39;, (team,)).decode(&#39;utf-8&#39;)
+        if position is not None:
+            qposition = cursor.mogrify(&#39;position = %s&#39;, (position,)).decode(&#39;utf-8&#39;)
+
+        fuzzy_filled = cursor.mogrify(fuzzy, (full_name,))
+        columns = types.Player._sql_select_fields(types.Player.sql_fields())
+        columns.append(&#39;%s AS distance&#39; % fuzzy_filled)
+        q = q.format(
+            columns=&#39;, &#39;.join(columns),
+            where=sql.ands(fuzzy_filled + &#39; IS NOT NULL&#39;, qteam, qposition),
+            limit=limit)
+        cursor.execute(q, (full_name,))
+
+        for row in cursor.fetchall():
+            r = (types.Player.from_row_dict(db, row), row[&#39;distance&#39;])
+            results.append(r)
+    if limit == 1:
+        if len(results) == 0:
+            return (None, None)
+        return results[0]
+    return results</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="nfldb.query.Comparison"><code class="flex name class">
+<span>class <span class="ident">Comparison</span></span>
+<span>(</span><span>entity, kw, value)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A representation of a single comparison in a <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code>.</p>
+<p>This corresponds to a field name, a value and one of the following
+operators: <code>=</code>, <code>!=</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code> or <code>&gt;=</code>. A value may be a list
+or a tuple, in which case PostgreSQL's <code>ANY</code> is used along with the
+given operator.</p>
+<p>Introduces a new condition given a user specified keyword <code>kw</code>
+with a <code>entity</code> (e.g., <code><a title="nfldb.Play" href="index.html#nfldb.Play">Play</a></code>) and a user provided
+value. The operator to be used is inferred from the suffix of
+<code>kw</code>. If <code>kw</code> has no suffix or a <code>__eq</code> suffix, then <code>=</code> is
+used. A suffix of <code>__ge</code> means <code>&gt;=</code> is used, <code>__lt</code> means <code>&lt;</code>,
+and so on.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Comparison (Condition):
+    &#34;&#34;&#34;
+    A representation of a single comparison in a `nfldb.Query`.
+
+    This corresponds to a field name, a value and one of the following
+    operators: `=`, `!=`, `&lt;`, `&lt;=`, `&gt;` or `&gt;=`. A value may be a list
+    or a tuple, in which case PostgreSQL&#39;s `ANY` is used along with the
+    given operator.
+    &#34;&#34;&#34;
+
+    def __init__(self, entity, kw, value):
+        &#34;&#34;&#34;
+        Introduces a new condition given a user specified keyword `kw`
+        with a `entity` (e.g., `nfldb.Play`) and a user provided
+        value. The operator to be used is inferred from the suffix of
+        `kw`. If `kw` has no suffix or a `__eq` suffix, then `=` is
+        used. A suffix of `__ge` means `&gt;=` is used, `__lt` means `&lt;`,
+        and so on.
+        &#34;&#34;&#34;
+        self.operator = &#39;=&#39;
+        &#34;&#34;&#34;The operator used in this condition.&#34;&#34;&#34;
+
+        self.entity = entity
+        &#34;&#34;&#34;The table type for this column.&#34;&#34;&#34;
+
+        self.column = None
+        &#34;&#34;&#34;The SQL column name in this condition.&#34;&#34;&#34;
+
+        self.value = value
+        &#34;&#34;&#34;The Python value to compare the SQL column to.&#34;&#34;&#34;
+
+        suffixes = {
+            &#39;__eq&#39;: &#39;=&#39;, &#39;__ne&#39;: &#39;!=&#39;,
+            &#39;__lt&#39;: &#39;&lt;&#39;, &#39;__le&#39;: &#39;&lt;=&#39;, &#39;__gt&#39;: &#39;&gt;&#39;, &#39;__ge&#39;: &#39;&gt;=&#39;,
+        }
+        for suffix, op in list(suffixes.items()):
+            if kw.endswith(suffix):
+                self.operator = op
+                self.column = kw[0:-4]
+        if self.column is None:
+            self.column = kw
+
+    def _entities(self):
+        return set([self.entity])
+
+    def __str__(self):
+        return &#39;%s %s %s&#39; \
+               % (self.entity._sql_field(self.column),
+                  self.operator, self.value)
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        field = self.entity._sql_field(self.column, aliases=aliases)
+        if aggregate:
+            field = &#39;SUM(%s)&#39; % field
+        if isinstance(self.value, tuple) or isinstance(self.value, list):
+            assert self.operator == &#39;=&#39;, \
+                &#39;Disjunctions must use &#34;=&#34; for column &#34;%s&#34;&#39; % field
+            vals = [cursor.mogrify(&#39;%s&#39;, (v,).decod(&#39;utf-8&#39;)) for v in self.value]
+            return &#39;%s IN (%s)&#39; % (field, &#39;, &#39;.join(vals))
+        else:
+            paramed = &#39;%s %s %s&#39; % (field, self.operator, &#39;%s&#39;)
+            return cursor.mogrify(paramed, (self.value,)).decode(&#39;utf-8&#39;)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="nfldb.query.Condition" href="#nfldb.query.Condition">Condition</a></li>
+</ul>
+<h3>Instance variables</h3>
+<dl>
+<dt id="nfldb.query.Comparison.column"><code class="name">var <span class="ident">column</span></code></dt>
+<dd>
+<div class="desc"><p>The SQL column name in this condition.</p></div>
+</dd>
+<dt id="nfldb.query.Comparison.entity"><code class="name">var <span class="ident">entity</span></code></dt>
+<dd>
+<div class="desc"><p>The table type for this column.</p></div>
+</dd>
+<dt id="nfldb.query.Comparison.operator"><code class="name">var <span class="ident">operator</span></code></dt>
+<dd>
+<div class="desc"><p>The operator used in this condition.</p></div>
+</dd>
+<dt id="nfldb.query.Comparison.value"><code class="name">var <span class="ident">value</span></code></dt>
+<dd>
+<div class="desc"><p>The Python value to compare the SQL column to.</p></div>
+</dd>
+</dl>
+</dd>
+<dt id="nfldb.query.Condition"><code class="flex name class">
+<span>class <span class="ident">Condition</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>An abstract class that describes the interface of components
+in a SQL query.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Condition (object):
+    &#34;&#34;&#34;
+    An abstract class that describes the interface of components
+    in a SQL query.
+    &#34;&#34;&#34;
+    def __init__(self):
+        assert False, &#34;Condition class cannot be instantiated.&#34;
+
+    def _entities(self):
+        &#34;&#34;&#34;
+        Returns a `set` of entity types, inheriting from
+        `nfldb.Entity`, that are used in this condition.
+        &#34;&#34;&#34;
+        assert False, &#34;subclass responsibility&#34;
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns an escaped SQL string that can be safely substituted
+        into the WHERE clause of a SELECT query for a particular.
+
+        See the documentation for `nfldb.Entity` for information on
+        the `aliases` parameter.
+
+        If `aggregate` is `True`, then aggregate conditions should
+        be used instead of regular conditions.
+        &#34;&#34;&#34;
+        assert False, &#34;subclass responsibility&#34;
+
+    @classmethod
+    def _disjunctions(cls, cursor, disjuncts, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns a valid SQL condition expression of the form:
+
+            (d00 &amp; d01 &amp; ...) | (d10 &amp; d11 &amp; ...) | ...
+
+        Where `d{N}` is a `nfldb.Condition` element in `disjuncts` and
+        `d{Ni}` is an element in `d{N}`.
+        &#34;&#34;&#34;
+        def sql(c):
+            return c._sql_where(cursor, aliases=aliases, aggregate=aggregate)
+        ds = []
+        for conjuncts in disjuncts:
+            ds.append(&#39; AND &#39;.join(&#39;(%s)&#39; % sql(c) for c in conjuncts))
+        return &#39; OR &#39;.join(&#39;(%s)&#39; % d for d in ds if d)</code></pre>
+</details>
+<h3>Subclasses</h3>
+<ul class="hlist">
+<li><a title="nfldb.query.Comparison" href="#nfldb.query.Comparison">Comparison</a></li>
+<li><a title="nfldb.query.Query" href="#nfldb.query.Query">Query</a></li>
+</ul>
+</dd>
+<dt id="nfldb.query.Query"><code class="flex name class">
+<span>class <span class="ident">Query</span></span>
+<span>(</span><span>db, orelse=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A query represents a set of criteria to search nfldb's PostgreSQL
+database. Its primary feature is to provide a high-level API for
+searching NFL game, drive, play and player data very quickly.</p>
+<p>The basic workflow is to specify all of the search criteria that
+you want, and then use one of the <code>as_*</code> methods to actually
+perform the search and return results from the database.</p>
+<p>For example, to get all Patriots games as <code><a title="nfldb.Game" href="index.html#nfldb.Game">Game</a></code> objects from
+the 2012 regular season, we could do:</p>
+<pre><code>#!python
+q = Query(db).game(season_year=2012, season_type='Regular', team='NE')
+for game in q.as_games():
+    print game
+</code></pre>
+<p>Other comparison operators like <code>&lt;</code> or <code>&gt;=</code> can also be used. To use
+them, append a suffix like <code>__lt</code> to the end of a field name. So to get
+all games with a home score greater than or equal to 50:</p>
+<pre><code>#!python
+q = Query(db).game(home_score__ge=50)
+for game in q.as_games():
+    print game
+</code></pre>
+<p>Other suffixes are available: <code>__lt</code> for <code>&lt;</code>, <code>__le</code> for <code>&lt;=</code>,
+<code>__gt</code> for <code>&gt;</code>, <code>__ge</code> for <code>&gt;=</code>, <code>__ne</code> for <code>!=</code> and <code>__eq</code> for
+<code>==</code>. Although, the <code>__eq</code> suffix is used by default and is
+therefore never necessary to use.</p>
+<p>More criteria can be specified by chaining search criteria. For
+example, to get only plays as <code><a title="nfldb.Play" href="index.html#nfldb.Play">Play</a></code> objects where Tom Brady
+threw a touchdown pass:</p>
+<pre><code>#!python
+q = Query(db).game(season_year=2012, season_type='Regular')
+q.player(full_name="Tom Brady").play(passing_tds=1)
+for play in q.as_plays():
+    print play
+</code></pre>
+<p>By default, all critera specified are combined conjunctively (i.e.,
+all criteria must be met for each result returned). However,
+sometimes you may want to specify disjunctive criteria (i.e., any
+of the criteria can be met for a result to be returned). To do this
+for a single field, simply use a list. For example, to get all
+Patriot games from the 2009 to 2013 seasons:</p>
+<pre><code>#!python
+q = Query(db).game(season_type='Regular', team='NE')
+q.game(season_year=[2009, 2010, 2011, 2012, 2013])
+for game in q.as_games():
+    print game
+</code></pre>
+<p>Disjunctions can also be applied to multiple fields by creating a
+<code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> object with <code><a title="nfldb.QueryOR" href="index.html#nfldb.QueryOR">QueryOR()</a></code>. For example, to find
+all games where either team had more than 50 points:</p>
+<pre><code>#!python
+q = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+for game in q.as_games():
+    print game
+</code></pre>
+<p>Finally, multiple queries can be combined with <code><a title="nfldb.Query.andalso" href="index.html#nfldb.Query.andalso">Query.andalso()</a></code>.
+For example, to restrict the last search to games in the 2012 regular
+season:</p>
+<pre><code>#!python
+big_score = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+
+q = Query(db).game(season_year=2012, season_type='Regular')
+q.andalso(big_score)
+for game in q.as_games():
+    print game
+</code></pre>
+<p>This is only the beginning of what can be done. More examples that run
+the gamut can be found on
+<a href="https://github.com/derek-adair/nfldb/wiki">nfldb's wiki</a>.</p>
+<p>Introduces a new <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> object. Criteria can be
+added with any combination of the <code><a title="nfldb.Query.game" href="index.html#nfldb.Query.game">Query.game()</a></code>,
+<code><a title="nfldb.Query.drive" href="index.html#nfldb.Query.drive">Query.drive()</a></code>, <code><a title="nfldb.Query.play" href="index.html#nfldb.Query.play">Query.play()</a></code>, <code><a title="nfldb.Query.player" href="index.html#nfldb.Query.player">Query.player()</a></code>
+and <code><a title="nfldb.Query.aggregate" href="index.html#nfldb.Query.aggregate">Query.aggregate()</a></code> methods. Results can
+then be retrieved with any of the <code>as_*</code> methods:
+<code><a title="nfldb.Query.as_games" href="index.html#nfldb.Query.as_games">Query.as_games()</a></code>, <code><a title="nfldb.Query.as_drives" href="index.html#nfldb.Query.as_drives">Query.as_drives()</a></code>,
+<code><a title="nfldb.Query.as_plays" href="index.html#nfldb.Query.as_plays">Query.as_plays()</a></code>, <code><a title="nfldb.Query.as_play_players" href="index.html#nfldb.Query.as_play_players">Query.as_play_players()</a></code>,
+<code><a title="nfldb.Query.as_players" href="index.html#nfldb.Query.as_players">Query.as_players()</a></code> and <code><a title="nfldb.Query.as_aggregate" href="index.html#nfldb.Query.as_aggregate">Query.as_aggregate()</a></code>.</p>
+<p>Note that if aggregate criteria are specified with
+<code><a title="nfldb.Query.aggregate" href="index.html#nfldb.Query.aggregate">Query.aggregate()</a></code>, then the <strong>only</strong> way to retrieve
+results is with the <code><a title="nfldb.Query.as_aggregate" href="index.html#nfldb.Query.as_aggregate">Query.as_aggregate()</a></code> method. Invoking
+any of the other <code>as_*</code> methods will raise an assertion error.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Query (Condition):
+    &#34;&#34;&#34;
+    A query represents a set of criteria to search nfldb&#39;s PostgreSQL
+    database. Its primary feature is to provide a high-level API for
+    searching NFL game, drive, play and player data very quickly.
+
+    The basic workflow is to specify all of the search criteria that
+    you want, and then use one of the `as_*` methods to actually
+    perform the search and return results from the database.
+
+    For example, to get all Patriots games as `nfldb.Game` objects from
+    the 2012 regular season, we could do:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;, team=&#39;NE&#39;)
+        for game in q.as_games():
+            print game
+
+    Other comparison operators like `&lt;` or `&gt;=` can also be used. To use
+    them, append a suffix like `__lt` to the end of a field name. So to get
+    all games with a home score greater than or equal to 50:
+
+        #!python
+        q = Query(db).game(home_score__ge=50)
+        for game in q.as_games():
+            print game
+
+    Other suffixes are available: `__lt` for `&lt;`, `__le` for `&lt;=`,
+    `__gt` for `&gt;`, `__ge` for `&gt;=`, `__ne` for `!=` and `__eq` for
+    `==`. Although, the `__eq` suffix is used by default and is
+    therefore never necessary to use.
+
+    More criteria can be specified by chaining search criteria. For
+    example, to get only plays as `nfldb.Play` objects where Tom Brady
+    threw a touchdown pass:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.player(full_name=&#34;Tom Brady&#34;).play(passing_tds=1)
+        for play in q.as_plays():
+            print play
+
+    By default, all critera specified are combined conjunctively (i.e.,
+    all criteria must be met for each result returned). However,
+    sometimes you may want to specify disjunctive criteria (i.e., any
+    of the criteria can be met for a result to be returned). To do this
+    for a single field, simply use a list. For example, to get all
+    Patriot games from the 2009 to 2013 seasons:
+
+        #!python
+        q = Query(db).game(season_type=&#39;Regular&#39;, team=&#39;NE&#39;)
+        q.game(season_year=[2009, 2010, 2011, 2012, 2013])
+        for game in q.as_games():
+            print game
+
+    Disjunctions can also be applied to multiple fields by creating a
+    `nfldb.Query` object with `nfldb.QueryOR`. For example, to find
+    all games where either team had more than 50 points:
+
+        #!python
+        q = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+        for game in q.as_games():
+            print game
+
+    Finally, multiple queries can be combined with `nfldb.Query.andalso`.
+    For example, to restrict the last search to games in the 2012 regular
+    season:
+
+        #!python
+        big_score = QueryOR(db).game(home_score__ge=50, away_score__ge=50)
+
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.andalso(big_score)
+        for game in q.as_games():
+            print game
+
+    This is only the beginning of what can be done. More examples that run
+    the gamut can be found on
+    [nfldb&#39;s wiki](https://github.com/derek-adair/nfldb/wiki).
+    &#34;&#34;&#34;
+
+    def __init__(self, db, orelse=False):
+        &#34;&#34;&#34;
+        Introduces a new `nfldb.Query` object. Criteria can be
+        added with any combination of the `nfldb.Query.game`,
+        `nfldb.Query.drive`, `nfldb.Query.play`, `nfldb.Query.player`
+        and `nfldb.Query.aggregate` methods. Results can
+        then be retrieved with any of the `as_*` methods:
+        `nfldb.Query.as_games`, `nfldb.Query.as_drives`,
+        `nfldb.Query.as_plays`, `nfldb.Query.as_play_players`,
+        `nfldb.Query.as_players` and `nfldb.Query.as_aggregate`.
+
+        Note that if aggregate criteria are specified with
+        `nfldb.Query.aggregate`, then the **only** way to retrieve
+        results is with the `nfldb.Query.as_aggregate` method. Invoking
+        any of the other `as_*` methods will raise an assertion error.
+        &#34;&#34;&#34;
+
+        self._db = db
+        &#34;&#34;&#34;A psycopg2 database connection object.&#34;&#34;&#34;
+
+        self._sort_exprs = None
+        &#34;&#34;&#34;Expressions used to sort the results.&#34;&#34;&#34;
+
+        self._limit = None
+        &#34;&#34;&#34;The number of results to limit the search to.&#34;&#34;&#34;
+
+        self._andalso = []
+        &#34;&#34;&#34;A list of conjunctive conditions.&#34;&#34;&#34;
+
+        self._orelse = []
+        &#34;&#34;&#34;
+        A list of disjunctive conditions applied to
+        `Query._andalso`.
+        &#34;&#34;&#34;
+
+        self._default_cond = self._orelse if orelse else self._andalso
+        &#34;&#34;&#34;
+        Whether to use conjunctive or disjunctive conditions by
+        default.
+        &#34;&#34;&#34;
+
+        # The aggregate counter-parts of the above.
+        self._agg_andalso, self._agg_orelse = [], []
+        if orelse:
+            self._agg_default_cond = self._agg_orelse
+        else:
+            self._agg_default_cond = self._agg_andalso
+
+    def sort(self, exprs):
+        &#34;&#34;&#34;
+        Specify sorting criteria for the result set returned by
+        using sort expressions. A sort expression is a tuple with
+        two elements: a field to sort by and the order to use. The
+        field should correspond to an attribute of the objects you&#39;re
+        returning and the order should be `asc` for ascending (smallest
+        to biggest) or `desc` for descending (biggest to smallest).
+
+        For example, `(&#39;passing_yds&#39;, &#39;desc&#39;)` would sort plays by the
+        number of passing yards in the play, with the biggest coming
+        first.
+
+        Remember that a sort field must be an attribute of the
+        results being returned. For example, you can&#39;t sort plays by
+        `home_score`, which is an attribute of a `nfldb.Game` object.
+        If you require this behavior, you will need to do it in Python
+        with its `sorted` built in function. (Or alternatively, use
+        two separate queries if the result set is large.)
+
+        You may provide multiple sort expressions. For example,
+        `[(&#39;gsis_id&#39;, &#39;asc&#39;), (&#39;time&#39;, &#39;asc&#39;), (&#39;play_id&#39;, &#39;asc&#39;)]`
+        would sort plays in the order in which they occurred within
+        each game.
+
+        `exprs` may also just be a string specifying a single
+        field which defaults to a descending order. For example,
+        `sort(&#39;passing_yds&#39;)` sorts plays by passing yards in
+        descending order.
+
+        If `exprs` is set to the empty list, then sorting will be
+        disabled for this query.
+
+        Note that sorting criteria can be combined with
+        `nfldb.Query.limit` to limit results which can dramatically
+        speed up larger searches. For example, to fetch the top 10
+        passing plays in the 2012 season:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            q.sort(&#39;passing_yds&#39;).limit(10)
+            for p in q.as_plays():
+                print p
+
+        A more naive approach might be to fetch all plays and sort them
+        with Python:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            plays = q.as_plays()
+
+            plays = sorted(plays, key=lambda p: p.passing_yds, reverse=True)
+            for p in plays[:10]:
+                print p
+
+        But this is over **43 times slower** on my machine than using
+        `nfldb.Query.sort` and `nfldb.Query.limit`. (The performance
+        difference is due to making PostgreSQL perform the search and
+        restricting the number of results returned to process.)
+        &#34;&#34;&#34;
+        self._sort_exprs = exprs
+        return self
+
+    def limit(self, count):
+        &#34;&#34;&#34;
+        Limits the number of results to the integer `count`. If `count` is
+        `0` (the default), then no limiting is done.
+
+        See the documentation for `nfldb.Query.sort` for an example on how
+        to combine it with `nfldb.Query.limit` to get results quickly.
+        &#34;&#34;&#34;
+        self._limit = count
+        return self
+
+    def _sorter(self, default_entity):
+        return Sorter(default_entity, self._sort_exprs, self._limit)
+
+    def _assert_no_aggregate(self):
+        assert len(self._agg_andalso) == 0 and len(self._agg_orelse) == 0, \
+            &#39;aggregate criteria are only compatible with as_aggregate&#39;
+
+    def andalso(self, *conds):
+        &#34;&#34;&#34;
+        Adds the list of `nfldb.Query` objects in `conds` to this
+        query&#39;s list of conjunctive conditions.
+        &#34;&#34;&#34;
+        self._andalso += conds
+        return self
+
+    def orelse(self, *conds):
+        &#34;&#34;&#34;
+        Adds the list of `nfldb.Query` objects in `conds` to this
+        query&#39;s list of disjunctive conditions.
+        &#34;&#34;&#34;
+        self._orelse += conds
+        return self
+
+    def game(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for an NFL game. The possible fields
+        correspond to columns in the `game` table (or derived columns).
+        They are documented as instance variables in the `nfldb.Game`
+        class. Additionally, there are some special fields that provide
+        convenient access to common conditions:
+
+          * **team** - Find games that the team given played in, regardless
+                       of whether it is the home or away team.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+
+        Please
+        [open an issue](https://github.com/derek-adair/nfldb/issues/new)
+        if you can think of other special fields to add.
+        &#34;&#34;&#34;
+        if &#39;team&#39; in kw:
+            team = kw.pop(&#39;team&#39;)
+            ors = {&#39;home_team&#39;: team, &#39;away_team&#39;: team}
+            self.andalso(Query(self._db, orelse=True).game(**ors))
+        _append_conds(self._default_cond, types.Game, kw)
+        return self
+
+    def drive(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a drive. The possible fields
+        correspond to columns in the `drive` table (or derived
+        columns). They are documented as instance variables in the
+        `nfldb.Drive` class.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Drive, kw)
+        return self
+
+    def play(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a play. The possible fields
+        correspond to columns in the `play` or `play_player` tables (or
+        derived columns). They are documented as instance variables in
+        the `nfldb.Play` and `nfldb.PlayPlayer` classes. Additionally,
+        the fields listed on the
+        [statistical categories](http://goo.gl/1qYG3C)
+        wiki page may be used. That includes **both** `play` and
+        `player` statistical categories.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Play, kw)
+        return self
+
+    def play_player(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for individual play player statistics.
+        The allowed fields are the columns in the `play_player`
+        table.  They are documented as instance variables in the
+        `nfldb.PlayPlayer` class. Additionally, the fields listed on
+        the [statistical categories](http://goo.gl/1qYG3C) wiki page
+        may be used. (Only the `player` statistical categories.)
+
+        This method differs from `nfldb.Query.play` in that it can be
+        used to select for individual player statistics in a play. In
+        particular, there are *zero or more* player statistics for
+        every play.
+        &#34;&#34;&#34;
+        # Technically, it isn&#39;t necessary to handle derived fields manually
+        # since their SQL can be generated automatically, but it can be
+        # much faster to express them in terms of boolean logic with other
+        # fields rather than generate them.
+        for field, value in list(kw.items()):
+            nosuff = _no_comp_suffix(field)
+            suff = _comp_suffix(field)
+
+            def replace_or(*fields):
+                q = Query(self._db, orelse=True)
+                ors = dict([(&#39;%s__%s&#39; % (f, suff), value) for f in fields])
+                self.andalso(q.play_player(**ors))
+
+            if nosuff in types.PlayPlayer._derived_combined:
+                replace_or(*types.PlayPlayer._derived_combined[nosuff])
+                kw.pop(field)
+
+        # Now add the rest of the query.
+        _append_conds(self._default_cond, types.PlayPlayer, kw)
+        return self
+
+    def player(self, **kw):
+        &#34;&#34;&#34;
+        Specify search criteria for a player. The possible fields
+        correspond to columns in the `player` table (or derived
+        columns). They are documented as instance variables in the
+        `nfldb.Player` class.
+
+        Please see the documentation for `nfldb.Query` for examples on
+        how to specify search criteria.
+        &#34;&#34;&#34;
+        _append_conds(self._default_cond, types.Player, kw)
+        return self
+
+    def aggregate(self, **kw):
+        &#34;&#34;&#34;
+        This is just like `nfldb.Query.play_player`, except the search
+        parameters are applied to aggregate statistics.
+
+        For example, to retrieve all quarterbacks who passed for at
+        least 4000 yards in the 2012 season:
+
+            #!python
+            q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+            q.aggregate(passing_yds__ge=4000)
+            for pp in q.as_aggregate():
+                print pp.player, pp.passing_yds
+
+        Aggregate results can also be sorted:
+
+            #!python
+            for pp in q.sort(&#39;passing_yds&#39;).as_aggregate():
+                print pp.player, pp.passing_yds
+
+        Note that this method can **only** be used with
+        `nfldb.Query.as_aggregate`. Use with any of the other
+        `as_*` methods will result in an assertion error. Note
+        though that regular criteria can still be specified with
+        `nfldb.Query.game`, `nfldb.Query.play`, etc. (Regular criteria
+        restrict *what to aggregate* while aggregate criteria restrict
+        *aggregated results*.)
+        &#34;&#34;&#34;
+        _append_conds(self._agg_default_cond, types.PlayPlayer, kw)
+        return self
+
+    def _make_join_query(self, cursor, entity, only_prim=False, sorter=None,
+                         ent_fillers=None):
+        if sorter is None:
+            sorter = self._sorter(entity)
+
+        entities = self._entities()
+        entities.update(sorter.entities)
+        for ent in ent_fillers or []:
+            entities.add(ent)
+        entities.discard(entity)
+
+        # If we&#39;re joining the `player` table with any other table except
+        # `play_player`, then we MUST add `play_player` as a joining table.
+        # It is the only way to bridge players and games/drives/plays.
+        #
+        # TODO: This could probably be automatically deduced in general case,
+        # but we only have one case so just check for it manually.
+        if (entity is not types.PlayPlayer and types.Player in entities) \
+                or (entity is types.Player and len(entities) &gt; 0):
+            entities.add(types.PlayPlayer)
+
+        if only_prim:
+            columns = entity._sql_tables[&#39;primary&#39;]
+            fields = entity._sql_select_fields(fields=columns)
+        else:
+            fields = []
+            for ent in ent_fillers or []:
+                fields += ent._sql_select_fields(fields=ent.sql_fields())
+            fields += entity._sql_select_fields(fields=entity.sql_fields())
+        args = {
+            &#39;columns&#39;: &#39;, &#39;.join(fields),
+            &#39;from&#39;: entity._sql_from(),
+            &#39;joins&#39;: entity._sql_join_all(entities),
+            &#39;where&#39;: sql.ands(self._sql_where(cursor)),
+            &#39;groupby&#39;: &#39;&#39;,
+            &#39;sortby&#39;: sorter.sql(),
+        }
+
+        # We need a GROUP BY if we&#39;re joining with a table that has more
+        # specific information. e.g., selecting from game with criteria
+        # for plays.
+        if any(entity._sql_relation_distance(to) &gt; 0 for to in entities):
+            fields = []
+            for table, _ in entity._sql_tables[&#39;tables&#39;]:
+                fields += entity._sql_primary_key(table)
+            args[&#39;groupby&#39;] = &#39;GROUP BY &#39; + &#39;, &#39;.join(fields)
+
+        q = &#39;&#39;&#39;
+            SELECT {columns} {from} {joins}
+            WHERE {where}
+            {groupby}
+            {sortby}
+        &#39;&#39;&#39;.format(**args)
+        return q
+
+    def as_games(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Game` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            q = self._make_join_query(cursor, types.Game)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(types.Game.from_row_tuple(self._db, row))
+        return results
+
+    def as_drives(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Drive` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            q = self._make_join_query(cursor, types.Drive)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(types.Drive.from_row_tuple(self._db, row))
+        return results
+
+    def as_plays(self, fill=True):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a dictionary
+        of `nlfdb.Play` objects that don&#39;t have the `play_player`
+        attribute filled. The keys of the dictionary are play id
+        tuples with the spec `(gsis_id, drive_id, play_id)`.
+
+        The primary key membership SQL expression is also returned.
+        &#34;&#34;&#34;
+        def make_pid(play):
+            return (play.gsis_id, play.drive_id, play.play_id)
+
+        self._assert_no_aggregate()
+
+        # This is pretty terrifying.
+        # Apparently PostgreSQL can change the order of rows returned
+        # depending on the columns selected. So e.g., if you sort by `down`
+        # and limit to 20 results, you might get a different 20 plays if
+        # you change which columns you&#39;re selecting.
+        # This is pertinent here because if we&#39;re filling plays with player
+        # statistics, then we are assuming that this order never changes.
+        # To make the ordering consistent, we add the play&#39;s primary key to
+        # the existing sort criteria, which guarantees that the sort will
+        # always be the same.
+        # (We are careful not to override the user specified
+        # `self._sort_exprs`.)
+        #
+        # That was a lie. We override the user settings if the user asks
+        # to sort by `gsis_id`, `drive_id` or `play_id`.
+        consistent = [(c, &#39;asc&#39;) for c in [&#39;gsis_id&#39;, &#39;drive_id&#39;, &#39;play_id&#39;]]
+        sorter = Sorter(types.Play, self._sort_exprs, self._limit)
+        sorter.add_exprs(*consistent)
+
+        if not fill:
+            results = []
+            with Tx(self._db, factory=tuple_cursor) as cursor:
+                init = types.Play.from_row_tuple
+                q = self._make_join_query(cursor, types.Play, sorter=sorter)
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    results.append(init(self._db, row))
+            return results
+        else:
+            plays = OrderedDict()
+            with Tx(self._db, factory=tuple_cursor) as cursor:
+                init_play = types.Play.from_row_tuple
+                q = self._make_join_query(cursor, types.Play, sorter=sorter)
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    play = init_play(self._db, row)
+                    play._play_players = []
+                    plays[make_pid(play)] = play
+
+                # Run the above query *again* as a subquery.
+                # This time, only fetch the primary key, and use that to
+                # fetch all the `play_player` records in one swoop.
+                aliases = {&#39;play_player&#39;: &#39;pp&#39;}
+                ids = self._make_join_query(cursor, types.Play,
+                                            only_prim=True, sorter=sorter)
+                from_tables = types.PlayPlayer._sql_from(aliases=aliases)
+                columns = types.PlayPlayer._sql_select_fields(
+                    fields=types.PlayPlayer.sql_fields(), aliases=aliases)
+                q = &#39;&#39;&#39;
+                    SELECT {columns} {from_tables}
+                    WHERE (pp.gsis_id, pp.drive_id, pp.play_id) IN ({ids})
+                &#39;&#39;&#39;.format(columns=&#39;, &#39;.join(columns),
+                           from_tables=from_tables, ids=ids)
+
+                init_pp = types.PlayPlayer.from_row_tuple
+                cursor.execute(q)
+                for row in cursor.fetchall():
+                    pp = init_pp(self._db, row)
+                    plays[make_pid(pp)]._play_players.append(pp)
+            return list(plays.values())
+
+    def as_play_players(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nlfdb.PlayPlayer` objects.
+
+        This provides a way to access player statistics directly
+        by bypassing play data. Usually the results of this method
+        are passed to `nfldb.aggregate`. It is recommended to use
+        `nfldb.Query.aggregate` and `nfldb.Query.as_aggregate` when
+        possible, since it is significantly faster to sum statistics in
+        the database as opposed to Python.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            init = types.PlayPlayer.from_row_tuple
+            q = self._make_join_query(cursor, types.PlayPlayer)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(init(self._db, row))
+        return results
+
+    def as_players(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as a list of
+        `nfldb.Player` objects.
+        &#34;&#34;&#34;
+        self._assert_no_aggregate()
+
+        results = []
+        with Tx(self._db) as cursor:
+            q = self._make_join_query(cursor, types.Player)
+            cursor.execute(q)
+
+            for row in cursor.fetchall():
+                results.append(types.Player.from_row_dict(self._db, row))
+        return results
+
+    def as_aggregate(self):
+        &#34;&#34;&#34;
+        Executes the query and returns the results as aggregated
+        `nfldb.PlayPlayer` objects. This method is meant to be a more
+        restricted but much faster version of `nfldb.aggregate`.
+        Namely, this method uses PostgreSQL to compute the aggregate
+        statistics while `nfldb.aggregate` computes them in Python
+        code.
+
+        If any sorting criteria is specified, it is applied to the
+        aggregate *player* values only.
+        &#34;&#34;&#34;
+        class AggPP (types.PlayPlayer):
+            @classmethod
+            def _sql_field(cls, name, aliases=None):
+
+                if name in cls._derived_combined:
+                    fields = cls._derived_combined[name]
+                    fields = [cls._sql_field(f, aliases=aliases) for f in fields]
+                    return &#39; + &#39;.join(fields)
+                elif name == &#39;points&#39;:
+                    fields = [&#39;(%s * %d)&#39; % (cls._sql_field(f, aliases=aliases), pval)
+                              for f, pval in cls._point_values]
+                    return &#39; + &#39;.join(fields)
+                else:
+                    sql = super(AggPP, cls)._sql_field(name, aliases=aliases)
+                    return &#39;SUM(%s)&#39; % sql
+
+        joins = &#39;&#39;
+        results = []
+        with Tx(self._db) as cur:
+            for ent in self._entities():
+                if ent is types.PlayPlayer:
+                    continue
+                joins += types.PlayPlayer._sql_join_to_all(ent)
+
+            sum_fields = list(types._player_categories.keys()) \
+                + AggPP._sql_tables[&#39;derived&#39;]
+            select_sum_fields = AggPP._sql_select_fields(sum_fields)
+            where = self._sql_where(cur)
+            having = self._sql_where(cur, aggregate=True)
+            q = &#39;&#39;&#39;
+                SELECT
+                    play_player.player_id AS play_player_player_id, {sum_fields}
+                FROM play_player
+                {joins}
+                WHERE {where}
+                GROUP BY play_player.player_id
+                HAVING {having}
+                {order}
+            &#39;&#39;&#39;.format(
+                sum_fields=&#39;, &#39;.join(select_sum_fields),
+                joins=joins,
+                where=sql.ands(where),
+                having=sql.ands(having),
+                order=self._sorter(AggPP).sql(),
+            )
+
+            init = AggPP.from_row_dict
+            cur.execute(q)
+            for row in cur.fetchall():
+                results.append(init(self._db, row))
+        return results
+
+    def _entities(self):
+        &#34;&#34;&#34;
+        Returns all the entity types referenced in the search criteria.
+        &#34;&#34;&#34;
+        tabs = set()
+        for cond in self._andalso + self._orelse:
+            tabs = tabs.union(cond._entities())
+        return tabs
+
+    def show_where(self, aggregate=False):
+        &#34;&#34;&#34;
+        Returns an approximate WHERE clause corresponding to the
+        criteria specified in `self`. Note that the WHERE clause given
+        is never explicitly used for performance reasons, but one hopes
+        that it describes the criteria in `self`.
+
+        If `aggregate` is `True`, then aggregate criteria for the
+        `play` and `play_player` tables is shown with aggregate
+        functions applied.
+        &#34;&#34;&#34;
+        with Tx(self._db) as cur:
+            return self._sql_where(cur, aggregate=aggregate)
+        return &#39;&#39;
+
+    def _sql_where(self, cursor, aliases=None, aggregate=False):
+        &#34;&#34;&#34;
+        Returns a WHERE expression representing the search criteria
+        in `self` and restricted to the tables in `tables`.
+
+        If `aggregate` is `True`, then the appropriate aggregate
+        functions are used.
+        &#34;&#34;&#34;
+        if aggregate:
+            return Condition._disjunctions(
+                cursor, [self._agg_andalso] + [[c] for c in self._agg_orelse],
+                aliases=aliases, aggregate=aggregate)
+        else:
+            return Condition._disjunctions(
+                cursor, [self._andalso] + [[c] for c in self._orelse],
+                aliases=aliases, aggregate=aggregate)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="nfldb.query.Condition" href="#nfldb.query.Condition">Condition</a></li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="nfldb.query.Query.aggregate"><code class="name flex">
+<span>def <span class="ident">aggregate</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is just like <code><a title="nfldb.Query.play_player" href="index.html#nfldb.Query.play_player">Query.play_player()</a></code>, except the search
+parameters are applied to aggregate statistics.</p>
+<p>For example, to retrieve all quarterbacks who passed for at
+least 4000 yards in the 2012 season:</p>
+<pre><code>#!python
+q = Query(db).game(season_year=2012, season_type='Regular')
+q.aggregate(passing_yds__ge=4000)
+for pp in q.as_aggregate():
+    print pp.player, pp.passing_yds
+</code></pre>
+<p>Aggregate results can also be sorted:</p>
+<pre><code>#!python
+for pp in q.sort('passing_yds').as_aggregate():
+    print pp.player, pp.passing_yds
+</code></pre>
+<p>Note that this method can <strong>only</strong> be used with
+<code><a title="nfldb.Query.as_aggregate" href="index.html#nfldb.Query.as_aggregate">Query.as_aggregate()</a></code>. Use with any of the other
+<code>as_*</code> methods will result in an assertion error. Note
+though that regular criteria can still be specified with
+<code><a title="nfldb.Query.game" href="index.html#nfldb.Query.game">Query.game()</a></code>, <code><a title="nfldb.Query.play" href="index.html#nfldb.Query.play">Query.play()</a></code>, etc. (Regular criteria
+restrict <em>what to aggregate</em> while aggregate criteria restrict
+<em>aggregated results</em>.)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def aggregate(self, **kw):
+    &#34;&#34;&#34;
+    This is just like `nfldb.Query.play_player`, except the search
+    parameters are applied to aggregate statistics.
+
+    For example, to retrieve all quarterbacks who passed for at
+    least 4000 yards in the 2012 season:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.aggregate(passing_yds__ge=4000)
+        for pp in q.as_aggregate():
+            print pp.player, pp.passing_yds
+
+    Aggregate results can also be sorted:
+
+        #!python
+        for pp in q.sort(&#39;passing_yds&#39;).as_aggregate():
+            print pp.player, pp.passing_yds
+
+    Note that this method can **only** be used with
+    `nfldb.Query.as_aggregate`. Use with any of the other
+    `as_*` methods will result in an assertion error. Note
+    though that regular criteria can still be specified with
+    `nfldb.Query.game`, `nfldb.Query.play`, etc. (Regular criteria
+    restrict *what to aggregate* while aggregate criteria restrict
+    *aggregated results*.)
+    &#34;&#34;&#34;
+    _append_conds(self._agg_default_cond, types.PlayPlayer, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.andalso"><code class="name flex">
+<span>def <span class="ident">andalso</span></span>(<span>self, *conds)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Adds the list of <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> objects in <code>conds</code> to this
+query's list of conjunctive conditions.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def andalso(self, *conds):
+    &#34;&#34;&#34;
+    Adds the list of `nfldb.Query` objects in `conds` to this
+    query&#39;s list of conjunctive conditions.
+    &#34;&#34;&#34;
+    self._andalso += conds
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_aggregate"><code class="name flex">
+<span>def <span class="ident">as_aggregate</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as aggregated
+<code><a title="nfldb.PlayPlayer" href="index.html#nfldb.PlayPlayer">PlayPlayer</a></code> objects. This method is meant to be a more
+restricted but much faster version of <code><a title="nfldb.aggregate" href="index.html#nfldb.aggregate">aggregate()</a></code>.
+Namely, this method uses PostgreSQL to compute the aggregate
+statistics while <code><a title="nfldb.aggregate" href="index.html#nfldb.aggregate">aggregate()</a></code> computes them in Python
+code.</p>
+<p>If any sorting criteria is specified, it is applied to the
+aggregate <em>player</em> values only.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_aggregate(self):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as aggregated
+    `nfldb.PlayPlayer` objects. This method is meant to be a more
+    restricted but much faster version of `nfldb.aggregate`.
+    Namely, this method uses PostgreSQL to compute the aggregate
+    statistics while `nfldb.aggregate` computes them in Python
+    code.
+
+    If any sorting criteria is specified, it is applied to the
+    aggregate *player* values only.
+    &#34;&#34;&#34;
+    class AggPP (types.PlayPlayer):
+        @classmethod
+        def _sql_field(cls, name, aliases=None):
+
+            if name in cls._derived_combined:
+                fields = cls._derived_combined[name]
+                fields = [cls._sql_field(f, aliases=aliases) for f in fields]
+                return &#39; + &#39;.join(fields)
+            elif name == &#39;points&#39;:
+                fields = [&#39;(%s * %d)&#39; % (cls._sql_field(f, aliases=aliases), pval)
+                          for f, pval in cls._point_values]
+                return &#39; + &#39;.join(fields)
+            else:
+                sql = super(AggPP, cls)._sql_field(name, aliases=aliases)
+                return &#39;SUM(%s)&#39; % sql
+
+    joins = &#39;&#39;
+    results = []
+    with Tx(self._db) as cur:
+        for ent in self._entities():
+            if ent is types.PlayPlayer:
+                continue
+            joins += types.PlayPlayer._sql_join_to_all(ent)
+
+        sum_fields = list(types._player_categories.keys()) \
+            + AggPP._sql_tables[&#39;derived&#39;]
+        select_sum_fields = AggPP._sql_select_fields(sum_fields)
+        where = self._sql_where(cur)
+        having = self._sql_where(cur, aggregate=True)
+        q = &#39;&#39;&#39;
+            SELECT
+                play_player.player_id AS play_player_player_id, {sum_fields}
+            FROM play_player
+            {joins}
+            WHERE {where}
+            GROUP BY play_player.player_id
+            HAVING {having}
+            {order}
+        &#39;&#39;&#39;.format(
+            sum_fields=&#39;, &#39;.join(select_sum_fields),
+            joins=joins,
+            where=sql.ands(where),
+            having=sql.ands(having),
+            order=self._sorter(AggPP).sql(),
+        )
+
+        init = AggPP.from_row_dict
+        cur.execute(q)
+        for row in cur.fetchall():
+            results.append(init(self._db, row))
+    return results</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_drives"><code class="name flex">
+<span>def <span class="ident">as_drives</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as a list of
+<code><a title="nfldb.Drive" href="index.html#nfldb.Drive">Drive</a></code> objects.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_drives(self):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as a list of
+    `nfldb.Drive` objects.
+    &#34;&#34;&#34;
+    self._assert_no_aggregate()
+
+    results = []
+    with Tx(self._db, factory=tuple_cursor) as cursor:
+        q = self._make_join_query(cursor, types.Drive)
+        cursor.execute(q)
+        for row in cursor.fetchall():
+            results.append(types.Drive.from_row_tuple(self._db, row))
+    return results</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_games"><code class="name flex">
+<span>def <span class="ident">as_games</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as a list of
+<code><a title="nfldb.Game" href="index.html#nfldb.Game">Game</a></code> objects.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_games(self):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as a list of
+    `nfldb.Game` objects.
+    &#34;&#34;&#34;
+    self._assert_no_aggregate()
+
+    results = []
+    with Tx(self._db, factory=tuple_cursor) as cursor:
+        q = self._make_join_query(cursor, types.Game)
+        cursor.execute(q)
+        for row in cursor.fetchall():
+            results.append(types.Game.from_row_tuple(self._db, row))
+    return results</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_play_players"><code class="name flex">
+<span>def <span class="ident">as_play_players</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as a list of
+<code>nlfdb.PlayPlayer</code> objects.</p>
+<p>This provides a way to access player statistics directly
+by bypassing play data. Usually the results of this method
+are passed to <code><a title="nfldb.aggregate" href="index.html#nfldb.aggregate">aggregate()</a></code>. It is recommended to use
+<code><a title="nfldb.Query.aggregate" href="index.html#nfldb.Query.aggregate">Query.aggregate()</a></code> and <code><a title="nfldb.Query.as_aggregate" href="index.html#nfldb.Query.as_aggregate">Query.as_aggregate()</a></code> when
+possible, since it is significantly faster to sum statistics in
+the database as opposed to Python.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_play_players(self):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as a list of
+    `nlfdb.PlayPlayer` objects.
+
+    This provides a way to access player statistics directly
+    by bypassing play data. Usually the results of this method
+    are passed to `nfldb.aggregate`. It is recommended to use
+    `nfldb.Query.aggregate` and `nfldb.Query.as_aggregate` when
+    possible, since it is significantly faster to sum statistics in
+    the database as opposed to Python.
+    &#34;&#34;&#34;
+    self._assert_no_aggregate()
+
+    results = []
+    with Tx(self._db, factory=tuple_cursor) as cursor:
+        init = types.PlayPlayer.from_row_tuple
+        q = self._make_join_query(cursor, types.PlayPlayer)
+        cursor.execute(q)
+        for row in cursor.fetchall():
+            results.append(init(self._db, row))
+    return results</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_players"><code class="name flex">
+<span>def <span class="ident">as_players</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as a list of
+<code><a title="nfldb.Player" href="index.html#nfldb.Player">Player</a></code> objects.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_players(self):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as a list of
+    `nfldb.Player` objects.
+    &#34;&#34;&#34;
+    self._assert_no_aggregate()
+
+    results = []
+    with Tx(self._db) as cursor:
+        q = self._make_join_query(cursor, types.Player)
+        cursor.execute(q)
+
+        for row in cursor.fetchall():
+            results.append(types.Player.from_row_dict(self._db, row))
+    return results</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.as_plays"><code class="name flex">
+<span>def <span class="ident">as_plays</span></span>(<span>self, fill=True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Executes the query and returns the results as a dictionary
+of <code>nlfdb.Play</code> objects that don't have the <code>play_player</code>
+attribute filled. The keys of the dictionary are play id
+tuples with the spec <code>(gsis_id, drive_id, play_id)</code>.</p>
+<p>The primary key membership SQL expression is also returned.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def as_plays(self, fill=True):
+    &#34;&#34;&#34;
+    Executes the query and returns the results as a dictionary
+    of `nlfdb.Play` objects that don&#39;t have the `play_player`
+    attribute filled. The keys of the dictionary are play id
+    tuples with the spec `(gsis_id, drive_id, play_id)`.
+
+    The primary key membership SQL expression is also returned.
+    &#34;&#34;&#34;
+    def make_pid(play):
+        return (play.gsis_id, play.drive_id, play.play_id)
+
+    self._assert_no_aggregate()
+
+    # This is pretty terrifying.
+    # Apparently PostgreSQL can change the order of rows returned
+    # depending on the columns selected. So e.g., if you sort by `down`
+    # and limit to 20 results, you might get a different 20 plays if
+    # you change which columns you&#39;re selecting.
+    # This is pertinent here because if we&#39;re filling plays with player
+    # statistics, then we are assuming that this order never changes.
+    # To make the ordering consistent, we add the play&#39;s primary key to
+    # the existing sort criteria, which guarantees that the sort will
+    # always be the same.
+    # (We are careful not to override the user specified
+    # `self._sort_exprs`.)
+    #
+    # That was a lie. We override the user settings if the user asks
+    # to sort by `gsis_id`, `drive_id` or `play_id`.
+    consistent = [(c, &#39;asc&#39;) for c in [&#39;gsis_id&#39;, &#39;drive_id&#39;, &#39;play_id&#39;]]
+    sorter = Sorter(types.Play, self._sort_exprs, self._limit)
+    sorter.add_exprs(*consistent)
+
+    if not fill:
+        results = []
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            init = types.Play.from_row_tuple
+            q = self._make_join_query(cursor, types.Play, sorter=sorter)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                results.append(init(self._db, row))
+        return results
+    else:
+        plays = OrderedDict()
+        with Tx(self._db, factory=tuple_cursor) as cursor:
+            init_play = types.Play.from_row_tuple
+            q = self._make_join_query(cursor, types.Play, sorter=sorter)
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                play = init_play(self._db, row)
+                play._play_players = []
+                plays[make_pid(play)] = play
+
+            # Run the above query *again* as a subquery.
+            # This time, only fetch the primary key, and use that to
+            # fetch all the `play_player` records in one swoop.
+            aliases = {&#39;play_player&#39;: &#39;pp&#39;}
+            ids = self._make_join_query(cursor, types.Play,
+                                        only_prim=True, sorter=sorter)
+            from_tables = types.PlayPlayer._sql_from(aliases=aliases)
+            columns = types.PlayPlayer._sql_select_fields(
+                fields=types.PlayPlayer.sql_fields(), aliases=aliases)
+            q = &#39;&#39;&#39;
+                SELECT {columns} {from_tables}
+                WHERE (pp.gsis_id, pp.drive_id, pp.play_id) IN ({ids})
+            &#39;&#39;&#39;.format(columns=&#39;, &#39;.join(columns),
+                       from_tables=from_tables, ids=ids)
+
+            init_pp = types.PlayPlayer.from_row_tuple
+            cursor.execute(q)
+            for row in cursor.fetchall():
+                pp = init_pp(self._db, row)
+                plays[make_pid(pp)]._play_players.append(pp)
+        return list(plays.values())</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.drive"><code class="name flex">
+<span>def <span class="ident">drive</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify search criteria for a drive. The possible fields
+correspond to columns in the <code>drive</code> table (or derived
+columns). They are documented as instance variables in the
+<code><a title="nfldb.Drive" href="index.html#nfldb.Drive">Drive</a></code> class.</p>
+<p>Please see the documentation for <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> for examples on
+how to specify search criteria.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def drive(self, **kw):
+    &#34;&#34;&#34;
+    Specify search criteria for a drive. The possible fields
+    correspond to columns in the `drive` table (or derived
+    columns). They are documented as instance variables in the
+    `nfldb.Drive` class.
+
+    Please see the documentation for `nfldb.Query` for examples on
+    how to specify search criteria.
+    &#34;&#34;&#34;
+    _append_conds(self._default_cond, types.Drive, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.game"><code class="name flex">
+<span>def <span class="ident">game</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify search criteria for an NFL game. The possible fields
+correspond to columns in the <code>game</code> table (or derived columns).
+They are documented as instance variables in the <code><a title="nfldb.Game" href="index.html#nfldb.Game">Game</a></code>
+class. Additionally, there are some special fields that provide
+convenient access to common conditions:</p>
+<ul>
+<li><strong>team</strong> - Find games that the team given played in, regardless
+of whether it is the home or away team.</li>
+</ul>
+<p>Please see the documentation for <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> for examples on
+how to specify search criteria.</p>
+<p>Please
+<a href="https://github.com/derek-adair/nfldb/issues/new">open an issue</a>
+if you can think of other special fields to add.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def game(self, **kw):
+    &#34;&#34;&#34;
+    Specify search criteria for an NFL game. The possible fields
+    correspond to columns in the `game` table (or derived columns).
+    They are documented as instance variables in the `nfldb.Game`
+    class. Additionally, there are some special fields that provide
+    convenient access to common conditions:
+
+      * **team** - Find games that the team given played in, regardless
+                   of whether it is the home or away team.
+
+    Please see the documentation for `nfldb.Query` for examples on
+    how to specify search criteria.
+
+    Please
+    [open an issue](https://github.com/derek-adair/nfldb/issues/new)
+    if you can think of other special fields to add.
+    &#34;&#34;&#34;
+    if &#39;team&#39; in kw:
+        team = kw.pop(&#39;team&#39;)
+        ors = {&#39;home_team&#39;: team, &#39;away_team&#39;: team}
+        self.andalso(Query(self._db, orelse=True).game(**ors))
+    _append_conds(self._default_cond, types.Game, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.limit"><code class="name flex">
+<span>def <span class="ident">limit</span></span>(<span>self, count)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Limits the number of results to the integer <code>count</code>. If <code>count</code> is
+<code>0</code> (the default), then no limiting is done.</p>
+<p>See the documentation for <code><a title="nfldb.Query.sort" href="index.html#nfldb.Query.sort">Query.sort()</a></code> for an example on how
+to combine it with <code><a title="nfldb.Query.limit" href="index.html#nfldb.Query.limit">Query.limit()</a></code> to get results quickly.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def limit(self, count):
+    &#34;&#34;&#34;
+    Limits the number of results to the integer `count`. If `count` is
+    `0` (the default), then no limiting is done.
+
+    See the documentation for `nfldb.Query.sort` for an example on how
+    to combine it with `nfldb.Query.limit` to get results quickly.
+    &#34;&#34;&#34;
+    self._limit = count
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.orelse"><code class="name flex">
+<span>def <span class="ident">orelse</span></span>(<span>self, *conds)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Adds the list of <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> objects in <code>conds</code> to this
+query's list of disjunctive conditions.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def orelse(self, *conds):
+    &#34;&#34;&#34;
+    Adds the list of `nfldb.Query` objects in `conds` to this
+    query&#39;s list of disjunctive conditions.
+    &#34;&#34;&#34;
+    self._orelse += conds
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.play"><code class="name flex">
+<span>def <span class="ident">play</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify search criteria for a play. The possible fields
+correspond to columns in the <code>play</code> or <code>play_player</code> tables (or
+derived columns). They are documented as instance variables in
+the <code><a title="nfldb.Play" href="index.html#nfldb.Play">Play</a></code> and <code><a title="nfldb.PlayPlayer" href="index.html#nfldb.PlayPlayer">PlayPlayer</a></code> classes. Additionally,
+the fields listed on the
+<a href="http://goo.gl/1qYG3C">statistical categories</a>
+wiki page may be used. That includes <strong>both</strong> <code>play</code> and
+<code>player</code> statistical categories.</p>
+<p>Please see the documentation for <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> for examples on
+how to specify search criteria.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def play(self, **kw):
+    &#34;&#34;&#34;
+    Specify search criteria for a play. The possible fields
+    correspond to columns in the `play` or `play_player` tables (or
+    derived columns). They are documented as instance variables in
+    the `nfldb.Play` and `nfldb.PlayPlayer` classes. Additionally,
+    the fields listed on the
+    [statistical categories](http://goo.gl/1qYG3C)
+    wiki page may be used. That includes **both** `play` and
+    `player` statistical categories.
+
+    Please see the documentation for `nfldb.Query` for examples on
+    how to specify search criteria.
+    &#34;&#34;&#34;
+    _append_conds(self._default_cond, types.Play, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.play_player"><code class="name flex">
+<span>def <span class="ident">play_player</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify search criteria for individual play player statistics.
+The allowed fields are the columns in the <code>play_player</code>
+table.
+They are documented as instance variables in the
+<code><a title="nfldb.PlayPlayer" href="index.html#nfldb.PlayPlayer">PlayPlayer</a></code> class. Additionally, the fields listed on
+the <a href="http://goo.gl/1qYG3C">statistical categories</a> wiki page
+may be used. (Only the <code>player</code> statistical categories.)</p>
+<p>This method differs from <code><a title="nfldb.Query.play" href="index.html#nfldb.Query.play">Query.play()</a></code> in that it can be
+used to select for individual player statistics in a play. In
+particular, there are <em>zero or more</em> player statistics for
+every play.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def play_player(self, **kw):
+    &#34;&#34;&#34;
+    Specify search criteria for individual play player statistics.
+    The allowed fields are the columns in the `play_player`
+    table.  They are documented as instance variables in the
+    `nfldb.PlayPlayer` class. Additionally, the fields listed on
+    the [statistical categories](http://goo.gl/1qYG3C) wiki page
+    may be used. (Only the `player` statistical categories.)
+
+    This method differs from `nfldb.Query.play` in that it can be
+    used to select for individual player statistics in a play. In
+    particular, there are *zero or more* player statistics for
+    every play.
+    &#34;&#34;&#34;
+    # Technically, it isn&#39;t necessary to handle derived fields manually
+    # since their SQL can be generated automatically, but it can be
+    # much faster to express them in terms of boolean logic with other
+    # fields rather than generate them.
+    for field, value in list(kw.items()):
+        nosuff = _no_comp_suffix(field)
+        suff = _comp_suffix(field)
+
+        def replace_or(*fields):
+            q = Query(self._db, orelse=True)
+            ors = dict([(&#39;%s__%s&#39; % (f, suff), value) for f in fields])
+            self.andalso(q.play_player(**ors))
+
+        if nosuff in types.PlayPlayer._derived_combined:
+            replace_or(*types.PlayPlayer._derived_combined[nosuff])
+            kw.pop(field)
+
+    # Now add the rest of the query.
+    _append_conds(self._default_cond, types.PlayPlayer, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.player"><code class="name flex">
+<span>def <span class="ident">player</span></span>(<span>self, **kw)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify search criteria for a player. The possible fields
+correspond to columns in the <code>player</code> table (or derived
+columns). They are documented as instance variables in the
+<code><a title="nfldb.Player" href="index.html#nfldb.Player">Player</a></code> class.</p>
+<p>Please see the documentation for <code><a title="nfldb.Query" href="index.html#nfldb.Query">Query</a></code> for examples on
+how to specify search criteria.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def player(self, **kw):
+    &#34;&#34;&#34;
+    Specify search criteria for a player. The possible fields
+    correspond to columns in the `player` table (or derived
+    columns). They are documented as instance variables in the
+    `nfldb.Player` class.
+
+    Please see the documentation for `nfldb.Query` for examples on
+    how to specify search criteria.
+    &#34;&#34;&#34;
+    _append_conds(self._default_cond, types.Player, kw)
+    return self</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.show_where"><code class="name flex">
+<span>def <span class="ident">show_where</span></span>(<span>self, aggregate=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Returns an approximate WHERE clause corresponding to the
+criteria specified in <code>self</code>. Note that the WHERE clause given
+is never explicitly used for performance reasons, but one hopes
+that it describes the criteria in <code>self</code>.</p>
+<p>If <code><a title="nfldb.query.aggregate" href="#nfldb.query.aggregate">aggregate()</a></code> is <code>True</code>, then aggregate criteria for the
+<code>play</code> and <code>play_player</code> tables is shown with aggregate
+functions applied.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def show_where(self, aggregate=False):
+    &#34;&#34;&#34;
+    Returns an approximate WHERE clause corresponding to the
+    criteria specified in `self`. Note that the WHERE clause given
+    is never explicitly used for performance reasons, but one hopes
+    that it describes the criteria in `self`.
+
+    If `aggregate` is `True`, then aggregate criteria for the
+    `play` and `play_player` tables is shown with aggregate
+    functions applied.
+    &#34;&#34;&#34;
+    with Tx(self._db) as cur:
+        return self._sql_where(cur, aggregate=aggregate)
+    return &#39;&#39;</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Query.sort"><code class="name flex">
+<span>def <span class="ident">sort</span></span>(<span>self, exprs)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Specify sorting criteria for the result set returned by
+using sort expressions. A sort expression is a tuple with
+two elements: a field to sort by and the order to use. The
+field should correspond to an attribute of the objects you're
+returning and the order should be <code>asc</code> for ascending (smallest
+to biggest) or <code>desc</code> for descending (biggest to smallest).</p>
+<p>For example, <code>('passing_yds', 'desc')</code> would sort plays by the
+number of passing yards in the play, with the biggest coming
+first.</p>
+<p>Remember that a sort field must be an attribute of the
+results being returned. For example, you can't sort plays by
+<code>home_score</code>, which is an attribute of a <code><a title="nfldb.Game" href="index.html#nfldb.Game">Game</a></code> object.
+If you require this behavior, you will need to do it in Python
+with its <code>sorted</code> built in function. (Or alternatively, use
+two separate queries if the result set is large.)</p>
+<p>You may provide multiple sort expressions. For example,
+<code>[('gsis_id', 'asc'), ('time', 'asc'), ('play_id', 'asc')]</code>
+would sort plays in the order in which they occurred within
+each game.</p>
+<p><code>exprs</code> may also just be a string specifying a single
+field which defaults to a descending order. For example,
+<code>sort('passing_yds')</code> sorts plays by passing yards in
+descending order.</p>
+<p>If <code>exprs</code> is set to the empty list, then sorting will be
+disabled for this query.</p>
+<p>Note that sorting criteria can be combined with
+<code><a title="nfldb.Query.limit" href="index.html#nfldb.Query.limit">Query.limit()</a></code> to limit results which can dramatically
+speed up larger searches. For example, to fetch the top 10
+passing plays in the 2012 season:</p>
+<pre><code>#!python
+q = Query(db).game(season_year=2012, season_type='Regular')
+q.sort('passing_yds').limit(10)
+for p in q.as_plays():
+    print p
+</code></pre>
+<p>A more naive approach might be to fetch all plays and sort them
+with Python:</p>
+<pre><code>#!python
+q = Query(db).game(season_year=2012, season_type='Regular')
+plays = q.as_plays()
+
+plays = sorted(plays, key=lambda p: p.passing_yds, reverse=True)
+for p in plays[:10]:
+    print p
+</code></pre>
+<p>But this is over <strong>43 times slower</strong> on my machine than using
+<code><a title="nfldb.Query.sort" href="index.html#nfldb.Query.sort">Query.sort()</a></code> and <code><a title="nfldb.Query.limit" href="index.html#nfldb.Query.limit">Query.limit()</a></code>. (The performance
+difference is due to making PostgreSQL perform the search and
+restricting the number of results returned to process.)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sort(self, exprs):
+    &#34;&#34;&#34;
+    Specify sorting criteria for the result set returned by
+    using sort expressions. A sort expression is a tuple with
+    two elements: a field to sort by and the order to use. The
+    field should correspond to an attribute of the objects you&#39;re
+    returning and the order should be `asc` for ascending (smallest
+    to biggest) or `desc` for descending (biggest to smallest).
+
+    For example, `(&#39;passing_yds&#39;, &#39;desc&#39;)` would sort plays by the
+    number of passing yards in the play, with the biggest coming
+    first.
+
+    Remember that a sort field must be an attribute of the
+    results being returned. For example, you can&#39;t sort plays by
+    `home_score`, which is an attribute of a `nfldb.Game` object.
+    If you require this behavior, you will need to do it in Python
+    with its `sorted` built in function. (Or alternatively, use
+    two separate queries if the result set is large.)
+
+    You may provide multiple sort expressions. For example,
+    `[(&#39;gsis_id&#39;, &#39;asc&#39;), (&#39;time&#39;, &#39;asc&#39;), (&#39;play_id&#39;, &#39;asc&#39;)]`
+    would sort plays in the order in which they occurred within
+    each game.
+
+    `exprs` may also just be a string specifying a single
+    field which defaults to a descending order. For example,
+    `sort(&#39;passing_yds&#39;)` sorts plays by passing yards in
+    descending order.
+
+    If `exprs` is set to the empty list, then sorting will be
+    disabled for this query.
+
+    Note that sorting criteria can be combined with
+    `nfldb.Query.limit` to limit results which can dramatically
+    speed up larger searches. For example, to fetch the top 10
+    passing plays in the 2012 season:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        q.sort(&#39;passing_yds&#39;).limit(10)
+        for p in q.as_plays():
+            print p
+
+    A more naive approach might be to fetch all plays and sort them
+    with Python:
+
+        #!python
+        q = Query(db).game(season_year=2012, season_type=&#39;Regular&#39;)
+        plays = q.as_plays()
+
+        plays = sorted(plays, key=lambda p: p.passing_yds, reverse=True)
+        for p in plays[:10]:
+            print p
+
+    But this is over **43 times slower** on my machine than using
+    `nfldb.Query.sort` and `nfldb.Query.limit`. (The performance
+    difference is due to making PostgreSQL perform the search and
+    restricting the number of results returned to process.)
+    &#34;&#34;&#34;
+    self._sort_exprs = exprs
+    return self</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="nfldb.query.Sorter"><code class="flex name class">
+<span>class <span class="ident">Sorter</span></span>
+<span>(</span><span>default_entity, exprs=None, limit=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A representation of sort, order and limit criteria that can
+be applied in a SQL query.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Sorter (object):
+    &#34;&#34;&#34;
+    A representation of sort, order and limit criteria that can
+    be applied in a SQL query.
+    &#34;&#34;&#34;
+    @staticmethod
+    def _normalize_order(order):
+        order = order.upper()
+        assert order in (&#39;ASC&#39;, &#39;DESC&#39;), &#39;order must be &#34;asc&#34; or &#34;desc&#34;&#39;
+        return order
+
+    def __init__(self, default_entity, exprs=None, limit=None):
+        self.default_entity = default_entity
+        self.entities = set([default_entity])
+        self.limit = int(limit or 0)
+        self.exprs = []
+        if isinstance(exprs, strtype) or isinstance(exprs, tuple):
+            self.add_exprs(exprs)
+        else:
+            self.add_exprs(*(exprs or []))
+
+    def add_exprs(self, *exprs):
+        for e in exprs:
+            e = self.normal_expr(e)
+            self.entities.add(e[0])
+            self.exprs.append(e)
+
+    def normal_expr(self, e):
+        if isinstance(e, strtype):
+            return (self.default_entity, e, &#39;DESC&#39;)
+        elif isinstance(e, tuple):
+            assert len(e) == 2, &#39;invalid sort expression&#39;
+            return (self.default_entity, e[0], self._normalize_order(e[1]))
+            # elif len(e) == 3:
+                # assert e[0] in _ENTITIES, &#39;invalid entity: %s&#39; % e[0]
+                # self.entities.add(_ENTITIES[e[0]])
+                # return (_ENTITIES[e[0]], e[1], self._normalize_order(e[2]))
+        else:
+            raise ValueError(
+                &#34;Sortby expressions must be strings &#34;
+                &#34;or two-element tuples like (column, order). &#34;
+                &#34;Got value &#39;%s&#39; with type &#39;%s&#39;.&#34; % (e, type(e)))
+
+    def sql(self, aliases=None):
+        &#34;&#34;&#34;
+        Return a SQL `ORDER BY ... LIMIT` expression corresponding to
+        the criteria in `self`. If there are no ordering expressions
+        in the sorting criteria, then an empty string is returned
+        regardless of any limit criteria. (That is, specifying a limit
+        requires at least one order expression.)
+
+        The value of `prefix` is passed to the `tabtype._as_sql`
+        function.
+        &#34;&#34;&#34;
+        s = &#39;&#39;
+        if len(self.exprs) &gt; 0:
+            sort_fields = []
+            for ent, field, order in self.exprs:
+                try:
+                    field = ent._sql_field(field, aliases=aliases)
+                except KeyError:
+                    raise ValueError(
+                        &#39;%s is not a valid sort field for %s&#39;
+                        % (field, ent.__name__))
+                sort_fields.append(&#39;%s %s&#39; % (field, order))
+            s += &#39;ORDER BY %s&#39; % &#39;, &#39;.join(sort_fields)
+        if self.limit &gt; 0:
+            s += &#39; LIMIT %d&#39; % self.limit
+        return &#39; &#39; + s + &#39; &#39;</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="nfldb.query.Sorter.add_exprs"><code class="name flex">
+<span>def <span class="ident">add_exprs</span></span>(<span>self, *exprs)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_exprs(self, *exprs):
+    for e in exprs:
+        e = self.normal_expr(e)
+        self.entities.add(e[0])
+        self.exprs.append(e)</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Sorter.normal_expr"><code class="name flex">
+<span>def <span class="ident">normal_expr</span></span>(<span>self, e)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def normal_expr(self, e):
+    if isinstance(e, strtype):
+        return (self.default_entity, e, &#39;DESC&#39;)
+    elif isinstance(e, tuple):
+        assert len(e) == 2, &#39;invalid sort expression&#39;
+        return (self.default_entity, e[0], self._normalize_order(e[1]))
+        # elif len(e) == 3:
+            # assert e[0] in _ENTITIES, &#39;invalid entity: %s&#39; % e[0]
+            # self.entities.add(_ENTITIES[e[0]])
+            # return (_ENTITIES[e[0]], e[1], self._normalize_order(e[2]))
+    else:
+        raise ValueError(
+            &#34;Sortby expressions must be strings &#34;
+            &#34;or two-element tuples like (column, order). &#34;
+            &#34;Got value &#39;%s&#39; with type &#39;%s&#39;.&#34; % (e, type(e)))</code></pre>
+</details>
+</dd>
+<dt id="nfldb.query.Sorter.sql"><code class="name flex">
+<span>def <span class="ident">sql</span></span>(<span>self, aliases=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Return a SQL <code>ORDER BY &hellip; LIMIT</code> expression corresponding to
+the criteria in <code>self</code>. If there are no ordering expressions
+in the sorting criteria, then an empty string is returned
+regardless of any limit criteria. (That is, specifying a limit
+requires at least one order expression.)</p>
+<p>The value of <code>prefix</code> is passed to the <code>tabtype._as_sql</code>
+function.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sql(self, aliases=None):
+    &#34;&#34;&#34;
+    Return a SQL `ORDER BY ... LIMIT` expression corresponding to
+    the criteria in `self`. If there are no ordering expressions
+    in the sorting criteria, then an empty string is returned
+    regardless of any limit criteria. (That is, specifying a limit
+    requires at least one order expression.)
+
+    The value of `prefix` is passed to the `tabtype._as_sql`
+    function.
+    &#34;&#34;&#34;
+    s = &#39;&#39;
+    if len(self.exprs) &gt; 0:
+        sort_fields = []
+        for ent, field, order in self.exprs:
+            try:
+                field = ent._sql_field(field, aliases=aliases)
+            except KeyError:
+                raise ValueError(
+                    &#39;%s is not a valid sort field for %s&#39;
+                    % (field, ent.__name__))
+            sort_fields.append(&#39;%s %s&#39; % (field, order))
+        s += &#39;ORDER BY %s&#39; % &#39;, &#39;.join(sort_fields)
+    if self.limit &gt; 0:
+        s += &#39; LIMIT %d&#39; % self.limit
+    return &#39; &#39; + s + &#39; &#39;</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="nfldb" href="index.html">nfldb</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="nfldb.query.QueryOR" href="#nfldb.query.QueryOR">QueryOR</a></code></li>
+<li><code><a title="nfldb.query.aggregate" href="#nfldb.query.aggregate">aggregate</a></code></li>
+<li><code><a title="nfldb.query.current" href="#nfldb.query.current">current</a></code></li>
+<li><code><a title="nfldb.query.guess_position" href="#nfldb.query.guess_position">guess_position</a></code></li>
+<li><code><a title="nfldb.query.player_search" href="#nfldb.query.player_search">player_search</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="nfldb.query.Comparison" href="#nfldb.query.Comparison">Comparison</a></code></h4>
+<ul class="">
+<li><code><a title="nfldb.query.Comparison.column" href="#nfldb.query.Comparison.column">column</a></code></li>
+<li><code><a title="nfldb.query.Comparison.entity" href="#nfldb.query.Comparison.entity">entity</a></code></li>
+<li><code><a title="nfldb.query.Comparison.operator" href="#nfldb.query.Comparison.operator">operator</a></code></li>
+<li><code><a title="nfldb.query.Comparison.value" href="#nfldb.query.Comparison.value">value</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="nfldb.query.Condition" href="#nfldb.query.Condition">Condition</a></code></h4>
+</li>
+<li>
+<h4><code><a title="nfldb.query.Query" href="#nfldb.query.Query">Query</a></code></h4>
+<ul class="two-column">
+<li><code><a title="nfldb.query.Query.aggregate" href="#nfldb.query.Query.aggregate">aggregate</a></code></li>
+<li><code><a title="nfldb.query.Query.andalso" href="#nfldb.query.Query.andalso">andalso</a></code></li>
+<li><code><a title="nfldb.query.Query.as_aggregate" href="#nfldb.query.Query.as_aggregate">as_aggregate</a></code></li>
+<li><code><a title="nfldb.query.Query.as_drives" href="#nfldb.query.Query.as_drives">as_drives</a></code></li>
+<li><code><a title="nfldb.query.Query.as_games" href="#nfldb.query.Query.as_games">as_games</a></code></li>
+<li><code><a title="nfldb.query.Query.as_play_players" href="#nfldb.query.Query.as_play_players">as_play_players</a></code></li>
+<li><code><a title="nfldb.query.Query.as_players" href="#nfldb.query.Query.as_players">as_players</a></code></li>
+<li><code><a title="nfldb.query.Query.as_plays" href="#nfldb.query.Query.as_plays">as_plays</a></code></li>
+<li><code><a title="nfldb.query.Query.drive" href="#nfldb.query.Query.drive">drive</a></code></li>
+<li><code><a title="nfldb.query.Query.game" href="#nfldb.query.Query.game">game</a></code></li>
+<li><code><a title="nfldb.query.Query.limit" href="#nfldb.query.Query.limit">limit</a></code></li>
+<li><code><a title="nfldb.query.Query.orelse" href="#nfldb.query.Query.orelse">orelse</a></code></li>
+<li><code><a title="nfldb.query.Query.play" href="#nfldb.query.Query.play">play</a></code></li>
+<li><code><a title="nfldb.query.Query.play_player" href="#nfldb.query.Query.play_player">play_player</a></code></li>
+<li><code><a title="nfldb.query.Query.player" href="#nfldb.query.Query.player">player</a></code></li>
+<li><code><a title="nfldb.query.Query.show_where" href="#nfldb.query.Query.show_where">show_where</a></code></li>
+<li><code><a title="nfldb.query.Query.sort" href="#nfldb.query.Query.sort">sort</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="nfldb.query.Sorter" href="#nfldb.query.Sorter">Sorter</a></code></h4>
+<ul class="">
+<li><code><a title="nfldb.query.Sorter.add_exprs" href="#nfldb.query.Sorter.add_exprs">add_exprs</a></code></li>
+<li><code><a title="nfldb.query.Sorter.normal_expr" href="#nfldb.query.Sorter.normal_expr">normal_expr</a></code></li>
+<li><code><a title="nfldb.query.Sorter.sql" href="#nfldb.query.Sorter.sql">sql</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
