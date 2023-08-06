@@ -1,0 +1,8 @@
+rpcudp==4.0.0
+
+[dev]
+pytest==5.4.1
+pytest-asyncio==0.11.0
+mypy==0.740
+flake8==3.7.9
+black==19.10b0
