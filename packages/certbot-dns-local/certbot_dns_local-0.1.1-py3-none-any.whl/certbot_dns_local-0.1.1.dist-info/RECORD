@@ -1,0 +1,10 @@
+certbot_dns_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_local/auth.py,sha256=E5NYZAgVUQNIIDIeM8UGRRwfGVqXnvcsaR-9nMUPBAQ,8557
+certbot_dns_local/dns.py,sha256=PhqOs7O5M65FCoyg7L4bqnxhsaIRYX6CR05zEnsKnRY,1879
+certbot_dns_local/dnsutils.py,sha256=PhqOs7O5M65FCoyg7L4bqnxhsaIRYX6CR05zEnsKnRY,1879
+certbot_dns_local-0.1.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+certbot_dns_local-0.1.1.dist-info/METADATA,sha256=Kq3UsufnpyudES5hBReJXBgGUt_abP_N1BhhKmZ7-8w,2973
+certbot_dns_local-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+certbot_dns_local-0.1.1.dist-info/entry_points.txt,sha256=3KIEf-n-5n2mSN9Muh1nq0GEJVfAhEttlfl6jJy_rZg,78
+certbot_dns_local-0.1.1.dist-info/top_level.txt,sha256=31pGO8W2GtgNn7cPJOIHQh-yuOHTAQSF_y8j-KjHdVw,18
+certbot_dns_local-0.1.1.dist-info/RECORD,,
