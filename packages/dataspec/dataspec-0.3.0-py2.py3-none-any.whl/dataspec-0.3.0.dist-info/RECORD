@@ -1,0 +1,14 @@
+dataspec/__init__.py,sha256=IOE4XjQB3H89RH5llrBk-cJsl8orCXPWWT1us-t_sPM,587
+dataspec/__version__.py,sha256=tRW0WyNYs51xFdb0g9Nfx09_rDwgG2H-v3nKgjzNQY8,63
+dataspec/api.py,sha256=QOiXXbO24WjmolhLh0zETzDUw_L8PqpmWiKmQ4b5dz0,4493
+dataspec/base.py,sha256=9qorxcDJv0AFrgPOok705HJL3-ZLYpa6mFNGG1dXeqg,51556
+dataspec/factories.py,sha256=5LJlSPKOt_sgRQeZpvVe_lNuFXnf-Bj1rNHMAKqnLnE,63907
+dataspec/__pycache__/__init__.cpython-36.pyc,sha256=9W0pxVot8tExH55jrGHbzdD-PQ53qS8jE_Kpzs1EgGM,685
+dataspec/__pycache__/api.cpython-36.pyc,sha256=nFRlp-XGej_MbzfpyuI-aOq0sJwaX37H65Zi3cpG9dg,3724
+dataspec/__pycache__/base.cpython-36.pyc,sha256=D1axrVAufZbg6v3BR-TdReRnuHcvbOvS7B3yUJV2SOM,48603
+dataspec/__pycache__/factories.cpython-36.pyc,sha256=s53-XX60vsYHqKazjY6bDEuCmb0CA4Ji0R86yUrIGWA,59061
+dataspec-0.3.0.dist-info/LICENSE,sha256=xLjvyGf0j4cnQVFP-_UHK8APgw57V2mnr4bv4vhMUII,1058
+dataspec-0.3.0.dist-info/METADATA,sha256=7TX--D4ghdjXHKU58T4FO4z8-_N8yXz261nIScHDpeE,1057
+dataspec-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dataspec-0.3.0.dist-info/top_level.txt,sha256=Mbr-jhKUv41XyKEEn11jiSvSqHzzwjYiOMlHDbbGZbg,9
+dataspec-0.3.0.dist-info/RECORD,,
