@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+src/bq_fake_pii_table_creator/__init__.py
+src/bq_fake_pii_table_creator/bq_creator.py
+src/bq_fake_pii_table_creator/bq_fake_table_creator.py
+src/bq_fake_pii_table_creator/bq_fake_table_creator_cli.py
+src/bq_fake_pii_table_creator/csv_creator.py
+src/bq_fake_pii_table_creator/dataframe_creator.py
+src/bq_fake_pii_table_creator/gcs_storage_client_helper.py
+src/bq_fake_pii_table_creator/uuid_helper.py
+src/bq_fake_pii_table_creator.egg-info/PKG-INFO
+src/bq_fake_pii_table_creator.egg-info/SOURCES.txt
+src/bq_fake_pii_table_creator.egg-info/dependency_links.txt
+src/bq_fake_pii_table_creator.egg-info/entry_points.txt
+src/bq_fake_pii_table_creator.egg-info/requires.txt
+src/bq_fake_pii_table_creator.egg-info/top_level.txt
