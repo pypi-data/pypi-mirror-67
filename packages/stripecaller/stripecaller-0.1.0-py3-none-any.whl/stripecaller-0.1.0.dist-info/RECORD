@@ -1,0 +1,10 @@
+stripecaller/__init__.py,sha256=NJYWogDZiPkFIHI-iK4GsmV4AlNZTYy88ptxreaQch4,151
+stripecaller/callers.py,sha256=jpmFRn5b2ZdtyFw3AkhcSI4tnmBlaRP_l41e9mDu06E,12832
+stripecaller-0.1.0.data/scripts/call-stripes,sha256=WDyFgBLXUvwuOAB6Jgz1hFzT7gEZVCGHyzMezJtNGkI,9799
+stripecaller-0.1.0.data/scripts/pileup-stripes,sha256=T7V0LoSIgsXiuGVXYsiULZgON7AvNfsSZbvzD4556S4,6791
+stripecaller-0.1.0.data/scripts/stripe-plot,sha256=n7mbId9sChUU221y2Sio4XrTg5YLs3n1bXFjHp6i_8I,10212
+stripecaller-0.1.0.dist-info/LICENSE,sha256=EqxQR_KvBSLwZ5ixWJ_8RZm8KckflU14dOAyBjTnd8A,35122
+stripecaller-0.1.0.dist-info/METADATA,sha256=eLSUvJ9AbNIMNwXPl_rmdAa05Fzh9Q0s9l1LqIysVPo,2354
+stripecaller-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+stripecaller-0.1.0.dist-info/top_level.txt,sha256=HAgMW07KTqV-19atDIe9xeJiWvHZZzICB4RmhKAvvH8,13
+stripecaller-0.1.0.dist-info/RECORD,,
