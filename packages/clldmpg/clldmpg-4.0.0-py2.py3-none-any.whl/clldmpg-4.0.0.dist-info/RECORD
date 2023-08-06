@@ -1,0 +1,14 @@
+clldmpg/__init__.py,sha256=LTk1-clxN0FwkmNO6rw_4wMiLEYBb6648MfzGnnv0vk,1167
+clldmpg/__main__.py,sha256=DXQ_3iYHFZWrMpslSzRvQ_AF5ULU1B2v6nH4fRLTLyM,1946
+clldmpg/cdstar.py,sha256=7vu6N04RWyraN92m_QwwrXajyKVOlVIUOxSIuVzyxXI,5169
+clldmpg/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clldmpg/commands/dl2cdstar.py,sha256=DQgjAID8DSoq0jKrXG3M72xT1DBVYMi-9q_jua7uItM,2116
+clldmpg/static/minerva.png,sha256=gwaI6kBM8X_FCdNdPWR_xGLWaO2euulEV1Iv5A74nN4,11822
+clldmpg/templates/clldmpg_util.mako,sha256=bd-NEa_SKc-6B-EsKlKmvqDd-SlbyqDpD_YRVPARQ-M,1456
+clldmpg/templates/download.mako,sha256=4r3kzmkrn2j6xNTuKR2TGSUeOserSTw_UYK13fbeRic,349
+clldmpg/templates/legal.mako,sha256=OXy-KSmx9dZFaL8dgK7k2UkqVjDodLLBLoLIya2JTXM,707
+clldmpg-4.0.0.dist-info/METADATA,sha256=p9NQZVRpbBkDaRaafAgdQRdhDOi5JUodmOmopRrTQpc,1357
+clldmpg-4.0.0.dist-info/RECORD,,
+clldmpg-4.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+clldmpg-4.0.0.dist-info/entry_points.txt,sha256=msArxddY6bsjD0PMfLnvFEkHxdPi2BDvr9m6NMCeobQ,119
+clldmpg-4.0.0.dist-info/top_level.txt,sha256=lPdWkkbQu4PyeS-QHb_KZXEewTsgE9pbQmK8osltKuU,8
