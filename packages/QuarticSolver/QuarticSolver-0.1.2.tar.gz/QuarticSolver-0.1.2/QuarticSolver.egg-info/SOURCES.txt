@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+QuarticSolver.egg-info/PKG-INFO
+QuarticSolver.egg-info/SOURCES.txt
+QuarticSolver.egg-info/dependency_links.txt
+QuarticSolver.egg-info/not-zip-safe
+QuarticSolver.egg-info/requires.txt
+QuarticSolver.egg-info/top_level.txt
