@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    start-cli=src.main:run
+    
