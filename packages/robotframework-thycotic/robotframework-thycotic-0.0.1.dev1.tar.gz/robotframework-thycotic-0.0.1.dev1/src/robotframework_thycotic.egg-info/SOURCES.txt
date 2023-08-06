@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/ThycoticLibrary/__init__.py
+src/robotframework_thycotic.egg-info/PKG-INFO
+src/robotframework_thycotic.egg-info/SOURCES.txt
+src/robotframework_thycotic.egg-info/dependency_links.txt
+src/robotframework_thycotic.egg-info/requires.txt
+src/robotframework_thycotic.egg-info/top_level.txt
