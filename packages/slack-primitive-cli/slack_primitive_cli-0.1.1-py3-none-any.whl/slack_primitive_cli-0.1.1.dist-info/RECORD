@@ -1,0 +1,11 @@
+slack_primitive_cli/__init__.py,sha256=OuqD7ccFgzZpmQpnGVPU2O_U2ITvETGXiWZ0KHN5j9g,64
+slack_primitive_cli/__main__.py,sha256=CznTjjMVpg0aHeNx_aUiPsuTKVTiFABgJ8a8hN8VRTg,356
+slack_primitive_cli/__version__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+slack_primitive_cli/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slack_primitive_cli/command/chat.py,sha256=Rg6-p9VIrPLr-xNNOxkuzJ7r3CSrMI3FDTl1j2duwm8,2093
+slack_primitive_cli/command/files.py,sha256=Gqwri7LFdLJkIO1Q6oUxCvX6Xgc-Z2OQUCR1xmDDkY8,2057
+slack_primitive_cli-0.1.1.dist-info/entry_points.txt,sha256=_enh27L2Iughqncd40Yqzymok8n4oZ5pzUX6arhOtZ4,61
+slack_primitive_cli-0.1.1.dist-info/LICENSE,sha256=o5XIJUdWPBq6qDNsoGnb8nvHjWBqiuzT9P6yYMAlc5U,1067
+slack_primitive_cli-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+slack_primitive_cli-0.1.1.dist-info/METADATA,sha256=B2JVl1S_ba9YmMVgAAN0XT5H1tc2rDmNVwNOQov7Cn0,2016
+slack_primitive_cli-0.1.1.dist-info/RECORD,,
