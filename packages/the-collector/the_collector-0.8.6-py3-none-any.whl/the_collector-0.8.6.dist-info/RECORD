@@ -1,0 +1,16 @@
+the_collector/__init__.py,sha256=uA8MZmffaQG6RFFqRcFcxiVty01hi9-P94ucu2jl2-k,911
+the_collector/archive/BagReader.py,sha256=T6AmSaQ7ja8r-tfa21YZmNr7EXrc0ci6etSntxb7j9M,3283
+the_collector/archive/BagWriter.py,sha256=mL6pbT_86lBKRe7rcVGhFeTdhhd1wSEdDg46u8e9hrc,5459
+the_collector/archive/bagitjson.py,sha256=LSTT7njkhhWQ76fj4Ek31-WR2g1dKUjFxp4nMBHzz6E,6606
+the_collector/archive/messages.py,sha256=DaBaWPCC1OJF9Ks_3JsPW1w05QpXhrZ5EvRsEyLu5Cc,9857
+the_collector/bagit.py,sha256=4vSA8s8noRV8Er9tekFhxdBl9c22c3XRrKyCUXzxCuk,3082
+the_collector/circular_buffer.py,sha256=TQNLP9QEy71Cnq6FoL6CuxTv0QC7HaoI7Pr5mp4JhSQ,1574
+the_collector/data.py,sha256=k0PxXu9gJHgIw__2FmIEsjT66ozBYJy47TldtYvtaaA,671
+the_collector/extra_msgpack.py,sha256=FO_zw0gpfuJ_GC4GKS-lazo4RoZO5d-iZflNK1Jcr7M,1285
+the_collector/extra_numpy.py,sha256=6ijv46WuSpu9f7Wv5bUaz9KQYgw_zfK4DYjf45C8laU,744
+the_collector/protocols.py,sha256=MsD2cAb61nmFiwsPXbQ8tMnS0iWJAkqLl9YtqQRzTnw,1993
+the_collector/utils.py,sha256=AMhuN379vG1klSCJzkJIyNxLNOAJ7O7dMm2Pw-ZMMFw,1798
+the_collector-0.8.6.dist-info/LICENSE,sha256=Hegh1w7iCVzEbj-GmF862kLwxnNdFRHVfBD0UtiATbk,1070
+the_collector-0.8.6.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+the_collector-0.8.6.dist-info/METADATA,sha256=iCDFvk7k6_SWwfs3_dO7VnZb2tq3SXlIVW1fj4uT5h0,7405
+the_collector-0.8.6.dist-info/RECORD,,
