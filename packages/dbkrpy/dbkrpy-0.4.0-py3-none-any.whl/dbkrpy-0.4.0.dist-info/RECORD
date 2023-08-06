@@ -1,0 +1,10 @@
+dbkrpy/__init__.py,sha256=LNoE5y2_daNVgHJ75jnldDyHHU6h2ZeBlT-4NY0MWwc,121
+dbkrpy/dbkr.py,sha256=bgRYMctghu3yuzNI7zHJlF-SpcanePpnC5J0sI9rnPU,2791
+dbkrpy/dbkrinfo.py,sha256=_IaIep9yhFki84uwYtsKWqLQA-9Tm3yc692UfFJRErw,4043
+dbkrpy/dbkrpage.py,sha256=IpPGbhG0bKDILs7L4Xtfkz0vp0VrQyZwPoabSk0NJHo,2389
+dbkrpy/dbkrvote.py,sha256=_H7o4ZJuWhp4rdiIJE5OXWQ26DGhkVEkHkPVEYoE7yw,741
+dbkrpy-0.4.0.dist-info/LICENSE,sha256=GIJMbffhHIfv4nx0ls2Uot7zU-EwvSXD0osbkyG9Aus,1088
+dbkrpy-0.4.0.dist-info/METADATA,sha256=MDJ_mlF0nKxLQ-2AF1U38edZCK75EFIyugYDghktbds,4458
+dbkrpy-0.4.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dbkrpy-0.4.0.dist-info/top_level.txt,sha256=wBnYtG_sgY6gY8gQBx-XohUV-1pZX_zJKRQ3CffnkhA,7
+dbkrpy-0.4.0.dist-info/RECORD,,
