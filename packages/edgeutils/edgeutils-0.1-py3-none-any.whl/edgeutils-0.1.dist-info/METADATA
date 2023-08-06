@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: edgeutils
+Version: 0.1
+Summary: edgeutils
+Home-page: http://gitlab.icnslab.net/gom_2020/edge_utils
+Author: Mansu Kim
+Author-email: akstn3023@naver.com
+License: MIT
+Keywords: edgeutils
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
