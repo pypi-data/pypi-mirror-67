@@ -1,0 +1,15 @@
+slam/__init__.py,sha256=WWY10aZEx8jxa9XqtviBGjWedxwhFF8l1q55eoTeehQ,13
+slam/cfn.py,sha256=48gDngWudoPJscwhokOkWn5cdhQnXh6Mgsq3ngMBYpE,4373
+slam/cli.py,sha256=W-FWF3l3MvOXB8uqOn2_z0gXDm7048ULHhngm4kroWg,28306
+slam/helpers.py,sha256=Zg0eEL41fEbg6ttklIAtNTH_S8ATLknnQtbiSfCb5P8,187
+slam/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slam/plugins/dynamodb.py,sha256=EsW4A4DEJA_lAueyz3TcLoK010Crg1S5IogrjVs4fEM,6023
+slam/plugins/wsgi.py,sha256=x1ocDBHVz-D57coxG3VHHYV39vIHzQb4p_MVW-ZemLA,9568
+slam/templates/handler.py.template,sha256=dQ6vVeG4DtHgQWjbk3cml-ixTX5zhZYTwnBLc-mCXXk,1421
+slam/templates/slam.yaml,sha256=6NSzI3xLspiBb11NJH_16HKAbBTTM2JXYy6R-MJy6RA,1617
+slam-0.6.1.dist-info/LICENSE,sha256=RtaovcnEfodUYb_QQ4NhSwJGr65znyBZSf4OuRTztiM,1072
+slam-0.6.1.dist-info/METADATA,sha256=S9eucCGZfatP5VY1PO6lOD9_ox2z-VQ0IHqRwyz9LiE,865
+slam-0.6.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+slam-0.6.1.dist-info/entry_points.txt,sha256=5Xj0sCoJtLbL8nqCOVDKkd5HhybfZiXYHkuSMNTRoko,121
+slam-0.6.1.dist-info/top_level.txt,sha256=rBKWlrT7CZR1JjB73HTME0Mv2sgc4s6uE-7Gig0M8uc,5
+slam-0.6.1.dist-info/RECORD,,
