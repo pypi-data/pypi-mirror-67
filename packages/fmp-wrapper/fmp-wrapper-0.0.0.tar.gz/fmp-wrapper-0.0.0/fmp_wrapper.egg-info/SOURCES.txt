@@ -1,0 +1,9 @@
+README.md
+setup.py
+fmp_wrapper.egg-info/PKG-INFO
+fmp_wrapper.egg-info/SOURCES.txt
+fmp_wrapper.egg-info/dependency_links.txt
+fmp_wrapper.egg-info/requires.txt
+fmp_wrapper.egg-info/top_level.txt
+src/__init__.py
+src/fmp_wrapper.py
