@@ -1,0 +1,16 @@
+Acquisition>=4.0.1
+setuptools
+zope.intid
+zope.component
+zope.event
+zope.interface
+zope.lifecycleevent
+zope.keyreference
+zope.location
+five.localsitemanager
+
+[:python_version == "2.7"]
+Zope2>=2.13
+
+[:python_version >= "3.6"]
+Zope>=4
