@@ -1,0 +1,13 @@
+cryptography
+
+[admin]
+pytz
+requests
+pypandoc
+
+[cli]
+pikepdf
+pytz
+requests
+fpdf
+pypandoc
