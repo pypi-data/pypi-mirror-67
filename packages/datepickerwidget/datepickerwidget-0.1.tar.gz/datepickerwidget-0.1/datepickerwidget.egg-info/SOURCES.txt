@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+datepickerwidget/__init__.py
+datepickerwidget/widgets.py
+datepickerwidget.egg-info/PKG-INFO
+datepickerwidget.egg-info/SOURCES.txt
+datepickerwidget.egg-info/dependency_links.txt
+datepickerwidget.egg-info/not-zip-safe
+datepickerwidget.egg-info/requires.txt
+datepickerwidget.egg-info/top_level.txt
