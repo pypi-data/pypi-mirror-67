@@ -1,0 +1,10 @@
+setup.py
+my_money/__init__.py
+my_money/__main__.py
+my_money/errors.py
+my_money/my program.py
+my_money/stam.py
+my_money.egg-info/PKG-INFO
+my_money.egg-info/SOURCES.txt
+my_money.egg-info/dependency_links.txt
+my_money.egg-info/top_level.txt
