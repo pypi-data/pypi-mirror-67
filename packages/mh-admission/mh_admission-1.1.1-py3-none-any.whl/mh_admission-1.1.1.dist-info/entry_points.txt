@@ -1,0 +1,3 @@
+[console_scripts]
+mh_admission = maha_cet_parser:maha_cet_parser_tools_cli
+
