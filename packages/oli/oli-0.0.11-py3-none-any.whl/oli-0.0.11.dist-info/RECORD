@@ -1,0 +1,13 @@
+oli/__main__.py,sha256=MYcLzXMzVYqp9bCNJ_F7og2TSMDsMGsKnuWZtvbyqCI,360
+oli/run.py,sha256=i-CiBwPe8YLg_GmnjaA1wAQfFWpqx-EOA2Ouwr8EwJU,352
+oli/macos/Homebrew.py,sha256=hkUNoq-JLKYcwCEDz4A0Clw8Sp6B0vcO_gJhF54RDn0,179
+oli/macos/Pypi.py,sha256=wNnwnjnxIRWI33Tc60c9B0J_RPjkzSMFiBWrwNDfPr4,813
+oli/macos/command.py,sha256=XGQSu60bW-VncRKylLsok2fmDRJ3ipCrcir3E-yrifo,1402
+oli/macos/mac.py,sha256=gYDvSGJgORrvUCAd9ngdG9gPq7wZofAIh06r5wSx_iU,413
+oli/macos/macos.py,sha256=I2D0Azj5h4aA7Vj9_PEW9fn6axEbMjdZvxOSE66vqHA,424
+oli/macos/run_process.py,sha256=VOjXSAXcCrdh3fsbL5IyR-YlFRgEuSDCDXjddFBRTd0,713
+oli-0.0.11.dist-info/METADATA,sha256=ZUxVDP_lnuh28Phy9gbpC2NXgKqr64NG50aZqiWo2NQ,456
+oli-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+oli-0.0.11.dist-info/entry_points.txt,sha256=SD2ZmLaLtqnJYF1bPMVJz0_BznFOoUDUuaEnmUhwI20,38
+oli-0.0.11.dist-info/top_level.txt,sha256=ZGyC-kw_l-bN3DmWMVx_BLK-tyH7JPo4g1E2SSqE6xk,4
+oli-0.0.11.dist-info/RECORD,,
