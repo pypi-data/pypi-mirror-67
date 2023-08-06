@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: ao-killboard
+Version: 0.1.2
+Summary: A minimalistic Discord bot for Albion Online's killboard.
+Home-page: https://github.com/antze-k/ao-killboard-py
+Author: Antze K.
+Author-email: unresolved-external@singu-lair.com
+License: MIT
+Project-URL: Source, https://github.com/antze-k/ao-killboard-py
+Project-URL: Tracker, https://github.com/antze-k/ao-killboard-py/issues
+Platform: any
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: discord.py
+Requires-Dist: httpx
+Requires-Dist: python-dateutil
+
+# ao_killboard.py
+
+A minimalistic Discord bot for Albion Online's killboard.
+
+## Getting Started
+
+### Prerequisites
+* [Python >= 3.6](https://www.python.org/downloads/) or [Docker](https://www.docker.com/)
+
+### Built with:
+* [discord.py](https://discordpy.readthedocs.io/en/latest/index.html)
+* [httpx](https://www.python-httpx.org/)
+
+### Getting the bot via pip
+```
+pip install ao-killboard
+```
+
+### Getting the bot via Docker Hub
+```
+docker pull unresolvedexternal/ao-killboard
+```
+
+### Getting the bot via Git
+```
+git clone https://github.com/antze-k/ao-killboard-py
+python3 -mpip install -r ao-killboard-py/requirements.txt
+```
+Change your working directory to `cd ao-killboard-py/src/antze` and run the bot with either of those, depending on your system setup:
+* `python3 ao_killboard.py`
+* `python ao_killboard.py`
+* `ao_killboard.py`
+* `./ao_killboard.py`
+
+The documentation will refer to `ao_killboard.py` further for simplicity.
+
+### Creating a bot account and setting it up for your server (guild)
+* [https://discordpy.readthedocs.io/en/latest/discord.html](https://discordpy.readthedocs.io/en/latest/discord.html)
+* [https://discordpy.readthedocs.io/en/latest/discord.html#inviting-your-bot](https://discordpy.readthedocs.io/en/latest/discord.html#inviting-your-bot) (you don't have to add any specific permissions here, if you choose to add Send Messages permission manually for your channel)
+* [Setting permissions](https://support.discordapp.com/hc/en-us/articles/206029707-How-do-I-set-up-Permissions-) (scroll down to Channel Permissions)
+
+### Configure and run
+Set up three parameters (guild, token and channel) either using environment variables or using command line arguments.
+* "guild" is your Albion Online guild identifier (as seen in `https://albiononline.com/en/killboard/guild/<ID>`)
+* "token" is your bot token obtained in the previous step
+* "channel" is the Discord channel ID the bot will post messages into (check [this article](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) if you need to know how to obtain it)
+
+You can always run `ao_killboard.py --help` to check the available options.
+
+#### Running the bot manually using command line arguments
+```
+ao_killboard.py --guild <GUILD-ID> --token <DISCORD-TOKEN> --channel <123456789>
+```
+or, to enable debug logging:
+```
+ao_killboard.py --guild <GUILD-ID> --token <DISCORD-TOKEN> --channel <123456789> --debug
+```
+Replace the <PLACEHOLDERS> with their respective values, omitting angle brackets.
+
+#### Running the bot using environment values and a batch script (Windows)
+Paste the following into a file with a name like "start-bot.cmd":
+```
+@echo off
+set AO_KILLBOARD_GUILD=<GUILD-ID>
+set AO_KILLBOARD_TOKEN=<DISCORD-TOKEN>
+set AO_KILLBOARD_CHANNEL=<123456789>
+ao_killboard.py %*
+```
+Replace the <PLACEHOLDERS> with their respective values, omitting angle brackets. To enable debug logging, add `set AO_KILLBOARD_DEBUG=1` before the last line.
+
+#### Running the bot using environment values and a shell script (POSIX-like OS)
+Paste the following into a file with a name like "start-bot.sh":
+```
+AO_KILLBOARD_GUILD=<GUILD-ID>
+AO_KILLBOARD_TOKEN=<DISCORD-TOKEN>
+AO_KILLBOARD_CHANNEL=<123456789>
+exec ao_killboard.py "$@"
+```
+Replace the <PLACEHOLDERS> with their respective values, omitting angle brackets. Set the execute bit by running `chmod +x start-bot.sh`. To enable debug logging, add `AO_KILLBOARD_DEBUG=1` before the last line.
+
+#### Running the bot using Docker
+```
+docker run --rm -d --env 'AO_KILLBOARD_GUILD=<GUILD-ID>' --env 'AO_KILLBOARD_TOKEN=<DISCORD-TOKEN>' --env 'AO_KILLBOARD_CHANNEL=<123456789>' unresolvedexternal/ao-killboard
+```
+or, to enable debug logging:
+```
+docker run --rm -d --env 'AO_KILLBOARD_GUILD=<GUILD-ID>' --env 'AO_KILLBOARD_TOKEN=<DISCORD-TOKEN>' --env 'AO_KILLBOARD_CHANNEL=<123456789>' --env 'AO_KILLBOARD_DEBUG=1' unresolvedexternal/ao-killboard
+```
+Replace the <PLACEHOLDERS> with their respective values, omitting angle brackets. You might also want to add `--name ao-killboard` or any other Docker switches you would prefer.
+
+
