@@ -1,0 +1,12 @@
+corgy_erp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corgy_erp/asgi.py,sha256=zKsU2f2PxwuWyqa0RumPyNrfQzFKDW5CMPpJwBm72iI,395
+corgy_erp/settings.py,sha256=-u2gmU1NhkiVAqC9ybIxXNgEuvqhWt6TzgTny2aCysY,3097
+corgy_erp/urls.py,sha256=8knxapxpbBfEEJKxP6pOM5dpr2WHaXjiRQ61-NQ8Nk4,751
+corgy_erp/version.py,sha256=6pa1AuHWtbdE39g2GbKCd43QdI9Yk11JgzAJaOa16wI,22
+corgy_erp/wsgi.py,sha256=7yPwnxWHhArLOoJ1eqNAkheovMLykeKnQseDQIfYjdo,395
+corgy_erp-0.0.1.data/scripts/manage.py,sha256=2ROqYiCVQVJ61C-8SdyRt40Hvwg0evtTkaLNU-wJJxk,616
+corgy_erp-0.0.1.dist-info/LICENSE,sha256=qPd_tBAaBuY2oWMqCy_ZnsFe0KZTzlbpGRujjruAGIs,11335
+corgy_erp-0.0.1.dist-info/METADATA,sha256=kpAJvS6aNgUqRGHz4qIScbyVTAyBdf_138ZMVJ2Ku7o,1442
+corgy_erp-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+corgy_erp-0.0.1.dist-info/top_level.txt,sha256=xOaMINFeltPyvpzd4wgV6NOyjJs8XgdiIYnO7wecRvU,10
+corgy_erp-0.0.1.dist-info/RECORD,,
