@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: lonny_implied_schema
+Version: 1.0.0
+Summary: Library for validating nested JSON structures
+Home-page: https://gitlab.com/tlonny/flexi-validate
+Author: Tim Lonsdale
+Author-email: t@lonny.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
