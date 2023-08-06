@@ -1,0 +1,4 @@
+[console_scripts]
+recommendations_playlist = scripts.recommendations_playlist.__main__:main
+save_new_releases = scripts.save_new_releases.__main__:main
+
