@@ -1,0 +1,8 @@
+[flake8]
+
+# E3** - blank line rules
+# C901 - complexity value bound
+extend-ignore = E3,C901
+
+max-line-length = 100
+max-doc-length = 100
