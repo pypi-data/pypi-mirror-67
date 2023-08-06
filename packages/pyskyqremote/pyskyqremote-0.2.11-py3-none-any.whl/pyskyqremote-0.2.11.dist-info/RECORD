@@ -1,0 +1,17 @@
+pyskyqremote/__init__.py,sha256=0FcIqicDc7dvAW5kYAygIjmWAprqD6nkDEaD6U5CzRY,18
+pyskyqremote/channel.py,sha256=oGMkwSlYiiCvH3uIcrl-ZAvsxJV6bkek4bXB3IxpnEU,2544
+pyskyqremote/const.py,sha256=BrGcfmNXCVHKmrK2HcDTPWJ1ny5T8COhtOgrr_Xg_S4,3709
+pyskyqremote/media.py,sha256=zsI72zO8T289-tqPweJKUXwxosm7bU4QdpkNbki4djk,1399
+pyskyqremote/programme.py,sha256=IXAjP10b-4eQkSWycy5CMoq8tpZWg72SOwR1O99MZsY,3219
+pyskyqremote/skyq_remote.py,sha256=TB6cNjdTlDr8CcrbpnJOVKnKSWRESm29wQ-J4uEpPOQ,18554
+pyskyqremote/version.py,sha256=y_DJWqANUhK4A3WNbbguW0EgRuosOeyx_RIw60-V2xw,51
+pyskyqremote/country/__init__.py,sha256=0FcIqicDc7dvAW5kYAygIjmWAprqD6nkDEaD6U5CzRY,18
+pyskyqremote/country/const_gb.py,sha256=I9oz9GiQxeb9BzIAb3qfUiST-DEzS_q2viuU_7mX9Mo,392
+pyskyqremote/country/const_it.py,sha256=k2c0j2iVafnmPdhlPdtPSlFHqeJBBT74qGATtKtYYVY,474
+pyskyqremote/country/remote_gb.py,sha256=gGsvZSaP9dCy6SOYT972UkJO5IqwjIn63DUOHZTe8Z0,1916
+pyskyqremote/country/remote_it.py,sha256=uNrpjOjRKnWPJaAM9xuGEgJpI1jE8laN2aQKgEy0bXA,2750
+pyskyqremote-0.2.11.dist-info/LICENSE,sha256=ZI3dh-K0-s8L0DGYyhCb-C1Fv--dy8LIO6vmE6p68w8,1068
+pyskyqremote-0.2.11.dist-info/METADATA,sha256=pqWTADvN9M6T77GLugoVO9vG6teKrM74nh9Hk05z7as,9838
+pyskyqremote-0.2.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyskyqremote-0.2.11.dist-info/top_level.txt,sha256=7PolKOEEYd05qgNymeTIqCit3XZFwJ4qNmna7BwXdXE,13
+pyskyqremote-0.2.11.dist-info/RECORD,,
