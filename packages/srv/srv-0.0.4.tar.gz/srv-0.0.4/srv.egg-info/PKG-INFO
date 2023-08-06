@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: srv
+Version: 0.0.4
+Summary: Serve a directory with one command
+Home-page: https://github.com/dkter/srv
+Author: David Teresi
+Author-email: dkteresi@gmail.com
+License: UNKNOWN
+Description: srv
+        ---
+        
+        Serve a directory with one command.
+        
+        ### Usage
+        
+            srv [-p PORT] [dir]
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
