@@ -1,0 +1,4 @@
+edsonpdf.egg-info/PKG-INFO
+edsonpdf.egg-info/SOURCES.txt
+edsonpdf.egg-info/dependency_links.txt
+edsonpdf.egg-info/top_level.txt
