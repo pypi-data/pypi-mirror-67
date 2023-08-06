@@ -1,0 +1,5 @@
+ttvfaster/*.c
+build
+dist
+*.so
+venv-test
