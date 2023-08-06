@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: with-utils
+Version: 0.2.1
+Summary: WITH utils
+Home-page: https://github.com/WithIO/with-utils
+License: WTFPL
+Author: Rémy Sanchez
+Author-email: remy.sanchez@with-madrid.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/WithIO/with-utils
+Description-Content-Type: text/markdown
+
+With Utils
+==========
+
+Utils that we've used a lot at WITH.
+
+## `iter`
+
+Iteration-related utils
+
+### `n_grams`
+
+Provides a way to create n_grams from an iterator
+
+```python
+from with_utils.iter import n_grams
+assert list(n_grams([1, 2, 3, 4], 2)) == [(1, 2), (2, 3), (3, 4)]
+```
+
+### `return_list`
+
+Transforms an iterator into a function that returns a list.
+
+```python
+from with_utils.iter import return_list
+
+@return_list
+def foo():
+    yield 1
+    yield 2
+    yield 3
+
+assert foo() == [1, 2, 3]
+```
+
