@@ -1,0 +1,8 @@
+phenopy
+pandas
+nltk
+spacy
+scispacy
+negspacy
+networkx
+gensim
