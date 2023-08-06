@@ -1,0 +1,16 @@
+README.md
+setup.py
+blipy/Http.py
+blipy/__init__.py
+blipy.egg-info/PKG-INFO
+blipy.egg-info/SOURCES.txt
+blipy.egg-info/dependency_links.txt
+blipy.egg-info/top_level.txt
+blipy/Postmasters/__AI.py
+blipy/Postmasters/__init__.py
+blipy/Types/__Data.py
+blipy/Types/__Method.py
+blipy/Types/__Response.py
+blipy/Types/__Seriable.py
+blipy/Types/__URI.py
+blipy/Types/__init__.py
