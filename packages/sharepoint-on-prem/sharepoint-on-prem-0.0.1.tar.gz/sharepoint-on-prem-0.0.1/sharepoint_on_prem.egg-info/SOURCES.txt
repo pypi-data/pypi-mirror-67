@@ -1,0 +1,9 @@
+README.md
+setup.py
+sharepoint_on_prem.egg-info/PKG-INFO
+sharepoint_on_prem.egg-info/SOURCES.txt
+sharepoint_on_prem.egg-info/dependency_links.txt
+sharepoint_on_prem.egg-info/requires.txt
+sharepoint_on_prem.egg-info/top_level.txt
+sp_on_prem/__init__.py
+sp_on_prem/sp_handler.py
