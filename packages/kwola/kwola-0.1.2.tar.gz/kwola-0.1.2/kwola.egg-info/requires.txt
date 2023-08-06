@@ -1,0 +1,15 @@
+mitmproxy
+mongoengine
+numpy
+opencv-python
+pandas
+psutil
+questionary
+requests
+scikit-image
+scikit-learn
+scipy
+selenium
+testtools
+torch
+filetype
