@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: roentgen
+Version: 1.0
+Summary: A Python package for the quantitative analysis of the interaction of energetic x-rays with matter. This package is named after one of the discoverers of X-rays, Wilhelm Rontgen.
+Home-page: https://github.com/ehsteve/roentgen/
+Author: Steven D. Christe
+Author-email: steven.christe@nasa.gov
+License: Apache Software Licence 2.0
+Description: A Python package for the quantitative analysis of the interaction of energetic x-rays with matter. This package is named after one of the discoverers of X-rays, Wilhelm Rontgen.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
+Provides-Extra: all
