@@ -1,0 +1,9 @@
+dan_airflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dan_airflow/_project.py,sha256=lLFHHzflS2aex5wsLSnUNYtqKklYPDRtiuR083fITEw,28
+dan_airflow/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dan_airflow/operators/__init__.py,sha256=fGcIITse6TkAGsJQqUeVsY2BGd9L-FILH0Pg4d7U5r4,93
+dan_airflow/operators/dan_operator.py,sha256=0tRaS6krwba6z7FpNB_XSEXqYrrXN1NW_TIoJRiCzoA,474
+dan_airflow-0.1.0.dist-info/METADATA,sha256=MDetbsngVTJ5sw6COn-bkyBMpvhgalQd_wVtCWrqn58,285
+dan_airflow-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dan_airflow-0.1.0.dist-info/top_level.txt,sha256=re160xVXn10roEgnLhn90heHNqwuU5-ezsJrSF3l5j4,12
+dan_airflow-0.1.0.dist-info/RECORD,,
