@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aiogram-cli
+Version: 0.0.1a1
+Summary: 
+License: MIT
+Author: Alex Root Junior
+Author-email: jroot.junior@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiogram (>=3.0.0-alpha.4,<4.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: typer[all] (>=0.2.1,<0.3.0)
