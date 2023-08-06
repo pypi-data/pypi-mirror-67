@@ -1,0 +1,8 @@
+aws_cdk/app_delivery/__init__.py,sha256=NO2ZEy1b82yTXBvOBPugrodsMecFqwsPs5l47itZk1s,23357
+aws_cdk/app_delivery/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/app_delivery/_jsii/__init__.py,sha256=hkMn7vZwreHDYo2d3WpgqbqrPca7ah241VmhGeEYMf0,592
+aws_cdk/app_delivery/_jsii/app-delivery@1.36.1.jsii.tgz,sha256=70kSDubusyNQsDaE95V4745VEi7Wrl93FIhQ7V2VWiA,38235
+aws_cdk.app_delivery-1.36.1.dist-info/METADATA,sha256=hNk-uDXf6Q85WINNNZRlJx6DxmGU4ggBaM7OJqey1uY,8681
+aws_cdk.app_delivery-1.36.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.app_delivery-1.36.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.app_delivery-1.36.1.dist-info/RECORD,,
