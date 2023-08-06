@@ -1,0 +1,12 @@
+main.py,sha256=ySOldVab3Z1FdCvT2U2B0KfGNdgNT-92_onwMl0LbvY,2037
+teams_import/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teams_import/__main__.py,sha256=dlvhHsEH_l2CTAaw-4Cw-1yN-XrPm77L5lFyfUeg2Bc,2479
+teams_import/shell.py,sha256=7oBJIKJBbs1HnwH0AvKxxPWtF5w6oTzqZlorAOzHvKQ,971
+teams_import/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teams_import/templates/install-teams.ps1,sha256=cpOGGtH8UP4X3K_SOtss07km7pe6N_t5gNwTkPIV9CU,1023
+teams_import/templates/__pycache__/__init__.cpython-38.pyc,sha256=EXPrzReGnFSn0MHbLArBgvhy77efNIKBjML_u2vLF9w,156
+teams_import-1.0.8.dev11.dist-info/METADATA,sha256=38MsgGE7HKlPosd2vOEcM98vth4ODAyG_t0_3EHV5tA,1600
+teams_import-1.0.8.dev11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+teams_import-1.0.8.dev11.dist-info/entry_points.txt,sha256=vWFchxhkrsLx4nFucTNo0hMvUR2kPJhJVp8ZZ9V0F2o,60
+teams_import-1.0.8.dev11.dist-info/top_level.txt,sha256=zqglRmvru-a2o_X_BaIqOmjU4YuGMsu_veSt1arHwmo,18
+teams_import-1.0.8.dev11.dist-info/RECORD,,
