@@ -1,0 +1,7 @@
+README.md
+setup.py
+treasurechest.egg-info/PKG-INFO
+treasurechest.egg-info/SOURCES.txt
+treasurechest.egg-info/dependency_links.txt
+treasurechest.egg-info/requires.txt
+treasurechest.egg-info/top_level.txt
