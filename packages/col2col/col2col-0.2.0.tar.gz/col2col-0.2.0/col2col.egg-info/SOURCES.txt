@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+col2col/__init__.py
+col2col/col2col.py
+col2col/main.py
+col2col.egg-info/PKG-INFO
+col2col.egg-info/SOURCES.txt
+col2col.egg-info/dependency_links.txt
+col2col.egg-info/entry_points.txt
+col2col.egg-info/requires.txt
+col2col.egg-info/top_level.txt
