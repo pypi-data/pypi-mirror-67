@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hdproc
+Version: 0.32
+Summary: Implementation of Hierarchical LDA
+Home-page: http://github.com/datadiarist/hdproc
+Author: Andrew and Eduardo
+Author-email: andrew.carr@duke.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cppimport
+
+UNKNOWN
+
+
