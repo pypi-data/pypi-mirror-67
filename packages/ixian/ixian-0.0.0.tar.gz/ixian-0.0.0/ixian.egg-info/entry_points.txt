@@ -1,0 +1,3 @@
+[console_scripts]
+s2 = power_shovel.runner:cli
+
