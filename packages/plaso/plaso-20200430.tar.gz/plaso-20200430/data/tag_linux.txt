@@ -1,0 +1,81 @@
+# Tags Linux application execution events.
+application_execution
+  data_type is 'bash:history:command'
+  data_type is 'docker:json:layer'
+  data_type is 'selinux:line' AND audit_type is 'EXECVE'
+  data_type is 'shell:zsh:history'
+  data_type is 'syslog:cron:task_run'
+  reporter is 'sudo' AND body contains 'COMMAND='
+
+# Tags Linux log-in events.
+login
+  data_type is 'linux:utmp:event' AND type == 7
+  data_type is 'selinux:line' AND audit_type is 'LOGIN'
+  reporter is 'login' AND (body contains 'logged in' OR body contains 'ROOT LOGIN' OR body contains 'session opened')
+  reporter is 'sshd' AND (body contains 'session opened' OR body contains 'Starting session')
+
+# Tags Linux failed log-in events.
+login_failed
+  data_type is 'selinux:line' AND audit_type is 'ANOM_LOGIN_FAILURES'
+  data_type is 'selinux:line' AND audit_type is 'USER_LOGIN' AND body contains 'res=failed'
+  data_type is 'syslog:line' AND body contains 'pam_tally2'
+  reporter is 'sshd' AND body contains 'uthentication failure'
+  reporter is 'xscreensaver' AND body contains 'FAILED LOGIN'
+
+# Tags Linux log-out events.
+logout
+  # This will also flag dead gettys that init kills during shutdown/reboot (at least with SysV init)
+  data_type is 'linux:utmp:event' AND type == 8 AND terminal != '' AND pid != 0
+  reporter is 'login' AND body contains 'session closed'
+  reporter is 'sshd' AND (body contains 'session closed' OR body contains 'Close session')
+  reporter is 'systemd-logind' AND body contains 'logged out'
+
+# Tags Linux user session start events.
+session_start
+  reporter is 'systemd-logind' AND body contains 'New session'
+
+# Tags Linux user session stop events.
+session_stop
+  reporter is 'systemd-logind' AND body contains 'Removed session'
+
+# Tags Linux system boot events.
+boot
+  data_type is 'linux:utmp:event' AND type == 2 AND terminal is 'system boot' AND username is 'reboot'
+
+# Tags Linux system shutdown events.
+shutdown
+  data_type is 'linux:utmp:event' AND type == 1 AND (terminal is '~~' OR terminal is 'system boot') AND username is 'shutdown'
+
+# Tags Linux system run level change events.
+runlevel
+  data_type is 'linux:utmp:event' AND type == 1 AND username is 'runlevel'
+
+# Tags Linux device connection events.
+device_connection
+  reporter is 'kernel' AND body contains 'New USB device found'
+
+# Tags Linux device disconnection events.
+device_disconnection
+  reporter is 'kernel' AND body contains 'USB disconnect'
+
+# Tags Linux application installation events.
+application_install
+  data_type is 'dpkg:line' AND body contains 'status installed'
+
+# Tags Linux service start events.
+service_start
+  data_type is 'selinux:line' AND audit_type is 'SERVICE_START'
+
+# Tags Linux service stop events.
+service_stop
+  data_type is 'selinux:line' AND audit_type is 'SERVICE_STOP'
+
+# Tags Linux network promiscious mode change events.
+promiscuous
+  data_type is 'selinux:line' AND audit_type is 'ANOM_PROMISCUOUS'
+  reporter is 'kernel' AND body contains 'promiscuous mode'
+
+# Tags Linux system crash events.
+crash
+  data_type is 'selinux:line' AND audit_type is 'ANOM_ABEND'
+  reporter is 'kernel' AND body contains 'segfault'
