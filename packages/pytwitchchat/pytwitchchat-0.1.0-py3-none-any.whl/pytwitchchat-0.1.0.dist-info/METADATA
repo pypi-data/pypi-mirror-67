@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pytwitchchat
+Version: 0.1.0
+Summary: Python package to interact with the chat of a Twitch channel
+Home-page: https://github.com/benjiJanssens/PyTwitchChat
+Author: Benjamin Janssens
+Author-email: benji.janssens@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyTwitchChat
+Python package to interact with the chat of a Twitch channel
+
+
