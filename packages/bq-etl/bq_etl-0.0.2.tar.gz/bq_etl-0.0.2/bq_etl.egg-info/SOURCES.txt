@@ -1,0 +1,8 @@
+README.md
+setup.py
+bq_etl/__init__.py
+bq_etl.egg-info/PKG-INFO
+bq_etl.egg-info/SOURCES.txt
+bq_etl.egg-info/dependency_links.txt
+bq_etl.egg-info/requires.txt
+bq_etl.egg-info/top_level.txt
