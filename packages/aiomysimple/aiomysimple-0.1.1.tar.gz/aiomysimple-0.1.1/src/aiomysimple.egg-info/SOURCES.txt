@@ -1,0 +1,16 @@
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/aiomysimple/__init__.py
+src/aiomysimple/__main__.py
+src/aiomysimple/aiomysimple.py
+src/aiomysimple/cli.py
+src/aiomysimple/py.typed
+src/aiomysimple.egg-info/PKG-INFO
+src/aiomysimple.egg-info/SOURCES.txt
+src/aiomysimple.egg-info/dependency_links.txt
+src/aiomysimple.egg-info/not-zip-safe
+src/aiomysimple.egg-info/top_level.txt
