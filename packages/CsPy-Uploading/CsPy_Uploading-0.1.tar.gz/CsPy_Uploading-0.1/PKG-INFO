@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: CsPy_Uploading
+Version: 0.1
+Summary: Package useful for THG staff to aid data pipeline implementation
+Home-page: https://github.com/JamesRobinson-THG
+Author: James Robinson
+Author-email: james.robinson@thehutgroup.com
+License: MIT
+Download-URL: https://github.com/JamesRobinson-THG/CsPY_Uploading/archive/0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
