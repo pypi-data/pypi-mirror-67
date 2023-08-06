@@ -1,0 +1,8 @@
+README.md
+setup.py
+baffl/__init__.py
+baffle.egg-info/PKG-INFO
+baffle.egg-info/SOURCES.txt
+baffle.egg-info/dependency_links.txt
+baffle.egg-info/not-zip-safe
+baffle.egg-info/top_level.txt
