@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mingdongtextsim
+Version: 0.1.4
+Summary: Text to vector Tool, encode text
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: Apache 2.0
+Keywords: word embedding,mingdongtextsim,Chinese Text Similarity Calculation Tool,similarity,word2vec
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
+Requires-Dist: jieba
+Requires-Dist: gensim
+
+UNKNOWN
+
+
