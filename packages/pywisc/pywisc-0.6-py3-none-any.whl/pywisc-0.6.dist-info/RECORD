@@ -1,0 +1,17 @@
+pywisc/command_line.py,sha256=_VnBSU6tRHD5xBCqqaXjcZMWBFo9k_oq5G0rzeh_zUo,440
+pywisc/escalares.py,sha256=KMF-axmem9swWnXXSlXcQ0tlK5RFGH81-r3tt7lhFP4,1915
+pywisc/evaluacion.py,sha256=ZThTpsFpBHFV9utyVLqy9UtnbnBGllrnK-m1ZBOXxV8,5415
+pywisc/prueba.py,sha256=EsrMcCAUOVMUVpRLGiIz9QAkfz1xrBciA_2M_bQVwq0,1256
+pywisc/wisc.py,sha256=EooK496P5kZqyN6DUudEoGugdGR3L0numBbF6reHce4,2192
+pywisc/data/data_4_es.json,sha256=6DAlqpz6dvpuIzLg2-KQojJ1q92EMAk-6jd3aytIt7c,435
+pywisc/data/wisc_4_es_ar.json,sha256=OgS9CbCq71GMCaCHQAWGgTWw7_soKVPURGF4ZJsRhnw,2591
+pywisc/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywisc/tools/csv_drive.py,sha256=MGm7Mny911FmvxEx__QwLxe4jQbRLlO2lWrMIcfSQiM,1727
+pywisc/tools/tmpdata/.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywisc/tools/tmpdata/wisc-4-es-ar-6-0-6-3.csv,sha256=XQ_ktMqS6R1j0pOYqED4dgWIDbHDpHL2UfKMTLo4OHg,868
+pywisc/tools/tmpdata/wisc-4-es-ar-6_0-6_3.csv,sha256=XQ_ktMqS6R1j0pOYqED4dgWIDbHDpHL2UfKMTLo4OHg,868
+pywisc-0.6.dist-info/METADATA,sha256=m843GoWbWWKbTDy2XmJCsVg3rt_zoOpeymBnvCxbEVE,931
+pywisc-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pywisc-0.6.dist-info/entry_points.txt,sha256=fJRVgLXOj-27qGMUnAnjfT1KwFGQFrHex81Vk3G7DUA,51
+pywisc-0.6.dist-info/top_level.txt,sha256=1RLohXy8YrEdo_8uE-JDvRq7tAT6E8DWWAUWM9v5cF4,7
+pywisc-0.6.dist-info/RECORD,,
