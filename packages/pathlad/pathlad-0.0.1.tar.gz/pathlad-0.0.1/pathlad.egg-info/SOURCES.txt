@@ -1,0 +1,11 @@
+setup.py
+pathlad/__init__.py
+pathlad/find_pattern.py
+pathlad/fix_f_strings.py
+pathlad.egg-info/PKG-INFO
+pathlad.egg-info/SOURCES.txt
+pathlad.egg-info/dependency_links.txt
+pathlad.egg-info/entry_points.txt
+pathlad.egg-info/top_level.txt
+pathlad/custom_fixers/__init__.py
+pathlad/custom_fixers/fix_paths.py
