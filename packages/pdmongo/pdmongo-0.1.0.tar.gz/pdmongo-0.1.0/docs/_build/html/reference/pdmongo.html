@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>pdmongo &#8212; Pandas Mongo 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    
+    <script src="../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing" href="../contributing.html" />
+    <link rel="prev" title="Reference" href="index.html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="shortcut icon" type="image/png" href="../_static/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    
+    
+
+  </head><body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="responsive-menu"><a href="#sidebar-anchor" title="Navigation">&#9776;</a></li>
+        <li><a href="../index.html">Pandas Mongo-0.0.2</a> &#187;</li>
+          <li><a href="index.html" accesskey="U">Reference</a> &#187;</li> 
+      </ul>
+    </div>
+    
+        <div class="badge">
+            <a href="https://github.com/pakallis/python-pandas-mongo/">Fork me on GitHub</a>
+            <img src="../_static/right-red@2x.png">
+        </div>
+    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pdmongo">
+<h1>pdmongo<a class="headerlink" href="#pdmongo" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-pdmongo"></span><dl class="py function">
+<dt id="pdmongo.read_mongo">
+<code class="sig-prename descclassname">pdmongo.</code><code class="sig-name descname">read_mongo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">collection</span></em>, <em class="sig-param"><span class="n">query</span></em>, <em class="sig-param"><span class="n">db</span></em>, <em class="sig-param"><span class="n">index_col</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">extra</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">columns</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">chunksize</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pdmongo/core.html#read_mongo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pdmongo.read_mongo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read MongoDB query into a DataFrame.</p>
+<p>Returns a DataFrame corresponding to the result set of the query.
+Optionally provide an <cite>index_col</cite> parameter to use one of the
+columns as the index, otherwise default integer index will be used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>collection</strong> (<em>str</em>) – Mongo collection to select for querying</p></li>
+<li><p><strong>query</strong> (<em>list</em>) – Must be an aggregate query.
+The input will be passed to pymongo <cite>.aggregate</cite></p></li>
+<li><p><strong>db</strong> (<em>pymongo.database.Database or database string URI</em>) – The database to use</p></li>
+<li><p><strong>index_col</strong> (<em>str or list of str, optional, default: None</em>) – Column(s) to set as index(MultiIndex).</p></li>
+<li><p><strong>extra</strong> (<em>list, tuple or dict, optional, default: None</em>) – List of parameters to pass to find/aggregate method.</p></li>
+<li><p><strong>chunksize</strong> (<em>int, default None</em>) – If specified, return an iterator where <cite>chunksize</cite> is the number of
+docs to include in each chunk.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><em>Dataframe</em></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="pdmongo.to_mongo">
+<code class="sig-prename descclassname">pdmongo.</code><code class="sig-name descname">to_mongo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">db</span></em>, <em class="sig-param"><span class="n">if_exists</span><span class="o">=</span><span class="default_value">'fail'</span></em>, <em class="sig-param"><span class="n">index</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">index_label</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">chunksize</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pdmongo/core.html#to_mongo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pdmongo.to_mongo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write records stored in a DataFrame to a MongoDB collection.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>frame</strong> (<em>DataFrame, Series</em>)</p></li>
+<li><p><strong>name</strong> (<em>str</em>) – Name of collection.</p></li>
+<li><p><strong>db</strong> (<em>pymongo.database.Database or database string URI</em>) – The database to write to</p></li>
+<li><p><strong>if_exists</strong> (<em>{‘fail’, ‘replace’, ‘append’}, default ‘fail’</em>) –</p>
+<ul>
+<li><p>fail: If table exists, do nothing.</p></li>
+<li><p>replace: If table exists, drop it, recreate it, and insert data.</p></li>
+<li><p>append: If table exists, insert data. Create if does not exist.</p></li>
+</ul>
+</li>
+<li><p><strong>index</strong> (<em>boolean, default True</em>) – Write DataFrame index as a column.</p></li>
+<li><p><strong>index_label</strong> (<em>str or sequence, optional</em>) – Column label for index column(s). If None is given (default) and
+<cite>index</cite> is True, then the index names are used.
+A sequence should be given if the DataFrame uses MultiIndex.</p></li>
+<li><p><strong>chunksize</strong> (<em>int, optional</em>) – Specify the number of rows in each batch to be written at a time.
+By default, all rows will be written at once.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a id="sidebar-anchor"></a>
+    
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script><h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme.html#quick-start">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html#reading-dataframes-from-mongodb-using-aggregation">Reading dataframes from MongoDB using aggregation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pdmongo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/pdmongo.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../contributing.html" title="Contributing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Reference"
+             accesskey="P">previous</a> |</li>
+      </ul>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Pavlos Kallis.
+      Last updated on May 04, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>

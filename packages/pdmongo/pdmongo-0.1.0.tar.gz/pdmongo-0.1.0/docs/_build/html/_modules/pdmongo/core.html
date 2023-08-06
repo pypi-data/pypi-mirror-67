@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>pdmongo.core &#8212; Pandas Mongo 0.0.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    
+    <script src="../../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="shortcut icon" type="image/png" href="../../_static/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    
+    
+
+  </head><body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="responsive-menu"><a href="#sidebar-anchor" title="Navigation">&#9776;</a></li>
+        <li><a href="../../index.html">Pandas Mongo-0.0.2</a> &#187;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    
+        <div class="badge">
+            <a href="https://github.com/pakallis/python-pandas-mongo/">Fork me on GitHub</a>
+            <img src="../../_static/right-red@2x.png">
+        </div>
+    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for pdmongo.core</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">DataFrame</span>
+<span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span>
+<span class="kn">from</span> <span class="nn">pymongo.uri_parser</span> <span class="kn">import</span> <span class="n">parse_uri</span>
+
+
+<span class="k">def</span> <span class="nf">_get_db_instance</span><span class="p">(</span><span class="n">db</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Retrieve the pymongo.database.Database instance.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    db: str or pymongo.database.Database</span>
+<span class="sd">        - if str an instance of pymongo.database.Database will be instantiated and returned</span>
+<span class="sd">        - if pymongo.database.Database the db instance is returned</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    pymongo.database.Database</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">db</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">db_name</span> <span class="o">=</span> <span class="n">parse_uri</span><span class="p">(</span><span class="n">db</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;database&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">db_name</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="c1"># TODO: Improve validation message</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid db: Could not extract database from uri: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">db</span><span class="p">)</span>
+        <span class="n">db</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">(</span><span class="n">db</span><span class="p">)[</span><span class="n">db_name</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">db</span>
+
+
+<span class="k">def</span> <span class="nf">_handle_exists_collection</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">exists</span><span class="p">,</span> <span class="n">db</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Handles the `if_exists` argument of `to_mongo`.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    if_exists: str</span>
+<span class="sd">        Can be one of &#39;fail&#39;, &#39;replace&#39;, &#39;append&#39;</span>
+<span class="sd">            - fail: A ValueError is raised</span>
+<span class="sd">            - replace: Collection is deleted before inserting new documents</span>
+<span class="sd">            - append: Documents are appended to existing collection</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="n">exists</span> <span class="o">==</span> <span class="s2">&quot;fail&quot;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">db</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Collection &#39;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">&#39; already exists.&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="k">if</span> <span class="n">exists</span> <span class="o">==</span> <span class="s2">&quot;replace&quot;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">db</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">db</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">drop</span><span class="p">()</span>
+        <span class="k">return</span>
+
+    <span class="k">if</span> <span class="n">exists</span> <span class="o">==</span> <span class="s2">&quot;append&quot;</span><span class="p">:</span>
+        <span class="k">return</span>
+
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&#39;</span><span class="si">{</span><span class="n">exists</span><span class="si">}</span><span class="s2">&#39; is not valid for if_exists&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_split_in_chunks</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">chunksize</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Splits a list in chunks based on provided chunk size.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    lst: list</span>
+<span class="sd">        The list to split in chunks</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    result: generator</span>
+<span class="sd">    A generator with the chunks</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">),</span> <span class="n">chunksize</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">lst</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span> <span class="o">+</span> <span class="n">chunksize</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">_validate_chunksize</span><span class="p">(</span><span class="n">chunksize</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Raises the proper exception if chunksize is not valid.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    chunksize: int</span>
+<span class="sd">    The chunksize to validate.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">chunksize</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;Invalid chunksize: Must be an int&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">chunksize</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid chunksize: Must be &gt; 0&quot;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="read_mongo"><a class="viewcode-back" href="../../reference/pdmongo.html#pdmongo.read_mongo">[docs]</a><span class="k">def</span> <span class="nf">read_mongo</span><span class="p">(</span>
+    <span class="n">collection</span><span class="p">,</span>
+    <span class="n">query</span><span class="p">,</span>
+    <span class="n">db</span><span class="p">,</span>
+    <span class="n">index_col</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">extra</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">columns</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">chunksize</span><span class="o">=</span><span class="kc">None</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Read MongoDB query into a DataFrame.</span>
+
+<span class="sd">    Returns a DataFrame corresponding to the result set of the query.</span>
+<span class="sd">    Optionally provide an `index_col` parameter to use one of the</span>
+<span class="sd">    columns as the index, otherwise default integer index will be used.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    collection : str</span>
+<span class="sd">        Mongo collection to select for querying</span>
+<span class="sd">    query : list</span>
+<span class="sd">        Must be an aggregate query.</span>
+<span class="sd">        The input will be passed to pymongo `.aggregate`</span>
+<span class="sd">    db : pymongo.database.Database or database string URI</span>
+<span class="sd">        The database to use</span>
+<span class="sd">    index_col : str or list of str, optional, default: None</span>
+<span class="sd">        Column(s) to set as index(MultiIndex).</span>
+<span class="sd">    extra : list, tuple or dict, optional, default: None</span>
+<span class="sd">        List of parameters to pass to find/aggregate method.</span>
+<span class="sd">    chunksize : int, default None</span>
+<span class="sd">        If specified, return an iterator where `chunksize` is the number of</span>
+<span class="sd">        docs to include in each chunk.</span>
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    Dataframe</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_validate_chunksize</span><span class="p">(</span><span class="n">chunksize</span><span class="p">)</span>
+
+        <span class="n">params</span><span class="p">[</span><span class="s1">&#39;batchSize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">chunksize</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">_get_db_instance</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">extra</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">extra</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">if</span> <span class="n">extra</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;batchSize&#39;</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Either chunksize or batchSize must be provided, not both&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">DataFrame</span><span class="o">.</span><span class="n">from_records</span><span class="p">(</span>
+        <span class="n">db</span><span class="p">[</span><span class="n">collection</span><span class="p">]</span><span class="o">.</span><span class="n">aggregate</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="o">**</span><span class="p">{</span><span class="o">**</span><span class="n">params</span><span class="p">,</span> <span class="o">**</span><span class="n">extra</span><span class="p">}),</span>
+        <span class="n">index</span><span class="o">=</span><span class="n">index_col</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="to_mongo"><a class="viewcode-back" href="../../reference/pdmongo.html#pdmongo.to_mongo">[docs]</a><span class="k">def</span> <span class="nf">to_mongo</span><span class="p">(</span>
+    <span class="n">frame</span><span class="p">,</span>
+    <span class="n">name</span><span class="p">,</span>
+    <span class="n">db</span><span class="p">,</span>
+    <span class="n">if_exists</span><span class="o">=</span><span class="s2">&quot;fail&quot;</span><span class="p">,</span>
+    <span class="n">index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">index_label</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">chunksize</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Write records stored in a DataFrame to a MongoDB collection.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    frame : DataFrame, Series</span>
+<span class="sd">    name : str</span>
+<span class="sd">        Name of collection.</span>
+<span class="sd">    db : pymongo.database.Database or database string URI</span>
+<span class="sd">        The database to write to</span>
+<span class="sd">    if_exists : {&#39;fail&#39;, &#39;replace&#39;, &#39;append&#39;}, default &#39;fail&#39;</span>
+<span class="sd">        - fail: If table exists, do nothing.</span>
+<span class="sd">        - replace: If table exists, drop it, recreate it, and insert data.</span>
+<span class="sd">        - append: If table exists, insert data. Create if does not exist.</span>
+<span class="sd">    index : boolean, default True</span>
+<span class="sd">        Write DataFrame index as a column.</span>
+<span class="sd">    index_label : str or sequence, optional</span>
+<span class="sd">        Column label for index column(s). If None is given (default) and</span>
+<span class="sd">        `index` is True, then the index names are used.</span>
+<span class="sd">        A sequence should be given if the DataFrame uses MultiIndex.</span>
+<span class="sd">    chunksize : int, optional</span>
+<span class="sd">        Specify the number of rows in each batch to be written at a time.</span>
+<span class="sd">        By default, all rows will be written at once.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">_get_db_instance</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+    <span class="n">_handle_exists_collection</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">if_exists</span><span class="p">,</span> <span class="n">db</span><span class="p">)</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">index</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">index</span>
+        <span class="n">idx_name</span> <span class="o">=</span> <span class="n">idx</span><span class="o">.</span><span class="n">name</span>
+        <span class="n">idx_data</span> <span class="o">=</span> <span class="n">idx</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">record</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">records</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">index_label</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">idx_name</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">record</span><span class="p">[</span><span class="n">idx_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">idx_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_validate_chunksize</span><span class="p">(</span><span class="n">chunksize</span><span class="p">)</span>
+        <span class="n">result_insert_many</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">_split_in_chunks</span><span class="p">(</span><span class="n">records</span><span class="p">,</span> <span class="n">chunksize</span><span class="p">):</span>
+            <span class="n">result_insert_many</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">db</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">insert_many</span><span class="p">(</span><span class="n">chunk</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">result_insert_many</span>
+    <span class="k">return</span> <span class="n">db</span><span class="p">[</span><span class="n">name</span><span class="p">]</span><span class="o">.</span><span class="n">insert_many</span><span class="p">(</span><span class="n">records</span><span class="p">)</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a id="sidebar-anchor"></a>
+    
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script><h3><a href="../../index.html">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html#quick-start">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html#reading-dataframes-from-mongodb-using-aggregation">Reading dataframes from MongoDB using aggregation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../reference/index.html">Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+      </ul>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Pavlos Kallis.
+      Last updated on May 04, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>
