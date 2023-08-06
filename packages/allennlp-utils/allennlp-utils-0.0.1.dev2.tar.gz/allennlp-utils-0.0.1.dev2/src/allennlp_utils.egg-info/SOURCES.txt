@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/allennlp_utils/__init__.py
+src/allennlp_utils.egg-info/PKG-INFO
+src/allennlp_utils.egg-info/SOURCES.txt
+src/allennlp_utils.egg-info/dependency_links.txt
+src/allennlp_utils.egg-info/top_level.txt
+src/allennlp_utils/data/__init__.py
+src/allennlp_utils/data/dataset_reader.py
+src/allennlp_utils/data/tokenizer.py
