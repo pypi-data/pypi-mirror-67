@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: container-utils
+Version: 0.0.1
+Summary: Utility functionality for working with Docker containers
+Home-page: http://github.com/adamrehn/container-utils
+Author: Adam Rehn
+Author-email: adam@adamrehn.com
+License: MIT
+Keywords: docker container utilities
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Console
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: docker (>=3.7.0)
+Requires-Dist: setuptools (>=38.6.0)
+Requires-Dist: twine (>=1.11.0)
+Requires-Dist: wheel (>=0.31.0)
+
+Container utilities
+===================
+
+The container-utils Python package contains utility functionality for working with Docker containers via the [Docker SDK for Python](https://docker-py.readthedocs.io/). The core functionality was originally part of the [ue4-ci-helpers](https://github.com/adamrehn/ue4-ci-helpers) package, and was subsequently factored out into a standalone package that can be used with minimal dependencies.
+
+To install the package, simply run: `pip3 install container-utils`
+
+
+## Legal
+
+Copyright &copy; 2020, Adam Rehn. Licensed under the MIT License, see the file [LICENSE](https://github.com/adamrehn/container-utils/blob/master/LICENSE) for details.
+
+
