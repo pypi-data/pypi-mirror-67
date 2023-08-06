@@ -1,0 +1,34 @@
+[app]
+mode: dev
+# secret_key: blah
+# assets_url: /assets/
+
+[site]
+allowed_hosts: toto, titi, tata
+
+[db]
+# For sqlite
+database: sqlite
+
+# For postgresql
+# database: postgresql
+# host: localhost
+# name: hello
+# password: this.is.secret
+# port: 1234
+# user: jack
+
+[i18n]
+# language: fr-fr
+# tz: Europe/Paris
+
+[mail]
+# sendinblue_api_key: blablabla
+main_email: no-reply@example.com
+confirmation_email_id: 47
+
+[sentry]
+# api_key: https://foo@bar.ingest.sentry.io/baz
+
+[mtcaptcha]
+# private_key: MTPrivate...
