@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+myturtle/__init__.py
+myturtle/turtle.py
+myturtle.egg-info/PKG-INFO
+myturtle.egg-info/SOURCES.txt
+myturtle.egg-info/dependency_links.txt
+myturtle.egg-info/requires.txt
+myturtle.egg-info/top_level.txt

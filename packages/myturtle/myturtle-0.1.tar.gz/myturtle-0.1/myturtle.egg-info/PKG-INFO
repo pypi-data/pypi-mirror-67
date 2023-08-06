@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: myturtle
+Version: 0.1
+Summary: Simple turtle implementation.
+Home-page: https://github.com/martinclaus/myturtle
+Author: Martin Claus
+Author-email: mclaus@geomar.de
+License: MIT
+Description: Implementation of turtle based on matplotlib and working in Jupyter Notebooks.
+Keywords: turtle jupyter notebook
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Education
