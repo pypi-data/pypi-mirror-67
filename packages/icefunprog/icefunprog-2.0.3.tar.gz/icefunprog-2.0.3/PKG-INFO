@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: icefunprog
+Version: 2.0.3
+Summary: Programmer for the iceFUN FPGAs https://www.robot-electronics.co.uk/icefun.html)
+Home-page: https://github.com/pitrz/icefunprog
+Author: Petr Otoupal
+Author-email: petr.otoupal@gmail.com
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: fpga,icefun,programmer,bitstream
+Platform: UNKNOWN
