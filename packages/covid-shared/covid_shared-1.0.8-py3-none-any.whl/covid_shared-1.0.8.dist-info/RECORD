@@ -1,0 +1,11 @@
+covid_shared/__about__.py,sha256=HDg-LE09NH7BU__qGC0jcTpLAfbbHWpCsS9-Pz5sHFs,359
+covid_shared/__init__.py,sha256=o8U7og6gIPxVwACDJT-KEDKq_W14oOMhfE5kVeaCdXA,92
+covid_shared/cli_tools.py,sha256=-vAqO84P7Ddl6ledFZoo46v1BFaKTsKWf_Vx0MD5WrY,15086
+covid_shared/paths.py,sha256=e5W2sG9o-KYmMfzk_IMz2H1yYAgthE6cRLZZwrKDOqA,2788
+covid_shared/shell_tools.py,sha256=GjA9GWrs99sivZLZAIX4omRQ3YIxS8dJgx9-Akqkigs,1814
+covid_shared-1.0.8.dist-info/AUTHORS.rst,sha256=nM2Q3diBPwtXR7kT14ybesyXzi4OBN180VzNUG31AVY,246
+covid_shared-1.0.8.dist-info/LICENSE.txt,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+covid_shared-1.0.8.dist-info/METADATA,sha256=q89RoyxBCkVIB3HYb73p_r1G6TmkqVQJWAqgfr1vXL4,1286
+covid_shared-1.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+covid_shared-1.0.8.dist-info/top_level.txt,sha256=khJOHN7FnyszjMVkTUcLuh4pEpg9MLH1MiVT0L9uRHU,13
+covid_shared-1.0.8.dist-info/RECORD,,
