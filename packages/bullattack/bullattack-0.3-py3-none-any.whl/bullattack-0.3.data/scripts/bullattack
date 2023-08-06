@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "this is demo"
+sleep 2
+echo "done....."
