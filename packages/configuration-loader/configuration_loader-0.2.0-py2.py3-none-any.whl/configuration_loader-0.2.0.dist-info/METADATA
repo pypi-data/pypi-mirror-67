@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: configuration-loader
+Version: 0.2.0
+Summary: Python configuration loader.
+Home-page: https://github.com/egabancho/config-loader
+Author: Esteban J. G. Gabancho
+Author-email: egabancho@gmail.com
+License: MIT license
+Keywords: configuration config loader
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Provides-Extra: all
+Requires-Dist: Sphinx (>=3.0.3) ; extra == 'all'
+Requires-Dist: check-manifest (>=0.25) ; extra == 'all'
+Requires-Dist: coverage (>=4.0) ; extra == 'all'
+Requires-Dist: isort (>=4.2.2) ; extra == 'all'
+Requires-Dist: mock (>=2.0.0) ; extra == 'all'
+Requires-Dist: pydocstyle (>=1.0.0) ; extra == 'all'
+Requires-Dist: pytest-cov (>=1.8.0) ; extra == 'all'
+Requires-Dist: pytest-pep8 (>=1.0.6) ; extra == 'all'
+Requires-Dist: pytest (>=2.8.0) ; extra == 'all'
+Requires-Dist: ipdb ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.0.3) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: check-manifest (>=0.25) ; extra == 'tests'
+Requires-Dist: coverage (>=4.0) ; extra == 'tests'
+Requires-Dist: isort (>=4.2.2) ; extra == 'tests'
+Requires-Dist: mock (>=2.0.0) ; extra == 'tests'
+Requires-Dist: pydocstyle (>=1.0.0) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=1.8.0) ; extra == 'tests'
+Requires-Dist: pytest-pep8 (>=1.0.6) ; extra == 'tests'
+Requires-Dist: pytest (>=2.8.0) ; extra == 'tests'
+
+====================
+Configuration Loader
+====================
+
+
+.. image:: https://img.shields.io/pypi/v/config-loader.svg
+        :target: https://pypi.python.org/pypi/config-loader
+
+.. image:: https://img.shields.io/travis/egabancho/config-loader.svg
+        :target: https://travis-ci.com/egabancho/config-loader
+
+
+
+Python package that facilitates configuration loading from various sources such
+as a Python module, Python entrypoints or environment variables.
+
+
+=======
+History
+=======
+
+0.1.0 (2020-04-27)
+------------------
+
+* First release on PyPI.
+
+
