@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: influxdb-bundle
+Version: 1.0
+Summary: Influxdb support for applauncher
+Home-page: https://github.com/applauncher-team/influxdb_bundle
+Author: Alvaro Garcia Gomez
+Author-email: maxpowel@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/applauncher-team/influxdb_bundle/archive/master.zip
+Keywords: applauncher,influxdb
+Platform: UNKNOWN
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Requires-Dist: applauncher
+Requires-Dist: influxdb-client
+
+UNKNOWN
+
+

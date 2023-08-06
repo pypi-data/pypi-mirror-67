@@ -1,0 +1,7 @@
+influxdb_bundle/__init__.py,sha256=mNy57v9of8WBy7vOwsyBZugpKtfTzP9qPUOeZaWO9Tg,35
+influxdb_bundle/bundle.py,sha256=cQZWd3V9b4WhC6gXh7iyLOjzWnBP3DrHcHximbHHrpw,723
+influxdb_bundle-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+influxdb_bundle-1.0.dist-info/METADATA,sha256=gLFNECD9vaqYZuPmOCLoxeNz2rCq0SW-5XfBKyL-NAo,587
+influxdb_bundle-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+influxdb_bundle-1.0.dist-info/top_level.txt,sha256=f7-QMUSqENBAtwpRdn_VwSlreSXfiIsy0DJZPI9iwLI,16
+influxdb_bundle-1.0.dist-info/RECORD,,
