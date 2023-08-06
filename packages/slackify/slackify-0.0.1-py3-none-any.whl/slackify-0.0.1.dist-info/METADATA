@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: slackify
+Version: 0.0.1
+Summary: Pythonic API for modern slack bots
+Home-page: https://github.com/Ambro17/Flask-Slack
+Author: Nahuel Ambrosini
+Author-email: ambro17.1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: slackclient (==2.5.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: pyee (==7.0.1)
+
+UNKNOWN
+
+
