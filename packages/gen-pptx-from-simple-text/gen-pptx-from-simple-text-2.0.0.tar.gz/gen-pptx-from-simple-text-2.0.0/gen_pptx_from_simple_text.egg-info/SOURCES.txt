@@ -1,0 +1,10 @@
+README.md
+setup.py
+gen_pptx_from_simple_text.egg-info/PKG-INFO
+gen_pptx_from_simple_text.egg-info/SOURCES.txt
+gen_pptx_from_simple_text.egg-info/dependency_links.txt
+gen_pptx_from_simple_text.egg-info/entry_points.txt
+gen_pptx_from_simple_text.egg-info/requires.txt
+gen_pptx_from_simple_text.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
