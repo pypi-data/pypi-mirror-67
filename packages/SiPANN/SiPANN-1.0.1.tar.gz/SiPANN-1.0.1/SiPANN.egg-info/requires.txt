@@ -1,0 +1,3 @@
+tensorflow
+gdspy>=1.5.2
+scikit-rf
