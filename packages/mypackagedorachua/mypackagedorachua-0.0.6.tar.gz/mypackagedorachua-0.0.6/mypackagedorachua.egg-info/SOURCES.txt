@@ -1,0 +1,9 @@
+README.md
+setup.py
+mypackagedorachua/__init__.py
+mypackagedorachua/mywebcam.py
+mypackagedorachua.egg-info/PKG-INFO
+mypackagedorachua.egg-info/SOURCES.txt
+mypackagedorachua.egg-info/dependency_links.txt
+mypackagedorachua.egg-info/requires.txt
+mypackagedorachua.egg-info/top_level.txt
