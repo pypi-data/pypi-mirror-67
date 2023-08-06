@@ -1,0 +1,13 @@
+README.md
+setup.py
+xpathwrapper/__init__.py
+xpathwrapper/baseI.py
+xpathwrapper/basec.py
+xpathwrapper/basef.py
+xpathwrapper.egg-info/PKG-INFO
+xpathwrapper.egg-info/SOURCES.txt
+xpathwrapper.egg-info/dependency_links.txt
+xpathwrapper.egg-info/top_level.txt
+xpathwrapper/drivers/__init__.py
+xpathwrapper/drivers/example/1.py
+xpathwrapper/drivers/example/__init__.py
