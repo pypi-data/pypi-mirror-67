@@ -1,0 +1,9 @@
+humax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humax/__version__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+humax/cli.py,sha256=glzkkU0uPtJ6nKDjm-7oMnuqm8NnV82-pVgwAUE2ydA,4513
+humax/humax.py,sha256=6pczNT-WyYDYtnYbXvT-VBsP_jHYtj2ug7fYXJS-6cs,2917
+humax-0.1.0.dist-info/METADATA,sha256=8HRth-82M70l7ZYg4uqf8u_CbEtmdGomtPOvwiEhIkA,817
+humax-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+humax-0.1.0.dist-info/entry_points.txt,sha256=f7zWhWztjGsv_xjRohUDNNwx2o0j3Yop25iFR8vDyOE,42
+humax-0.1.0.dist-info/top_level.txt,sha256=WY7N6m-K9Py8OYI4ULKjVSI6wWADmJMLHw55a2AN5c4,6
+humax-0.1.0.dist-info/RECORD,,

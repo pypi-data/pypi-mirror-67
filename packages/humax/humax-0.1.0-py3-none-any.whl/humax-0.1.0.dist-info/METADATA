@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: humax
+Version: 0.1.0
+Summary: Humax router CLI
+Home-page: https://github.com/radomirbosak/humax
+Author: Radomír Bosák
+Author-email: radomir.bosak@gmail.com
+License: MIT
+Download-URL: https://github.com/radomirbosak/humax/archive/0.1.0.tar.gz
+Keywords: humax,cli
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pygments
+Requires-Dist: pyxdg
+Requires-Dist: requests
+
+UNKNOWN
+
+
