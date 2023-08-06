@@ -1,0 +1,12 @@
+dotgit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotgit/__main__.py,sha256=mVNvozfPCctJuTPH2xd4K7YyA9rjR6lEeebJbk0PKLU,923
+dotgit/args.py,sha256=_1YkZB9GL2jmQoNxajsLzsgFUHbLO8oLv_60Q2WabSg,1820
+dotgit/checks.py,sha256=d449pUZlnViwzHAhFxT7WC89vjWJPfw9e2f11qEXnWU,790
+dotgit/enums.py,sha256=XakkzF4lDmZ_K-saB2kTXruUJETxS5Rgan2mq8_X4pY,141
+dotgit/info.py,sha256=w-xmXAwekaNikv_jZcFhqHfwHLLD46k0AgZ9zeGYNTw,265
+dotgit-2.0.0a2.dist-info/LICENSE,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+dotgit-2.0.0a2.dist-info/METADATA,sha256=Y0CVZ-awAjKxmWMtD0QZerI1oawsPQLwDix1DBl5keI,905
+dotgit-2.0.0a2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dotgit-2.0.0a2.dist-info/entry_points.txt,sha256=iAqUZGcaTjR6S-kYnBCsFs3ch_RY2HbtITdExILpfX8,49
+dotgit-2.0.0a2.dist-info/top_level.txt,sha256=-uguP0IePjixAWNC_-JjFqtxwPsZazRYQzvH2UctgdE,7
+dotgit-2.0.0a2.dist-info/RECORD,,
