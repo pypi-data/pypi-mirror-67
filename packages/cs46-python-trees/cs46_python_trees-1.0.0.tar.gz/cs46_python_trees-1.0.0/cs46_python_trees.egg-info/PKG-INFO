@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46-python-trees
+Version: 1.0.0
+Summary: This package contains implementations of BinaryTree, BST, AVL,and Heap.
+Home-page: https://github.com/peter-dimitrov/trees
+Author: Peter Dimitrov
+Author-email: prda2016@pomona.edu
+License: GPL
+Description: # Trees ![](https://api.travis-ci.com/peter-dimitrov/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
