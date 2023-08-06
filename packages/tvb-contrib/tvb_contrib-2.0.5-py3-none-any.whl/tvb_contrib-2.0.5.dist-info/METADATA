@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tvb-contrib
+Version: 2.0.5
+Summary: A package with TVB contributed additions to the simulator, useful for scripting.
+Home-page: http://www.thevirtualbrain.org
+Author: UNKNOWN
+Author-email: tvb.admin@thevirtualbrain.org
+License: GPL v3
+Download-URL: https://github.com/the-virtual-brain/tvb-root
+Keywords: tvb brain simulator neuroscience contrib
+Platform: UNKNOWN
+Requires-Dist: tvb-library
+Requires-Dist: xarray
+
+UNKNOWN
+
+
