@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+miyadaiku_theme_fontawesome/__init__.py
+miyadaiku_theme_fontawesome.egg-info/PKG-INFO
+miyadaiku_theme_fontawesome.egg-info/SOURCES.txt
+miyadaiku_theme_fontawesome.egg-info/dependency_links.txt
+miyadaiku_theme_fontawesome.egg-info/not-zip-safe
+miyadaiku_theme_fontawesome.egg-info/requires.txt
+miyadaiku_theme_fontawesome.egg-info/top_level.txt
