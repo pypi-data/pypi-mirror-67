@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+_experimental/__init__.py
+_experimental/_test_signature.py
+_experimental/signature.py
+apegears/__init__.py
+apegears/misc.py
+apegears/parser.py
+apegears/spec.py
+apegears/types.py
+apegears/version.py
+apegears.egg-info/PKG-INFO
+apegears.egg-info/SOURCES.txt
+apegears.egg-info/dependency_links.txt
+apegears.egg-info/top_level.txt
