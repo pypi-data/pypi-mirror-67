@@ -1,0 +1,11 @@
+aiopes/__init__.py,sha256=GzqRhcTfL3OGfJ3JNBwOciUhmIfaoRoA4rIDsOZUNcI,68
+aiopes/base.py,sha256=EbrFbbbdn0i6RQm82iVO_X4TsXBftWkssG8lPqd1IsM,2064
+aiopes/misc.py,sha256=VkQEnzPR-_eMmBFNPUNNkluEha6iBODiAvSqaO7YgQ0,1636
+aiopes/routes.py,sha256=QfMPVlb0JCfn7jLnA4gGHlowI6f-D_tWcPsRtMExaTc,912
+aiopes/server.py,sha256=yOoAzERFEPwcx8dq_ZgQHvkoo3IPn4xKHdnPNWxJEnw,4548
+aiopes/validate.py,sha256=yRcYCevwVcxEuh9-Gt1GJ9v3H16JKw2H1EuMlKuHfiw,870
+aiopes-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+aiopes-0.1.0.dist-info/METADATA,sha256=SITKR9j6LF5pEeZ3AlcX_F_bE_PR_8i60G9EugBKoxE,1866
+aiopes-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+aiopes-0.1.0.dist-info/top_level.txt,sha256=LnS-_1_tvQRhs6mYPjgvRN8PUwE1FE_qR54jZsVTNyc,7
+aiopes-0.1.0.dist-info/RECORD,,
