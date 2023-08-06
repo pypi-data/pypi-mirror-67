@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: paderbox
+Version: 0.0.1
+Summary: Collection of utilities in the department of communications engineering of the UPB
+Home-page: https://github.com/fgnt/paderbox/
+Author: Department of Communications Engineering, Paderborn University
+Author-email: sek@nt.upb.de
+License: MIT
+Description: UNKNOWN
+Keywords: audio speech
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: all
+Provides-Extra: visualization
