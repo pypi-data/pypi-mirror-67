@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: subsceneAPI
+Version: 0.1
+Summary: python3 subscene api wrapper
+Home-page: https://github.com/s-4-m-a-n/subscene-API
+Author: Suman Dhakal
+Author-email: dhakalsumn739@gmail.com
+License: UNKNOWN
+Description: # subscene-API
+Keywords: pypi packages subscene api wrapper subtitle downloader package python3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

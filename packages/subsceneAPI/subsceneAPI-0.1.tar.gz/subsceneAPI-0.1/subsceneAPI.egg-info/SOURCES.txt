@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+subsceneAPI/__init__.py
+subsceneAPI/cli.py
+subsceneAPI/subtitle.py
+subsceneAPI.egg-info/PKG-INFO
+subsceneAPI.egg-info/SOURCES.txt
+subsceneAPI.egg-info/dependency_links.txt
+subsceneAPI.egg-info/entry_points.txt
+subsceneAPI.egg-info/requires.txt
+subsceneAPI.egg-info/top_level.txt
