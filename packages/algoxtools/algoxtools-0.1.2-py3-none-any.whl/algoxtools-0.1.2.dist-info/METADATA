@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: algoxtools
+Version: 0.1.2
+Summary: A Fast Algorithm X implementation in Python using Numpy and Numba
+Home-page: https://github.com/Seemee/algoxtools
+Author: Symen Hillebrand Hovinga
+Author-email: itsfull@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: numba
+
+# algoxtools
+A fast implementation of Donald Knuth's Algorithm X in Python using Numpy and Numba
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Seemee/algoxtools/299b8f1cd71c766032fb969ab2a77308fc2f59c8?filepath=examples%2Falgoxtools%20api%20usage%20example%20in%20ipynb.ipynb) [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/119zcx-mmnLA333ifXJFVjbB9aRKbiU6S?usp=sharing)
+
+
