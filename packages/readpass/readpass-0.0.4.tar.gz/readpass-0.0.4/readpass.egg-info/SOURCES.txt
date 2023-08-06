@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+readpass/__init__.py
+readpass.egg-info/PKG-INFO
+readpass.egg-info/SOURCES.txt
+readpass.egg-info/dependency_links.txt
+readpass.egg-info/top_level.txt
