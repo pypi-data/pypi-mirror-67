@@ -1,0 +1,11 @@
+remotePy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotePy/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotePy/client/CSharp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotePy/client/JavaScript/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotePy/client/Python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotePy/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remotepy-0.0.0.dist-info/LICENSE,sha256=w3JNRolkajw4eppBAv6gCOInbMhpST5aL48DRlG6nuU,971
+remotepy-0.0.0.dist-info/METADATA,sha256=3X7VcS2PGIrguucdVSDcHXeOV3SvcpuSpLQhcWlyq30,1047
+remotepy-0.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+remotepy-0.0.0.dist-info/top_level.txt,sha256=UYZT1AmwmQERAvdzE4ZXJqc7IpkFHuss5z1mYtZQh8Y,9
+remotepy-0.0.0.dist-info/RECORD,,
