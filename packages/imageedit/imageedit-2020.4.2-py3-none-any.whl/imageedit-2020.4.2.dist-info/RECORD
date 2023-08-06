@@ -1,0 +1,11 @@
+imageedit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imageedit/effects.py,sha256=wa1NKjuY7ARFN9y5ARYs-N6VWOFSXtsBKoX8ifYiH2Y,8747
+imageedit/imagegrab.py,sha256=LYSRw9GLa9r23FMOvWZrKyh3rcNGzV8hXuQJ9tdC90w,1386
+imageedit/imagetracer.py,sha256=LWqElg5Dt_cIUMMuejZ1JX-LwQp1gOYn1Pj7ztfmgSc,628
+imageedit/io.py,sha256=Fx5fuc-Aw6DK1BBxnuRb3LXUw0hmyQeQPtetOj9uHSA,5429
+imageedit/resources/FiraCode-Light.ttf,sha256=3PcuKxgNbsgN3uEgN4NpxFWVGOCStqRpv2WKJQ0ByRI,276684
+imageedit/transform.py,sha256=xeT-B4rv5Ju8vHMGkQHORUlJ4_DNItdmRw5DVLEsMJc,4083
+imageedit-2020.4.2.dist-info/LICENSE.md,sha256=vY1uGhtX91efdFNxkrZfkwtrF6DnpEvIZdbeEUCpXxA,1086
+imageedit-2020.4.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+imageedit-2020.4.2.dist-info/METADATA,sha256=I1mFu5Yz_uPruduDK9rVTO1gEIQX_7oem_CSWGJR08A,11535
+imageedit-2020.4.2.dist-info/RECORD,,
