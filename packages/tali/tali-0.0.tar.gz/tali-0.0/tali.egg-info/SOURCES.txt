@@ -1,0 +1,6 @@
+README.md
+setup.py
+tali.egg-info/PKG-INFO
+tali.egg-info/SOURCES.txt
+tali.egg-info/dependency_links.txt
+tali.egg-info/top_level.txt
