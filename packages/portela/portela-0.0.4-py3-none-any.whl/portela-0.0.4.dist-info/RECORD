@@ -1,0 +1,11 @@
+portela/__init__.py,sha256=YvAoX_rjeZPI_tRIIuLSnr7ZQCWUjFkwtOGIX6W4D1s,5542
+portela/__main__.py,sha256=E0-YrHsKfvuyrcmykDg2UPntN_O1ycntmikHDMbNe0I,88
+portela/daemon.py,sha256=sA8ewBH_op5-BOu1XL6_pKCuLwrfZM281qm0P4hy038,4113
+portela/shared.py,sha256=2pQXJxD790ee_H-vYlEf5IM3aOvALqvhxK82pJRq3RE,1250
+portela-0.0.4.data/scripts/portela,sha256=0NcluPF0-axcO228UL-ccrY5KSR1aH0P-lP3mPAjFfA,39
+portela-0.0.4.dist-info/METADATA,sha256=hf2WHqNXjOSMhO2Wz-FxzEpUSkjHzBhwFIChcmz08IQ,1742
+portela-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+portela-0.0.4.dist-info/entry_points.txt,sha256=ihQd1reAE4RSaHumZatydDK1XA7Yd95rEzor-W7karc,52
+portela-0.0.4.dist-info/top_level.txt,sha256=I1uO4ayZ6-H2VisoIEj_F9BjdpjIBaTBgVu4BNTwSNs,8
+portela-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+portela-0.0.4.dist-info/RECORD,,
