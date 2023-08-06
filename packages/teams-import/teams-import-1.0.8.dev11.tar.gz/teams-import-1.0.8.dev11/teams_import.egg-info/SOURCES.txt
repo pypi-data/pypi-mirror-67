@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+teams_import/__init__.py
+teams_import/__main__.py
+teams_import/shell.py
+teams_import.egg-info/PKG-INFO
+teams_import.egg-info/SOURCES.txt
+teams_import.egg-info/dependency_links.txt
+teams_import.egg-info/entry_points.txt
+teams_import.egg-info/requires.txt
+teams_import.egg-info/top_level.txt
+teams_import/templates/__init__.py
+teams_import/templates/install-teams.ps1
+teams_import/templates/__pycache__/__init__.cpython-38.pyc
