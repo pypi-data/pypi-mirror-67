@@ -1,0 +1,10 @@
+setup.py
+prat_dist/Binomialdistribution.py
+prat_dist/Gaussiandistribution.py
+prat_dist/Generaldistribution.py
+prat_dist/__init__.py
+prat_dist.egg-info/PKG-INFO
+prat_dist.egg-info/SOURCES.txt
+prat_dist.egg-info/dependency_links.txt
+prat_dist.egg-info/not-zip-safe
+prat_dist.egg-info/top_level.txt
