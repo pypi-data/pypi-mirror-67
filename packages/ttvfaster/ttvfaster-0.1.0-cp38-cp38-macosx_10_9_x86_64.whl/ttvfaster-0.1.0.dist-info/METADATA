@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ttvfaster
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/ericagol/TTVFaster
+Author: Eric Agol, Kat Deck, Daniel Foreman-Mackey
+Author-email: foreman.mackey@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: numpy
+Requires-Dist: Cython
+
+UNKNOWN
+
+
