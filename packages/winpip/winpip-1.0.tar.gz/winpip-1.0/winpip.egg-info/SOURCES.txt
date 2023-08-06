@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+win_pip/winpip.py
+winpip.egg-info/PKG-INFO
+winpip.egg-info/SOURCES.txt
+winpip.egg-info/dependency_links.txt
+winpip.egg-info/top_level.txt
