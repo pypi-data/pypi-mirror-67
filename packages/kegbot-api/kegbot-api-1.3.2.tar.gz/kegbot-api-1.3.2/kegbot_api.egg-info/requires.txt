@@ -1,0 +1,3 @@
+python-gflags>=1.8
+protobuf
+requests
