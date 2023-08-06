@@ -1,0 +1,6 @@
+README.md
+setup.py
+sparseland.egg-info/PKG-INFO
+sparseland.egg-info/SOURCES.txt
+sparseland.egg-info/dependency_links.txt
+sparseland.egg-info/top_level.txt
