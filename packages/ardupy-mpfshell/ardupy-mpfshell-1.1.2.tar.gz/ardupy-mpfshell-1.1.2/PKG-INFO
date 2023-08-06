@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ardupy-mpfshell
+Version: 1.1.2
+Summary: The lightweight version of the mpfshell is for pure CUI drivers.
+Home-page: https://github.com/Lynn/mpfshell-lite
+Author: Stefan Wendler & Juwan &Hongtai.Liu
+Author-email: junhuanchen@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ArduPy,micropython,shell,file transfer,development
+Platform: UNKNOWN
