@@ -1,0 +1,5 @@
+file_util/__init__.py,sha256=9zSQwlQ3ObrB3N3F2s-pjYQFmOczMLRUHWnj_V8pZxI,28
+file_util/file_util.py,sha256=I1o65uthunU2AGjR9Pf3yulJBZYCsq97k3U7apgETR8,291
+file_util-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+file_util-0.1.2.dist-info/METADATA,sha256=gtMLQx6tcd-p1GOuZb3mQyjV54ygA-i2eKnKXO1kPsA,440
+file_util-0.1.2.dist-info/RECORD,,
