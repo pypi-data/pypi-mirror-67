@@ -1,0 +1,3 @@
+qiskit
+tsplib95
+networkx

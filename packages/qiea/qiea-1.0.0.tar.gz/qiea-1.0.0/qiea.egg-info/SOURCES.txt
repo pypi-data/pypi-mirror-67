@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+framework/qiga.py
+qiea.egg-info/PKG-INFO
+qiea.egg-info/SOURCES.txt
+qiea.egg-info/dependency_links.txt
+qiea.egg-info/entry_points.txt
+qiea.egg-info/requires.txt
+qiea.egg-info/top_level.txt
