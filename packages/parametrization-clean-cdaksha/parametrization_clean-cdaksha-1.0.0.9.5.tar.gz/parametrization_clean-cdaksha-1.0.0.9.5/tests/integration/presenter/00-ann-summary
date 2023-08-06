@@ -1,0 +1,2 @@
+Generation #	['loss', 'r_square', 'mse', 'val_loss', 'val_r_square', 'val_mse']
+1	3297.437	-0.006	3288.638	1103.373	-0.002	1095.079	
