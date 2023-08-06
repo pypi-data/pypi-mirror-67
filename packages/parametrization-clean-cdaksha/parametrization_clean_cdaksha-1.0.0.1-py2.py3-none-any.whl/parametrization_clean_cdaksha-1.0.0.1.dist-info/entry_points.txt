@@ -1,0 +1,3 @@
+[console_scripts]
+parametrization_clean = parametrization_clean.cli:main
+
