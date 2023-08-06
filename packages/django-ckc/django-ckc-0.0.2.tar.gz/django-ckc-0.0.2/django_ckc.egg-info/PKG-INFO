@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-ckc
+Version: 0.0.2
+Summary: tools, utilities, etc. we use across projects @ ckc
+Home-page: https://github.com/ckcollab/django-ckc
+Author: Eric Carmichael
+Author-email: eric@ckcollab.com
+License: UNKNOWN
+Description: django-ckc [<img src="https://ckcollab.com/assets/images/badges/badge.svg" alt="CKC" height="20">](https://ckcollab.com)
+        ==========
+        tools, utilities, etc. we use across projects @ ckc
+        
+        
+        ## installing
+        
+        ```bash
+        pip install django-ckc
+        ```
+        
+        ```python
+        # settings.py
+        INSTALLED_APPS = (
+            "django.contrib.auth",
+            "django.contrib.contenttypes",
+            "django.contrib.sessions",
+            "django.contrib.staticfiles",
+            # ... add ckc
+            "ckc",
+        )
+        ```
+        
+        ## distributing
+        
+        ```bash
+        # change version in setup.cfg
+        $ ./setup.py sdist
+        $ twine upload dist/*
+        ```
+        
+Keywords: django
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
