@@ -1,0 +1,14 @@
+hellopy/__init__.py,sha256=v7WapGraIr7VwPpbBCNQDKn3_7px_X8uhhGblwzKlK4,260
+hellopy/hello.py,sha256=2IXcarVnCYoln3IQKGENXnY0if7Ve4Pjv4axf2CJLno,625
+hellopy/data/data.dat,sha256=EweZDmulyhRes16ZGCqb7EZTG8VN32VqYCx4D6AkDe4,9
+hellopy/data/demo.ico,sha256=Tfub3Yyiy8vEv12kvogf-H9_6sYsk8-NUTnQg6DXkCQ,99678
+hellopy/opts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hellopy/opts/const.py,sha256=CeaxLj7JdxkfMUQLgxSh2CR61TK0wJM_uVCMONs_KWk,110
+hellopy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hellopy/utils/tool.py,sha256=sh4gqZTwXSX7YJiEYhKn-kY0r1u9vPJWtUG0EUI7e_w,155
+Cynthia-1.0.5.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+Cynthia-1.0.5.dist-info/METADATA,sha256=rfvm5MMz4rvW_HsR0shEX_xJykAJmt3YR3MQoj4hAQA,2408
+Cynthia-1.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Cynthia-1.0.5.dist-info/entry_points.txt,sha256=tejXTtSRJvUzx1jPI5SkW1TQvtPi8-X-iquOQ9t3W-o,45
+Cynthia-1.0.5.dist-info/top_level.txt,sha256=EsKWuzbcOHLjQeIjNlcQOQHhZk3Jvb3v6usHRgdqTnU,8
+Cynthia-1.0.5.dist-info/RECORD,,
