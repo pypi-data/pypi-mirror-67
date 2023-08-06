@@ -1,0 +1,3 @@
+[console_scripts]
+movie_magnet = movie_magnet.__main__:main
+
