@@ -1,0 +1,9 @@
+allennlp_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_utils/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_utils/data/dataset_reader.py,sha256=HzD6P8j8BEdqmpyYk_UqsyGKxqxGm29Mx45vGFUYOJA,470
+allennlp_utils/data/tokenizer.py,sha256=sXXCN5ngxiV19d6_q9Kv6uIfgSU2eldwgo9oUc9hRrE,285
+allennlp_utils-0.0.1.dev2.dist-info/LICENSE,sha256=cqpIXR6-epBBQpJW23Io0YEAEg7lEu9Mqzm-zrcrfMc,11371
+allennlp_utils-0.0.1.dev2.dist-info/METADATA,sha256=qPm9T0NMLmJtl4gZHNKYdB2uasr68gtI8ySVc_yTG2g,461
+allennlp_utils-0.0.1.dev2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+allennlp_utils-0.0.1.dev2.dist-info/top_level.txt,sha256=4qsgJiocdeBBEse212wQpmZkHA6GLR-ryqguM6P4cbg,15
+allennlp_utils-0.0.1.dev2.dist-info/RECORD,,
