@@ -1,0 +1,10 @@
+README.md
+carpyncho.py
+ez_setup.py
+setup.py
+carpyncho.egg-info/PKG-INFO
+carpyncho.egg-info/SOURCES.txt
+carpyncho.egg-info/dependency_links.txt
+carpyncho.egg-info/entry_points.txt
+carpyncho.egg-info/requires.txt
+carpyncho.egg-info/top_level.txt
