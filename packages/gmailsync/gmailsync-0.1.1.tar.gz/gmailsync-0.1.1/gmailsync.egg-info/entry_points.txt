@@ -1,0 +1,3 @@
+[console_scripts]
+gmailsync = gmailsync.__main__:main
+
