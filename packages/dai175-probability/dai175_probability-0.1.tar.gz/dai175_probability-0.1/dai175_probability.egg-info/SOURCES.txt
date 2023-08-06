@@ -1,0 +1,10 @@
+setup.py
+dai175_probability/Binomialdistribution.py
+dai175_probability/Gaussiandistribution.py
+dai175_probability/Generaldistribution.py
+dai175_probability/__init__.py
+dai175_probability.egg-info/PKG-INFO
+dai175_probability.egg-info/SOURCES.txt
+dai175_probability.egg-info/dependency_links.txt
+dai175_probability.egg-info/not-zip-safe
+dai175_probability.egg-info/top_level.txt
