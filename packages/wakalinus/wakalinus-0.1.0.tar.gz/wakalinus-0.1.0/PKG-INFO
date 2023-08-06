@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wakalinus
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/AjxLab/wakalinus
+Author: Tatsuya Abe
+Author-email: abe12@mccc.jp
+License: MIT
+Description: wakalinus
+        =========
+        
+        A simple sentiment analysis utility for Japanese.
+        
+        
+        ## Requirements
+        * Python 3
+        
+        
+        ## Installation
+        ```sh
+        $ pip install wakalinus
+        ```
+        
+        
+Keywords: setiment nlp japanese
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
