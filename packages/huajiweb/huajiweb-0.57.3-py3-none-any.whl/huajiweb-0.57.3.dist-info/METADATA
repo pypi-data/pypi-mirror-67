@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: huajiweb
+Version: 0.57.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: huajiweb Inc
+License: Apache 2
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: altair (>=3.2.0)
+Requires-Dist: astor
+Requires-Dist: base58
+Requires-Dist: blinker
+Requires-Dist: boto3
+Requires-Dist: botocore (>=1.13.44)
+Requires-Dist: cachetools (>=4.0)
+Requires-Dist: click (>=7.0)
+Requires-Dist: packaging
+Requires-Dist: python-dateutil
+Requires-Dist: enum-compat
+Requires-Dist: future
+Requires-Dist: pillow (>=6.2.0)
+Requires-Dist: protobuf (>=3.6.0)
+Requires-Dist: pydeck (>=0.1.dev5)
+Requires-Dist: requests
+Requires-Dist: toml
+Requires-Dist: tornado (<6.0,>=5.0)
+Requires-Dist: tzlocal
+Requires-Dist: validators
+Requires-Dist: watchdog
+Requires-Dist: pandas (>=0.21.0)
+Requires-Dist: numpy
+
+# huajiweb
+
+This is the Python library for huajiweb. It includes the `huajiweb`
+package which the user installs and loads as well as the "proxy" which
+communicates with the browser.
+
+
