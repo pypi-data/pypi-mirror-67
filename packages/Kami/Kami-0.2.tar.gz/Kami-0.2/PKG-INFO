@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Kami
+Version: 0.2
+Summary: Forecast sales with Entity Embedding LSTM
+Home-page: https://github.com/MacarielAerial
+Author: Yifei Yu
+Author-email: yyu.mam2020@london.edu
+License: MIT
+Download-URL: https://github.com/MacarielAerial/AM18_SPR20_LondonLAB/archive/V_0.2.tar.gz
+Description: # AM18_SPR20_LondonLAB
+        
+        This is a project description
+        
+Keywords: SALES,FORECAST,LSTM,EMBEDDING
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
