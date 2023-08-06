@@ -1,0 +1,3 @@
+[console_scripts]
+ftests = ftests.__main__:main
+
