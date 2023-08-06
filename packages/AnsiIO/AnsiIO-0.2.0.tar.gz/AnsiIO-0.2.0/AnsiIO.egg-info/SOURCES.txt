@@ -1,0 +1,6 @@
+ansiio.py
+setup.py
+AnsiIO.egg-info/PKG-INFO
+AnsiIO.egg-info/SOURCES.txt
+AnsiIO.egg-info/dependency_links.txt
+AnsiIO.egg-info/top_level.txt
