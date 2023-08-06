@@ -1,0 +1,3 @@
+[console_scripts]
+sluggard = sluggard.sluggard:main
+

@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sluggard/__init__.py
+sluggard/sluggard.py
+sluggard.egg-info/PKG-INFO
+sluggard.egg-info/SOURCES.txt
+sluggard.egg-info/dependency_links.txt
+sluggard.egg-info/entry_points.txt
+sluggard.egg-info/top_level.txt
