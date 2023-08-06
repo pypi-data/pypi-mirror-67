@@ -1,0 +1,12 @@
+resolvelib/__init__.py,sha256=sqMOy4CbVJQiaG9bCPj0oAntGAVy-RWdPfVaC9XDIEQ,537
+resolvelib/providers.py,sha256=TZDCmL-Ic-R5JRIZY8G4FLG5xB2343B0DfuK7aw2Yqw,4547
+resolvelib/reporters.py,sha256=ZPSJnVfK8WvXTbX8jE0Nren0-_Hg9ym4epCUPtU8Y0U,1405
+resolvelib/resolvers.py,sha256=lQTGcc-2fgHbmdiLzeNDUxVmGc5ZFjkAL6JrVqnqJIw,15018
+resolvelib/structs.py,sha256=yrdhd-n7DercimPGclXe20rgqhlxw8PnxC0wmcXO19Y,2016
+resolvelib/compat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resolvelib/compat/collections_abc.py,sha256=mtTkpr3Gf3OGvU1PD8YuvrJRhVbioxV82T-niFPoX3o,127
+resolvelib-0.4.0.dist-info/LICENSE,sha256=84j9OMrRMRLB3A9mm76A5_hFQe26-3LzAw0sp2QsPJ0,751
+resolvelib-0.4.0.dist-info/METADATA,sha256=xMaDkQ1QR0mLYnxtBX2WgZLaG459LM0rQQEJAbE0st0,3881
+resolvelib-0.4.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+resolvelib-0.4.0.dist-info/top_level.txt,sha256=FDTG_P0FHx27WhAzm66T5zPx99M0H41BMfxiDMrhuyY,11
+resolvelib-0.4.0.dist-info/RECORD,,
