@@ -1,0 +1,15 @@
+voltools/__init__.py,sha256=5qY0GNw0wZYDYrMGkOM2AQp4K8tqj3HllnHNJhp9IsM,196
+voltools/transforms.py,sha256=t5Wm4pbJ5RNzlC4g6WiXddUD-hlYK2ajf8Q2wQcozoo,12028
+voltools/volume.py,sha256=0UbIY_n4KjAQbpJLn448H49XaXtSYwoftwvEXgOLCq8,6133
+voltools/kernels/bspline.h,sha256=CvbLvxVKUNKXrQatiw53Qg7WPJtOBZSgbF5XoQmzcKw,4483
+voltools/kernels/helper_interpolation.h,sha256=Ue0tO1vLtd-qqYTfb874UPBqnxE9ctGlZRylk7vJ2mI,3070
+voltools/kernels/helper_math.h,sha256=Oj8FyV3JYPi722eUz55Am8ek1bz131SgmzVgvNgRhNU,37970
+voltools/utils/__init__.py,sha256=EPvGRoLLtoHOe1ZUg3967QEFmaPDI7WZhyMehtgXwX8,428
+voltools/utils/general.py,sha256=uZw1tWapCx3caebIihJ95YMXV6Ewf6DuZ4pfZMBfy2k,5199
+voltools/utils/matrices.py,sha256=zmoWKSSnfVL4PErocqk9f9yYdvbQPC1Nm4luZoM9DWs,5115
+voltools/utils/mrc.py,sha256=ZSegebZrQAVR8-tae4ToDcJyPr1UC2FhGPXAvqkhW2w,389
+voltools-0.4.2.dist-info/LICENSE.md,sha256=2Msq3dfHZhG_lx4AswL0fUS3ZMZNc97B25OlarNv1D4,1050
+voltools-0.4.2.dist-info/METADATA,sha256=ICQmg5YjxCwPSRq_tT65_1EIt1G1IZitTlNZksiOJZM,6526
+voltools-0.4.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+voltools-0.4.2.dist-info/top_level.txt,sha256=COUY60rD_41Rmt_rr-jbnaLv9B5XTQuSD6FCH0iek4Q,9
+voltools-0.4.2.dist-info/RECORD,,
