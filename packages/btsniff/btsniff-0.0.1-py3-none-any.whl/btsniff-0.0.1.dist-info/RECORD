@@ -1,0 +1,15 @@
+btsniff/__init__.py,sha256=RkPNMWC2WfKY4zouFdR22bRNocvP0bC0nmHeA2CRp44,127
+btsniff/app.py,sha256=DUnbljGZg29p0GXD-Tah_RzOrQcoSOCgn1KlGrHR500,1184
+btsniff/data/bbt.yaml,sha256=LsHkO5g-z60VmmeRUgk-Q6dYQLrVGQDuNQZwTGlHTeU,616
+btsniff/data/btdx8.yaml,sha256=eJMXn5ptIBrYugQQyzQI9elI_BOmdeK4ox7KHKkRXNQ,624
+btsniff/sites/__init__.py,sha256=c6ofDJNbasbs82GudHPvCKPSOY2TAiE1NwLKPJA8xAc,87
+btsniff/sites/_chrome.py,sha256=REZZPJ7YkeRamp_0faeu8pqfiVa0n8MJpzVuu7ncvy0,806
+btsniff/sites/_parser.py,sha256=5Ee6s4NNr3k9HLuHsNqEdJlBCvdkg36n2dXgAk5G0gE,657
+btsniff/sites/bbt.py,sha256=ni_dhg337HSJ8rywPxo1-SBPL-k3zdx_gqg_RYmtBXs,2187
+btsniff/sites/btdx8.py,sha256=H-kqrrw-iCh7lLiorB6aQ08Df1d7NmkMckQpPYLQHU4,1993
+btsniff-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+btsniff-0.0.1.dist-info/METADATA,sha256=J-iE2-K2NiKgDlsl1aTB3zGT5FYOpcc2YwnlB3coYM0,1348
+btsniff-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+btsniff-0.0.1.dist-info/entry_points.txt,sha256=E9_gO2Uj9QP-v6R3iOUl-F0iQXXlAP698y9OA6uml2A,45
+btsniff-0.0.1.dist-info/top_level.txt,sha256=WsLq5yYIumi9-rLSS-fvjbPh9p_mkyTBA1ngyniylGg,8
+btsniff-0.0.1.dist-info/RECORD,,
