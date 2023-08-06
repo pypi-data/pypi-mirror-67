@@ -1,0 +1,113 @@
+{% load static %}
+
+<div id="decideur-container">
+    <form action="{% url 'call-out' %}" method="post" id="decideur-form" class="decideur-container" style="display: flex">
+        {% csrf_token %}
+        <div style="flex-grow: 3">
+            <!-- mail header -->
+            <div>
+                <div style="background: #2C2D2C; text-align: center; padding: 6px 0 3px 0; border-radius: 20px 20px 0 0;">
+                    <img src="{% static 'appel_crises/img/mail.svg' %}" alt="mail" style="width: 30px">
+                </div>
+            </div>
+
+            <div style="background: white; border-radius: 0 0 20px 20px; padding: 10px 20px">
+                <div class="mail-underlined" id="decideur-recipients">
+                    <span style="margin-right: 10px">
+                        A :
+                    </span>
+
+                    {% if no_js %}
+                        <span class="mail-to-tag">
+                            <input type="checkbox" name="send_to_government" id="send_to_government" checked>
+                            <label for="send_to_government">Gouvernement</label>
+                        </span>
+                        <span class="mail-to-tag">
+                            <input type="checkbox" name="send_to_depute" id="send_to_depute" checked>
+                            <label for="send_to_depute">Mon député</label>
+                        </span>
+                    {% else %}
+                        <span id="government-tag" class="mail-to-tag" data-circonscription="gvt">
+                            <span onclick="closeTag('government-tag')" class="close">x</span>
+                            Gouvernement
+                        </span>
+                        <span id="depute-tag" class="mail-to-tag depute-tag">
+                            <span onclick="closeTag('depute-tag')" class="close">x</span>
+                            Mon député
+                        </span>
+                    {% endif %}
+                </div>
+                <div class="mail-underlined">
+                    <span style="margin-right: 10px">
+                        Objet :
+                    </span>
+
+                    <input type="text" name="subject" value="Je voudrais un autre monde" style="color: #161616; border: none; font-size: 1em; width: calc(100% - 65px)">
+                </div>
+
+                <div class="mail-underlined" style="padding-bottom: 25px; color: #161616">
+                    <textarea name="content">
+Chers décideurs,
+
+Édouard Philippe l’a énoncé clairement : il veut agir avec « prudence ». En présentant devant l’Assemblée nationale son plan de déconfinement, le premier ministre a confirmé que la réalité de la crise sanitaire était bien plus complexe que de simples promesses présidentielles. « Je le dis aux Français, si les indicateurs ne sont pas au rendez-vous, nous ne déconfinerons pas le 11 mai, ou nous le ferons plus strictement », a-t-il insisté, mardi 28 avril, avant de détailler « l’architecture générale » de la stratégie gouvernementale.
+
+Contrairement à Emmanuel Macron qui avait martelé la date du 11 mai lors de sa dernière allocution, le locataire de Matignon a renvoyé bon nombre de dispositifs à celle du 2 juin, qui fait aujourd’hui figure de nouvelle échéance. Il a également précisé que les mesures seraient adaptées « département par département », en fonction d’un certain nombre de critères établis par la direction générale de la santé (DGS) et Santé publique France (SPF). Le déconfinement ne sera donc pas « régionalisé », comme l’avait indiqué l’Élysée, mais « départementalisé ». Ce qui revient peu ou prou à la même chose.
+
+Cordialement,
+Jean-Paul Ochon
+                    </textarea>
+                </div>
+
+                <div style="display: flex; margin-top: 20px">
+                    <div>
+                        {% if no_js %}
+                            <button type="submit" class="btn" style="background: var(--primary-color); padding: 8px 12px">
+                        {% else %}
+                            <button onclick="sendMail()" type="button" class="btn" style="background: var(--primary-color); padding: 8px 12px">
+                        {% endif %}
+                            Envoyer
+                        </button>
+                    </div>
+                    <div style="font-size: 0.8em; color: lightgrey; color: #161616; margin-left: 20px; padding-top: 7px">
+                        Personnalisez le courriel <br>
+                        avant de l'envoyer !
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right column -->
+        <div style="flex-grow: 1; display: flex; justify-content: space-between; flex-direction: column; padding: 0 20px;" class="mail-right-col">
+            <div>
+                <div class="input-holder">
+                    <label for="decideur-sender">Prénom et nom</label>
+                    <input type="text" id="decideur-sender" name="sender" placeholder="Jean Dupont">
+                </div>
+                <div class="input-holder">
+                    <label for="decideur-from_email">Email</label>
+                    <input type="email" id="decideur-from_email" name="from_email" placeholder="mon@courriel.fr">
+                </div>
+                <div class="input-holder">
+                    <label for="decideur-postal_code">Code Postal</label>
+                    <input type="text" id="decideur-postal_code" name="postal_code" placeholder="35200">
+                </div>
+            </div>
+
+            <div class="decideur-why">
+                <p>
+                    Envoyer un mail à nos décideurs pour leur parler de l'Appel et leur demander de prendre des mesures à la hauteur des enjeux !
+                </p>
+                <p style="margin-top: 20px;">
+                    Le mail sera envoyé aux députés de votre choix et au gouvernement. Vous pourrez recevoir une réponse sur votre boite mail personnelle !
+                </p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="decideur-success" style="display: none">
+    <h1>success</h1>
+</div>
+<div id="decideur-error" style="display: none">
+    <h1>error</h1>
+</div>
