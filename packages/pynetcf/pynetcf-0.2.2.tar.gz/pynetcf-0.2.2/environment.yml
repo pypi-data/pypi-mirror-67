@@ -1,0 +1,14 @@
+name: pynetcf
+dependencies:
+- h5py
+- numpy
+- pandas
+- proj4
+- pyproj
+- pytest
+- pytest-cov
+- netCDF4
+- pykdtree
+- pip:
+  - pygeobase
+  - pygeogrids
