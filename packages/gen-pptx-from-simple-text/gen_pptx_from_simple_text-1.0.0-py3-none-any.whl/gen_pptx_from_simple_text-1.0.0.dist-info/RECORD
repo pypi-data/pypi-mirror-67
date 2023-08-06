@@ -1,0 +1,9 @@
+pptx/__init__.py,sha256=aM_mJVVG4QUKRHM9Iarob9SAMsFTNe2vq2rZH53gzfE,4672
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/gen.py,sha256=oit3xCAKAkdM_I8Yi9VIJ1_XTWDVaWRIrjwkjUyiyf0,4669
+gen_pptx_from_simple_text-1.0.0.dist-info/LICENSE,sha256=eykbi4PXr1iHz3QGyUsnbhiUDCOS12SaEER5m82VCnc,1073
+gen_pptx_from_simple_text-1.0.0.dist-info/METADATA,sha256=vFK_ECqQOUmaWCrS6VO8BF743obPZPGTSjzaAEM9xu0,2799
+gen_pptx_from_simple_text-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gen_pptx_from_simple_text-1.0.0.dist-info/entry_points.txt,sha256=HGwGQkMLPslO8T8erZwN8ihdehVz7PpHd757IFnDYtg,35
+gen_pptx_from_simple_text-1.0.0.dist-info/top_level.txt,sha256=O4BUPv9c3_6OQNtaneqNqq32Dp1TFyKK-K9CVNPenF8,5
+gen_pptx_from_simple_text-1.0.0.dist-info/RECORD,,
