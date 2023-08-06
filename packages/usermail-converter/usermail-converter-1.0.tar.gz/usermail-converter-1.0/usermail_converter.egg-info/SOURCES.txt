@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+usermail-converter/UI.py
+usermail-converter/__init__.py
+usermail-converter/__main__.py
+usermail-converter/converters.py
+usermail_converter.egg-info/PKG-INFO
+usermail_converter.egg-info/SOURCES.txt
+usermail_converter.egg-info/dependency_links.txt
+usermail_converter.egg-info/entry_points.txt
+usermail_converter.egg-info/requires.txt
+usermail_converter.egg-info/top_level.txt

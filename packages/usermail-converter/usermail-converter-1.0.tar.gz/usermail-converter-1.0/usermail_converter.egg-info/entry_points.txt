@@ -1,0 +1,3 @@
+[console_scripts]
+usermail_converter = usermail_converter.__main__:main
+
