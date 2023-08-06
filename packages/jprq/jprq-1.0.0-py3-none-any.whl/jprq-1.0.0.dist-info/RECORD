@@ -1,0 +1,9 @@
+jprq/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+jprq/http.py,sha256=YjnC0_TM-qkKcgnvLbHTm2xHbBWOg4cdOcvvdtN_ZNE,1265
+jprq/main.py,sha256=IcKHgF68gwAhHP06gL-NF97sBMrUdSXyByAwhkh8Lss,589
+jprq/tunnel.py,sha256=PlUDXey9a4h4qjy_Z5tOjrodw4mtC10p8QlYyFHGTSA,680
+jprq-1.0.0.dist-info/METADATA,sha256=h_Ndpkz1dHXJXgo8mKl6CdfcUBnrfHuvHBl1JU77K-w,1030
+jprq-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jprq-1.0.0.dist-info/entry_points.txt,sha256=FyKDPEF2n49enPE5iUSLZvjgNXf8ghf3KGxrIIM-tac,41
+jprq-1.0.0.dist-info/top_level.txt,sha256=rp0NdMTEQR92389Cv8nytfm8OKQtYdxdSPTZ5zbtlEU,5
+jprq-1.0.0.dist-info/RECORD,,
