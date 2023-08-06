@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "flask_pwa"
+version = "0.1.0"
+description = "Extends your Flask app into a PWA."
+authors = ["bergpb <lindembergdepaulo@@gmail.com>"]
+license = "MIT"
+
+readme = "README.md"
+keywords = ["flask + pwa", "flask-pwa", "pwa"]
+
+repository = "https://github.com/pacotei/flask-pwa"
+homepage = "https://github.com/pacotei/flask-pwa"
+
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+black = "^19.10b0"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
