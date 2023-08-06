@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aioquery
+Version: 0.0.3
+Summary: Asynchronous wrapper for source query.
+Home-page: https://github.com/WardPearce/aioquery
+Author: WardPearce
+Author-email: wardpearce@protonmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio-dgram (>=1.0.1)
+
+# Asynchronous Source Query
+
+## Install
+- Pypi: ``pip3 install aioquery``
+- Git: ``pip3 install git+https://github.com/WardPearce/aioquery.git``
+
+### Example
+```py
+import asyncio
+from aioquery import aioquery
+
+async def testing():
+    query = aioquery("216.52.148.47", 27015)
+
+    server_info = await query.get_info()
+    players = await query.get_players()
+
+    print(server_info)
+    print(players)
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(testing())
+loop.close()
+```
+
