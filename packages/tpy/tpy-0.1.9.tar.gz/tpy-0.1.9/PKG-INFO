@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tpy
+Version: 0.1.9
+Summary: tmux through python
+Home-page: https://github.com/jan-matthis/tpy
+Author: Jan-Matthis Lueckmann
+Author-email: mail@jan-matthis.de
+License: MIT
+Description: 
+        # tpy
+        
+        ## Installation
+        
+        ```bash
+        pip install tpy
+        ```
+        
+        
+        ## Usage
+        
+        ```bash
+        tpy --help
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
