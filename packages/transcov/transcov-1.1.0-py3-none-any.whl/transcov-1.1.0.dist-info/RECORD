@@ -1,0 +1,16 @@
+transcov/__init__.py,sha256=VHATA0V0lL3bngTVDuiFrFWui1q0EoQ7hGZKOjmCxZw,725
+transcov/bam.py,sha256=EjsbvqicJmKq2RwqU_OHDVrxGBlMhFoiPs3D_XbQt5c,1823
+transcov/cli.py,sha256=Il--f-m2yjHk_NdYycP_QZreyTkwQgPKf6ppguSnE8Q,4540
+transcov/generator.py,sha256=tply03sfYzgnk_KYn0uYOM7kAIEzFRQMLhFT4GYOWQ8,7960
+transcov/manipulations.py,sha256=uOPxkOJVkGkRXHC3_itOXL9OLisBPB4JnyuvsIb3p5k,9077
+transcov/plotter.py,sha256=jBAI0gJzVw4uj1k6jaPbCT5wrnwVFujqzmt7YDySbco,2112
+transcov/preprocessor.py,sha256=cNswUfaCXGNlTE4zx6q0fUB1wPxbZKqUvciNUcaf1wM,3574
+transcov/transcript_annotation.py,sha256=m-mar2KurFO5mQWCW5RoT6E9dcl8bvgaTiTfg3_Ssw0,1857
+transcov/tss.py,sha256=mQgwTAmehp40IFOER2uBiaJf4NmBXTe_adrmChBF6-0,1310
+transcov/utils.py,sha256=Sgmj2RRj37PWgmSOH6dBgEu44lD56OCAMLYS2UKqN10,889
+transcov-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+transcov-1.1.0.dist-info/METADATA,sha256=LjXAHYDCeErQOgn-pM-YZjDp3ScntLikG7gQFXLp3gM,1344
+transcov-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+transcov-1.1.0.dist-info/entry_points.txt,sha256=Rqim6IfkkEre-UQB4mKTaSKfHZ7tgGlKSpu03zSnPbE,47
+transcov-1.1.0.dist-info/top_level.txt,sha256=jPcKZZ4BwZDlgA3jEk73rxZAN1YBPEs5zPDnTNzB9KY,9
+transcov-1.1.0.dist-info/RECORD,,
