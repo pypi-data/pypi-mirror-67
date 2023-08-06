@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: efficient-first-stage-retrieval
+Version: 0.0.30
+Summary: Master Thesis with the L3S at Lebniz University Hannover
+Home-page: https://github.com/real-tesco/efficient_first_stage_retrieval/tree/master/
+Author: Jesco Brandt
+Author-email: luca-brandt@web.de
+License: Apache Software License 2.0
+Description: # Efficient First Stage Retrieval using Dense Representations and KNN
+        > Summary description here.
+        
+        
+        This file will become your README and also the index of your documentation.
+        > test
+        
+        ## Install
+        
+        `pip install efficient_first_stage_retrieval`
+        
+        ## How to use
+        
+        Use calculate_score to calculate MAP and MRR from actual qrels in fn_qrels and from predictions in prediction
+        
+        ```python
+        calculate_score(fn_qrels='data/robust/qrels.robust2004.txt', prediction="score.txt")
+        ```
+        
+        Use do_run to calculate predictions from 'searcher' and queries 'topic' and used time and store it in file and 'time-' + file
+        
+        ```python
+        do_run(file, topics, searcher)
+        ```
+        
+Keywords: efficient first stage retrieval information
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
