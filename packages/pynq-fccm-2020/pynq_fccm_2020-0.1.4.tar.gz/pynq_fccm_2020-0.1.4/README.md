@@ -1,0 +1,29 @@
+# PYNQ FCCM Lab Material
+
+This package contains the notebooks for the PYNQ portion of the Xilinx FCCM 2020 tutorial. This getting started guide assumes you have already cloned the aws-fpga git repository and sourced the `vitis_runtime_setup.sh` script in your terminal as part of a previous lab.
+
+
+We recommend using PYNQ and Jupyterlab in an Anaconda environment open a terminal and run the following commands
+
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh -b
+source ~/anaconda3/bin/activate
+```
+
+With Anaconda on initialized PYNQ and the lab material can be installed using `pip` and the PYNQ `get-notebooks` command.
+
+```
+pip install pynq
+pip install pynq-fccm-2020
+pynq get-notebooks
+cd pynq-notebooks
+```
+
+Finally change into the newly created directory and launch JupyterLab
+
+```
+jupyter lab
+```
+
+This will bring up a Jupyter Lab environment you can use to complete the lab.
