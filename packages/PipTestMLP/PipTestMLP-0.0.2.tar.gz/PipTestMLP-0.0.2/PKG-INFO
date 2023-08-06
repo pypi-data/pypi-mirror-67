@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PipTestMLP
+Version: 0.0.2
+Summary: PipTest
+Home-page: https://github.com/Dragonwyj/tmp
+Author: wangyijun
+Author-email: dragonwyj@163.com
+License: UNKNOWN
+Description: This is a PyPI test package from MiningLamp.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
