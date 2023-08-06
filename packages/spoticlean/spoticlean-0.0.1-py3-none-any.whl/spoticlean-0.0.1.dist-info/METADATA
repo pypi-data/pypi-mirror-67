@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spoticlean
+Version: 0.0.1
+Summary: Delete Spotify playlists using RegEx
+Home-page: https://github.com/kabirvirji/spoticlean
+Author: Kabir Virji
+Author-email: kabirvirji@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3.4
+
+UNKNOWN
+
+
