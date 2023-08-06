@@ -1,0 +1,10 @@
+oauth2_xfel_client/__init__.py,sha256=JFAR1rdmjpFRGxqe3Ym7JPkDNaUTrmp8RQP_p8LeZys,201
+oauth2_xfel_client/oauth2_client_backend.py,sha256=bWjeS7yPM3WR9jPvEPTYfCn7zc8-ivOqaKW7W6QGAhA,5583
+oauth2_xfel_client/tests/__init__.py,sha256=D17-T0dyZue-V-UtHM2uSGHq95BmXaUywxScERErRYY,45
+oauth2_xfel_client/tests/oauth2_client_backend_test.py,sha256=As_OntGr3HdvNoogKBfdQjXVEhs41V5WbaEa7whe35s,7936
+oauth2_xfel_client-6.0.0.dist-info/AUTHORS.rst,sha256=JP2wGpJfHzrqLtCJql8P6EQFFQm0X6znILPMEeOUb_A,48
+oauth2_xfel_client-6.0.0.dist-info/LICENSE,sha256=aD6Z4Jk652ic67cDG_vRqptX--ySlgOu2SN9PdkzEy0,778
+oauth2_xfel_client-6.0.0.dist-info/METADATA,sha256=1biQAbZL_uRHz_htbk8r43JjPB96UCL8gkrZPAy79Dg,5894
+oauth2_xfel_client-6.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+oauth2_xfel_client-6.0.0.dist-info/top_level.txt,sha256=hpz3NIEJapGC7U2s8Sa2N4EnEZu67sp7D_V_5ZRYNWo,19
+oauth2_xfel_client-6.0.0.dist-info/RECORD,,
