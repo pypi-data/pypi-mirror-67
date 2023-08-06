@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: t-re2
+Version: 1.0.8
+Summary: faster rules in python
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: ### re2
+            - 该模块封装了google的re2
+Platform: UNKNOWN
