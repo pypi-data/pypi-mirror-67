@@ -1,0 +1,2 @@
+include piweatherrock/webconfig/html/**/*
+include piweatherrock/webconfig/icons/**/*
