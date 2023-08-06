@@ -1,0 +1,13 @@
+LSHC/LSH.cpython-37m-darwin.so,sha256=ECJLNd574SdvKxZ2toi_lXP5nytsEvIMKrfL-igE554,283912
+LSHC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LSHC/sub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LSHC/sub/helper.h,sha256=7GeKHZz3v3ov4B50W1PyCfKnKt0vrIGxZsentpyQ0eQ,29
+LSHC/sub/helper.pxd,sha256=SLYiIHd7U191VPXTpDEbrGHqBHu0IwuT2J72IsyPfBA,55
+LSHC/sub/wrong.cpython-37m-darwin.so,sha256=8dRiTsRIu_wnblHft5_qdFOJIExM42QSQw_ZcsXibPo,19720
+LSHCy/LSH.cpython-37m-darwin.so,sha256=ZodpdnPOsLEh5B6T3ZZIHAEcP8_MmwK3ZY9_AdwtHLc,283912
+LSHCy/sub/wrong.cpython-37m-darwin.so,sha256=89_5hS88B0_zSzPeVn1IDxPiyYmc2hOGz3Y3AELOyek,19720
+LSHC-1.0.dist-info/LICENSE.txt,sha256=fhdKJi556V1VLa-1QQmImMadfaHckqAOv3iPLtM4j-w,1070
+LSHC-1.0.dist-info/METADATA,sha256=9IwNYXPcp3R6hGAZc0Xk4f8Eeww-TDgXTeYj4is-d90,2313
+LSHC-1.0.dist-info/WHEEL,sha256=ePSmKDYpHLRUYc6QuHiYMO-IoN8XmQMJmY2AHxzV4Bc,110
+LSHC-1.0.dist-info/top_level.txt,sha256=4-JXnG2Ly6nYGgp1FXY2MK3Mv9tXazuWW5NbNFPXd3A,5
+LSHC-1.0.dist-info/RECORD,,
