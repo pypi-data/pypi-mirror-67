@@ -1,0 +1,10 @@
+slackers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackers/hooks.py,sha256=BundpiARbTsVavNREcs44Ktq_-O-d-NyUrnY_cGL32o,971
+slackers/models.py,sha256=aBYPVlTP9LdNGaI8PvHJb1jGNW3_ia4a8o2azr2DElk,953
+slackers/registry.py,sha256=Yj0rEYAavjJQKifC1Cf33FZRALQvF5pGSkob3H6L1I0,328
+slackers/server.py,sha256=bvSXgN8-gofAyhyzYGhHVyGRiMHUyhrfkdU2Ivt0moU,2659
+slackers/verification.py,sha256=rCMJVOG4UfP6sMrOYmX4L-prR8pFMeLrcQWAWrt7Kqc,1335
+slackers-0.4.4.dist-info/LICENSE,sha256=Vhwl_LM5tuHM64PtmvQuHUYHuZCAjYmCvRShdcuEo7Q,1075
+slackers-0.4.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+slackers-0.4.4.dist-info/METADATA,sha256=6nR1FkuE4XnT5ILBrNsaq-N7K8bQwd_d4rUJeK9hGrg,7218
+slackers-0.4.4.dist-info/RECORD,,
