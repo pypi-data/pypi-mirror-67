@@ -1,0 +1,26 @@
+Trustable homomorphic computation
+=================================
+
+THC is a Python package that provides a practical framework for cost-effective trustable homomorphic computation.
+
+It leverages the *modular extension* technique, which was developed to protect embedded cryptographic implementations against fault injection attacks, to ensure the integrity of a computation delegated to an untrusted third-party.
+
+## Installation
+
+You can either install THC using [PyPI](https://pypi.org/project/thc/) with the following command:
+
+    $ pip3 install thc
+
+Or you can download its [source code](https://code.up8.edu/pablo/thc) and run the following command in the root directory of the repository:
+
+    $ pip3 install .
+
+You can check that the installation went well by running the included test demo:
+
+    $ python3 -m thc.demo.faults
+
+## Demo
+
+In addition to the previously mentioned test demo of THC, an electronic voting software (server and client) is provided in the `thc.demo.evoting` package.
+
+Please refer to its [README](https://code.up8.edu/pablo/thc/-/tree/master/thc/demo/evoting) for more information.
