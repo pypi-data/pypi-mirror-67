@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-michael-jackson
+Version: 0.0.1
+Summary: Put Michael Jackson's information into every response
+Home-page: UNKNOWN
+Author: Sin-Woo Bang
+Author-email: sinwoobang@gmail.com
+License: BSD
+Project-URL: Source, https://github.com/sinwoobang/django-michaeljackson
+Description: # django-michaeljackson
+        
+        <img src="https://www.grammy.com/sites/com/files/styles/news_detail_header/public/blogs/79917259.jpg?itok=vbiQiNae" alt="">
+        A middleware library that puts Michael Jackson's information into every response.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+        
+        ```bash
+        pip install django-michaeljackson
+        ```
+        
+        In your settings.py
+        ```python
+        INSTALLED_APPS.append('michaeljackson')
+        MIDDLEWARE.append('michaeljackson.middleware.MJMiddleware')
+        ```
+        
+        ## Result
+        You will see the header `X-Michael-Jackson` in your response.
+        ```
+        X-Michael-Jackson: Parent(s): Joe Jackson Katherine Jackson
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
