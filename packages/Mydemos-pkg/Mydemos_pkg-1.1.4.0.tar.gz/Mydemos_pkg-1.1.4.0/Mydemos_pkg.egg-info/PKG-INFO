@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Mydemos-pkg
+Version: 1.1.4.0
+Summary: a small pkg demos for you and everyone
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: 
+        ```shell
+        pip install Mydemos_pkg
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
