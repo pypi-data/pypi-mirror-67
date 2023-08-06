@@ -1,0 +1,11 @@
+tbnns/__init__.py,sha256=88Q3mevsPkEKrgm1Adfz7xRboKKbiWH1B4TKwPz4hKk,667
+tbnns/constants.py,sha256=uyt5XQOipMMCP7rw7c5axuCLhzp_CGaVEUrxZ8k5Xvk,1933
+tbnns/data_batcher.py,sha256=8VTtE8smfWMQifoptrl6sLjCpDDwsRB96dHq0YJ8q2g,6903
+tbnns/layers.py,sha256=koWw93iB4gvh0PNPVDRjXdWOf6DqUEAfjFsMtJa2Tv8,9083
+tbnns/tbnns.py,sha256=2D6I7NNDNR6wyUlIMDSOMW2kKqKYUaod7na1Qs4N2Zo,50846
+tbnns/utils.py,sha256=LhVJlGv3Dyjxa7c6n4COaQOmDGaYuxTVnIMNJ7uAx7c,13658
+tbnns-0.4.0.dist-info/LICENSE,sha256=UuYKWl4EfT7QkoPXNJX7BaLk9KZvt1sc8KOGGcuAgRs,11311
+tbnns-0.4.0.dist-info/METADATA,sha256=hU7o1qLr5zzCPIs4UeHJWziVvsZOMtpIhgYM6jTnjT8,1510
+tbnns-0.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tbnns-0.4.0.dist-info/top_level.txt,sha256=qpEiGCleWDKuPVkGT-F1aaRo6Ja87LKBWXhCePq5s44,6
+tbnns-0.4.0.dist-info/RECORD,,
