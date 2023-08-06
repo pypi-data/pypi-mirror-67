@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyrosetta-distributed
+Version: 0.0.1
+Summary: Enables the distributed and pydata integration features of PyRosetta
+Home-page: https://github.com/RosettaCommons/pyrosetta-distributed/
+Author: Brian D. Weitzner
+Author-email: bweitzner@lyell.com
+License: MIT License
+Description: # pyrosetta-distributed
+        A module that enables the distributed and pydata integration features of PyRosetta
+        
+        ## How to build package for release and upload to PyPI
+        ```
+        pip install --user --upgrade setuptools wheel twine
+        python setup.py sdist bdist_wheel
+        twine upload dist/*
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.3
+Description-Content-Type: text/markdown
