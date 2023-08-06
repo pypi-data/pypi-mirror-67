@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: covidcharter
+Version: 0.1
+Summary: A package for charting covid in Virginia counties
+Home-page: https://github.com/creecherr/virginia-covid-charter
+Author: Haley Creech
+Author-email: haley.creech@gmail.com
+License: MIT
+Download-URL: https://github.com/creecherr/virginia-covid-charter/archive/v.0.1.tar.gz
+Description: UNKNOWN
+Keywords: covid,vdh,virgnia
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Multimedia :: Graphics :: Capture
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
