@@ -1,0 +1,8 @@
+README.md
+pipelinr.py
+setup.py
+pipelinr.egg-info/PKG-INFO
+pipelinr.egg-info/SOURCES.txt
+pipelinr.egg-info/dependency_links.txt
+pipelinr.egg-info/entry_points.txt
+pipelinr.egg-info/top_level.txt
