@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+efficient_first_stage_retrieval/__init__.py
+efficient_first_stage_retrieval/_nbdev.py
+efficient_first_stage_retrieval/core.py
+efficient_first_stage_retrieval.egg-info/PKG-INFO
+efficient_first_stage_retrieval.egg-info/SOURCES.txt
+efficient_first_stage_retrieval.egg-info/dependency_links.txt
+efficient_first_stage_retrieval.egg-info/entry_points.txt
+efficient_first_stage_retrieval.egg-info/not-zip-safe
+efficient_first_stage_retrieval.egg-info/top_level.txt
