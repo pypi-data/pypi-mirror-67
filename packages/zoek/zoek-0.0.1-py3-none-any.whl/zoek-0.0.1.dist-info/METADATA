@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zoek
+Version: 0.0.1
+Summary: Search for files and directories in your terminal
+Home-page: https://gitlab.com/dkreeft/zoek
+Author: Davey Kreeft, Tein de Vries
+Author-email: dkreeft@xccelerated.io, teindevries@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# zoek
+
+This project aims to be an extension of the find command.
+
