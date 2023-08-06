@@ -1,0 +1,9 @@
+PyYAML==5.*
+Flask==1.1.*
+Flask-Cors==3.0.*
+Flask-ErrorsHandler==3.*
+Flask-ResponseBuilder==2.*
+Flask-TemplateSupport==1.*
+Flask-CloudflareRemote==1.*
+Flask-Logify==1.*
+argon2-cffi==19.*
