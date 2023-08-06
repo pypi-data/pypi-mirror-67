@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+redisgraph_bulk_loader/__init__.py
+redisgraph_bulk_loader/bulk_insert.py
+redisgraph_bulk_loader.egg-info/PKG-INFO
+redisgraph_bulk_loader.egg-info/SOURCES.txt
+redisgraph_bulk_loader.egg-info/dependency_links.txt
+redisgraph_bulk_loader.egg-info/entry_points.txt
+redisgraph_bulk_loader.egg-info/requires.txt
+redisgraph_bulk_loader.egg-info/top_level.txt
+test/__init__.py
+test/test_bulk_loader.py
