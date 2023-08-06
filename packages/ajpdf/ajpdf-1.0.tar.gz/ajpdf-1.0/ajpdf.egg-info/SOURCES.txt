@@ -1,0 +1,13 @@
+README.md
+setup.py
+ajpdf/__init__.py
+ajpdf/pdfimage.py
+ajpdf/pdftext.py
+ajpdf.egg-info/PKG-INFO
+ajpdf.egg-info/SOURCES.txt
+ajpdf.egg-info/dependency_links.txt
+ajpdf.egg-info/top_level.txt
+ajpdf/Subsource1/__init__.py
+ajpdf/Subsource1/atika.py
+ajpdf/Subsource2/__init__.py
+ajpdf/Subsource2/proba.py
