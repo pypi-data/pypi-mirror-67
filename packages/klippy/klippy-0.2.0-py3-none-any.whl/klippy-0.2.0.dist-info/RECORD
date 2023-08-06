@@ -1,0 +1,11 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/clipboard.py,sha256=HkCzpTqYjTOsbe0s2_-S0YIP5ZRc2zGJVmQD-7mQO8g,960
+app/config.py,sha256=kF-YyT2i7kGsbUa0fsns4Vrdc3ixhrmXbfZGZIOKEZM,1276
+app/version.py,sha256=Te87yKMugWziDTANt72vxbLxpfD405Ve4s9uS1gESGU,18
+klippy-0.2.0.data/scripts/cli.py,sha256=QBZG5x6fsDNuHOGjQ74UGGS2GrYma6NxK3VUPcGqQ8g,1416
+klippy-0.2.0.dist-info/LICENSE,sha256=Hi9Ek4PqIDIbWU67iTGWbA2AzAFqDLRD2penfJ1el98,1069
+klippy-0.2.0.dist-info/METADATA,sha256=mKq2kkWJqyi01z0i1sPJ7o-pEHI9J-w7CU1G3fKL9Uk,1498
+klippy-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+klippy-0.2.0.dist-info/entry_points.txt,sha256=Mfwvydz91o4LImoa4hXOhvnxtgO-ZMQxRjyHaQh54NE,54
+klippy-0.2.0.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+klippy-0.2.0.dist-info/RECORD,,
