@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+thonny_block_highlight.egg-info/PKG-INFO
+thonny_block_highlight.egg-info/SOURCES.txt
+thonny_block_highlight.egg-info/dependency_links.txt
+thonny_block_highlight.egg-info/requires.txt
+thonny_block_highlight.egg-info/top_level.txt
+thonnycontrib/block_highlight/__init__.py
