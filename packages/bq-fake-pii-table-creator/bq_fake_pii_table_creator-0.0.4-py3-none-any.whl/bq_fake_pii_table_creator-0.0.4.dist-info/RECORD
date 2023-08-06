@@ -1,0 +1,14 @@
+bq_fake_pii_table_creator/__init__.py,sha256=IkJ5bBx_FmWMM8aSXwkTuX93_pJ0pU_6Y-owwK1Fh4M,264
+bq_fake_pii_table_creator/bq_creator.py,sha256=9DlcXjw328RhLsI7-pa7VC4pOfILAyOHFZI5iTlk_iQ,1677
+bq_fake_pii_table_creator/bq_fake_table_creator.py,sha256=fFgIFlHNIfBAPMTNUjbd2VpzzXqXx6lVSXM9U3CFAvM,1825
+bq_fake_pii_table_creator/bq_fake_table_creator_cli.py,sha256=qJvU75N82F-ee_IspPaWJQJUqr2xqVlTr8G3IxT0bOo,1807
+bq_fake_pii_table_creator/csv_creator.py,sha256=xFhB0ryU-hqa5eIzKCAiDanP0I6svuILMTrVf4I1g9E,275
+bq_fake_pii_table_creator/dataframe_creator.py,sha256=Z4BehV1ls4ViAFsO9om3Uz27biQmtd0BsIs9Gw5ysCg,8517
+bq_fake_pii_table_creator/gcs_storage_client_helper.py,sha256=g2Bi1uIU0rn52ke-SlgA1mPuJTPd9ubg10-G2RuY-FI,1835
+bq_fake_pii_table_creator/uuid_helper.py,sha256=ZhvV3-X2mPIh6idBL8DUrIk0T3dI9z_21MGXFLY_BwQ,290
+bq_fake_pii_table_creator-0.0.4.dist-info/LICENSE,sha256=RYAld4xSlAdGO5MvYc2CnIoue5juyx3G79pvw_Kidfg,1070
+bq_fake_pii_table_creator-0.0.4.dist-info/METADATA,sha256=qGyjhcZ_v84W8K-qLIwVIEIFd7ERVrZEkZ-hiS2zugg,2989
+bq_fake_pii_table_creator-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bq_fake_pii_table_creator-0.0.4.dist-info/entry_points.txt,sha256=MyTZMm23sZSayDZcE68aJIo00ylL7DaosQMaTQr2S8s,78
+bq_fake_pii_table_creator-0.0.4.dist-info/top_level.txt,sha256=sC0dq0zCqOZQSIkbDnmMbgA4HJOtw1aePhfifxdGATs,26
+bq_fake_pii_table_creator-0.0.4.dist-info/RECORD,,
