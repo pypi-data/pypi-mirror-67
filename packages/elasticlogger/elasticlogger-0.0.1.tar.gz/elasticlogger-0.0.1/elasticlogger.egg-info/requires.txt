@@ -1,0 +1,3 @@
+python_json_logger
+elasticsearch
+urllib3
