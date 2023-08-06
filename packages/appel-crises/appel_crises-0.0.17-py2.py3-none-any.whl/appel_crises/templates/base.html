@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    {% block head %}
+        <title>Appel crises</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="{% static "appel_crises/css/appel-crises.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static "appel_crises/css/responsive.css" %}"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Passion+One:400,700&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% endblock %}
+    <meta property="og:title" content="{% if og_title %}{{ og_title }}{% else %}Appel Commun à la Reconstruction{% endif %}">
+    <meta property="og:description" content="{% if og_description %}{{ og_description }}{% else %}Demandons aux décideurs de ne pas faire les mêmes choix qu’hier : reconstruisons notre société sur des impératifs écologiques, sanitaires et sociaux ! Signez l'Appel commun à la reconstruction.{% endif %}">
+    <meta property="og:image" content="{% if og_image %}{{ og_image }}{% else %}{% static "appel_crises/img/appel_commun_a_la_reconstruction.png" %}{% endif %}">
+    <meta property="og:url" content="{% if og_url %}{{ og_url }}{% else %}https://www.appel-commun-reconstruction.org/{% endif %}">
+
+    {% block extra_head %}
+    {% endblock %}
+</head>
+<body>
+
+{% block content %}{% endblock %}
+
+<footer class="flex-row" style="justify-content: center">
+    <div class="mention flex-col  flex-sb">
+        <a href="{% url 'legal-notice' %}"><p>Mentions légales</p></a>
+    </div>
+    <div class="contact flex-col flex-sb" style="margin-left: 10vw">
+        <a href="mailto:press@appel-commun-reconstruction.org"><p>Contact presse</p></a>
+    </div>
+</footer>
+
+{% block extra_js %}{% endblock %}
+
+</body>
+</html>
