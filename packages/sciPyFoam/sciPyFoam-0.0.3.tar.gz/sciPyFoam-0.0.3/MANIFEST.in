@@ -1,0 +1,13 @@
+-- OpenFoam_py
+  -- sciPyFoam
+      -- __init__.py
+      -- figure.py
+      -- readvtk.py
+      -- postProcessing
+        -- cuttingPlane.py
+        -- foamToVTK.py
+      -- stylelib
+        -- default.mplstyle
+  -- README.md
+  -- requirements.txt
+  -- LICENSE
