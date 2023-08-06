@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DirectPlayHelper
+Version: 0.0.1.1
+Summary: Server and Client application for DirectPlaycommunication
+Home-page: https://github.com/kevincar/DirectPlayHelper
+Author: Keivn Davis
+Author-email: kevincarrolldavis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Longer description
+
+
