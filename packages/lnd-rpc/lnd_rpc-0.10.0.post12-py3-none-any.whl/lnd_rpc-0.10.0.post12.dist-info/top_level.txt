@@ -1,0 +1,11 @@
+autopilotrpc
+chainrpc
+invoicesrpc
+lnclipb
+lnrpc
+routerrpc
+signrpc
+verrpc
+walletrpc
+watchtowerrpc
+wtclientrpc
