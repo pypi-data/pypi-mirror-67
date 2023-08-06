@@ -1,0 +1,9 @@
+README.md
+setup.py
+pip_grab/__init__.py
+pip_grab/__main__.py
+pip_grab/pip_grab.py
+pip_grab.egg-info/PKG-INFO
+pip_grab.egg-info/SOURCES.txt
+pip_grab.egg-info/dependency_links.txt
+pip_grab.egg-info/top_level.txt

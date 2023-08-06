@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pip_grab
+Version: 1.0.0.6
+Summary: Grabs installed packages in pip every N seconds
+Home-page: https://QuantumNovice.github.io/pip-grab
+Author: QuantumNovice
+Author-email: portabl3lapy@gmail.com
+License: MIT
+Description: # pip-grab         ![Python package](https://github.com/QuantumNovice/pip-grab/workflows/Python%20package/badge.svg)
+        
+        https://pypi.org/project/pip-grab/#description
+        https://github.com/QuantumNovice/pip-grab
+        
+        # Installation
+        `pip install pip-grab`
+        
+        # Motivation
+        `pip install this`, `pip install that`, `conda install this`, `conda install that`
+        and you never know when pip will break conda environment or conda will break pip.
+        That's why it's better to keep backup of your installed packages so you can revert
+        changes.
+        
+        
+        # Usage
+        ```cmd
+        py -m pip_grab.pip_grab [-h] [-s] [-g] [-t TICKER]
+        
+        Grabs currently installed pip packages.
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -s, --save            Save packages
+          -g, --grab            Display packages
+          -t TICKER, --ticker TICKER
+                                Save installed packages after N seconds
+        ```
+        
+        ```python
+        from pip_grab import pip_grab
+        pip_grab.ticker(60000)
+        ```
+        
+        # Examples
+        `py pip_grab.py --ticker 590000`
+        
+        # Output
+        ```cmd
+        [+] Loop Started
+        [+] Enivronment grabs after every 2.7314814814814814 hours
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
