@@ -1,0 +1,14 @@
+envbox/__init__.py,sha256=ohvHJhVYWs6C5JvEbLhDL8Bow_FVWtfiTcrbumcjGhU,217
+envbox/base.py,sha256=qWd6yVX_rCQ8zZ5hLkcESVhWTXfg0aYRwru1gGNiwvY,3800
+envbox/cli.py,sha256=4gZINF_NCaNjUga1OItyPlK4u1RgD8Dh64vebmkOOXc,732
+envbox/detectors.py,sha256=YpcN__ny8qIx3juzeVvl-yidZiyaJpNxGSMnJgr4MJE,1475
+envbox/envs.py,sha256=yvRsrQzl-PLZIoDfPgI2-VXevagE4c3cSVVrbZMVNlE,7396
+envbox/settings.py,sha256=qQn8-QREXjbZ6edks4ku9LvvZxgVZGKm_TKe8PX5APk,1994
+envbox/utils.py,sha256=Y09RaQ2q9z9nYLYB9Td8k0YUDjMjpiWYROJCsrTfRUw,1957
+envbox-1.2.0.dist-info/AUTHORS,sha256=IBhQT3yATKN8ExQomp6GiG6F1adRh-edEFd4CjybJLk,177
+envbox-1.2.0.dist-info/LICENSE,sha256=Xy2ktiOQyJOTrAAH-fe4YyVSNS-W5_zMmcPL5bLAT6k,1499
+envbox-1.2.0.dist-info/METADATA,sha256=DAU9XKeSIxvFbMhYn2fte-BUFsGIf78tkwlJOr2ouLE,2809
+envbox-1.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+envbox-1.2.0.dist-info/entry_points.txt,sha256=AUZ4c7MCorm0q8AQ-1lvd2KMO-vLXZuhUi12zkhBJjQ,44
+envbox-1.2.0.dist-info/top_level.txt,sha256=1eXkSRuezXdEZne3j2EdrsBJZwXcFjqFEIcvWHJkAZY,7
+envbox-1.2.0.dist-info/RECORD,,
