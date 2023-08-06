@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/data_catalog_dcat_validator/__init__.py
+src/data_catalog_dcat_validator/errors.py
+src/data_catalog_dcat_validator.egg-info/PKG-INFO
+src/data_catalog_dcat_validator.egg-info/SOURCES.txt
+src/data_catalog_dcat_validator.egg-info/dependency_links.txt
+src/data_catalog_dcat_validator.egg-info/requires.txt
+src/data_catalog_dcat_validator.egg-info/top_level.txt
+src/data_catalog_dcat_validator/models/__init__.py
+src/data_catalog_dcat_validator/models/dataset.py
+src/data_catalog_dcat_validator/models/dcat.py
+src/data_catalog_dcat_validator/validators/__init__.py
+src/data_catalog_dcat_validator/validators/base.py
+src/data_catalog_dcat_validator/validators/validators.py
