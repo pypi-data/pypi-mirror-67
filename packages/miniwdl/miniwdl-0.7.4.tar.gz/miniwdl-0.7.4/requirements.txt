@@ -1,0 +1,12 @@
+# Packages needed for miniwdl to run in common use. Additional packages needed
+# for miniwdl development are listed in requirements.dev.txt.
+setuptools
+lark-parser==0.8.5
+docker>=3.4.0
+argcomplete~=1.11.0
+pygtail~=0.11.0
+coloredlogs~=11.0
+python-json-logger~=0.1.11
+importlib-metadata
+regex
+xdg
