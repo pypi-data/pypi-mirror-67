@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: assert-info
+Version: 0.1.0
+Summary: A tool for fixing bare assert statements
+Home-page: https://gitlab.com/broster/assert-info
+Author: Samuel Broster
+Author-email: s.h.broster+gitlab@pm.me
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: asttokens (>=2.0.4,<3.0.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Project-URL: Documentation, https://gitlab.com/broster/assert-info
+Project-URL: Repository, https://gitlab.com/broster/assert-info
