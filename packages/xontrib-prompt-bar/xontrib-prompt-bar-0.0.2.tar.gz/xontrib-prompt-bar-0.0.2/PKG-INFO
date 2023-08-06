@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: xontrib-prompt-bar
+Version: 0.0.2
+Summary: The bar theme for xonsh shell.
+Home-page: https://github.com/anki-code/xontrib-prompt-bar
+Author: anki
+Author-email: author@example.com
+License: BSD
+Project-URL: Documentation, https://github.com/anki-code/xontrib-prompt-bar/blob/master/README.md
+Project-URL: Code, https://github.com/anki-code/xontrib-prompt-bar
+Project-URL: Issue tracker, https://github.com/anki-code/xontrib-prompt-bar/issues
+Description: The bar theme for [xonsh shell](https://xon.sh).
+        
+        ## Install
+        ```
+        xpip install -U xontrib-prompt-bar
+        echo 'xontrib load prompt_bar' >> ~/.xonshrc
+        # Reload xonsh
+        ```
+        
+        ## Appearence
+        <p align="center">  
+          <a href="https://asciinema.org/a/osSEzqnmH9pMYEZibNe2K7ZL7" target="_blank"><img src="https://asciinema.org/a/osSEzqnmH9pMYEZibNe2K7ZL7.svg"></a><br>
+        </p>
+        
+        ## Help wanted
+        It will be great if it will be reimplemented as shows in awesome [example from Jonathan Slenders](https://github.com/prompt-toolkit/python-prompt-toolkit/blob/master/examples/prompts/fancy-zsh-prompt.py). 
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
