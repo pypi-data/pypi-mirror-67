@@ -1,0 +1,9 @@
+README.md
+setup.py
+jsonbin/__init__.py
+jsonbin.egg-info/PKG-INFO
+jsonbin.egg-info/SOURCES.txt
+jsonbin.egg-info/dependency_links.txt
+jsonbin.egg-info/not-zip-safe
+jsonbin.egg-info/requires.txt
+jsonbin.egg-info/top_level.txt

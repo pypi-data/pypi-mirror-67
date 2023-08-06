@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: jsonbin
+Version: 1.0.0
+Summary: A python library for https://jsonbin.marcusweinberger.repl.co/
+Home-page: https://github.com/AgeOfMarcus/jsonbin
+Author: AgeOfMarcus
+Author-email: marcus@marcusweinberger.com
+License: UNKNOWN
+Description: # jsonbin-client
+        
+        ## Installation
+            pip install jsonbin-client
+        
+        ## Usage
+            import jsonbin
+        
+            client = jsonbin.Client("YOUR_TOKEN_HERE") # use jsonbin.generate() or custom token
+        
+            client.store("key", "hello world") # supports any data type - including raw binary data
+        
+            client.retrieve("key") # returns "hello world"
+        
+            client.delete("key")
+        
+        
+Platform: UNKNOWN
