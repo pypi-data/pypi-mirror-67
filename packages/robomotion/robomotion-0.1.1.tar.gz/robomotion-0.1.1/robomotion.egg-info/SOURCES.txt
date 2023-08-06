@@ -1,0 +1,6 @@
+README.md
+setup.py
+robomotion.egg-info/PKG-INFO
+robomotion.egg-info/SOURCES.txt
+robomotion.egg-info/dependency_links.txt
+robomotion.egg-info/top_level.txt
