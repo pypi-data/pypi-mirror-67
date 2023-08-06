@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aws-access
+Version: 1.0.1
+Summary: This package is used to get temporary token for aws access
+Home-page: https://bitbucket-eng-sjc1.cisco.com/bitbucket/scm/con/hyperloop.git
+Author: Rajib Deb
+Author-email: rajdeb@cisco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4 (==4.8.2)
+Requires-Dist: jinja2
+Requires-Dist: configparser
+Requires-Dist: boto
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: awscli
+
+# GET AWS ACCESS
+This module integrates with DUO MFA to get temporary access for aws
+
+
