@@ -1,0 +1,7 @@
+setup.py
+py11/__init__.py
+py11.egg-info/PKG-INFO
+py11.egg-info/SOURCES.txt
+py11.egg-info/dependency_links.txt
+py11.egg-info/requires.txt
+py11.egg-info/top_level.txt

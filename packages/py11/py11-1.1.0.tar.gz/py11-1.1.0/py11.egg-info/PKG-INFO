@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: py11
+Version: 1.1.0
+Summary: Provide a Python3 interface for Pybind11
+Home-page: http://cct.lsu.edu/~sbrandt/
+Author: Steven R. Brandt
+Author-email: steven@stevenrbrandt.com
+License: LGPL
+Description: Provide a Python3 interface for Pybind11
+Platform: UNKNOWN
