@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_doppiavi/Binomialdistribution.py
+distributions_doppiavi/Gaussiandistribution.py
+distributions_doppiavi/Generaldistribution.py
+distributions_doppiavi/__init__.py
+distributions_doppiavi.egg-info/PKG-INFO
+distributions_doppiavi.egg-info/SOURCES.txt
+distributions_doppiavi.egg-info/dependency_links.txt
+distributions_doppiavi.egg-info/not-zip-safe
+distributions_doppiavi.egg-info/top_level.txt
