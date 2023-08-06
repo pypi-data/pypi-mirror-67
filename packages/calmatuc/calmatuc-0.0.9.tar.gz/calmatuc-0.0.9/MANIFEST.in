@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include calmatuc *.html *.txt *.xml *.po *.mo *.js
