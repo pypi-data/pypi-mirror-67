@@ -1,0 +1,15 @@
+lipn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lipn/unsupervised/BC_Clust.py,sha256=XcWBQRxaSwFMxwljufp0kZW6LvUorWS3wWBLOxG52jo,3988
+lipn/unsupervised/DS2L_SOM.py,sha256=uq5Z_zM-z2v7FC0djaUTiMyThIURTZwJF0Upr4btgaE,2816
+lipn/unsupervised/StreamBarycentric.py,sha256=0hVtuJB7-WHoL3Ilq_fmYUQlW_x4c8QdqjMeELaqlHU,13123
+lipn/unsupervised/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unsupervised/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unsupervised/test_BC_Clust.py,sha256=UatfPaWLOi9dxf-ftCcqrnm1yxvlZpoLh5V6--UtX8s,1795
+test/unsupervised/test_DS2L_SOM.py,sha256=rb6D2F3k83kBmE2ojy2ggOwh_KlP8Z91cT5Dk4MeQNQ,1595
+test/unsupervised/test_StreamBarycentric.py,sha256=lM9nQDcqn8HmflRlrf4U-pRpeTfPTb1QVpq6W7_Rbe4,1126
+lipn_ml-0.1.0.dist-info/LICENSE,sha256=ZwDdbERd9IFmRUawXTgEYvm7zNa88mW0zoM8zzjrJck,1114
+lipn_ml-0.1.0.dist-info/METADATA,sha256=a4oLTPb4stjn3RhkgolV_7DZz32RXEWzX3Wu-N5Y860,233
+lipn_ml-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lipn_ml-0.1.0.dist-info/top_level.txt,sha256=evc9APjhDcupv_SglAfWS7JHsjWK-kSiYSqyKGXzC-s,10
+lipn_ml-0.1.0.dist-info/RECORD,,
