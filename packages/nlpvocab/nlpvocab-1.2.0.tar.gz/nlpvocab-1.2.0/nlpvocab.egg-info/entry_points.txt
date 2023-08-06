@@ -1,0 +1,4 @@
+[console_scripts]
+nlpvocab-chars = nlpvocab.cli:count_chars
+nlpvocab-words = nlpvocab.cli:count_words
+
