@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: yjsnpy
+Version: 0.1
+Summary: A Python implement for INM Universe
+Home-page: https://github.com/KumaTea/yjsnpy
+Author: KumaTea
+Author-email: kumatea@protonmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: yjsnpy,yjsnpi,inm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
