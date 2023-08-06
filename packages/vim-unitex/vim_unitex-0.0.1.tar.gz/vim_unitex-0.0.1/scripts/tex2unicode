@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+
+import sys
+from vim_unitex import *
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        raise ValueError("Expect exactly one argument")
+    arg = sys.argv[1]
+    larg = arg.lower()
+    if larg == "rt":
+        replacements_table()
+    elif larg == "st":
+        subsuperscripts_table()
+    elif larg == "ct":
+        combiningmarks_table()
+    else:
+        result = replace(arg)
+        print(result, end='')

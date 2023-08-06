@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: vim_unitex
+Version: 0.0.1
+Summary: Replace Latex snippets with unicode
+Home-page: http://bitbucket.com/ddrake999/vim_unitex
+Author: Dow Drake
+Author-email: dowdrake@msn.com
+License: MIT
+Description: # README #
+        
+        ### Purpose ###
+        
+        Latex to Unicode conversion intended for use in Vim
+        
+        ### Set up ###
+        
+        Depending on your Python3 installation, one of these should work
+        assuming that the directory where Pip installs executable files
+        (e.g. in Linux: `$HOME/.local/bin`) is in your `$PATH`
+        
+        ```
+        pip3 install --user vim_unitex
+        pip install vim_unitex
+        ```
+        
+        Add this (or something similar to suit your taste) to your .vimrc:
+        
+        ```vimscript
+        function Unitex()
+            let s = input("Latex: ")
+            return system('tex2unicode "' . s . '"')
+        endfunction
+        
+        inoremap <leader>t <C-R>=Unitex()<C-M>
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

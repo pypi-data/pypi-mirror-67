@@ -1,0 +1,9 @@
+README.md
+setup.py
+scripts/tex2unicode
+vim_unitex/__init__.py
+vim_unitex/unitex.py
+vim_unitex.egg-info/PKG-INFO
+vim_unitex.egg-info/SOURCES.txt
+vim_unitex.egg-info/dependency_links.txt
+vim_unitex.egg-info/top_level.txt
