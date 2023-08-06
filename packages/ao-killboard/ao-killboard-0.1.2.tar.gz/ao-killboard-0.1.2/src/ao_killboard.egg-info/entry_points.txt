@@ -1,0 +1,3 @@
+[console_scripts]
+ao_killboard.py = antze.ao_killboard:_entrypoint_main
+
