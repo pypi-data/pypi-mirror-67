@@ -1,0 +1,6 @@
+Django>=1.11
+django-model-utils
+simplejson
+django-crum
+edx-celeryutils
+djangorestframework
