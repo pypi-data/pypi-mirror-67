@@ -1,0 +1,13 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+aepp/__init__.py
+aepp/adobeio_auth.py
+aepp/config.py
+aepp/queryservice.py
+aepp/schema.py
+aepp.egg-info/PKG-INFO
+aepp.egg-info/SOURCES.txt
+aepp.egg-info/dependency_links.txt
+aepp.egg-info/top_level.txt
