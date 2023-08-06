@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+Aggregator/Aggregator.py
+Aggregator/__init__.py
+Aggregator.egg-info/PKG-INFO
+Aggregator.egg-info/SOURCES.txt
+Aggregator.egg-info/dependency_links.txt
+Aggregator.egg-info/requires.txt
+Aggregator.egg-info/top_level.txt
