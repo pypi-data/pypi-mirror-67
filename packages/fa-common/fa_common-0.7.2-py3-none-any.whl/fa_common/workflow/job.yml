@@ -1,0 +1,19 @@
+stages:
+  - Run Job
+run-job:
+  stage: Run Job
+  image: <DOCKER_IMAGE>
+  tags:
+    - csiro-swarm
+  variables:
+    JOB_PARAMETERS: <PARAMS_JSON>
+    FILE_REFS: <FILE_REFS_JSON>
+  script:
+    - run-job --params-json "$JOB_PARAMETERS" --files-json "$FILE_REFS" --input input --output "output"
+    - ls output
+  artifacts:
+    paths:
+      - output/*
+    expire_in: 1 week
+  only:
+    - api
