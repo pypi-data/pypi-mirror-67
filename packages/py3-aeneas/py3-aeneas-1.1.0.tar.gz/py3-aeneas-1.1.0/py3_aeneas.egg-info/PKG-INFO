@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: py3-aeneas
+Version: 1.1.0
+Summary: py3-aeneas is a fork of aeneas
+Home-page: https://github.com/akki2825/aeneas
+Author: Akhilesh
+Author-email: akki.kr94@gmail.com
+License: GNU Affero General Public License v3 (AGPL v3)
+Description: aeneas
+        ======
+        
+        **py3-aeneas** is a fork of **aeneas** that supports python3.6+.
+        
+        -  Version: 1.0.0
+        -  Date: 2020-05-03
+        -  License: the GNU Affero General Public License Version 3 (AGPL v3)
+        -  Contact: akki.kr94@gmail.com
+        
+        Acknowledgments
+        ---------------
+        
+        Many thanks to **Nicola Montecchio**, who suggested using MFCCs and DTW,
+        and co-developed the first experimental code for aligning audio and
+        text.
+        
+        **Paolo Bertasi**, who developed the APIs and Web application for
+        ReadBeyond Sync, helped shaping the structure of this package for its
+        asynchronous usage.
+        
+        **Chris Hubbard** prepared the files for packaging aeneas as a
+        Debian/Ubuntu ``.deb``.
+        
+        **Daniel Bair** prepared the ``brew`` formula for installing **aeneas**
+        and its dependencies on Mac OS X.
+        
+        **Daniel Bair**, **Chris Hubbard**, and **Richard Margetts** packaged
+        the installers for Mac OS X and Windows.
+        
+        **Firat Ozdemir** contributed the ``finetuneas`` HTML/JS code for fine
+        tuning sync maps in the browser.
+        
+        **Willem van der Walt** contributed the code snippet to output a sync
+        map in TextGrid format.
+        
+        **Chris Vaughn** contributed the MacOS TTS wrapper.
+        
+        All the mighty `GitHub
+        contributors <https://github.com/readbeyond/aeneas/graphs/contributors>`__,
+        and the members of the `Google
+        Group <https://groups.google.com/d/forum/aeneas-forced-alignment>`__.
+        
+Keywords: AUD,AWS Polly TTS API,CSV,DTW,EAF,ELAN,EPUB 3 Media Overlay,EPUB 3,EPUB,Festival,JSON,MFCC,Mel-frequency cepstral coefficients,Nuance TTS API,ReadBeyond Sync,ReadBeyond,SBV,SMIL,SRT,SSV,SUB,TGT,TSV,TTML,TTS,TextGrid,VTT,XML,aeneas,audio/text alignment,dynamic time warping,eSpeak,eSpeak-ng,espeak,espeak-ng,festival,ffmpeg,ffprobe,forced alignment,media overlay,rb_smil_emulator,speech to text,subtitles,sync,synchronization,text to speech,text2wave,tts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Printing
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Provides-Extra: full
+Provides-Extra: nopillow
+Provides-Extra: boto3
+Provides-Extra: pillow
+Provides-Extra: requests
+Provides-Extra: tgt
