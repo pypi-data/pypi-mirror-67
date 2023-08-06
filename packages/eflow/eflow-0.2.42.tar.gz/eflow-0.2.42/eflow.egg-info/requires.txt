@@ -1,0 +1,15 @@
+numpy
+matplotlib
+scipy
+seaborn
+jupyterlab
+pandas
+missingno
+sklearn
+kneed
+tqdm
+python-dateutil
+scikit-plot
+ipywidgets
+nltk
+ipython_blocking
