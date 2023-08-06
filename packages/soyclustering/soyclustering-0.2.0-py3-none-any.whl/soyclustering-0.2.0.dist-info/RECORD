@@ -1,0 +1,11 @@
+soyclustering/__init__.py,sha256=u2fhpirOjpAp1g-Pac8ZqgG2sLdTcDLj3bl6gpbFjzI,375
+soyclustering/_keyword.py,sha256=BY0WpCin2Ey2IYVWt5mt39mmocA1x2zkuRuo9hg25BI,3021
+soyclustering/_kmeans.py,sha256=65-Uhq6qh8CVfLOR9c2fPL2tZQXd1Wqikt6rBRbIiQw,23515
+soyclustering/_postprocess.py,sha256=NSOpAQ0yyJjqN2XLtIuxl7a9VDYgaa9_uCw3R_7i5Lw,4588
+soyclustering/_utils.py,sha256=TnED7NDTOaqfIIOVFFzQJEVN-SMBm1eL58RU6ili1Gk,737
+soyclustering/_visualize.py,sha256=5VL0LlKv04FGOX9TfmXro3Ik1VQvoDXQ_E7Jox343lU,4241
+soyclustering-0.2.0.dist-info/LICENSE,sha256=w7wf2UFIwoSF6Lqx1aKO28jjhw8r2b5xJ8aMi3oOpd8,35126
+soyclustering-0.2.0.dist-info/METADATA,sha256=k-27FYmG6hqGL4RHy8SnZzBy2OzuW8Yv6OPYD3hUEss,9730
+soyclustering-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+soyclustering-0.2.0.dist-info/top_level.txt,sha256=y3KwG0JZXNFH3gURoYbeVR52m8xLksMxFzNKAoYeKPE,14
+soyclustering-0.2.0.dist-info/RECORD,,
