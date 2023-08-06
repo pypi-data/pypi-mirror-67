@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: apexapi
+Version: 0.0.0.post12
+Summary: Apex is a modern microservice framework written in Python.
+Home-page: https://gitlab.com/apexapi/apexapi
+Author: Dan Sikes
+Author-email: dansikes7@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://gitlab.com/dsikes/apex
+Description: UNKNOWN
+Keywords: python,framework,microservices,modern,api
+Platform: UNKNOWN
