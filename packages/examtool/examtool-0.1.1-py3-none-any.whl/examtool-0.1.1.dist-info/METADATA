@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: examtool
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Rahul Arya
+Author-email: rahularya@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: pikepdf
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: fpdf
+Requires-Dist: cryptography
+
+UNKNOWN
+
+
