@@ -1,0 +1,9 @@
+taskcontrol/__init__.py,sha256=JwPXlPX5AWA9WXhNEg77LchU9teMLS3BZhAklimh3ik,33
+taskcontrol/bases.py,sha256=1oXVALxCFVROe1_t5nyTrFzWRIjxL1QPUazXboaPJI8,12000
+taskcontrol/pubsub.py,sha256=1jRPA_50HX3ocJ9YSTfGeFOtaujqxOcAAf4b23KIadw,866
+taskcontrol/workflow.py,sha256=oXE2DcUc2VKn-pBWj4iL7vxDPzh37F8BgFJ5z0akOJ8,3572
+taskcontrol-1.1.2.dist-info/LICENSE,sha256=foVqzek4RJjv_eoY_IiwHNTUyPctyWJC_kL2lT-5p30,1068
+taskcontrol-1.1.2.dist-info/METADATA,sha256=aoV24On0zcR5hVAEkfSVY5vraArkiyfV-4TePGb7Gs0,6367
+taskcontrol-1.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+taskcontrol-1.1.2.dist-info/top_level.txt,sha256=VXqIf1Gh6z5jm5LUtEmmpLlEhrgJGJS2apf3XT1n0GA,12
+taskcontrol-1.1.2.dist-info/RECORD,,
