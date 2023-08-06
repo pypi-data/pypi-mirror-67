@@ -1,0 +1,3 @@
+[console_scripts]
+nicevk=nicevk:cli.run
+
