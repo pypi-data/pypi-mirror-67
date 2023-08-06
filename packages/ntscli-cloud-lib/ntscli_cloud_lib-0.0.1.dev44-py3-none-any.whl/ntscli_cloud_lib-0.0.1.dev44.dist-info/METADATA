@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ntscli-cloud-lib
+Version: 0.0.1.dev44
+Summary: ntscli cloud library
+Home-page: https://stash.corp.netflix.com/projects/~DAVIDB/repos/ntscli_cloud_lib/browse
+Author: TSC
+Author-email: tsc-team@netflix.com
+License: UNKNOWN
+Keywords: ntscli_cloud_lib
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: arrow
+Requires-Dist: bugsnag
+Requires-Dist: kaiju-mqtt-py
+Provides-Extra: dev
+Requires-Dist: behave ; extra == 'dev'
+Requires-Dist: bugsnag ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: invoke ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: tox ; extra == 'test'
+
+## ntscli cloud library
+
+The ntscli cloud proxy service library handler endpoint (any other buzzwords?) is a service to proxy commands to and from automators
+and other RAE based services that communicate over MQTT. This library represents the python contract for that service. 
+
+In very general terms, the service listens for commands on the AWS IoT instance we maintain and proxies traffic over bridged topics. This 
+makes it a single point of contact for many potential services. We plan to implement the functionality described in the features directory.
+
+Again, in very general terms this means:
+
+* identifying devices to run tests on
+* getting, running, and cancelling test plans on specified devices (importantly, spanning across RAEs)
+* monitoring progress of test plans on devices and/or RAEs, including a support script
+* collecting results for test plans, both running now and in the recent past
+
+For specifics, please refer to the files in features/*.feature, especially as the features are implemented and therefore evolve.
+
