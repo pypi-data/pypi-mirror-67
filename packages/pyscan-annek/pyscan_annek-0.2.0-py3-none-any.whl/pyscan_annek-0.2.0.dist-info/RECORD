@@ -1,0 +1,10 @@
+pyscan_annek/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscan_annek/cli.py,sha256=heUK0OyOkHkgKQflnMaie75x9ftGxGpA-_RyY2gaAKE,5828
+pyscan_annek/pymail.py,sha256=r_krDFEKW4h9XzLJws_YDidq2ijlwjjDuuTuGlDBmFA,1154
+pyscan_annek/shelf.py,sha256=H2usdFgq3V_jQRGBbfF6p22IFcMQ1ERDKZS-95sl2Ws,374
+pyscan_annek/sweep.py,sha256=j_LFtIUob6X4bfuDjf9C-9IUI7si4Fd8PCtNPhHkCL8,1313
+pyscan_annek-0.2.0.dist-info/entry_points.txt,sha256=FSK2PB5oJ5z9vtXA09IcLvuz5F7QbvaBV5ULoWymW54,48
+pyscan_annek-0.2.0.dist-info/LICENSE,sha256=cHLuYpHMvDqy7fWv6jF81bOncBoDiursFw3Q4yxdksE,1060
+pyscan_annek-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pyscan_annek-0.2.0.dist-info/METADATA,sha256=DElCZpByyZ8TGb9IoEAy6puXPpLauITDVt20eQKwl7E,471
+pyscan_annek-0.2.0.dist-info/RECORD,,
