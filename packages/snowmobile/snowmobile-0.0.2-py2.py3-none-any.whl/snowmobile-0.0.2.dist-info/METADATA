@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: snowmobile
+Version: 0.0.2
+Summary: A set of modules for streamlined querying, data-loading, and communication with Snowflake Database
+Home-page: https://github.com/GEM7318/Snowmobile
+Author: Grant E Murray
+Author-email: gmurray203@gmail.com
+License: mit
+Project-URL: Documentation, https://github.com/GEM7318/Snowmobile/README.md
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# SnowMobile
+
+A set of modules for streamlined querying, data-loading, and communication with Snowflake Database
+
+
+## Description
+
+Each module is built to address a common interaction with the Snowflake database, with the
+primary focus being around streamlining the querying of data and loading of data into Snowflake from
+Python scripts.
+
+
+
+
+
