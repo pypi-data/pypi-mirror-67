@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_selenium_pkg.egg-info/PKG-INFO
+easy_selenium_pkg.egg-info/SOURCES.txt
+easy_selenium_pkg.egg-info/dependency_links.txt
+easy_selenium_pkg.egg-info/top_level.txt
+easyselenium/__init__.py
+easyselenium/easyselenium.py
