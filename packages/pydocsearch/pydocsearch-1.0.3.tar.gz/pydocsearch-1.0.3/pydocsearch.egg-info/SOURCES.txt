@@ -1,0 +1,9 @@
+README.rst
+pydocsearch.py
+setup.py
+pydocsearch.egg-info/PKG-INFO
+pydocsearch.egg-info/SOURCES.txt
+pydocsearch.egg-info/dependency_links.txt
+pydocsearch.egg-info/entry_points.txt
+pydocsearch.egg-info/requires.txt
+pydocsearch.egg-info/top_level.txt
