@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cmmparser-aemillius
+Version: 0.0.3
+Summary: parsers for node dump
+Home-page: https://github.com/aemillius/cmmparser1
+Author: Rajender Singh
+Author-email: rajranasingh@rediffmail.com
+License: UNKNOWN
+Description: this pkg will support in parsing of huge data.
+        it will disect the dump into multiple files for each command executed respectively.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
