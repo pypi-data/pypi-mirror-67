@@ -1,0 +1,12 @@
+pyupurs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyupurs/stateless_file_ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyupurs/stateless_file_ops/auditing_ops.py,sha256=AlCoG_RZxVSrJktj_HsTqsgXSvkwmh5A78xkWK1_Qy4,1301
+pyupurs/stateless_file_ops/structured_ops.py,sha256=k2X9bedrgpab-5uYy7QpWKbmQRJ6afi7svXAg3lfcpk,1249
+stateless_file_ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stateless_file_ops/auditing_ops.py,sha256=AlCoG_RZxVSrJktj_HsTqsgXSvkwmh5A78xkWK1_Qy4,1301
+stateless_file_ops/structured_ops.py,sha256=k2X9bedrgpab-5uYy7QpWKbmQRJ6afi7svXAg3lfcpk,1249
+pyupurs-0.0.3.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pyupurs-0.0.3.dist-info/METADATA,sha256=_rYRMZAc4zazuNFctIoHkhDEpLo9VwzF9DF7oEpOsWU,777
+pyupurs-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyupurs-0.0.3.dist-info/top_level.txt,sha256=wk50gAXIxx3NUskgXnePws2rANTscpdM0jvc0HHsiFQ,8
+pyupurs-0.0.3.dist-info/RECORD,,
