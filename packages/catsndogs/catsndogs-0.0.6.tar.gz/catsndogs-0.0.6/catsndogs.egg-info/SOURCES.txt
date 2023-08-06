@@ -1,0 +1,14 @@
+README.md
+setup.py
+catsndogs/__init__.py
+catsndogs/data.py
+catsndogs/processing.py
+catsndogs/pytorch.py
+catsndogs/test.py
+catsndogs/training.py
+catsndogs.egg-info/PKG-INFO
+catsndogs.egg-info/SOURCES.txt
+catsndogs.egg-info/dependency_links.txt
+catsndogs.egg-info/requires.txt
+catsndogs.egg-info/top_level.txt
+test/test_download.py
