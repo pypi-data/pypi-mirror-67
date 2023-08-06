@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: zobepy
+Version: 0.0.1a1
+Summary: zobepy: unsorted python library made by zobe
+Home-page: https://git.zobe.jp/zobe/zobepy
+Author: zobe
+Author-email: zobe-dev@zobe.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development
+Requires-Python: >= 3.6
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+
+
+zobepy
+======
+
+zobepy - zobe's unsorted library.
+
+This is an unsorted library made by zobe.
+
+
+usage
+=====
+
+
+pip
+---
+
+    pip install zobepy
+
+
+import
+------
+
+    import zobepy
+
+and use
+
+    efb = zobepy.EyeFriendlyBytes(3000)
+    print(efb.get())
+
+
+test
+====
+
+unittest
+
+    python3 -m unittest discover
+
+tox
+
+    tox
+
+watch htmlcov/index.html for coverage after tox
+
+
+build document
+==============
+
+    cd docs
+    make html
+
+
