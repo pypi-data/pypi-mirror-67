@@ -1,0 +1,3 @@
+wxPython<=4.0.7.post2
+PyPubSub
+Pygments
