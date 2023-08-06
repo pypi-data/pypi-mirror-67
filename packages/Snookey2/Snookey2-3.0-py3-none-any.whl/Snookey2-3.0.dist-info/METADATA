@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: Snookey2
+Version: 3.0
+Summary: Stream on RPAN on PC easily using OBS and this module!
+Home-page: https://github.com/IOnlyPlayAsDrift/Snookey2
+Author: IOnlyPlayAsDrift
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: pypresence
+
+
+### IMPORTANT:  
+### This application is not a virus and will not gain access or harm your computer, Reddit account, or anything else. Snookey2 is completely open source so you can check the .py file for all the code and see that there's nothing harmful. None of this data is stored, because I don't even know how to do that. I wouldn't even do it anyways if I knew how cause that would be really evil and ruin my reputation forever... Anyways, thank you for understanding, and have fun streaming! 
+
+Hi!
+
+This application might bring up Windows SmartScreen and I have no way to avoid that, like the notice says above there's nothing bad in this program. I use this program myself and many other Redditors do without issues.
+
+This application was made by u/Spikeedoo and was updated by u/IOnlyPlayAsDrif!
+
+App icon was made by Reddit.
+
+[Join the Unofficial RPAN Discord Server for Snookey2 Support/Reporting Bugs/Suggestions/and just talking to other streamers/viewers!](https://discord.gg/3GcApfT)
+
+Thank you for downloading Snookey!
+
+Added:
+- Discord Rich Presence
+- More text in general
+- More descriptive and better looking text
+- Finally figured out how to make it a module lmao
+- Auto closes when getting a stream spot is successful after 1 minute
+- Retries every 2 seconds if requesting a stream spot fails with error message
+- Made the icon of the app the RPAN logo!
+
+(Check the Releases tab of this repo to see the full list of changes.)
+
+[Original Snookey by u/Spikeedoo is here.](https://github.com/Spikeedoo/SnooKey)   
+
+[Video Tutorial on how to download and use Snookey2 is here.](https://youtu.be/Oi54fiFOoCI)
+
+The text and stuff below was originally made by u/Spikeedoo (with some modifications from me):
+
+# SnooKey2
+Some reddit users figured out a way to stream to RPAN (Reddit's livestreaming platform) from desktop streaming software 
+(like OBS).  Project SnooKey is my attempt at making this possibilty more accessible to RPAN users.
+
+## Installation  
+There's 2 ways to install Snookey2:  
+Method 1 (Recommended) - Do the pip install command listed at the top of the page!  
+Method 2 (Not really recommended unless you want the code for it) - Go to the Github page and download the .py file there!
+
+## Using SnooKey2  
+This covers Method 1 of the Installation.  
+Method 2 will not be covered here for simplicity.
+
+After doing the pip install command for Snookey2, go into command prompt and type this command:  
+snookey stream subreddit title  
+But replace subreddit with the subreddit and title with the stream title.
+
+If done correctly, this will open a link in your browser allowing you to get an access code from Reddit     
+**NOTE:** The Reddit app you are allowing access is not mine.  It is the client_id for the mobile, in this case android, Reddit app.    
+One way you can confirm that I am not BS'ing you is by looking at [your apps](https://www.reddit.com/prefs/apps/) after allowing access.  
+A third party application would normally appear here in the 'authorized applications' section with the developer's username.  This Reddit-built  
+application does not follow the same rules.   
+
+Just follow what the script says by reading the text, and follow the video tutorial or join the Discord server!  
+https://discord.gg/RZEYdn7
+
+Disclaimer: I am not liable for your stupidity.  Please be responsible and follow the [Rules](https://www.redditinc.com/policies/broadcasting-content-policy).  Cheers.  
+
+
