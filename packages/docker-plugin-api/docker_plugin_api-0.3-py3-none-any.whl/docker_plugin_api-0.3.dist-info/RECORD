@@ -1,0 +1,9 @@
+docker_plugin_api/IpamDriverEntities.py,sha256=ahqn3WEBPBsbunZ4y4TLV5QasTb8wdRv6sMODIx0QKY,784
+docker_plugin_api/NetworkDriverEntities.py,sha256=SifES-nSlfn20fKcuykJY4nRU7s5hVzW5PGK0HtAgys,3314
+docker_plugin_api/Plugin.py,sha256=ssUKHJX3spgezb1ROaeIXK6guGLuaBCYcAmQY6gk-9g,1042
+docker_plugin_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_plugin_api-0.3.dist-info/LICENSE,sha256=9ISHEMXPsZDBcOpAjNlF0sFlNrK4bbt_pdUQTrjhUCU,1548
+docker_plugin_api-0.3.dist-info/METADATA,sha256=cAmaCKvi-1ewFyiBqk8J8Rs_NIzm-sXiHHpmbAxVPi8,1037
+docker_plugin_api-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+docker_plugin_api-0.3.dist-info/top_level.txt,sha256=3g4vVEbbK4n3CyTPzyYWl_U8-m_Z4Z_aGgpBn9YXjFs,18
+docker_plugin_api-0.3.dist-info/RECORD,,

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: docker-plugin-api
+Version: 0.3
+Summary: Python interface to Docker Plugin API
+Home-page: https://github.com/jacekkow/docker-plugin-api
+Author: Jacek Kowalski
+Author-email: Jacek@jacekk.info
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+
+# Docker Plugin API in Python
+
+This module contains some abstractions to simplify creation
+of own plugins for Docker Engine.
+
+It currently contains entities for:
+
+- Plugin,
+- IpamDriver,
+- NetworkDriver.
+
+## Examples
+
+Check out following real-life plugins that utilize this package:
+
+| Plugin | Type | URL |
+| ------ | ---- | --- |
+| jacekkow/pyipam | IpamDriver | https://github.com/jacekkow/docker-plugin-pyipam |
+| jacekkow/pyveth | NetworkDriver | https://github.com/jacekkow/docker-plugin-pyveth |
+
+
