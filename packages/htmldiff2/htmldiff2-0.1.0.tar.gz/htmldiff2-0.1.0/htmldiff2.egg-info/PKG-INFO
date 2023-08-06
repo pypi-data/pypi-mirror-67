@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: htmldiff2
+Version: 0.1.0
+Summary: Diffs arbitrary HTML inline.
+Home-page: http://github.com/edsu/htmldiff2
+Author: Ed Summers
+Author-email: ehs@pobox.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
