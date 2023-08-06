@@ -1,0 +1,9 @@
+itemloaders/__init__.py,sha256=pWeCZUXUi0ZFGv4Sium6K18Me06aGLH4_ZEkp0NXFEU,7643
+itemloaders/common.py,sha256=khpuozzw70n1Xr_yGi0x7eLMPaj_0b6WddN5cfTI8Bg,466
+itemloaders/processors.py,sha256=QAJU_BiCxpE3zhxAoxXUC6fRa91zGkOtUnbVPgYopYQ,3374
+itemloaders/utils.py,sha256=UN6v7OSLuqWdQBqhh9m6hr61otjv5f1eAxqlIrLxfkE,2076
+itemloaders-0.1.dist-info/LICENSE,sha256=_TMa88y4d2u-fzF4IeXguRwqt8c0ZOd0JdUiBPe12YA,1517
+itemloaders-0.1.dist-info/METADATA,sha256=7vM9acW1c4nbNuSBBluDfH_uBXzJcUozDlmcfWBkBNQ,1132
+itemloaders-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+itemloaders-0.1.dist-info/top_level.txt,sha256=8r2IbIMBVz7V7Ljj61V2IbRlFdDKqHljKTthRr_lqck,12
+itemloaders-0.1.dist-info/RECORD,,
