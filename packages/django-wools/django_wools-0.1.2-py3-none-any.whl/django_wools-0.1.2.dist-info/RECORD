@@ -1,0 +1,7 @@
+django_wools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_wools/db.py,sha256=nmFtUYlWDBgkem_Tk9LoUGaUe8ht3CujOSQYlaB84rg,1059
+django_wools/middlewares.py,sha256=odz4MLicgio4p1696axjGDKjXYM2XZW_brky0t2J3-c,1700
+django_wools/storage.py,sha256=npj1NmF0tvDRVB6CKLK8pRnTLP_NlBKmlBNZh8WJRjY,2907
+django_wools-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_wools-0.1.2.dist-info/METADATA,sha256=8ACp4cnN5gNVkEprUFwS12d6rcDsxTvTrFBG7LRTAcg,3621
+django_wools-0.1.2.dist-info/RECORD,,
