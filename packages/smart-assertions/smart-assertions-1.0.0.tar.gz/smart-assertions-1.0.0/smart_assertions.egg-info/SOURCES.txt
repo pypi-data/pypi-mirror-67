@@ -1,0 +1,8 @@
+README.md
+setup.py
+smart_assertions/__init__.py
+smart_assertions/smart_assertions.py
+smart_assertions.egg-info/PKG-INFO
+smart_assertions.egg-info/SOURCES.txt
+smart_assertions.egg-info/dependency_links.txt
+smart_assertions.egg-info/top_level.txt
