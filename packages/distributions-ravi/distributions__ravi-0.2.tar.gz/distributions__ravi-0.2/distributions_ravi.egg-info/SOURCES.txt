@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributions_ravi.egg-info/PKG-INFO
+distributions_ravi.egg-info/SOURCES.txt
+distributions_ravi.egg-info/dependency_links.txt
+distributions_ravi.egg-info/not-zip-safe
+distributions_ravi.egg-info/top_level.txt
