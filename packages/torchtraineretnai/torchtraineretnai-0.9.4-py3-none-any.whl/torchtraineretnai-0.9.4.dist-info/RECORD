@@ -1,0 +1,15 @@
+torchtrainer/__init__.py,sha256=hhpYLotkumZzrk3_JvVGrQM7_b7uY6EHSuLwAqGhyEY,103
+torchtrainer/trainer.py,sha256=kpLFj4MvBsIxlls1xK-95ddVpgCJnXRQn4efWSsbBcM,3368
+torchtrainer/callbacks/__init__.py,sha256=CFr85PKnHx2DTidGRvyHAOyrwW2XGHLpb9bc2IR9Nr0,126
+torchtrainer/callbacks/calculateaccuracycallback.py,sha256=W5qfRd6RedZXQg_mpRr85ulNnYYpKW1FnBIlugQJoQU,1610
+torchtrainer/callbacks/calculatelosscallback.py,sha256=t_o503Is-di_gn6e-_felSqWcVm2ryzweq1NHmUzSuw,550
+torchtrainer/callbacks/plotcallback.py,sha256=ZCK857FuJQwOpmFZbMbgZrhjWPYXu3bX8IVDl5cY8LA,628
+torchtrainer/callbacks/saveparameterscallback.py,sha256=jGFNeTCgtESRdWGdC867by4lLSGlEJ8MPn6-Y7VYeEs,457
+torchtrainer/callbacks/settqdmbardescription.py,sha256=WE7_z4nWBxln-O0_dB_qX2brc8gBuDJpBqME2cCJ8PU,501
+torchtrainer/callbacks/trainingcallback.py,sha256=f4tfwrK10OzMxIK90PTX21OYRgpz_LdkJwjifuSY2nM,459
+torchtrainer/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchtrainer/utils/epochsplotter.py,sha256=wFw594uiovICE3IbeCqXrZ69kXzK95qGSukpudJwPXU,2129
+torchtraineretnai-0.9.4.dist-info/METADATA,sha256=7h9xkKkEOCHEWxuZqheg4pRnw6zeJF90zrbMlpWlyFw,857
+torchtraineretnai-0.9.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+torchtraineretnai-0.9.4.dist-info/top_level.txt,sha256=ImGmgBwz6uzfeLeAaDIoeZElfMlQUPUnkV9_LvvDAR0,13
+torchtraineretnai-0.9.4.dist-info/RECORD,,
