@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shuttle-bus
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jbw/shuttle-bus
+Author: Jason Watson
+Author-email: jbw@jbw.cc
+License: UNKNOWN
+Description: # shuttle-bus
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
