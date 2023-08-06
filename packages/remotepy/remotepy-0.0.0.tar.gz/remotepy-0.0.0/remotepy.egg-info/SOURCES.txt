@@ -1,0 +1,12 @@
+README.md
+setup.py
+remotePy/__init__.py
+remotePy/client/__init__.py
+remotePy/client/CSharp/__init__.py
+remotePy/client/JavaScript/__init__.py
+remotePy/client/Python/__init__.py
+remotePy/server/__init__.py
+remotepy.egg-info/PKG-INFO
+remotepy.egg-info/SOURCES.txt
+remotepy.egg-info/dependency_links.txt
+remotepy.egg-info/top_level.txt

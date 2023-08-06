@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: remotepy
+Version: 0.0.0
+Summary: remote Py allows Python functions to be called remotely from multiple languages including JavaScript, CSharp and Python
+Home-page: https://www.remotePy.com
+Author: Farukh Dilawar Tamboli
+Author-email: farukht@gmail.com
+License: UNKNOWN
+Description: # Remote Py
+        
+        Remote Py allows you to write python functions and run it on a server. It also provides you interfaces in multiple languages including JavaScript, CSharp and Python to call the remote python functions.
+        
+        It is a RPC mechanism built on top of Web Sockets allowing you to communicate both ways. 
+        
+        Requirements:
+        Please make sure following packages are installed.
+        numpy
+        service_identity
+        twisted
+        autobahn
+        
+        Installation instructions:
+        pip install numpy
+        pip install autobahn[twisted]
+        
+        More details coming soon ...
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
