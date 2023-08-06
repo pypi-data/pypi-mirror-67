@@ -1,0 +1,12 @@
+README.md
+setup.py
+CanvasPlus/__init__.py
+CanvasPlus/_errors.py
+CanvasPlus/canvasplus.py
+CanvasPlus/pythonBelow35.py
+CanvasPlus/templates.py
+canvasplus.egg-info/PKG-INFO
+canvasplus.egg-info/SOURCES.txt
+canvasplus.egg-info/dependency_links.txt
+canvasplus.egg-info/requires.txt
+canvasplus.egg-info/top_level.txt
