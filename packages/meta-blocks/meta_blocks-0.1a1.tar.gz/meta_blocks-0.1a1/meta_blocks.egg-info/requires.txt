@@ -1,0 +1,9 @@
+albumentations
+hydra-core<1.0,>=0.11
+hydra-colorlog
+numpy
+omegaconf<2.0,>=1.4
+Pillow
+scipy
+scikit-learn
+tensorflow==2.2.0rc3
