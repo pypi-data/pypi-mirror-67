@@ -1,0 +1,6 @@
+Click
+gym
+tensorflow-cpu
+tensorflow_probability
+sklearn
+pytest
