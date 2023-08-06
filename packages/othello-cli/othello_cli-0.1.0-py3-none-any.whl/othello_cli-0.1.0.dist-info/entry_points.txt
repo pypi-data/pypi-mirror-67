@@ -1,0 +1,7 @@
+[agents]
+human=othello.agent.human:Human
+random=othello.agent.random_bot:RandomBot
+
+[console_scripts]
+othello=othello.__main__:main
+
