@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+sgftree/__init__.py
+sgftree/board.py
+sgftree/constants.py
+sgftree/exceptions.py
+sgftree/helpers.py
+sgftree/kifu.py
+sgftree/sgflib.py
+sgftree/utils.py
+sgftree.egg-info/PKG-INFO
+sgftree.egg-info/SOURCES.txt
+sgftree.egg-info/dependency_links.txt
+sgftree.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sgftree
+Version: 0.0.4
+Summary: A package to work with SGF files
+Home-page: https://github.com/pypa/sampleproject
+Author: Oleksandr Hiliazov
+Author-email: oleksandr.hiliazov@gmail.com
+License: UNKNOWN
+Description: # sgftree
+        
+        The package to work with SGF files
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
