@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: micromenu
+Version: 0.9
+Summary: A minimalistic command line menu
+Home-page: https://github.com/andli/micromenu
+Author: Andreas Ehrlund
+Author-email: a.ehrlund@gmail.com
+License: UNKNOWN
+Description: # micromenu
+        A minimalistic command line menu for Python
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: test
