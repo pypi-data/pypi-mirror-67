@@ -1,0 +1,10 @@
+setup.py
+shu_distributions/Binomialdistribution.py
+shu_distributions/Gaussiandistribution.py
+shu_distributions/Generaldistribution.py
+shu_distributions/__init__.py
+shu_distributions.egg-info/PKG-INFO
+shu_distributions.egg-info/SOURCES.txt
+shu_distributions.egg-info/dependency_links.txt
+shu_distributions.egg-info/not-zip-safe
+shu_distributions.egg-info/top_level.txt
