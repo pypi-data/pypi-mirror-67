@@ -1,0 +1,14 @@
+aiohttp_rest_framework/__init__.py,sha256=Qw-ALcvDb5D4lz5KY6748s9srIXmE0o-GolhP_8b7JE,261
+aiohttp_rest_framework/db.py,sha256=0mGeP8iFa4DhHCmSPMGHYttRUbIbTKpdQ2YIy-LeJ1I,3684
+aiohttp_rest_framework/exceptions.py,sha256=nmWMLMOgbzSCOj_dOmBe5UTuf4nFwTUw0u6uuCZWLFo,1139
+aiohttp_rest_framework/fields.py,sha256=rwaW2XcR4GnOkrLnUn2fh26XTXVN_5HwJb4MXCk8wfo,10284
+aiohttp_rest_framework/serializers.py,sha256=cpTiZquUYvtrxt549dnjy71uYxB8L4QL7_yocyUrY-w,9409
+aiohttp_rest_framework/settings.py,sha256=lhJyC9WE0TgXZCfWJLX_CwQ4PsQVBta04TflOFE0Ec0,2562
+aiohttp_rest_framework/types.py,sha256=b_t2MSoibu_teGP_KTn5XSOCN4XOV7BzNBFDMBlrYIE,479
+aiohttp_rest_framework/utils.py,sha256=pIa9GbZScE4wmGl9gZz2nT2rwoTxNRML3yjgbc1FCOo,1534
+aiohttp_rest_framework/views.py,sha256=Cm_VMNRPBInHEG2BTl8dHPTId-c8cN4wx3BkV56YJlw,6615
+aiohttp_rest_framework-0.0.1.dist-info/LICENCE,sha256=hxDJOqnuMoWQN_WYJprG7eIdN-3Z43bGEQFU_AWRg84,1070
+aiohttp_rest_framework-0.0.1.dist-info/METADATA,sha256=I3oxsR06ZjOd3DRkil8677CMbVwjuOfI69VOFdPceeQ,4851
+aiohttp_rest_framework-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiohttp_rest_framework-0.0.1.dist-info/top_level.txt,sha256=89S2xu0qQSgn3QPrHDXhKxC_cntm1HoLIgm7f1h3SE0,23
+aiohttp_rest_framework-0.0.1.dist-info/RECORD,,
