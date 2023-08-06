@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#IP-Attack (Pypi Module)
+#Bull Anonymous
+# Created by Parixit Sutariya
+
+req() {
+command -v figlet > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "Required Pkg Installing.";pkg install figlet -y;clear; }
+command -v toilet > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "Required Pkg Installing..";pkg install toilet -y;clear; }
+command -v nano > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "Required Pkg Installing...";pkg install nano -y;clear; }
+command -v ruby > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "Required Pkg Installing....";pkg install ruby -y;clear; }
+command -v curl > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "[^^] Required Pkg Installing.....";pkg install curl -y;clear; }
+command -v lolcat > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "[^^] Pkg Installing......";gem install lolcat;clear; }
+command -v git > /dev/null 2>&1 || { echo >&2 "...";clear;ban2;echo "";echo "";echo "[^^] Installing......";pkg install git -y;clear; }
+}
+req
+cd $HOME
+git clone https://github.com/Bhai4You/Ip-Attack;cd Ip-Attack; chmod +x ip-attack.py;clear;python2 ip-attack.py
+
