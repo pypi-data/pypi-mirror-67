@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: file-util
+Version: 0.1.4
+Summary: 
+Home-page: https://github.com/eyalev/file-util
+Author: Eyal Levin
+Author-email: eyalev@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# file-util
+
