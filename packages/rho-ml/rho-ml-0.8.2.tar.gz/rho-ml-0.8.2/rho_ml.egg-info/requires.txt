@@ -1,0 +1,13 @@
+attrs
+
+[dev]
+honcho
+
+[docs]
+sphinx
+
+[test]
+pytest
+tox
+coverage
+hypothesis
