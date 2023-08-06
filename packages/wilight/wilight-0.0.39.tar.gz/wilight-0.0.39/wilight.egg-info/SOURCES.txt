@@ -1,0 +1,8 @@
+README.md
+setup.py
+wilight/__init__.py
+wilight/protocol.py
+wilight.egg-info/PKG-INFO
+wilight.egg-info/SOURCES.txt
+wilight.egg-info/dependency_links.txt
+wilight.egg-info/top_level.txt
