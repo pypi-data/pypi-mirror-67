@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyro-cg
+Version: 0.0.1
+Summary: A package for creating causal graphs in pyro
+Home-page: https://github.com/cbakker2/pyro_cg
+Author: Craig Bakker
+Author-email: craig.bakker@pnnl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This package is for creating causal graphs in Pyro.
+
