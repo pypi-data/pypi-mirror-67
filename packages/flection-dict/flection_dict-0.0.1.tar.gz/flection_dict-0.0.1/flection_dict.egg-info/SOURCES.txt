@@ -1,0 +1,14 @@
+README.md
+setup.py
+flection_dict.egg-info/PKG-INFO
+flection_dict.egg-info/SOURCES.txt
+flection_dict.egg-info/dependency_links.txt
+flection_dict.egg-info/requires.txt
+flection_dict.egg-info/top_level.txt
+flection_dictionary/DictLib.py
+flection_dictionary/Filters.py
+flection_dictionary/Labels.py
+flection_dictionary/Lexeme.py
+flection_dictionary/Parser.py
+flection_dictionary/__init__.py
+flection_dictionary/main.py
