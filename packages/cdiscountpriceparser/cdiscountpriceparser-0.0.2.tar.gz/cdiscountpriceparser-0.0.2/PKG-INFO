@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cdiscountpriceparser
+Version: 0.0.2
+Summary: price parser of cdiscount product.
+Home-page: https://github.com/pierredarrieutort/cdiscrap
+Author: mathieudaix, pierredarrieutort
+Author-email: mathieudaixpro@gmail.com, p.darrieutort@outlook.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

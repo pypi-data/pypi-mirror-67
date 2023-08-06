@@ -1,0 +1,8 @@
+setup.py
+cdiscount_parser/__init__.py
+cdiscount_parser/price_parser.py
+cdiscountpriceparser.egg-info/PKG-INFO
+cdiscountpriceparser.egg-info/SOURCES.txt
+cdiscountpriceparser.egg-info/dependency_links.txt
+cdiscountpriceparser.egg-info/requires.txt
+cdiscountpriceparser.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+beautifulsoup4~=4.9.0
+urllib3~=1.25.9
+regex~=2020.4.4
+
+[dev]
+pytest>=5.4.1
