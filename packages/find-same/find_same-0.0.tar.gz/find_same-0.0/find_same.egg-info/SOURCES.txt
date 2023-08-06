@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+find_same/__init__.py
+find_same.egg-info/PKG-INFO
+find_same.egg-info/SOURCES.txt
+find_same.egg-info/dependency_links.txt
+find_same.egg-info/not-zip-safe
+find_same.egg-info/top_level.txt
