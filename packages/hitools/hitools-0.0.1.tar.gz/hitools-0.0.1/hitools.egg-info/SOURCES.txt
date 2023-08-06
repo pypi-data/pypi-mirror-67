@@ -1,0 +1,8 @@
+README.md
+setup.py
+hitools/__init__.py
+hitools/file_manager.py
+hitools.egg-info/PKG-INFO
+hitools.egg-info/SOURCES.txt
+hitools.egg-info/dependency_links.txt
+hitools.egg-info/top_level.txt
