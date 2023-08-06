@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://thalesgroup.com/thoth/test-invalid-schema.json",
+  "title": "An in valid schema for testing",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "invalid",
+      "minLength": 3
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

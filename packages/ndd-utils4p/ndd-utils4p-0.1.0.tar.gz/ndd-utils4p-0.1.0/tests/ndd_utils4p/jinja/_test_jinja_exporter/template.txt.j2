@@ -1,0 +1,6 @@
+Some cities:
+{% for location in locations %}
+- {{ location.name }} ({{ location.state }})
+{% endfor %}
+
+Washington cities: {{ locations | jmespath("@[?state == 'WA'].name | sort(@) | join(', ', @)") }}

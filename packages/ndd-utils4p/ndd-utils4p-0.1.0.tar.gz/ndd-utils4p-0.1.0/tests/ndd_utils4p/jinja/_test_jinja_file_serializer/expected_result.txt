@@ -1,0 +1,7 @@
+Some cities:
+- Seattle (WA)
+- New York (NY)
+- Bellevue (WA)
+- Olympia (WA)
+
+Washington cities: Bellevue, Olympia, Seattle
