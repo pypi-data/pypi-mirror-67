@@ -1,0 +1,7 @@
+README.md
+setup.py
+gpdf/__init__.py
+gpdf.egg-info/PKG-INFO
+gpdf.egg-info/SOURCES.txt
+gpdf.egg-info/dependency_links.txt
+gpdf.egg-info/top_level.txt
