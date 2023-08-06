@@ -1,0 +1,11 @@
+numpy
+rasterio
+rio-tiler>=2.0a5
+
+[scripts]
+click
+cogeo_mosaic
+python-dateutil
+requests
+rtree
+shapely

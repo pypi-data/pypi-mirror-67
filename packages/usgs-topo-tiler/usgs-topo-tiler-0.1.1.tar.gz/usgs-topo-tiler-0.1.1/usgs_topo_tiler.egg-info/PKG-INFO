@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: usgs-topo-tiler
+Version: 0.1.1
+Summary: rio-tiler plugin to read mercator tiles from USGS Topo Quads
+Home-page: https://github.com/kylebarron/usgs-topo-tiler
+Author: Kyle Barron
+Author-email: kylebarron2@gmail.com
+License: MIT
+Description: # usgs-topo-tiler
+        rio-tiler plugin to read mercator tiles from USGS Topo Quads
+        
+Keywords: COG cogeo usgs topo raster map tiler gdal rasterio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/markdown
+Provides-Extra: scripts
