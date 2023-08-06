@@ -1,0 +1,16 @@
+youtube_title_parse/__init__.py,sha256=icQ3WKivRwyVapm9tHVUDqe_6rNdlljMD52-Vv4g6WQ,36
+youtube_title_parse/core.py,sha256=EVgpJ26CQqu5KJiOxg6E_evR1FNfMFj1RDyVnqwj82M,1906
+youtube_title_parse/fallback_artist.py,sha256=MHNfesxYEi5RBbYT5sRNpHwCDZ6Gs6fkG0G32td_D-8,241
+youtube_title_parse/fallback_title.py,sha256=M1m8-PZYUi-knrgbHAnAAA4tW0FImwnshg13cTCKqOE,234
+youtube_title_parse/parse.py,sha256=naXGLWVbJJJVErF09kY1WxjbGlrb7r44d1D4054qSNQ,2445
+youtube_title_parse/plugins/__init__.py,sha256=QqxlOoCB12cpj-qVobW-3WpgK7NGaDWlJWMN1qOp9_Q,219
+youtube_title_parse/plugins/base.py,sha256=LkGn4PmpulpvpRql58-StSKhPOht2mOp2l1-z0ygARk,4896
+youtube_title_parse/plugins/common.py,sha256=UEIHgPI6NRGs5GgN6tvkKtFTH3FThuKjpR7gZsni5Ro,609
+youtube_title_parse/plugins/quoted_title.py,sha256=wwDNX8YBL7THlh5kar0IEuyN0fnXglu8VfHAlmWqfTg,951
+youtube_title_parse/plugins/remove_file_extensions.py,sha256=rW0NzlTB_njZBwEsSRzldvZEDpzgfaljSxD1nd5dbDs,1065
+youtube_title_parse-1.0.0b3.dist-info/LICENSE,sha256=9Z3my-0XVQi6ICCeMN9bleYG3v3d8S0QW17p9FGUQJQ,1075
+youtube_title_parse-1.0.0b3.dist-info/METADATA,sha256=QPk8UqdJv0xf668sjS3fzxORXVJKTOxw28h6PQvd9cQ,921
+youtube_title_parse-1.0.0b3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+youtube_title_parse-1.0.0b3.dist-info/entry_points.txt,sha256=6OnuHEdoROY3bblncj2U9A1RfvaUwWAdPCZxTTzQ2aU,72
+youtube_title_parse-1.0.0b3.dist-info/top_level.txt,sha256=wFg9Dk5b46WkFoaV7nj5tevx9OjdkLEYEr_RTgtUD44,20
+youtube_title_parse-1.0.0b3.dist-info/RECORD,,
