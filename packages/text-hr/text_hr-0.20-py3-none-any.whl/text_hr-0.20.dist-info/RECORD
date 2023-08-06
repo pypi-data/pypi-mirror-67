@@ -1,0 +1,17 @@
+text_hr/__init__.py,sha256=Offo5-60n1jd8OeLQsso0TYtw1osgn4p85EakMUZ4j8,1031
+text_hr/adjectives.py,sha256=XoXzsERfG09E6RSHRbyolym7JiK6PfgkF10b7jyC0qA,47868
+text_hr/base.py,sha256=G3iA5cySXUFPAtfKOhaNxrYrJhU-7xFNNZjOHlgARqg,27281
+text_hr/detect.py,sha256=ADaF6YnXtDYR-ump17GQnXtbD2azK68FdUxBYk-hBlI,39438
+text_hr/fix_words.py,sha256=Rlg23Wk73sp_PRXcYSIINcsWO4xAUz59RknaRevsQSQ,13940
+text_hr/morphs.py,sha256=P2M7A2SLcOAP86fOJcjQL10PJREH6sveXRfESOgBoIE,89950
+text_hr/nouns.py,sha256=N6j7f5_aBASNKOetUnr5kp7gn8ZfXNo4tf8RpnYuHZc,59514
+text_hr/nums.py,sha256=3Ui9-UxmIwLsQzD13u6XHSex9m6P48SRqzJZjX1SoQo,904
+text_hr/pronouns.py,sha256=BfCQSJP9p8ybeVrIfyYw2PGNRXpjnLylwyyHYhES4-g,28655
+text_hr/utils.py,sha256=-Nwj7BhWWTTByQo_SRm7SqY4AL0J-9jXlOUWB1neEBA,14189
+text_hr/verbs.py,sha256=GwX4P1HbZ4MF-jru1mycfLrJlpUtCH6T8IEQOKBtvhE,62784
+text_hr/vocals.py,sha256=fJ61qOHiiaeyGkuZFLrXVqCsSz3Oo7az8uhT4_hwR50,10376
+text_hr-0.20.dist-info/LICENCE,sha256=SAj-Vt3I55z37xcpkK8_LG6jhSw4bgp2JUWol1q6Ek0,1593
+text_hr-0.20.dist-info/METADATA,sha256=KYvzCTAWiK00tFG5IBDG4ZMCwcWBkNKwvCGWCcsVPQA,9912
+text_hr-0.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+text_hr-0.20.dist-info/top_level.txt,sha256=T3h-5F-UXonMlyY12CoXdt8e8MCoYG4aINEJCFvVXjc,8
+text_hr-0.20.dist-info/RECORD,,
