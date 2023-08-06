@@ -1,0 +1,15 @@
+ruamel.yaml==0.15.100
+mpf>=0.54.0-dev.0
+kivy==1.11.1
+psutil==5.7.0
+Pygments==2.3.1
+ffpyplayer==4.3.1
+
+[:platform_system == "Windows"]
+pypiwin32==223
+kivy-deps.sdl2==0.1.23
+kivy-deps.sdl2-dev==0.1.23
+kivy-deps.glew==0.1.12
+kivy-deps.glew-dev==0.1.12
+kivy-deps.gstreamer==0.1.18
+kivy-deps.gstreamer-dev==0.1.18
