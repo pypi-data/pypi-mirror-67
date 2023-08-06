@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sphinx-panels
+Version: 0.1.0
+Summary: A sphinx extension for creating panels in a grid layout.
+Home-page: https://github.com/executablebooks/sphinx-panels
+Author: Chris Sewell
+Author-email: chrisj_sewell@hotmail.com
+License: MIT
+Description: # sphinx-panels
+        
+        A sphinx extension for creating panels in a grid layout.
+        
+        This directive creates panels of content in a 2 x N layout.
+        The panels are separated by three or more ``-``
+        
+        ```rst
+        .. panels::
+            :centred:
+        
+            Content of the top-left panel
+        
+            ---
+        
+            Content of the top-right panel
+        
+            ---
+        
+            Content of the bottom-left panel
+        
+            ---
+        
+            Content of the bottom-right panel
+        ```
+        
+Keywords: sphinx html
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Sphinx :: Extension
+Description-Content-Type: text/markdown
+Provides-Extra: rtd
+Provides-Extra: code_style
