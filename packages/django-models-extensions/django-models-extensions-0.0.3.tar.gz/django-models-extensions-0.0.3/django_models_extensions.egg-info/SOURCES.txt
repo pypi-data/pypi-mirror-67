@@ -1,0 +1,15 @@
+README.rst
+setup.py
+django_models_extensions/__init__.py
+django_models_extensions.egg-info/PKG-INFO
+django_models_extensions.egg-info/SOURCES.txt
+django_models_extensions.egg-info/dependency_links.txt
+django_models_extensions.egg-info/requires.txt
+django_models_extensions.egg-info/top_level.txt
+django_models_extensions/contrib/__init__.py
+django_models_extensions/contrib/admin_buttons/__init__.py
+django_models_extensions/contrib/admin_buttons/mixins.py
+django_models_extensions/models/__init__.py
+django_models_extensions/models/base.py
+django_models_extensions/models/query.py
+django_models_extensions/models/fields/__init__.py
