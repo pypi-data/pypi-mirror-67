@@ -1,0 +1,13 @@
+[app]
+mode: dev
+
+[db]
+database: postgresql
+
+[mail]
+# sendinblue_api_key: blablabla
+main_email: no-reply@example.com
+main_name: Appel crises - dev
+
+[sentry]
+# api_key: https://foo@bar.ingest.sentry.io/baz
