@@ -1,0 +1,8 @@
+README.rst
+qreactor.py
+setup.py
+qt_reactor.egg-info/PKG-INFO
+qt_reactor.egg-info/SOURCES.txt
+qt_reactor.egg-info/dependency_links.txt
+qt_reactor.egg-info/requires.txt
+qt_reactor.egg-info/top_level.txt
