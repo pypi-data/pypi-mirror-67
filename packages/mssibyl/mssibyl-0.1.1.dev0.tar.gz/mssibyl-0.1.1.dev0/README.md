@@ -1,0 +1,63 @@
+# Sibyl: A Time-Seires Forecasting Package 
+
+Sibyl is a package for forecasting time series data with PyTorchLightning which is a lightweight PyTorch wrapper for Machine Learning Researchers.
+
+Sibyl is released and maintained by Microsoft Substrate Connectivity Team.
+
+## Models
+
+- [x] Seq to Seq
+- [x] Long-short term memory
+- [ ] Neural process
+- [ ] Attentive neural process
+
+## Installation
+
+Sibyl is avaialbe on PyPi, feel free to get it via `pip`:
+
+```
+pip install mssibyl
+```
+
+## Quick Start
+
+UPDATING ... 
+
+```
+import pandas as pd
+from mssibyl.models import BaseModel
+from mssibyl.trainer import BaseTrainer
+from mssibyl.datasets.utils import make_timeline
+
+df = pd.read_csv("./data.csv")
+df.columns = ["ds", "y"]
+
+df_with_future = make_timeline(df, freq="H", periods=300)
+
+args = {
+    "lookback": 48,
+    "forecast_horizon": 1,
+    "data": df_with_future,
+    "target": "y",
+}
+
+sibyl_model = BaseModel(args)
+trainer = BaseTrainer(
+    max_epochs=100, gpus=1, show_progress_bar=False, early_stop_callback=True
+)
+trainer.fit(sibyl_model)
+preds = sibyl_model.predict(interval=True, include_history=True)
+
+preds.to_csv("res.csv", index=False)
+```
+
+## Changelog
+
+
+### Version 0.1 (coming)
+
+- Initial release
+
+## License
+
+Sibyl is licensed under the [MIT license](LICENSE.md)
