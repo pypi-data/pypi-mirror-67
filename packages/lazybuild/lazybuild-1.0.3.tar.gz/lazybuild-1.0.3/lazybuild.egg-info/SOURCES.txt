@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+lazybuild/__init__.py
+lazybuild/aws.py
+lazybuild/gmBuilder.py
+lazybuild/lazybuild.py
+lazybuild/ssh.py
+lazybuild.egg-info/PKG-INFO
+lazybuild.egg-info/SOURCES.txt
+lazybuild.egg-info/dependency_links.txt
+lazybuild.egg-info/entry_points.txt
+lazybuild.egg-info/requires.txt
+lazybuild.egg-info/top_level.txt
+lazybuild/resources/options/build.bff
+lazybuild/resources/options/macros.json
+lazybuild/resources/options/preferences.json
+lazybuild/resources/options/targetoptions.json
