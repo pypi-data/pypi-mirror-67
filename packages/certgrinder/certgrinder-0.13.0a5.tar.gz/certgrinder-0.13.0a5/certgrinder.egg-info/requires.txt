@@ -1,0 +1,4 @@
+PyYAML
+cryptography
+dnspython
+pid
