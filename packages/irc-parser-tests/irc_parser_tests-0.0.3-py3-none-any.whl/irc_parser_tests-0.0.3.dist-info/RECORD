@@ -1,0 +1,12 @@
+parser_tests/__init__.py,sha256=3kKxRD-lp5z3LgKYeatSQ9HuNZtppUAs1-5y-3GeR54,24
+parser_tests/data.py,sha256=Fob0kjOBqwanbtswBk6KDbumA7hEVgzU7NeZaaNUZCA,542
+parser_tests/data/mask-match.yaml,sha256=yPX2Y4sudCGJHbpWB8klLhkjx_4cpwDHKB28Zr4m5rI,1818
+parser_tests/data/msg-join.yaml,sha256=NoGRVeEeBSb3q0NosHvxywkYRtl6gZegSv11DSVS5RY,5483
+parser_tests/data/msg-split.yaml,sha256=Apfw0cuDwXuY741P_oGZtPGTf-Q03IoOm2iJKkHcSnc,8160
+parser_tests/data/userhost-split.yaml,sha256=maGujgYFqiKKa-JaheZhzWmbxmBwgxWjF1DBv4sFNfo,1688
+parser_tests/data/validate-hostname.yaml,sha256=ENA2_EZ4a8u1bsWvpfy0walDSA7JMI_BrNAboSL-Scw,1850
+irc_parser_tests-0.0.3.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+irc_parser_tests-0.0.3.dist-info/METADATA,sha256=Gai0KZafCYzmVK2ofK3yciilgGqs73XpZQMHTwZBrIs,402
+irc_parser_tests-0.0.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+irc_parser_tests-0.0.3.dist-info/top_level.txt,sha256=aa_V62fVhfTSZyoHjduAHKbwFYZZMuvO-lapn94kLEU,13
+irc_parser_tests-0.0.3.dist-info/RECORD,,
