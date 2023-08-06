@@ -1,0 +1,11 @@
+aiogram_cli/__init__.py,sha256=dgul-AYnyeoAY6LEjAiyLevJTWAk_zu9Q7ZsFLlpg_I,24
+aiogram_cli/__main__.py,sha256=yRbbTSFaP9iSIILWnyZSRF7ax9urrn4dK8d4TJi7ZS0,73
+aiogram_cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogram_cli/commands/about.py,sha256=DYJMbiFYZwIaEg5dmHjHlXOJF3NAgQNCRhJiCpITUak,415
+aiogram_cli/commands/plugins.py,sha256=BuzhgW7wyRhJ9cTsqUdddu2rKr_Wez6dAsYMHuTssfA,1032
+aiogram_cli/loader.py,sha256=aXQgK1VCJehRHbD9Zop2OtdP4s_fLFuhP3eXg7hwSEQ,1694
+aiogram_cli/main.py,sha256=Hwj4bSgEUQUDHrLps2H_YfUxfNcJFm6b4q3_U0FdpvM,373
+aiogram_cli-0.0.1a3.dist-info/entry_points.txt,sha256=2qHXwOFkseu2MaSuheHz3Ca8LbXC10IJy7K0H3CuaqY,224
+aiogram_cli-0.0.1a3.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+aiogram_cli-0.0.1a3.dist-info/METADATA,sha256=xuSag8I3mef7u6Ejltu68WfH9OzO9w12EfWihxRzwzA,2676
+aiogram_cli-0.0.1a3.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+[aiogram_cli.plugins]
+builtin-about=aiogram_cli.commands.about:AboutCommand
+builtin-plugins=aiogram_cli.commands.plugins:PluginsListCommand
+
+[console_scripts]
+aiogram=aiogram_cli.main:main
+aiogram-cli=aiogram_cli.main:main
+
