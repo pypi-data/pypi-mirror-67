@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: netentropy
+Version: 0.1.2
+Summary: Simple library for calculating information theoretic quantities in networks. Current version calculates efficiently the modified mutual information between two labelings of nodes into communities.
+Home-page: https://github.com/Popeyef5/Netentropy
+Author: Gaston Maffei
+Author-email: gastonmaffei@gmail.com
+License: MIT
+Download-URL: https://github.com/Popeyef5/Netentropy/archive/v_01_2.tar.gz
+Description: UNKNOWN
+Keywords: networks,entropy,information
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
