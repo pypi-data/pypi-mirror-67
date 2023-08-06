@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pure-datastructures
+Version: 0.0.2
+Summary: Data Structures with pure python
+Home-page: UNKNOWN
+Author: Ryan Febriansyah
+Author-email: 15523163@students.uii.ac.id
+License: UNKNOWN
+Description: # Pure Data Structures
+        
+        ## List of Data Structures
+        
+        - Stack
+        - Queue
+        - List
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: Indonesian
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
