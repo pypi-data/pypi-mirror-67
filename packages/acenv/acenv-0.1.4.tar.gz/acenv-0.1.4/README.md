@@ -1,0 +1,87 @@
+**PROJECT**
+<hr>
+
+Acenv (Algebraic Calculation Environment)
+
+A python 3 package that provides some tools to perform operations over complex
+polynomials objects, useful if you are working on a project that requires your program solving
+equations and polynomials expression parsing in general.
+
+**FEATURES**
+<hr>
+
+* Fully implemented in Python 3;
+* No external dependencies;
+* Class for representing real numbers in single objects, enabling operations with more complex
+  numbers in an algebraic sense (the sum √2 + √2 returns 2√2,
+  not the approximated float value 2.828...);
+* Class for representing polynomials as single objects, enabling operations with algebraic entities
+  containing one or more literal variables and real numbers;
+* Polynomial factorization engine;
+* Polynomial string parsers, which permits the user to simply type the readable string 
+  representation of the object, avoiding tedious object instantiation procedures;
+* Algebraic expression parser, which takes a string representing an expression, simplifies it and
+  can return both the resulting polynomial and the factorized form.
+  
+**PREREQUISITES AND INSTALLATION GUIDE**
+<hr>
+
+With the library running without any external dependency, there is no need
+for you to install any other code than the one provided here. So, to install the library,
+it is sufficient to use the 'pip' command in terminal:
+
+<pre> pip install acenv </pre>
+
+**DOCUMENTATION**
+<hr>
+
+The complete documentation should have been downloaded together with the
+rest of the package
+
+**HOW TO USE**
+<hr>
+
+Just import the components you need:
+
+<pre>
+from acenv import Ex
+</pre>
+
+and start creating the objects you intend to use
+
+<pre>
+expression = Ex('x^2+4(1-x)')
+
+print(expression.value.numerator)
+print(expression.reduced)
+</pre>
+
+and the output is
+
+<pre>
+'+4-4x^(1)+1x^(2)'
+[['+2-1x^(1)', '+2-1x^(1)'], ['+1']]
+</pre>
+
+For more checking the documentation is highly encouraged
+
+**NOTES**
+<hr>
+
+The project is still in its early stages of development, and it is born
+as a school project of mine for my ICT class. A lot of work and changes have
+been done since then, but there are still a lot of thing than can be hugely
+improved, so every feedback and bug report is widely appreciated.
+
+**LICENSE**
+<hr>
+
+MIT license, see LICENSE.txt that should have been downloaded with the package
+or simply go to https://opensource.org/licenses/MIT.
+
+**CONTACT ME**
+<hr>
+
+For any feedback, bug report or problems, you can contact me at:
+
+<a href="mailto: vigano02aceproject#gmail.com">vigano02aceproject@gmail.com</a>
