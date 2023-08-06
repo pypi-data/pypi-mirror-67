@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+usermail_converter/UI.py
+usermail_converter/__init__.py
+usermail_converter/__main__.py
+usermail_converter/converters.py
+usermail_converter.egg-info/PKG-INFO
+usermail_converter.egg-info/SOURCES.txt
+usermail_converter.egg-info/dependency_links.txt
+usermail_converter.egg-info/entry_points.txt
+usermail_converter.egg-info/requires.txt
+usermail_converter.egg-info/top_level.txt
+usermail_converter/icons/icon256.ico
+usermail_converter/icons/icon256.png
