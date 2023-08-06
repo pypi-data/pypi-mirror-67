@@ -1,0 +1,11 @@
+qlsc/__init__.py,sha256=cwL2Xote3xg5bLd16VyiDWxpnZdRwQiUGDOmhtKd_8Y,215
+qlsc/generate.py,sha256=Pmzh4jblgsj4wjo3N5QLoDo2ittVVw30uwdKiFvz1Ig,2310
+qlsc/q3c.cpython-37m-darwin.so,sha256=j3KGVha2kzjP2_p8wUzkoOGklqQcy8f21CYq4_vRSmY,70932
+qlsc/qlsc_base.py,sha256=dQibqETGAi7mQ5Mexluh8hsJ48wMt1kwVwWrMgSLP34,29460
+qlsc/qlsc_functions.py,sha256=fJg1AegIsf7K5QUGLdJyIC5isWN4gBhI4HeAEdenk7Y,1549
+qlsc/utilities.py,sha256=1KchO6c3m7mFOFBH4R68bVSpMdkzYOS76IQWGdX-3v4,10113
+qlsc/version.py,sha256=szZ1cUiGW6lG0ceONq7uvOUigrBYnvDvUqhkfBQSqqs,256
+qlsc-1.0.dist-info/METADATA,sha256=fKgon86Fibt_qPgKP6CRMlkM64OKowoVLsBmBacDEWU,1029
+qlsc-1.0.dist-info/WHEEL,sha256=ePSmKDYpHLRUYc6QuHiYMO-IoN8XmQMJmY2AHxzV4Bc,110
+qlsc-1.0.dist-info/top_level.txt,sha256=whMNbrSDD2rX-UwI67aczxB7w1WojQs0iU5AQIjkP1A,9
+qlsc-1.0.dist-info/RECORD,,
