@@ -1,0 +1,10 @@
+proxmin/__init__.py,sha256=svo3mG8Y66nXtaKhCirJpI7Qan7OGDQca41bk7_UWpo,89
+proxmin/algorithms.py,sha256=3ZgGL4NzWr1J0l5mf4OUdj-YeXCQE_OpcGcLy2xHdhA,24110
+proxmin/nmf.py,sha256=KOpbxNreAotQ9cF4ONwuHrYP2X_dNmnU9Cfegyu4Mtg,5148
+proxmin/operators.py,sha256=oDV_wqxTc7-uN1oyYjD7W3N3OJNL2aRprqTwiPbvscQ,6389
+proxmin/utils.py,sha256=XCU5OIISZv6thgCt_-dT8lIHygFNUPjZMdiNiQvmD4I,11142
+proxmin-0.6.10.dist-info/LICENSE.md,sha256=1lt2cch01_a48VAXax0_eMhduwOMelwhQMhsyVKdrHQ,1092
+proxmin-0.6.10.dist-info/METADATA,sha256=nY9uT6EWYiVH7sBuWStHYwfovTZQBvqRXU2zuwO2Slc,7334
+proxmin-0.6.10.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+proxmin-0.6.10.dist-info/top_level.txt,sha256=x0_M3H7D0TNlM2KpFIsBU9c5Geh4cbD3K98Lc2Mb1mQ,8
+proxmin-0.6.10.dist-info/RECORD,,
