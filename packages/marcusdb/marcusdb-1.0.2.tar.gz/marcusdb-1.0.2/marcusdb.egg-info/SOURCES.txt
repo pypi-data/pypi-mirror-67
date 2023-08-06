@@ -1,0 +1,9 @@
+README.md
+setup.py
+marcusdb.egg-info/PKG-INFO
+marcusdb.egg-info/SOURCES.txt
+marcusdb.egg-info/dependency_links.txt
+marcusdb.egg-info/not-zip-safe
+marcusdb.egg-info/requires.txt
+marcusdb.egg-info/top_level.txt
+mdb/__init__.py
