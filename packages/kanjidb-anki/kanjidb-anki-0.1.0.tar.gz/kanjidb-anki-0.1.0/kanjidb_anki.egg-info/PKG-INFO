@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kanjidb-anki
+Version: 0.1.0
+Summary: Anki plugins for KanjiDB
+Home-page: https://github.com/Nauja/kanjidb
+Author: Jeremy Morosi
+Author-email: jeremymorosi@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Nauja/kanjidb-anki/issues
+Project-URL: Source Code, https://github.com/Nauja/kanjidb-anki/
+Description: # kanjidb-anki
+        Anki plugins for KanjiDB
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

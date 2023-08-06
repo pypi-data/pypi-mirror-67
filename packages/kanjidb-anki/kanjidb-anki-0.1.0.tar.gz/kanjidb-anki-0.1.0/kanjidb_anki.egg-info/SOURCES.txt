@@ -1,0 +1,14 @@
+README.md
+setup.py
+kanjidb_anki/__init__.py
+kanjidb_anki/__version__.py
+kanjidb_anki.egg-info/PKG-INFO
+kanjidb_anki.egg-info/SOURCES.txt
+kanjidb_anki.egg-info/dependency_links.txt
+kanjidb_anki.egg-info/entry_points.txt
+kanjidb_anki.egg-info/not-zip-safe
+kanjidb_anki.egg-info/requires.txt
+kanjidb_anki.egg-info/top_level.txt
+kanjidb_anki/builder/__init__.py
+kanjidb_anki/builder/plugins/__init__.py
+kanjidb_anki/builder/plugins/ankideck.py
