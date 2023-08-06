@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: slackify
+Version: 0.0.1
+Summary: Pythonic API for modern slack bots
+Home-page: https://github.com/Ambro17/Flask-Slack
+Author: Nahuel Ambrosini
+Author-email: ambro17.1@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
