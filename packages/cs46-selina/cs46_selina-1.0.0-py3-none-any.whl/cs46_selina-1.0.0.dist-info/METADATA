@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cs46-selina
+Version: 1.0.0
+Summary: provides code to implement binary trees, binary search trees, avl trees, and heaps
+Home-page: https://github.com/selina-28030/trees
+Author: Selina Ho
+Author-email: selina28030@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: hypothesis
+
+# Trees ![](https://api.travis-ci.com/selina-28030/trees.svg?branch=master)
+
+This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+
+
