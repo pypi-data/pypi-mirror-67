@@ -1,0 +1,126 @@
+# README
+
+## Lab Utils, a collection of useful Python modules
+
+This package contains several useful [modules](#modules) to help build Python applications. All modules provide support
+for a configuration file using [configparser](https://docs.python.org/3.6/library/configparser.html) and standard 
+[logging](https://docs.python.org/3.6/library/logging.html).
+
+Available modules:
+ -  [database](#database): simple interface to manage connections to a PostgreSQL database
+ -  [socket_comm](#socket_comm): TCP server/client communication for daemon-like apps.
+
+
+## Dependencies
+
+The package **lab-utils** has the following pre-requisites:
+
+ -  [libpq](https://www.postgresql.org/docs/11/libpq.html), a C library that implements connections to the PostgreSQL
+    backend server. The python package [psycopg2](https://www.psycopg.org/) needed by the module [database](#database)
+    is built around this library, and it is strongly recommended to have it installed. If for some reason you can't
+    install it or don't have access to it, a [precompiled binary package](https://pypi.org/project/psycopg2-binary/)
+    is also available. Please notice that using precompiled binaries can lead to
+    [other problems](https://www.psycopg.org/docs/install.html#binary-install-from-pypi).
+ 
+ -  [Python 3.6](https://www.python.org/downloads/release/python-360/) and [pip 10.0](https://pip.pypa.io/en/stable/)
+    are the minimum required versions to build and install **lab-utils** and its dependencies. It is recommended to
+    install and run **lab-utils** (and any other package, for that matter) under a
+    [virtual environment](https://docs.python.org/3/library/venv.html).
+
+## Python Prerequisites
+The following Python packages will be automatically installed by **lab-utils**:
+
+ -  
+
+## Getting Started
+
+These instructions will install the package **lab-utils** and let you import its modules in your own apps. It is
+assumed that you have successfully installed the [prerequisites](#dependecies) and are running inside a virtual
+environment.
+
+1. Clone the repository into the directory <code>$DIR</code>: 
+    ```
+    git clone git@gitlab.ethz.ch:exotic-matter/cw-beam/lab-utils $DIR
+    cd $DIR
+    ```
+1. Install the package and its dependencies
+    ```
+    python -m pip install .
+    ```
+   If you don't have PostgreSQL and libpq installed, you can use
+    ```
+    python -m pip install . --only-binary psycopg2
+    ```
+1. Run some examples to test that everything works
+    ```
+    cd examples
+    python database/create_column.py
+    ```
+
+1. If you want to build the documentation
+    ```
+    cd $PATH_TO_SOURCE
+    python -m pip install .[docs]
+    cd docs
+    make clean
+    make html
+    ```
+
+## Import into your own app
+
+To use a <code>\<module\></code> from the **lab_utils** collection in your own Python apps, simply add
+
+```
+from lab_utils import <module>
+```
+
+## Modules
+
+All the modules provided by the package provide support for:
+
+ - Usage of a configuration file via the <code>\<module>.config(*filename*)</code> method
+ - [Standard Python logging](https://docs.python.org/3.6/library/logging.html).
+
+
+### database
+
+This module is a simple interface to manage connections to a PostgreSQL database based on the
+[psycopg2](https://www.psycopg.org/) library. The main features are:
+
+ *  Database connection and closing
+ *  Create a new [TimescaleDB](https://docs.timescale.com/latest/main) table
+ *  Check if column and/or table exist in a given database
+ *  Create a new column in a table, with optional constraints
+
+
+### socket_comm
+
+This module implements a simple TCP server/client structure to develop daemon-like application.
+
+## Authors
+
+* [**Carlos Vigo**](mailto:carlosv@phys.ethz.ch?subject=[GitHub%-%lab-utils]) - *Initial work* - 
+[GitLab](https://gitlab.ethz.ch/carlosv)
+
+## Contributing
+
+Please read our [contributing policy](CONTRIBUTING.md) for details on our code of
+conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Git](https://git-scm.com/) for versioning. For the versions available, see the 
+[tags on this repository](https://gitlab.ethz.ch/exotic-matter/cw-beam/lab-utils).
+
+## License
+
+This project is licensed under the [GNU GPLv3 License](LICENSE.md)
+
+## Built With
+
+* [PyCharm Community Edition](https://www.jetbrains.com/pycharm//) - The IDE used
+* [Sphinx](https://www.sphinx-doc.org/en/master/index.html) - Documentation
+
+## Acknowledgments
+
+* Nobody so far
