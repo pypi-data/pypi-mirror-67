@@ -1,0 +1,189 @@
+Metadata-Version: 2.1
+Name: mc_nag
+Version: 0.0.2
+Summary: mc-nag multi-cloud static analysis tool
+Home-page: https://github.com/stelligent/mc-nag
+Author: Stelligent
+Author-email: stelligent@stelligent.com
+License: UNKNOWN
+Description: # Multi-Cloud (MC) Nag Static Analysis Tool
+        
+        # Background
+        mc_nag checks IAC templates on different platforms for patterns that may defy best practices or indicate insecure resources.  Rules to validate platform-specific best practices are created in the [rules directory](mc_nag/rules).
+        
+        ![mc-nag Process Flow](mc-nag_process_flow.png)
+        
+        # Prerequisites
+        
+        * pyenv >= 1.2.18
+        * Python >=3.7 (from pyenv)
+        
+        # Installation
+        
+        `pip install mc-nag`
+        
+        # Usage
+        
+        ## mc-nag
+        
+        `mc-nag` is the main entry point for the utility.  It handles parsing, modeling, rule execution against, and reporting on templates passed to it.
+        
+        ```
+        $ mc-nag --help
+        Usage: mc-nag [OPTIONS]
+        
+          Perform template parsing and rule evaluation.
+        
+        Options:
+          -f, --filepath PATH             [required]
+          -P, --platform [azure|terraform|gcp|aws]
+                                          [required]
+          -o, --output [text|json|yaml|none]
+          -p, --paramfile PATH
+          --enable-standard-rules / --disable-standard-rules
+                                          Allows for enabling/disabling the standard
+                                          rule set that ships with mc-nag.
+        
+          -C, --custom-platform-rules-dir PATH
+                                          Path to a directory containing custom rules.
+                                          Allows multiple.
+        
+          -v, --verbose
+          --help                          Show this message and exit.
+        ```
+        
+        ## mc-nag-rules
+        
+        `mc-nag-rules` is a utility to see existing rules for a given platform and detect duplicate rule IDs.
+        
+        ```
+        $ mc-nag-rules --help
+        Usage: mc-nag-rules [OPTIONS]
+        
+          Output information about existing rules.
+        
+        Options:
+          -P, --platform [azure|terraform|gcp|aws]
+                                          [required]
+          --enable-standard-rules / --disable-standard-rules
+                                          Allows for enabling/disabling the standard
+                                          rule set that ships with mc-nag.
+        
+          -C, --custom-platform-rules-dir PATH
+                                          Path to a directory containing custom rules.
+                                          Allows multiple.
+        
+          --help                          Show this message and exit.
+        ```
+        
+        # Development
+        
+        ## VS Code Remote Development
+        There is a complete remote development environment created and setup with all the tools and settings pre-configured for ease in rule development and creation. You can enable this by using the VS Code Remote development functionality.
+        
+        - Install the VS Code [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+        - Open the repo in VS Code
+        - When prompted "`Folder contains a dev container configuration file. Reopen folder to develop in a container`" click the "`Reopen in Container`" button
+        - When opening in the future use the "`[Dev Container] mc_nag Development`" option
+        
+        More information about the VS Code Remote Development setup can be found here, [VS Code Remote Development](vscode_remote_development.md).
+        
+        ## Rule Creation
+        
+        Rules are at the crux of mc-nag's purpose.  They create its functionality but are flexible enough to be able to create/update/delete them at will.  mc-nag comes with a [default set of rules](mc_nag/rules) created by the Stelligent mc-nag team, however it also offers a [`--custom-platform-rules-dir` CLI option](#Usage).
+        
+        If you believe a rule should be added to the standard rule set packaged with mc-nag, feel free to create the new rule and submit it as a [pull request in the stelligent/mc-nag repository](https://github.com/stelligent/mc-nag/pulls).
+        
+        ### Structure
+        
+        All rules must be subclassed from the [`BaseRule` class](mc_nag/base_utils/models/rule.py).  It contains the basic necessities and structure for a rule class, as well as validation mechanisms to ensure your rule class will behave as expected.
+        
+        Every rule must have at least:
+        * **Attributes**
+          * *rule_id*: Unique identifier for the rule.
+          * *description*: Plain language description of what the rule is trying to accomplish.
+          * *severity*: The impact the rule has on the run of mc-nag.  One of [`rule.ERROR`, `rule.WARNING`, `rule.STYLE`].
+          * *url*: Page at which more information can be found on the rule.
+          * *resolution*: Steps to take in order to remediate any violations the rule finds.
+        * **Methods**
+          * *evaluate*: Logic to perform the rule's stated function.  Must return a list of violating resources.
+        
+        [Sample rule](mc_nag/rules/azure/azure_storageaccount_encrypted_rule.py) which shows basic structure
+        
+        ### Testing
+        
+        It is good practice to create unit tests and multiple example templates to accompany your new rule in order to prove your rule logic works properly.  Tests should consider both good and bad scenarios, as well as any novel scenarios which may crop up in practice.
+        
+        When you have a rule ready for evaluation, you can either pass its containing directory as a `--custom-platform-rules-dir` CLI option to the mc-nag executable or, if you have the mc-nag source checked out, you can place the rule into the platform-specific directory under [mc_nag/rules](mc_nag/rules).
+        
+        [Sample unit tests](tests/rules/azure/test_azure_storageaccount_encrypted_rule.py)
+        
+        [Sample test templates](tests/templates/azure/azure_storageAccounts)
+        
+        ## Template Model Creation
+        
+        The template model is a generic way to represent different platforms' templates.  After a template is parsed, its parsed data is stored in the template model for evaluation by the rule set.
+        
+        ### Structure
+        
+        All template models must be subclassed from the [`BaseTemplate` class](mc_nag/base_utils/models/template.py).  It contains the basic necessities and structure for a template model class, as well as validation mechanisms to ensure your template model class will behave as expected.
+        
+        Every template model must have at least:
+        * **Attributes**
+          * *template_string*: Raw string read from the template file.
+          * *parsed_template*: Platform-specific parser object (e.g. [`AzureParser`](mc_nag/azure_package/azure_parser.py)), which returns the parsed template model.
+          * *resources*: List of platform-specific resource objects (e.g. [`AzureResource`](mc_nag/azure_package/models/azure_resource.py)) created from the parsed template model.
+          * *parameters*: List of platform-specific parameter objects (e.g. [`AzureParameter`](mc_nag/azure_package/models/azure_parameter.py)) created from the parsed template model.
+          * *outputs*: List of platform-specific output objects (e.g. [`AzureOutput`](mc_nag/azure_package/models/azure_output.py)) created from the parsed template model.
+          * *functions*: List of platform-specific function objects (e.g. [`AzureFunction`](mc_nag/azure_package/models/azure_function.py)) created from the parsed template model.
+          * *variables*: List of platform-specific variable objects (e.g. [`AzureVariable`](mc_nag/azure_package/models/azure_variable.py)) created from the parsed template model.
+        
+        The attributes listed above must be defined, even if they are just empty lists.
+        
+        [Sample template model](mc_nag/azure_package/models/azure_template.py) which shows basic structure
+        
+        ### Testing
+        
+        It is good practice to create unit tests and multiple example templates to accompany your new template model in order to prove your data model logic works properly.  Tests should consider both good and bad scenarios, as well as any novel scenarios which may crop up in practice.
+        
+        [Sample unit tests](tests/azure_package/test_azure_template.py)
+        
+        [Sample test templates](tests/templates/azure)
+        
+        # Project Info
+        
+        ## Steps
+        
+        1. Gather ARM templates with different types of resources/features.
+            - Identify best practices for implementing/defining those resources within ARM templates.
+            - Identify a subset of core resources to use for creating initial set of rules.
+            - Define vision for how the tool will work (i.e CLI tool ran locally and/or pipeline)
+        2. Parse ARM json into python object (refer to notes for handling comments)
+            - Starting the development of the parser class.
+        2. Design a common object model constructed from parsing ARM templates.
+            - Resource class with being able to create individual resources as class objects.
+            - With parsing ARM templates, two main identifiers would be `name` and `type`.
+        4. Come up with order of usage with each object: parse Parameters/Variables/Functions first and create an object of parameters.
+            - Can be used as a lookup table for values if a resource's name is referencing a parameter.
+            - Need to account for properties that are set via parameter/variables.
+            - Need to custom logic to extract values from functions/parameters/variables.
+        5. Design how rules are defined and applied to the common azure model.
+            - (For later date) Produce documentation on workflow for local development of custom rules.
+        6. Design how the tool will report rule evaluation results.
+            - Should be able to suppress rules for resources by defining custom metadata property values for resources.
+                - Parser should be able to recognize this custom metadata and handle rule evaluation accordingly.
+        
+        ## Notes
+        
+        - Comments are able to be used in ARM Json templates. Potential use of following pip packages to handle this:
+            - [jstyleson](https://github.com/linjackson78/jstyleson)
+            - [commentjson](https://commentjson.readthedocs.io/en/latest/)
+            - [jsoncomment](https://pypi.org/project/jsoncomment/)
+        
+        # Support
+        
+        To report a bug or request a feature, submit an issue through the GitHub repository via https://github.com/stelligent/mc-nag/issues/new.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
