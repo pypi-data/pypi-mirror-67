@@ -1,0 +1,8 @@
+README.md
+setup.py
+aMath/__init__.py
+aMath/amath.py
+aMath.egg-info/PKG-INFO
+aMath.egg-info/SOURCES.txt
+aMath.egg-info/dependency_links.txt
+aMath.egg-info/top_level.txt

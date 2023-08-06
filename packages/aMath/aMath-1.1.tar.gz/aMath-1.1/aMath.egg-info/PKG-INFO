@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aMath
+Version: 1.1
+Summary: A small Math basic Ops package
+Home-page: https://www.deexams.com/
+Author: Arun
+Author-email: arrrsh@gmail.com
+License: AJL
+Description: # aMath package
+        
+        The aMath package consists of basic arithmatic operations.
+        
+        # Installation
+        
+        pip install -i https://test.pypi.org/simple/ aMath
+        
+        # Python version
+        
+        >= python3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
