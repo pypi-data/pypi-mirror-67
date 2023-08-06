@@ -1,0 +1,5 @@
+six
+Twisted
+zope.interface
+treq
+expiringdict
