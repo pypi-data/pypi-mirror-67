@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: custom-format
+Version: 1.0.2
+Summary: A custom format for optional html form
+Home-page: UNKNOWN
+Author: AndyHsueh
+Author-email: syt156321@gmail.com
+License: MIT
+Download-URL: https://github.com/andy8927/custom_format/archive/1.0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
