@@ -1,0 +1,11 @@
+catsndogs/__init__.py,sha256=J8yhQ0_35DR5FsMuMXfrjTiNAEjnncRMGl-NEQLbDIY,1067
+catsndogs/data.py,sha256=0CD99U07ocnNH_ITAwgG_o4VK3oxzUf1sPVa33wpYkg,2344
+catsndogs/processing.py,sha256=1_4RhpK5ORb5vhq1hMijupyMTL_urgUDEJN_aS22v1o,5794
+catsndogs/pytorch.py,sha256=xHmwWsDdP90aPzHsar2JhK-gLFrXCiYWItuPQz7dhtw,1127
+catsndogs/test.py,sha256=6CxeUsBQEUWTzk6CWUax3i_Hs_EY4hvbJ6GPDYvNv60,216
+catsndogs/training.py,sha256=oIreNb9DRyLlBUGLWBux29xwCoGz2LSwlWLnCLR0X6k,232
+catsndogs-0.0.5.dist-info/LICENSE,sha256=AW1zBULX9lw0P2ZaQV3huYA3cXlNH3tcKncx3MkruzQ,1717
+catsndogs-0.0.5.dist-info/METADATA,sha256=B0Da-Gb88PsPYVAB2qlgEq-DJgd1CiKSIX89-a_kDK0,1052
+catsndogs-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+catsndogs-0.0.5.dist-info/top_level.txt,sha256=z-ZAMDElAnCuIa9kbDSCmJPHlczXH7jzHMD1yJFJ7BE,10
+catsndogs-0.0.5.dist-info/RECORD,,
