@@ -1,0 +1,10 @@
+pandas
+boto3
+io
+pickle
+os
+tempfile
+json
+numpy
+sklearn
+keras
