@@ -1,0 +1,11 @@
+coast/COAsT.py,sha256=NEUSero9y-prnEXk865RnZubgvRUdFdiyzN0rT4K9T8,2835
+coast/DOMAIN.py,sha256=bzGgiMkEHmiXHg0Tk2tyQhzeYBFPhiH4oNvH5FoCsj4,3400
+coast/NEMO.py,sha256=E7VYG6X-fJ2jOZZ5koYWkTKSWDdTEYDzqsqnKQSwino,3290
+coast/TRANSECT.py,sha256=ClJIe3T9pIeyPR8nI4ZeGnUbRBBUdLKZcjgfeJ0ZsS0,489
+coast/__init__.py,sha256=ICOB6H7xdcE98HbgvkxB7fZ2fxBqf4ES94dfCuoTpEo,141
+coast/test.py,sha256=VQ4520XgLcEIIpl_Kc7ncEUHDU3YTmFZB6HA7f1bsGA,39
+COAsT-0.1.2a8.dist-info/LICENSE,sha256=KMOZil1o6_iuhbYCOueS0fW0fuISfyTWY6T29Zuugns,1090
+COAsT-0.1.2a8.dist-info/METADATA,sha256=yxutYjRtoSNBL9aINUrPzCVs1aee0ZjccKtbiWOYqeI,901
+COAsT-0.1.2a8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+COAsT-0.1.2a8.dist-info/top_level.txt,sha256=aowIGjDd7vhVkdGortu-PK6jnjpCG_in5_KE9ghmYBk,6
+COAsT-0.1.2a8.dist-info/RECORD,,
