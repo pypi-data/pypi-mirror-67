@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: utix
+Version: 0.1
+Summary: initial release
+Home-page: https://github.com/XinliYu/utix
+Author: Xinli Yu
+Author-email: tuf72841@temple.edu
+License: MIT
+Download-URL: https://github.com/XinliYu/utix/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: utility functions,tools,science,experiments
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
