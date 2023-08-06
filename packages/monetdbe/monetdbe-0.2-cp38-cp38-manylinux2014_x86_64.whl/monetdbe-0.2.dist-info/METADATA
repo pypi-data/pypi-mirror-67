@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: monetdbe
+Version: 0.2
+Summary: MonetDBe - the Python embedded MonetDB
+Home-page: https://github.com/monetdBSolutions/MonetDBe-Python/
+Author: Gijs Molenaar
+Author-email: gijs@pythonic.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Database :: Front-Ends
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cffi (>=1.0.0)
+
+# monetdbe
+MonetDBe - the Python embedded MonetDB
+
+https://github.com/monetdBSolutions/MonetDBe-Python/
+
+# install
+
+```
+ CFLAGS="-I<monetdb_prefix>/include/monetdb -I<monetdb_prefix>/lib/monetdb" pip install .
+```
+
+
+# development
+
+![Python package](https://github.com/monetdBSolutions/MonetDBe-Python//workflows/Python%20package/badge.svg)
+
+
