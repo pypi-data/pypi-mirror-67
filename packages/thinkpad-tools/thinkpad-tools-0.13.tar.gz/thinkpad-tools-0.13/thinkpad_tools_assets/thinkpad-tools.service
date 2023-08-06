@@ -1,0 +1,12 @@
+[Unit]
+Description=Thinkpad Tools Persistence Service
+After=multi-user.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=thinkpad-tools persistence apply
+
+[Install]
+WantedBy=multi-user.target
