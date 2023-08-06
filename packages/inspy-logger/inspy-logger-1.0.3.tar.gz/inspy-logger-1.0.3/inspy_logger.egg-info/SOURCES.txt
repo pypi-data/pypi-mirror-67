@@ -1,0 +1,8 @@
+README.md
+setup.py
+inspy_logger/__init__.py
+inspy_logger.egg-info/PKG-INFO
+inspy_logger.egg-info/SOURCES.txt
+inspy_logger.egg-info/dependency_links.txt
+inspy_logger.egg-info/requires.txt
+inspy_logger.egg-info/top_level.txt
