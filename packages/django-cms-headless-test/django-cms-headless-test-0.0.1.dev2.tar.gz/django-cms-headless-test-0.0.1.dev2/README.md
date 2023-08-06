@@ -1,0 +1,1 @@
+# djangocms headless mode

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-cms-headless-test
+Version: 0.0.1.dev2
+Summary: A package to run djangocms in headless mode
+Home-page: UNKNOWN
+Author: Sunil Chaudhary
+Author-email: sunil12738@gmail.com
+License: UNKNOWN
+Description: # djangocms headless mode
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
