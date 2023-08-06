@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: discordhealthcheck
+Version: 0.0.1
+Summary: A small library for automating Docker healthchecks for discord.py bots 
+Home-page: https://github.com/psidex/discordhealthcheck
+License: UNKNOWN
+Description: # Discord Health Check
+        
+        A small library for automating Docker healthchecks for discord.py bots.
+        
+        `pip install discordhealthcheck`
+        
+        ## Usage
+        
+        ### In Code
+        
+        ```python
+        import discord
+        import discordhealthcheck
+        
+        class ExampleClient(discord.Client):
+            def __init__(self, *args, **kwargs):
+                super().__init__(*args, **kwargs)
+                
+                discordhealthcheck.start(self, port=4040)
+        ```
+        
+        ### In Dockerfile
+        
+        ```dockerfile
+        FROM python:3.8-slim-buster
+        
+        # Copy files, install requirements, etc.
+        # Make sure `pip install discordhealthcheck` happens
+        
+        HEALTHCHECK CMD discordhealthcheck -p 4040 || exit 1
+        
+        CMD ["python","./path/to/bot/main.py"]
+        ```
+        
+Keywords: discord discord.py docker healthcheck health bot
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
