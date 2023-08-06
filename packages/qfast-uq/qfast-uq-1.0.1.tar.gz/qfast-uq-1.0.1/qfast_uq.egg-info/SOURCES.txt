@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+qfast/native/QI.m
+qfast/native/UniversalQCompiler.m
+qfast/native/uq.py
+qfast_uq.egg-info/PKG-INFO
+qfast_uq.egg-info/SOURCES.txt
+qfast_uq.egg-info/dependency_links.txt
+qfast_uq.egg-info/not-zip-safe
+qfast_uq.egg-info/requires.txt
+qfast_uq.egg-info/top_level.txt
