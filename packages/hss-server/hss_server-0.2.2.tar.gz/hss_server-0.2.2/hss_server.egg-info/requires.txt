@@ -1,0 +1,5 @@
+rpyc
+paho-mqtt
+requests
+appdirs
+GitPython
