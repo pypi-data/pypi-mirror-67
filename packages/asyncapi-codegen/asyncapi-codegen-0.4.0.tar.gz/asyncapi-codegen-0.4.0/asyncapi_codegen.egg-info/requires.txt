@@ -1,0 +1,5 @@
+jacobsjinjatoo>=0.0.4
+json-schema-codegen>=0.6.0
+pyyaml
+ruamel.yaml
+stringcase
