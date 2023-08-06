@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: Flask-Python-Arango
+Version: 0.0.1
+Summary: Python ArangoDB support for Flask applications
+Home-page: https://github.com/zvfvrv/flask-python-arango
+Author: Francesco Lombardo
+Author-email: franclombardo@gmail.com
+License: Apache-2.0
+Download-URL: https://github.com/zvfvrv/flask-python-arango/tags
+Description: # Flask-Python-Arango
+        
+        python-arango support for Flask applications
+        
+        ## Installation
+        
+        Install the extension with using pip, or easy_install.
+        
+        .. code:: bash
+        
+            $ pip install -U flask-python-arango
+        
+        ## Usage
+        
+        ## Contributing
+        
+        Please create an issue on [Github](https://github.com/zvfvrv/flask-python-arango).
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
