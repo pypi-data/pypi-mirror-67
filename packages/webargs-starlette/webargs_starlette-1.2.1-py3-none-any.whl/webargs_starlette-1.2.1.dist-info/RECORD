@@ -1,0 +1,9 @@
+webargs_starlette/__init__.py,sha256=o0a0vkXJM9hfOz8nfnTwJzp7HtPtN3FIzAYm-Ku-SM8,302
+webargs_starlette/annotations.py,sha256=ysl9mnnbSqYOgwcKoZqc_KtJw0wOts_ps2Lg_xpt0Es,4338
+webargs_starlette/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+webargs_starlette/starletteparser.py,sha256=ZNukiMSsOnVmxqolEjfvL9YRH-ZadMzHYii03tX2vsU,6517
+webargs_starlette-1.2.1.dist-info/LICENSE,sha256=rmn_Tyixi-9vzP43dp0YK_6wv6vNLY1_KKgJM9by02s,1069
+webargs_starlette-1.2.1.dist-info/METADATA,sha256=PR1XH6o2HKLnNojxfePnxllzfZVA0X4Wn1Ws5lMEjdU,9799
+webargs_starlette-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webargs_starlette-1.2.1.dist-info/top_level.txt,sha256=ARvF2kVSqeTbvGil3urGHrwg4L-z174yRJf3-QIX0U4,18
+webargs_starlette-1.2.1.dist-info/RECORD,,
