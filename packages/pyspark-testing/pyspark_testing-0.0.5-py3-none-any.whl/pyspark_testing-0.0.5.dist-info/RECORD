@@ -1,0 +1,10 @@
+pyspark_testing/__init__.py,sha256=Tvy6VcE_FiudJ_vT7vyLnMsgjXpX2j15uAs4blk6gbQ,69
+pyspark_testing/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspark_testing/testing/dataframe.py,sha256=ibq1h_fccBjowqKy1Sg0y76-7UwJ3WHrmn-Ux6cPIS4,759
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dataframe.py,sha256=NyPdivAAMyjvHD7S3AOCIGljodKdeTDwf6PhvrCfbRY,1776
+pyspark_testing-0.0.5.dist-info/LICENSE,sha256=1EKlW_oYovDKkGCH3m24wXtsu1Fmf4ULkt7aKrhNKfY,89
+pyspark_testing-0.0.5.dist-info/METADATA,sha256=fKYDUeNFWwRAO0Ts7daew6-AuRmjZb-fXtTKcxdxnHQ,1723
+pyspark_testing-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyspark_testing-0.0.5.dist-info/top_level.txt,sha256=4Iq-bcG09TrsWEqINy4fj6wLLp2sXUXQ6CfzdJCGuIA,22
+pyspark_testing-0.0.5.dist-info/RECORD,,
