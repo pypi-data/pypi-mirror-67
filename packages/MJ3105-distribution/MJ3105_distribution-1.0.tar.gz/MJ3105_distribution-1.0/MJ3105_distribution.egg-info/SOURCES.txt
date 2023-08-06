@@ -1,0 +1,10 @@
+setup.py
+MJ3105_distribution/Binomialdistribution.py
+MJ3105_distribution/Gaussiandistribution.py
+MJ3105_distribution/Generaldistribution.py
+MJ3105_distribution/__init__.py
+MJ3105_distribution.egg-info/PKG-INFO
+MJ3105_distribution.egg-info/SOURCES.txt
+MJ3105_distribution.egg-info/dependency_links.txt
+MJ3105_distribution.egg-info/not-zip-safe
+MJ3105_distribution.egg-info/top_level.txt
