@@ -1,0 +1,3 @@
+[console_scripts]
+openmm_systems = openmm_systems.cli:cli
+
