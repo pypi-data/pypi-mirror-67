@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pynamodb-plus
+Version: 0.0.1
+Summary: Python 3 library with some utilities to use with PynamoDB
+Home-page: https://github.com/MaisTodos/pynamodb-plus
+Author: Murilo Viana
+Author-email: murilo.vianamo@gmail.com
+License: MIT License
+Description: # pynamodb-plus
+        
+        Python 3 library with some utilities to use with PynamoDB
+        
+Keywords: python pynamodb plus
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
