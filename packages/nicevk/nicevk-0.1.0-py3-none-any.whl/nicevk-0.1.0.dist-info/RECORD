@@ -1,0 +1,9 @@
+nicevk/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+nicevk/api.py,sha256=bS_b9I7xK4eQKbToUOhC5mY9tVpQmgJDQN4zOrLzIE4,547
+nicevk/cli.py,sha256=TgkEgFpGWhTw0KqAWnii5_1uHz80QQxjjFZtvUsxwiQ,379
+nicevk/plugins/help_plugin.py,sha256=cKGA2UYTi_b5aazUjL8YcXwj7-52bWDh_Dj2cydwSkw,242
+nicevk/plugins/neofetch_plugin.py,sha256=FgwfuECOgdEHjX5sY2MwVv5dhOKNPmTux4hFDZYk1BQ,385
+nicevk-0.1.0.dist-info/entry_points.txt,sha256=vWXG633nybFFJSocl_QWQB8Zm67dC2wL36K01aR953w,41
+nicevk-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+nicevk-0.1.0.dist-info/METADATA,sha256=YbY5Ikw0mgsMSYyP0Kc6amG1Ja1HQAsjNb0TSVpbetU,325
+nicevk-0.1.0.dist-info/RECORD,,
