@@ -1,0 +1,9 @@
+libnn/__init__.py,sha256=WMdQrLp47bQJQf-tgPGvKFAMVfn5TUb0XXPo8CCjJ7U,201
+libnn/dataloader.py,sha256=OoDME0REon1XI5UtuLAhfUq5SYlrm8wF1-qOAcNcZlg,947
+libnn/run.py,sha256=KBs3Mfi-JFbM2N1CPMD0BUgp5RptQCzGgoFLN-Et3hQ,15347
+libnn/networks/__init__.py,sha256=JZjikK5pjrcsxQQef9HOrfho634MZGJr37QGuXkjB8U,126
+libnn/networks/resnets.py,sha256=cngUDqKEnRPA6Ar2915Y7P4EWoYVFTGIleoCUOxmgN4,5422
+libnn-0.0.1.dist-info/METADATA,sha256=raTvF4wsbdDWaRr1RUDlXktWV69f5IS-Tt8VFyr28nw,244
+libnn-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+libnn-0.0.1.dist-info/top_level.txt,sha256=p9-djUdYdM_I1ePTMEBNEehnh-9oLFAmJTzmS6M431E,6
+libnn-0.0.1.dist-info/RECORD,,
