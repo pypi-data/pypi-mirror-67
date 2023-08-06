@@ -1,0 +1,3 @@
+[paste.filter_app_factory]
+html5routes = html5routes:filter_app_factory
+

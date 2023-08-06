@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: html5routes
+Version: 0.0.2
+Summary: WSGI middleware for html5-based routes
+Home-page: http://pypi.python.org/pypi/html5routes
+Author: Jan Murre
+Author-email: jan.murre@gmail.com
+License: GPLv3
+Keywords: wsgi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: setuptools
+Provides-Extra: development
+
+===========
+html5routes
+===========
+
+WSGI middleware for html5-based routes
+
+Changes log
+===========
+
+0.0.1
+-----
+
+- Package creation with ``bobtemplates.gillux``
+  [jjmurre]
+
