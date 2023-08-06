@@ -1,0 +1,5 @@
+setup.py
+fuzzyInject.egg-info/PKG-INFO
+fuzzyInject.egg-info/SOURCES.txt
+fuzzyInject.egg-info/dependency_links.txt
+fuzzyInject.egg-info/top_level.txt
