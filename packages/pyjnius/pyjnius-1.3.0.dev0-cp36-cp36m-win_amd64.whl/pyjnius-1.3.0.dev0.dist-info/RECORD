@@ -1,0 +1,14 @@
+jnius_config.py,sha256=V-PuYqhzsLfhsaL09JrLT0y0ai2bJltp1R07ganZ0rE,2566
+setup_sdist.py,sha256=9cnkqPJWbrxRae3nW-4pvQJCGz50mo7oqiPdTfUwOGk,2176
+jnius/__init__.py,sha256=Dlj2KQ4g-GFIiAXl8R9Fw9d3F_dPqx4jrnrplgg6QEE,2458
+jnius/env.py,sha256=oWUYnpI7IFxpEAA5X-0njGs6P6QYJuJxlHnsmqEeSR8,7951
+jnius/jnius.cp36-win_amd64.pyd,sha256=dZmXL8lpki_uWngk65el2VpAAYIt2I8AWRvGVNjqWE4,467968
+jnius/reflect.py,sha256=y1hhd3Sm0Ac9Q_umAZOiG2eqlhu3TVLgiccYsJu7Xu0,19151
+jnius/signatures.py,sha256=juA-f_x9SYCwwV3frDwFl27d1ATim6qVNcUBg--dG3A,2871
+jnius/src/org/jnius/NativeInvocationHandler.class,sha256=gT6hBuqG2KV3_Sz4jREkeHn0qK3qkTTkrP7CZ8p3WRw,1084
+jnius/src/org/jnius/NativeInvocationHandler.java,sha256=uLpLhmvfpBjyCyoldzcwEsmVmZEgCS76AZdJAFqr3-g,1175
+pyjnius-1.3.0.dev0.dist-info/LICENSE,sha256=d4eLM2tDPPlW45-_glEcAgS0HVSQHPKcea-aQ4JN2js,1100
+pyjnius-1.3.0.dev0.dist-info/METADATA,sha256=dT7IGFHYoBud8Bpq6yCC7vZile0lk4kSo1alUpDRPyo,10494
+pyjnius-1.3.0.dev0.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+pyjnius-1.3.0.dev0.dist-info/top_level.txt,sha256=L9POr-nrwFYl37-eF6I7wK_0-dCatp_Y2qjYVQswgIM,31
+pyjnius-1.3.0.dev0.dist-info/RECORD,,
