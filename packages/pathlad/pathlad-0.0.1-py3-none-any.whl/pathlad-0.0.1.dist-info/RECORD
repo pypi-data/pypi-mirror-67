@@ -1,0 +1,10 @@
+pathlad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pathlad/find_pattern.py,sha256=2VWUqKOKsuD9BD7Ykw4MFtPeSNJKy0V-UmVj6xyZbrw,1059
+pathlad/fix_f_strings.py,sha256=0Sp1NpKR07pK72k27XttMuIX1vlrV4q6YKkmIrffrTY,108
+pathlad/custom_fixers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pathlad/custom_fixers/fix_paths.py,sha256=QuH1riStacKcZgOC4tq_4ZEduauTn1UV9dr0e4Ed2HI,9307
+pathlad-0.0.1.dist-info/METADATA,sha256=XIx2cZOOtieRbd4V_U27Z1a5xR9j1PGooW4X5r_ocxQ,171
+pathlad-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pathlad-0.0.1.dist-info/entry_points.txt,sha256=bXoh1gDDq7w-5hq_AcYUlqGEJywdaxgfuYnwHfNHrzE,56
+pathlad-0.0.1.dist-info/top_level.txt,sha256=ChLmKDeJOvLc24gojb8-pAnnxJioCfuYXWQPmmGfpW4,8
+pathlad-0.0.1.dist-info/RECORD,,
