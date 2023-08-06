@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ni-logging-utils
+Version: 0.0.3
+Summary: A small tools to log
+Home-page: https://gitlab.com/naturalinterface/logging_utils
+Author: Primael Bruant
+Author-email: primael.bruant@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Logging tools
+
+Une simple librairie permettant de faire des opérations de logging grâce à un décorateur
+
+## Chronometer
+
+Utilitaire permettant de savoir le temps d'exécution d'une fonction
+
+```python
+from logging_utils import Chronometer
+
+@Chronometer('ma_fonction')
+def function():
+    print('do somethings')
+
+```
+
+
