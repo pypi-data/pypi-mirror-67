@@ -1,0 +1,10 @@
+newdex/__init__.py,sha256=Yu1TCF8p-2gG9TpN6UTtmnNGLe7kXCKvkpnIFGY7JD8,82
+newdex/api_newdex.py,sha256=h1Yx-4e-JASugp2nfGX36lNj9z5ADTV0EdBaECdnaSE,3977
+newdex/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newdex/util/exceptions.py,sha256=RCoWfcDkMiz0kZOY0GeKlPuMV43VOgTWlA8vJco3kLk,633
+newdex/util/logger.py,sha256=Bk9eg7YJrdYItg_UKqozZmR40Vu-g9R31uQTolQC-tg,440
+newdex-0.1.0.dist-info/LICENSE,sha256=LFqEU_Z4vucUVaeieGdPkMEQkandPXSDGfQpSaNP-eg,1051
+newdex-0.1.0.dist-info/METADATA,sha256=4p6wDBQhV6icDurPMEwLCqD_q_BFJ024yk8joQvNOpY,7671
+newdex-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+newdex-0.1.0.dist-info/top_level.txt,sha256=Xaw0Atfuva5OwAz7eimYOcDhCnJldypK0lyB5seqhsw,7
+newdex-0.1.0.dist-info/RECORD,,
