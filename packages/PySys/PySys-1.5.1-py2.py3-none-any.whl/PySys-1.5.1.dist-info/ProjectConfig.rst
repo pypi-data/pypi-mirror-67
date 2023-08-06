@@ -1,0 +1,348 @@
+Project Configuration
+=====================
+
+Each PySys project has a configuration file called ``pysysproject.xml`` at the top level. This file contains 
+``property`` elements for any user-defined properties that will be used by your tests such as credentials, server 
+names, which are available to your tests using `self.project <pysys.xml.project.Project>`. 
+The project file also contains allows customization of how PySys executes tests and reports on the results. 
+
+When starting a new PySys test project you should create a minimal project file from scratch using 
+``pysys makeproject``, then add any additional elements you require. 
+
+To illustrate the range of available elements, here is a large project file that demonstrates all the main 
+functionality:
+
+.. code-block:: xml
+
+  <?xml version="1.0" encoding="utf-8"?>
+  <pysysproject>
+  
+  	<!--
+  	Specify a minimum required pysys version to run these tests
+  	-->
+  	<requires-pysys>1.5.1</requires-pysys>
+  
+  
+  	<!--
+  	Specify a minimum required python version to run these tests
+  	-->
+  	<requires-python>2.7.0</requires-python>
+  
+  
+  	<!-- 
+  	Get a reference to the environment, which can then be used as a substitution variable 
+  	within the project file, e.g. ${env.PROCESSORS} would be substituted with the value of
+  	the PROCESSORS environment variable if it is specified within the environment.
+  	
+  	Note that ${env.XXX} values can only be used within this file (they do not result in 
+  	project properties being automatically defined for each environment variable). 
+  	-->
+  	<property environment="env"/>
+  
+  	
+  	<!-- 
+  	Get a reference to the osfamily, which can then be used as a substitution variable 
+  	within the project file, e.g. ${osfamily} would take the value windows on win32 systems,
+  	and unix on Linux or Solaris.
+  	-->
+  	<property osfamily="osfamily"/>
+  
+  
+  	<!-- 
+  	Get a reference to project root location (the location of this file), which can then be used 
+  	as a substitution variable within the project file. Note that this is only for local expansion 
+  	within the project file, where the project root location is required for full paths, e.g. 
+  	stylesheets etc. Within a test class, the root location can be referenced using the 
+  	self.project.root class variable. If not specified, defaults to "root".
+  	-->
+  	<property root="testRootDir"/>
+  	
+  	
+  	<!-- 
+  	Example of setting a project property. 
+  	
+  	Project properties can be used as substitution variables within the project file, and 
+  	are set as attributes on the Project class for use by tests. In the example below, "user" 
+  	would be available to tests as "self.project.user".
+  	
+  	Property values can make use of other project properties using ${XXX} syntax, or environment 
+  	variables using ${env.XXX} syntax. 
+  
+  	If a property value contains any properties or environment variables that do not exist, 
+  	the "default" is used instead (or "" if a default is not explicitly specified). If the default 
+  	also contains undefined properties the project will fail to load. 
+  	
+  	-->
+  	<property name="user" value="${env.USERNAME}" default="guest"/>	
+  
+  
+  	<!-- 
+  	Controls whether tests will abort as a fail as soon as a process or wait operation
+  	completes with errors. The default value as specified below will be used when the abortOnError 
+  	parameter to the function is not specified. 
+  	-->
+  	<property name="defaultAbortOnError" value="true"/>	
+  
+  
+  	<!-- 
+  	Controls whether by default tests will report a failure outcome when a process completes with 
+  	a non-zero return code. The default value as specified below will be used when the ignoreExitStatus 
+  	parameter to the function is not specified. 
+  	-->
+  	<property name="defaultIgnoreExitStatus" value="false"/>
+  	
+  	<!-- 
+  	Set default LANG for child processes on Unix. 
+  	Useful for making all machines behave the same. Ensure that the specified 
+  	locale is installed on all machines. 
+  	-->
+  	<!-- <property name="defaultEnvironsDefaultLang" value="en_US.UTF-8"/> -->
+  
+  	<!-- 
+  	Set temporary directory for child processes to the testcase output 
+  	directory to avoid cluttering up common file locations. 
+  	-->
+  	<property name="defaultEnvironsTempDir" value="self.output"/>
+  
+  	<!-- Recommended behaviour is to not strip whitespace unless explicitly requested; this option exists to keep 
+  		compatibility for old projects. 
+  	-->
+  	<property name="defaultAssertDiffStripWhitespace" value="False"/>
+  
+  
+  	<!-- 
+  	Controls whether print() and sys.stdout.write() statements will be 
+  	converted into logger.info() calls. If redirection is enabled, output 
+  	from print() statements will not be captured in run.log files and will 
+  	often not appear in the correct place on the console when running 
+  	multi-threaded. 
+  	
+  	Note that this affects writers as well as testcases. 
+  	
+  	Use pysys.utils.logutils.stdoutPrint() to write to stdout without any 
+  	redirection. 
+  	-->
+  	<property name="redirectPrintToLogger" value="false"/>
+  	
+  	<!-- Set this to true unless you need pre-1.4.1 mode behaviour for compatibility reasons. -->
+  	<property name="supportMultipleModesPerRun" value="true"/>
+  
+  	<!-- Produces more informative messages from waitForGrep/Signal. -->
+  	<property name="verboseWaitForGrep" value="true"/>
+  
+  	<!-- 
+  	Import project properties from a file. 
+  	
+  	If pathMustExist=true, the project will fail to load if the specified file does not 
+  	exist. If pathMustExist=false the project will silently ignore a missing properties file, 
+  	which can be useful when using this feature to provide optional user-specific overrides. 
+  	
+  	The properties file should be of the format name=value (one pair specified per line). 
+  	Each imported property line is handled just the same as a standard "property" element, 
+  	so for example other project properties can be referenced withint the values 
+  	using ${...} syntax. 
+  	 -->
+  	<property file="${osfamily}.properties" pathMustExist="false"/>
+  
+  
+  	<!-- 
+  	Add a path to the python path to allow importing custom modules, e.g. extensions to the 
+  	BaseTest or BaseRunner classes, or customer test output writers. If the relative attribute 
+  	is set to true, then the path is treated as relative to the project root location; otherwise 
+  	the path is treated as absolute, e.g. to add the src directory to the python path at runtime 
+  	use;
+  	
+  	<pythonpath value="./src" relative="true" />
+  	-->
+  
+  
+  	<!-- 
+  	Use a custom runner class that extends the BaseRunner class distributed with PySys. Extensions to 
+  	the BaseRunner are used to define custom setup and tear down operations before running the set of 
+  	selected tests (e.g. to load test data into a relational database prior to the test runs, and then 
+  	clear out the data on completion), as well as to defined operations between the execution of individual 
+  	tests and after completion of a cycle of tests. For example, to use the MyRunner class in the 
+  	com.company.test module use;
+  	
+  	<runner classname="MyRunner" module="com.company.test"/>
+  	-->
+  
+  
+  	<!-- 
+  	Use a custom maker class for constructing new testcases. Custom maker classes can extend from the 
+  	ConsoleMakeTestHelper class in order to create templated run.py scripts e.g. when a test module has
+  	a repeatable pattern for running or validating etc. 
+  	
+  	<maker classname="MyMaker" module="com.company.test"/>
+  	-->
+  
+  
+  	<!--
+  	Set the test writers to write the test summary at runtime when the -r option is 
+  	passed to the run mode of the pysys launcher. Multiple test writers can be configured
+  	and properties can be set on the writers using a nested property tag; these are then set 
+  	as attributes of the class. PySys ships the XMLResultsWriter, TextResultsWriter and 
+  	JUnitXMLResultsWriter class as three example writers, though custom writers can be created 
+  	e.g. to insert into a relational database etc (see pysys.writers.__init__.py for the source 
+  	code for the distributed writers). If no writer is specified in the project file, the 
+  	XMLResultsWriter is used. 
+  	
+  	The writer tag details the classname (which should be added to the pythonpath)
+  	and the module of the writer class. Where single file output is produced by the 
+  	writer, the optional filename attribute is used to denote the filename template for the output 
+  	logging. The filename template is processed through time.strftime so that time information can 
+  	be set into the filename, e.g. a filename template of 'testsummary-%Y%m%d%H%M%S.xml' will result 
+  	in a file created with a name of  testsummary-20081025213308.xml etc.
+  	-->
+  	<writers>
+  		<writer classname="XMLResultsWriter" module="pysys.writer" file="pysys-testsummary-%Y-%m-%d-%H.%M.%S.xml">
+  			<!--
+  			Set properties on the XML test output writer class. The available properties that 
+  			can be set are the stylesheet location, whether to use file URLs in all references 
+  			to resources on the local disk, and the directory to write the output file (defaults 
+  			to the current working directory). Note that Mozilla Firefox requires the stylesheet
+  			to be located next to the XML file when loading the file, and all references to local
+  			resources must be as file URLs. Internet Explorer and Chrome can load the stylesheet
+  			from any location on the local disk, but cannot load resources when referenced by a
+  			file URL. 
+  
+  			<property name="outputDir" value="${testRootDir}"/>
+  			<property name="stylesheet" value="./pysys-log.xsl"/>
+  			<property name="useFileURL" value="true"/>
+  			-->
+  		</writer>
+  		
+  		<!-- CI writers automatically enable themselves only if running under 
+  			the associated CI environment. 
+  		-->
+  		<writer classname="TravisCIWriter" module="pysys.writer.ci"></writer>
+  
+  		<!--
+  		Add in the test results writer if straight text output is required 
+  		
+  		<writer classname="TextResultsWriter" module="pysys.writer" file="testsummary-%Y%m%d%H%M%S.log">
+  			<property name="outputDir" value="${testRootDir}"/>
+  		</writer>
+  		-->
+  
+  		<!--
+  		Add in the CSV results writer if CSV text output is required. This outputs the test results
+  		in a column separated list, with headings id, title, cycle, startTime, duration, outcome
+  
+  		<writer classname="CSVResultsWriter" module="pysys.writer" file="testsummary-%Y%m%d%H%M%S.csv">
+  			<property name="outputDir" value="${testRootDir}"/>
+  		</writer>
+  		-->
+  
+  		<!--
+  		Add in the JUnit results writer for PySys test output to be written in the widely-used Apache Ant JUnit XML format. 
+  		Use the outputDir property to define the output directory for the JUnit test summary files (the writer will 
+  		produce one file per test into this output directory). If not specified this defaults to the current 
+  		working directory.
+  		-->
+  		<writer classname="JUnitXMLResultsWriter" module="pysys.writer">
+  			<property name="outputDir" value="${testRootDir}/pysys-junit-report"/>
+  		</writer>
+  		
+  
+  		<!-- The ConsoleSummaryResultsWriter displays a summary of non-passed outcomes at the end of the test run, 
+  			optionally including outcome reason. The ConsoleSummaryResultsWriter is automatically added to the writers 
+  			list if no other "summary" writer is explicitly configured. 
+  		-->		
+  		<writer classname="ConsoleSummaryResultsWriter" module="pysys.writer">
+  			<property name="showOutputDir" value="false"/>
+  			<property name="showOutcomeReason" value="true"/>
+  		</writer>
+  	</writers>
+  
+  	<default-file-encodings>
+  		<!-- 
+  		Specify the file encoding to be used for reading/writing text files. 
+  		
+  		The first pattern that matches is used to determine the encoding. The pattern is a glob-style expression to be 
+  		matched case-insensitively against either the full path or the basename using Python's fnmatch.fnmatch method. 
+  		
+  		The defaults specified here can be overridden or added to by the runner or basetest getDefaultFileEncoding() 
+  		method. See pysys.process.user.ProcessUser.getDefaultFileEncoding for more details. 
+  		
+  		-->
+  		<default-file-encoding pattern="run.log" encoding="utf-8"/>
+  		
+  		<default-file-encoding pattern="*.xml" encoding="utf-8"/>
+  		<default-file-encoding pattern="*.json" encoding="utf-8"/>
+  		<default-file-encoding pattern="*.yaml" encoding="utf-8"/>
+  		
+  	</default-file-encodings>	
+  	
+  	<execution-order secondaryModesHintDelta="+100.0">
+  		<!-- 
+  		The execution-order elements provide a way to globally change the ordering hints specified on individual 
+  		tests by adding or subtracting a value from the hints specified on test descriptors in a specified group 
+  		and/or mode.
+  		 
+  		Groups and modes can be identified with a full name or a regular expression.  
+  
+  		The secondaryModesHintDelta value is used to order tests so that all tests execute in their primary 
+  		mode before any secondary modes are executed. The 2nd mode (the one following the primary mode) has its 
+  		execution order hint incremented by secondaryModesHintDelta, the third by 2*secondaryModesHintDelta etc, 
+  		which ensures the modes are spaced out. To disable this behaviour and execute all modes of each test 
+  		before moving on to the next test set it to 0.0. If not specified, the default value is +100.0.
+  		-->
+  		
+  		<!--
+  		<execution-order hint="+20.0" forMode="MyMode_.*"/>
+  		<execution-order hint="-10.5" forGroup="performance" forMode="MyMode"/>
+  		-->
+  	</execution-order>
+  	
+  	<!--
+  	Specify custom formatters for logging to the console or run.log, and/or configure the formatter
+  	appropriately through custom properties. Custom formatters should be defined using the classname
+  	and module attributes and should extend the pysys.utils.logutils.BaseLogFormatter class. If no
+  	classname and module is given the default pysys.utils.logutils.ColorLogFormatter is assumed.
+  
+  	The ColorLogFormatter allows specification of the message and date strings using the messagefmt and
+  	datafmt attributes. Enabling color to the console (stdout) formatter can be done using the color
+  	property, and the colors for supported message types can be specified via the color:<category> property.
+  	See below for more details for the default color types and categories. Supported colors are BLUE,
+  	GREEN, YELLOW, RED, MAGENTA, CYAN, WHITE and BLACK.
+  	-->
+  	<formatters>
+  		<formatter classname="ColorLogFormatter" module="pysys.utils.logutils"
+  				name="stdout" messagefmt="%(asctime)s %(levelname)-5s %(message)s" datefmt="%H:%M:%S">
+  			<!-- 
+  			<property name="color" value="true"/>
+  			-->
+  			<property name="color:warn" value="MAGENTA"/>
+  			<property name="color:error" value="RED"/>
+  			<property name="color:traceback" value="RED"/>
+  			<property name="color:debug" value="BLUE"/>
+  			<property name="color:filecontents" value="BLUE"/>
+  			<property name="color:details" value="CYAN"/>
+  			<property name="color:outcomereason" value="CYAN"/>
+  			<property name="color:progress" value="CYAN"/>
+  			<property name="color:performance" value="CYAN"/>
+  			<property name="color:timed out" value="MAGENTA"/>
+  			<property name="color:failed" value="RED"/>
+  			<property name="color:passed" value="GREEN"/>
+  			<property name="color:skipped" value="YELLOW"/>
+  		</formatter>
+  
+  		<formatter classname="BaseLogFormatter" module="pysys.utils.logutils"
+  				name="runlog" messagefmt="%(asctime)s %(levelname)-5s %(message)s" datefmt=""/>
+  	</formatters>
+  	
+  	<property name="pythonCoverageArgs" value="--rcfile=${testRootDir}/internal/utilities/python_coveragerc"/>
+  
+  	<property name="pythonCoverageDir" value="coverage-python-@OUTDIR@"/>
+  	<collect-test-output pattern=".coverage*" outputDir="${pythonCoverageDir}" outputPattern="@FILENAME@_@TESTID@_@UNIQUE@"/>
+  	
+  	<project-help>
+  		<!-- Add project-specific text to be appended to the "pysys run -h". 
+  		
+  		You can use ${...} project properties, or ${$} to escape the $ character. 
+  		
+  		-->
+  	</project-help>
+  </pysysproject>
+  
