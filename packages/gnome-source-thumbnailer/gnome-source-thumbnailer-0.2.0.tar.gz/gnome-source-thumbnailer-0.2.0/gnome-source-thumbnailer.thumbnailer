@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=gnome-source-thumbnailer
+Exec=gnome-source-thumbnailer %u %o --size %s
+MimeType=text/x-c;text/x-csrc;text/x-changelog;text/x-chdr;text/x-c++hdr;text/x-python;text/x-python3;application/x-python;application/x-python3;application/javascript;application/x-javascript;text/x-javascript;text/javascript;text/x-js;text/x-shellscript;application/x-shellscript;text/x-sh;text/x-vala;text/x-c++;text/x-cpp;text/x-c++src;text/css;text/html;text/markdown;text/x-markdown;application/xml;text/xml;text/x-sql;application/sql;application/x-ruby;text/x-ruby;text/x-php;application/x-php;text/x-php-source;application/x-php-source;text/x-authors;text/x-changelog;text/x-copying;text/x-readme;text/rust;text/x-meson;text/plain;text/x-gettext-translation;text/x-gettext-translation-template;text/x-dbus-service;application/x-desktop;application/x-gtk-builder;application/xml-external-parsed-entity;application/json;
