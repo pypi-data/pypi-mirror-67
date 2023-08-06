@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: utilss
+Version: 0.1.2
+Summary: Useful tools to work with text mining in Python
+Home-page: https://github.com/xiaoouwang/utilss
+Author: Xiaoou WANG
+Author-email: xiaoouwangfrance@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/utilss
+Description: 
+        
+        
+Keywords: text mining,npl,corpus
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
