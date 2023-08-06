@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: discoverdollar-name-match
+Version: 0.0.1
+Summary: My private package from private github repo
+Home-page: https://github.com/discoverdollartech/discoverdollar_name_match
+Author: srikant hiremath
+Author-email: srikant.hiremath@discoverdollar.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: fuzzywuzzy (>=0.18.0)
+Requires-Dist: cleanco
+Requires-Dist: numpy (>=1.16.2)
+
+UNKNOWN
+
+
