@@ -1,0 +1,11 @@
+LICENSE
+README.md
+phanotate.py
+setup.cfg
+setup.py
+phanotate.egg-info/PKG-INFO
+phanotate.egg-info/SOURCES.txt
+phanotate.egg-info/dependency_links.txt
+phanotate.egg-info/requires.txt
+phanotate.egg-info/top_level.txt
+src/phanotate_connect.c
