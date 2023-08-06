@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prutils
+Version: 0.0.26
+Summary: Some of my code that may be used in multiple projects, extract them and form this library
+Home-page: https://gitee.com/prehisle/prutils
+Author: sToa
+Author-email: prehisle@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: pysimplegui (==4.18.2)
+Requires-Dist: Pillow (==7.1.2)
+Requires-Dist: jinja2 (==2.11.1)
+
+UNKNOWN
+
+
