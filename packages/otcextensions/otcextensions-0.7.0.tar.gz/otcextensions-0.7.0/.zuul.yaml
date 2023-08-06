@@ -1,0 +1,22 @@
+- job:
+    name: tox-functional-master
+    parent: tox-functional
+    branches: master
+
+- project:
+    merge-mode: squash-merge
+    check:
+      jobs:
+        - tox-py37
+        - tox-pep8
+        - tox-docs
+        - tox-functional
+    gate:
+      jobs:
+        - tox-py37
+        - tox-pep8
+        - tox-docs
+        - tox-functional
+    periodic:
+      jobs:
+        - tox-functional-master
