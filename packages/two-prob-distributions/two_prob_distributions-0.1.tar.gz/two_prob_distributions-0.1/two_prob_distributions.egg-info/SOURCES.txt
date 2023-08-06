@@ -1,0 +1,10 @@
+setup.py
+two_prob_distributions/Binomialdistribution.py
+two_prob_distributions/Gaussiandistribution.py
+two_prob_distributions/Generaldistribution.py
+two_prob_distributions/__init__.py
+two_prob_distributions.egg-info/PKG-INFO
+two_prob_distributions.egg-info/SOURCES.txt
+two_prob_distributions.egg-info/dependency_links.txt
+two_prob_distributions.egg-info/not-zip-safe
+two_prob_distributions.egg-info/top_level.txt
