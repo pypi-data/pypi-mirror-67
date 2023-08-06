@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyEPnP
+Version: 0.0.3
+Summary: a simple binding of EPnP
+Home-page: UNKNOWN
+Author: Ancheng Lin
+Author-email: ancheng.lin@ieee.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
