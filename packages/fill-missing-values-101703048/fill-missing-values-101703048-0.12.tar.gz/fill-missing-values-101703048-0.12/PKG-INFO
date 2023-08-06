@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fill-missing-values-101703048
+Version: 0.12
+Summary: A small package for filling missing values in the given dataset
+Home-page: UNKNOWN
+Author: Akriti Sehgal
+Author-email: akritisehgal9@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/AkritiSehgal/fill-missing-values-101703048/archive/v_01.2.tar.gz
+Description: Filling Missing Values using SimpleImputer which picks NaN values as missing values by default and filling those values by median strategy.
+Keywords: command-line,Missing values,missing-values
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
