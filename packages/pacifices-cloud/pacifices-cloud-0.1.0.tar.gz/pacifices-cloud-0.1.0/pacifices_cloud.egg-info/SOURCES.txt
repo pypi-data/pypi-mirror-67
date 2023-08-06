@@ -1,0 +1,12 @@
+README.md
+pacificescloud.py
+setup.py
+pacifices/__init__.py
+pacifices/cloud/__init__.py
+pacifices/cloud/server.py
+pacifices_cloud.egg-info/PKG-INFO
+pacifices_cloud.egg-info/SOURCES.txt
+pacifices_cloud.egg-info/dependency_links.txt
+pacifices_cloud.egg-info/entry_points.txt
+pacifices_cloud.egg-info/requires.txt
+pacifices_cloud.egg-info/top_level.txt

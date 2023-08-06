@@ -1,0 +1,3 @@
+[console_scripts]
+pacifices-cloud = pacificescloud:main
+
