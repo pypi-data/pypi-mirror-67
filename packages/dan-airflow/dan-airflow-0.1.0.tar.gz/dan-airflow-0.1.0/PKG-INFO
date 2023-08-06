@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: dan-airflow
+Version: 0.1.0
+Summary: Airflow plugins for Dan Conger
+Home-page: UNKNOWN
+Author: Dan Conger
+Author-email: UNKNOWN
+License: Apache License Version 2.0
+Description: # dan-airflow
+        
+Keywords: airflow
+Platform: UNKNOWN
