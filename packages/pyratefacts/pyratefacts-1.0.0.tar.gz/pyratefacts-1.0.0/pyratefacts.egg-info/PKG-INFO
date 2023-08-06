@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: pyratefacts
+Version: 1.0.0
+Summary: A simple module for loading artifacts from http or local and managing them
+Home-page: https://github.com/fsan/pyratefacts
+Author: fsan
+Author-email: pabyo.sansinaeti@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/fsan/pyratefacts/releases/download/1.0.0/pyratefacts-1.0.0-py3-none-any.whl
+Description: A simple module for loading artifacts from http or local and managing them
+Keywords: artifact management
+Platform: UNKNOWN
+Requires-Python: >=3.6
