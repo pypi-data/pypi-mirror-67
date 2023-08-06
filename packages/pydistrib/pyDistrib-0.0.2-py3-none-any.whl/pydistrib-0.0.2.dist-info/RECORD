@@ -1,0 +1,7 @@
+pydistrib/__init__.py,sha256=paj8DTHvWpbBmOypezzRPeaM6U85aY56YXUs0IcFeT4,35
+pydistrib/server.py,sha256=KLvZqCmTZ91GIOVw3uAAl3KHaIpx2F1wEYwjK7F9ptk,2818
+pydistrib/tests/TestServer.py,sha256=FVs8RIpzgDwmaKnX73lUYABWxUiIuiaXV7EUevayql4,199
+pydistrib-0.0.2.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pydistrib-0.0.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pydistrib-0.0.2.dist-info/METADATA,sha256=8EKaT5bBEhiP3SMqSrvZSi1He10txzhg-GZG_NAPYOw,792
+pydistrib-0.0.2.dist-info/RECORD,,

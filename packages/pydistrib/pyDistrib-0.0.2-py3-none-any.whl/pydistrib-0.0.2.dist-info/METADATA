@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pydistrib
+Version: 0.0.2
+Summary: A package to distribute Python computations across devices
+Home-page: https://github.com/rayanht/pyDistrib
+License: GPL-3.0-only
+Author: Rayan Hatout
+Author-email: rayan.hatout@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/rayanht/pyDistrib
