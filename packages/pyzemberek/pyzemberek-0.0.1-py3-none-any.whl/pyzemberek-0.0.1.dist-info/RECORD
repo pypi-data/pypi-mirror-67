@@ -1,0 +1,8 @@
+zemberek/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zemberek/stemmer.py,sha256=-wObtEFkEX6hp8WptwUUF67XP906Oohcd2qZBjzjM-Y,797
+zemberek/tokenization.py,sha256=4V7FAW6gO_fWGGQFMeWUDShrE37pBxearsq_pQfb5jE,2520
+pyzemberek-0.0.1.dist-info/LICENSE,sha256=BQq6LAkvBwnGksb5EsZDjVUgQVSHpS9YQofgNMTNzM8,11366
+pyzemberek-0.0.1.dist-info/METADATA,sha256=gXKcQGm2GdVvpsI9e8QGvs8Dut1Wn_7_dMf3pWL-y3c,1515
+pyzemberek-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyzemberek-0.0.1.dist-info/top_level.txt,sha256=SowCqgilL4QglaA5wJt0jGaETvA0kvMKJiHSkk2vSBY,9
+pyzemberek-0.0.1.dist-info/RECORD,,
