@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-keyset-pagination
+Version: 0.97
+Summary: Keyset pagination for django
+Home-page: UNKNOWN
+Author: Mikkel Clausen
+Author-email: maxtaager@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: django (>=2.2)
+
+UNKNOWN
+
+
