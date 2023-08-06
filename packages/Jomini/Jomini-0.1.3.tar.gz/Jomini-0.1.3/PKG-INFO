@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Jomini
+Version: 0.1.3
+Summary: Historical battle simulation package for Python
+Home-page: https://github.com/umitkaanusta/Jomini
+Author: Ümit Kaan Usta
+Author-email: u.kaanusta@gmail.com
+License: MIT
+Download-URL: https://github.com/umitkaanusta/Jomini/archive/v0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: military,battle,combat,history,simulation,war,historical,attrition,model
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
