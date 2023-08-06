@@ -1,0 +1,3 @@
+[console_scripts]
+pickled = pickled.scripts:main
+

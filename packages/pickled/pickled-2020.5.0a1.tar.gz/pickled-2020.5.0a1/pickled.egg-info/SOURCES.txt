@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pickled/__init__.py
+pickled.egg-info/PKG-INFO
+pickled.egg-info/SOURCES.txt
+pickled.egg-info/dependency_links.txt
+pickled.egg-info/entry_points.txt
+pickled.egg-info/namespace_packages.txt
+pickled.egg-info/not-zip-safe
+pickled.egg-info/requires.txt
+pickled.egg-info/top_level.txt
