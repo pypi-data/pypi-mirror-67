@@ -1,0 +1,12 @@
+cmif/__init__.py,sha256=sdt-0RdqKWxADtVFUo7CE4OFqXyIgtnVkSDXzWs3bQU,153
+cmif/__main__.py,sha256=gbUXYeGrcrqcOc70BjFtxHtBnwSqor-SlWYgZjypEOA,47
+cmif/demo.py,sha256=7I0CCb_bvEZb9uVYY-vNLT4cVCrNHDbD3EQECj6gsGM,568
+cmif/geocode.py,sha256=8HaGaaNrjVLsr0Vp566tIVw_RftqK_3EOBxUt4GTu70,1293
+cmif/local.py,sha256=4tmxYb7Obujdnrsu4WQR2ijl9QFJYeYamQYCiotFuRQ,610
+cmif/retrieve.py,sha256=9F-Hx_iYgfHse5c89B6BBP0vozMbR9ESwFtwA0f-Yaw,1222
+cmif/schema.py,sha256=E_-50n6YW_czQc7lJAqKDjkegWk9W4y2vUXM77lNLTc,289
+cmif-2020.5.3.dist-info/LICENSE,sha256=WCH8oT-zi2hA4pbPorAlhOlZOgVqrkIQ3tWadI7cV1k,1080
+cmif-2020.5.3.dist-info/METADATA,sha256=Rgb798Q9Khqo4spSetwCQeqwLb3TlL9VAJqQKsdalpo,1788
+cmif-2020.5.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cmif-2020.5.3.dist-info/top_level.txt,sha256=-g-aRpjuXpiojZoILcdK9XGLFr_fzj7KgqxE9EiBrVQ,5
+cmif-2020.5.3.dist-info/RECORD,,
