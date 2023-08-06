@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: WSTrade-alhparsa
+Version: 0.0.1a0
+Summary: A wrapper for WS Trade API to remotely execute orders
+Home-page: https://github.com/alhparsa/wstrade-python-wrapper-api
+Author: Parsa Alamzadeh
+Author-email: alh.parsa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Wealthsimple Trade Python API wrapper
+
+## **NOT OFFICIAL** Python wrapper for WealthSimple Trade API
+
+This project is not an official python wraper for WealthSimple API. This is just a wrapper for the existing API built by the Wealthsmiple to automate tasks. For more details about the official API please visit [WealthSimple API](https://developers.wealthsimple.com/).
+
+This repository is only for personal usage and is not maintained professionally. Please use it at your **OWN RISK**.
+
+## Get started
+
+To get started, use the following commands to download the repository and install its dependancies:
+
+```
+git clone something
+cd wstrade-api
+pip install -r requirements.txt
+```
+
+## Requirements
+
+The only requirement for this project is [Requests](https://pypi.org/project/requests/).
+
+
