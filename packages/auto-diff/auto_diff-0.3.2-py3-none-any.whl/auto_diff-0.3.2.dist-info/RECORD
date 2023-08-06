@@ -1,0 +1,11 @@
+auto_diff/__init__.py,sha256=THSCax9mSSC7_-Ga68swZ_3LwkcVl9WKdrSdX3R7b_M,5528
+auto_diff/numpy_masking.py,sha256=oj4DbxeCNmwtFVqDVWL2ynAutkvuXggJTgvCP298ny8,6013
+auto_diff/test_auto_diff_on_dae.py,sha256=zk5BcM3hAGB7vSXWUdc_WoMgfTD-flgo53cwPzpUULw,1320
+auto_diff/true_np.py,sha256=eFlY3dWF3XafSuiq62P1OAe2Nw6mDm33GhiZWtwM29g,20
+auto_diff/vecvalder.py,sha256=ubhhFpGy63u5g96qPneQRUyuu3PghTSmOotsj_jDi4Y,3298
+auto_diff/vecvalder_funcs_and_ufuncs.py,sha256=Hz7eoktkM-EdqQLb84DQSfpy8SB23iyfgLrb0VzqGKQ,15044
+auto_diff-0.3.2.dist-info/LICENSE,sha256=cY0q_py1wXTTixS6aLZRwOmO0o7LNS2aEBguF4_opkA,1461
+auto_diff-0.3.2.dist-info/METADATA,sha256=OkCQTMjHkGWY52ZxflVIC_hzSevFJ3-8K0Cm_J2lC8U,2907
+auto_diff-0.3.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+auto_diff-0.3.2.dist-info/top_level.txt,sha256=CK3s4_IdS60GNkH70Ehg_r2-RcpQwSW5GYsA1ivx5RA,10
+auto_diff-0.3.2.dist-info/RECORD,,
