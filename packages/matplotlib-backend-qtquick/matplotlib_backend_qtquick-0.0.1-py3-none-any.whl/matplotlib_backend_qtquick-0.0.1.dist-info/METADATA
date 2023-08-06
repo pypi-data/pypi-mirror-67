@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matplotlib-backend-qtquick
+Version: 0.0.1
+Summary: A QtQuick backend for matplotlib
+Home-page: https://github.com/jmitrevs/matplotlib_backend_qtquick
+Author: Jovan Mitrevski
+Author-email: j.p.mitrevski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# matplotlib_backend_qtquick
+A QtQuick backend for matplotlib
+
+Started from maplotlib_qtquick_playground on Frédéric Collonval, but updated to work with the current version (3.2.1) of matplotlib.
+
+
