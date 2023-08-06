@@ -1,0 +1,15 @@
+README.md
+setup.py
+bookend/__init__.py
+bookend/__main__.py
+bookend/core/cython_utils/_assembly_utils.c
+bookend/core/cython_utils/_element_graph.c
+bookend/core/cython_utils/_fasta_utils.c
+bookend/core/cython_utils/_pq.c
+bookend/core/cython_utils/_rnaseq_utils.c
+bookend_rna.egg-info/PKG-INFO
+bookend_rna.egg-info/SOURCES.txt
+bookend_rna.egg-info/dependency_links.txt
+bookend_rna.egg-info/entry_points.txt
+bookend_rna.egg-info/requires.txt
+bookend_rna.egg-info/top_level.txt
