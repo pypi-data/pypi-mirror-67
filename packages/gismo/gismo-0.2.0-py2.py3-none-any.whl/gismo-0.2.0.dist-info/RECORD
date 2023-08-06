@@ -1,0 +1,17 @@
+gismo/__init__.py,sha256=352t1XVrgGxi8sZqdj1hARIzZYNh5bm5kYE-rlDsWx0,277
+gismo/clustering.py,sha256=-oRPwfV5bfBIKCniBGmlUlcIFk0-1yIXf2pq1pNuH6E,3264
+gismo/common.py,sha256=lZvCTGO4IYiqeNxRn3Hu2ZdCPVIjdGiQPSopqc_-G84,3690
+gismo/corpus.py,sha256=81sWCB93e6mvbmO-3Sv_cHn7FZR24RZDpNPRqm6vw8s,4681
+gismo/diteration.py,sha256=Uoq67FXR3ai-z0q1F4EalRzv0N4TfOltpEyr4gImpis,2450
+gismo/embedding.py,sha256=A_EwXKftSKJjzwjr5AbxuReExvfDQR8AqVfE6HE1QUI,11379
+gismo/filesource.py,sha256=M81BpiSY6cVZVQZTjOxAVBmVADgHmG0c2csHBeilq7Q,1814
+gismo/gismo.py,sha256=agxwgYl7VJ-un4cxTSuX6pkMkSmUjj-Ea19XAjHOPNY,4613
+gismo/post_processing.py,sha256=XEcgAebd7d_AIMVo7sGDG2TMUqcuLWZrTq3TdCXGZM0,4045
+tests/__init__.py,sha256=P4btKcIeCzU4k9XCxEIar-tj8jzJUkuRgw1vWVQSrdM,35
+tests/test_gismo.py,sha256=xj1AZPlvbCzhxsD6_iLJI5JjUB3L_8satNGyckOhvzs,547
+gismo-0.2.0.dist-info/AUTHORS.rst,sha256=R805P4v-5Kemf_R96ZcQIYrkgXs3_uveANeEFjc64Lg,169
+gismo-0.2.0.dist-info/LICENSE,sha256=D_qQuHrg8_PAmgKgxLQNiVShp-cAv9BRMVffm3qgx0Q,1601
+gismo-0.2.0.dist-info/METADATA,sha256=iniXZaYQo9HPfaFtxdwDPVZxa6PSQc_5YL3_ugOXUs4,2082
+gismo-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gismo-0.2.0.dist-info/top_level.txt,sha256=LnXhHDhyTlwe8HztxCBU7uE9piSgr7_Cobu8XiEiuig,12
+gismo-0.2.0.dist-info/RECORD,,
