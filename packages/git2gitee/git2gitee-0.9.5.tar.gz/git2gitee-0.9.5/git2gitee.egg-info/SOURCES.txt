@@ -1,0 +1,15 @@
+README.md
+setup.py
+git2gitee/__init__.py
+git2gitee/command.py
+git2gitee/config.py
+git2gitee/login.py
+git2gitee/project.py
+git2gitee/tests.py
+git2gitee/util.py
+git2gitee.egg-info/PKG-INFO
+git2gitee.egg-info/SOURCES.txt
+git2gitee.egg-info/dependency_links.txt
+git2gitee.egg-info/entry_points.txt
+git2gitee.egg-info/requires.txt
+git2gitee.egg-info/top_level.txt
