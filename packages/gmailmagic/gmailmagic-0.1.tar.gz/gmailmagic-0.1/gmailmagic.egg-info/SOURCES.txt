@@ -1,0 +1,9 @@
+README.md
+setup.py
+gmailmagic/__init__.py
+gmailmagic/gmail.py
+gmailmagic.egg-info/PKG-INFO
+gmailmagic.egg-info/SOURCES.txt
+gmailmagic.egg-info/dependency_links.txt
+gmailmagic.egg-info/requires.txt
+gmailmagic.egg-info/top_level.txt
