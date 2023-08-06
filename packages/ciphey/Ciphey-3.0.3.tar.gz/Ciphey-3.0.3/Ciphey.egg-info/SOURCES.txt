@@ -1,0 +1,9 @@
+MANIFEST.in
+README.MD
+setup.py
+Ciphey.egg-info/PKG-INFO
+Ciphey.egg-info/SOURCES.txt
+Ciphey.egg-info/dependency_links.txt
+Ciphey.egg-info/entry_points.txt
+Ciphey.egg-info/requires.txt
+Ciphey.egg-info/top_level.txt
