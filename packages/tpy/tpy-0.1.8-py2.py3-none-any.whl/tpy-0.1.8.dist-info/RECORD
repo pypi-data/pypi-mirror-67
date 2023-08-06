@@ -1,0 +1,11 @@
+tpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tpy/__version__.py,sha256=vSySfd7-sc6knxVJUnuL2Mz5JsrDGB5T2XxKAH8lXZw,63
+tpy/cli.py,sha256=2nqZlqxtfqWwAB_D_7XZaBPx1AzwjlzsdBJLCjjLwHA,4083
+tpy/tmux.py,sha256=2EhmW6z-9qGxPL6Gm9fcrA-2nVZQEuWeukqRrxe_nkM,1945
+tpy/utils.py,sha256=8jf4pmz3vdbgTz2plZduWoUVwrLutsad3ZhSYwrULAQ,644
+tpy-0.1.8.dist-info/LICENSE,sha256=wI6MNurVivLVF4GXgAaF-3asjsdxf4iAVmT7j_qHjec,1060
+tpy-0.1.8.dist-info/METADATA,sha256=m37O_w4TtCDi16XO-JrwHfzGsW3avLrhJzXv4agPkps,758
+tpy-0.1.8.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tpy-0.1.8.dist-info/entry_points.txt,sha256=9Z0Syc7lzk4es46biGowAG11wI6sHp9rD0smEBo4mbY,38
+tpy-0.1.8.dist-info/top_level.txt,sha256=m1dzcLsLqF1dBEAhsMlZKNTPyKhkLCeR0pVUn0kiSVw,4
+tpy-0.1.8.dist-info/RECORD,,
