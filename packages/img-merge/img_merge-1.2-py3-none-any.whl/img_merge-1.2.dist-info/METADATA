@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: img-merge
+Version: 1.2
+Summary: merge with sorted imgs
+Home-page: UNKNOWN
+Author: xujin.huang
+Author-email: 409766147@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Dist: numpy (>=1.16.2)
+Requires-Dist: opencv-python (>=3.4.2.16)
+
+UNKNOWN
+
+
