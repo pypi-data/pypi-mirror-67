@@ -1,0 +1,10 @@
+setup.py
+ashokmadi_distributions/Binomialdistribution_challenge.py
+ashokmadi_distributions/Gaussiandistribution.py
+ashokmadi_distributions/Generaldistribution.py
+ashokmadi_distributions/__init__.py
+ashokmadi_distributions.egg-info/PKG-INFO
+ashokmadi_distributions.egg-info/SOURCES.txt
+ashokmadi_distributions.egg-info/dependency_links.txt
+ashokmadi_distributions.egg-info/not-zip-safe
+ashokmadi_distributions.egg-info/top_level.txt
