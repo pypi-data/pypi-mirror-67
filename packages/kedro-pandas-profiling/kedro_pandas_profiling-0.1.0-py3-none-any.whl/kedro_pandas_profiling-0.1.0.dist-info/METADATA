@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kedro-pandas-profiling
+Version: 0.1.0
+Summary: Kedro-Pandas-Profiling is a small Kedro plugin for profiling dataframes
+Home-page: https://github.com/brickfrog/kedro-pandas-profiling
+Author: Justin Malloy
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6, <3.8
+Requires-Dist: kedro
+Requires-Dist: pandas
+Requires-Dist: pandas-profiling
+
+Kedro-Pandas-Profiling is a small Kedro plugin that provides a wrapper to Pandas Profiling. This allows data in the catalog to be profiled, allowing better decisions to be made when building your Kedro pipeline.
+
+
