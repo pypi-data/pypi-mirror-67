@@ -1,0 +1,21 @@
+PyYAML
+astroplan
+astropy
+numpy
+pandas
+paramiko
+py_expression_eval
+pytz
+requests
+scipy
+sleekxmpp
+
+[full]
+lmfit
+photutils
+tornado
+
+[full:platform_system == "Linux"]
+pyinotify
+python-daemon
+sep
