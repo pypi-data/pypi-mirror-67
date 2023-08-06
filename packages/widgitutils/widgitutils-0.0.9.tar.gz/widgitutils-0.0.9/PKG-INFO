@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: widgitutils
+Version: 0.0.9
+Summary: A suite of common-use utilities for our cogs.
+Home-page: https://gitlab.com/widgitlabs/widgitutils
+Author: Widgit Labs
+License: MIT
+Project-URL: Issue tracker, https://gitlab.com/widgitlabs/widgitutils/issues
+Description: WidgitUtils
+        ===========
+        
+        Widgit is a next-generation hosting platform tailored for mods, modding guides,
+        and guilds which is currently under active development. At present, our hosting
+        platform is in private beta, but we have several active Discord servers running
+        under our brand today!
+        
+        Each of our Discord servers is managed by a networked instance of the awesome
+        [Red DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) which has been
+        extended through a series of custom cogs we built in-house. WidgitUtils is a
+        standardized library of common-use utilities thoughout our cogs.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5.3
+Description-Content-Type: text/x-rst
