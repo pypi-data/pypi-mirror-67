@@ -1,0 +1,8 @@
+README.md
+setup.py
+yashpdf/__init__.py
+yashpdf/pdftotext.py
+yashpdf.egg-info/PKG-INFO
+yashpdf.egg-info/SOURCES.txt
+yashpdf.egg-info/dependency_links.txt
+yashpdf.egg-info/top_level.txt
