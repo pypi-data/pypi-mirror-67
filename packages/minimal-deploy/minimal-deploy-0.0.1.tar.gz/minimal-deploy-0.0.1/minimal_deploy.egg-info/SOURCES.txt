@@ -1,0 +1,7 @@
+README.md
+minimal.py
+setup.py
+minimal_deploy.egg-info/PKG-INFO
+minimal_deploy.egg-info/SOURCES.txt
+minimal_deploy.egg-info/dependency_links.txt
+minimal_deploy.egg-info/top_level.txt
