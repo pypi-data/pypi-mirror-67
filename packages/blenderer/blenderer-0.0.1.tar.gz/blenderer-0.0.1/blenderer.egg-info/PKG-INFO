@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: blenderer
+Version: 0.0.1
+Summary: Render scripts for use in Blender 2.8.
+Home-page: https://github.com/mandeep/blenderer
+Author: Mandeep
+Author-email: mandeep@keemail.me
+License: MIT
+Description: ![blenderer](header.png)
+        ========================
+        
+        This repository contains a host of Python scripts that can be used at the command
+        line to render images via Blender's command line interface.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

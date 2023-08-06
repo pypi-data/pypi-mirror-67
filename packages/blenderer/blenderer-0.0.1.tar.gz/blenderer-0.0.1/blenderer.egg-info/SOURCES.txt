@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+blenderer/__init__.py
+blenderer.egg-info/PKG-INFO
+blenderer.egg-info/SOURCES.txt
+blenderer.egg-info/dependency_links.txt
+blenderer.egg-info/top_level.txt
