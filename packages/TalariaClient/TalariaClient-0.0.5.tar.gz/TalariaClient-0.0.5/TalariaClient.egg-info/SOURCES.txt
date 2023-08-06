@@ -1,0 +1,13 @@
+README.md
+setup.py
+TalariaClient.egg-info/PKG-INFO
+TalariaClient.egg-info/SOURCES.txt
+TalariaClient.egg-info/dependency_links.txt
+TalariaClient.egg-info/requires.txt
+TalariaClient.egg-info/top_level.txt
+talaria_client/__init__.py
+talaria_client/client.py
+talaria_client/encoder.py
+talaria_client/encoder_test.py
+talaria_client/talaria_pb2.py
+talaria_client/talaria_pb2_grpc.py
