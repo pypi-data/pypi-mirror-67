@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: torchfactor
+Version: 1.0.0
+Summary: A package for tensor factorizations using neural networks in PyTorch
+Home-page: https://github.com/Aaron09/torchfactor
+Author: Jonah Casebeer, Aaron Green, Alex Mackowiack
+Author-email: jonahmc2@illinois.edu, aarongg2@illinois.edu, amackow2@illinois.edu
+License: MIT
+Download-URL: https://github.com/Aaron09/torchfactor/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: PyTorch,tensor,factorization,neural network,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.6

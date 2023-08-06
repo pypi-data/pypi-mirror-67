@@ -1,0 +1,17 @@
+setup.cfg
+setup.py
+torchfactor/__init__.py
+torchfactor.egg-info/PKG-INFO
+torchfactor.egg-info/SOURCES.txt
+torchfactor.egg-info/dependency_links.txt
+torchfactor.egg-info/requires.txt
+torchfactor.egg-info/top_level.txt
+torchfactor/demo/__init__.py
+torchfactor/demo/polyu_dataset.py
+torchfactor/experiment/__init__.py
+torchfactor/experiment/experiment.py
+torchfactor/factorization/__init__.py
+torchfactor/factorization/auto_tuckernet.py
+torchfactor/factorization/direct_tuckernet.py
+torchfactor/factorization/nmfnet.py
+torchfactor/factorization/svdnet.py
