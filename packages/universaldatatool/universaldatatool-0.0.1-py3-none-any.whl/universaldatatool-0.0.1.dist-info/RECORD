@@ -1,0 +1,13 @@
+universaldatatool/__init__.py,sha256=YfKnYjO2paNg_YN2k-ijEJ7IjbMSaqDDZQSFnFzIdFc,213
+universaldatatool/camelify.py,sha256=vUXaa5DgTl-sBLIZNrnJwLzMob6ffNjOHUBBDbmUes8,657
+universaldatatool/dataset.py,sha256=d4L9b1Z8vU8zThoJzQNjYxgz9yMCF0cargCtEemPwtU,2531
+universaldatatool/interface.py,sha256=1zg6okhsfPug0TxuLS0DVvf5gxLcC06hebN3OFYQLsM,1245
+universaldatatool/load_csv.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+universaldatatool/load_json.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+universaldatatool/sample.py,sha256=UDgy4lDv2qDOKNneoPMFV6a0MTiGHhJjtEbfnfeaf_E,1030
+universaldatatool/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+universaldatatool-0.0.1.dist-info/LICENSE,sha256=WZxArUjNw2MLnXR23KqRst3-0RL--nI_Bjx6UPR09mU,1074
+universaldatatool-0.0.1.dist-info/METADATA,sha256=rPfX2rTi1EZXDiphKeasTwR1wggp5QTjuYzoHfy_OtA,1363
+universaldatatool-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+universaldatatool-0.0.1.dist-info/top_level.txt,sha256=i32fEvbyqTezrRYIlnpBs8ZDYiVEYTHfx-zp0sCeEWw,18
+universaldatatool-0.0.1.dist-info/RECORD,,
