@@ -1,0 +1,6 @@
+README.md
+setup.py
+custom_operations.egg-info/PKG-INFO
+custom_operations.egg-info/SOURCES.txt
+custom_operations.egg-info/dependency_links.txt
+custom_operations.egg-info/top_level.txt
