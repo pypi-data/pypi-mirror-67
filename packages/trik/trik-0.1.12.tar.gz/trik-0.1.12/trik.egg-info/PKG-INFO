@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: trik
+Version: 0.1.12
+Summary: 改自paradox的 练习用 自动微分
+Home-page: https://space.bilibili.com/489142974
+Author: hellotrik
+Author-email: hellotrik@foxmail.com
+License: MIT
+Description: ## [🗡来](https://hellotrik.github.io)
+Keywords: 自动微分,符号计算
+Platform: MS Windows
+Platform: Mac X
+Platform: Unix/Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
