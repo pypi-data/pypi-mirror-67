@@ -1,0 +1,3 @@
+[console_scripts]
+neseg = neseg.main:main
+
