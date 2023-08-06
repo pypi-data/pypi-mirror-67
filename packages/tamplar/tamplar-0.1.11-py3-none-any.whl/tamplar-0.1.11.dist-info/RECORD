@@ -1,0 +1,10 @@
+tamplar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/api/methods.py,sha256=oZX8wvxW9uZ71Q7G-EBlxa-hvPuFCTUvwi7tjtZE0oY,898
+tamplar/interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/interface/cmd.py,sha256=yGyM8g8ZJHZBwXlFanZ73bnCKcR9SETDUOKoFNwTYjc,140
+tamplar-0.1.11.dist-info/METADATA,sha256=3kCAKCJTUHHumFIQ0WSfmEQTLPAJMCUiKtG31SsJLZY,592
+tamplar-0.1.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tamplar-0.1.11.dist-info/entry_points.txt,sha256=5qaTVxe_G_Yq9K9CFDf3x3uOoz3MAzg95trUK2Gh4z8,55
+tamplar-0.1.11.dist-info/top_level.txt,sha256=SPMs26KnksRqA7tHSgk9M_GIuhjgOEHcQFzDiezFX84,8
+tamplar-0.1.11.dist-info/RECORD,,
