@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: qtree
+Version: 0.1
+Summary: Simple quantum circuit simulator based on undirected graphical models
+Home-page: https://github.com/Huawei-HiQ/qtree
+Author: R. Schutski, D. Lykov, D. Maslov et al. 
+Author-email: r.schutski@skoltech.ru
+License: Apache
+Keywords: quantum_circuit quantum_algorithms
+Platform: UNKNOWN
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: networkx (==2.3)
+Requires-Dist: matplotlib (==3.1.3)
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (<=1.15) ; extra == 'tensorflow'
+
+UNKNOWN
+
+
