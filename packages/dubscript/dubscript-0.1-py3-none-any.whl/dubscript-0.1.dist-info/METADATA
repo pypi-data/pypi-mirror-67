@@ -1,0 +1,192 @@
+Metadata-Version: 2.1
+Name: dubscript
+Version: 0.1
+Summary: Easily dub audio files using a simple command script.
+Home-page: https://gitlab.com/giuliobottari/dub-script
+Author: Giulio Bottari
+Author-email: giuliobottari@gmail.com
+License: MIT
+Keywords: audio dub pydub
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pydub
+
+# dub-script
+
+Easily dub audio files using a simple command script.
+
+## Usage
+
+The example below mixes a voice file from a remote source with a background song.
+
+```python
+import dubscript as ds
+
+segment = ds.process({
+  "version": "3",
+  "audio": [{
+      "type": "overlay",
+      "audio": [
+        {
+            "name": "voice",
+            "start": 500,
+            "audio": [
+                {"type": "file", "src": "https://mysite.com/1.wav"},
+                {"type": "silence", "duration": 1000},
+                {"type": "file", "src": "https://mysite.com/2.wav"},
+            ]
+        },
+        {
+            "name": "song",
+            "audio": [
+                {"type": "file", "src": "local/dir/bg.mp3", "gain": -10}
+            ]
+        }
+      ]
+  }]
+})
+
+segment.export('podcast.mp3')
+```
+
+## Dependencies
+
+`dub-script` is powered by [Pydub](https://github.com/jiaaro/pydub) and inherits its dependencies. Install [ffmpeg](http://www.ffmpeg.org/) or [libav](https://libav.org/) if you need to manipulate non-wave files, like `mp3`.
+
+## Installation
+
+```sh
+python setup.py install
+```
+
+## Why?
+
+This lib was originally intended to generate a podcast from a few audio files. You can use Pydub for this, but the idea of having a JSON recipe for it has several advantages. Having a recipe means you can version it and keep track of changes. Also, you can easily create a REST API that generates audios using `dub-script`. Finally, I find it easier to understand the audio processing when only looking at the JSON.
+
+## Commands
+
+With `dub-script`, everything is done through commands that follow this basic structure:
+
+```jsonc
+{
+  "type": "<command_type>"
+}
+```
+
+The only exception is the `concat` command, which doesn't have a `type`:
+
+```jsonc
+{
+  "audio": [
+    // audios to concatenate here
+  ]
+}
+```
+
+### Load local or remote files
+
+Use `file` to load audio data.
+
+```jsonc
+{
+  "type": "file",
+
+  // you can have either an url or a path
+  "src": "<local or remote source>"
+}
+```
+
+### Add silence
+
+Use `silence` to add a silent bit in milliseconds.
+
+```jsonc
+{
+  "type": "silence",
+  "duration": 1000
+}
+```
+
+### Concatenate
+
+Join audio together with concatenate:
+
+```jsonc
+{
+  "audio": [
+    { "type": "file1.wav" },
+    { "type": "file2.wav" }
+    // ...
+  ]
+}
+```
+
+### Overlay
+
+Mix audio tracks that plays at the same time with `overlay`.
+
+**Note: the length of the overlaid audio will always be equal to the first audio in the series.**
+
+```jsonc
+{
+  "type": "overlay",
+  "audio": [
+    // holds the tracks
+    {
+      "name": "track1", // track names are not required and are only here for organization purposes (yet)
+      "start": 3000, // this track will be delayed by 3 seconds
+      "audio": [{ "type": "file1.wav" }, { "type": "file2.wav" }]
+    },
+    {
+      "audio": [{ "type": "file3.wav" }],
+      "gain": 5 // the previous track will be boosted by +5 db while they overlap
+    }
+  ]
+}
+```
+
+## Filters
+
+Filters can be applied to any other command.
+
+### Change volume
+
+You can change the volume with `gain`. For instance:
+
+```jsonc
+{
+  "type": "file",
+  "src": "quiet.wav",
+  "gain": 3
+}
+```
+
+### Fade In/Out
+
+Fade audio with either `fade_in` or `fade_out`:
+
+```jsonc
+{
+  "audio": [
+    {
+      "type": "file",
+      "src": "intro.mp3",
+      "fade_in": 3000 // fade the first 3 seconds
+    },
+    {
+      "type": "file",
+      "src": "main.mp3",
+      "fade_out": 10000 // fade the last 10 seconds
+    }
+  ]
+}
+```
+
+## License
+
+Licensed under the [MIT License](./LICENSE).
+
+
