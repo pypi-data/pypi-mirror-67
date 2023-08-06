@@ -1,0 +1,10 @@
+README.md
+setup.py
+sym/__init__.py
+sym/enums/__init__.py
+sym/enums/service_pb2.py
+sym_types.egg-info/PKG-INFO
+sym_types.egg-info/SOURCES.txt
+sym_types.egg-info/dependency_links.txt
+sym_types.egg-info/namespace_packages.txt
+sym_types.egg-info/top_level.txt
