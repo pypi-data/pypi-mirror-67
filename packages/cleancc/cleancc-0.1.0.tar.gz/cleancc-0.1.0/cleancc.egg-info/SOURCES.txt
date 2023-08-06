@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+cleancc/__init__.py
+cleancc/clean.py
+cleancc.egg-info/PKG-INFO
+cleancc.egg-info/SOURCES.txt
+cleancc.egg-info/dependency_links.txt
+cleancc.egg-info/not-zip-safe
+cleancc.egg-info/top_level.txt
+cleancc/stopword/stopwords.txt
