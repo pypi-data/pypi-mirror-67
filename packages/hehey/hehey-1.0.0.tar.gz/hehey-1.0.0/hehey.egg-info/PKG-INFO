@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hehey
+Version: 1.0.0
+Summary: hehey是一个python web 站点工具框架
+Home-page: https://gitee.com/chinahehe/hehey
+Author: 13564768842
+Author-email: chinabluexfw@163.com
+License: UNKNOWN
+Description: # hehey web 框架
+        
+        ## 介绍
+        - hehey是一个python web 站点工具框架
+        
+        ## 依赖以及版本要求
+        - python >= 3.5
+        
+        
+        ## 安装
+        - 直接下载:
+        ```
+        
+        ```
+        - 命令安装：
+        ```
+        pip install hehey
+        ```
+        ## 基础文件以目录
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
