@@ -1,0 +1,2 @@
+djangorestframework>=3.10
+django-invitations==1.9.3
