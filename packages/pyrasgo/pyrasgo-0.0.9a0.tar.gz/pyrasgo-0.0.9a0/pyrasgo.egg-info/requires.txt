@@ -1,0 +1,4 @@
+requests
+snowflake-connector-python
+pandas
+amplitude-python
