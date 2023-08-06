@@ -1,0 +1,55 @@
+# Prerequisites
+
+```python
+pip install requests 
+pip install python-dotenv
+python requires = '>=3.6'
+```
+
+# Use
+```bash
+1.This package has been developed with python3.
+2.Once you install the package navigate to the package file 
+  for example(Programs\Python\Python37\Lib\site-packages\'the package file name')
+  and create an .env file like this:
+
+	USER_NAME = ''
+	PASS_WORD = ''
+	QUERY_URL= ''
+	HEALTH_URL= ''
+	INGEST_URL= ''
+```
+
+3.After this, the files structure in the package file should look like this:
+
+```bash
+'the package file name'/
+    __pycache__/
+    __init__.py
+    .env
+```
+4.Contact me for the credentials you must fill in the .env file.
+
+
+5.The way to check if you can connect to the API is shown in the example below
+
+```python
+import typhonql_mlconnector
+typhonql_mlconnector.health_check()
+```
+
+6.The way to get data from a select statement is shown in the example below
+
+```python
+import typhonql_mlconnector
+data = typhonql_mlconnector.query(query_string)
+```
+
+7.The way to ingest a json object  is shown in the example below
+
+```python
+import typhonql_mlconnector
+typhonql_mlconnector.ingest(name_of_entity, json_object_to_ingest)
+```
+
+
