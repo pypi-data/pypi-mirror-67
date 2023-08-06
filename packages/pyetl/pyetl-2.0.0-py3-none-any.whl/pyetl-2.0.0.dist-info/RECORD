@@ -1,0 +1,11 @@
+pyetl/__init__.py,sha256=TZ0nmjnsePZMDzo87r8hpD73CQ-6ZI58jryaTUwXMqA,272
+pyetl/mapping.py,sha256=xdzHA6Tk2Wr4265lLDD6YGvXVRDzmhztNh8EL_K9eIg,2374
+pyetl/reader.py,sha256=cYtxVtZNVcWSuv2ctIyaYsIpdct49B-jIeqIbMCBPEk,1069
+pyetl/task.py,sha256=yUWb2wENnaWgc7qoC1WmiuaxtCEZoNIf6lLXd8p1YiI,575
+pyetl/utils.py,sha256=smwjGB2rQdxYbEpWFjgExf8V_iZ-c-RhFfLNUMZ1vDA,210
+pyetl/writer.py,sha256=zkZGjvtsXdGZ0an0wtNouibGffU-9ksfKxqk5MRfuUE,862
+pyetl-2.0.0.dist-info/METADATA,sha256=sG1R2VGfVCYpZUYvJneLEyq9fFx9tJ8hwIgf8UryQy0,632
+pyetl-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyetl-2.0.0.dist-info/top_level.txt,sha256=t8AbWCl725E0PsI4VklbEIQ0Y7css-KFhSFWiQkNP6k,6
+pyetl-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyetl-2.0.0.dist-info/RECORD,,
