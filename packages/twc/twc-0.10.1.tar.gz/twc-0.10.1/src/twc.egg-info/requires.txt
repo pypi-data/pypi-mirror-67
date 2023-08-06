@@ -1,0 +1,4 @@
+prompt_toolkit==3.0.5
+tasklib==1.1.0
+attrs==19.1.0
+mgcomm>=0.2.0
