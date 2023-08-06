@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mavengitupgrader
+Version: 1.0.0
+Summary: A utility that checks for updates to Maven dependencies and creates new Git branches for each.
+Home-page: https://github.com/garrettheath4/maven-git-upgrader
+Author: Garrett Heath Koller
+Author-email: garrettheath4@gmail.com
+License: MIT
+Download-URL: https://github.com/garrettheath4/maven-git-upgrader/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: git,maven,dependency,update,updater,upgrade
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
