@@ -1,0 +1,6 @@
+README.md
+README.rst
+setup.py
+dethklok/_cli.py
+dethklok/__init__.py
+dethklok/__main__.py
