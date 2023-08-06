@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pys3sync
+Version: 0.1
+Summary: Continuously Sync local files to/from S3
+Home-page: https://github.com/angadsingh/s3sync
+Author: Angad Singh
+Author-email: angad@angadsingh.in
+License: MIT
+Description: A utility created to sync files to/from S3 as a continuously running
+            process, without having to manually take care of managing the sync. 
+            It internally uses the aws s3 sync command to do the sync and uses
+            python's watchdog listener to get notified of any changes to the watched folder.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
