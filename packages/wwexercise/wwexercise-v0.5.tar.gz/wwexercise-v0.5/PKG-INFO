@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: wwexercise
+Version: v0.5
+Summary: Weight Watchers coding exercise in python
+Home-page: https://github.com/birdman0030/wwexercise
+Author: Kurt Bird
+Author-email: kurtbird1@gmail.com
+License: GNU
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.6
