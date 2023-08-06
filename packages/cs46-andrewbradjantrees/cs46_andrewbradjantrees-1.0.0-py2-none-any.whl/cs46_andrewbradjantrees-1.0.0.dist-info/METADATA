@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: cs46-andrewbradjantrees
+Version: 1.0.0
+Summary: Heap, AVL, and other Binary Tree python code configurations.
+Home-page: https://github.com/a2bradjan/trees
+Author: a2bradjan
+Author-email: a2bradjan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+# Trees ![](https://api.travis-ci.com/a2bradjan/trees.svg?branch=heap)
+
+This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+
+
