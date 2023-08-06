@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pylayers-project
+Version: 0.3
+Summary: A pyayers project MetaClass
+Home-page: UNKNOWN
+Author: Bernard Uguen
+Author-email: bernard.uguen@univ-rennes1.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pylayers_project
+A Meta Class for pylayers object introspection
+
+
