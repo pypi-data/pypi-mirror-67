@@ -1,0 +1,12 @@
+spwla/__init__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+spwla/__main__.py,sha256=SajAqDBJj0fYbhq8-j63VMOG5hPH39Vl357Dp60YEjg,379
+spwla/_version.py,sha256=i1yX3GxdXutI1YYCvUV8O7msNGXkA6ETlvkNrLCI_XM,116
+spwla/cli.py,sha256=lQ3hL6JtDhtE5BnZXCgMAc3pY7c4I1F4HjaaBVyn_9U,804
+spwla/resistivity.py,sha256=h_UfUDpPleS5fjpV-MCBlELYsQGUpFciSQGIZ9Xfe3k,812
+spwla-0.0.2.dist-info/AUTHORS.rst,sha256=TU_oVyYhHcDe_1gyt_2bjOR_nODWcK9qVAxvOAH4asc,50
+spwla-0.0.2.dist-info/LICENSE,sha256=BamdmVY4SGvW2c-I4X4n9f1E-kWvQVoORmvaJxqE-4A,1097
+spwla-0.0.2.dist-info/METADATA,sha256=Ig2rN8h0soEA5iiDsvtPfcpT-c-__l6WlmEooYvD6ow,2109
+spwla-0.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+spwla-0.0.2.dist-info/entry_points.txt,sha256=Zg90EzEChZuA6BK5kBJEhsXPWME41lm9xWL522mteSE,42
+spwla-0.0.2.dist-info/top_level.txt,sha256=mKWPK5zhGEDigyZsg_Vcw2dDFTND__CTdOXC95ap3LY,6
+spwla-0.0.2.dist-info/RECORD,,
