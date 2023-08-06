@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openmm-systems
+Version: 0.0.0
+Summary: Collection of premade molecular systems for use with OpenMM
+Home-page: https://github.com/ADicksonLab/openmm_systems.git
+Author: Samuel D. Lotz
+Author-email: samuel.lotz@salotz.info
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: all

@@ -1,0 +1,19 @@
+graft src
+graft info
+graft envs
+
+include AUTHORS.org
+include CHANGELOG.org
+include LICENSE
+include README.org
+
+include requirements.in
+include requirements.txt
+
+include pyproject.toml
+
+global-exclude *.py[co] __pycache__ *.so *~
+
+
+include versioneer.py
+include src/openmm_systems/_version.py

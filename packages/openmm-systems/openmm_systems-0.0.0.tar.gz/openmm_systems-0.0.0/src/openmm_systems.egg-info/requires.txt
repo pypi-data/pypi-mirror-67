@@ -1,0 +1,8 @@
+numpy
+scipy
+mdtraj
+
+[all]
+numpy
+scipy
+mdtraj
