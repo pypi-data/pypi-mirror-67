@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: piweatherrock
+Version: 2.0.0.dev2
+Summary: Provides forecast data from ClimaCell for PiWeatherRock
+Home-page: https://github.com/genebean/PiWeatherRock
+Author: Gene Liverman
+Author-email: gene@technicalissues.us
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: darkskylib
+Requires-Dist: pygame
+Requires-Dist: pyserial
+Requires-Dist: requests
+Requires-Dist: cherrypy
+Requires-Dist: piweatherrock-webconfig (==1.4.0rc1)
+
+# PiWeatherRock
+
+![GitHub](https://img.shields.io/github/license/genebean/PiWeatherRock)
+
+Display local weather on a Raspberry Pi
+
+Documentation lives at https://piweatherrock.technicalissues.us
+
+
