@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DBN
+Version: 0.1.0
+Summary: Decentralized Bluetooth Network
+Home-page: UNKNOWN
+Author: Vhenrixon
+Author-email: vhenrixon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: pybluez
+Requires-Dist: python-jwt
+
+# Decentralized-Bluetooth-Network
+
+
