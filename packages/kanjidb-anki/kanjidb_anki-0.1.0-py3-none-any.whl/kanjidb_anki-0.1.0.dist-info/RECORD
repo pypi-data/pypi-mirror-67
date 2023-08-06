@@ -1,0 +1,11 @@
+kanjidb_anki/__init__.py,sha256=g8NzmyECcK-XIbKc3bpM-_ft1luMUw-6RPeVhDBmjvw,177
+kanjidb_anki/__version__.py,sha256=5lK768LCsHgWRowWO3druzl_XcS2aR92kh6FzotaVmI,341
+kanjidb_anki/builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kanjidb_anki/builder/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kanjidb_anki/builder/plugins/ankideck.py,sha256=dPOh2Mv6gM99ZDiYM6I58bpHLpk3nul2T0St2EgALDQ,1732
+kanjidb_anki-0.1.0.dist-info/LICENSE,sha256=hUiCn7xBDdK15FzRNWdwcDiRGGRhtcHtvgkW1iKRi2o,1083
+kanjidb_anki-0.1.0.dist-info/METADATA,sha256=Tqu8sxkkbiZL-z25gWuxm9bo_JT7ygPFH5WpZjRoTQg,495
+kanjidb_anki-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+kanjidb_anki-0.1.0.dist-info/entry_points.txt,sha256=y2-PVXkDm4ubD9_PQjIpBkIGFKK0hROEdLEZtyz7u84,76
+kanjidb_anki-0.1.0.dist-info/top_level.txt,sha256=VNTOlRJwobnyIqcN6-4sv4Vg8nM6fhQpZ4mL89PYlyM,13
+kanjidb_anki-0.1.0.dist-info/RECORD,,
