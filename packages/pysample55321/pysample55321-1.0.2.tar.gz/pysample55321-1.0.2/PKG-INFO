@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pysample55321
+Version: 1.0.2
+Summary: A sample python package with cpp
+Home-page: http://github.com/horia141/tabletest
+Author: Mansoor Nasir
+Author-email: cheema@fortiss.org
+License: MIT
+Description: README.md
+Keywords: sample hello test
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
