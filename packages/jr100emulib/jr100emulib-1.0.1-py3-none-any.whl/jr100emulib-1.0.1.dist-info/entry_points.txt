@@ -1,0 +1,3 @@
+[console_scripts]
+fskloader = jr100emulib.fskloader:main
+
