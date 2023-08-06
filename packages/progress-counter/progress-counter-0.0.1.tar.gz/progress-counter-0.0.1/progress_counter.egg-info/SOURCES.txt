@@ -1,0 +1,6 @@
+setup.py
+progress_counter/__init__.py
+progress_counter.egg-info/PKG-INFO
+progress_counter.egg-info/SOURCES.txt
+progress_counter.egg-info/dependency_links.txt
+progress_counter.egg-info/top_level.txt
