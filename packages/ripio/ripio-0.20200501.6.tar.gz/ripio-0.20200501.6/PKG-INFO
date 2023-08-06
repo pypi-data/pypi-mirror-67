@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ripio
+Version: 0.20200501.6
+Summary: Bitbucket git repositories from command line
+Home-page: https://bitbucket.org/DavidVilla/ripio
+Author: David Villa Alises
+Author-email: David.Villa@gmail.com
+License: GPL v2 or later
+Description: ripio is a CLI to manage git repositories hosted at bitbucket.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
