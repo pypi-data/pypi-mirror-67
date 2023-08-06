@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+geta/__init__.py
+geta/main.py
+geta/name.py
+geta/version.py
+geta.egg-info/PKG-INFO
+geta.egg-info/SOURCES.txt
+geta.egg-info/dependency_links.txt
+geta.egg-info/entry_points.txt
+geta.egg-info/requires.txt
+geta.egg-info/top_level.txt
+tests/__init__.py
+tests/test_name.py
