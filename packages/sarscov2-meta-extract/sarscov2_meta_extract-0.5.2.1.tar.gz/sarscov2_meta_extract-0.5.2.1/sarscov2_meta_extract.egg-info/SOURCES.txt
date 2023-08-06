@@ -1,0 +1,10 @@
+README.md
+setup.py
+sarscov2_meta_extract.egg-info/PKG-INFO
+sarscov2_meta_extract.egg-info/SOURCES.txt
+sarscov2_meta_extract.egg-info/dependency_links.txt
+sarscov2_meta_extract.egg-info/entry_points.txt
+sarscov2_meta_extract.egg-info/requires.txt
+sarscov2_meta_extract.egg-info/top_level.txt
+sarscov2metaextract/__init__.py
+sarscov2metaextract/cli.py
