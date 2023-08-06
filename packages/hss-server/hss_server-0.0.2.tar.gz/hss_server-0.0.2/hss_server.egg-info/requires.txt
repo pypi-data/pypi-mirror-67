@@ -1,0 +1,4 @@
+rpyc
+paho-mqtt
+requests
+appdirs
