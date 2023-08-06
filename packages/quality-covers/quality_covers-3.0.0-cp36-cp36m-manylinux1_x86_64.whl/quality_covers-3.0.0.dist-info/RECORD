@@ -1,0 +1,10 @@
+quality_covers-3.0.0.dist-info/METADATA,sha256=r5cMg_v93q-5VdETCPcaoxs19M8MnhNZcsvb6NwqHX4,2768
+quality_covers-3.0.0.dist-info/top_level.txt,sha256=93xygx26x1imSAMdxRgWy80DxkLDPe902HnZqsnfksk,15
+quality_covers-3.0.0.dist-info/WHEEL,sha256=sls3I4AwOjcUUS0eD_jeWVVjbWXRb5AM-U3YAwvxhss,109
+quality_covers-3.0.0.dist-info/LICENSE,sha256=TR045JJWhTB26yKD33CdVnpn2AGl-ebqEf-K5IZ9fDA,1086
+quality_covers-3.0.0.dist-info/RECORD,,
+quality_covers.libs/libgomp-3300acd3.so.1.0.0,sha256=wk6lUMisMxGcI6r1jSaoBVNekDfko_qp2SPZPoSnlbw,63024
+quality_covers/quality_covers.cpython-36m-x86_64-linux-gnu.so,sha256=_J72ZzlGQ4m9Fhe-7FIGmFZVBcIjJXtUfYvB7wqlaeo,1404376
+quality_covers/__init__.py,sha256=hjS0ybHBPgwK5tV4Q5vOb766G_OIulBFJP6JIp8xZ8M,219
+quality_covers/matrice/matrice.py,sha256=CB8SJ-YTg5OdzENQDNteGeCAoxs4LX5jEq4q9USfa1I,3053
+quality_covers/matrice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
