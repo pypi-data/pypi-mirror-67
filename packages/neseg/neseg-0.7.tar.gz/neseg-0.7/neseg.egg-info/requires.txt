@@ -1,0 +1,2 @@
+pyahocorasick==1.1.8
+xlrd==1.1.0

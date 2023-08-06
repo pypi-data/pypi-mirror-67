@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+neseg/__init__.py
+neseg/main.py
+neseg/seg.py
+neseg.egg-info/PKG-INFO
+neseg.egg-info/SOURCES.txt
+neseg.egg-info/dependency_links.txt
+neseg.egg-info/entry_points.txt
+neseg.egg-info/requires.txt
+neseg.egg-info/top_level.txt
+neseg/lib/FMM.py
+neseg/lib/RMM.py
+neseg/lib/__init__.py
