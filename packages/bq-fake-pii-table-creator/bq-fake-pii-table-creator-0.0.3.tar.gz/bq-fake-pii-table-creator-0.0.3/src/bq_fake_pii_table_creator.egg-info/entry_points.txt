@@ -1,0 +1,3 @@
+[console_scripts]
+bq-fake-pii-table-creator = bq_fake_pii_table_creator:main
+
