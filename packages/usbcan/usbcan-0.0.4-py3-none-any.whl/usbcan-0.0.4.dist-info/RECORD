@@ -1,0 +1,8 @@
+usbcan/ECanVci64.dll,sha256=TwT_MoNQloteo7KbR7KUYOFpnje3YiiBD-zejS9Vwyo,109056
+usbcan/__init__.py,sha256=RNKwvahnUzU3gVSndVioO5wZpw9QE9ufk4217EHzddI,224
+usbcan/somebus.py,sha256=qmehkjLO4wci5tJjxn7Qf5f62hkepao6yQjxqj88L7k,6488
+usbcan-0.0.4.dist-info/LICENSE,sha256=-tMjduLMRHMnrmk0y651VvbnbE4p2Tj9wKVa_webrOs,1115
+usbcan-0.0.4.dist-info/METADATA,sha256=dd6DM7t2zab973QzEp17_xjHxG3aMchPwgamUqCoM4k,582
+usbcan-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+usbcan-0.0.4.dist-info/top_level.txt,sha256=Qnxn4lsp23r4JvDwxQRLjYD4uld6P6wH7gaee7i2AZs,7
+usbcan-0.0.4.dist-info/RECORD,,
