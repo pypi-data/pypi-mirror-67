@@ -1,0 +1,16 @@
+README.md
+setup.py
+lipn/__init__.py
+lipn/unsupervised/BC_Clust.py
+lipn/unsupervised/DS2L_SOM.py
+lipn/unsupervised/StreamBarycentric.py
+lipn/unsupervised/__init__.py
+lipn_ml.egg-info/PKG-INFO
+lipn_ml.egg-info/SOURCES.txt
+lipn_ml.egg-info/dependency_links.txt
+lipn_ml.egg-info/top_level.txt
+test/__init__.py
+test/unsupervised/__init__.py
+test/unsupervised/test_BC_Clust.py
+test/unsupervised/test_DS2L_SOM.py
+test/unsupervised/test_StreamBarycentric.py
