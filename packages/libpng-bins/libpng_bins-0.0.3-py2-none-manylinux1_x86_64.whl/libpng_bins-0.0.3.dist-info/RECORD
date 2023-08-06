@@ -1,0 +1,16 @@
+libpng/__init__.py,sha256=g4QJVFDzAV3-Vq0_i_T_4iZfXhNRzss0_RB9maeEmqk,663
+libpng/ld-musl-x86_64.so.1,sha256=TRuX_5sCkwt7gKTocSwxRDZbroUUgTfROT39EdBmCNQ,596528
+libpng/libc.musl-x86_64.so.1,sha256=TRuX_5sCkwt7gKTocSwxRDZbroUUgTfROT39EdBmCNQ,596528
+libpng/libpng.la,sha256=f4pwoa3a-_woG7d3oERJ48VZbOVJQtzuWwlNW7T83vI,933
+libpng/libpng.so,sha256=dOVAggcyj-OP6Q0hB2570Ovvfx0Q8MnGHUQ7n1bc1X8,1044392
+libpng/libpng16.la,sha256=f4pwoa3a-_woG7d3oERJ48VZbOVJQtzuWwlNW7T83vI,933
+libpng/libpng16.so,sha256=dOVAggcyj-OP6Q0hB2570Ovvfx0Q8MnGHUQ7n1bc1X8,1044392
+libpng/libpng16.so.16,sha256=dOVAggcyj-OP6Q0hB2570Ovvfx0Q8MnGHUQ7n1bc1X8,1044392
+libpng/libpng16.so.16.38.0,sha256=dOVAggcyj-OP6Q0hB2570Ovvfx0Q8MnGHUQ7n1bc1X8,1044392
+libpng/libz.so,sha256=e1vFa8XIQjz1bnd_6bFBM_sevHDlroARFQct8yC9VBY,100144
+libpng/libz.so.1,sha256=e1vFa8XIQjz1bnd_6bFBM_sevHDlroARFQct8yC9VBY,100144
+libpng/libz.so.1.2.11,sha256=e1vFa8XIQjz1bnd_6bFBM_sevHDlroARFQct8yC9VBY,100144
+libpng_bins-0.0.3.dist-info/METADATA,sha256=SzqF6ifxmAEQToHwv95LbkgwpDyYDyxar2nrkIsi19c,290
+libpng_bins-0.0.3.dist-info/RECORD,,
+libpng_bins-0.0.3.dist-info/WHEEL,sha256=iJe96DT23Pn3NPKOhzBl004XfttkPJp8F88DdkjinNo,106
+libpng_bins-0.0.3.dist-info/top_level.txt,sha256=bGiVFoWqSv_Mw_1Oyp9iTcOcrxHhDap3cCHdua5Ru7U,7
