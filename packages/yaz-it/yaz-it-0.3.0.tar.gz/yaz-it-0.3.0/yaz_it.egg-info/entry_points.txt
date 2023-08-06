@@ -1,0 +1,6 @@
+[console_scripts]
+unyaz = yazit.unyazit:main
+unyazit = yazit.unyazit:main
+yaz = yazit.yazit:main
+yazit = yazit.yazit:main
+
