@@ -1,0 +1,3 @@
+jamdict>=0.1a6
+pyyaml
+genanki
