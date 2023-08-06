@@ -1,0 +1,13 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/cli.py,sha256=aeAlQnch0X7H81wEPBmSYhNlqJFi7ypLPD3P44KnGvo,808
+cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/commands/cmd_group.py,sha256=9pKqiYEXvuhsGnkpVEgi5HhhL-HIUxnFmCy5PNJitPQ,208
+cli/commands/cmd_scripts.py,sha256=_YAH_oaWSbWnjJqqHyMM4TIZazcGvAli7PQpTdE1n98,375
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/test.py,sha256=7bEWRB87t13ayUe5JlXZDaqRcSs1O8_KwONI3NCPE4w,45
+bumble_beem-0.0.1.dist-info/LICENSE,sha256=Oq-az5KWTJwgF0WB5FQPZ6ryAFUTOhG3kk-wEEwWMtE,1089
+bumble_beem-0.0.1.dist-info/METADATA,sha256=NVQwd1kmGLDNJEWRmwPk-ujxz0A6DdBCi6kN9_S1VHk,790
+bumble_beem-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bumble_beem-0.0.1.dist-info/entry_points.txt,sha256=Zsg4F78UOp5x5Ea_HO3oWm8MiLxtMBZTBZWe-LKb-FA,44
+bumble_beem-0.0.1.dist-info/top_level.txt,sha256=sElxmGcmAQrGD58Y01vhE5Js-j3SCVH5sV90fQTokGs,12
+bumble_beem-0.0.1.dist-info/RECORD,,

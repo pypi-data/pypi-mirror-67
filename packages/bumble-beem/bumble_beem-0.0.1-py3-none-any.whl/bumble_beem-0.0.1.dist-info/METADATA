@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bumble-beem
+Version: 0.0.1
+Summary: A lightweight python library for interacting with the Hive Blockchain
+Home-page: http://pypi.python.org/pypi/bumble-beem/
+Author: DistortedLogic/Memehub
+Author-email: jermeek@gmail.com
+License: LICENSE.txt
+Keywords: hive,steem,library,api,rpc
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Dist: Click
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# bumblebeem
+A python library for the Hive Blockchain
+
+
