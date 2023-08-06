@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: updator
+Version: 0.1.0
+Summary: Command line entry point for updator
+Home-page: https://github.com/ShirAvr/updator.git
+License: UNKNOWN
+Author: Shir Avr
+Author-email: shir@bhh.co.il
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pymongo >=3.10.0
+Requires-Dist: astor >=0.8.1
+Requires-Dist: click >=7.1.1
+Requires-Dist: tabulate >=0.8.7
+
+Updator
+-------
+
+Always be up-to-date!
