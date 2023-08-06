@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: AK_PY_PKG_SIMPLY
+Version: 0.3
+Summary: SIMPLFY TEXT
+Home-page: https://github.com/lungareakshay/ak-py-pkg-simply.git
+Author: AKSHAY LUNGARE
+Author-email: lungareakshay@gmial.com
+License: MIT
+Download-URL: https://github.com/lungareakshay/ak-py-pkg-simply/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: SIMPLFY TEXT,AKSHAY MARATHI,MURAKAMI,2MAY
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
