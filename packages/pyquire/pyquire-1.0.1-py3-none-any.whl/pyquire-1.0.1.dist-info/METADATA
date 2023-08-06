@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pyquire
+Version: 1.0.1
+Summary: Object Oriented API for Quire
+Home-page: https://gitlab.com/galava/modules/pyquire
+Author: Vadym Matus
+Author-email: vadym.matus@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (<1.2.0,>=1.1.2)
+Requires-Dist: requests (<2.24.0,>=2.23.0)
+Requires-Dist: attrs (<19.4,>=19.3.0)
+Requires-Dist: singleton (<0.2.0,>=0.1.0)
+
+# Object Oriented API for Quire
+
+A set of resources (classes) for working with [quire](https://quire.io) [API](https://quire.io/dev/api/)
+
+All API resources available in [resources](pyquire/resources).
+
+**Examples:**
+
+Before queries you need initialize Credential object (he singleton). 
+
+```python
+from pyquire.credentials import Credentials
+from pyquire.resources.user_resource import UserResource
+
+# Credentials.initialize(
+#    set_file="./conf.json"
+# )
+# or
+# Credentials.initialize(
+#     access_token="ACCESS_TOKEN",
+#     expires_in=3599,
+#     refresh_token="REFRESH_TOKEN",
+#     client_id="CLIENT_ID",
+#     client_secret="CLIENT_SECRET"
+# )
+# or
+Credentials.initialize( 
+     client_id="CLIENT_ID", 
+     client_secret="CLIENT_SECRET", 
+     set_file="./conf.json"
+) 
+print(UserResource().get_users())
+# [User(oid='...', name='...', iconColor='43', image='...', ... email='...', website='')]
+```
+
+**TODO**
+- [x] Create credentials class
+- [x] When code received - stop server and continue work flow.
+
+**P.S.**
+> Implemented for their needs, but if there are problems, suggestions, etc. create issue in the repository.
+# Changelog
+
+**v1.0.1:**
+1. Fix requirements
+
+**v1.0.0:**
+1. Just create
+
