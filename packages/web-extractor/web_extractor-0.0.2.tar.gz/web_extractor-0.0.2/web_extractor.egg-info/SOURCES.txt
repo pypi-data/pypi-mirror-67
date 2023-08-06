@@ -1,0 +1,9 @@
+README.md
+setup.py
+web_extractor/__init__.py
+web_extractor/test.py
+web_extractor.egg-info/PKG-INFO
+web_extractor.egg-info/SOURCES.txt
+web_extractor.egg-info/dependency_links.txt
+web_extractor.egg-info/requires.txt
+web_extractor.egg-info/top_level.txt
