@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hwdean
+Version: 0.0.6
+Summary: A package for training and predicting temporal cell 
+                    response predictions (tcrp) for florescent microscopy time-lapse data.
+Home-page: https://bitbucket.astrazeneca.com/users/krjm801/repos/package_dev
+Author: Dean Sumner
+Author-email: dean.sumner@astrazeneca.net
+License: MIT
+Download-URL: https://bitbucket.astrazeneca.com/users/krjm801/repos/package_dev/browse/dist/hwdean-0.0.4.tar.gz
+Description: This is a test for making a shareable environment. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
