@@ -1,0 +1,15 @@
+neural_semigroups/__init__.py,sha256=kvX1NeVV-rJ16zAbpMr_NO4RxKuBsWu38mAMX5dY4vw,934
+neural_semigroups/associator_loss.py,sha256=spERXZb7L_WVaAVSiKOjF85LPfVdf6ETWDTfW_EQmWU,2363
+neural_semigroups/cayley_database.py,sha256=-TaGgrvi6EjDZqH89CEtH7ulT-kPBRhgZandP3neJ6w,11014
+neural_semigroups/classifier.py,sha256=bqitedzxks5Kj1eSW2ah9YGAbX7LhaBEcMdqVEoncAs,2424
+neural_semigroups/constant_baseline.py,sha256=Ze2k1-UQSaqCDySnNNXa2rTK_Vx3sqs97chqkDnrw38,2817
+neural_semigroups/constants.py,sha256=py2IQtB8myWMwISswsE_VmVcDIb1CRLP1LulqTQiJR8,907
+neural_semigroups/cyclic_group.py,sha256=ITuo2jaXA46BNul6HUq6DzDAazMrXGv9mi8IzSJLDZ8,998
+neural_semigroups/denoising_autoencoder.py,sha256=wCLucW9Ik97Xhsda03z9Um8FNrZALYIft_bj9m5pg38,5368
+neural_semigroups/magma.py,sha256=9aciXWJ8L8wcZAQjEKdqtzN0Ny2-ghlf_WuxSLczFGw,6854
+neural_semigroups/training_helpers.py,sha256=GQ8poCa6Suf8pBfNKiRPi3H_aqQl5RM9n6ufBeQRwNw,7593
+neural_semigroups/utils.py,sha256=0tNcHYaudPxgdx-bpCihC0LYuuQ0YtCv8RU5R1DDCAg,12570
+neural_semigroups-0.3.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+neural_semigroups-0.3.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+neural_semigroups-0.3.1.dist-info/METADATA,sha256=VCLSQLShm7EYP5vLApKw_mjNtlAuB_mc3BYddGuqok0,3345
+neural_semigroups-0.3.1.dist-info/RECORD,,
