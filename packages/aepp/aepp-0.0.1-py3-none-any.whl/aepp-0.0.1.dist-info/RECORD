@@ -1,0 +1,10 @@
+aepp/__init__.py,sha256=X_dFsYBppxL-CiCRJ2SV5WrTuOOMR_Et9pSc2rxDDtc,6114
+aepp/adobeio_auth.py,sha256=OReg73e5bALBwl9itTcfVuD7XqQzDwV-SNJbdQmX1v8,2685
+aepp/config.py,sha256=h-t-zCC68Jmi_GSc_sOGOxmG_lWEUc73mTRdiIZCFOE,645
+aepp/queryservice.py,sha256=5eZBnU2bfzFOSbIsGynr-NriC5qx_tTBY1tYQ2xwexM,9429
+aepp/schema.py,sha256=mV1glblmG1FDTNWgwGIGYd_zcY3QQE8zPglS8BWRkh8,13094
+aepp-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+aepp-0.0.1.dist-info/METADATA,sha256=zGHcoJpNB1tyVWVNliO_YOBIr0x_HC35-n64epMhjJk,2176
+aepp-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+aepp-0.0.1.dist-info/top_level.txt,sha256=dtZJI8SzhWVgZRl68PHKZX_fD6amvDiFR-lqD9FSJvE,5
+aepp-0.0.1.dist-info/RECORD,,
