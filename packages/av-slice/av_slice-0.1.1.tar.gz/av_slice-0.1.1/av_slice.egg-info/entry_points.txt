@@ -1,0 +1,4 @@
+[console_scripts]
+av_slice-audio = av_slice.cli:audio
+av_slice-video = av_slice.cli:video
+
