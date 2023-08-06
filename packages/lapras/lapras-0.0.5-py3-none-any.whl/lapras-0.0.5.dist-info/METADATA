@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: lapras
+Version: 0.0.5
+Summary: scorecard
+Home-page: https://github.com/yhangang
+Author: Badtom
+Author-email: yhangang@gmail.com
+License: MIT
+Keywords: scorecard
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: numpy (>=1.15.4)
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn (>=0.10.0)
+
+UNKNOWN
+
+
