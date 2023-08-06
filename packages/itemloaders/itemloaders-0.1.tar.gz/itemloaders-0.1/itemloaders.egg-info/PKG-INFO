@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: itemloaders
+Version: 0.1
+Summary: Base library for scrapy's ItemLoader
+Home-page: https://github.com/ejulio/itemloaders
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+License: BSD
+Project-URL: Source, https://github.com/ejulio/itemloaders
+Description: # scrapy-itemloaders
+        
+        This is an extraction of `ItemLoader` from `scrapy`'s codebase.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
