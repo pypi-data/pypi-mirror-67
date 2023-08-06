@@ -1,0 +1,12 @@
+README.md
+setup.py
+excel_magic/__init__.py
+excel_magic/chromium_downloader.py
+excel_magic/dataset.py
+excel_magic/splitter.py
+excel_magic/utils.py
+excelmagic.egg-info/PKG-INFO
+excelmagic.egg-info/SOURCES.txt
+excelmagic.egg-info/dependency_links.txt
+excelmagic.egg-info/requires.txt
+excelmagic.egg-info/top_level.txt
