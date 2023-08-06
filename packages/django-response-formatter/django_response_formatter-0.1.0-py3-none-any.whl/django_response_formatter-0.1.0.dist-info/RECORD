@@ -1,0 +1,8 @@
+djangocircle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocircle/django_response_formatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocircle/django_response_formatter/middleware.py,sha256=g8ZiEwTyZrinLGqhzDhk1MuLcps8gmVEbr6ddGEZiIg,2856
+django_response_formatter-0.1.0.dist-info/LICENSE,sha256=xoESHIgXkCG-zG5QphBEL569Cpho1rqbNa8j4bFXJQY,1069
+django_response_formatter-0.1.0.dist-info/METADATA,sha256=A84p0tnpb09DGAclW2A6EKpA_Wb-RY-ujv4b5_ZkGF0,577
+django_response_formatter-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_response_formatter-0.1.0.dist-info/top_level.txt,sha256=h39LSHGa7jtwYCWMQDNrluLNORXbfUKGZszKef8djy4,13
+django_response_formatter-0.1.0.dist-info/RECORD,,
