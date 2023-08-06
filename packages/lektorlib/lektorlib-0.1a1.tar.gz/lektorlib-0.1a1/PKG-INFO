@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lektorlib
+Version: 0.1a1
+Summary: A few bits which are potentially useful to developers of Lektor plugins
+Home-page: https://github.com/dairiki/lektorlib
+Author: Jeff Dairiki
+Author-email: dairiki@dairiki.org
+License: MIT
+Description: # Lektorlib
+        
+        [![PyPI version](https://img.shields.io/pypi/v/lektorlib.svg)](https://pypi.org/project/lektorlib/)
+        [![PyPI Supported Python Versions](https://img.shields.io/pypi/pyversions/lektorlib.svg)](https://pypi.python.org/pypi/lektorlib/)
+        [![GitHub license](https://img.shields.io/github/license/dairiki/lektorlib)](https://github.com/dairiki/lektorlib/blob/master/LICENSE)
+        [![GitHub Actions (Tests)](https://github.com/dairiki/lektorlib/workflows/Tests/badge.svg)](https://github.com/dairiki/lektorlib)
+        
+        A few bits which may possibly be useful to developers of [Lektor][] plugins.
+        
+        # Author
+        
+        Jeff Dairiki <dairiki@dairiki.org>
+        
+        [Lektor]: <https://www.getlektor.com/> "Lektor Static Content Management System"
+        
+Keywords: Lektor utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Lektor
+Classifier: Environment :: Plugins
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
