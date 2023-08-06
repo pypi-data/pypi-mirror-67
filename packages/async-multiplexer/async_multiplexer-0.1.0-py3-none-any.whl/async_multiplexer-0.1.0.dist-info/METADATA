@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: async-multiplexer
+Version: 0.1.0
+Summary: Asyncio TCP Multiplexer
+Home-page: https://github.com/aratz-lasa/async-multiplexer
+Author: Aratz M. Lasa
+Author-email: aratz.m.lasa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: uvarint (==1.2.0)
+Provides-Extra: dev
+Requires-Dist: pytest (==5.4.1) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.11.0) ; extra == 'dev'
+Requires-Dist: hypothesis (==5.10.4) ; extra == 'dev'
+Requires-Dist: hypothesis-pytest (==0.19.0) ; extra == 'dev'
+
+# async_multiplexer
+[![PyPI version](https://badge.fury.io/py/async-multiplexer.svg)](https://badge.fury.io/py/async-multiplexer)
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![Build Status](https://travis-ci.com/aratz-lasa/async-multiplexer.svg?branch=master)](https://travis-ci.com/aratz-lasa/async-multiplexer)
+[![codecov](https://codecov.io/gh/aratz-lasa/async-multiplexer/branch/master/graph/badge.svg)](https://codecov.io/gh/aratz-lasa/async-multiplexer)
+
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+
+**async_multiplexer** is a TCP Multiplexer based on [Mplex](https://github.com/libp2p/specs/tree/master/mplex) protocol, but simplified.
+It is intended for creating mutiple streams in parallel
+on top of a same TCP connection.
+
+## Installation
+```bash
+pip install async-multiplexer
+``` 
+
+## Usage
+
+### Client
+```python
+import asyncio
+from async_multiplexer import open_multiplexer_context
+
+async def echo_client():
+    async with open_multiplexer_context("127.0.0.1", 7777) as multiplexer:
+        stream_echo_1 = await multiplexer.multiplex("echo.1")
+        stream_echo_2 = await multiplexer.multiplex("echo.2")
+        await stream_echo_1.write(b"echo.1")
+        await stream_echo_2.write(b"echo.2")
+
+
+if __name__ == "__main__":
+    asyncio.run(echo_client())
+```
+
+### Server
+```python
+import asyncio
+from async_multiplexer import bind_multiplex_listener_context
+
+async def handler(stream):
+    data = await stream.read()
+    print(data)
+
+async def echo_server():
+    async with bind_multiplex_listener_context("127.0.0.1", 7777) as listener:
+        listener.set_handler("echo.1", handler)
+        listener.set_handler("echo.2", handler)
+        await asyncio.sleep(10)
+
+if __name__ == "__main__":
+    asyncio.run(echo_server())
+```
+
