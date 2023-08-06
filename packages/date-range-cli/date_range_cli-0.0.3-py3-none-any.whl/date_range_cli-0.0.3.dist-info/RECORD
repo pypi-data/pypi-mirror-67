@@ -1,0 +1,12 @@
+date_range/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+date_range/daterange.py,sha256=arB_nZFnb9p1qr1iU_rDqaWbZmCZt-PZwfLghOsnD54,587
+date_range/generate_dates.py,sha256=Gz3GT4sqgmmy9OgluWkX4F6aCzQ3LjGUGhhzsG2X_3M,870
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_daterange.py,sha256=yYrxRgj3aWd9lGIQpffKL95yZNvnEICxypL8fOqcJhs,1121
+tests/test_generate_dates.py,sha256=PcYP2g0V15El16f8IsmemlavAikpxQIpfHQSBXfVN9U,1702
+date_range_cli-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+date_range_cli-0.0.3.dist-info/METADATA,sha256=DV0ycWeffMzdg5caR8v-FXpKy4fB_vg5Y4JZ75bCMSs,591
+date_range_cli-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+date_range_cli-0.0.3.dist-info/entry_points.txt,sha256=0gdSMLQj3SU0HEPcMWV68ViWHhPJQdnSGIXmu79WjJ4,57
+date_range_cli-0.0.3.dist-info/top_level.txt,sha256=ESpcloVMLpH9FmOc0BhKQ02CIUTZLRrD12dm0kLwhPU,17
+date_range_cli-0.0.3.dist-info/RECORD,,
