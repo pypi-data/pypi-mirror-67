@@ -1,0 +1,7 @@
+mtcnn
+opencv-python
+dlib
+wget
+numpy
+pafy
+youtube-dl
