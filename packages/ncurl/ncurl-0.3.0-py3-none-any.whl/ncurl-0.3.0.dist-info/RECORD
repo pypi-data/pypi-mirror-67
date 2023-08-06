@@ -1,0 +1,11 @@
+ncurl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncurl/api.py,sha256=eAvSv24T0tX9oTTqaNOKNMVoBOUWJFpvDecRsvVEiB4,1781
+ncurl/app.py,sha256=plCk8baWkQVWI9--l3XfmS7dRX9_xYVYOk2nRI168R0,420
+ncurl/curl_utils.py,sha256=QIcDhM2__sUnzEqkoG2pOfvoiKneN1uo_DqfytAlMWc,668
+ncurl/utils.py,sha256=2ZXyaxqeLL0mI7a_bcW4jLs6Sl4LXs1HUb-sVS48VVU,1695
+ncurl-0.3.0.dist-info/METADATA,sha256=joDvXE_B3YwIwc3rTdjzjjeo0h3JWkjBzztzNczQxns,319
+ncurl-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ncurl-0.3.0.dist-info/entry_points.txt,sha256=OTT2mgV1JH2qq1Xa_obab42UTvuhlhhTWmZ4ss3eejo,42
+ncurl-0.3.0.dist-info/top_level.txt,sha256=H6vYeNYyhMyzx2Pl0-BlOHytkYvP1HwYk4KmnO6ZhoE,6
+ncurl-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ncurl-0.3.0.dist-info/RECORD,,
