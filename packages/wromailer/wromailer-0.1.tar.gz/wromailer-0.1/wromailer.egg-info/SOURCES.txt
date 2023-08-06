@@ -1,0 +1,13 @@
+README.md
+setup.py
+wromailer/__init__.py
+wromailer/icalendar_creator.py
+wromailer/mailer.py
+wromailer/remind.py
+wromailer/task_reader.py
+wromailer.egg-info/PKG-INFO
+wromailer.egg-info/SOURCES.txt
+wromailer.egg-info/dependency_links.txt
+wromailer.egg-info/entry_points.txt
+wromailer.egg-info/requires.txt
+wromailer.egg-info/top_level.txt

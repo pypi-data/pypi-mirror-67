@@ -1,0 +1,3 @@
+[console_scripts]
+wromailer = wromailer.remind:main_console
+
