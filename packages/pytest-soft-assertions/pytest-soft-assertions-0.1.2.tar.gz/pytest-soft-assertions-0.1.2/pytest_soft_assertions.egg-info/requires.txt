@@ -1,0 +1,4 @@
+pytest
+astor
+texttable
+pytest-ast-transformer>=1.0.3
