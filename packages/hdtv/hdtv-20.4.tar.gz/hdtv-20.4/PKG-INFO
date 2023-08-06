@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hdtv
+Version: 20.4
+Summary: HDTV - Nuclear Spectrum Analysis Tool
+Home-page: https://github.com/janmayer/hdtv
+Maintainer: Jan Mayer
+Maintainer-email: jan.mayer@ikp.uni-koeln.de
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: test
+Provides-Extra: dev

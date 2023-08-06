@@ -1,0 +1,10 @@
+scipy
+matplotlib
+uncertainties
+
+[dev]
+docutils
+
+[test]
+pytest
+pytest-cov
