@@ -1,0 +1,6 @@
+README.md
+setup.py
+freehand.egg-info/PKG-INFO
+freehand.egg-info/SOURCES.txt
+freehand.egg-info/dependency_links.txt
+freehand.egg-info/top_level.txt
