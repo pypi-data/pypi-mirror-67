@@ -1,0 +1,10 @@
+future
+omnijson>=0.1.2
+ujson>=2.0.0
+
+[:python_version < "3"]
+futures
+tornado<5.0,>=4.0
+
+[:python_version >= "3"]
+tornado<7.0,>=4.0
