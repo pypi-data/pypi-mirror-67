@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+blenderpy/__init__.py
+blenderpy/post_install.py
+bpy_cuda.egg-info/PKG-INFO
+bpy_cuda.egg-info/SOURCES.txt
+bpy_cuda.egg-info/dependency_links.txt
+bpy_cuda.egg-info/entry_points.txt
+bpy_cuda.egg-info/top_level.txt
