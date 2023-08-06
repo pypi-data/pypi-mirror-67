@@ -1,0 +1,9 @@
+python_eyes/__init__.py,sha256=o0hpskDuan8eNjr8L4V0G-He9ANtVru4LY0J_ObQkMM,47
+python_eyes/python_eyes.py,sha256=J9gXFmUyI2Z0-QRFQAoUO3Uo9Yx9ZMvXhq_Ixzig4VY,7488
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_create_instance.py,sha256=ttm3U0sd6fW8f1UiP8GKiO0AK9v_5Rnu0_LlduSZl7c,178
+python_eyes-0.0.3.dist-info/LICENSE.txt,sha256=qFc6ZPkmxkm4s9AgdWCaFpaMSP8Pa-ef2HbbHwTle6U,1075
+python_eyes-0.0.3.dist-info/METADATA,sha256=QQvVVgtwvlIb4h3TL4CNEUpvc_57ycChftlpWkidCHs,2464
+python_eyes-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_eyes-0.0.3.dist-info/top_level.txt,sha256=hGspStGiRduJmvDmj_pvFbhzrQ1mzYzHS61S2TJjww0,18
+python_eyes-0.0.3.dist-info/RECORD,,
