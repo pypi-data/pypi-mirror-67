@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/nr/__init__.py
+src/nr/git_subrepo.py
+src/nr.git_subrepo.egg-info/PKG-INFO
+src/nr.git_subrepo.egg-info/SOURCES.txt
+src/nr.git_subrepo.egg-info/dependency_links.txt
+src/nr.git_subrepo.egg-info/entry_points.txt
+src/nr.git_subrepo.egg-info/top_level.txt

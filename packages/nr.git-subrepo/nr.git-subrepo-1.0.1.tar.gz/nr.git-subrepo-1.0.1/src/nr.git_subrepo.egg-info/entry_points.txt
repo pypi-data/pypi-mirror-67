@@ -1,0 +1,3 @@
+[console_scripts]
+git-subrepo = nr.git_subrepo:main
+
