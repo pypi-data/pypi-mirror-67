@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyupurs/__init__.py
+pyupurs.egg-info/PKG-INFO
+pyupurs.egg-info/SOURCES.txt
+pyupurs.egg-info/dependency_links.txt
+pyupurs.egg-info/requires.txt
+pyupurs.egg-info/top_level.txt
+pyupurs/stateless_file_ops/__init__.py
+pyupurs/stateless_file_ops/auditing_ops.py
+pyupurs/stateless_file_ops/structured_ops.py
