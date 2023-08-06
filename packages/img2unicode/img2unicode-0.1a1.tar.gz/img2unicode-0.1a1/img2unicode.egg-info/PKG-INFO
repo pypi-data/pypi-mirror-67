@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: img2unicode
+Version: 0.1a1
+Summary: Convert images to unicode based on font templates. Especially usable in terminal.
+Home-page: https://github.com/matrach/img2unicode
+Author: Maciej Matraszek
+Author-email: matraszek.maciej@gmail.com
+License: MIT
+Description: # img2unicode
+        A tool to display images as Unicode in your terminal
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: develop
