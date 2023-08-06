@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: mcp9600
+Version: 0.0.4
+Summary: Python library for the MCP9600 thermocouple temperature sensor
+Home-page: https://www.pimoroni.com
+Author: Philip Howard
+Author-email: phil@pimoroni.com
+License: MIT
+Project-URL: GitHub, https://github.com/pimoroni/mcp9600-pytho
+Keywords: Raspberry Pi
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Requires-Python: >= 2.7
+Description-Content-Type: text/markdown
+Requires-Dist: i2cdevice (>=0.0.6)
+
+# MCP9600 Thermocouple Temperature Sensor
+
+[![Build Status](https://travis-ci.com/pimoroni/mcp9600-python.svg?branch=master)](https://travis-ci.com/pimoroni/mcp9600-python)
+[![Coverage Status](https://coveralls.io/repos/github/pimoroni/mcp9600-python/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/mcp9600-python?branch=master)
+[![PyPi Package](https://img.shields.io/pypi/v/mcp9600.svg)](https://pypi.python.org/pypi/mcp9600)
+[![Python Versions](https://img.shields.io/pypi/pyversions/mcp9600.svg)](https://pypi.python.org/pypi/mcp9600)
+
+
+# Installing
+
+Stable library from PyPi:
+
+* Just run `sudo pip install mcp9600`
+
+Latest/development library from GitHub:
+
+* `git clone https://github.com/pimoroni/mcp9600-python`
+* `cd mcp9600-python`
+* `sudo ./install.sh`
+
+
+
+# Changelog
+
+0.0.4
+-----
+
+* Add set/get for thermocouple type
+
+0.0.3
+-----
+
+* Port to i2cdevice>=0.0.6 set/get API
+
+0.0.2
+-----
+
+* Added `get_altitude` method
+* Corrected pressure to hPa
+
+0.0.1
+-----
+
+* Initial Release
+
+
