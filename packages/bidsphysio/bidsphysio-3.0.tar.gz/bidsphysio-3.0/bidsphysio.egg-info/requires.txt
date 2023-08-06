@@ -1,0 +1,10 @@
+numpy>=1.17.1
+pydicom>=1.4.1
+bioread>=1.0.4
+etelemetry
+
+[all]
+pytest
+
+[tests]
+pytest
