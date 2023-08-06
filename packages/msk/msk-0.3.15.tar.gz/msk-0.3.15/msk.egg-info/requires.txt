@@ -1,0 +1,6 @@
+GitPython>=3.0.5
+typing
+msm>=0.5.13
+pygithub
+requests
+colorama
