@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: physicl
+Version: 0.0.1
+Summary: OpenCL-based physics simulation package
+Home-page: https://github.com/bcwarner/physics-sim
+Author: Ben Warner
+Author-email: warnerbc@plu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyopencl
+Requires-Dist: pytest
+Requires-Dist: scipy
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/bcwarner/physicl/master/docs/logo.png" width="400px">
+</p>
+
+PhysiCL is a Python module for writing physics simulations that utilize OpenCL to accelerate calculations. It includes:
+
+- A Numpy-based code units system
+- A set of generic tools for writing simulations using pre-existing features, as well as writing your own features
+- A collection of tools for writing simulations involving photons and scattering.
+
+There are a number of Jupyter notebooks in the examples folder that highlight the usage of PhysiCL. PhysiCL is best suited for scenarios where it can be parallelized, namely those involving few interactions between different objects. 
+
+#### Contributing
+
+There are a number of ways you can contribute. Current tasks include:
+
+- Improving the quality and coverage of the documentation.
+- Improving the testing coverage.
+- Fixing bugs.
+- Adding new features.
+
+
