@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+ytsphinx/__init__.py
+ytsphinx/youtube.py
+ytsphinx.egg-info/PKG-INFO
+ytsphinx.egg-info/SOURCES.txt
+ytsphinx.egg-info/dependency_links.txt
+ytsphinx.egg-info/namespace_packages.txt
+ytsphinx.egg-info/not-zip-safe
+ytsphinx.egg-info/requires.txt
+ytsphinx.egg-info/top_level.txt
