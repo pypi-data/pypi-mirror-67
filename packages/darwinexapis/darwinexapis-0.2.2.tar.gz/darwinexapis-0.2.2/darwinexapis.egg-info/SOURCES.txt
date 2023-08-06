@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+darwinexapis/__init__.py
+darwinexapis.egg-info/PKG-INFO
+darwinexapis.egg-info/SOURCES.txt
+darwinexapis.egg-info/dependency_links.txt
+darwinexapis.egg-info/requires.txt
+darwinexapis.egg-info/top_level.txt
