@@ -1,0 +1,10 @@
+README.md
+setup.py
+xertocsv/XerToCsvConverter.py
+xertocsv/__init__.py
+xertocsv/test.py
+xertocsv.egg-info/PKG-INFO
+xertocsv.egg-info/SOURCES.txt
+xertocsv.egg-info/dependency_links.txt
+xertocsv.egg-info/requires.txt
+xertocsv.egg-info/top_level.txt
