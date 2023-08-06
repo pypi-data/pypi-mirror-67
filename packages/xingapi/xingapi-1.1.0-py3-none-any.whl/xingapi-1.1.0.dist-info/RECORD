@@ -1,0 +1,12 @@
+xingapi/__init__.py,sha256=FN-FR2dDms35EQwRGyWBYJfULCT-YMlyT8jIWgjU6Lw,334
+xingapi/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xingapi/api/log.py,sha256=vGw8HVu-89tnfo5c7gRNJTUA9G7_DDaOI11Q9Tlp9rw,1386
+xingapi/api/res.py,sha256=PiPa_fFmKCJEI7sa0QqfNmxoVRwFXjzSs70P8l9tPxE,1472
+xingapi/api/xaquery.py,sha256=GAR43scEAjTYX-A8UQy-TRDY5_a3_fL5C5n5Ras9OHE,5101
+xingapi/api/xareal.py,sha256=PtZfctQ4sSMVJnqbPdjALLXlpj98czqXmeX6serR1jw,1914
+xingapi/api/xasession.py,sha256=nYYB836n-TtlqBHDN282IJnLEkF9hYfgAv-RiYXAvE4,1193
+xingapi-1.1.0.dist-info/LICENSE,sha256=6sCIQZ-rIeDozc924uQNbM9qregXoWj7e15Yc9lz7uc,1085
+xingapi-1.1.0.dist-info/METADATA,sha256=H1SILb2_SoYZ7A1EkTOfwGYigBsjkLM04-madyARXVo,4143
+xingapi-1.1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+xingapi-1.1.0.dist-info/top_level.txt,sha256=4lJkTT_kTXi2b5mjgS-9Ec591NEeHQMbkc0lbjmYouM,8
+xingapi-1.1.0.dist-info/RECORD,,
