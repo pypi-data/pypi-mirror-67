@@ -1,0 +1,11 @@
+dataclasses
+click>=7.0
+requests
+simplejson
+pyyaml
+joblib
+sklearn
+green
+
+[optimize]
+skopt
