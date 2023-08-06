@@ -1,0 +1,10 @@
+README.md
+setup.py
+mkdocs_tree_title/__init__.py
+mkdocs_tree_title/plugin.py
+mkdocs_tree_title.egg-info/PKG-INFO
+mkdocs_tree_title.egg-info/SOURCES.txt
+mkdocs_tree_title.egg-info/dependency_links.txt
+mkdocs_tree_title.egg-info/entry_points.txt
+mkdocs_tree_title.egg-info/requires.txt
+mkdocs_tree_title.egg-info/top_level.txt
