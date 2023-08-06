@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: InvertedIndexFreq
+Version: 0.3
+Summary: Inverted Index Frequency Script
+Home-page: https://github.com/xanasa14/InvertedIndexFreq_pkg
+Author: Xavier Navarro
+Author-email: xanasa14@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Indexing Frequency Helper Version 3
+
+
