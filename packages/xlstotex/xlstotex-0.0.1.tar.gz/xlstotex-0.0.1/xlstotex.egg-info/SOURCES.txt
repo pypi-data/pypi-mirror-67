@@ -1,0 +1,12 @@
+README.md
+setup.py
+xlstotex/__init__.py
+xlstotex/cmd.py
+xlstotex/convert.py
+xlstotex/utils.py
+xlstotex.egg-info/PKG-INFO
+xlstotex.egg-info/SOURCES.txt
+xlstotex.egg-info/dependency_links.txt
+xlstotex.egg-info/entry_points.txt
+xlstotex.egg-info/not-zip-safe
+xlstotex.egg-info/top_level.txt
