@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: paroxython
+Version: 0.1.17
+Summary: Search Python code for algorithmic features
+Home-page: https://github.com/laowantong/paroxython/
+License: MIT
+Keywords: education,static-analysis,algorithmic,metaprogramming,python,taxonomic-classification,knowledge-management
+Author: Aristide Grange
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Education
+Classifier: Typing :: Typed
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: regex (>=2020.4.4,<2021.0.0)
+Requires-Dist: sqlparse (>=0.3.1,<0.4.0)
+Requires-Dist: typed-ast (>=1.4.1,<2.0.0)
+Requires-Dist: typing-extensions (>=3.7.4.2,<4.0.0.0)
+Project-URL: Repository, https://github.com/laowantong/paroxython/
+Project-URL: issues, https://github.com/laowantong/paroxython/issues
+Description-Content-Type: text/markdown
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/paroxython)
+[![Build Status](https://travis-ci.com/laowantong/paroxython.svg?branch=master)](https://travis-ci.com/laowantong/paroxython)
+[![codecov](https://img.shields.io/codecov/c/github/laowantong/paroxython/master)](https://codecov.io/gh/laowantong/paroxython)
+[![Updates](https://pyup.io/repos/github/laowantong/paroxython/shield.svg)](https://pyup.io/repos/github/laowantong/paroxython/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/laowantong/paroxython)
+
+# Paroxython
+
+Coming soon.
+
