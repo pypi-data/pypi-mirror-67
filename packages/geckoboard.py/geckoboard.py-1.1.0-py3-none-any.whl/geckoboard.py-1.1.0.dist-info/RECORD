@@ -1,0 +1,11 @@
+geckoboard/__init__.py,sha256=_DT3M5nXZlK-Mx1yiPvFUP8Jn4jWE340tK_Z4ZPlKwQ,804
+geckoboard/api.py,sha256=bZBeKpY-KBW0MuWmbaJK_aSN18YS-0Xy6tjCa6V2JKo,608
+geckoboard/client.py,sha256=n7B0ehqaBODv6Giuad3MFDvGndp4HsZeFwACDSi77pA,1281
+geckoboard/connection.py,sha256=ZW-_eLg8X7fCFuPa1IfaHTRkqTYVbQMFvYzBYBEqdvY,1108
+geckoboard/dataset.py,sha256=9KNjk2eoa84T2ax_BYHlVbZMS3umsd_OmPYsbWsiVXM,2101
+geckoboard/datasets_client.py,sha256=dtsBWbAAAlYGs8FBgZ2mZxi1VP26X9VxEsyzZQOjnt8,2421
+geckoboard/response_handler.py,sha256=celeOo1f9lB9rmpyDShWfp64kg3Jkv1oPXmlNUbSYas,133
+geckoboard.py-1.1.0.dist-info/METADATA,sha256=JYo4HL-XEhkZ4OpD1L3KQtwn4yn3pDl3GILPeSGriRw,5495
+geckoboard.py-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+geckoboard.py-1.1.0.dist-info/top_level.txt,sha256=6GBqEl5GHYoHhkQd5PvAYDaatLp2FFFjjhdAhLyH3mk,11
+geckoboard.py-1.1.0.dist-info/RECORD,,
