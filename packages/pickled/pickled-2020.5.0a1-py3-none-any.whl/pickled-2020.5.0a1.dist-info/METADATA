@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pickled
+Version: 2020.5.0a1
+Summary: ISalt: Interactive Salt Programming
+Home-page: https://github.com/mirceaulinic/pickled
+Author: Mircea Ulinic
+Author-email: ping@mirceaulinic.net
+License: Apache License 2.0
+Keywords: Salt
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Systems Administration
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: napalm
+Requires-Dist: salt-sproxy
+
+pickled
+=======
+
+Salt based network configuration backup.
+
+
