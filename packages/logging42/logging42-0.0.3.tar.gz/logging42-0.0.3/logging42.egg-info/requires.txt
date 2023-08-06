@@ -1,0 +1,6 @@
+loguru
+
+[test]
+pytest
+pytest-cov
+safety
