@@ -1,0 +1,7 @@
+README.md
+setup.py
+algoxtools/__init__.py
+algoxtools.egg-info/PKG-INFO
+algoxtools.egg-info/SOURCES.txt
+algoxtools.egg-info/dependency_links.txt
+algoxtools.egg-info/top_level.txt

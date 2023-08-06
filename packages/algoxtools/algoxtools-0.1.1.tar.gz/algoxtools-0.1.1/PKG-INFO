@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: algoxtools
+Version: 0.1.1
+Summary: A Fast Algorithm X implementation in Python using Numpy and Numba
+Home-page: https://github.com/Seemee/algoxtools
+Author: Symen Hillebrand Hovinga
+Author-email: itsfull@hotmail.com
+License: UNKNOWN
+Description: # algoxtools
+        A fast Algorithm X implementation in Python using Numpy and Numba
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
