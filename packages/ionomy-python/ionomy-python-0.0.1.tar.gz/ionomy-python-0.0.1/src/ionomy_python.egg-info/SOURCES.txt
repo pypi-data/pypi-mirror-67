@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/cli/__init__.py
+src/cli/cli.py
+src/cli/commands/__init__.py
+src/cli/commands/cmd_group.py
+src/cli/commands/cmd_scripts.py
+src/ionomy_python.egg-info/PKG-INFO
+src/ionomy_python.egg-info/SOURCES.txt
+src/ionomy_python.egg-info/dependency_links.txt
+src/ionomy_python.egg-info/entry_points.txt
+src/ionomy_python.egg-info/requires.txt
+src/ionomy_python.egg-info/top_level.txt
+src/scripts/__init__.py
