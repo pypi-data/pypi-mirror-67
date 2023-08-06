@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: docking-py
+Version: 0.2.1
+Summary: Docking_py is a python library allowing a simplified use of the Smina, vina, qvina2 and qvinaw docking software. Docking_py can be easily automatize and scripted.
+Home-page: https://github.com/samuelmurail/docking_py
+Author: Samuel Murail
+Author-email: samuel.murail@u-paris.fr
+License: GNU General Public License v2 (GPLv2)
+Keywords: docking_py
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.5
+Requires-Dist: numpy
+Requires-Dist: os-command-py
+Requires-Dist: pdb-manip-py
+Requires-Dist: pdb2pqr-htmd-propka30
+
+==============
+Docking Python
+==============
+
+
+.. image:: https://travis-ci.org/samuelmurail/docking_py.svg?branch=master
+    :target: https://travis-ci.org/samuelmurail/docking_py
+
+.. image:: https://readthedocs.org/projects/docking-py/badge/?version=latest
+        :target: https://docking-py.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+.. image:: https://codecov.io/gh/samuelmurail/docking_py/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/samuelmurail/docking_py
+
+
+
+Docking_py is a python library allowing a simplified use of the Smina, vina, qvina2 and qvinaw docking software. Docking_py can be easily automatize and scripted.
+
+
+* Free software: GNU General Public License v2 (GPLv2)
+* Documentation: https://docking-py.readthedocs.io.
+
+
+Features
+--------
+
+* Prepare receptors and ligands.
+* Launch docking using:
+    * vina
+    * smina
+    * qvina2
+    * qvinaw
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-04-15)
+------------------
+
+* First release on PyPI.
+
+
