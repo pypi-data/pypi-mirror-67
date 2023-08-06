@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-git-context
+Version: 0.1.0
+Summary: A Sphinx plugin to get the version and the release settings from the GIT repository
+Home-page: https://gitlab.com/ddidier/sphinxcontrib-git-context/
+Author: David DIDIER
+Author-email: c_inconnu2@yahoo.fr
+License: mit
+Project-URL: Documentation, https://ddidier.gitlab.io/sphinxcontrib-git-context/
+Description: #########################
+        sphinxcontrib-git-context
+        #########################
+        
+        |pipeline| |coverage|
+        
+        .. |pipeline| image:: https://gitlab.com/ddidier/sphinxcontrib-git-context/badges/master/pipeline.svg
+            :target: https://gitlab.com/ddidier/sphinxcontrib-git-context/commits/master
+            :alt: Pipeline Status
+        
+        .. |coverage| image:: https://gitlab.com/ddidier/sphinxcontrib-git-context/badges/master/coverage.svg
+            :target: https://gitlab.com/ddidier/sphinxcontrib-git-context/commits/master
+            :alt: Coverage Report
+        
+        
+        A `Sphinx <https://www.sphinx-doc.org>`_ plugin to get the version and the release settings from the GIT repository.
+        
+        Documentation is available at https://ddidier.gitlab.io/sphinxcontrib-git-context/.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: testing
+Provides-Extra: documenting
+Provides-Extra: distributing
