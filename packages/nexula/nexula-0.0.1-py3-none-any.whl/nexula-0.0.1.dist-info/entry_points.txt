@@ -1,0 +1,3 @@
+[console_scripts]
+nexula = nexula.cli:main
+
