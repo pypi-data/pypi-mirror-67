@@ -1,0 +1,3 @@
+[console_scripts]
+col2col = col2col.main:main
+
