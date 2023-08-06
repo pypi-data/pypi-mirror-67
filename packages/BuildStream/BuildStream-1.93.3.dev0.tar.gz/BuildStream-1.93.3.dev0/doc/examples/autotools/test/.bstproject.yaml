@@ -1,0 +1,4 @@
+projects:
+- project-path: /home/kote/buildstream/buildstream/doc/examples/autotools
+  element-name: test.bst
+format-version: 1

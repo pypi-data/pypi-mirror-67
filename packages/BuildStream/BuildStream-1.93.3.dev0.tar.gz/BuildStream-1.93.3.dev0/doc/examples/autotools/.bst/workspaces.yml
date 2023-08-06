@@ -1,0 +1,5 @@
+format-version: 4
+workspaces:
+  test.bst:
+    path: test
+    last_build: 9f3d248458a49096731ced85531bca6cea22067eced127ecc36ab3622e0d58e4
