@@ -1,0 +1,6 @@
+steam[client]~=1.0.0a8
+appdirs
+argcomplete
+tqdm
+arrow
+pyqrcode
