@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nr.powerline
+Version: 0.0.8
+Summary: Package description here.
+Home-page: https://git.niklasrosenstein.com/NiklasRosenstein/powerline
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Description: # nr.powerline
+        
+        Simple powerline implementation, only tested in Bash. It is recommended that
+        you use a font from [NerdFonts](https://nerdfonts.com/#downloads) in order to
+        have proper support for special characters (like the right triangle).
+        
+        __Requirements__
+        
+        - Bash
+        - Pipx
+        - Python 3.5+
+        - Linux/macOS
+        - jq
+        
+        __Installation__
+        
+            $ pipx install nr.powerline
+            $ source <(nr-powerline --src bash)
+        
+        ---
+        
+        <p align="center">Copyright &copy; 2020 Niklas Rosenstein</p>
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
