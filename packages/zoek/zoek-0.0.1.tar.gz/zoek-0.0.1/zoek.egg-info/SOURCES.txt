@@ -1,0 +1,7 @@
+README.md
+setup.py
+zoek/__init__.py
+zoek.egg-info/PKG-INFO
+zoek.egg-info/SOURCES.txt
+zoek.egg-info/dependency_links.txt
+zoek.egg-info/top_level.txt
