@@ -1,0 +1,9 @@
+README.md
+setup.py
+resolvedcap/__init__.py
+resolvedcap/resolved.py
+resolvedcap.egg-info/PKG-INFO
+resolvedcap.egg-info/SOURCES.txt
+resolvedcap.egg-info/dependency_links.txt
+resolvedcap.egg-info/requires.txt
+resolvedcap.egg-info/top_level.txt

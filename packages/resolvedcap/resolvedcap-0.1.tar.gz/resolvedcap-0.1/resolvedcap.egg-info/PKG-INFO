@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: resolvedcap
+Version: 0.1
+Summary: 2Captcha Api
+Home-page: https://github.com/khorud
+Author: Korud
+Author-email: khorud@yahoo.com
+License: UNKNOWN
+Description: # ResolvedCap
+        Resolved Cap
+        
+        # Donate
+        BTC ```37rkr9cpVVcxg8vUpF65Cp9Mjgu1WrKD3d``` or 
+        Paypal [Here](https://paypal.me/dian26?locale.x=id_ID "Donate")
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
