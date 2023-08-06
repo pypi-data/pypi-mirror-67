@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: genpei
+Version: 1.0.1
+Summary: Implementation of GA4GH WES OpenAPI specification using cwltool.
+Home-page: https://github.com/suecharo/genpei
+Author: suecharo
+Author-email: suehiro619@gmail.com
+License: Apache2.0
+Platform: any
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Requires-Dist: cwltool
+Requires-Dist: flake8
+Requires-Dist: Flask
+Requires-Dist: isort
+Requires-Dist: mypy
+Requires-Dist: pytest
+Requires-Dist: requests
+Requires-Dist: typing-extensions
+
+UNKNOWN
+
+

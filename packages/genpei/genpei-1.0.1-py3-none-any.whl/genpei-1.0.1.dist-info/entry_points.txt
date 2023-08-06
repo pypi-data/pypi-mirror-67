@@ -1,0 +1,3 @@
+[console_scripts]
+genpei = genpei.app:main
+
