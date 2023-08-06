@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: custom_math_operations_gangulis
+Version: 0.0.2
+Summary: Some useful mathematical operations
+Home-page: https://www.moodys.com/
+Author: Subhajit Ganguli
+Author-email: subhajit.ganguli-non-empl@moodys.com
+License: UNKNOWN
+Description: # Math Operations Package
+        
+        This package contains some custom mathematical operations like, SUM, AVERAGE, COALESCE, ISNUMBER.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
