@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+AnsiPrint/__init__.py
+AnsiPrint.egg-info/PKG-INFO
+AnsiPrint.egg-info/SOURCES.txt
+AnsiPrint.egg-info/dependency_links.txt
+AnsiPrint.egg-info/top_level.txt
