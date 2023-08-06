@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+#######################################################################
+# Copyright (c) 2019, Quasar Astronomy Group.
+#
+# Produced at Lawrence Berkeley National Laboratory.
+# Written by V. Dumont (vincentdumont11@gmail.com).
+# All rights reserved.
+#
+# This file is part of the QSOTOOLS software.
+# For details, see astroquasar.gitlab.io/programs/qsotools
+# For details about use and distribution, please read QSOTOOLS/LICENSE.
+#######################################################################
+import qsotools,argparse
+parser = argparse.ArgumentParser(prog='quasar',description='Toolset for quasar absorption line analysis.')
+parser.add_argument('operation', help='Operation to be run',choices=['veldisp','shift','coordinates','fullspec'])
+parser.add_argument('-v',metavar='',type=float,help='Velocity shift')
+parser.add_argument('-w',metavar='',nargs='*',type=str,help='Wavelength')
+parser.add_argument('-z',metavar='',nargs='*',type=str,help='Redshift')
+parser.add_argument('--simbad',metavar='',nargs='*',type=float,help='Simbad copy/paste coordinates')
+parser.add_argument('--ra',metavar='',nargs='*',type=str,help='Right Ascension')
+parser.add_argument('--dec',metavar='',nargs='*',type=str,help='Declination')
+parser.add_argument('--spec',metavar='',help='Path to quasar spectrum')
+args = parser.parse_args()
+if args.operation=='veldisp':
+    if type(args.z)==list:
+        qsotools.z2dv(args.z[0],args.z[1])
+    if type(args.w)==list:
+        qsotools.w2dv(args.w[0],args.w[1])
+if args.operation=='shift':
+    if type(args.z)==list:
+        qsotools.zshift(args.z[0],args.v)
+    if type(args.w)==list:
+        qsotools.wshift(args.w[0],args.v)
+if args.operation=='coordinates':
+    qsotools.coordinates(args.ra,args.dec,args.simbad)
+if args.operation=='fullspec':
+    qsotools.fullspec(args.spec)
