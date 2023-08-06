@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipyplot/__init__.py
+ipyplot/img_helpers.py
+ipyplot/plotting.py
+ipyplot.egg-info/PKG-INFO
+ipyplot.egg-info/SOURCES.txt
+ipyplot.egg-info/dependency_links.txt
+ipyplot.egg-info/not-zip-safe
+ipyplot.egg-info/top_level.txt
