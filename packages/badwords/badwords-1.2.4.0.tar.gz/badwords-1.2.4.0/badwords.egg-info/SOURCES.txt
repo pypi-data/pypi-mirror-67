@@ -1,0 +1,6 @@
+badwords.py
+setup.py
+badwords.egg-info/PKG-INFO
+badwords.egg-info/SOURCES.txt
+badwords.egg-info/dependency_links.txt
+badwords.egg-info/top_level.txt
