@@ -1,0 +1,17 @@
+mphyspy/__init__.py,sha256=r6Y91shicMdEjoAxORazeOuH-uhrs8CFoCydF6O6RaY,488
+mphyspy/matrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mphyspy/matrix/matrix.py,sha256=blh8uemo8EB56Bp1RoyOyDfQt2St_Hs8U79RUc3k-00,3585
+mphyspy/qmechanic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mphyspy/qmechanic/atom.py,sha256=bGtj1rULhgy9Zz1eMjGT6AH8lzs8IZ7luRL4JGKy7XY,972
+mphyspy/qmechanic/constants.py,sha256=7f2_lrUiSaZerfs96ubpAiJZTuFbG0Y2tF5pcKONAKQ,748
+mphyspy/qmechanic/conversion.py,sha256=UC2Yx9RnZfHwY5EEdZ-3E9_F-OR79OfgFZ7rRnydW9w,342
+mphyspy/qmechanic/molecules.py,sha256=ne4Deg3oukOHZDvRVJbiYJvCOtVx-s3YjYB06TY0aRI,811
+mphyspy/qmechanic/quantum.py,sha256=WwFMiMXUJjrGxLjeIz2suWJTnyMwf8mXSApR7nKXz-s,1078
+mphyspy/qmechanic/schrodinger.py,sha256=A_6BM7Le7KQWHDNVFt_Wj81ySiEDCBhtnetvv7tlS-I,1255
+mphyspy/srelativity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mphyspy/srelativity/srelativity.py,sha256=Flrbtj1CCBxF_mI_G_BvLSYl4wtq6UFbi96dFTNzg_A,2868
+mphyspy-0.2.0.5.dist-info/LICENSE,sha256=GcHHrbbng-s00JVP45fvQowfvu_qk1rGNuLT9_S4nNY,1068
+mphyspy-0.2.0.5.dist-info/METADATA,sha256=CAMBJq5lzk3YVSIR5SyI2Su7LRdGQV7v86Cp993lE4A,1599
+mphyspy-0.2.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mphyspy-0.2.0.5.dist-info/top_level.txt,sha256=EK14pPOY1qHV_vaeNdwneB94eAOe-aNBuOvRLTNU3rE,8
+mphyspy-0.2.0.5.dist-info/RECORD,,
