@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_treesPG
+Version: 1.0.0
+Summary: Data structures trees for searching
+Home-page: https://github.com/gPlacide/trees
+Author: Placide Gatabazi
+Author-email: gmizplacide@gmail.com
+License: GNU GPLv3
+Description: # Trees ![](https://api.travis-ci.com/gPlacide/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/gPlacide/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
