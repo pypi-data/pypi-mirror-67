@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: online-judge-api-client
+Version: 10.0.0
+Summary: API client to develop tools for competitive programming
+Home-page: https://github.com/online-judge-tools/api-client
+Author: Kimiyuki Onaka
+Author-email: kimiyuki95@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
