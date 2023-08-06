@@ -1,0 +1,15 @@
+unimeta/__init__.py,sha256=miSsqPy2PFJ18TW9kocQJLcv4HFpkfQhcTzgAO-GTVE,22
+unimeta/event.py,sha256=KkY4zdL2INIi2pjbIZWBSBQUJunQ5cNdykLIFXmpees,2487
+unimeta/fake.py,sha256=i5304RQn2FHUIhx8WjJTcj8IrtEh24ZMiX0ssQXZPQE,1384
+unimeta/mysql2ch.py,sha256=5ceGi9eIUp_ZIuoVjq6uhwLmrLIGtqiEMLTlIHG_hX8,521
+unimeta/pipeline.py,sha256=-6LfDkMBbfAM4d6EzFkAOXlSUI3XgWAiuJK-H__YvqQ,3055
+unimeta/table.py,sha256=wmxVGyNog6BvAl39Rmz4c6FKDt89yE4kJFe-0RdzNpg,13953
+unimeta/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unimeta/libs/libformat.py,sha256=CgLrkDYk0IrcC1hZZYA_vlPHIH7S7VxC2BSvzfp3CAQ,311
+unimeta/libs/liburl.py,sha256=colycXYu4r8QmC2eWYmCwnujqaEEaOPCefv3NoGXlCw,455
+unimeta-0.0.2.dist-info/LICENSE-APACHE,sha256=9kCdeoFyKDg6d-_Omt9FdQf0N00rY6L6ELH4QrWaHkE,9744
+unimeta-0.0.2.dist-info/LICENSE-MIT,sha256=dLjreqJk8MrhSh5snDSUjOV4RofMYx6TQWdxEVsb-uw,1061
+unimeta-0.0.2.dist-info/METADATA,sha256=cXg4ESAqJ2RZ0rpGfSh6kDCGD2-jqpCgo4AyqU2ZnJo,1653
+unimeta-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+unimeta-0.0.2.dist-info/top_level.txt,sha256=lpBggFOwrRUlQQDonE6op0JMQ6YrIPMcHr-A9HML-YQ,8
+unimeta-0.0.2.dist-info/RECORD,,
