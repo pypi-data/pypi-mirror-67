@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: torchtraineretnai
+Version: 0.9.1
+Summary: Deep learning trainer for PyTorch
+Home-page: https://github.com/DanieleCalanna/PyTorchTrainer
+Author: Daniele Calanna
+License: UNKNOWN
+Description: Deep learning trainer for PyTorch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
