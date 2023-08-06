@@ -1,0 +1,10 @@
+README.rst
+setup.py
+./fastSource.py
+./fastSource_build.py
+fastSource.egg-info/PKG-INFO
+fastSource.egg-info/SOURCES.txt
+fastSource.egg-info/dependency_links.txt
+fastSource.egg-info/entry_points.txt
+fastSource.egg-info/requires.txt
+fastSource.egg-info/top_level.txt

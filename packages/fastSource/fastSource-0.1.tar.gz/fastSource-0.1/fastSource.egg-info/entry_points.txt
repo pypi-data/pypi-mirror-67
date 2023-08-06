@@ -1,0 +1,4 @@
+[console_scripts]
+fastSource = fastSource.fastSource:main
+fastSource_build = fastSource.fastSource_build:main
+
