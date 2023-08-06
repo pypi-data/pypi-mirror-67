@@ -1,0 +1,11 @@
+README.rst
+setup.py
+widgitutils/__init__.py
+widgitutils/color.py
+widgitutils/embeds.py
+widgitutils/format.py
+widgitutils.egg-info/PKG-INFO
+widgitutils.egg-info/SOURCES.txt
+widgitutils.egg-info/dependency_links.txt
+widgitutils.egg-info/requires.txt
+widgitutils.egg-info/top_level.txt
