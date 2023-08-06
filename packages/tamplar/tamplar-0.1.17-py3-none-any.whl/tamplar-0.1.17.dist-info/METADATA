@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tamplar
+Version: 0.1.17
+Summary: This util creates new service of python. This one has some additional command cli for control of development
+Home-page: https://github.com/Hedgehogues/tamplar
+Author: Urvanov Egor
+Author-email: hedgehogues@bk.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# docker-compose-deploy
+
+[Deploy](README_DEPLOY.md)
+
+[Publish](README_PUBLISH.md)
+
+
