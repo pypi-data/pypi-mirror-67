@@ -1,0 +1,57 @@
+usage: helpdev [--hardware] [--os] [--thread] [--network [NETWORK]]
+               [--distributions] [--python] [--conda]
+               [--packages [PACKAGES]]
+               [--packages-pip] [--packages-pip-e]
+               [--packages-conda] [--packages-conda-e]
+               [--qt] [--qt-bindings] [--qt-abstractions]
+               [--numbers] [--float] [--int]
+               [--personal] [--path] [--scope]
+               [--all] [--all-for-sure]
+               [--report REPORT]
+               [--help]
+               [--version]
+
+HelpDev - Extracts information about the Python environment easily.
+
+optional arguments:
+  --hardware            CPU, memory and architecture (PEI)
+
+  --os                  Operating system (PEI)
+
+  --thread              Thread specification in the system (PEI)
+
+  --distributions       All options for distributions below (PED)
+  --python              Python distribution (PED)
+  --conda               Conda/Anaconda Python distribution (PED)
+
+  --packages [PACKAGES]
+                        All options for packages below, except '-e' (PED).
+                        Filter PACKAGE(s) to show. Accepts regex, separator is ','
+  --packages-pip        PIP installed packages + PIP check (PED)
+  --packages-pip-e      PIP locally installed packages + PIP check (PED)
+  --packages-conda      CONDA installed packages (PED)
+  --packages-conda-e    CONDA locally installed packages (PED)
+
+  --qt                  All options for Qt below (PEAD)
+  --qt-bindings         Available Qt bindings (PyQt/Pyside) (PEAD)
+  --qt-abstractions     Available Qt abstractions (QtPy/Qt.Py/PyQtGraph)(PEAD)
+
+  --numbers             All options for numbers below (PEI)
+  --float               Float representation in the system (PEI)
+  --int                 Integer representation in the system (PEI)
+
+  --network [NETWORK]   Network information, DNS and load for usual sites (PEI).
+                        NETWORK timeout defaults to 5s. 0 is disabled
+
+  --personal            All options for personal information below (PEAD)
+  --path                Show Python current paths i.e. 'sys.path' (PEAD)
+  --scope               Show Python current scope i.e. 'dir()' (PEAD)
+
+  --all                 Run all options above, except 'personal' (PEAD)
+  --all-for-sure        Run all options above, INCLUDING 'PERSONAL' (PEAD)
+
+  --report REPORT       Apply a custom filter from REPORT package.
+                        The filter is given by REPORT.custom_helpdev(version)
+
+  --help, -h            Show the program's help
+  --version, -v         Show the program's version

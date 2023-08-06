@@ -1,0 +1,44 @@
+* HARDWARE-----------------------------------------------------------------------
+    - Machine....................... x86_64
+    - Processor..................... Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+    - Total Memory.................. 16661 MB
+    - Free Memory................... 1560 MB
+    - Total Swap.................... 2147 MB
+    - Free Swap..................... 2082 MB
+* OPERATING SYSTEM---------------------------------------------------------------
+    - System........................ Linux
+    - Release....................... 5.3.0-51-generic
+    - Platform...................... Linux-5.3.0-51-generic-x86_64-with-glibc2.10
+    - Version....................... #44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020
+* THREADS------------------------------------------------------------------------
+    - Version....................... NPTL 2.27
+    - Name.......................... pthread
+    - Lock.......................... semaphore
+* PYTHON DISTRIBUTION------------------------------------------------------------
+    - Version....................... 3.8.2
+    - C Compiler.................... GCC 7.3.0
+    - C API Version................. 1013
+    - Implementation................ cpython
+    - Implementation Version........ 3.8.2
+* CONDA DISTRIBUTION-------------------------------------------------------------
+    - Version....................... 4.8.3
+    - Build......................... 3.18.11
+* QT BINDINGS--------------------------------------------------------------------
+    - PyQt5 Version................. 5.14.2
+    - PyQt5 Qt Version.............. 5.14.2
+* QT ABSTRACTIONS----------------------------------------------------------------
+    - qtpy Version.................. 1.9.0
+    - qtpy Binding.................. pyqt5
+    - qtpy Binding Variable......... os.environ['QT_API']
+    - qtpy Import Name.............. qtpy
+    - qtpy Status................... OK
+    - pyqtgraph Version............. 0.10.0
+    - pyqtgraph Binding............. Not set or inexistent
+    - pyqtgraph Binding Variable.... os.environ['PYQTGRAPH_QT_LIB']
+    - pyqtgraph Import Name......... pyqtgraph
+    - pyqtgraph Status.............. OK
+    - Qt Version.................... 1.2.5
+    - Qt Binding.................... PyQt5
+    - Qt Binding Variable........... Qt.__binding__
+    - Qt Import Name................ Qt
+    - Qt Status..................... OK
