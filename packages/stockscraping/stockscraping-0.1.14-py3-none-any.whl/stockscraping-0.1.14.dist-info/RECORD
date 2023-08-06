@@ -1,0 +1,5 @@
+stockscraping/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+stockscraping/stockdata_scraper.py,sha256=C41E3x7ffCsyaiV3gEEmAQ3aQqzIXlNh8Mw3Sq83fs4,7161
+stockscraping-0.1.14.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+stockscraping-0.1.14.dist-info/METADATA,sha256=vXkpNF7Ae4v8EJkoS0jDF_M1d_RQhNbU8W5YnypDhXw,599
+stockscraping-0.1.14.dist-info/RECORD,,
