@@ -1,0 +1,3 @@
+[console_scripts]
+examtool = cli.__main__:cli
+
