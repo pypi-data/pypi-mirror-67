@@ -1,0 +1,9 @@
+setup.py
+DescribeLinearModel/Describelinearmodel.py
+DescribeLinearModel/Describelinearmodel_unittest.py
+DescribeLinearModel/__init__.py
+DescribeLinearModel.egg-info/PKG-INFO
+DescribeLinearModel.egg-info/SOURCES.txt
+DescribeLinearModel.egg-info/dependency_links.txt
+DescribeLinearModel.egg-info/not-zip-safe
+DescribeLinearModel.egg-info/top_level.txt
