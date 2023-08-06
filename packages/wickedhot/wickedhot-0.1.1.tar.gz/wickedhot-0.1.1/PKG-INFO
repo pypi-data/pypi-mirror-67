@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wickedhot
+Version: 0.1.1
+Summary: Wicked easy one-hot-encoding in pure python with no dependencies
+Home-page: https://github.com/dave31415/wickedhot
+Author: David Johnston
+Author-email: dave31415@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/wickedhot/
+Description: # wickedhot
+        Wicked easy one-hot-encoder in pure python with no dependencies
+        
+        Properties
+        
+        * Built for streaming
+        * Easy configuration of maximum number of levels
+        * Simple handling of unseen categorical levels
+        * Unobtrusive handling of numerical values
+        * Built in serialization and persistence of encoder
+        * Well tested
+        
+        
+        First pypi version May 1, 2020
+        
+        
+        
+Keywords: one-hot encoding,machine learning
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
