@@ -1,0 +1,15 @@
+tkmacosx/__init__.py,sha256=-rsKFq3F3dbPWrdfP0A2W5Je9AKT0-V_V4NYiVniFq8,765
+tkmacosx/__main__.py,sha256=2XRdPzSsp88yxIhWnKWGKtIBOU7TaBK2ghWeABYp_kQ,10057
+tkmacosx/basewidget.py,sha256=okINx9rgqSQctmC9P6WMYdedbuUWpGtZlVua_XBg9UU,30391
+tkmacosx/colors.py,sha256=swic_f6N8-6tGSIp8nmNfelseLxdVgUHkwCxH8n8tKw,14421
+tkmacosx/colorscale.py,sha256=Az77hW0uSZEdaYPzBQRHGhBmsU4z78gV29fgeiS-B_A,9114
+tkmacosx/variables.py,sha256=I8qZdEE_n43AfAPWIvU_ziPLn0cyrgH-6yPYxa3cTrY,5062
+tkmacosx/widget.py,sha256=HBM_SkPO2VNOkBWdj-1WhOjUUvgECDo2FCCQH_ytSDI,7175
+tkmacosx/images/B1.png,sha256=EyzXfFN_p7L9tvDuUkCvLklQZU4WGabDhk5AXSSA_pM,2191251
+tkmacosx/images/B2.png,sha256=AP5NXFPgUjEyj8FlM0wFz_npjTD8_jhCWD9SCC4zlCg,2271928
+tkmacosx/images/colorscale.npy,sha256=zOfBUnLyF0u4bwNdAWNmHFDcMazS8LZmip77ioj4ewY,38128
+tkmacosx-0.0.7.dist-info/LICENSE,sha256=6BQiv3G-88N6vHgSmNZeIAi3h1dDwdgu3fYpQ-vFSjc,11341
+tkmacosx-0.0.7.dist-info/METADATA,sha256=NyGf_LOJ3mBx7eqNyfdFWxhzftjjf_QZn0nOZNQZ6p0,6770
+tkmacosx-0.0.7.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+tkmacosx-0.0.7.dist-info/top_level.txt,sha256=5vK9kzOqaALo3CsxPyfvf4UoXs7wpRUbH_RxeRXM9pk,9
+tkmacosx-0.0.7.dist-info/RECORD,,
