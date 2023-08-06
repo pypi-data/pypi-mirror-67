@@ -1,0 +1,7 @@
+README.md
+setup.py
+code_secret/__init__.py
+code_secret_DARKSHLOSER.egg-info/PKG-INFO
+code_secret_DARKSHLOSER.egg-info/SOURCES.txt
+code_secret_DARKSHLOSER.egg-info/dependency_links.txt
+code_secret_DARKSHLOSER.egg-info/top_level.txt
