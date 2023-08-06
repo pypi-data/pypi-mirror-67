@@ -1,0 +1,10 @@
+PyMieScatt/CoreShell.py,sha256=29I-KSoh6_qxSskywcfFl_3YdizKs3P_sZPiYzcWhaU,5600
+PyMieScatt/Inverse.py,sha256=PIJbv0ARaS2SWQfzSyOzKU8s7H9hFGjKTwA_bdVkGso,32280
+PyMieScatt/Mie.py,sha256=DiaqF_Nd_DrAyTvvcWqxasmgYw-rtsGBdkoKPZpF9aw,18517
+PyMieScatt/__init__.py,sha256=D5UKNuWyb8OC0fwLfCCHpFSvkQBK8XxhSND8Ck-cm04,713
+PyMieScatt/_version.py,sha256=i_z80I5vnQ_okm14XJ4lG9Qm7vxG_8zYWqPC8VSeZG0,24
+PyMieScatt-1.7.5.4.dist-info/LICENSE.md,sha256=djdpd7jD1ExUlesSW36A8VrSi8Oe9OfeEKBAPjP_Cp0,1072
+PyMieScatt-1.7.5.4.dist-info/METADATA,sha256=73XPYV37wn_CClJge9FdFiO05svPpQpZ3rScwcXc1a0,788
+PyMieScatt-1.7.5.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PyMieScatt-1.7.5.4.dist-info/top_level.txt,sha256=AqtOaObSF5zsaIMaCm-K5emHVPkQ6QRKL0HC4c0K63A,11
+PyMieScatt-1.7.5.4.dist-info/RECORD,,
