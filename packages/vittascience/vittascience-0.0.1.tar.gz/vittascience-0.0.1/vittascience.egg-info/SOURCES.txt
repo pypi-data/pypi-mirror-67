@@ -1,0 +1,9 @@
+README.md
+setup.py
+HelloWorld/HelloWorld.py
+HelloWorld/__init__.py
+HelloWorld/test.py
+vittascience.egg-info/PKG-INFO
+vittascience.egg-info/SOURCES.txt
+vittascience.egg-info/dependency_links.txt
+vittascience.egg-info/top_level.txt
