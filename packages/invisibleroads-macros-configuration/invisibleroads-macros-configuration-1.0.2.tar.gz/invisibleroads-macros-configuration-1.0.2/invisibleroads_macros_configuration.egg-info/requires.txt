@@ -1,0 +1,5 @@
+invisibleroads-macros-log
+
+[testing]
+pytest
+pytest-cov
