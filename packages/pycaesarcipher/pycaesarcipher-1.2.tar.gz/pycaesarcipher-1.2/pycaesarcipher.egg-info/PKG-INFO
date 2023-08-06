@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pycaesarcipher
+Version: 1.2
+Summary: Python library to encipher & decipher a string using one of the simplest Substitution ciphers - 'Caesar's Cipher'
+Home-page: https://github.com/shyams1993/pycaesarcipher
+Author: SHYAM SALIL
+Author-email: shyamsalil1993@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: SIMPLE,ELEGANT,YET CRYPTIC
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.1
