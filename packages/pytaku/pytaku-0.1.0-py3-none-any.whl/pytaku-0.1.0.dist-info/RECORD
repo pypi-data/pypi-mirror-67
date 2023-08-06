@@ -1,0 +1,10 @@
+pytaku/__init__.py,sha256=2qWh-k9rOMdW8iqDEC7fDDjWQyWUmNfz6RO70qx9fkE,810
+pytaku/asgi.py,sha256=HsRLWspyPtfxXm3vsSDWvstWUfBdSSSEE9WMsqfG3_c,389
+pytaku/conf.py,sha256=m3gPYm4IuszC4wNBgpaSmCenG9dtxEXN3WcTDVz2IpU,718
+pytaku/settings.py,sha256=p5ia3nNkRW5LNIP7wUTArrIgsHFREeVHZUDSTzYgoFU,3655
+pytaku/urls.py,sha256=nbmjzrI2sj_y3b77uDEfEQ74r4yOvMroXRUJ-_lo50U,748
+pytaku/wsgi.py,sha256=aEQwOvljUE_1iUMq9UPWHqO-S1z_b-dm6pTtJNjRRAA,389
+pytaku-0.1.0.dist-info/entry_points.txt,sha256=_LDjOHmf6qhfJT2oJoPA70IV4XOxMkXEfk_Xaad_wPM,149
+pytaku-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pytaku-0.1.0.dist-info/METADATA,sha256=Pjg9tEHjxowy2RZxt_UR_B5G02sdRpSEZ1Ebh99yHSg,475
+pytaku-0.1.0.dist-info/RECORD,,
