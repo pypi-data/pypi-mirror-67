@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cs_46_Curtis_working_trees
+Version: 1.0.1
+Summary: This package implements BST, AVL, and Heap.
+Home-page: https://github.com/CurtisSalinger/trees/tree/master
+Author: curtissalinger
+Author-email: csalinger22@cmc.edu
+License: GNU GPLv3
+Description: # Trees ![](https://travis-ci.com/CurtisSalinger/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+        This project impliments BST, AVL, and HEAP in an object oriented form.
+        
+        To download, you should run pip3 install cs-46-Curtis-working-trees
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
