@@ -1,0 +1,3 @@
+[console_scripts]
+fast_csv = fast_csv:read_csv
+
