@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dm-kylinpy
+Version: 2.2.0
+Summary: Apache Kylin Python Client Library
+Home-page: https://github.com/Kyligence/kylinpy
+Author: Yongjie Zhao
+Author-email: yongjie.zhao@kyligence.io
+Maintainer: Yongjie Zhao
+Maintainer-email: yongjie.zhao@kyligence.io
+License: MIT License
+Description: Installation
+        ------------
+            pip install --upgrade dm-kylinpy
+        
+Keywords: apache kylin,kylin,kap,kyligence,kyligence enterprise,cli,sqlalchemy dialect
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: sqlalchemy
+Provides-Extra: click
