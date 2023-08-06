@@ -1,0 +1,11 @@
+README.md
+setup.py
+xdclient/__init__.py
+xdclient/__main__.py
+xdclient/gitx.3.5.py
+xdclient/gitx.py
+xdclient.egg-info/PKG-INFO
+xdclient.egg-info/SOURCES.txt
+xdclient.egg-info/dependency_links.txt
+xdclient.egg-info/requires.txt
+xdclient.egg-info/top_level.txt
