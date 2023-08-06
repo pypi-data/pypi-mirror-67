@@ -1,0 +1,8 @@
+README.md
+setup.py
+jspline/__init__.py
+jspline/jspline.py
+jspline.egg-info/PKG-INFO
+jspline.egg-info/SOURCES.txt
+jspline.egg-info/dependency_links.txt
+jspline.egg-info/top_level.txt
