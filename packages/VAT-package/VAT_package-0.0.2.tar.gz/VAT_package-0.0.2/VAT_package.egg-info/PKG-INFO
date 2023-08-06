@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: VAT-package
+Version: 0.0.2
+Summary: A mobile application that helps education providers improve their teaching skills
+Home-page: https://github.com/ballenwillis/VAT
+Author: Botao Han, Brandon Wills, Darcy Chen, Disha, Nandini Gupta, Sofia Meyers
+Author-email: author@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
