@@ -1,0 +1,46 @@
+# Z-Library Terminal User Interface (zlibtui)
+
+_zlibtui_ is a terminal UI for [Z-Library](https://b-ok.cc/)
+
+![](https://github.com/jfto23/zibtui/blob/master/images/zlibtui_pic.png)
+
+# Demo
+
+![](https://github.com/jfto23/zibtui/blob/master/images/zlibtui_showcase.gif)
+
+# Installation
+
+_zlibtui_ is available on [PyPI](https://pypi.org/project/zlibtui/1.0.0/)
+
+```
+pip install zlibtui
+```
+
+# Controls
+
+## Global
+
+- `esc`: Quit
+
+## Search
+
+- `enter`: Search
+
+## Browsing
+
+- `enter`: More info
+
+- `j`: Scroll down
+
+- `k`: Scroll up
+
+- `p`: Next page
+
+- `P`: Previous page 
+
+- `l`: Open link
+
+# Settings
+
+The preferred browser to be used when opening links can be specified by the environment variable `ZLIBTUI_BROWSER`. The default browser is Firefox.
+
