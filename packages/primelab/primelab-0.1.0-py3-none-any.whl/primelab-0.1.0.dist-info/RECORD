@@ -1,0 +1,9 @@
+primelab/__init__.py,sha256=O4tqt1sdU_XpnE8ifnuWDaoNKrbBNG5irbdJZuC15YI,143
+primelab/__version__.py,sha256=4d03JuCtwRyJf3SUPocF7DvtpxDsixcSpr6FMLvLu88,26
+primelab/dglobal.py,sha256=Z_Q-Q6Osbz7QW4HAEUckrCBQg4135lvG_qjuMaqF4RU,5948
+primelab/differentiation.py,sha256=RESTqeFQir2515a_HpAxq3TSxpTjvLUbnJs-4x2F7XY,2683
+primelab/dlocal.py,sha256=3Q2iQ2No2SrVXWV0kILwIT5L0DbJwShU7oHDcl8nZZM,3950
+primelab/utils.py,sha256=wFdPRkFkA1_YYPEwZAW8OdmbU2-A7drPjNQq6vgNlbg,1699
+primelab-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+primelab-0.1.0.dist-info/METADATA,sha256=s7PXOXmyaeNCT_MmQ7fyqB2PFiA3M82GQi16I-ZlP2I,2159
+primelab-0.1.0.dist-info/RECORD,,
