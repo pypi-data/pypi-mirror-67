@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mohini
+Version: 0.1
+Summary: Cookies Stealer Termux Tool
+Home-page: https://github.com/Bhai4You/Mohini
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+<!--
+https://pypi.org/project/shikari/
+https://pypi.org/project/shikari/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/readme-generator.svg?longCache=True)](https://pypi.org/project/readme-generator/)
+
+#### Installation
+```bash
+$ pip install mohini
+```
+
+#### Features
++   **`mohini`**, ** Cookies Stealer Termux Tool**
+
+
+#### How to Run ?
+```
+$ mohini
+
+Created by Parixit Sutariya
+Github : github.com/Bhai4You
+Youtube : youtube.com/BullAnonymous
+
+```
+
+
+<p align="center">
+    <a href="https://pypi.org/project/mohini/">Mohini Tool</a>
+</p>
+
+
