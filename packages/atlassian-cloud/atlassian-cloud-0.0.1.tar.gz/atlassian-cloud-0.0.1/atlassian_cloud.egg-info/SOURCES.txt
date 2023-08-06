@@ -1,0 +1,9 @@
+README.md
+setup.py
+Jira/__init__.py
+Jira/jira_api.py
+atlassian_cloud.egg-info/PKG-INFO
+atlassian_cloud.egg-info/SOURCES.txt
+atlassian_cloud.egg-info/dependency_links.txt
+atlassian_cloud.egg-info/requires.txt
+atlassian_cloud.egg-info/top_level.txt
