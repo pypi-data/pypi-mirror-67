@@ -1,0 +1,3 @@
+[console_scripts]
+realpython = second.__main__:main
+

@@ -1,0 +1,10 @@
+reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reader/feed.py,sha256=Jbde8I18s19SDroOSwdlDkukUAkFW1nZoOIRnFsCWdk,154
+second/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+second/watzpoppin.py,sha256=KYaSqcX1i6G087SoqlxDaPC0r5Eh484ZFso_HLfNiTk,224
+lmbr_reader-1.0.1.dist-info/LICENSE,sha256=lVXG7TZJTjE8Q3ZSrxuk5jfzukuDbQe6wRce2Iq3h94,1068
+lmbr_reader-1.0.1.dist-info/METADATA,sha256=5piipDFT3I-raoof-C0Raka_UZB3_aTeQY2rWc2MQLo,3409
+lmbr_reader-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lmbr_reader-1.0.1.dist-info/entry_points.txt,sha256=0P8IxPuGmsNpAq0Haghdru-T-cJbe2UPJrkZxRPaADg,53
+lmbr_reader-1.0.1.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+lmbr_reader-1.0.1.dist-info/RECORD,,
