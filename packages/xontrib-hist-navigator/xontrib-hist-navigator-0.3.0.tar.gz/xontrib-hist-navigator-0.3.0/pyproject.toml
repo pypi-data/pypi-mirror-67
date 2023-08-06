@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "xontrib-hist-navigator"
+version = "0.3.0"
+description = ""
+authors = ["Noortheen Raja <jnoortheen@gmail.com>"]
+
+include = ["xontrib/*.xsh"]
+packages = [
+    { include="xontrib/*.xsh"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+xonsh = ">=0.9.17"
+prompt-toolkit = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
