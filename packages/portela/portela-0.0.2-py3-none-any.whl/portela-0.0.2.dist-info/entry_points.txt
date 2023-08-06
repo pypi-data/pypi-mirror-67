@@ -1,0 +1,3 @@
+[console_scripts]
+portela = portela.__main__:entry
+
