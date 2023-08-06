@@ -1,0 +1,6 @@
+historical_robots/__init__.py,sha256=Xwu-d-4s_sLv-ja9Mp57_r66dUk0xyO7zwLjI-YTXKw,127
+historical_robots/parser.py,sha256=pJdFf1okfpshOhZjD2Rl4JC8ivbCpd2_GHDgkBNywow,1443
+historical_robots/scraper.py,sha256=JxMIaQNZxI5T8BdEmG3Z_wnn324aLDRIyRZbJPGjOrA,3470
+historical_robots_txt_parser-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+historical_robots_txt_parser-0.1.0.dist-info/METADATA,sha256=OdXTgrKmfR_AqNgPLiGui0cdxFwcWJfMKoebo7LKxF8,4388
+historical_robots_txt_parser-0.1.0.dist-info/RECORD,,
