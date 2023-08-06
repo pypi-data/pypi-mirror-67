@@ -1,0 +1,10 @@
+README
+setup.py
+aiobme280/__init__.py
+aiobme280/_aiobme280.c
+aiobme280/error.py
+aiobme280/glue.py
+aiobme280.egg-info/PKG-INFO
+aiobme280.egg-info/SOURCES.txt
+aiobme280.egg-info/dependency_links.txt
+aiobme280.egg-info/top_level.txt
