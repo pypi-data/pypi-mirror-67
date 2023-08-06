@@ -1,0 +1,5 @@
+setup.py
+xmpplib.egg-info/PKG-INFO
+xmpplib.egg-info/SOURCES.txt
+xmpplib.egg-info/dependency_links.txt
+xmpplib.egg-info/top_level.txt
