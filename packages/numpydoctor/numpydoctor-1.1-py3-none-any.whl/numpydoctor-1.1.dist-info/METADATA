@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: numpydoctor
+Version: 1.1
+Summary: Completion, correction, and checking of numpydoc-style docstrings in Python.
+Home-page: https://gitlab.com/krampus/numpydoctor
+Author: Rob Kelly
+Author-email: contact@robkel.ly
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: astor (>=0.8.1)
+Requires-Dist: docstring-parser (>=0.7.1)
+Provides-Extra: complete
+Requires-Dist: bpython ; extra == 'complete'
+Requires-Dist: nose ; extra == 'complete'
+Requires-Dist: flake8 ; extra == 'complete'
+Requires-Dist: autopep8 ; extra == 'complete'
+Requires-Dist: snakeviz ; extra == 'complete'
+Requires-Dist: yapf ; extra == 'complete'
+Requires-Dist: nose-timer ; extra == 'complete'
+Requires-Dist: jedi ; extra == 'complete'
+Requires-Dist: rednose ; extra == 'complete'
+Requires-Dist: coverage ; extra == 'complete'
+Provides-Extra: develop
+Requires-Dist: autopep8 ; extra == 'develop'
+Requires-Dist: bpython ; extra == 'develop'
+Requires-Dist: flake8 ; extra == 'develop'
+Requires-Dist: jedi ; extra == 'develop'
+Requires-Dist: snakeviz ; extra == 'develop'
+Requires-Dist: yapf ; extra == 'develop'
+Provides-Extra: testing
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: nose ; extra == 'testing'
+Requires-Dist: nose-timer ; extra == 'testing'
+Requires-Dist: rednose ; extra == 'testing'
+
+UNKNOWN
+
+

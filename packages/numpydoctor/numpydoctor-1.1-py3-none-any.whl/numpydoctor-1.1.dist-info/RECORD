@@ -1,0 +1,12 @@
+numpydoctor/__init__.py,sha256=vhOzeiQZ5zDMm0KcpByP87oSk7SU2q6Z3tVGLeCBw2Y,620
+numpydoctor/__main__.py,sha256=NofSGl2_BLdfcHLwY3N-5pig-6A3_CQozQwiTaaNmfM,4973
+numpydoctor/application.py,sha256=IFnMeD5ENaieVQPSu5XUItGXFlHslgPGF-of_Lfkhrs,12530
+numpydoctor/ast_tools.py,sha256=0ltqWUonU7CJRWdcgD58mOyBOba6IvxitsJ3zkOzh5w,14789
+numpydoctor/docstring_tools.py,sha256=EM5lbWHeVfIrz4ZhE34-8fBUV0gK6IGY110EUrtyKuw,23265
+numpydoctor/type_tools.py,sha256=88IMPAE-U81yrU3dljuL6qHSQs1e2CO3v_sOPBFVhCs,1482
+numpydoctor-1.1.dist-info/LICENSE,sha256=B9kS7sXh7fLcHkcJ5KTCJlFtz7dQ9DLBGDFXTnB_XGI,1049
+numpydoctor-1.1.dist-info/METADATA,sha256=1DJj39xGAlTC9UyVFRUdgUd24kauxuJcmTuCezbBPOo,1430
+numpydoctor-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+numpydoctor-1.1.dist-info/entry_points.txt,sha256=6acuKO4NagXTcJS0j22Zu7A0-fzDIkzUvVrk08-GrJE,59
+numpydoctor-1.1.dist-info/top_level.txt,sha256=P8jytSXxgU651p3jCEqI5alMxJbYToxcqhywd6dQdE8,12
+numpydoctor-1.1.dist-info/RECORD,,
