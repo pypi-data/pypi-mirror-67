@@ -1,0 +1,12 @@
+git2effort-0.1.4-py3.6-nspkg.pth,sha256=Ma9-0L5rpu-nnGeDLDNJ-xyRT4GnE0SApOWhxmeDm3Q,559
+git2effort/_version.py,sha256=7jmRKYtqtT1Puf_q5ug26JVhsPNswjmqzd00i8gQIz8,97
+git2effort/effort.py,sha256=6OUfHYknuMnlYaFTB0TCSJARHQyK_PRUHtQKgFApRfk,7593
+git2effort/merging.py,sha256=XAw4DsP3mMgSAQkVNjlIBs729IiezfOjcdgLYD4bz9Y,3035
+git2effort-0.1.4.data/scripts/git2effort,sha256=nhZrgMKhwJzESWDl2cGodf62svOkTwRkGwSJqgJ3QSA,4019
+git2effort-0.1.4.dist-info/AUTHORS,sha256=gbxZta20ox2p0cQfsVlFXkI3TKK6ZlDFi-H-kHsj88Y,36
+git2effort-0.1.4.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+git2effort-0.1.4.dist-info/METADATA,sha256=rMCdM7azTWZ7PaNICNFctJEAvnVb6nlY6SCnOmhCvos,6152
+git2effort-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+git2effort-0.1.4.dist-info/namespace_packages.txt,sha256=L727KPkFuDXugbxOQQd8TN1NMqTVLxO8Yc2hw9pP5Ss,11
+git2effort-0.1.4.dist-info/top_level.txt,sha256=L727KPkFuDXugbxOQQd8TN1NMqTVLxO8Yc2hw9pP5Ss,11
+git2effort-0.1.4.dist-info/RECORD,,
