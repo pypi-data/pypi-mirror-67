@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: git2gitee
+Version: 0.0.4
+Summary: import github repo to gitee, then clone to local
+Home-page: https://github.com/toyourheart163/git2gitee
+Author: Mikele
+Author-email: blive200@gmail.com
+License: UNKNOWN
+Description: # gee
+        
+        从github导入仓库到gitee
+        解决github下载速度慢的问题
+        
+        
+        ## 安装
+        
+        ```bash
+        pip install git2gitee
+        ```
+        
+        ## 使用
+        
+        ```bash
+        # git2gitee -u {gitee_username} -t {gitee_api_token} github_repo_url
+        git2gitee -u mikele -t yourtoken https://github.com/toyourheart163/git2gitee
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
