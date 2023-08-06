@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: django-gcd
+Version: 0.0.1
+Summary: Django backend for Google Cloud Datastore
+Home-page: https://github.com/KodePadLaunch/django-gcd
+Author: Dipendra Singh
+Author-email: dipendra@kodepad.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# django-gcd
+
+Django backend for Google Cloud Datastore
+
+## Disclaimer
+It doesn't work right now
+
+## Installation
+```python
+pip install django-gcd
+```
+
+## Usage
+
+```python
+```
+
