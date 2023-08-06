@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: usualsuspects
+Version: 0.1.1
+Summary: Some quick tools for generating visualisations that pop up in ML papers all the time
+Home-page: https://github.com/paulmorio/usualsuspects
+Author: Paul Scherer
+Author-email: paul.geo2dr@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+
+# usualsuspects
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Documentation Status](https://readthedocs.org/projects/usualsuspects/badge/?version=latest)](https://usualsuspects.readthedocs.io/en/latest/?badge=latest)
+
+The repo contains a small set of tools to create visualisations I constantly find inside of ML papers. It is also primarily a personal testbed for practicing software engineering practices and the whole PyPI/RTD/Github/CI ecosystem.
+
+If you find any of the tools useful please consider leaving a star on the repo or contributing!
+
+## Installation
+
+The most stable version can be installed from PyPI via `pip` in the terminal.
+
+```bash
+pip install usualsuspects
+```
+
+Alternatively the *bleeding* edge version of this little library will be on the repo. Buiding from sources is as simple as cloning the repo and running a developer install in the root folder of the directory (where `setup.py` is) with:
+
+```bash
+pip install -e . 
+```
+
+This will allow you to adapt the source code to your liking and the changes will take effect immediately.
+
+## Contributing
+TODO. Will set this up after CI is set up.
+
