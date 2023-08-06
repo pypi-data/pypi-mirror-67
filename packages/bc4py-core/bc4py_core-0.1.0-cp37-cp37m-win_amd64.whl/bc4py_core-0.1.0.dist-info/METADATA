@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: bc4py-core
+Version: 0.1.0
+Summary: bc4py core library written by Rust
+Home-page: https://github.com/namuyan/bc4py_core
+License: MIT Licence
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Description-Content-Type: text/markdown
+
+bc4py-core
+====
+This repository is bc4py core program.
+
+Install
+----
+Python3.6+
+```commandline
+pip install bc4py-core
+```
+
+build
+----
+```shell script
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
+pip install setuptools-rust
+git clone git+https://github.com/namuyan/bc4py_core
+cd bc4py_core
+python setup.py bdist_wheel
+# check dist
+```
+
+fmt
+----
+* format `cargo fmt`
+* check `cargo fmt -- --check`
+
+Licence
+----
+MIT
+
+Author
+----
+[@namuyan_mine](https://twitter.com/namuyan_mine)
+
+
