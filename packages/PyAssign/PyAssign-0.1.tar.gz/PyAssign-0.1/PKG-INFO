@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: PyAssign
+Version: 0.1
+Summary: Small library to assign numbers to members of a list
+Home-page: https://github.com/ctvanzandt42
+Author: Curtis Vanzandt
+Author-email: ctvanzandt42@gmail.com
+License: MIT
+Download-URL: https://github.com/ctvanzandt42/PyAssign/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: Assign,PyAssign,SecretSanta
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
