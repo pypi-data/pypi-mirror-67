@@ -1,0 +1,10 @@
+filecollector/__init__.py,sha256=Y4d1DMWtk3v4w3QBMUZkJWixfwnMN5UnmZgDS1wCdw0,806
+filecollector/collector.py,sha256=COgUXWoZCDCnrjOmVK9C8xB8mZ9o_1fMqJOfmtv1oA8,7673
+filecollector/fluent_event_processor.py,sha256=NZWSonPBaJuE_P2iTrgMEWy_r3nSzGH78KOBc59M-tM,1834
+filecollector/server.py,sha256=t6Jaq_6AHQh6_rIaYz2h4OLomEXqkeqMGUv-jXP7iXw,2381
+filecollector-0.1.0.data/scripts/filecollector,sha256=J4boxzw3eKqXYJdVNgibSdhT546nrQ4Bm6l_u0ZrJH8,5749
+filecollector-0.1.0.dist-info/LICENSE,sha256=0VMj8M8QQ40lSQTNljewlCMkDDQjaJY-94zWax91BXk,11349
+filecollector-0.1.0.dist-info/METADATA,sha256=FT3Qul_qAgZoUJ922e5X2d9baMT0ZO_8VevrxMUeACU,6801
+filecollector-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+filecollector-0.1.0.dist-info/top_level.txt,sha256=CQkiN2D5XlpU4HpAAQcmWwIGKqA5ytxTpj2qFqESlPo,14
+filecollector-0.1.0.dist-info/RECORD,,
