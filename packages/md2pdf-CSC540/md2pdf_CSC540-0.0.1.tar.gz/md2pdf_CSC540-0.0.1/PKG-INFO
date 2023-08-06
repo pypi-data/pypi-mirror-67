@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: md2pdf_CSC540
+Version: 0.0.1
+Summary: A python package to convert markdown to pdf
+Home-page: UNKNOWN
+Author: Dane Richardson
+Author-email: richardsod7@mymail.nku.edu
+License: UNKNOWN
+Description: # md2pdf_CSC540 project
+        
+        This Python project is was developed as part of a class 
+        project to support the extension of a wiki system.  The 
+        feature allows the conversion of a wiki page in markdown
+        format to a PDF. 
+Keywords: markdown pdf conversion
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ==3.7
+Description-Content-Type: text/markdown
