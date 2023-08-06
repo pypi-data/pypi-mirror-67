@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: model-optimizer
+Version: 2020.2.12
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: onnx (>=1.1.2)
+Requires-Dist: networkx (>=1.11)
+Requires-Dist: numpy (>=1.12.0)
+Requires-Dist: defusedxml (>=0.5.0)
+
+UNKNOWN
+
+
