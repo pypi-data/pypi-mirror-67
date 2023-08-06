@@ -1,0 +1,7 @@
+README.md
+setup.py
+venvwrap.sh
+venvwrap.egg-info/PKG-INFO
+venvwrap.egg-info/SOURCES.txt
+venvwrap.egg-info/dependency_links.txt
+venvwrap.egg-info/top_level.txt
