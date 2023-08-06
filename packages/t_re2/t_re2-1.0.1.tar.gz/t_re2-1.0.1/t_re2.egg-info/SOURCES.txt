@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+re2/__init__.py
+re2/libre2.so.7
+re2/re2.so
+t_re2.egg-info/PKG-INFO
+t_re2.egg-info/SOURCES.txt
+t_re2.egg-info/dependency_links.txt
+t_re2.egg-info/top_level.txt
