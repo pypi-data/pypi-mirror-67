@@ -1,0 +1,27 @@
+# Releases
+
+## git2effort 0.1.2 - (2020-05-06)
+
+** New features and improvements: **
+ * Added the possibility to have debug information
+ * Documented and added logging and debugging info
+ * Results per period shown in a tabular form
+
+
+## git2effort 0.1.1 - (2020-05-04)
+
+** New features and improvements: **
+ * Outputting more (and clearer) information
+ * Addied threshold t and period p as input parameters
+ * More details and examples in the README.md
+
+** Bugs fixed: **
+ * --version now returns the current version
+
+
+## git2effort 0.1 - (2020-05-03)
+
+** New features and improvements: **
+
+ * Supports Python 3.4 and newer versions.
+ * Initial release
