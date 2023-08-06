@@ -1,0 +1,10 @@
+ossi_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ossi_tool/__main__.py,sha256=sKvxOs_iSueBXoFZq7k5uheqxfP4YnnYTWE3eYUw0aY,144
+ossi_tool/commandEnum.py,sha256=ZfV1l-k9e598-1rX_TSUYDL__c4CWhMh5PasMrfjUHg,1067
+ossi_tool/ossit.py,sha256=mFnAOrvPw-7KkQvT2I5YuBwiDq4NID23W_SVbFHS4RI,16420
+ossi_tool-0.4rc4.dist-info/LICENSE,sha256=viFdrtW_3GKjhhq1wKrvwHzqZmBFf_wXWMSpqZ3_XJY,778
+ossi_tool-0.4rc4.dist-info/METADATA,sha256=386KV_XEV_1BmS05_O5qQWbKlT4vdTmwot9gY4t-iFY,3172
+ossi_tool-0.4rc4.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+ossi_tool-0.4rc4.dist-info/entry_points.txt,sha256=KNlYfJU_txMBt9R7NiLUAZ5dhHb-LAOvAn46nq2dlnI,52
+ossi_tool-0.4rc4.dist-info/top_level.txt,sha256=cmnl4Z4ylloOLlMrk-e1LDcsL9ZvzMPgWmTuPbnxP20,10
+ossi_tool-0.4rc4.dist-info/RECORD,,
