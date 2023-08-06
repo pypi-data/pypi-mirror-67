@@ -1,0 +1,9 @@
+xdcc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xdcc/__main__.py,sha256=oPPslPosZX6V5CSL_ryCjDxrhPE9hORCCLu7j-StmUU,11007
+xdcc/xdcc.py,sha256=2qOz8kTlH6lXoZkezVhXOuteZ50HJ1Od5JV3_7DBv-c,11031
+xdcc-0.0.1.dist-info/LICENSE,sha256=yZIjbN5dIVSjmq1-UUxVxVw9edXStzjgjg77z37kGbQ,1085
+xdcc-0.0.1.dist-info/METADATA,sha256=POkgCsEOXL3PH8drWx03cpAYK5EqoCCdPdjFo_nDC38,4815
+xdcc-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xdcc-0.0.1.dist-info/entry_points.txt,sha256=443YKYbeeT0X1NQVnWQE-w1LeCWyxRB7czusj5YTKfY,45
+xdcc-0.0.1.dist-info/top_level.txt,sha256=151H_PTNVJbLI07xfIY4J9WEQ0uNd4rFiSEvQUIdVUw,5
+xdcc-0.0.1.dist-info/RECORD,,
