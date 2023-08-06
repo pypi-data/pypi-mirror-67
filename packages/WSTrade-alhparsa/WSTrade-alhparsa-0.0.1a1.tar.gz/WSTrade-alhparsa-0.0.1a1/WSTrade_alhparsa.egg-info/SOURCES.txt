@@ -1,0 +1,8 @@
+README.md
+setup.py
+WSTrade_alhparsa.egg-info/PKG-INFO
+WSTrade_alhparsa.egg-info/SOURCES.txt
+WSTrade_alhparsa.egg-info/dependency_links.txt
+WSTrade_alhparsa.egg-info/top_level.txt
+wstrade/__init__.py
+wstrade/main.py
