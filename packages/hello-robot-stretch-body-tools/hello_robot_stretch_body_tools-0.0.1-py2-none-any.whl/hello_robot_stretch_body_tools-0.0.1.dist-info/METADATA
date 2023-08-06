@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: hello-robot-stretch-body-tools
+Version: 0.0.1
+Summary: Stretch Body Python tools
+Home-page: https://github.com/hello-robot/stretch_body
+Author: Aaron Edsinger
+Author-email: aedsinger@hello-robot.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Stretch Body Tools
+The Stretch_Body Tools package provides command line tools to command and query the Hello Robot Stretch RE1 hardware. 
+
+
+
