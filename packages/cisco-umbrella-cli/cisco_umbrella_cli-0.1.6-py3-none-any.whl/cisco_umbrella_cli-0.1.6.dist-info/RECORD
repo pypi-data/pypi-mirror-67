@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_commands.py,sha256=zpEK3LTqwYatR-eBgKz-654IziL9zvgdSr7g-Ht2clY,1907
+tests/test_serializers.py,sha256=Os1ntOXfLx6XrifZIxAj4wAWpz-MuQ8OIMpGUj7kkfc,4196
+tests/test_services.py,sha256=5TQD4cNk_8irGXaFLioAVsK-QCQtEVp_-Sjq5owM6bI,3414
+umbrella_cli/__init__.py,sha256=E70uNr8bcWEQFBqPw6dAQtt_hLsXU_S9cyQlwvkEdOE,20
+umbrella_cli/cli.py,sha256=_bqM9k3ZavpQrepqL0NqQRLEiNDOZ-ZBEio9hXxLNoc,863
+umbrella_cli/models.py,sha256=0OiN2JnW2dc4xnkCqUbdFgu0Mx1kGw7gTQeIKngGgB8,230
+umbrella_cli/serializers.py,sha256=fOkW6ca8rqdwRon7woCSoA9iVJwyjXEm7lR1cmGR2rY,1319
+umbrella_cli/services.py,sha256=ASuAun4nHzOZyNB6sFa4oZh2tnQ_Q1Z2gnIoK3nR1n4,2910
+umbrella_cli/commands/__init__.py,sha256=r4sFcQuZnQWQ24QX68HYzRhSz7sQ-ZWqxBRBRWDSiIg,45
+umbrella_cli/commands/sites.py,sha256=gbRBqZTY0_ILkmV7rk3c7s19DdOBtZeUre7kfHVuDf8,1681
+cisco_umbrella_cli-0.1.6.dist-info/LICENSE,sha256=rS6p7mmzoyLPLuo3vEB_XA9MwCCAz8ukVK07wj4iL20,1057
+cisco_umbrella_cli-0.1.6.dist-info/METADATA,sha256=NeVSYlkqpEog84cz_A3ByBjEi8fEalk1X5rX65HIO7w,323
+cisco_umbrella_cli-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cisco_umbrella_cli-0.1.6.dist-info/entry_points.txt,sha256=xElnDN60468YrJsdOY1vDwoJQlhObjwBoTw5gArVed4,73
+cisco_umbrella_cli-0.1.6.dist-info/top_level.txt,sha256=67peqzXpbkX7u3u65tBevf-qVHYJ0KZl_4r-EZ9s-p8,19
+cisco_umbrella_cli-0.1.6.dist-info/RECORD,,
