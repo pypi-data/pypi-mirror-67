@@ -1,0 +1,9 @@
+decisiveml/__init__.py,sha256=wGZr_NeAXl-Peh42Vj_DTSZ5PHF9Vwx50mjijU8bjyQ,113
+decisiveml/helpers.py,sha256=fo--Y6EJiO-cjpvx4JvYlu_yZMBbg8t6BN3GtvwH3X0,4867
+decisiveml/indicators.py,sha256=w21IfIKTlixtUKSo4UMCMHd8BiS5bzQ6AfOjmyA4oSk,5911
+decisiveml/montecarlo.py,sha256=x8fLZQZwae651iVbj2MkrAJ0ZbO7Ck4tXGP02dV2IEg,8467
+decisiveml/trendscanning.py,sha256=QV9qd__rUlYr0szwPo4bq3KIWfYS4jPhcI3j0t1qq0M,2210
+decisiveml-0.0.3.dist-info/LICENSE.txt,sha256=A0tiu7NwKvtQIEQa-ZgaFNwIwWkmpnUq6z09w6qtJHU,1457
+decisiveml-0.0.3.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+decisiveml-0.0.3.dist-info/METADATA,sha256=3nbAs9aHPaBgDkUjKNBKxB-dIYq0WhBSslS3klm33oQ,450
+decisiveml-0.0.3.dist-info/RECORD,,
