@@ -1,0 +1,8 @@
+black
+python-language-server
+typing-extensions
+
+[dev]
+flake8
+mypy
+pytest
