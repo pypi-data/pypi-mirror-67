@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+jsonres/__init__.py
+jsonres/json_response.py
+jsonres/m.py
+jsonres.egg-info/PKG-INFO
+jsonres.egg-info/SOURCES.txt
+jsonres.egg-info/dependency_links.txt
+jsonres.egg-info/requires.txt
+jsonres.egg-info/top_level.txt
