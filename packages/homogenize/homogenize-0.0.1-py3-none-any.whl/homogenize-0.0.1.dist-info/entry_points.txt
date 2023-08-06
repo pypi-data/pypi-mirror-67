@@ -1,0 +1,3 @@
+[console_scripts]
+homogenize = homogenize.__main__:main
+

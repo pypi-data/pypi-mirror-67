@@ -1,0 +1,10 @@
+homogenize/__init__.py,sha256=uP9k-8ktVt8v58D1FT1r5e4GamBKyU6gXu2KPkn0_-E,82
+homogenize/fast.py,sha256=M7KRc6T-n1h1cU__0fx25Nd7kqm8q1CuzB4QsxyGqCE,179
+homogenize/model.py,sha256=GQdwcWZjeDgH8wKsX2_966y9QvZFAjQA6ocNualIRyM,19741
+homogenize/running.py,sha256=xA7-0eaX-wU4_2VBk2_f2sGaWWmVYlHKyDkQlAj9Tc0,792
+homogenize/slow.py,sha256=Zp82gLUf-ueBabdx8Uhrt-zccxhR1bU7HjV6eCHXjMk,4460
+homogenize-0.0.1.dist-info/METADATA,sha256=YPntFnvmy8ubaGmWlOzUUqV0rzG-i_3IU41uI8YsEjA,1884
+homogenize-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+homogenize-0.0.1.dist-info/entry_points.txt,sha256=Oy41asxb6_xcELGEbupB1GfSDWfdKgzkQHMcdvSe9iM,57
+homogenize-0.0.1.dist-info/top_level.txt,sha256=KGgJdMxxP6udZEJhzflOvJTIgVw-SAhjGqncGPTFim4,11
+homogenize-0.0.1.dist-info/RECORD,,
