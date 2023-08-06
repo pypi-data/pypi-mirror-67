@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: processdigit
+Version: 0.1.0
+Summary: processdigit
+Home-page: UNKNOWN
+Author: vutrongnghia
+Author-email: vutrongnghiahaui@gmail.com
+Maintainer: vutrongnghia
+Maintainer-email: vutrongnghiahaui@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,<4,>=3
+Description-Content-Type: text/markdown
+Requires-Dist: Keras
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pygame
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: six (>=1.12.0)
+Requires-Dist: tensorflow
+Requires-Dist: theano
+
+UNKNOWN
+
+
