@@ -1,0 +1,11 @@
+
+[dev]
+flake8
+flake8-import-order
+flake8-quotes
+flake8-bugbear
+coverage
+twine
+
+[mediainfo]
+libmediainfo_cffi
