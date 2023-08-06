@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ing
+Version: 0.1.0
+Summary: It is not GANGA
+Home-page: https://github.com/ankcorp/ing
+License: MIT
+Keywords: job,engine,scheduler,GANGA
+Author: Ank
+Author-email: ank@ankcorp.xyz
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: desert (>=2020.1.6,<2021.0.0)
+Requires-Dist: importlib-metadata (>=1.5.0,<2.0.0); python_version < "3.8"
+Requires-Dist: marshmallow (>=3.3.0,<4.0.0)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
+Project-URL: Documentation, https://ing.readthedocs.io
+Project-URL: Repository, https://github.com/ankcorp/ing
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/ankcorp/kalam/workflows/Tests/badge.svg)](https://github.com/ankcorp/kalam/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/ankcorp/kalam/branch/master/graph/badge.svg)](https://codecov.io/gh/ankcorp/kalam)
+[![PyPI](https://img.shields.io/pypi/v/kalam.svg)](https://pypi.org/project/kalam/)
+[![Read the Docs](https://readthedocs.org/projects/kalam/badge/)](https://kalam.readthedocs.io/)
+
+# Kalam
+
+Superpowers for writing!
+
