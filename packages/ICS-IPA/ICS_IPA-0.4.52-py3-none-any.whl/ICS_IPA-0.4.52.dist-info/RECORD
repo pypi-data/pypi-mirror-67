@@ -1,0 +1,12 @@
+ICS_IPA/DSRTools.py,sha256=recn2Yxh6ei-sd7K35ezXGEyM20WLyJXYIBDFRb995U,3358
+ICS_IPA/DataFileIO-32.dll,sha256=FW-jKp5lExZoR--JNaPXCChTxxCEniJQczSH3KHEzww,973312
+ICS_IPA/DataFileIO-64.dll,sha256=kcIKAcXa3qOx-aFh2hK_SFzQaoJG3Q7-FFK_L6gzGFw,1249280
+ICS_IPA/DataFileIOLibrary.py,sha256=-jtOraPBdboJvobwvGmT5MNIIJ886DJgNbZlaTv00Ag,12154
+ICS_IPA/DataFileIOLibraryInterface.py,sha256=n_93RxOKSBjIZMgWB8kNwDQQC8munc0fQB5xZxhbnfA,6309
+ICS_IPA/IPAInterfaceLibrary.py,sha256=gOrTGgFvJLg9P-r1RzyxnGdLwT74hZg5M_W5QKK2hUE,3700
+ICS_IPA/_DataFileIOLibraryInterface.so,sha256=QKXbZyZdvmDYRQRUk5M6Z5foRNtYHI3Lowiiq6FPdlc,1986976
+ICS_IPA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ICS_IPA-0.4.52.dist-info/METADATA,sha256=dbX_kCRHPggLS0JVZvsySbPaNu8LNyif1rePKrhPSZg,1144
+ICS_IPA-0.4.52.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ICS_IPA-0.4.52.dist-info/top_level.txt,sha256=v_qGVSuuOEMmJ9Se0jvdfuXmdeUmaoWrffJ-6spoA5I,8
+ICS_IPA-0.4.52.dist-info/RECORD,,
