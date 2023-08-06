@@ -1,0 +1,3 @@
+[console_scripts]
+birdview-demo = carla_birdeye_view.birdview.__main__:main
+
