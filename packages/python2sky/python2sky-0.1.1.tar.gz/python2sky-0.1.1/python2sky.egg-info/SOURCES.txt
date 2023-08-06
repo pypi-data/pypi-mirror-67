@@ -1,0 +1,9 @@
+setup.py
+python2sky/__init__.py
+python2sky/bootstrap.py
+python2sky/config.py
+python2sky.egg-info/PKG-INFO
+python2sky.egg-info/SOURCES.txt
+python2sky.egg-info/dependency_links.txt
+python2sky.egg-info/requires.txt
+python2sky.egg-info/top_level.txt
