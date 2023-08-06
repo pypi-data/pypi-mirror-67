@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: web_extractor
+Version: 0.0.1
+Summary: WEB Content Extractor
+Home-page: https://github.com/justinzm/ContentExtractor
+Author: Justin Zm
+Author-email: 3907721@qq.com
+Maintainer: Justin Zm
+Maintainer-email: 3907721@qq.com
+License: MIT
+Description: # ContentExtractor
+         
+        
+Platform: all
+Description-Content-Type: text/markdown
