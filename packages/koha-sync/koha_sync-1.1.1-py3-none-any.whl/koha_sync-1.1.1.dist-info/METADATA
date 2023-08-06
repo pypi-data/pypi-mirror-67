@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: koha-sync
+Version: 1.1.1
+Summary: This projects allows to synchronize remote Koha rows to an endpoint
+Home-page: https://jaguirre_referencistas@bitbucket.org/jaguirre_referencistas/koha_synchronizer.git
+Author: Juan Pablo Aguirre
+Author-email: jaguirre@referencistas.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: jsonschema
+Requires-Dist: requests
+Requires-Dist: pymysql
+Requires-Dist: loguru
+Requires-Dist: setuptools
+Requires-Dist: wheel
+
+# Koha synchronizer #
+
+This projects allows us to a script to synchronize Koha rows from a remote database to our Elasticsearch cluster.  
+
+Run the command
+```yml
+koha_syncrhonizer --help
+
+    Options:
+     -c, --config-file TEXT  path to configuration file  [required]
+     -v, --verbose           activate verbosity output
+     -r, --run-once          synchronize once and stops execution
+     -t, --test              run validations and stops before synchronize
+     --help                  Show this message and exit.
+
+```
+
