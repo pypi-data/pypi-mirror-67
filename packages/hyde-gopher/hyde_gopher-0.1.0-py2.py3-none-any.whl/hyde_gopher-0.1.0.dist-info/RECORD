@@ -1,0 +1,12 @@
+hyde_gopher/__init__.py,sha256=hQ0ssCtPSz7PcSUThTce5JQYjPxGn-2os3t_vwlqP3Q,19
+hyde_gopher/engine.py,sha256=lcKN4gGXGMPhvgebyllxsn0vj09BcG73MemtCh9ByRY,3374
+hyde_gopher/generator.py,sha256=82_OaSq8QsBIRXT2pyT_rx1VliHb8Oh0-pxgBhET5Gs,3348
+hyde_gopher/main.py,sha256=gDe2nxV4e5ERia5vQnfsOMm-zaFyKiFweiak1rvO6BE,98
+hyde_gopher/server.py,sha256=yA8Hft_WZZiG0LEZAjlEprQlnRoZxDQ3sheSWviLuG0,1164
+hyde_gopher-0.1.0.dist-info/DESCRIPTION.rst,sha256=TcKh8BEePHErR5nEmx7XRJe0TkjF955y1nNmDL38t_0,1926
+hyde_gopher-0.1.0.dist-info/METADATA,sha256=C8P4rhvycKKDZA0QihRMk8XJCOtzhdVfqyi4e691BuI,2926
+hyde_gopher-0.1.0.dist-info/RECORD,,
+hyde_gopher-0.1.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+hyde_gopher-0.1.0.dist-info/entry_points.txt,sha256=YJpYtTMjNn3kgLgmowNmE0Wybe4EnbxlYyCqKto-ye8,54
+hyde_gopher-0.1.0.dist-info/metadata.json,sha256=e_SOpRgaHkspXZH8QJa3lO5UNeaNLzjRqJard2OGYo8,1247
+hyde_gopher-0.1.0.dist-info/top_level.txt,sha256=1VonHL0ZUh5r-NJfa3TKJoJpS6vterfPjkVDWESJXwQ,12
