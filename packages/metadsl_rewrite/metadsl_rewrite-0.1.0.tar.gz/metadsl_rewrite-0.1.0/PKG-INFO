@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: metadsl_rewrite
+Version: 0.1.0
+Summary: Rewrite rules for metadsl expressions
+Home-page: https://github.com/Quansight-Labs/metadsl
+Author: Saul Shanabrook
+Author-email: s.shanabrook@gmail.com
