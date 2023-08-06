@@ -1,0 +1,84 @@
+# ValidatedDC
+
+Dataclass with data validation. Checks the value of its fields by their annotations.
+
+## Capabilities
+
+`ValidatedDC` is a regular Python dataclass, but with the ability to check the validity of the data by which this dataclass was initialized. Also, you can check the data at any time during the life of the instance.
+
+1. Support for standard and custom Python classes.
+2. Support for some aliases from the `typing` module, namely: `Any`, `List`, `Literal`, `Optional`, `Union`. These aliases can be embedded in each other.
+3. When initializing an instance of a class, you can use the value of the field `dict` instead of the `ValidatedDC` instance specified in the field annotation. (useful, for example, when retrieving data via api).
+
+See detailed examples in `examples.py`.
+
+## Installation
+
+```bash
+pip install validated-dc
+```
+
+## Simple example
+
+```python
+from validated_dc import ValidatedDC
+from dataclasses import dataclass
+
+from typing import List, Union
+
+
+@dataclass
+class Foo(ValidatedDC):
+    foo: int
+
+
+@dataclass
+class Bar(ValidatedDC):
+    bar: Union[Foo, List[Foo]]
+
+
+foo = {'foo': 1}
+instance = Bar(bar=foo)
+print(instance.get_errors())  # None
+print(instance)               # Bar(bar=Foo(foo=1))
+
+list_foo = [{'foo': 1}, {'foo': 2}]
+instance = Bar(bar=list_foo)
+print(instance.get_errors())  # None
+print(instance)               # Bar(bar=[Foo(foo=1), Foo(foo=2)])
+
+instance.bar.append({'foo': '3'})
+print(instance.is_valid())    # False
+print(instance.get_errors())
+# {'bar': [InstanceValidationError(value_repr='[Foo(foo=1), Foo(foo=2),
+# {...]', value_type=<class 'list'>, annotation=<class '__main__.Foo'>,
+# exception=None, errors=None), InstanceValidationError(value_repr=
+# "{'foo': '3'}", value_type=<class 'dict'>, annotation=<class
+# '__main__.Foo'>, exception=None, errors={'foo': [BasicValidationError
+# (value_repr='3', value_type=<class 'str'>, annotation=<class 'int'>,
+# exception=None)]}), ListValidationError(value_repr="{'foo': '3'}",
+# value_type=<class 'dict'>, annotation=<class '__main__.Foo'>,
+# exception=None, item_index=2)]}
+
+print(instance)  # Bar(bar=[Foo(foo=1), Foo(foo=2), {'foo': '3'}])
+
+instance.bar[2]['foo'] = 3
+print(instance)  # Bar(bar=[Foo(foo=1), Foo(foo=2), {'foo': 3}])
+print(instance.is_valid())    # True
+print(instance.get_errors())  # None
+print(instance)  # Bar(bar=[Foo(foo=1), Foo(foo=2), Foo(foo=3)]
+
+instance.bar[2].foo = '3'
+print(instance)  # Bar(bar=[Foo(foo=1), Foo(foo=2), Foo(foo='3')])
+print(instance.is_valid())  # False
+print(instance.get_errors())
+# {'bar': [InstanceValidationError(value_repr='[Foo(foo=1), Foo(foo=2),
+# F...]', value_type=<class 'list'>, annotation=<class '__main__.Foo'>,
+# exception=None, errors=None), InstanceValidationError(value_repr=
+# "{'foo': '3'}", value_type=<class 'dict'>, annotation=<class
+# '__main__.Foo'>, exception=None, errors={'foo': [BasicValidationError
+# (value_repr='3', value_type=<class 'str'>, annotation=<class 'int'>,
+# exception=None)]}), ListValidationError(value_repr="Foo(foo='3')",
+# value_type=<class '__main__.Foo'>, annotation=<class '__main__.Foo'>,
+# exception=None, item_index=2)]}
+```
