@@ -1,0 +1,5 @@
+aridity
+nose-cov
+pyflakes
+twine
+virtualenv
