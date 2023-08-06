@@ -1,0 +1,17 @@
+{
+    "scalars": "Scalars",
+    "samples": "Samples",
+    "graphs": "Graphs",
+    "high-dimensional": "High Dimensional",
+    "search": "Search",
+    "searchTagPlaceholder": "Search tags in RegExp",
+    "all": "ALL",
+    "empty": "Empty",
+    "select": "Please Select",
+    "runs": "Runs",
+    "select-runs": "Select Runs",
+    "running": "Running",
+    "stopped": "Stopped",
+    "loading": "Loading",
+    "error": "Error occurred"
+}
