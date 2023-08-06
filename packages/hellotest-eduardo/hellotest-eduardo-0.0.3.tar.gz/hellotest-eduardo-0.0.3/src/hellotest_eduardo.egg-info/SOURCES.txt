@@ -1,0 +1,7 @@
+README.rst
+setup.py
+src/hellotest_eduardo.egg-info/PKG-INFO
+src/hellotest_eduardo.egg-info/SOURCES.txt
+src/hellotest_eduardo.egg-info/dependency_links.txt
+src/hellotest_eduardo.egg-info/requires.txt
+src/hellotest_eduardo.egg-info/top_level.txt

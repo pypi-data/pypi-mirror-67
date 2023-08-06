@@ -1,0 +1,6 @@
+cvxopt
+matplotlib
+numpy
+pyswarm
+scipy
+typing
