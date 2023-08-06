@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: mqbeebotte
+Version: 0.0.4
+Summary: Unofficial Beebotte MQTT access package
+Home-page: https://github.com/pman0214/mqbeebotte
+Author: Shigemi ISHIDA
+Author-email: ishida+devel@f.ait.kyushu-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pman0214/mqbeebotte/issues
+Project-URL: Source, https://github.com/pman0214/mqbeebotte/
+Keywords: mqtt beebotte
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: paho-mqtt
+
+.. -*- coding: utf-8; -*-
+
+============
+ mqbeebotte
+============
+
+Unofficial `Beebotte <https://beebotte.com/>`_ MQTT access package.
+
+Required Packages
+=================
+
+* paho-mqtt
+
+How to Install?
+===============
+
+Run ``pip install mqbeebotte``.
+
+How to Use?
+===========
+
+See sample codes in `sample directory <https://github.com/pman0214/mqbeebotte/tree/master/sample>`_.
+
+Currently, this package only provides client subscribe/publish methods.
+
+Copyright, License
+==================
+
+Copyright (c) 2020, Shigemi ISHIDA
+
+* This package is released under the BSD 3-clause license. See ``LICENSE.txt``.
+* Sample source codes are released under the MIT license.  See ``sample/LICENSE_MIT.txt``.
+
+
