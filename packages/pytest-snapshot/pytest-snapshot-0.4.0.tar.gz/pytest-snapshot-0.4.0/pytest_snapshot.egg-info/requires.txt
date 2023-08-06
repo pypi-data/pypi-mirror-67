@@ -1,0 +1,6 @@
+packaging
+pytest>=3.0.0
+typing
+
+[:python_version < "3.6"]
+pathlib2>=2.2.0
