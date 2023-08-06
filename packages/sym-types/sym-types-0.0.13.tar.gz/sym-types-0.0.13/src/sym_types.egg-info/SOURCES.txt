@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/sym_types.egg-info/PKG-INFO
+src/sym_types.egg-info/SOURCES.txt
+src/sym_types.egg-info/dependency_links.txt
+src/sym_types.egg-info/top_level.txt
