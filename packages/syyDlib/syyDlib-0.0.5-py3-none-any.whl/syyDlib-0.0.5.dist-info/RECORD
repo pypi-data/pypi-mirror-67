@@ -1,0 +1,13 @@
+Models/__init__.py,sha256=K9SZHov4CJWiF5J3Hfq_qzL_ZAuab_wmoQhmd5_7PP0,102
+Models/Classification/__init__.py,sha256=2C67EMLjIDHzSJlHxVU_cfqwXNB1rm-3lDIYiXQvcTY,328
+Models/Classification/ResNest/__init__.py,sha256=2_RKO9k81z76BDd-BOYDJ5ttb1TtHWg6WsQFp6-gzjI,22
+Models/Classification/ResNest/resnest.py,sha256=8NebYfypWQI8N5tZwWiMSeO08QAw1c4ZJfZAJgrKyAU,2955
+Models/Classification/ResNest/resnet.py,sha256=eUtk0NAJzvIAjcZnmy7Or0Ctw5riCZIYWpHNeTv75eM,12760
+Models/Classification/ResNest/splat.py,sha256=ri1CxQ-p8ocywGeAk2QsKC9DKGImbQ44RJ-9vNJdAz8,6031
+Models/Classification/SENet/SENet.py,sha256=5xmrEdFAXsQGCjOKKhg-wUSw3IQkOn1PHjXqN4aQF3k,16709
+Models/Classification/SENet/__init__.py,sha256=qvch2KLyUoGfhYELy-4vZ3vglytrYGlTxPuPSuRXnYc,20
+syyDlib-0.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syyDlib-0.0.5.dist-info/METADATA,sha256=rBkcvWUiIckNHFugYvt-jmVEfobGqR7icB9VKd3uiI8,168
+syyDlib-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+syyDlib-0.0.5.dist-info/top_level.txt,sha256=IIoxJXKT2z2bh_HyCf4GgxDFk3xSByDsM_SHBisB1dQ,7
+syyDlib-0.0.5.dist-info/RECORD,,
