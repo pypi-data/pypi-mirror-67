@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_abundanceoftrees
+Version: 3.0.3
+Summary: Implementation of Binary Tree, AVL Tree and Heap Tree Data Structures
+Home-page: https://github.com/ma-alvarado/trees
+Author: Matías Alvarado
+Author-email: matias@4alvarados.com
+License: GPLv3
+Description: # Trees ![](https://api.travis-ci.com/ma-alvarado/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
