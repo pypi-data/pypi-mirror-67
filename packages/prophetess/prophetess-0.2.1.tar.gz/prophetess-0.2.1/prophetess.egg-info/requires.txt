@@ -1,0 +1,3 @@
+aiohttp[speedups]
+PyYAML
+prometheus-client
