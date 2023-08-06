@@ -1,0 +1,3 @@
+[console_scripts]
+echo360download = echo.main:main
+

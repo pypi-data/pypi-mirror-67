@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: echo360download
+Version: 1.0
+Summary: Download Echo 360 files
+Home-page: https://github.com/visgean/gimme-echo360
+Author: Visgean
+Author-email: visgean@gmail.com
+License: MIT
+Description: # echo360download
+        
+        This is modified version of script written by Andrew Ferguson: https://tardis.ed.ac.uk/~andrewferguson/echo360/
+        
+        # Install
+        
+        ``pip3 install echo360download``
+        
+        # Usage:
+        
+        Example
+        ``
+        $ echo360download Downloads/ cookies.txt
+        ``
+        
+        this will prompt you with available list and you can choose which one to download.
+Keywords: exif sql
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
