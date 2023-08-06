@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: MatTool
+Version: 1.0.1
+Summary: A python package to perform Matrix Operations
+Home-page: https://github.com/SACHIN1625/MatTool/
+Author: Sachin_S
+Author-email: sachinshanmugam07@gmail.com
+License: UNKNOWN
+Description: # MatTool 1.0.1
+        
+        
+        ## How to install
+        
+        ```
+        pip install MatTool
+        ```
+        ## If you are trouble installing, try this
+        ```
+        pip3 install MatTool
+        ```
+        ## How to use
+        
+        Some example codes:
+        
+        ```
+        from MatTool import MatTool
+        MatTool.MatDet(a)	# a is multi dimensional list(i.e matrix), it returns determinant of a matrix.
+        
+        from MatTool import MatTool
+        MatTool.MatInverse(a)	# a is multi dimensional list(i.e matrix), it returns inverse of a matrix.
+        
+        from MatTool import MatTool
+        MatTool.MatTranspose(a)	# a is multi dimensional list(i.e matrix), it returns transpose of a matrix.
+        
+        from MatTool import MatTool
+        MatTool.MatProduct(a,b)	# a,b are multi dimensional lists(i.e matrices), it returns product of a and b matrix.
+        
+        
+        ```
+        If you find any error! Feel free to contact me through mail!
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
