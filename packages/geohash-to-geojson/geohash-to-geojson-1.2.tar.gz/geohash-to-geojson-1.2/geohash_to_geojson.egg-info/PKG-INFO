@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geohash-to-geojson
+Version: 1.2
+Summary: convert set of geohashes into a geojson boundaries files of the corresponding geohashes
+Home-page: https://github.com/brings123/geohash-to-geojson
+Author: Afraoucene Chakib
+Author-email: fc_afraoucene@esi.dz
+License: MIT
+Description: # Geohash to geojson: 
+        
+        This package convert a set of geohashes into a geojson file with the corresponding boundaries
+        
+        ## How it works
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
