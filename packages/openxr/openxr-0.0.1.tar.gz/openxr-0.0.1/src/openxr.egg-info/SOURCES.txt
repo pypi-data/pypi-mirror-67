@@ -1,0 +1,17 @@
+AUTHORS
+CHANGES.md
+CREDITS.md
+MANIFEST.in
+README.md
+UNLICENSE
+VERSION
+setup.cfg
+setup.py
+src/openxr/__init__.py
+src/openxr.egg-info/PKG-INFO
+src/openxr.egg-info/SOURCES.txt
+src/openxr.egg-info/dependency_links.txt
+src/openxr.egg-info/requires.txt
+src/openxr.egg-info/top_level.txt
+src/openxr/api/__init__.py
+test/test_import.py

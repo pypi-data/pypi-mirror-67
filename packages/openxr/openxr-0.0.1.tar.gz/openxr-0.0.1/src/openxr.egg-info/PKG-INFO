@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: openxr
+Version: 0.0.1
+Summary: OpenXR bindings for Python.
+Home-page: https://github.com/drypy/openxr.py
+Author: Arto Bendiken
+Author-email: arto@bendiken.net
+License: Public Domain
+Project-URL: Source, https://github.com/drypy/openxr.py
+Description: OpenXR for Python
+        =================
+        
+        [![Project license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](https://unlicense.org)
+        [![PyPI package](https://img.shields.io/pypi/v/openxr.svg)](https://pypi.org/project/openxr/)
+        
+        Installation
+        ------------
+        
+            $ pip install openxr
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
