@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: infratools
+Version: 0.1.0
+Summary: Collection of infrastructure tools
+Home-page: https://github.com/d4n13lbc/infratools
+Author: Daniel Barragan
+Author-email: dbarragan1331@gmail.com
+License: UNKNOWN
+Description: # Infrastructure Tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
