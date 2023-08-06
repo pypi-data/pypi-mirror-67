@@ -1,0 +1,8 @@
+README.md
+setup.py
+differintegral_sage/__init__.py
+differintegral_sage/differintegral.py
+differintegral_sage.egg-info/PKG-INFO
+differintegral_sage.egg-info/SOURCES.txt
+differintegral_sage.egg-info/dependency_links.txt
+differintegral_sage.egg-info/top_level.txt
