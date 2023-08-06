@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: q2-micom
+Version: 0.7.0
+Summary: Plugin for metabolic modeling of microbial communities.
+Home-page: https://github.com/micom-dev/q2-micom
+Author: Christian Diener
+Author-email: cdiener@isbscience.org
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: microbiome modeling metabolism community
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: test
