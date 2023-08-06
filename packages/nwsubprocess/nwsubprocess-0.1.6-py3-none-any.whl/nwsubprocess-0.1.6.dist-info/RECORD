@@ -1,0 +1,8 @@
+nwsubprocess/__init__.py,sha256=uJEZWn5JLtRJB7VBVihm_XTOVOwaU1qzoqz-iefZ8ko,143
+nwsubprocess/__main__.py,sha256=btQ-GKnSXmXUvWikMz2BDGneNmWMkKPFOc-1qQuLXM8,1277
+nwsubprocess/execution.py,sha256=L_StZ90ObQiOg1uJX6cf_tNH-sKaCxCbZwXEtiChbXw,4470
+nwsubprocess/process.py,sha256=CasJd3P2U_wdVxfXhSH4Ym-L14j7v2IZ1R2wstP5Vno,8052
+nwsubprocess/utils.py,sha256=nDF73bNAmS4KVCtGsVpBRCRIHh_Mn2ZVWeEzmY9ZqK0,2143
+nwsubprocess-0.1.6.dist-info/WHEEL,sha256=XxTMdUFYvTASWLzjAuOF2eeA6mcJhUl5X_899RYTQhM,87
+nwsubprocess-0.1.6.dist-info/METADATA,sha256=itQ1p2kDPfLZ6bdZDWsETBzLDKwCf9AC108-Dmsz1RQ,350
+nwsubprocess-0.1.6.dist-info/RECORD,,
