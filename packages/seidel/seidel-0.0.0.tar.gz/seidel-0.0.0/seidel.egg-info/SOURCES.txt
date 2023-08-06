@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+seidel/__init__.py
+seidel.egg-info/PKG-INFO
+seidel.egg-info/SOURCES.txt
+seidel.egg-info/dependency_links.txt
+seidel.egg-info/top_level.txt
