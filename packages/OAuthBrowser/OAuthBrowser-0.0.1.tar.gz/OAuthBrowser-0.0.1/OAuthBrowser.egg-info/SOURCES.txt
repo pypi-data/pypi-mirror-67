@@ -1,0 +1,14 @@
+Changelog.md
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+OAuthBrowser/__init__.py
+OAuthBrowser/__main__.py
+OAuthBrowser/browser.py
+OAuthBrowser/util.py
+OAuthBrowser/wait.py
+OAuthBrowser.egg-info/PKG-INFO
+OAuthBrowser.egg-info/SOURCES.txt
+OAuthBrowser.egg-info/dependency_links.txt
+OAuthBrowser.egg-info/top_level.txt
