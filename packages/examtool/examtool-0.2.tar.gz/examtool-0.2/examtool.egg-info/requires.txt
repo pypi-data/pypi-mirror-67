@@ -1,0 +1,7 @@
+click
+pikepdf
+pytz
+requests
+fpdf
+cryptography
+pypandoc
