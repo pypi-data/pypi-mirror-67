@@ -1,0 +1,8 @@
+pandas_alive/__init__.py,sha256=81xkc0xLklpYhSkjyzTs-GpWqeD53Zd-xUm8dDgYwag,405
+pandas_alive/base.py,sha256=t8q4Sho7T56_WjXvryDqLkdQ7TsMRVGXjPdG6AbWf04,919
+pandas_alive/charts.py,sha256=ibdIKLfq85l11so619s_pxkuTw3MSDsprUFWxLdWqbc,29061
+pandas_alive/plot.py,sha256=i_9n9-gAK-_p2pGFfRs9h3manQtlAUig-Gc8wB9futk,14160
+pandas_alive-0.1.8.dist-info/LICENSE,sha256=qagkwvIF5T9R11Epd9aShUpkcaDKEu-FjPilHobLhhI,1063
+pandas_alive-0.1.8.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pandas_alive-0.1.8.dist-info/METADATA,sha256=SKnlr35UWnPEwHgS1RWNDOCO5LeE3BIj-tZcWESOsnQ,5814
+pandas_alive-0.1.8.dist-info/RECORD,,
