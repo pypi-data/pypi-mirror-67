@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: isopy
+Version: 0.3.3
+Summary: A python package for data processing in geo/cosmochemistry
+Home-page: https://github.com/mattias-ek/isopy
+Author: Mattias Ek
+Author-email: mattias.ek@bristol.ac.uk
+License: UNKNOWN
+Download-URL: https://github.com/mattias-ek/isopy/archive/v0.3.3.tar.gz
+Description: # isopy
+        A python package for data processing in isotope geo/cosmochemistry.
+        
+        
+Keywords: array isotope geochemistry cosmochemisty
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
