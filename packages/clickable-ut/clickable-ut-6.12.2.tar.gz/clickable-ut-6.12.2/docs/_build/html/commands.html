@@ -1,0 +1,437 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Commands &mdash; Clickable 6.12.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="clickable.json Format" href="clickable-json.html" />
+    <link rel="prev" title="Debugging" href="debugging.html" />
+    <style>
+        .wy-side-nav-search {
+            background-color: #ed7c1b;
+        }
+
+        .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+            border-radius: 16px;
+        }
+    </style>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Clickable
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.12.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#after-install">After install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging.html">Debugging</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Commands</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#clickable"><code class="docutils literal notranslate"><span class="pre">clickable</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-desktop"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-desktop-nvidia"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--nvidia</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-ide-custom-command"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">ide</span> <span class="pre">&lt;custom_command&gt;</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-create"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-shell"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">shell</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-clean-libs"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean-libs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-build-libs"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build-libs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-clean"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-build"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-build-output-path-to-some-diretory"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build</span> <span class="pre">--output=/path/to/some/diretory</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-clean-build"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean-build</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-review"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">review</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-test"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">test</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-install"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">install</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-launch"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-logs"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">logs</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-log"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">log</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-publish"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">publish</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-run-some-command"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">run</span> <span class="pre">&quot;some</span> <span class="pre">command&quot;</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-update"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">update</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-no-lock"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">no-lock</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-writable-image"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">writable-image</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-devices"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">devices</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-custom-command"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;custom</span> <span class="pre">command&gt;</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-any-command-container-mode"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--container-mode</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-any-command-verbose"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--verbose</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-any-command-ssh-ip-address"><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--ssh</span> <span class="pre">&lt;ip</span> <span class="pre">address&gt;</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="clickable-json.html">clickable.json Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="env-vars.html">Environment Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-templates.html">App Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-templates.html">Build Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Clickable</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Commands</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/commands.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="commands">
+<span id="id1"></span><h1>Commands<a class="headerlink" href="#commands" title="Permalink to this headline">¶</a></h1>
+<p>From the root directory of your project you have the following sub-commands available:</p>
+<div class="section" id="clickable">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span></code><a class="headerlink" href="#clickable" title="Permalink to this headline">¶</a></h2>
+<p>Runs the default sub-commands specified in the “default” config. A dirty build
+without cleaning the build dir can be achieved by running
+<code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">--dirty</span></code>.</p>
+</div>
+<div class="section" id="clickable-desktop">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span></code><a class="headerlink" href="#clickable-desktop" title="Permalink to this headline">¶</a></h2>
+<p>Compile and run the app on the desktop.</p>
+<p>Note: ArchLinux user might need to run <code class="docutils literal notranslate"><span class="pre">xhost</span> <span class="pre">+local:clickable</span></code> before using
+desktop mode.</p>
+<p>Run <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--verbose</span></code> to show the executed docker command.</p>
+<p>Run <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--dark-mode</span></code> to set the dark mode preference.</p>
+<p>Run <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--lang</span> <span class="pre">&lt;language</span> <span class="pre">code&gt;</span></code> to test using a different language.</p>
+</div>
+<div class="section" id="clickable-desktop-nvidia">
+<span id="nvidia"></span><h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--nvidia</span></code><a class="headerlink" href="#clickable-desktop-nvidia" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">clickable</span></code> checks automatically if nvidia-drivers are installed and turns on nvidia
+mode. If <code class="docutils literal notranslate"><span class="pre">prime-select</span></code> is installed, it is queried to check whether the nvidia-driver
+is actually in use.
+The <code class="docutils literal notranslate"><span class="pre">--nvidia</span></code> flag lets you manually enforce nvidia mode. The <code class="docutils literal notranslate"><span class="pre">--no-nvidia</span></code>
+flag in contrast lets you disable automatic detection.</p>
+<p>Depending on your docker version, the docker execution will change and
+you need to provide additional system requirements:</p>
+<p><strong>docker &lt; 19.03 system requirements</strong></p>
+<ul class="simple">
+<li>nvidia-modprobe</li>
+<li>nvidia-docker</li>
+</ul>
+<p>On Ubuntu, install these requirements using <code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">install</span> <span class="pre">nvidia-modprobe</span> <span class="pre">nvidia-docker</span></code>.</p>
+<p><strong>docker &gt;= 19.03 system requirements</strong></p>
+<ul class="simple">
+<li>nvidia-container-toolkit</li>
+</ul>
+<p>On Ubuntu, install these requirements using <code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">install</span> <span class="pre">nvidia-container-toolkit</span></code>.</p>
+<p>Run clickable with the <code class="docutils literal notranslate"><span class="pre">--verbose</span></code> flag to see the executed command for your system.</p>
+</div>
+<div class="section" id="clickable-ide-custom-command">
+<span id="commands-ide"></span><h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">ide</span> <span class="pre">&lt;custom_command&gt;</span></code><a class="headerlink" href="#clickable-ide-custom-command" title="Permalink to this headline">¶</a></h2>
+<p>The desktop mode allows to run abritary programs in the docker container, such as an IDE.
+Add the dependency to the <a class="reference internal" href="clickable-json.html#clickable-json-dependencies-host"><span class="std std-ref">clickable.json</span></a> and
+append the command, e.g. by running <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">ide</span> <span class="pre">qtcreator</span></code>.</p>
+</div>
+<div class="section" id="clickable-create">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span></code><a class="headerlink" href="#clickable-create" title="Permalink to this headline">¶</a></h2>
+<p>Generate a new app from a list of <a class="reference internal" href="app-templates.html#app-templates"><span class="std std-ref">app template options</span></a>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span> <span class="pre">&lt;app</span> <span class="pre">template</span> <span class="pre">name&gt;</span></code></p>
+<p>Generate a new app from an <a class="reference internal" href="app-templates.html#app-templates"><span class="std std-ref">app template</span></a> by name.</p>
+</div>
+<div class="section" id="clickable-shell">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">shell</span></code><a class="headerlink" href="#clickable-shell" title="Permalink to this headline">¶</a></h2>
+<p>Opens a shell on the device via ssh. This is similar to the <code class="docutils literal notranslate"><span class="pre">phablet-shell</span></code> command.</p>
+</div>
+<div class="section" id="clickable-clean-libs">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean-libs</span></code><a class="headerlink" href="#clickable-clean-libs" title="Permalink to this headline">¶</a></h2>
+<p>Cleans out all library build dirs.</p>
+</div>
+<div class="section" id="clickable-build-libs">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build-libs</span></code><a class="headerlink" href="#clickable-build-libs" title="Permalink to this headline">¶</a></h2>
+<p>Builds the dependency libraries specified in the clickable.json.</p>
+</div>
+<div class="section" id="clickable-clean">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean</span></code><a class="headerlink" href="#clickable-clean" title="Permalink to this headline">¶</a></h2>
+<p>Cleans out the build dir.</p>
+</div>
+<div class="section" id="clickable-build">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build</span></code><a class="headerlink" href="#clickable-build" title="Permalink to this headline">¶</a></h2>
+<p>Builds the project using the specified template, build dir, and build commands.
+Then it takes the built files and compiles them into a click package (you can
+find it in the build dir).</p>
+<p>Set the manifest architecture field to <code class="docutils literal notranslate"><span class="pre">&#64;CLICK_ARCH&#64;</span></code> to have Clickable replace
+with the appropriate value.</p>
+</div>
+<div class="section" id="clickable-build-output-path-to-some-diretory">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build</span> <span class="pre">--output=/path/to/some/diretory</span></code><a class="headerlink" href="#clickable-build-output-path-to-some-diretory" title="Permalink to this headline">¶</a></h2>
+<p>Takes the built files and compiles them into a click package, outputting the
+compiled click to the directory specified by <code class="docutils literal notranslate"><span class="pre">--output</span></code>.</p>
+</div>
+<div class="section" id="clickable-clean-build">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean-build</span></code><a class="headerlink" href="#clickable-clean-build" title="Permalink to this headline">¶</a></h2>
+<p>Cleans out the build dir before building the project as outlined in the
+<code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build</span></code> docs.</p>
+</div>
+<div class="section" id="clickable-review">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">review</span></code><a class="headerlink" href="#clickable-review" title="Permalink to this headline">¶</a></h2>
+<p>Takes the built click package and runs click-review against it. This allows you
+to review your click without installing click-review on your computer.</p>
+</div>
+<div class="section" id="clickable-test">
+<span id="commands-test"></span><h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">test</span></code><a class="headerlink" href="#clickable-test" title="Permalink to this headline">¶</a></h2>
+<p>Run your test suite in with a virtual screen. By default this runs qmltestrunner,
+but you can specify a custom command by setting the <a class="reference internal" href="clickable-json.html#clickable-json-test"><span class="std std-ref">test</span></a>
+property in your clickable.json.</p>
+</div>
+<div class="section" id="clickable-install">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">install</span></code><a class="headerlink" href="#clickable-install" title="Permalink to this headline">¶</a></h2>
+<p>Takes a built click package and installs it on a device.</p>
+<p><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">install</span> <span class="pre">./path/to/click/app.click</span></code></p>
+<p>Installs the specified click package on the device</p>
+</div>
+<div class="section" id="clickable-launch">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span></code><a class="headerlink" href="#clickable-launch" title="Permalink to this headline">¶</a></h2>
+<p>Launches the app on a device.</p>
+<p><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span> <span class="pre">&lt;app</span> <span class="pre">name&gt;</span></code></p>
+<p>Launches the specified app on a device.</p>
+</div>
+<div class="section" id="clickable-logs">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">logs</span></code><a class="headerlink" href="#clickable-logs" title="Permalink to this headline">¶</a></h2>
+<p>Follow the apps log file on the device.</p>
+</div>
+<div class="section" id="clickable-log">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">log</span></code><a class="headerlink" href="#clickable-log" title="Permalink to this headline">¶</a></h2>
+<p>Dumps the apps log file on the device.</p>
+</div>
+<div class="section" id="clickable-publish">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">publish</span></code><a class="headerlink" href="#clickable-publish" title="Permalink to this headline">¶</a></h2>
+<p>Publish your click app to the OpenStore. Check the
+<a class="reference internal" href="getting-started.html#getting-started"><span class="std std-ref">Getting started doc</span></a> for more info.</p>
+<p><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">publish</span> <span class="pre">&quot;changelog</span> <span class="pre">message&quot;</span></code></p>
+<p>Publish your click app to the OpenStore with a message to add to the changelog.</p>
+</div>
+<div class="section" id="clickable-run-some-command">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">run</span> <span class="pre">&quot;some</span> <span class="pre">command&quot;</span></code><a class="headerlink" href="#clickable-run-some-command" title="Permalink to this headline">¶</a></h2>
+<p>Runs an arbitrary command in the clickable container.</p>
+</div>
+<div class="section" id="clickable-update">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">update</span></code><a class="headerlink" href="#clickable-update" title="Permalink to this headline">¶</a></h2>
+<p>Update the docker container for use with clickable.</p>
+</div>
+<div class="section" id="clickable-no-lock">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">no-lock</span></code><a class="headerlink" href="#clickable-no-lock" title="Permalink to this headline">¶</a></h2>
+<p>Turns off the device’s display timeout.</p>
+</div>
+<div class="section" id="clickable-writable-image">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">writable-image</span></code><a class="headerlink" href="#clickable-writable-image" title="Permalink to this headline">¶</a></h2>
+<p>Make your Ubuntu Touch device’s rootfs writable. This replaces to old
+<code class="docutils literal notranslate"><span class="pre">phablet-config</span> <span class="pre">writable-image</span></code> command.</p>
+</div>
+<div class="section" id="clickable-devices">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">devices</span></code><a class="headerlink" href="#clickable-devices" title="Permalink to this headline">¶</a></h2>
+<p>Lists the serial numbers and model names for attached devices. Useful when
+multiple devices are attached and you need to know what to use for the <code class="docutils literal notranslate"><span class="pre">-s</span></code>
+argument.</p>
+</div>
+<div class="section" id="clickable-custom-command">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;custom</span> <span class="pre">command&gt;</span></code><a class="headerlink" href="#clickable-custom-command" title="Permalink to this headline">¶</a></h2>
+<p>Runs a custom command specified in the “scripts” config</p>
+</div>
+<div class="section" id="clickable-any-command-container-mode">
+<span id="container-mode"></span><h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--container-mode</span></code><a class="headerlink" href="#clickable-any-command-container-mode" title="Permalink to this headline">¶</a></h2>
+<p>Runs all builds commands on the current machine and not in a container. This is
+useful from running clickable from within a container.</p>
+</div>
+<div class="section" id="clickable-any-command-verbose">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--verbose</span></code><a class="headerlink" href="#clickable-any-command-verbose" title="Permalink to this headline">¶</a></h2>
+<p>Have Clickable print out debug information about whatever command(s) are being run.</p>
+</div>
+<div class="section" id="clickable-any-command-ssh-ip-address">
+<h2><code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">&lt;any</span> <span class="pre">command&gt;</span> <span class="pre">--ssh</span> <span class="pre">&lt;ip</span> <span class="pre">address&gt;</span></code><a class="headerlink" href="#clickable-any-command-ssh-ip-address" title="Permalink to this headline">¶</a></h2>
+<p>Run a command with a device over ssh rather than the default adb.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="clickable-json.html" class="btn btn-neutral float-right" title="clickable.json Format" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="debugging.html" class="btn btn-neutral" title="Debugging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Brian Douglass, Jonatan Hatakeyama Zeidler.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.12.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

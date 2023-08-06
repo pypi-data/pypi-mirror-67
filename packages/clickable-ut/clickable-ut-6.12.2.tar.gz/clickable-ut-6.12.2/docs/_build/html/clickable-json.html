@@ -1,0 +1,707 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>clickable.json Format &mdash; Clickable 6.12.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Environment Variables" href="env-vars.html" />
+    <link rel="prev" title="Commands" href="commands.html" />
+    <style>
+        .wy-side-nav-search {
+            background-color: #ed7c1b;
+        }
+
+        .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+            border-radius: 16px;
+        }
+    </style>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Clickable
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.12.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#after-install">After install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commands.html">Commands</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">clickable.json Format</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#placeholders-environment-variables">Placeholders &amp; Environment Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-minimum-required">clickable_minimum_required</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#restrict-arch">restrict_arch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arch">arch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#template">template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prebuild">prebuild</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build">build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#postmake">postmake</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#postbuild">postbuild</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#env-vars">env_vars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-args">build_args</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#make-args">make_args</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#make-jobs">make_jobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#launch">launch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-dir">build_dir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#src-dir">src_dir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-dir">install_dir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-lib">install_lib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-qml">install_qml</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-bin">install_bin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-data">install_data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kill">kill</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scripts">scripts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#default">default</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dirty">dirty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies-host">dependencies_host</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies-build">dependencies_build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies-target">dependencies_target</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies-ppa">dependencies_ppa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#image-setup">image_setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#run">run</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#docker-image">docker_image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ignore">ignore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gopath">gopath</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cargo-home">cargo_home</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#root-dir">root_dir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#test">test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#libraries">libraries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">template</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">src_dir</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">build_dir</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#removed-keywords">Removed keywords</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="env-vars.html">Environment Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-templates.html">App Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-templates.html">Build Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Clickable</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>clickable.json Format</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/clickable-json.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="clickable-json-format">
+<span id="clickable-json"></span><h1>clickable.json Format<a class="headerlink" href="#clickable-json-format" title="Permalink to this headline">¶</a></h1>
+<p>Example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;template&quot;</span><span class="o">:</span> <span class="s2">&quot;cmake&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;scripts&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;fetch&quot;</span><span class="o">:</span> <span class="s2">&quot;git submodule update --init&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;dependencies_target&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;libpoppler-qt5-dev&quot;</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="placeholders-environment-variables">
+<span id="clickable-json-placeholders"></span><h2>Placeholders &amp; Environment Variables<a class="headerlink" href="#placeholders-environment-variables" title="Permalink to this headline">¶</a></h2>
+<p>Placeholders are values provided by Clickable that can be used in some
+configuration fields as <code class="docutils literal notranslate"><span class="pre">${PLACEHOLDER}</span></code> (<code class="docutils literal notranslate"><span class="pre">$PLACEHOLDER</span></code> is deprecated syntax).
+All placeholders are provided as environment variables during build, additionally.
+For custom environment variables see <a class="reference internal" href="#clickable-json-env-vars"><span class="std std-ref">libraries</span></a>.</p>
+<p>The following table lists all available placeholders.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Placeholder</th>
+<th class="head">Output</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ARCH_TRIPLET</td>
+<td>Target architecture triplet (<code class="docutils literal notranslate"><span class="pre">arm-linux-gnueabihf</span></code>, <code class="docutils literal notranslate"><span class="pre">aarch64-linux-gnu</span></code>, <code class="docutils literal notranslate"><span class="pre">x86_64-linux-gnu</span></code> or <code class="docutils literal notranslate"><span class="pre">all</span></code>)</td>
+</tr>
+<tr class="row-odd"><td>ROOT</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">root_dir</span></code></td>
+</tr>
+<tr class="row-even"><td>BUILD_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">build_dir</span></code></td>
+</tr>
+<tr class="row-odd"><td>SRC_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">src_dir</span></code></td>
+</tr>
+<tr class="row-even"><td>INSTALL_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">install_dir</span></code></td>
+</tr>
+<tr class="row-odd"><td>CLICK_LD_LIBRARY_PATH</td>
+<td><code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}/lib/${ARCH_TRIPLET}</span></code> or <code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}/lib</span></code> for architecture independent apps (will be in <code class="docutils literal notranslate"><span class="pre">LD_LIBRARY_PATH</span></code> on runtime)</td>
+</tr>
+<tr class="row-even"><td>CLICK_QML2_IMPORT_PATH</td>
+<td><code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}/lib/${ARCH_TRIPLET}</span></code> or <code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}/qml</span></code> for architecture independent apps, which is not in <code class="docutils literal notranslate"><span class="pre">QML2_IMPORT_PATH</span></code> at runtime (otherwise will be in <code class="docutils literal notranslate"><span class="pre">QML2_IMPORT_PATH</span></code> on runtime)</td>
+</tr>
+<tr class="row-odd"><td>CLICK_PATH</td>
+<td><code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}/lib/${ARCH_TRIPLET}/bin</span></code> or <code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}</span></code> for architecture independent apps (will be in <code class="docutils literal notranslate"><span class="pre">PATH</span></code> on runtime)</td>
+</tr>
+<tr class="row-even"><td>&lt;lib&gt;_LIB_BUILD_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">build_dir</span></code> from library with name <code class="docutils literal notranslate"><span class="pre">&lt;lib&gt;</span></code> (see <a class="reference internal" href="#clickable-json-libraries"><span class="std std-ref">libraries</span></a>), where the library name consists solely of capital letters (e.g. from lib name <code class="docutils literal notranslate"><span class="pre">my-libC++</span></code> this env var would be <code class="docutils literal notranslate"><span class="pre">MY_LIBC___LIB_BUILD_DIR</span></code>)</td>
+</tr>
+<tr class="row-odd"><td>&lt;lib&gt;_LIB_INSTALL_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">install_dir</span></code> from library with name <code class="docutils literal notranslate"><span class="pre">&lt;lib&gt;</span></code> (e.g. <code class="docutils literal notranslate"><span class="pre">OPENCV_LIB_INSTALL_DIR</span></code>)</td>
+</tr>
+<tr class="row-even"><td>&lt;lib&gt;_LIB_SRC_DIR</td>
+<td>Value of <code class="docutils literal notranslate"><span class="pre">src_dir</span></code> from library with name <code class="docutils literal notranslate"><span class="pre">&lt;lib&gt;</span></code> (e.g. <code class="docutils literal notranslate"><span class="pre">OPENCV_LIB_SRC_DIR</span></code>)</td>
+</tr>
+</tbody>
+</table>
+<p>Parameters accepting placeholders:
+<code class="docutils literal notranslate"><span class="pre">root_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">build_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">src_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">install_dir</span></code>,
+<code class="docutils literal notranslate"><span class="pre">app_lib_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">app_bin_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">app_qml_dir</span></code>,
+<code class="docutils literal notranslate"><span class="pre">gopath</span></code>, <code class="docutils literal notranslate"><span class="pre">cargo_home</span></code>, <code class="docutils literal notranslate"><span class="pre">scripts</span></code>, <code class="docutils literal notranslate"><span class="pre">build</span></code>,
+<code class="docutils literal notranslate"><span class="pre">build_args</span></code>, <code class="docutils literal notranslate"><span class="pre">make_args</span></code>, <code class="docutils literal notranslate"><span class="pre">postmake</span></code>, <code class="docutils literal notranslate"><span class="pre">postbuild</span></code>,
+<code class="docutils literal notranslate"><span class="pre">prebuild</span></code>,
+<code class="docutils literal notranslate"><span class="pre">install_lib</span></code>, <code class="docutils literal notranslate"><span class="pre">install_qml</span></code>, <code class="docutils literal notranslate"><span class="pre">install_bin</span></code>,
+<code class="docutils literal notranslate"><span class="pre">install_data</span></code> and <code class="docutils literal notranslate"><span class="pre">env_vars</span></code>.</p>
+<p>This is an ordered list. Parameters that are used as placeholders themselves accept only predecessors.
+Ex: <code class="docutils literal notranslate"><span class="pre">${ROOT}</span></code> can be used in <code class="docutils literal notranslate"><span class="pre">src_dir</span></code>, but not vice-versa.</p>
+<p>Example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;template&quot;</span><span class="o">:</span> <span class="s2">&quot;cmake&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;build_dir&quot;</span><span class="o">:</span> <span class="s2">&quot;${ROOT}/build/${ARCH_TRIPLET}/myApp&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="clickable-minimum-required">
+<h2>clickable_minimum_required<a class="headerlink" href="#clickable-minimum-required" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a minimum Clickable version number required to build the project.
+Ex: <code class="docutils literal notranslate"><span class="pre">&quot;6&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;5.4.0&quot;</span></code></p>
+</div>
+<div class="section" id="restrict-arch">
+<span id="clickable-json-restrict-arch"></span><h2>restrict_arch<a class="headerlink" href="#restrict-arch" title="Permalink to this headline">¶</a></h2>
+<p>Optional, specifies an exclusive architecture that this configuration is compatible with.
+This prevents the app from being build for other architectures and may also prevent the desktop mode.</p>
+<p>To specify the architecture for building use the cli argument instead (ex: <code class="docutils literal notranslate"><span class="pre">--arch</span> <span class="pre">arm64</span></code>).</p>
+</div>
+<div class="section" id="arch">
+<h2>arch<a class="headerlink" href="#arch" title="Permalink to this headline">¶</a></h2>
+<p>Deprecated, use <code class="docutils literal notranslate"><span class="pre">restricted_arch</span></code> instead.</p>
+</div>
+<div class="section" id="template">
+<span id="clickable-json-template"></span><h2>template<a class="headerlink" href="#template" title="Permalink to this headline">¶</a></h2>
+<p>Optional, see <a class="reference internal" href="build-templates.html#build-templates"><span class="std std-ref">build template</span></a> for the full list of options.
+If left blank the template will be auto detected.</p>
+</div>
+<div class="section" id="prebuild">
+<h2>prebuild<a class="headerlink" href="#prebuild" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom command to run from the root dir, before a build.</p>
+</div>
+<div class="section" id="build">
+<h2>build<a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom command to run from the build dir. This only takes effect if using
+the <code class="docutils literal notranslate"><span class="pre">custom</span></code> template. It’s even required in that case.</p>
+</div>
+<div class="section" id="postmake">
+<h2>postmake<a class="headerlink" href="#postmake" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom command to execute from the build directory, after make (during build).</p>
+</div>
+<div class="section" id="postbuild">
+<h2>postbuild<a class="headerlink" href="#postbuild" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom command to execute from the build dir, after build and before click packaging.</p>
+</div>
+<div class="section" id="env-vars">
+<span id="clickable-json-env-vars"></span><h2>env_vars<a class="headerlink" href="#env-vars" title="Permalink to this headline">¶</a></h2>
+<p>Optional, environment variables to be set in the build container. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;env_vars&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;TARGET_SYSTEM&quot;</span><span class="o">:</span> <span class="s2">&quot;UbuntuTouch&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>When passing <code class="docutils literal notranslate"><span class="pre">--debug</span></code> to Clickable, <code class="docutils literal notranslate"><span class="pre">DEBUG_BUILD=1</span></code> is set as an environment variable, additionally.</p>
+</div>
+<div class="section" id="build-args">
+<h2>build_args<a class="headerlink" href="#build-args" title="Permalink to this headline">¶</a></h2>
+<p>Optional, arguments to pass to qmake or cmake. When using <code class="docutils literal notranslate"><span class="pre">--debug</span></code>,
+<code class="docutils literal notranslate"><span class="pre">CONFIG+=debug</span></code> is additionally appended for qmake and
+<code class="docutils literal notranslate"><span class="pre">-DCMAKE_BUILD_TYPE=Debug</span></code> for cmake and cordova builds. Ex: <code class="docutils literal notranslate"><span class="pre">CONFIG+=ubuntu</span></code></p>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="make-args">
+<span id="clickable-json-make-args"></span><h2>make_args<a class="headerlink" href="#make-args" title="Permalink to this headline">¶</a></h2>
+<p>Optional, arguments to pass to make, e.g. a target name. To avoid configuration
+conflicts, the number of make jobs should not be specified here, but using
+<code class="docutils literal notranslate"><span class="pre">make_jobs</span></code> instead, so it can be overriden by the according environment variable.</p>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="make-jobs">
+<span id="clickable-json-make-jobs"></span><h2>make_jobs<a class="headerlink" href="#make-jobs" title="Permalink to this headline">¶</a></h2>
+<p>Optional, the number of jobs to use when running make, equivalent to make’s <code class="docutils literal notranslate"><span class="pre">-j</span></code>
+option. If left blank this defaults to the number of CPU cores.</p>
+</div>
+<div class="section" id="launch">
+<h2>launch<a class="headerlink" href="#launch" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom command to launch the app, used by <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span></code>.</p>
+</div>
+<div class="section" id="build-dir">
+<span id="clickable-json-build-dir"></span><h2>build_dir<a class="headerlink" href="#build-dir" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom build directory. Defaults to <code class="docutils literal notranslate"><span class="pre">${ROOT}/build/${ARCH_TRIPLET}/app</span></code>.
+Thanks to the architecture triplet, builds for different architectures can
+exist in parallel.</p>
+</div>
+<div class="section" id="src-dir">
+<h2>src_dir<a class="headerlink" href="#src-dir" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom source directory. Defaults to <code class="docutils literal notranslate"><span class="pre">${ROOT}</span></code></p>
+</div>
+<div class="section" id="install-dir">
+<h2>install_dir<a class="headerlink" href="#install-dir" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom install directory (used to gather data that goes into the click package).
+Defaults to <code class="docutils literal notranslate"><span class="pre">${BUILD_DIR}/install</span></code></p>
+</div>
+<div class="section" id="install-lib">
+<span id="clickable-json-install-lib"></span><h2>install_lib<a class="headerlink" href="#install-lib" title="Permalink to this headline">¶</a></h2>
+<p>Optional, additional libraries that should be installed with the app and be in <code class="docutils literal notranslate"><span class="pre">LD_LIBRARY_PATH</span></code> at runtime.
+The destination directory is <code class="docutils literal notranslate"><span class="pre">${CLICK_LD_LIBRARY_PATH}</span></code>. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;install_lib&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;/usr/lib/${ARCH_TRIPLET}/libasound.so*&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Can be specified as a string or a list of strings. Paths must not contain <code class="docutils literal notranslate"><span class="pre">&quot;</span></code> characters.
+Supports wildcards as this actually calls <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">&quot;&lt;path&gt;&quot;</span></code> in a bash.</p>
+</div>
+<div class="section" id="install-qml">
+<h2>install_qml<a class="headerlink" href="#install-qml" title="Permalink to this headline">¶</a></h2>
+<p>Optional, additional QML files or directories that should be installed with the app and be in
+<code class="docutils literal notranslate"><span class="pre">QML2_IMPORT_PATH</span></code> at runtime. The destination directory is <code class="docutils literal notranslate"><span class="pre">${CLICK_QML2_IMPORT_PATH}</span></code>. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;install_qml&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;/usr/lib/${ARCH_TRIPLET}/qt5/qml/Qt/labs/calendar&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>QML modules will be installed to the correct directory based on the name of the module.
+In the above example it will be installed to <code class="docutils literal notranslate"><span class="pre">lib/${ARCH_TRIPLET}/Qt/labs/calendar</span></code>
+because the module specified in the qmldir file is <code class="docutils literal notranslate"><span class="pre">Qt.labs.calendar</span></code>.
+Can be specified as a string or a list of strings. Paths must not contain <code class="docutils literal notranslate"><span class="pre">&quot;</span></code> characters.
+Supports wildcards as this actually calls <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">&quot;&lt;path&gt;&quot;</span></code> in a bash.</p>
+</div>
+<div class="section" id="install-bin">
+<h2>install_bin<a class="headerlink" href="#install-bin" title="Permalink to this headline">¶</a></h2>
+<p>Optional, additional executables that should be installed with the app and be in <code class="docutils literal notranslate"><span class="pre">PATH</span></code> at runtime.
+The destination directory is <code class="docutils literal notranslate"><span class="pre">${CLICK_PATH}</span></code>. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;install_bin&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;/usr/bin/htop&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Can be specified as a string or a list of strings. Paths must not contain <code class="docutils literal notranslate"><span class="pre">&quot;</span></code> characters.
+Supports wildcards as this actually calls <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">&quot;&lt;path&gt;&quot;</span></code> in a bash.</p>
+</div>
+<div class="section" id="install-data">
+<h2>install_data<a class="headerlink" href="#install-data" title="Permalink to this headline">¶</a></h2>
+<p>Optional, additional files or directories that should be installed with the app.
+Needs to be specified as a dictionary with absolute source paths as keys and destinations as value. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;install_data&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;${ROOT}/packaging/manifest.json&quot;</span><span class="o">:</span> <span class="s2">&quot;${INSTALL_DIR}&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;${ROOT}/packaging/myapp.desktop&quot;</span><span class="o">:</span> <span class="s2">&quot;${INSTALL_DIR}&quot;</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+<p>Can be specified as a string or a list of strings. Paths must not contain <code class="docutils literal notranslate"><span class="pre">&quot;</span></code> characters.
+Supports wildcards as this actually calls <code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">&quot;&lt;src&gt;&quot;</span></code> in a bash. <code class="docutils literal notranslate"><span class="pre">${INSTALL_DIR}</span></code> is
+added as prefix if path is not relative to the install dir.</p>
+</div>
+<div class="section" id="kill">
+<h2>kill<a class="headerlink" href="#kill" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a custom process name to kill (used by <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span></code> to kill the app before
+relaunching it). If left blank the process name will be assumed.</p>
+</div>
+<div class="section" id="scripts">
+<h2>scripts<a class="headerlink" href="#scripts" title="Permalink to this headline">¶</a></h2>
+<p>Optional, an object detailing custom commands to run. For example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;scripts&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;fetch&quot;</span><span class="o">:</span> <span class="s2">&quot;git submodule update --init&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;echo&quot;</span><span class="o">:</span> <span class="s2">&quot;echo ${ARCH_TRIPLET}&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>That enables the use of <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">fetch</span></code> and <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">echo</span></code>.</p>
+</div>
+<div class="section" id="default">
+<span id="clickable-json-default"></span><h2>default<a class="headerlink" href="#default" title="Permalink to this headline">¶</a></h2>
+<p>Optional, sub-commands to run when no sub-commands are
+specified (running simply <code class="docutils literal notranslate"><span class="pre">clickable</span></code>). Defaults to <code class="docutils literal notranslate"><span class="pre">clean</span> <span class="pre">build</span> <span class="pre">install</span> <span class="pre">launch</span></code>.
+The <code class="docutils literal notranslate"><span class="pre">--dirty</span></code> cli argument removes <code class="docutils literal notranslate"><span class="pre">clean</span></code> from that list.</p>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="dirty">
+<span id="clickable-json-dirty"></span><h2>dirty<a class="headerlink" href="#dirty" title="Permalink to this headline">¶</a></h2>
+<p>Optional, whether or not do a dirty build, avoiding to clean the build directory
+before building. You may also specify this as a cli arg (<code class="docutils literal notranslate"><span class="pre">--dirty</span></code>).
+The default is <code class="docutils literal notranslate"><span class="pre">false</span></code>.</p>
+</div>
+<div class="section" id="dependencies-host">
+<span id="clickable-json-dependencies-host"></span><h2>dependencies_host<a class="headerlink" href="#dependencies-host" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a list of dependencies that will be installed in the build container.</p>
+<p>Add tools here that are part of your build tool chain.</p>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="dependencies-build">
+<h2>dependencies_build<a class="headerlink" href="#dependencies-build" title="Permalink to this headline">¶</a></h2>
+<p>Deprecated, use <a class="reference internal" href="#clickable-json-dependencies-host"><span class="std std-ref">dependencies_host</span></a> instead.</p>
+</div>
+<div class="section" id="dependencies-target">
+<span id="clickable-json-dependencies-target"></span><h2>dependencies_target<a class="headerlink" href="#dependencies-target" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a list of dependencies that will be installed in the build container.
+These will be assumed to be <code class="docutils literal notranslate"><span class="pre">dependency:arch</span></code> (where <code class="docutils literal notranslate"><span class="pre">arch</span></code> is the target
+architecture), unless an architecture specifier
+is already appended.</p>
+<p>Add dependencies here that your app depends on.</p>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="dependencies-ppa">
+<span id="clickable-json-dependencies-ppa"></span><h2>dependencies_ppa<a class="headerlink" href="#dependencies-ppa" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a list of PPAs, that will be enabled in the build container. Ex:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;dependencies_ppa&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;ppa:bhdouglass/clickable&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="image-setup">
+<span id="clickable-json-docker-image"></span><h2>image_setup<a class="headerlink" href="#image-setup" title="Permalink to this headline">¶</a></h2>
+<p>Optional, dictionary containing setup configuration for the docker image used.
+The image is based on the default image provided by Clickable.</p>
+<div class="section" id="run">
+<h3>run<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h3>
+<p>Optional, a list of commands to run on image setup (each added as <cite>RUN &lt;cmd&gt;</cite> to
+the corresponding Dockerfile). Example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;image_setup&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;run&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;rustup default nightly&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;rustup install 1.39.0&quot;</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="docker-image">
+<h2>docker_image<a class="headerlink" href="#docker-image" title="Permalink to this headline">¶</a></h2>
+<p>Optional, the name of a docker image to use. When building a custom docker image
+it’s recommended to use one of the Clickable images as a base. You can find them
+on <a class="reference external" href="https://hub.docker.com/r/clickable/ubuntu-sdk/tags/">Docker Hub</a>.</p>
+</div>
+<div class="section" id="ignore">
+<h2>ignore<a class="headerlink" href="#ignore" title="Permalink to this headline">¶</a></h2>
+<p>Optional, a list of files to ignore when building a <code class="docutils literal notranslate"><span class="pre">pure</span></code> template
+Example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;ignore&quot;</span><span class="o">:</span> <span class="p">[</span>
+    <span class="s2">&quot;.clickable&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;.git&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;.gitignore&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;.gitmodules&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Can be specified as a string or a list of strings.</p>
+</div>
+<div class="section" id="gopath">
+<span id="clickable-json-gopath"></span><h2>gopath<a class="headerlink" href="#gopath" title="Permalink to this headline">¶</a></h2>
+<p>Optional, the gopath on the host machine. If left blank, the <code class="docutils literal notranslate"><span class="pre">GOPATH</span></code> env var will be used.</p>
+</div>
+<div class="section" id="cargo-home">
+<span id="clickable-json-cargo-home"></span><h2>cargo_home<a class="headerlink" href="#cargo-home" title="Permalink to this headline">¶</a></h2>
+<p>Optional, the Cargo home path on the host machine that is used for caching
+(namely its subdirs <code class="docutils literal notranslate"><span class="pre">registry</span></code>, <code class="docutils literal notranslate"><span class="pre">git</span></code> and <code class="docutils literal notranslate"><span class="pre">.package-cache</span></code>).
+Defaults to <code class="docutils literal notranslate"><span class="pre">~/.clickable/cargo</span></code>.</p>
+</div>
+<div class="section" id="root-dir">
+<span id="clickable-json-build-args"></span><h2>root_dir<a class="headerlink" href="#root-dir" title="Permalink to this headline">¶</a></h2>
+<p>Optional, specify a different root directory for the project. For example,
+if you clickable.json file is in <code class="docutils literal notranslate"><span class="pre">platforms/ubuntu_touch</span></code> and you want to include
+code from root of your project you can set <code class="docutils literal notranslate"><span class="pre">root_dir:</span> <span class="pre">&quot;../..&quot;</span></code>. Alternatively you can run
+clickable from the project root in that case via
+<code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">-c</span> <span class="pre">platforms/ubuntu_touch/clickable.json</span></code>.</p>
+</div>
+<div class="section" id="test">
+<span id="clickable-json-test"></span><h2>test<a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h2>
+<p>Optional, specify a test command to be executed when running <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">test</span></code>.
+The default is <code class="docutils literal notranslate"><span class="pre">qmltestrunner</span></code>.</p>
+</div>
+<div class="section" id="libraries">
+<span id="clickable-json-libraries"></span><h2>libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h2>
+<p>Optional, dependencies to be build by running <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build-libs</span></code>.
+It’s a dictionary of dictionaries similar to the clickable.json itself. Example:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;libraries&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;opencv&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;template&quot;</span><span class="o">:</span> <span class="s2">&quot;cmake&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;make_jobs&quot;</span><span class="o">:</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;build_args&quot;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s2">&quot;-DCMAKE_BUILD_TYPE=Release&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-DBUILD_LIST=core,imgproc,highgui,imgcodecs&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-DBUILD_SHARED_LIBS=OFF&quot;</span>
+        <span class="p">]</span>
+        <span class="s2">&quot;prebuild&quot;</span><span class="o">:</span> <span class="s2">&quot;git submodule update --init --recursive&quot;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The keywords <code class="docutils literal notranslate"><span class="pre">install_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">prebuild</span></code>, <code class="docutils literal notranslate"><span class="pre">build</span></code>, <code class="docutils literal notranslate"><span class="pre">postbuild</span></code>,
+<code class="docutils literal notranslate"><span class="pre">postmake</span></code>, <code class="docutils literal notranslate"><span class="pre">make_jobs</span></code>, <code class="docutils literal notranslate"><span class="pre">make_args</span></code>, <code class="docutils literal notranslate"><span class="pre">env_vars</span></code>, <code class="docutils literal notranslate"><span class="pre">build_args</span></code>, <code class="docutils literal notranslate"><span class="pre">docker_image</span></code>,
+<code class="docutils literal notranslate"><span class="pre">dependencies_host</span></code>, <code class="docutils literal notranslate"><span class="pre">dependencies_target</span></code> and <code class="docutils literal notranslate"><span class="pre">dependencies_ppa</span></code>,
+can be used for a library the same way as described above for the app.</p>
+<p>In addition to the <a class="reference internal" href="#clickable-json-placeholders"><span class="std std-ref">placeholders</span></a> described above,
+the following placeholders are available:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Placeholder</th>
+<th class="head">Output</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>NAME</td>
+<td>The library name (key name in the <code class="docutils literal notranslate"><span class="pre">libraries</span></code> dictionary)</td>
+</tr>
+</tbody>
+</table>
+<p>A single library can be build by specifying its name as <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">build-libs</span> <span class="pre">lib1</span> <span class="pre">--arch</span> <span class="pre">arm64</span></code>
+to build the library with name <code class="docutils literal notranslate"><span class="pre">lib1</span></code> for the architecture <code class="docutils literal notranslate"><span class="pre">arm64</span></code>.
+<code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">clean-libs</span> <span class="pre">lib1</span> <span class="pre">--arch</span> <span class="pre">arm64</span></code> cleans the libraries build dir.</p>
+<div class="section" id="id1">
+<h3>template<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Required, but only <code class="docutils literal notranslate"><span class="pre">cmake</span></code>, <code class="docutils literal notranslate"><span class="pre">qmake</span></code> and <code class="docutils literal notranslate"><span class="pre">custom</span></code> are allowed.</p>
+</div>
+<div class="section" id="id2">
+<h3>src_dir<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Optional, library source directory. Must be relative to the project root. Defaults to <code class="docutils literal notranslate"><span class="pre">${ROOT}/libs/${NAME}</span></code></p>
+</div>
+<div class="section" id="id3">
+<h3>build_dir<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Optional, library build directory. Must be relative to the project root. Defaults to <code class="docutils literal notranslate"><span class="pre">${ROOT}/build/${ARCH_TRIPLET}/${NAME}</span></code>.
+Thanks to the architecture triplet, builds for different architectures can
+exist in parallel.</p>
+</div>
+</div>
+<div class="section" id="removed-keywords">
+<h2>Removed keywords<a class="headerlink" href="#removed-keywords" title="Permalink to this headline">¶</a></h2>
+<p>The following keywords are no longer supported:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">dependencies</span></code> (use <code class="docutils literal notranslate"><span class="pre">dependencies_target</span></code> and <code class="docutils literal notranslate"><span class="pre">dependencies_host</span></code> instead)</li>
+<li><code class="docutils literal notranslate"><span class="pre">specificDependencies</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">dir</span></code> (use <code class="docutils literal notranslate"><span class="pre">build_dir</span></code> instead)</li>
+<li><code class="docutils literal notranslate"><span class="pre">lxd</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">premake</span></code> (use <code class="docutils literal notranslate"><span class="pre">prebuild</span></code>, <code class="docutils literal notranslate"><span class="pre">postmake</span></code> or <code class="docutils literal notranslate"><span class="pre">postbuild</span></code> instead)</li>
+<li><code class="docutils literal notranslate"><span class="pre">ssh</span></code> (use program option <code class="docutils literal notranslate"><span class="pre">--ssh</span></code> or environment variable <code class="docutils literal notranslate"><span class="pre">CLICKABLE_SSH</span></code> instead)</li>
+<li><code class="docutils literal notranslate"><span class="pre">chroot</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">sdk</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">package</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">app</span></code></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="env-vars.html" class="btn btn-neutral float-right" title="Environment Variables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="commands.html" class="btn btn-neutral" title="Commands" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Brian Douglass, Jonatan Hatakeyama Zeidler.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.12.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

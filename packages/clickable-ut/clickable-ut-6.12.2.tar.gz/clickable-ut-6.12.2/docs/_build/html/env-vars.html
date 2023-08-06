@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Environment Variables &mdash; Clickable 6.12.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="App Templates" href="app-templates.html" />
+    <link rel="prev" title="clickable.json Format" href="clickable-json.html" />
+    <style>
+        .wy-side-nav-search {
+            background-color: #ed7c1b;
+        }
+
+        .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+            border-radius: 16px;
+        }
+    </style>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Clickable
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.12.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#after-install">After install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commands.html">Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clickable-json.html">clickable.json Format</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Environment Variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-arch"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_ARCH</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-template"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEMPLATE</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-build-dir"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_BUILD_DIR</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-default"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DEFAULT</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-make-jobs"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_MAKE_JOBS</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gopath"><code class="docutils literal notranslate"><span class="pre">GOPATH</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cargo-home"><code class="docutils literal notranslate"><span class="pre">CARGO_HOME</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-docker-image"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DOCKER_IMAGE</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-build-args"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_BUILD_ARGS</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-make-args"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_MAKE_ARGS</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#openstore-api-key"><code class="docutils literal notranslate"><span class="pre">OPENSTORE_API_KEY</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-container-mode"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_CONTAINER_MODE</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-serial-number"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SERIAL_NUMBER</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-ssh"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SSH</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-output"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_OUTPUT</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-nvidia"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_NVIDIA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-no-nvidia"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_NO_NVIDIA</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-dirty"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DIRTY</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-debug-build"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DEBUG_BUILD</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-test"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEST</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clickable-dark-mode"><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DARK_MODE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="app-templates.html">App Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-templates.html">Build Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Clickable</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Environment Variables</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/env-vars.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="environment-variables">
+<span id="env-vars"></span><h1>Environment Variables<a class="headerlink" href="#environment-variables" title="Permalink to this headline">¶</a></h1>
+<p>Environment variables will override values in the clickable.json and can be
+overridden by command line arguments.</p>
+<p>In contrast to the environment variables described here that configure
+Clickable, there are <a class="reference internal" href="clickable-json.html#clickable-json-placeholders"><span class="std std-ref">environment variables</span></a> set by
+Clickable to be used during build.</p>
+<div class="section" id="clickable-arch">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_ARCH</span></code><a class="headerlink" href="#clickable-arch" title="Permalink to this headline">¶</a></h2>
+<p>Restricts build commands (<code class="docutils literal notranslate"><span class="pre">build</span></code>, <code class="docutils literal notranslate"><span class="pre">build-libs</span></code>, <code class="docutils literal notranslate"><span class="pre">desktop</span></code>) to the specified architecture. Architecture agnostic builds (<code class="docutils literal notranslate"><span class="pre">all</span></code>) are not affected. Useful in container mode.</p>
+</div>
+<div class="section" id="clickable-template">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEMPLATE</span></code><a class="headerlink" href="#clickable-template" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-template"><span class="std std-ref">template</span></a>.</p>
+</div>
+<div class="section" id="clickable-build-dir">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_BUILD_DIR</span></code><a class="headerlink" href="#clickable-build-dir" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-build-dir"><span class="std std-ref">dir</span></a>.</p>
+</div>
+<div class="section" id="clickable-default">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DEFAULT</span></code><a class="headerlink" href="#clickable-default" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-default"><span class="std std-ref">default</span></a>.</p>
+</div>
+<div class="section" id="clickable-make-jobs">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_MAKE_JOBS</span></code><a class="headerlink" href="#clickable-make-jobs" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-make-jobs"><span class="std std-ref">make_jobs</span></a>.</p>
+</div>
+<div class="section" id="gopath">
+<h2><code class="docutils literal notranslate"><span class="pre">GOPATH</span></code><a class="headerlink" href="#gopath" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-gopath"><span class="std std-ref">gopath</span></a>.</p>
+</div>
+<div class="section" id="cargo-home">
+<h2><code class="docutils literal notranslate"><span class="pre">CARGO_HOME</span></code><a class="headerlink" href="#cargo-home" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-cargo-home"><span class="std std-ref">cargo_home</span></a>.</p>
+</div>
+<div class="section" id="clickable-docker-image">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DOCKER_IMAGE</span></code><a class="headerlink" href="#clickable-docker-image" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-docker-image"><span class="std std-ref">docker_image</span></a>.</p>
+</div>
+<div class="section" id="clickable-build-args">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_BUILD_ARGS</span></code><a class="headerlink" href="#clickable-build-args" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-build-args"><span class="std std-ref">build_args</span></a>.</p>
+</div>
+<div class="section" id="clickable-make-args">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_MAKE_ARGS</span></code><a class="headerlink" href="#clickable-make-args" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-make-args"><span class="std std-ref">make_args</span></a>.</p>
+</div>
+<div class="section" id="openstore-api-key">
+<h2><code class="docutils literal notranslate"><span class="pre">OPENSTORE_API_KEY</span></code><a class="headerlink" href="#openstore-api-key" title="Permalink to this headline">¶</a></h2>
+<p>Your api key for <a class="reference internal" href="getting-started.html#publishing"><span class="std std-ref">publishing to the OpenStore</span></a>.</p>
+</div>
+<div class="section" id="clickable-container-mode">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_CONTAINER_MODE</span></code><a class="headerlink" href="#clickable-container-mode" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="commands.html#container-mode"><span class="std std-ref">–container-mode</span></a>.</p>
+</div>
+<div class="section" id="clickable-serial-number">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SERIAL_NUMBER</span></code><a class="headerlink" href="#clickable-serial-number" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="usage.html#multiple-devices"><span class="std std-ref">–serial-number</span></a>.</p>
+</div>
+<div class="section" id="clickable-ssh">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SSH</span></code><a class="headerlink" href="#clickable-ssh" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="usage.html#ssh"><span class="std std-ref">–ssh</span></a>.</p>
+</div>
+<div class="section" id="clickable-output">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_OUTPUT</span></code><a class="headerlink" href="#clickable-output" title="Permalink to this headline">¶</a></h2>
+<p>Override the output directory for the resulting click file</p>
+</div>
+<div class="section" id="clickable-nvidia">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_NVIDIA</span></code><a class="headerlink" href="#clickable-nvidia" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="commands.html#nvidia"><span class="std std-ref">–nvidia</span></a>.</p>
+</div>
+<div class="section" id="clickable-no-nvidia">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_NO_NVIDIA</span></code><a class="headerlink" href="#clickable-no-nvidia" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="commands.html#nvidia"><span class="std std-ref">–no-nvidia</span></a>.</p>
+</div>
+<div class="section" id="clickable-dirty">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DIRTY</span></code><a class="headerlink" href="#clickable-dirty" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-dirty"><span class="std std-ref">dirty</span></a>.</p>
+</div>
+<div class="section" id="clickable-debug-build">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DEBUG_BUILD</span></code><a class="headerlink" href="#clickable-debug-build" title="Permalink to this headline">¶</a></h2>
+<p>Same as <code class="docutils literal notranslate"><span class="pre">--debug</span></code></p>
+</div>
+<div class="section" id="clickable-test">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEST</span></code><a class="headerlink" href="#clickable-test" title="Permalink to this headline">¶</a></h2>
+<p>Overrides the clickable.json’s <a class="reference internal" href="clickable-json.html#clickable-json-test"><span class="std std-ref">test</span></a>.</p>
+</div>
+<div class="section" id="clickable-dark-mode">
+<h2><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DARK_MODE</span></code><a class="headerlink" href="#clickable-dark-mode" title="Permalink to this headline">¶</a></h2>
+<p>Same as <code class="docutils literal notranslate"><span class="pre">--dark-mode</span></code></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="app-templates.html" class="btn btn-neutral float-right" title="App Templates" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="clickable-json.html" class="btn btn-neutral" title="clickable.json Format" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Brian Douglass, Jonatan Hatakeyama Zeidler.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.12.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

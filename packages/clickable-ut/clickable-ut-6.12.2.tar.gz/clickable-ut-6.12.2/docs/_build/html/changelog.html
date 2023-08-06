@@ -1,0 +1,893 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Changelog &mdash; Clickable 6.12.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Continuous Integration" href="continuous-integration.html" />
+    <style>
+        .wy-side-nav-search {
+            background-color: #ed7c1b;
+        }
+
+        .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+            border-radius: 16px;
+        }
+    </style>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Clickable
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.12.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#after-install">After install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commands.html">Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clickable-json.html">clickable.json Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="env-vars.html">Environment Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-templates.html">App Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-templates.html">Build Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-12-0">Changes in v6.12.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-11-2">Changes in v6.11.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-11-1">Changes in v6.11.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-11-0">Changes in v6.11.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-10-1">Changes in v6.10.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-10-0">Changes in v6.10.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-9-1">Changes in v6.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-9-0">Changes in v6.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-8-2">Changes in v6.8.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-8-1">Changes in v6.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-8-0">Changes in v6.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-7-2">Changes in v6.7.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-7-0">Changes in v6.7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-6-0">Changes in v6.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-5-0">Changes in v6.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-4-0">Changes in v6.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-3-2">Changes in v6.3.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-3-1">Changes in v6.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-2-1">Changes in v6.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-2-0">Changes in v6.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-1-0">Changes in v6.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-0-3">Changes in v6.0.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-0-2">Changes in v6.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-0-1">Changes in v6.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v6-0-0">Changes in v6.0.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#new-features">New features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#breaking-changes">Breaking Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bug-fixes">Bug Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-14-1">Changes in v5.14.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-14-0">Changes in v5.14.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-13-3">Changes in v5.13.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-13-2">Changes in v5.13.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-13-1">Changes in v5.13.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-13-0">Changes in v5.13.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-12-3">Changes in v5.12.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-12-2">Changes in v5.12.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-12-1">Changes in v5.12.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-12-0">Changes in v5.12.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-11-0">Changes in v5.11.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-10-0">Changes in v5.10.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-9-1">Changes in v5.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-9-0">Changes in v5.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-8-1">Changes in v5.8.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-8-0">Changes in v5.8.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-7-0">Changes in v5.7.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-6-1">Changes in v5.6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-6-0">Changes in v5.6.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-5-1">Changes in v5.5.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-5-0">Changes in v5.5.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-4-0">Changes in v5.4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-3-3">Changes in v5.3.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-3-2">Changes in v5.3.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-3-1">Changes in v5.3.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-3-0">Changes in v5.3.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-2-0">Changes in v5.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-1-1">Changes in v5.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-1-0">Changes in v5.1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-0-2">Changes in v5.0.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-0-1">Changes in v5.0.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changes-in-v5-0-0">Changes in v5.0.0</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Clickable</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Changelog</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/changelog.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="changelog">
+<span id="id1"></span><h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="changes-in-v6-12-0">
+<h2>Changes in v6.12.0<a class="headerlink" href="#changes-in-v6-12-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added new feature for debugging via <a class="reference internal" href="debugging.html#debugging-with-gdb"><span class="std std-ref">valgrind</span></a></li>
+<li>Added new <a class="reference internal" href="commands.html#commands-ide"><span class="std std-ref">ide</span></a> command to allow runing arbitrary graphical apps like qtcreator</li>
+<li>Code improvements</li>
+<li>Added versioning to the docker images to allow Clickable to depend on certain features in the image</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-11-2">
+<h2>Changes in v6.11.2<a class="headerlink" href="#changes-in-v6-11-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed the <code class="docutils literal notranslate"><span class="pre">review</span></code> and <code class="docutils literal notranslate"><span class="pre">clean-build</span></code> commands not working</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-11-1">
+<h2>Changes in v6.11.1<a class="headerlink" href="#changes-in-v6-11-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed the <code class="docutils literal notranslate"><span class="pre">run</span></code> command not working</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-11-0">
+<h2>Changes in v6.11.0<a class="headerlink" href="#changes-in-v6-11-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added <a class="reference internal" href="debugging.html#on-device-debugging"><span class="std std-ref">on device debugging with gdb</span></a>.</li>
+<li>Deprecated chaining commands (this will be removed in the next major release)</li>
+<li>Fixed the build home directory for libraries</li>
+<li>Added error when trying to use docker images on unsupported host architectures</li>
+<li>Use the host architecture as the default when building in container mode</li>
+<li>Enable localhost access and pseudo-tty in run command</li>
+<li>When using CMake a Release build will be created unless <code class="docutils literal notranslate"><span class="pre">--debug</span></code> is specified</li>
+<li>Added new library placeholders</li>
+<li>Added new <code class="docutils literal notranslate"><span class="pre">clean-build</span></code> command</li>
+<li>Fixed issues with <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span></code> on older versions of Ubuntu</li>
+<li>Various minor bug fixes and code improvements</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-10-1">
+<h2>Changes in v6.10.1<a class="headerlink" href="#changes-in-v6-10-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed issues installing dependencies when in container mode</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-10-0">
+<h2>Changes in v6.10.0<a class="headerlink" href="#changes-in-v6-10-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fix containers being rebuilt when switching between desktop mode and building for amd64</li>
+<li>Enabled compiling rust apps into arm64</li>
+<li>Make <code class="docutils literal notranslate"><span class="pre">install_data</span></code> paths relative to the install dir</li>
+<li>Fixed the <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span></code> command when using an older version of git</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-9-1">
+<h2>Changes in v6.9.1<a class="headerlink" href="#changes-in-v6-9-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed broken lib builds</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-9-0">
+<h2>Changes in v6.9.0<a class="headerlink" href="#changes-in-v6-9-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Placeholders are now allowed in env vars</li>
+<li>Changed placeholder syntax to <code class="docutils literal notranslate"><span class="pre">${PLACEHOLDER}</span></code>, the old syntax is now deprecated</li>
+<li>Replaced <code class="docutils literal notranslate"><span class="pre">dependencies_host</span></code> with <code class="docutils literal notranslate"><span class="pre">dependencies_build</span></code> to avoid confusion about the name, <code class="docutils literal notranslate"><span class="pre">dependencies_build</span></code> is now deprecated</li>
+<li>Normalized env var names</li>
+<li>Added new <code class="docutils literal notranslate"><span class="pre">precompiled</span></code> build template to replace the now deprecated <code class="docutils literal notranslate"><span class="pre">python</span></code> build template</li>
+<li>Fixed issues using the <code class="docutils literal notranslate"><span class="pre">install_*</span></code> configuration options</li>
+<li><code class="docutils literal notranslate"><span class="pre">install_qml</span></code> will now install qml modules to the correct nested path</li>
+<li>A per project home directory gets mounted during the build process</li>
+<li>Cleaned up arch handling and improved conflict detection</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-8-2">
+<h2>Changes in v6.8.2<a class="headerlink" href="#changes-in-v6-8-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed broken architecture agnostic builds</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-8-1">
+<h2>Changes in v6.8.1<a class="headerlink" href="#changes-in-v6-8-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed new architecture errors breaking architecture agnostic builds</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-8-0">
+<h2>Changes in v6.8.0<a class="headerlink" href="#changes-in-v6-8-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed the <code class="docutils literal notranslate"><span class="pre">ARCH</span></code> placeholder breaking <code class="docutils literal notranslate"><span class="pre">ARCH_TRIPLET</span></code> placeholder</li>
+<li>Added new <code class="docutils literal notranslate"><span class="pre">env_vars</span></code> configuration for passing custom env vars to the build process</li>
+<li>Fixed errors on systems where /etc/timezone does not exist</li>
+<li>Added errors to detect conflicting architecture settings</li>
+<li>Improved multi arch support</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-7-2">
+<h2>Changes in v6.7.2<a class="headerlink" href="#changes-in-v6-7-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed architecture mismatch error for architecture agnostic templates</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-7-0">
+<h2>Changes in v6.7.0<a class="headerlink" href="#changes-in-v6-7-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New error when there is no space left on the disk</li>
+<li>New error when the manifest’s architecture does not match the build architecture</li>
+<li>New option to use <code class="docutils literal notranslate"><span class="pre">&#64;CLICK_ARCH&#64;</span></code> as the architecture in the manifest to allow Clickable to automatically set the architecture</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-6-0">
+<h2>Changes in v6.6.0<a class="headerlink" href="#changes-in-v6-6-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed issue in with timezone detection</li>
+<li>Added better detection for nvidia mode and added a new –no-nvidia argument</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-5-0">
+<h2>Changes in v6.5.0<a class="headerlink" href="#changes-in-v6-5-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New bash completion, more info <a class="reference external" href="https://gitlab.com/clickable/clickable/blob/master/BASH_COMPLETION.md">here</a></li>
+<li>Fixed crash when running in container mode</li>
+<li>Added <code class="docutils literal notranslate"><span class="pre">image_setup</span></code> configuration to run arbitrary commands to setup the docker image</li>
+<li>Added arm64 support for qmake builds</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-4-0">
+<h2>Changes in v6.4.0<a class="headerlink" href="#changes-in-v6-4-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Use the system timezone when in desktop mode</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-3-2">
+<h2>Changes in v6.3.2<a class="headerlink" href="#changes-in-v6-3-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed issues logging process errors</li>
+<li>Fixed issues parsing desktop files</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-3-1">
+<h2>Changes in v6.3.1<a class="headerlink" href="#changes-in-v6-3-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Updated <cite>clickable create</cite> to use a new template for a better experience</li>
+<li>Fixed desktop mode issue when the command already exits in the PATH</li>
+<li>Added a prompt for autodetecting the template type</li>
+<li>Improved Clickable’s logging</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-2-1">
+<h2>Changes in v6.2.1<a class="headerlink" href="#changes-in-v6-2-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed env vars in libs</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-2-0">
+<h2>Changes in v6.2.0<a class="headerlink" href="#changes-in-v6-2-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Replaced the <code class="docutils literal notranslate"><span class="pre">--debug</span></code> argument with <code class="docutils literal notranslate"><span class="pre">--verbose</span></code></li>
+<li>Switched the <code class="docutils literal notranslate"><span class="pre">--debug-build</span></code> argument to <code class="docutils literal notranslate"><span class="pre">--debug</span></code></li>
+<li>Initial support for running Clickable on MacOS</li>
+<li>Added new desktop mode argument <code class="docutils literal notranslate"><span class="pre">--skip-build</span></code> to run an app in desktop mode without recompiling</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-1-0">
+<h2>Changes in v6.1.0<a class="headerlink" href="#changes-in-v6-1-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Apps now use host locale in desktop mode</li>
+<li>Added <code class="docutils literal notranslate"><span class="pre">--lang</span></code> argument to override the language when running in desktop mode</li>
+<li>Added support for multimedia in desktop mode</li>
+<li>Make app data, config and cache persistent in desktop mode by mounting phablet home folder to ~/.clickable/home</li>
+<li>Added arm64 support and docker images (does not yet work for apps built with qmake)</li>
+<li><a class="reference internal" href="clickable-json.html#clickable-json-placeholders"><span class="std std-ref">Added placeholders and env vars to commands and scripts run via clickable</span></a></li>
+<li><a class="reference internal" href="clickable-json.html#clickable-json-install-lib"><span class="std std-ref">Added option to install libs/qml/binaries from the docker image into the click package</span></a></li>
+<li>Switched to a clickable specific Cargo home for Rust apps</li>
+<li>Click packages are now deleted from the device after installing</li>
+<li>Fixed <code class="docutils literal notranslate"><span class="pre">dependencies_build</span></code> not being allowed as a string</li>
+<li>Fixed issues finding the manifest file</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-0-3">
+<h2>Changes in v6.0.3<a class="headerlink" href="#changes-in-v6-0-3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed building go apps</li>
+<li>Fixed post build happening after the click is built</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-0-2">
+<h2>Changes in v6.0.2<a class="headerlink" href="#changes-in-v6-0-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed container mode</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-0-1">
+<h2>Changes in v6.0.1<a class="headerlink" href="#changes-in-v6-0-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added back click-build with a warning to not break existing apps</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v6-0-0">
+<h2>Changes in v6.0.0<a class="headerlink" href="#changes-in-v6-0-0" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="new-features">
+<h3>New features<a class="headerlink" href="#new-features" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>When publishing an app for the first time a link to create it on the OpenStore will be shown</li>
+<li>Desktop mode can now use the dark theme with the <code class="docutils literal notranslate"><span class="pre">--dark-mode</span></code> argument</li>
+<li>Automatically detect when nvidia drivers are used for desktop mode</li>
+<li>Use native docker nvidia integration rather than nvidia-docker (when the installed docker version supports it)</li>
+<li>The UBUNTU_APP_LAUNCH_ARCH env var is now set for desktop mode</li>
+<li>Added remote gdb debugging in desktop mode via the <code class="docutils literal notranslate"><span class="pre">--gdbserver</span> <span class="pre">&lt;port&gt;</span></code> argument</li>
+<li>Added configurable <code class="docutils literal notranslate"><span class="pre">install_dir</span></code></li>
+<li>Libraries get installed when using <code class="docutils literal notranslate"><span class="pre">cmake</span></code> or <code class="docutils literal notranslate"><span class="pre">qmake</span></code> build template (into <code class="docutils literal notranslate"><span class="pre">install_dir</span></code>)</li>
+</ul>
+</div>
+<div class="section" id="breaking-changes">
+<h3>Breaking Changes<a class="headerlink" href="#breaking-changes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>The <code class="docutils literal notranslate"><span class="pre">click-build</span></code> command has been merged into the <code class="docutils literal notranslate"><span class="pre">build</span></code> command</li>
+<li>Removed deprecated configuration properties: <code class="docutils literal notranslate"><span class="pre">dependencies</span></code>, <code class="docutils literal notranslate"><span class="pre">specificDependencies</span></code>, and <code class="docutils literal notranslate"><span class="pre">dir</span></code></li>
+<li>Removed deprecated library configuration format</li>
+<li>Removed deprecated lxd support</li>
+<li>Moved the default build directory from <code class="docutils literal notranslate"><span class="pre">build</span></code> to <code class="docutils literal notranslate"><span class="pre">build/&lt;arch</span> <span class="pre">triplet&gt;/app</span></code></li>
+<li>Moved the default library build directory to <code class="docutils literal notranslate"><span class="pre">build/&lt;arch</span> <span class="pre">triplet&gt;/&lt;lib</span> <span class="pre">name&gt;</span></code></li>
+<li>Removed deprecated vivid support</li>
+</ul>
+</div>
+<div class="section" id="bug-fixes">
+<h3>Bug Fixes<a class="headerlink" href="#bug-fixes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Fixed utf-8 codec error</li>
+<li>Use separate cached containers when building libraries</li>
+<li>Automatically rebuild the cached docker image for dependencies</li>
+</ul>
+</div>
+</div>
+<div class="section" id="changes-in-v5-14-1">
+<h2>Changes in v5.14.1<a class="headerlink" href="#changes-in-v5-14-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Limit make processes to the number of cpus on the system</li>
+<li>Fix missing directory for newer Rust versions</li>
+<li>Fix placeholders not being absolute</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-14-0">
+<h2>Changes in v5.14.0<a class="headerlink" href="#changes-in-v5-14-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added check for outdated containers when using custom dependencies</li>
+<li>Fixed building libraries</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-13-3">
+<h2>Changes in v5.13.3<a class="headerlink" href="#changes-in-v5-13-3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed the update command so it updates all available Docker images</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-13-2">
+<h2>Changes in v5.13.2<a class="headerlink" href="#changes-in-v5-13-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed libraries not building after latest update</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-13-1">
+<h2>Changes in v5.13.1<a class="headerlink" href="#changes-in-v5-13-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Follow up fixes for dependencies not being used for the first run</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-13-0">
+<h2>Changes in v5.13.0<a class="headerlink" href="#changes-in-v5-13-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added new <a class="reference internal" href="debugging.html#debugging-with-gdb"><span class="std std-ref">debugging with gdb</span></a> argument</li>
+<li>Added new <a class="reference internal" href="commands.html#commands-test"><span class="std std-ref">test</span></a> command for running tests inside the container</li>
+<li>When running in desktop mode, cache/share/config directories are automatically created</li>
+<li>Fixed hidden build directories causing errors when looking for the manifest</li>
+<li>Fixed issue with cordova building</li>
+<li>Fixed dependencies not being used the first time clickable is run</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-12-3">
+<h2>Changes in v5.12.3<a class="headerlink" href="#changes-in-v5-12-3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed slowdown when running clickable in a non-project directory</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-12-2">
+<h2>Changes in v5.12.2<a class="headerlink" href="#changes-in-v5-12-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed <code class="docutils literal notranslate"><span class="pre">scripts</span></code> breaking Clickable</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-12-1">
+<h2>Changes in v5.12.1<a class="headerlink" href="#changes-in-v5-12-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed issues with build dir</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-12-0">
+<h2>Changes in v5.12.0<a class="headerlink" href="#changes-in-v5-12-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>clickable.json supports <a class="reference internal" href="clickable-json.html#clickable-json-placeholders"><span class="std std-ref">placeholders</span></a> now</li>
+<li>Add new <code class="docutils literal notranslate"><span class="pre">src_dir</span></code> configuration option</li>
+<li>Make build-libs respect <code class="docutils literal notranslate"><span class="pre">root_dir</span></code>, too</li>
+<li>Fix build-libs for architecture all</li>
+<li>When no <code class="docutils literal notranslate"><span class="pre">kill</span></code> configuration option is specified Clickable will use the Exec line from the desktop file</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-11-0">
+<h2>Changes in v5.11.0<a class="headerlink" href="#changes-in-v5-11-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Smarter app killing using <code class="docutils literal notranslate"><span class="pre">pkill</span> <span class="pre">-f</span></code></li>
+<li>Fix deprecated configuration options showing as a schema error</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-10-0">
+<h2>Changes in v5.10.0<a class="headerlink" href="#changes-in-v5-10-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added configuration option <code class="docutils literal notranslate"><span class="pre">root_dir</span></code></li>
+<li>Always ignore .git/.bzr directories when building pure, rust, or go apps</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-9-1">
+<h2>Changes in v5.9.1<a class="headerlink" href="#changes-in-v5-9-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed missing schema file</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-9-0">
+<h2>Changes in v5.9.0<a class="headerlink" href="#changes-in-v5-9-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New schema validation for clickable.json</li>
+<li>Publish to the OpenStore with a changelog message</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-8-1">
+<h2>Changes in v5.8.1<a class="headerlink" href="#changes-in-v5-8-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed a bug in <code class="docutils literal notranslate"><span class="pre">make_args</span></code></li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-8-0">
+<h2>Changes in v5.8.0<a class="headerlink" href="#changes-in-v5-8-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New configuration option for automatically including ppas in the build environment: <a class="reference internal" href="clickable-json.html#clickable-json-dependencies-ppa"><span class="std std-ref">dependencies_ppa</span></a>.</li>
+<li>Changed <a class="reference internal" href="clickable-json.html#clickable-json-libraries"><span class="std std-ref">libraries</span></a> format from a list to a dictionary (the old format is still supported for now)</li>
+<li>The default <code class="docutils literal notranslate"><span class="pre">cargo_home</span></code> is now set to <code class="docutils literal notranslate"><span class="pre">~/.cargo</span></code></li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-7-0">
+<h2>Changes in v5.7.0<a class="headerlink" href="#changes-in-v5-7-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Introduced two new dependency options to separate <cite>build &lt;clickable-json-dependencies_build&gt;</cite> and <cite>target &lt;clickable-json-dependencies_target&gt;</cite> dependencies</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-6-1">
+<h2>Changes in v5.6.1<a class="headerlink" href="#changes-in-v5-6-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed build lib</li>
+<li>Made cordova build respect the –debug-build argument</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-6-0">
+<h2>Changes in v5.6.0<a class="headerlink" href="#changes-in-v5-6-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed Cordova build</li>
+<li>Added <code class="docutils literal notranslate"><span class="pre">--debug-build</span></code> support for QMake and CMake templates</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-5-1">
+<h2>Changes in v5.5.1<a class="headerlink" href="#changes-in-v5-5-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>New <code class="docutils literal notranslate"><span class="pre">--config</span></code> argument to specify a different path to the clickable.json file</li>
+<li>New configuration called <code class="docutils literal notranslate"><span class="pre">clickable_minimum_required</span></code> to specify a minimum version of Clickable</li>
+<li>New <code class="docutils literal notranslate"><span class="pre">make_args</span></code> configuration for passing arguments to make</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-5-0">
+<h2>Changes in v5.5.0<a class="headerlink" href="#changes-in-v5-5-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>build-libs now only uses the same arch as specified in clickable.json or in the cli args</li>
+<li>Added the option to build/clean only one lib</li>
+<li>Added support for GOPATH being a list of paths</li>
+<li>Exits with an error with an invalid command</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-4-0">
+<h2>Changes in v5.4.0<a class="headerlink" href="#changes-in-v5-4-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added support for Rust apps</li>
+<li>Added support for distros using SELinux</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-3-3">
+<h2>Changes in v5.3.3<a class="headerlink" href="#changes-in-v5-3-3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>More fixes for building libraries</li>
+<li>Set the home directory to /home/phablet in desktop mode</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-3-2">
+<h2>Changes in v5.3.2<a class="headerlink" href="#changes-in-v5-3-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed issue building libraries</li>
+<li>Create arch specific directories in .clickable</li>
+<li>Fixed –dirty breaking when using a custom default set of commands</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-3-1">
+<h2>Changes in v5.3.1<a class="headerlink" href="#changes-in-v5-3-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed dependencies in library prebuild</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-3-0">
+<h2>Changes in v5.3.0<a class="headerlink" href="#changes-in-v5-3-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="clickable-json.html#clickable-json-libraries"><span class="std std-ref">Added options for compiling libraries</span></a></li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-2-0">
+<h2>Changes in v5.2.0<a class="headerlink" href="#changes-in-v5-2-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed bug in build template auto detection</li>
+<li>Added new dirty build option</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-1-1">
+<h2>Changes in v5.1.1<a class="headerlink" href="#changes-in-v5-1-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed bug in “shell” command</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-1-0">
+<h2>Changes in v5.1.0<a class="headerlink" href="#changes-in-v5-1-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Added app template for QML/C++ with a main.cpp</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-0-2">
+<h2>Changes in v5.0.2<a class="headerlink" href="#changes-in-v5-0-2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed publish command not exiting with an error code when there is an error</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-0-1">
+<h2>Changes in v5.0.1<a class="headerlink" href="#changes-in-v5-0-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Fixed typo in cache path</li>
+<li>Improved Cordova support</li>
+</ul>
+</div>
+<div class="section" id="changes-in-v5-0-0">
+<h2>Changes in v5.0.0<a class="headerlink" href="#changes-in-v5-0-0" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>New features</dt>
+<dd><ul class="first last">
+<li>Xenial by default (use <code class="docutils literal notranslate"><span class="pre">--vivid</span></code> to compile for 15.04)</li>
+<li>Major code refactor</li>
+<li><dl class="first docutils">
+<dt>More environment variables</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_ARCH</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">arch</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEMPLATE</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">template</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DIR</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">dir</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_LXD</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">lxd</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DEFAULT</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">default</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_MAKE_JOBS</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">make_jobs</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">GOPATH</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">gopath</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_DOCKER_IMAGE</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">docker_image</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_BUILD_ARGS</span></code> - Overrides the clickable.json’s <code class="docutils literal notranslate"><span class="pre">build_args</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">OPENSTORE_API_KEY</span></code> - Your api key for publishing to the OpenStore</li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_CONTAINER_MODE</span></code> - Same as <code class="docutils literal notranslate"><span class="pre">--container-mode</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SERIAL_NUMBER</span></code> - Same as <code class="docutils literal notranslate"><span class="pre">--serial-number</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_SSH</span></code> - Same as <code class="docutils literal notranslate"><span class="pre">--ssh</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_OUTPUT</span></code> - Override the output directory for the resulting click file</li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_NVIDIA</span></code> - Same as <code class="docutils literal notranslate"><span class="pre">--nvidia</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">CLICKABLE_VIVID</span></code> - Same as <code class="docutils literal notranslate"><span class="pre">--vivid</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Removed</dt>
+<dd><ul class="first last">
+<li>Chroot support has been removed, docker containers are recommended going forward</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>clickable.json</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Removed</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">package</span></code> - automatically grabbed from the manifest.json</li>
+<li><code class="docutils literal notranslate"><span class="pre">app</span></code> - automatically grabbed from the manifest.json</li>
+<li><code class="docutils literal notranslate"><span class="pre">sdk</span></code> - Replaced by docker_image and the <code class="docutils literal notranslate"><span class="pre">--vivid</span></code> argument</li>
+<li><code class="docutils literal notranslate"><span class="pre">premake</span></code> - Use <code class="docutils literal notranslate"><span class="pre">prebuild</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">ssh</span></code> - Use the <code class="docutils literal notranslate"><span class="pre">--ssh</span></code> argument</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Commands</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>New</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">log</span></code> - Dumps the full log file from the app</li>
+<li><code class="docutils literal notranslate"><span class="pre">desktop</span></code> - Replaces <code class="docutils literal notranslate"><span class="pre">--desktop</span></code> to run the app in desktop mode</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Changed</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">init</span></code> - Changed to <code class="docutils literal notranslate"><span class="pre">create</span></code> (<code class="docutils literal notranslate"><span class="pre">init</span></code> will still work)</li>
+<li><code class="docutils literal notranslate"><span class="pre">update-docker</span></code> - Changed to <code class="docutils literal notranslate"><span class="pre">update</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Removed</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">kill</span></code> - Changed to be part of the <code class="docutils literal notranslate"><span class="pre">launch</span></code> command</li>
+<li><code class="docutils literal notranslate"><span class="pre">setup-docker</span></code> - Automatically detected and run when using docker</li>
+<li><code class="docutils literal notranslate"><span class="pre">display-on</span></code> - Not very useful</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Command line arguments</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>New</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">--vivid</span></code> - Compile the app for 15.04</li>
+<li><code class="docutils literal notranslate"><span class="pre">--docker-image</span></code> - Compile the app using a specific docker image</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Changed</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">--serial-number</span></code> - Replaces <code class="docutils literal notranslate"><span class="pre">--device-serial-number</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">--ssh</span></code> - Replaces <code class="docutils literal notranslate"><span class="pre">--ip</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Removed</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">--desktop</span></code> - Use the new <code class="docutils literal notranslate"><span class="pre">desktop</span></code> command</li>
+<li><code class="docutils literal notranslate"><span class="pre">--xenial</span></code> - Xenial is now the default</li>
+<li><code class="docutils literal notranslate"><span class="pre">--sdk</span></code> - Use <code class="docutils literal notranslate"><span class="pre">--vivid</span></code> or <code class="docutils literal notranslate"><span class="pre">--docker-image</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">--device</span></code> - Use <code class="docutils literal notranslate"><span class="pre">shell</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">--template</span></code> - Use the <code class="docutils literal notranslate"><span class="pre">CLICKABLE_TEMPLATE</span></code> env var</li>
+<li><code class="docutils literal notranslate"><span class="pre">--click</span></code> - Specify the path to the click after the <code class="docutils literal notranslate"><span class="pre">install</span></code> command: <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">install</span> <span class="pre">/path/to/click</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">--app</span></code> - Specify the app name after the <code class="docutils literal notranslate"><span class="pre">launch</span></code> command: <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">launch</span> <span class="pre">app.name</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">--name</span></code> - Specify the app template after the <code class="docutils literal notranslate"><span class="pre">create</span></code> command: <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">create</span> <span class="pre">pure-qml-cmake</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="continuous-integration.html" class="btn btn-neutral" title="Continuous Integration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Brian Douglass, Jonatan Hatakeyama Zeidler.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.12.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

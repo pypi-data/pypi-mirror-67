@@ -1,0 +1,271 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Debugging &mdash; Clickable 6.12.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Commands" href="commands.html" />
+    <link rel="prev" title="Usage" href="usage.html" />
+    <style>
+        .wy-side-nav-search {
+            background-color: #ed7c1b;
+        }
+
+        .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+            border-radius: 16px;
+        }
+    </style>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Clickable
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.12.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html#after-install">After install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Debugging</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#desktop-mode">Desktop Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#on-device">On Device</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="commands.html">Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clickable-json.html">clickable.json Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="env-vars.html">Environment Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="app-templates.html">App Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-templates.html">Build Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous-integration.html">Continuous Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Clickable</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Debugging</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/debugging.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="debugging">
+<span id="debugging-with-gdb"></span><h1>Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="desktop-mode">
+<h2>Desktop Mode<a class="headerlink" href="#desktop-mode" title="Permalink to this headline">¶</a></h2>
+<p>The easiest way to do GDB Debugging via Clickable is desktop mode and can be started
+by running <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--gdb</span></code>.</p>
+<p>Alternatively a GDB Server can be started with <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--gdbserver</span> <span class="pre">&lt;port&gt;</span></code>
+(just choose any port, e.g. <code class="docutils literal notranslate"><span class="pre">3333</span></code>). Check for an option to do GDB Remote Debugging in your IDE
+and connect to <code class="docutils literal notranslate"><span class="pre">localhost:&lt;port&gt;</span></code>. To connect a GDB Client run
+<code class="docutils literal notranslate"><span class="pre">gdb</span> <span class="pre">&lt;app-binary&gt;</span> <span class="pre">-ex</span> <span class="pre">'target</span> <span class="pre">remote</span> <span class="pre">localhost:&lt;port&gt;'</span></code>.</p>
+<p>To analyze errors in memory access run <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">desktop</span> <span class="pre">--valgrind</span></code>.</p>
+</div>
+<div class="section" id="on-device">
+<span id="on-device-debugging"></span><h2>On Device<a class="headerlink" href="#on-device" title="Permalink to this headline">¶</a></h2>
+<p>Note: SSH is not yet support in debugging on the device.</p>
+<p>Two terminals are required to do debugging on the device, one to start the <code class="docutils literal notranslate"><span class="pre">gdbserver</span></code>
+and the other one to start <code class="docutils literal notranslate"><span class="pre">gdb</span></code>. In the first terminal run <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">gdbserver</span></code>
+and in the second one <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">gdb</span> <span class="pre">path/to/binary</span></code>. This method is limited to
+apps that are started via their own binary file.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">clickable</span> <span class="pre">gdbserver</span></code> command provides the server at <code class="docutils literal notranslate"><span class="pre">localhost:3333</span></code>. In theory
+one could connect to that one from within any IDE. But to actually make it work, one needs
+to provide the corresponding libc6 debug symbols. Otherwise the App won’t start due to a
+segfault.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="commands.html" class="btn btn-neutral float-right" title="Commands" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="usage.html" class="btn btn-neutral" title="Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Brian Douglass, Jonatan Hatakeyama Zeidler.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'6.12.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
