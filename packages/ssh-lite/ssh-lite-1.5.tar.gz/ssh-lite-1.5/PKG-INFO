@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ssh-lite
+Version: 1.5
+Summary: An easy encapsulation for paramiko library which contains only common operations (ssh, sftp, expect..)
+Home-page: https://github.com/rainydew/ssh-lite
+Author: Rainy Chan
+Author-email: rainydew@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ssh sftp easy paramiko non-blocking
+Platform: UNKNOWN
