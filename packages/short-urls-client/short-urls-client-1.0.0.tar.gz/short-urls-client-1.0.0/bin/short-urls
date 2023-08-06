@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+import argparse
+import sys
+
+import pyperclip
+from short_urls.config import Config
+from short_urls.short_urls import ShortUrls
+
+def main():
+    parser = argparse.ArgumentParser(description='Short URLs client')
+    subparsers = parser.add_subparsers(dest='command')
+    subparsers.required = True
+
+    subparsers.add_parser('list', help='List Short URLs')
+
+    config_parser = subparsers.add_parser('config', help='List Short URLs')
+    config_parser.add_argument('-d', '--domain', type=str, required=True)
+    config_parser.add_argument('-a', '--api-key', type=str, required=True)
+
+    create_parser = subparsers.add_parser('create', help='Create a Short URL')
+    create_parser.add_argument('url', type=str)
+    create_parser.add_argument('-t', '--token', type=str)
+
+    delete_parser = subparsers.add_parser('delete', help='Create a Short URL')
+    delete_parser.add_argument('url', type=str)
+
+    args = parser.parse_args()
+
+    config = Config()
+
+    if args.command == "config":
+        config.set_credentials(args.domain, args.api_key)
+        sys.exit(0)
+
+    credentials = config.get_credentials()
+    if credentials is None:
+        print("Please use the 'config' command to provide the details of your API endpoint")
+        sys.exit(1)
+
+    short_urls = ShortUrls(credentials['domain'], credentials['api_key'])
+
+    if args.command == "list":
+        urls = short_urls.list()
+        short_url_pad = max(map(lambda x: len(x), urls.keys()))
+        for short_url, full_url in urls.items():
+            print("{} :: {}".format(short_url.ljust(short_url_pad), full_url))
+        sys.exit(0)
+    elif args.command == "create":
+        short_url = short_urls.create(args.url, args.token)
+        pyperclip.copy(short_url)
+        print(short_url)
+        sys.exit(0)
+    elif args.command == "delete":
+        if short_urls.delete(args.url):
+            print("URL deleted")
+            sys.exit(0)
+        else:
+            print("Unable to delete URL, are you sure it exists?")
+            sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()
