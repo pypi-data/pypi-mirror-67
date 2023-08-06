@@ -1,0 +1,11 @@
+matplotlib
+netCDF4
+numpy
+pandas
+pynmea2
+pytz
+scipy
+xarray
+zarr
+sphinx-automodapi
+numpydoc
