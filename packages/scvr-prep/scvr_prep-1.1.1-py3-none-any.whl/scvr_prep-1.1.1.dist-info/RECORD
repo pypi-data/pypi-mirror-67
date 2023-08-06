@@ -1,0 +1,10 @@
+scvr_prep/__init__.py,sha256=ElNqtFyg2f5xLw4wD1GTsS9XlmvhNBMrCISeIzTIYJk,47
+scvr_prep/command_line.py,sha256=PcQ1GxBkWV3qW5UbTsSb_zN-abRDEDU94U6aO5JTrXQ,4117
+scvr_prep/converters.py,sha256=QoArLDuc4vGAkPcP2Swh3bPBkOzfnFYu-XBR3LY0lHI,9595
+scvr_prep/palettes.py,sha256=bU3u_SE4GdjD2R7qw0CTrnY6H9gQGZFkHCn4qd1JrUs,3107
+scvr_prep-1.1.1.dist-info/LICENSE,sha256=qB-PziR_uyZWp8spy8tLJmszgGLAZwG5Qu36NFmUigk,1081
+scvr_prep-1.1.1.dist-info/METADATA,sha256=_nj964pOv-Cgq9SSQhdq4Ii_d4AwsddkaBYkEzh6ADE,3388
+scvr_prep-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scvr_prep-1.1.1.dist-info/entry_points.txt,sha256=KS43JcuOeN-7Bvhd8btm1E_AdpVgDia0L7B_bmMHd-Y,59
+scvr_prep-1.1.1.dist-info/top_level.txt,sha256=X9RAh5YFIUP8T9ebNOlGJu72-r2IaH1gVHthX-rUMKs,10
+scvr_prep-1.1.1.dist-info/RECORD,,
