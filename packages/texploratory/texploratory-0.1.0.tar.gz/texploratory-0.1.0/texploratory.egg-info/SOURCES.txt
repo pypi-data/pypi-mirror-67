@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+texploratory/__init__.py
+texploratory/core.py
+texploratory/helpers.py
+texploratory.egg-info/PKG-INFO
+texploratory.egg-info/SOURCES.txt
+texploratory.egg-info/dependency_links.txt
+texploratory.egg-info/requires.txt
+texploratory.egg-info/top_level.txt
