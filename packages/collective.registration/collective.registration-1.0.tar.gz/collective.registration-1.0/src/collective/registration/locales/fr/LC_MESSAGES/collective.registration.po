@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-05-13 09:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../configure.zcml:25
+msgid "Add registration content allowing users subscriptions."
+msgstr "Ajoute le type de contenu Événement avec inscriptions"
+
+#: ../profiles/default/types/period.xml
+#: ../profiles/default/types/registration.xml
+msgid "Edit"
+msgstr ""
+
+#: ../content/subscriber.py:21
+msgid "Email"
+msgstr ""
+
+#: ../interfaces.py:24
+msgid "Email address"
+msgstr "Adresse email"
+
+#: ../interfaces.py:46
+msgid "Email based on form inputs"
+msgstr "Email basé sur les données complétées"
+
+#: ../interfaces.py:45
+msgid "Email response"
+msgstr "Réponse"
+
+#: ../content/period.py:20
+msgid "End date"
+msgstr "Date de fin"
+
+#: ../content/subscriber.py:17
+#: ../interfaces.py:26
+msgid "First name"
+msgstr "Prénom"
+
+#: ../interfaces.py:53
+msgid "Informations about your subscription"
+msgstr "Informations à propos de votre inscription"
+
+#: ../content/subscriber.py:19
+#: ../interfaces.py:28
+msgid "Last name"
+msgstr "Nom"
+
+#: ../content/subscriber.py:23
+#: ../interfaces.py:31
+msgid "Number of people"
+msgstr "Nombre de personnes"
+
+#: ../content/period.py:22
+msgid "Number of total available places"
+msgstr "Nombre total de places disponibles"
+
+#: ../interfaces.py:35
+#: ../profiles/default/types/period.xml
+msgid "Period"
+msgstr "Période"
+
+#: ../profiles/default/types/period.xml
+msgid "Period of an event"
+msgstr "Période d'un événement"
+
+#: ../content/registration.py:71
+msgid "Register"
+msgstr "S'inscrire"
+
+#: ../profiles/default/types/registration.xml
+msgid "Registration"
+msgstr "Événement avec inscriptions"
+
+#: ../profiles/default/types/registration.xml
+msgid "Registration activated on an event"
+msgstr "Événement avec possibilité d'inscription"
+
+#: ../content/registration.py:57
+msgid "Registration to"
+msgstr "Inscription à"
+
+#: ../content/period.py:18
+msgid "Start date"
+msgstr "Date de début"
+
+#: ../profiles/default/types/subscriber.xml
+msgid "Subscriber"
+msgstr "Inscrit"
+
+#: ../profiles/default/types/subscriber.xml
+msgid "Subscriber for a period of an event"
+msgstr "Inscrit pour une période d'un événement"
+
+#: ../interfaces.py:58
+msgid "Subscription adding"
+msgstr "Ajout d'inscrits"
+
+#: ../interfaces.py:63
+msgid "Subscription saving"
+msgstr "Sauvegarde des inscriptions"
+
+#: ../content/subscriber.py:26
+msgid "Subscription time"
+msgstr "Date & Heure d'inscription"
+
+#: ../content/subscriber.py:29
+msgid "Summary of all other informations"
+msgstr "Résumé de toutes les autres informations"
+
+#: ../content/registration.py:75
+msgid "Thank you"
+msgstr "Merci"
+
+#: ../content/registration.py:79
+msgid "Thank you for your subscription"
+msgstr "Merci pour votre inscription"
+
+#: ../content/registration.py:33
+msgid "The creation of registration has been cancelled"
+msgstr "La création de l'événement avec inscription a été annulée"
+
+#: ../viewlets/templates/registrationlink.pt:15
+msgid "There are no available periods for this event. Please add period(s) to allow subscriptions."
+msgstr "Il n'y a pas de période disponible pour cet événement. Veuillez ajouter une période pour activer les inscriptions."
+
+#: ../configure.zcml:34
+msgid "Uninstalls the collective.registration add-on."
+msgstr ""
+
+#: ../profiles/default/types/period.xml
+#: ../profiles/default/types/registration.xml
+msgid "View"
+msgstr ""
+
+#: ../viewlets/templates/registrationlink.pt:19
+msgid "You can create a new period by"
+msgstr "Vous pouvez créer une période en"
+
+#: ../viewlets/templates/registrationlink.pt:27
+msgid "You can download the list of subscribers by"
+msgstr "Vous pouvez télécharger la liste des inscrits en"
+
+#: ../viewlets/templates/registrationlink.pt:8
+msgid "You can subscribe to this event by"
+msgstr "Vous pouvez vous inscrire à cet événement en"
+
+#: ../viewlets/templates/registrationlink.pt:9
+msgid "clicking here"
+msgstr "cliquant ici"
+
+#: ../configure.zcml:25
+msgid "collective.registration"
+msgstr ""
+
+#: ../configure.zcml:34
+msgid "collective.registration (uninstall)"
+msgstr ""
+
+#: ../vocabularies.py:40
+msgid "{0} (from {1} to {2} - {3} place(s) left)"
+msgstr "{0} (du {1} au {2} - {3} place(s) disponible(s))"

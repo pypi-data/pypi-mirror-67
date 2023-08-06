@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object meta_type="Plone Types Tool" name="portal_types">
+  <object name="period" meta_type="Dexterity FTI" remove="True"/>
+  <object name="registration" meta_type="Dexterity FTI" remove="True"/>
+  <object name="subscriber" meta_type="Dexterity FTI" remove="True"/>
+</object>
