@@ -1,0 +1,12 @@
+numpy>=1.18
+makefun>=1.9.2
+
+[dev]
+black
+coveralls
+mock
+pylint
+pytest
+pytest-cov
+sphinx
+sphinx_rtd_theme
