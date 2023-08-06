@@ -1,0 +1,6 @@
+[console_scripts]
+pytonic = pytonic.console:main
+
+[pytonic.verbs]
+make = pytonic.verbs.pytonic_make
+
