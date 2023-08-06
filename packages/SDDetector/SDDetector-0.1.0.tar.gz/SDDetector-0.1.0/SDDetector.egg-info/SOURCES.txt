@@ -1,0 +1,12 @@
+README.md
+setup.py
+SDDetector.egg-info/PKG-INFO
+SDDetector.egg-info/SOURCES.txt
+SDDetector.egg-info/dependency_links.txt
+SDDetector.egg-info/top_level.txt
+utils/Detector.py
+utils/Models.py
+utils/Run.py
+utils/Transformer.py
+utils/VideoRead.py
+utils/__init__.py
