@@ -1,0 +1,9 @@
+README.md
+setup.py
+wakalinus/__init__.py
+wakalinus/wakalinus.py
+wakalinus.egg-info/PKG-INFO
+wakalinus.egg-info/SOURCES.txt
+wakalinus.egg-info/dependency_links.txt
+wakalinus.egg-info/requires.txt
+wakalinus.egg-info/top_level.txt
