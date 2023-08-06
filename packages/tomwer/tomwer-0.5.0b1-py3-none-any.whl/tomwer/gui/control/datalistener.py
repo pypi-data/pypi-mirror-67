@@ -1,0 +1,459 @@
+# coding: utf-8
+# /*##########################################################################
+#
+# Copyright (c) 2016 European Synchrotron Radiation Facility
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+#
+# ###########################################################################*/
+
+__authors__ = ["H. Payno"]
+__license__ = "MIT"
+__date__ = "16/03/2020"
+
+
+import os
+import weakref
+from silx.gui import qt
+from tomwer.core import settings
+from tomwer.core.process.utils import LastReceivedScansDict
+from tomwer.gui import icons as tomwericons
+from tomwer.gui.control import datareacheractions as actions
+from tomwer.gui.control.history import ScanHistory
+from tomwer.gui.control.observations import ScanObservation
+from tomwer.core.scan.blissscan import BlissScan
+from tomwer.synctools.rsyncmanager import BlissSequenceRSyncWorker
+
+
+class DataListenerWidget(qt.QMainWindow):
+    """
+    Widget to display the tango acquisition on going and finished
+    """
+
+    NB_STORED_LAST_FOUND = 20
+
+    sigActivate = qt.Signal()
+    """Signal emitted when the listening start"""
+    sigDeactivate = qt.Signal()
+    """Signal emitted when the listening end"""
+    sigConfigurationChanged = qt.Signal()
+    """Signal emitted when the configuration of the tango server it updated"""
+    sigAcquisitionEnded = qt.Signal(tuple)
+    """Signal emitted when an acquisition is ended without errors.
+    Tuple contains (master_file, entry, proposal_file)"""
+
+    def __init__(self, parent=None):
+        qt.QMainWindow.__init__(self, parent)
+        self.setWindowFlags(qt.Qt.Widget)
+        self._listener = None
+        self.lastFoundScans = LastReceivedScansDict(self.NB_STORED_LAST_FOUND)
+        self._blissScans = {}
+        # keep a trace of the tango scans. key is tango scan strings
+        # (used as id), value is BlissScan instance
+        self._syncWorkers = {}
+        # associate scan path (directory) to the RSyncWorker
+
+        # create widgets
+        self._centralWidget = qt.QWidget(parent=self)
+        self._centralWidget.setLayout(qt.QVBoxLayout())
+
+        self._controlWidget = DataListenerControl(parent=self)
+        """Widget containing the 'control' of the datalistener: start of stop
+        the listener"""
+        self._centralWidget.layout().addWidget(self._controlWidget)
+
+        self._historyWindow = ScanHistory(parent=self)
+        """Widget containing the latest valid scan found by the listener"""
+        self._centralWidget.layout().addWidget(self._historyWindow)
+
+        self._configWindow = ConfigurationWidget(parent=self)
+        """Widget containing the configuration to communicate with tango"""
+        self._centralWidget.layout().addWidget(self._configWindow)
+
+        self._observationWidget = ScanObservation(parent=self)
+        """Widget containing the current observed directory by the listener"""
+        self._centralWidget.layout().addWidget(self._observationWidget)
+
+        # create toolbar
+        toolbar = qt.QToolBar('')
+        toolbar.setIconSize(qt.QSize(32, 32))
+
+        self._controlAction = actions.ControlAction(parent=self)
+        self._observationsAction = actions.ObservationAction(parent=self)
+        self._configurationAction = actions.ConfigurationAction(parent=self)
+        self._historyAction = actions.HistoryAction(parent=self)
+        toolbar.addAction(self._controlAction)
+        toolbar.addAction(self._observationsAction)
+        toolbar.addAction(self._configurationAction)
+        toolbar.addAction(self._historyAction)
+
+        self._actionGroup = qt.QActionGroup(self)
+        self._actionGroup.addAction(self._controlAction)
+        self._actionGroup.addAction(self._observationsAction)
+        self._actionGroup.addAction(self._configurationAction)
+        self._actionGroup.addAction(self._historyAction)
+
+        self.addToolBar(qt.Qt.LeftToolBarArea, toolbar)
+        toolbar.setMovable(False)
+
+        # signal / slot connection
+        self._actionGroup.triggered.connect(self._updateCentralWidget)
+        self._controlWidget.sigActivated.connect(self._activated)
+        self._controlWidget.sigDeactivated.connect(self._deactivated)
+        self._configWindow.sigConfigurationChanged.connect(self._configChanged)
+
+        # expose api
+        self.activate = self._controlWidget.activate
+
+        # set up
+        self.setCentralWidget(self._centralWidget)
+        self._controlAction.setChecked(True)
+        self._updateCentralWidget(self._controlAction)
+
+    def getBlissServerConfiguration(self) -> dict:
+        return self._configWindow.getConfiguration()
+
+    def setBlissServerConfiguation(self, config):
+        self._configWindow.setConfiguration(config=config)
+
+    def setListener(self, listener):
+        self._listener = weakref.ref(listener, self._cleanConnection)
+        self._listener().sigAcquisitionStarted.connect(self._acquisitionStarted)
+        self._listener().sigScanAdded.connect(self._acquisitionUpdated)
+        self._listener().sigAcquisitionEnded.connect(self._acquisitionEnded)
+
+    def _cleanConnection(self):
+        self._listener().sigAcquisitionStarted.disconnect(self._acquisitionStarted)
+        self._listener().sigScanAdded.disconnect(self._acquisitionUpdated)
+        self._listener().sigAcquisitionEnded.disconnect(self._acquisitionEnded)
+
+    def _activated(self):
+        self.sigActivate.emit()
+
+    def _deactivated(self):
+        self.sigDeactivate.emit()
+
+    def _configChanged(self):
+        self.sigConfigurationChanged.emit()
+
+    def _updateCentralWidget(self, action_triggered):
+        action_to_widget = {
+            self._controlAction: self._controlWidget,
+            self._historyAction: self._historyWindow,
+            self._observationsAction: self._observationWidget,
+            self._configurationAction: self._configWindow,
+        }
+        for action, widget in action_to_widget.items():
+            widget.setVisible(action is action_triggered)
+
+    def _acquisitionStarted(self, arg: tuple):
+        master_file, entry, proposal_file = arg
+        scan = self._getBlissScan(master_file=master_file, entry=entry,
+                                  proposal_file=proposal_file)
+        if settings.isOnLbsram():
+            self._attachRSyncWorker(scan.path, scan.proposal_file)
+        self.addAcquisitionObserve(scan=scan)
+
+    def _acquisitionEnded(self, arg: tuple):
+        master_file, entry, proposal_file, succeed = arg
+        scan = self._getBlissScan(master_file=master_file, entry=entry,
+                                  proposal_file=proposal_file)
+        self.setAcquisitionEnded(scan=scan, succeed=succeed)
+        if self._hasRSyncWorkerAttach(scan.path):
+            self._detachRSyncWorker(scan.path)
+        self.sigAcquisitionEnded.emit((master_file, entry, proposal_file))
+
+    def _acquisitionUpdated(self, arg: tuple):
+        master_file, entry, proposal_file, scan_number = arg
+        scan = self._getBlissScan(master_file=master_file, entry=entry,
+                                  proposal_file=proposal_file)
+        scan.add_scan_number(scan_number)
+        if settings.isOnLbsram():
+            if not self._hasRSyncWorkerAttach(scan.path):
+                self._attachRSyncWorker(scan.path)
+
+        self.updateAcquisitionObserve(scan=scan)
+
+    def _getBlissScan(self, master_file, entry, proposal_file):
+        scan_id = BlissScan.get_id_name(master_file=master_file,
+                                        entry=entry)
+        if scan_id in self._blissScans:
+            return self._blissScans[scan_id]
+        else:
+            bliss_scan = BlissScan(master_file=master_file, entry=entry,
+                                   proposal_file=proposal_file)
+            self._blissScans[str(bliss_scan)] = bliss_scan
+            return bliss_scan
+
+    def addAcquisitionObserve(self, scan):
+        self._observationWidget.addObservation(scan)
+        self._observationWidget.update(scan, 'on going')
+
+    def setAcquisitionEnded(self, scan, succeed):
+        if succeed is False:
+            self._observationWidget.update(scan, 'failed')
+        else:
+            self._observationWidget.removeObservation(scan)
+            self.lastFoundScans.add(scan)
+            self._historyWindow.update(list(self.lastFoundScans.items()))
+
+    def updateAcquisitionObserve(self, scan):
+        self._observationWidget.update(scan, 'on going')
+
+    def sizeHint(self):
+        return qt.QSize(600, 400)
+
+    def _attachRSyncWorker(self, scan_path, proposal_file):
+        dest_dir = scan_path.replace(settings.get_lbsram_path(),
+                                     settings.get_dest_path())
+        dest_dir = os.path.dirname(dest_dir)
+        dest_proposal_file = proposal_file.replace(settings.get_lbsram_path(),
+                                                   settings.get_dest_path())
+        worker = BlissSequenceRSyncWorker(src_dir=scan_path,
+                                          dst_dir=dest_dir,
+                                          delta_time=1,
+                                          src_proposal_file=proposal_file,
+                                          dst_proposal_file=dest_proposal_file)
+        self._syncWorkers[scan_path] = worker
+        worker.start()
+
+    def _detachRSyncWorker(self, scan_path):
+        if self._hasRSyncWorkerAttach(scan_path=scan_path):
+            worker = self._syncWorkers[scan_path]
+            worker.stop()
+            del self._syncWorkers[scan_path]
+
+    def _hasRSyncWorkerAttach(self, scan_path):
+        return scan_path in self._syncWorkers
+
+
+class DataListenerControl(qt.QWidget):
+    """Interface to control the activation of the datalistener"""
+
+    sigActivated = qt.Signal()
+    """signal emitted when the datalistener is start"""
+    sigDeactivated = qt.Signal()
+    """signal emitted when the datalistener is stop"""
+
+    def __init__(self, parent=None):
+        qt.QWidget.__init__(self, parent=parent)
+        self.setLayout(qt.QGridLayout())
+
+        # add left spacer
+        lspacer = qt.QWidget(self)
+        lspacer.setSizePolicy(qt.QSizePolicy.Expanding, qt.QSizePolicy.Minimum)
+        self.layout().addWidget(lspacer, 0, 0, 1, 1)
+
+        # add start / stop icon frame
+        self._iconLabel = qt.QLabel(parent=self)
+        self._iconLabel.setMinimumSize(qt.QSize(55, 55))
+        self.layout().addWidget(self._iconLabel, 0, 1, 1, 1)
+
+        # add button
+        self._button = qt.QPushButton(self)
+        self.layout().addWidget(self._button, 1, 1, 1, 1)
+
+        # add right spacer
+        rspacer = qt.QWidget(self)
+        rspacer.setSizePolicy(qt.QSizePolicy.Expanding, qt.QSizePolicy.Minimum)
+        self.layout().addWidget(rspacer, 0, 2, 1, 1)
+
+        # bottom spacer
+        bspacer = qt.QWidget(self)
+        bspacer.setSizePolicy(qt.QSizePolicy.Minimum, qt.QSizePolicy.Expanding)
+        self.layout().addWidget(bspacer, 2, 1, 1, 1)
+
+        # set up
+        self._updateIconAndText(activate=False)
+
+        # connect signal / slot
+        self._button.released.connect(self._buttonCallback)
+
+    def _buttonCallback(self):
+        self.activate(not self.isActivate())
+
+    def isActivate(self):
+        return self._button.text() == 'stop'
+
+    def activate(self, activate=True):
+        self._updateIconAndText(activate=activate)
+        if activate is True:
+            self.sigActivated.emit()
+        else:
+            self.sigDeactivated.emit()
+
+    def _updateIconAndText(self, activate):
+        if activate:
+            icon = tomwericons.getQIcon('datalistener_activate')
+        else:
+            icon = tomwericons.getQIcon('datalistener_deactivate')
+
+        text = 'stop' if activate else 'start'
+        self._button.setText(text)
+        self._iconLabel.setPixmap(icon.pixmap(80, 80))
+
+
+class ConfigurationWidget(qt.QDialog):
+    """Widget for data listener configuration"""
+
+    sigConfigurationChanged = qt.Signal()
+    """Signal emitted when the configuration change"""
+
+    def __init__(self, parent=None):
+        qt.QDialog.__init__(self, parent)
+        self.setLayout(qt.QGridLayout())
+
+        # beamline
+        self._beamlineLabel = qt.QLabel('beamline', self)
+        self.layout().addWidget(self._beamlineLabel, 0, 0, 1, 1)
+        self._beamlineLabel = qt.QLineEdit('', self)
+        self._beamlineLabel.setReadOnly(True)
+        self.layout().addWidget(self._beamlineLabel, 0, 1, 1, 1)
+        self._changeBeamlineB = qt.QPushButton('change', self)
+        self.layout().addWidget(self._changeBeamlineB, 0, 2, 1, 1)
+
+        # port
+        self._portLabel = qt.QLabel('port', self)
+        self.layout().addWidget(self._portLabel, 1, 0, 1, 1)
+        self._portSpinBox = qt.QSpinBox(self)
+        self._portSpinBox.setMinimum(0)
+        self._portSpinBox.setMaximum(100000)
+        self._portSpinBox.setReadOnly(True)
+        self.layout().addWidget(self._portSpinBox, 1, 1, 1, 2)
+
+        # tango session
+        self.layout().addWidget(qt.QLabel('tango session', self), 2, 0, 1, 1)
+        self._blissSession = qt.QComboBox(self)
+        for session in settings.BLISS_SESSION_NAMES:
+            self.addBlissSession(session)
+        self.layout().addWidget(self._blissSession, 2, 1, 1, 1)
+        self._addBlissSessionButton = qt.QPushButton('add a session', self)
+        self.layout().addWidget(self._addBlissSessionButton, 2, 2, 1, 1)
+
+        # buttons
+        types = qt.QDialogButtonBox.Apply
+        self._buttons = qt.QDialogButtonBox(self)
+        self._buttons.setStandardButtons(types)
+        self._buttons.button(qt.QDialogButtonBox.Apply).setToolTip('Once apply if a listening is on going'
+                                                                   'then it will stop the current listening and'
+                                                                   'restart it with the new parameters')
+        self.layout().addWidget(self._buttons, 3, 0, 1, 3)
+
+        # height spacer
+        spacer = qt.QWidget(parent=self)
+        spacer.setSizePolicy(qt.QSizePolicy.Minimum, qt.QSizePolicy.Expanding)
+        self.layout().addWidget(spacer, 4, 0, 1, 1)
+
+        # connect signal / slot
+        self._buttons.button(qt.QDialogButtonBox.Apply).clicked.connect(self.validate)
+        self._addBlissSessionButton.released.connect(self._userAskOneNewSession)
+        self._changeBeamlineB.released.connect(self._changeBeamline)
+
+        # set up
+        self.setActiveBlissSession(settings.DEFAULT_BLISS_SESSION_NAME)
+        self.setBeamline(settings.BEAMLINE_NAME)
+        self.setPort(settings.TANGO_PORT)
+
+        # for now hide port and beamline
+        self._beamlineLabel.hide()
+        self._beamlineLabel.hide()
+        self._changeBeamlineB.hide()
+        self._portLabel.hide()
+        self._portSpinBox.hide()
+
+    def addBlissSession(self, session: str) -> None:
+        if self._blissSession.findText(session) >= 0:
+            return
+        else:
+            self._blissSession.addItem(session)
+
+    def getConfiguration(self) -> dict:
+        return {
+            'beamline': self.getBeamline(),
+            'active tango session': self._blissSession.currentText(),
+            'tango sessions': [self._blissSession.itemText(i) for i in range(self._blissSession.count())],
+            'port': self.getPort(),
+        }
+
+    def setConfiguration(self, config: dict):
+        self.setBeamline(config['beamline'])
+        self.setPort(config['port'])
+        for bliss_session in config['tango sessions']:
+            self.addBlissSession(session=bliss_session)
+        self.setActiveBlissSession(config['active tango session'])
+
+    def setActiveBlissSession(self, session: str) -> None:
+        session_id = self._blissSession.findText(session)
+        if session_id < 0:
+            raise ValueError('sessions {} is not registered as a tango session'.format(session))
+        self._blissSession.setCurrentIndex(session_id)
+
+    def getActiveBlissSession(self) -> str:
+        return self._blissSession.currentText()
+
+    def getBeamline(self) -> str:
+        return self._beamlineLabel.text()
+
+    def setBeamline(self, name: str):
+        return self._beamlineLabel.setText(name)
+
+    def getPort(self) -> int:
+        return self._portSpinBox.value()
+
+    def setPort(self, port: int) -> None:
+        assert isinstance(port, int)
+        self._portSpinBox.setValue(port)
+
+    def _changeBeamline(self):
+        text, ok_pressed = qt.QInputDialog.getText(self, 'beamline name',
+                                                   'please enter the name of the beamline')
+        if ok_pressed:
+            self.setBeamline(text)
+
+    def _userAskOneNewSession(self):
+        text, ok_pressed = qt.QInputDialog.getText(self, 'tango session',
+                                                   'add the name of the tango session you want to add')
+        if ok_pressed:
+            self.addBlissSession(session=text)
+            self.setActiveBlissSession(session=text)
+
+    def validate(self):
+        self.sigConfigurationChanged.emit()
+
+
+if __name__ == '__main__':
+    import tempfile
+    tempdir = tempfile.mkdtemp()
+
+    qapp = qt.QApplication([])
+    widget = DataListenerWidget(parent=None)
+    widget.show()
+    from tomwer.core.utils.scanutils import MockHDF5
+    scan0 = MockHDF5(os.path.join(tempdir, 'scan0'), n_proj=10, n_ini_proj=0).scan
+    scan1 = MockHDF5(os.path.join(tempdir, 'scan1'), n_proj=10, n_ini_proj=5).scan
+    scan2 = MockHDF5(os.path.join(tempdir, 'scan2'), n_proj=10).scan
+    scan3 = MockHDF5(os.path.join(tempdir, 'scan3'), n_proj=10).scan
+
+    widget.addAcquisitionObserve(scan0)
+    widget.addAcquisitionObserve(scan1)
+    widget.addAcquisitionObserve(scan2)
+    widget.addAcquisitionObserve(scan3)
+    widget.setAcquisitionEnded(scan2, succeed=True)
+    widget.setAcquisitionEnded(scan3, succeed=False)
+    qapp.exec_()
