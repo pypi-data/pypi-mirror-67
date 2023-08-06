@@ -1,0 +1,9 @@
+README.rst
+setup.py
+usbcan/ECanVci64.dll
+usbcan/__init__.py
+usbcan/somebus.py
+usbcan.egg-info/PKG-INFO
+usbcan.egg-info/SOURCES.txt
+usbcan.egg-info/dependency_links.txt
+usbcan.egg-info/top_level.txt
