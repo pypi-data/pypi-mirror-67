@@ -1,0 +1,12 @@
+turbot/__init__.py,sha256=ABvGZTy-l9MT424IA3JHOgwO0_sP0QXyLuBij7H5YHc,64845
+turbot/data/art.csv,sha256=wZZECgDEwFcW80QbWjgzheNzVYeSC0XrjL5WEdkfHMY,12966
+turbot/data/bugs.csv,sha256=hx-N_uotxzZ2DtHyCRXhANpeEBRHGAi-5c1gTO_HYoY,35467
+turbot/data/fish.csv,sha256=n76wVzDvJdSoGDtpwq6cMBXU4D_53K_tcom-sOKZ8oM,33726
+turbot/data/fossils.txt,sha256=5T-81Eot5SAdlmIWFxpT435laAr4P4BVvMyb8yk2ctw,1000
+turbot/data/strings.yaml,sha256=KKm31TDrTFHIINAogQZ6lv3c9i4dO2dpK73lR_-Wz1E,7822
+vendor/turnips/turnips-0.6.4.dev6+gc6ce6a0.tar.gz,sha256=GuIilgV2kN4B25PoaeYO2uSb5r0N2uY8CPg8ug3Dy0s,221834
+turbot-3.3.1.dist-info/entry_points.txt,sha256=qM41K_k2YB2GkHkd33SM6SJkYNYApzB_R4sgAaFQTT4,38
+turbot-3.3.1.dist-info/LICENSE.md,sha256=ON2qyrYIdkHHo3yX264b2hmC05Lij1_YK5ssGmoAoY4,1066
+turbot-3.3.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+turbot-3.3.1.dist-info/METADATA,sha256=wL3W8sw8mPLL4JmjlM4VJ_emvWKuyRM67p6Oh8dGST0,5728
+turbot-3.3.1.dist-info/RECORD,,
