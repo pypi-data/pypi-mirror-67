@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: phydra
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/ben1post/phydra
+Author: Benjamin Post
+Author-email: ben@anoutpost.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+
+flexible marine ecosystem modelling python package based on xarray-simlab
+
+
