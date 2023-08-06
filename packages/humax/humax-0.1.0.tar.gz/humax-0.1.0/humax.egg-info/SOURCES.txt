@@ -1,0 +1,12 @@
+README.md
+setup.py
+humax/__init__.py
+humax/__version__.py
+humax/cli.py
+humax/humax.py
+humax.egg-info/PKG-INFO
+humax.egg-info/SOURCES.txt
+humax.egg-info/dependency_links.txt
+humax.egg-info/entry_points.txt
+humax.egg-info/requires.txt
+humax.egg-info/top_level.txt
