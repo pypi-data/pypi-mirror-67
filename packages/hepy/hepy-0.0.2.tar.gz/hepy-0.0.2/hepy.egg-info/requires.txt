@@ -1,0 +1,6 @@
+click
+colorama
+sh
+jsonpickle
+prettytable
+pandas
