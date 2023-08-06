@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pytest-md-report
+Version: 0.0.1
+Summary: A pytest plugin to make a test results report with Markdown table format.
+Home-page: https://github.com/thombashi/pytest-md-report
+Author: Tsuyoshi Hombashi
+Author-email: tsuyoshi.hombashi@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/thombashi/pytest-md-report
+Project-URL: Tracker, https://github.com/thombashi/pytest-md-report/issues
+Description: .. contents:: **pytest-md-report**
+           :backlinks: top
+           :depth: 2
+        
+        
+        Summary
+        ============================================
+        
+        .. image:: https://img.shields.io/travis/thombashi/pytest-md-report/master.svg?label=Linux/macOS%20CI
+            :target: https://travis-ci.org/thombashi/pytest-md-report
+            :alt: Linux/macOS CI status
+        
+        .. image:: https://img.shields.io/appveyor/ci/thombashi/pytest-md-report/master.svg?label=Windows%20CI
+            :target: https://ci.appveyor.com/project/thombashi/pytest-md-report/branch/master
+            :alt: Windows CI status
+        
+        A pytest plugin to make a test results report with Markdown table format.
+        
+        
+        Installation
+        ============================================
+        ::
+        
+            pip install pytest-md-report
+        
+        
+        Usage
+        ============================================
+        ::
+        
+            $ pytest --md-report
+        
+        Output:
+        
+        .. figure:: ss/pytest_md_report_example.png
+            :scale: 80%
+            :alt: output_example
+        
+            Output example
+        
+        
+        Dependencies
+        ============================================
+        Python 3.5+
+        
+        - `pytablewriter <https://github.com/thombashi/pytablewriter>`__
+        - `pytest <https://docs.pytest.org/en/latest/>`__
+        
+Keywords: pytest,plugin,markdown
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Provides-Extra: test
