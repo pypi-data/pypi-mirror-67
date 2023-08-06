@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: py-CliMate
+Version: 0.1.0
+Summary: Creating Cli Application With An Edge
+Home-page: https://fidelelie.github.io/cliMate/
+Author: Fidel Elie
+Author-email: Fidel.Elie2@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.7
+Requires-Dist: Pyinquirer
+Requires-Dist: Colorama
+Requires-Dist: Termcolor
+
+*******
+CliMate
+*******
+
+Write Command Line Applications With An Edge
+
+Documentation
+#############
+
+The documentation is hosted on its own website: `<https://fidelelie.github.io/cliMate>`_
+
+
+
+
+
+
