@@ -1,0 +1,17 @@
+nnfs/__init__.py,sha256=lwfqa6OHsp4Gbn58XYi9maSAKG23cpivSKaB74PELCo,49
+nnfs/core.py,sha256=merkUsl7vpA3IgHz0HfsSOraWe5ngWyHLLHu5kP9fEg,1902
+nnfs/console/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nnfs/console/nnfs.py,sha256=rak6ndJrRbJzY_za_4hMiWN2FeqijGHlGjEVgodPrYQ,2560
+nnfs/datasets/__init__.py,sha256=gX_Z4cW3ozd6GpEnuU7HCbVhDYCIO86pKXFKGgePL_w,100
+nnfs/datasets/spiral.py,sha256=5pg6JpVf0ieanZ7U_hq8nx_1QkpPLwFBL4COtmcAbKE,675
+nnfs/datasets/vertical.py,sha256=JafeuF_o8cjdhIIypVxI7F7Oolrh7Y_MX-rwFatxUnk,600
+nnfs_video_tutorial_code/001.py,sha256=XyHht9_H44Kfi7ypLRZj8V70uhcBPDqOG59ssbghbYg,281
+nnfs_video_tutorial_code/002.py,sha256=Tc_RMtZS4xGEKzkBFnCVZKPDvFXTwu-iGTzm-vaPl6I,661
+nnfs_video_tutorial_code/003.py,sha256=gw9njHTquU2cY8YEkCidTzJa2krrSyu40G8E08QB0xE,388
+nnfs_video_tutorial_code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nnfs-0.3.0.dist-info/LICENSE,sha256=XupOEF8npTsiZO9zq-ZIrvtR93imGwDRQtnpU4hJm2I,1092
+nnfs-0.3.0.dist-info/METADATA,sha256=QTAzjsBfPxbCPb_yjPSfVHU0GSKZ9hyv2PZjTvnJ8cg,1451
+nnfs-0.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+nnfs-0.3.0.dist-info/entry_points.txt,sha256=ZguGP04i-lZyaQijbQL7LF0kMfdRWw5WYp2o2xmf5eE,49
+nnfs-0.3.0.dist-info/top_level.txt,sha256=L852uVasIBZVsAV90KVxs0JNL9B7kc4oU6us5aFHYpY,30
+nnfs-0.3.0.dist-info/RECORD,,
