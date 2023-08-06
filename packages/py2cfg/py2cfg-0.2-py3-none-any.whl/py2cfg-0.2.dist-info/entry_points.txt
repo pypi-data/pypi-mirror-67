@@ -1,0 +1,4 @@
+[console_scripts]
+ccfg=cfg.runner:main
+py2cfg=cfg.runner:main
+
