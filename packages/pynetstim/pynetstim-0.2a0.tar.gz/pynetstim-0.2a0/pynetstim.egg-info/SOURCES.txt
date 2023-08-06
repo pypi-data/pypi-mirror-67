@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+pynetstim/__init__.py
+pynetstim/brainsight.py
+pynetstim/coordinates.py
+pynetstim/freesurfer_files.py
+pynetstim/image_manipulation.py
+pynetstim/plotting.py
+pynetstim/tms_simulation.py
+pynetstim/utils.py
+pynetstim.egg-info/PKG-INFO
+pynetstim.egg-info/SOURCES.txt
+pynetstim.egg-info/dependency_links.txt
+pynetstim.egg-info/not-zip-safe
+pynetstim.egg-info/requires.txt
+pynetstim.egg-info/top_level.txt

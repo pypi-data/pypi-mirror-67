@@ -1,0 +1,67 @@
+Metadata-Version: 1.2
+Name: pynetstim
+Version: 0.2a0
+Summary: brain network stimulation
+Home-page: https://github.com/EhsanTadayon/pynetstim
+Author: Ehsan Tadayon
+Author-email: sunny.tadayon@gmail.com
+Maintainer: Ehsan Tadyaon
+Maintainer-email: sunny.tadayon@gmail.com
+License: MIT
+Download-URL: https://github.com/EhsanTadayon/pynetstim/archive/v_0.2-alpha.tar.gz
+Description: pynetstim
+        =========
+        
+        pynetstim is a python module that aims to create an integrated framework for brain network stimulation, stimulation targeting and engagement, visualization, and stimulation individualization using multimodal imaging.
+        
+        	
+        Dependencies
+        =============
+        
+        - python>=3.5
+        - Scipy
+        - Nilearn
+        - Nibabel
+        - Pysurfer
+        - Pandas
+        - Nipype
+        - MNE
+        - Mayavi
+        
+        
+        Install
+        ========
+        
+        Please make sure you have installed all the dependencies listed above. pynetstim can ben installed by running the following command: 
+        
+        ```
+        pip install -U --user pynetstim
+        ```
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+Keywords: brain network,stimulation,imaging,fMRI,diffusion,TMS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

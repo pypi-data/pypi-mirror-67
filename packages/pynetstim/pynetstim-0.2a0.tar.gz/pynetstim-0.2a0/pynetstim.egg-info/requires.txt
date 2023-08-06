@@ -1,0 +1,10 @@
+numpy
+nipype
+mayavi
+pysurfer
+pandas
+matplotlib
+scipy
+nibabel
+mne
+nilearn
