@@ -1,0 +1,13 @@
+README.md
+setup.py
+belousov_zhabotinsky/__init__.py
+belousov_zhabotinsky/__main__.py
+belousov_zhabotinsky/functions.py
+belousov_zhabotinsky/plot.py
+belousov_zhabotinsky/render.py
+belousov_zhabotinsky.egg-info/PKG-INFO
+belousov_zhabotinsky.egg-info/SOURCES.txt
+belousov_zhabotinsky.egg-info/dependency_links.txt
+belousov_zhabotinsky.egg-info/entry_points.txt
+belousov_zhabotinsky.egg-info/requires.txt
+belousov_zhabotinsky.egg-info/top_level.txt
