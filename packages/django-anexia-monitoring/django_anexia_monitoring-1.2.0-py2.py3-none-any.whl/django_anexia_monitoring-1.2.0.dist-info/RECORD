@@ -1,0 +1,12 @@
+anexia_monitoring/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+anexia_monitoring/__version__.py,sha256=iA7Cv8NwLSapU0y0lXf8poFhctgK9bTreCmYJRlBtDI,47
+anexia_monitoring/apps.py,sha256=eNLicTPS96LrSLOI6J4q52Iu9UvzCjP0m-RhuBT1GAk,120
+anexia_monitoring/decorators.py,sha256=ED0TKhwkMD-f0I7qRX6qH-96WdHXrkfXlckqV3njvXw,985
+anexia_monitoring/events.py,sha256=QtUcL0vCtTra2Uneh5a8BPZeTNgnlV44bKNrBtb49CI,107
+anexia_monitoring/urls.py,sha256=BG87nv3Y7WxdkXS_We19_ulGxN-lDMQVrFOwXTDDT1U,358
+anexia_monitoring/views.py,sha256=CbkCRDcI9jJZtaz1xuFearfm2gy6ReM8gt2nsaDXC0o,3605
+django_anexia_monitoring-1.2.0.dist-info/LICENSE,sha256=cz92c4OVZcqPWkjcC5x2oaM8NSx9ftNBDNQsnROdEdY,1103
+django_anexia_monitoring-1.2.0.dist-info/METADATA,sha256=lGtwjDR2Fo8QER6_cAKlXtkRtjI9uJCuylCHiI4MYDo,5272
+django_anexia_monitoring-1.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_anexia_monitoring-1.2.0.dist-info/top_level.txt,sha256=u05kcaYa7vANpK-K93NvltNsWz9mmynuQQ3gpr3tPWk,18
+django_anexia_monitoring-1.2.0.dist-info/RECORD,,
