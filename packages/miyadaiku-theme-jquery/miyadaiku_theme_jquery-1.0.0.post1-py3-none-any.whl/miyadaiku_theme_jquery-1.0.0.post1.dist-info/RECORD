@@ -1,0 +1,12 @@
+miyadaiku_theme_jquery/__init__.py,sha256=mwz880h2VWeBm0TsXq6YWZ92BIg2bM5Hc4H-es5SSOI,572
+miyadaiku_theme_jquery/__version__.py,sha256=54KaDFkFJYrH7XRDfYjkZqaaQ8OyaceMucWmodqzDRU,28
+miyadaiku_theme_jquery/config.yml,sha256=nrAPgWKuCLSSE6DfZtATlpaEks9KLXGD7uSGBxatGgQ,23
+miyadaiku_theme_jquery/externals/jquery.js,sha256=r_AaFHrszJtwpe-tHyNi_XCfMxYpbsRg2Uqn0x3s2zc,287649
+miyadaiku_theme_jquery/externals/jquery.min.js,sha256=xNzN2a4ltkB44Mc_Jz3pT4iU1cmeR0FkXs4pru_JxaQ,89493
+miyadaiku_theme_jquery/externals/jquery.slim.js,sha256=sCexhaKpAfuqulKjtSY7V9H7QT0TCN90H-Y5NlmqOUE,234477
+miyadaiku_theme_jquery/externals/jquery.slim.min.js,sha256=MlusDLJIP1GRgLrOflUQtshyP0TwT_RHXsI1wWGnQhs,72397
+miyadaiku_theme_jquery/templates/macros.html,sha256=62A2EDa1DNLqk-AdfO4x340gt0V-xLyUjy7AE9LNXdg,109
+miyadaiku_theme_jquery-1.0.0.post1.dist-info/METADATA,sha256=6qrZLxMnCP2NIwghJbvL76H9QNBp2UYGJloHuTkP1ZU,1741
+miyadaiku_theme_jquery-1.0.0.post1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+miyadaiku_theme_jquery-1.0.0.post1.dist-info/top_level.txt,sha256=gh0OVlsUMwXeC9lqXYRa6_Vx_uFCwqlxvIhzey4Ik-A,23
+miyadaiku_theme_jquery-1.0.0.post1.dist-info/RECORD,,
