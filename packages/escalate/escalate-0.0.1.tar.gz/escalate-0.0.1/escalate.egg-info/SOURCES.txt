@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pip_readme.md
+setup.cfg
+setup.py
+escalate/__init__.py
+escalate/version.py
+escalate.egg-info/PKG-INFO
+escalate.egg-info/SOURCES.txt
+escalate.egg-info/dependency_links.txt
+escalate.egg-info/entry_points.txt
+escalate.egg-info/requires.txt
+escalate.egg-info/top_level.txt
