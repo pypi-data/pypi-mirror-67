@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: wavescli
+Version: 0.0.43
+Summary: A Waves CLI basic and commons modules
+Home-page: https://github.com/spacetimelabs/wavescli
+Author: Spacetime Labs
+Author-email: rc@spacetimelabs.ai
+License: BSD
+Download-URL: https://github.com/spacetimelabs/wavescli/tarball/0.0.43
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: celery (>=4.3.0)
+Requires-Dist: redis (>=3.2.1)
+Requires-Dist: boto3 (>=1.9.0)
+Requires-Dist: awsvault
+Requires-Dist: docutils (==0.14)
+Requires-Dist: click (>=6.7)
+Requires-Dist: requests (>=2.18.0)
+Requires-Dist: pyyaml (>=5.1.2)
+Requires-Dist: more-itertools (>=5.0.0)
+Requires-Dist: cookiecutter (>=1.4.0)
+Requires-Dist: nose
+Requires-Dist: coverage
+Requires-Dist: twine
+
+Waves CLI
+===============================
+
+version number: 0.0.39
+author: Spacetime Labs
+
+Overview
+--------
+
+A Waves CLI basic and commons modules
+
+Installation / Usage
+--------------------
+
+To install use pip:
+
+    $ pip install wavescli
+
+
+Or clone the repo:
+
+    $ git clone https://github.com/spacetimelabs/wavescli.git
+    $ python setup.py install
+
+Contributing
+------------
+
+TBD
+
+Example
+-------
+
+TBD
+

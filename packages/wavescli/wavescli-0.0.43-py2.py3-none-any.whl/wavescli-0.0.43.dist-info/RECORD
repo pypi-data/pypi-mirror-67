@@ -1,0 +1,14 @@
+wavescli/__init__.py,sha256=aH6ufcL8xaxRC4qichFQYdyLpmq-XOGisWndoN1jigE,19
+wavescli/__main__.py,sha256=84df1jsztXClJpMRAz-SetOquwGkr8_yT1Ke3lzBI_Q,785
+wavescli/apiclient.py,sha256=xH1NvNaXqeSWzIx5hIi3LkGFggU4ScL6FLpMRSpdsNQ,5389
+wavescli/awsadapter.py,sha256=jFhbcJvJxogLHn6CKlJzd2KqynIa-iarHhbqMpMLegw,2033
+wavescli/cli.py,sha256=nZiFsb6FgOg7tKEom3wbj41UqCvbsOQObgc7HgkyV9Y,4166
+wavescli/config.py,sha256=fDD-kZ60LvtqntGrMsXgPLWJnQiNVCeAaToRhBS_RF8,878
+wavescli/downloader.py,sha256=43aXZ-DREDQWnSmUVdor6UfFh4GLE4n02XS_fJsLzg4,813
+wavescli/logger.py,sha256=RA0J8sm4hGwIFD95WxmClVpxS51u237JWUJgWMp2xS0,937
+wavescli/waves.py,sha256=pNxOCyIBTHj7vqqoHiNc617SrupX9vAOS9JSBgGWark,13478
+wavescli-0.0.43.dist-info/METADATA,sha256=P5OnajXvegbJOJpJLkVkUQwtdIalW8zKpaB_9XsxE4E,1247
+wavescli-0.0.43.dist-info/RECORD,,
+wavescli-0.0.43.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+wavescli-0.0.43.dist-info/entry_points.txt,sha256=M8oOjQx4W95RBYTofMDW2jL2WS8aB1rWacONpzz0JuQ,49
+wavescli-0.0.43.dist-info/top_level.txt,sha256=_VnrLhq5xK45iJGcbsgIMSNCjibUWQg8YtQd2KSN2UA,9
