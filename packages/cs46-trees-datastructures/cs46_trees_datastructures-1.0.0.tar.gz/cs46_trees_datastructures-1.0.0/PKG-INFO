@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cs46_trees_datastructures
+Version: 1.0.0
+Summary: trees package with binary trees, BST, AVL trees, and heaps
+Home-page: https://github.com/jbernardez22/trees
+Author: Jennifer Bernardez
+Author-email: jbernardez22@cmc.edu
+License: GPLv3
+Description: # Trees ![](https://api.travis-ci.com/jbernardez22/trees.svg?branch=master)
+        
+        This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
