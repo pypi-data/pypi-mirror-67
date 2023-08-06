@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arangodb-pythongraph
+Version: 0.0.1
+Summary: Fetch an AQL directly to a Python graph representation (In NetworkX, IGraph, or Graph-Tool)
+License: MIT
+Author: Avi Aminov
+Author-email: aviaminov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyintergraph (>=1.2.0,<2.0.0)
+Requires-Dist: python-arango (>=5.4.0,<6.0.0)
