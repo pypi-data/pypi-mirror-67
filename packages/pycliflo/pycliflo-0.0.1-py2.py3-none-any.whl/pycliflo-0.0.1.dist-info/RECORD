@@ -1,0 +1,10 @@
+pycliflo/__init__.py,sha256=bqtn_WZ-DP6GDHlbCR4lRQIXNoagiG-8YXWTSbhJzI4,34
+pycliflo/core.py,sha256=8MgAifX4XCaW6CluqSvehgdgQruTKC6XYY1TQrgutlI,12374
+pycliflo/datasets_mapping.py,sha256=i1wyveGd2-2tEjhtjXbsJxNlbj0BInuukggd80qbgvg,5428
+pycliflo/tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+pycliflo/tests/test_Cliflo.py,sha256=xyV0pBttKU3404CB0SoTSTlT8pJfoR2j9BzocuPo3fs,992
+pycliflo-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pycliflo-0.0.1.dist-info/METADATA,sha256=c7fcOlZIuEt20f7opFK-q38E20WzaWudW5TowkMnjf0,915
+pycliflo-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pycliflo-0.0.1.dist-info/top_level.txt,sha256=CSR_GvKr4DSANTA_hTdXgFb4idvCzPw1APcJgqcxQc8,9
+pycliflo-0.0.1.dist-info/RECORD,,
