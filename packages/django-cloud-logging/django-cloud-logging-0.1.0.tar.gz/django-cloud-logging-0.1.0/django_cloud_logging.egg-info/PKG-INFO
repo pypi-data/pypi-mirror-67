@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-cloud-logging
+Version: 0.1.0
+Summary: A package which stores your django application logs in google stackdriver.
+Home-page: UNKNOWN
+Author: Django Circle
+Author-email: djangocircle@gmail.com
+License: UNKNOWN
+Description: 
+        Django Cloud Logging
+        ==============
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
