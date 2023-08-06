@@ -1,0 +1,3 @@
+[console_scripts]
+names = geta.main:main
+
