@@ -1,0 +1,12 @@
+ajpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajpdf/pdfimage.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajpdf/pdftext.py,sha256=FQXdfAYUvCuwCdyg6EuvbsHpdOz60yQeLaVU7GYmKjg,45
+ajpdf/Subsource1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajpdf/Subsource1/atika.py,sha256=SeUVxzfVAMXfC1DN7xgusxIZhZun4oUHpl-VN9gDjnM,16
+ajpdf/Subsource2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajpdf/Subsource2/proba.py,sha256=pTS5PEGIi87-5RHkEAI6VID_g0jfgSisjCD_yjgoezU,20
+atika-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+atika-1.0.dist-info/METADATA,sha256=6uuAmyg5HtJSmtkhwpMjEu7bXzx6kFvGkJA79Gi6vsQ,184
+atika-1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+atika-1.0.dist-info/top_level.txt,sha256=W3tRkdhdvk-7NsAKReO0l2KiijAGiNalxhy4rMmTAZk,6
+atika-1.0.dist-info/RECORD,,
