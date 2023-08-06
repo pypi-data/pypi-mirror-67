@@ -1,0 +1,9 @@
+django_unmigrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_unmigrate/core.py,sha256=cchQYhexLigHF6H65PvYg4i_Goiajtf-X8ua3Bm-Y10,3254
+django_unmigrate/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_unmigrate/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_unmigrate/management/commands/unmigrate.py,sha256=enFEMc01qlpMN706F_nfbaTRktmrKkR7iDFS8fnnjHY,2597
+django_unmigrate-0.1.2.dist-info/LICENSE,sha256=oQMgYyK917utR_XEu3k3-vL_ZpIFgtoYDLm6YonZxnQ,1070
+django_unmigrate-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_unmigrate-0.1.2.dist-info/METADATA,sha256=JoSMDYiKcK5UBaUOFkxa6rXNgngp5BqBvlI468kqAR0,4084
+django_unmigrate-0.1.2.dist-info/RECORD,,
