@@ -1,0 +1,7 @@
+recursive-include . *.h
+recursive-include . *.hpp
+recursive-include . *.pyx
+recursive-include . *.pxd
+graft Eigen
+include LICENSE
+
