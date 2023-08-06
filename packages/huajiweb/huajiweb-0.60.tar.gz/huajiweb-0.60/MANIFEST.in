@@ -1,0 +1,3 @@
+include README.md
+include huajiweb/config/config.yaml
+recursive-include huajiweb/static *
