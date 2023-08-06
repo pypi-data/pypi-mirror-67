@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: email-listener
+Version: 0.2
+Summary: Listen in an email folder and process incoming emails.
+Home-page: https://github.com/njdreikosen/email_listener
+Author: Noah Dreikosen
+Author-email: ndreikosen@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications :: Email
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+Requires-Dist: email
+Requires-Dist: html2text
+Requires-Dist: imapclient
+Requires-Dist: pytest
+Requires-Dist: time
+
+# email_listener
+
+email_listener is a Python package for listening in an email folder and processing incoming emails by scraping them, and writing the contents to local text files. These files can then optionally be further processed with custom functions, or left to be used later.
+
+
+
