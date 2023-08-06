@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: httpfs
+Version: 0.0.1
+Summary: Read file over HTTP protocol via python file system 2 interface
+Home-page: https://github.com/moremoban/httpfs
+Author: C.W.
+Author-email: wangc_2011@hotmail.com
+License: mit
+Download-URL: https://github.com/moremoban/httpfs/archive/0.0.1.tar.gz
+Keywords: python
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fs
+Requires-Dist: httpx
+
+================================================================================
+httpfs
+================================================================================
+
+.. image:: https://api.travis-ci.org/moremoban/httpfs.svg
+   :target: http://travis-ci.org/moremoban/httpfs
+
+.. image:: https://codecov.io/github/moremoban/httpfs/coverage.png
+   :target: https://codecov.io/github/moremoban/httpfs
+.. image:: https://badge.fury.io/py/httpfs.svg
+   :target: https://pypi.org/project/httpfs
+
+.. image:: https://pepy.tech/badge/httpfs/month
+   :target: https://pepy.tech/project/httpfs/month
+
+.. image:: https://img.shields.io/github/stars/moremoban/httpfs.svg?style=social&maxAge=3600&label=Star
+    :target: https://github.com/moremoban/httpfs/stargazers
+
+
+What can you do with it?
+================================================================================
+
+With `Python File System 2`_, you can do:
+
+.. code::
+
+   >>> import fs
+   >>> with fs.open_fs('https://www.google.com') as f:
+   ...     print(f.readbytes('index.html'))
+   b'<!doctype ....'
+
+Have fun!
+
+Why
+================================================================================
+
+It enables `moban`_ to use any files over http(s) as its
+template or data file:
+
+.. code-block:: bash
+
+    $ moban -t 'https://raw.githubusercontent.com/moremoban/pypi-mobans/dev/templates/_version.py.jj2'\
+      -c 'https://raw.githubusercontent.com/moremoban/pypi-mobans/dev/config/data.yml'\
+      -o _version.py
+
+
+.. _Python File System 2: https://docs.pyfilesystem.org/en/latest
+.. _moban: https://github.com/moremoban/moban
+
+
+Installation
+================================================================================
+
+
+You can install httpfs via pip:
+
+.. code-block:: bash
+
+    $ pip install httpfs
+
+
+or clone it and install it:
+
+.. code-block:: bash
+
+    $ git clone https://github.com/moremoban/httpfs.git
+    $ cd httpfs
+    $ python setup.py install
+
+Change log
+================================================================================
+
+0.0.1 - 1.5.2020
+--------------------------------------------------------------------------------
+
+**first release**
+
+#. what a feat!
+
+
+
