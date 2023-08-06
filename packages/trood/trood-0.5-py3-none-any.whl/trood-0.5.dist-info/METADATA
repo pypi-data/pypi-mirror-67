@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: trood
+Version: 0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Trood CIS
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: djangorestframework
+Requires-Dist: django
+Requires-Dist: pyparsing
+Requires-Dist: dateparser
+
+UNKNOWN
+
+
