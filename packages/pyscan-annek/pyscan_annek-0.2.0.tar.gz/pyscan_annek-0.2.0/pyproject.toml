@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyscan_annek"
+version = "0.2.0"
+description = "Scan for hosts and identify"
+authors = ["Michael MacKenna <mpmackenna@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pywinrm = "^0.4.1"
+click = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+pynvim = "^0.4.1"
+jedi = "^0.17.0"
+bat = "^0.3.7"
+neovim = "^0.3.1"
+
+[tool.poetry.scripts]
+pyscan = 'pyscan_annek.cli:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
