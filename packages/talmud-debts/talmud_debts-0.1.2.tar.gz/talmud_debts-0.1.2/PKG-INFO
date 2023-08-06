@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: talmud_debts
+Version: 0.1.2
+Summary: Split estate to array of creditors using talmudic game theory
+Home-page: https://github.com/Datadolittle/Talmud_Debts
+Author: Data Dolitle
+Author-email: datadolittle@gmail.com
+License: UNKNOWN
+Description: # Talmud Debts Package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
