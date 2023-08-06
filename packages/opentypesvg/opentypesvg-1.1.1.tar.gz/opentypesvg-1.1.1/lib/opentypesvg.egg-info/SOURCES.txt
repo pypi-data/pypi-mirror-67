@@ -1,0 +1,12 @@
+README.md
+setup.py
+lib/opentypesvg/addsvg.py
+lib/opentypesvg/dumpsvg.py
+lib/opentypesvg/fonts2svg.py
+lib/opentypesvg/utils.py
+lib/opentypesvg.egg-info/PKG-INFO
+lib/opentypesvg.egg-info/SOURCES.txt
+lib/opentypesvg.egg-info/dependency_links.txt
+lib/opentypesvg.egg-info/entry_points.txt
+lib/opentypesvg.egg-info/requires.txt
+lib/opentypesvg.egg-info/top_level.txt
