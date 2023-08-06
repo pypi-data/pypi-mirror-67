@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: skylynx
+Version: 0.1.3
+Summary: Python support functions package
+Home-page: https://github.com/basameera/skylynx
+Author: Sameera Sandaruwan
+Author-email: basameera@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (>=1.7)
+Requires-Dist: PyYAML (>=5.1)
+
+#  skylynx 
+
+<img src="https://raw.githubusercontent.com/basameera/skylynx/master/docs/toolbox.png" alt="drawing" width="80"/>
+
+[![Build Status](https://travis-ci.org/basameera/skylynx.svg?branch=master)](https://travis-ci.org/basameera/skylynx)
+
+Python support functions module
+
+**Only Python 3**
+
+[Website](https://basameera.github.io/skylynx/)
+[Github](https://github.com/basameera/skylynx)
+
+---
+
+## Install
+
+`pip install skylynx` 
+
+---
+
+## Documentation
+
+[How to use](https://github.com/basameera/skylynx/blob/master/docs/USAGE.md)
+[Docs](https://basameera.github.io/skylynx/)
+
+## Ideas
+
+easy plotutils submodule based on matplotlib (e.g. bar graph with errorbars https://pythonforundergradengineers.com/python-matplotlib-error-bars.html)
+
