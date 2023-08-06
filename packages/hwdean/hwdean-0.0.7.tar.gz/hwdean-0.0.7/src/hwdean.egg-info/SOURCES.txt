@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+dist/hwdean-0.0.7-py3-none-any.whl
+dist/hwdean-0.0.7.tar.gz
+src/__init__.py
+src/hwdean.py
+src/test_hwdean.py
+src/__pycache__/helloworld_deanaz.cpython-38.pyc
+src/hwdean.egg-info/PKG-INFO
+src/hwdean.egg-info/SOURCES.txt
+src/hwdean.egg-info/dependency_links.txt
+src/hwdean.egg-info/top_level.txt
