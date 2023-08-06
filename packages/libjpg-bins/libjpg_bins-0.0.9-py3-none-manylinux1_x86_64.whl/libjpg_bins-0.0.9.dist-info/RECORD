@@ -1,0 +1,14 @@
+libjpg/__init__.py,sha256=aN3kZD-K8anN59qNrUIv12NsBR0AQlWajCeqnY5s0ME,446
+libjpg/ld-musl-x86_64.so.1,sha256=JhEr6rgeGYwNEOKbq7h0NjAE-NkGszq2ALKS-JNqQcQ,584304
+libjpg/libc.musl-x86_64.so.1,sha256=JhEr6rgeGYwNEOKbq7h0NjAE-NkGszq2ALKS-JNqQcQ,584304
+libjpg/libjpeg.so,sha256=x1zoHThH1amQvs5q7kP20hfIinkNsaQQ5PCkr9jdFhA,695224
+libjpg/libjpeg.so.62,sha256=x1zoHThH1amQvs5q7kP20hfIinkNsaQQ5PCkr9jdFhA,695224
+libjpg/libjpeg.so.62.3.0,sha256=x1zoHThH1amQvs5q7kP20hfIinkNsaQQ5PCkr9jdFhA,695224
+libjpg/libjpeg.so.8,sha256=x1zoHThH1amQvs5q7kP20hfIinkNsaQQ5PCkr9jdFhA,695224
+libjpg/libturbojpeg.so,sha256=_FOQxykQNgodwjsRlQdLEpYUbilw2MHawqOWGt5ZbDg,816240
+libjpg/libturbojpeg.so.0,sha256=_FOQxykQNgodwjsRlQdLEpYUbilw2MHawqOWGt5ZbDg,816240
+libjpg/libturbojpeg.so.0.2.0,sha256=_FOQxykQNgodwjsRlQdLEpYUbilw2MHawqOWGt5ZbDg,816240
+libjpg_bins-0.0.9.dist-info/METADATA,sha256=X50sYoVVUf37W34KIji33D_oP6xzLJTFjdOKSqj9A_o,309
+libjpg_bins-0.0.9.dist-info/WHEEL,sha256=fGaAC04LWjoNeJBPS6thhv3cENinzeJtfKn5yJcZroc,106
+libjpg_bins-0.0.9.dist-info/top_level.txt,sha256=r31TrvTmV5AIHAk-zv4tABaprnqk9YdY1cQFHKYSdgE,7
+libjpg_bins-0.0.9.dist-info/RECORD,,
