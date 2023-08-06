@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/addsub
+subuid/__init__.py
+subuid/utils.py
+subuid.egg-info/PKG-INFO
+subuid.egg-info/SOURCES.txt
+subuid.egg-info/dependency_links.txt
+subuid.egg-info/top_level.txt
