@@ -1,0 +1,9 @@
+README.md
+setup.py
+xer2csv/XerToCsvConverter.py
+xer2csv/__init__.py
+xer2csv.egg-info/PKG-INFO
+xer2csv.egg-info/SOURCES.txt
+xer2csv.egg-info/dependency_links.txt
+xer2csv.egg-info/requires.txt
+xer2csv.egg-info/top_level.txt
