@@ -1,0 +1,6 @@
+MapGitConfig==1.1
+progressbar2==3.37.1
+public==1.0
+pygithub==1.40a3
+pyyaml>=5.1
+requests<3.0.0,>=2.8.1
