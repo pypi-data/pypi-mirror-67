@@ -1,0 +1,10 @@
+setup.py
+ssaha_distributions/Binomialdistribution.py
+ssaha_distributions/Gaussiandistribution.py
+ssaha_distributions/Generaldistribution.py
+ssaha_distributions/__init__.py
+ssaha_distributions.egg-info/PKG-INFO
+ssaha_distributions.egg-info/SOURCES.txt
+ssaha_distributions.egg-info/dependency_links.txt
+ssaha_distributions.egg-info/not-zip-safe
+ssaha_distributions.egg-info/top_level.txt
