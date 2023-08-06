@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+textnorm/__init__.py
+textnorm.egg-info/PKG-INFO
+textnorm.egg-info/SOURCES.txt
+textnorm.egg-info/dependency_links.txt
+textnorm.egg-info/top_level.txt
