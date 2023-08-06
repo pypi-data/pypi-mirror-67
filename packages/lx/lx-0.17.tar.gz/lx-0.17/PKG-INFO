@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: lx
+Version: 0.17
+Summary: lx
+Home-page: https://github.com/hx2983113/lx
+Author: lx
+Author-email: hx2983113@gmail.com
+License: MIT
+Download-URL: https://github.com/hx2983113/lx/archive/0.17.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
