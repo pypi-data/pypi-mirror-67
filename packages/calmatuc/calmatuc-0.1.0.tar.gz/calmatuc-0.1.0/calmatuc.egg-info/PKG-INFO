@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: calmatuc
+Version: 0.1.0
+Summary: Calculadora de Funciones Universidad Central
+Home-page: https://github.com/MathMaxUC/calmatuc
+Author: Nicolle Murcia, Karen Pulido, Miguel Ángel Camargo, Mateo Ruíz, Jorge Ali Pastran, Carlos Trujillo, Isaac Zainea
+Author-email: czaineam@ucentral.edu.co
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: calculadora,matematicas,calculo,algebra lineal,estadistica
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
