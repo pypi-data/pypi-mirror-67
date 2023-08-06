@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: nbsafety
+Version: 0.0.3
+Summary: Fearless interactive computing for Jupyter.
+Home-page: https://github.com/runtime-jupyter-safety/nbsafety
+Author: Stephen Macke, Ray Gong
+Author-email: stephen.macke@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Requires-Dist: jupyter
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+
+nbsafety
+========
+
+[![](https://github.com/runtime-jupyter-safety/nbsafety/workflows/master/badge.svg)](https://github.com/runtime-jupyter-safety/nbsafety/actions)
+[![License: BSD](https://img.shields.io/badge/License-BSD-maroon.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![](https://img.shields.io/pypi/pyversions/nbsafety.svg)
+
+Install
+-------
+```python
+pip install nbsafety
+python -m nbsafety.install
+```
+
+Running
+-------
+
+To run an `nbsafety` kernel, select "Python 3 (nbsafety)" from the list
+of notebook types in Jupyter's "New" dropdown dialogue:
+![](img/nbsafety.png)
+
+Future
+------
+
+Currently `nbsafety` is supported for Jupyter notebooks (not JupyterLab).
+JupyterLab support is targeted for a future release.
+
+# License
+Code in this project licensed under the [BSD-3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
+
+
