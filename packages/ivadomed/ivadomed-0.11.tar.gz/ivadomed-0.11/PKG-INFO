@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ivadomed
+Version: 0.11
+Summary: Feature conditioning for IVADO medical imaging project.
+Home-page: https://github.com/neuropoly/ivado-medical-imaging
+Author: NeuroPoly and Mila
+Author-email: none@none.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
