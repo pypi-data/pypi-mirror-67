@@ -1,0 +1,11 @@
+mss
+opencv-python
+pygame
+configparser
+imgcat
+PyOpenGL
+acapture
+twisted
+tqdm
+easydict
+service_identity
