@@ -1,0 +1,13 @@
+qdatamatrix/__init__.py,sha256=HfHZbbYFLOjg7m7XuS5HhDvx0Mrpoji7iYvAX2sZtrw,778
+qdatamatrix/_qcell.py,sha256=0zf1hgr-hficmCeJ0l8UZpsND1HXoa1bCi_oeP8LDl8,2222
+qdatamatrix/_qcelldelegate.py,sha256=SDSG75Gpzjaxb8bucP2UTvXCXyJymK812WCOn-ifJWM,1341
+qdatamatrix/_qcontextmenu.py,sha256=kLain5iYe4Je1M0yufRkBcqiGr4eoybqCpn9xC7U5vI,2811
+qdatamatrix/_qdatamatrix.py,sha256=gcQmDtR1Pm-fo-3-kYfHcB4Gw8_ojF-qZ7xKKzH4XVw,1883
+qdatamatrix/_qspreadsheet.py,sha256=hlW18RHOLU72V6aSkHnFiR06VJ1mA2VSt5GdXEiQ1P8,12341
+qdatamatrix/_version.py,sha256=UqkJvDnLOLCZKz-EyEiUcmyv94llE9au0WJDipZnZ3k,707
+qdatamatrix/decorators.py,sha256=dWpwqgujFnWXEyE2oLKOxTKzeSTaFj6umnG0o-c2VmE,1802
+qdatamatrix/translate.py,sha256=NeIaCBVjDx9_wvVn3rzew0XWBB7WSJzwe7Z4MyjhPlA,1040
+python_qdatamatrix-0.1.27.dist-info/METADATA,sha256=Qm8AXGfNQtf1pkLJ8yLuOiTLfKgEH0WhB2LFOFVMkcw,652
+python_qdatamatrix-0.1.27.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_qdatamatrix-0.1.27.dist-info/top_level.txt,sha256=caJK4WoGVIvVGeKW-UM-78T6yQgjf9P6pehrw7VN5to,12
+python_qdatamatrix-0.1.27.dist-info/RECORD,,
