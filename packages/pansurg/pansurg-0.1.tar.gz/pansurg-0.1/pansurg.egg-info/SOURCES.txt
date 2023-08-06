@@ -1,0 +1,15 @@
+README.md
+setup.py
+pansurg/__init__.py
+pansurg.egg-info/PKG-INFO
+pansurg.egg-info/SOURCES.txt
+pansurg.egg-info/dependency_links.txt
+pansurg.egg-info/not-zip-safe
+pansurg.egg-info/top_level.txt
+pansurg/papers/__init__.py
+pansurg/papers/data_update.py
+pansurg/papers/papers.py
+tests/__init__.py
+tests/papers/__init__.py
+tests/papers/test_data_update.py
+tests/papers/test_papers.py
