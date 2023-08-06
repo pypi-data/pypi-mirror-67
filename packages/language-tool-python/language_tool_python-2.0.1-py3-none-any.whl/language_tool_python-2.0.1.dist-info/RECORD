@@ -1,0 +1,13 @@
+language_tool_python/__init__.py,sha256=AvdptM-ODGQltDt2lBYSVPbEDxFKdKBXYcum0He03UQ,21475
+language_tool_python/__main__.py,sha256=10GCw7bv9ZDm5ECcheE_ydol6_f2XiUiXxMuEzyIbhA,53
+language_tool_python/console_mode.py,sha256=GpnfkitAY-jbmnQIc6vL3AeeoVuIVfZwre-9OT91zD4,2085
+language_tool_python/download_lt.py,sha256=jrXiRd-_3REh__ubLwRyB6w5c3CYQwDNjvZ3JlvpdBk,5484
+language_tool_python/main.py,sha256=WDabZAMh1fD0Zk0mizKgTuhrh3iMpJXFQjmiB_k972Q,6490
+language_tool_python/which.py,sha256=mSxFH05IFTHisV-m7-w_uXVD-CZ9ywc8wL2SBop5PNY,1829
+language_tool_python/backports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+language_tool_python/backports/subprocess.py,sha256=N1v06nl5QAwZuIxJ_L1ne133YJZt0GaJSCojyVmP0kU,1902
+language_tool_python-2.0.1.dist-info/COPYING,sha256=556cigyF1zX_mBhZGOyU7X0XXvw3cBJ4euvPO4Dw2Qs,35151
+language_tool_python-2.0.1.dist-info/METADATA,sha256=ATMeSd-YTB_-gPhsGrb_uYr8yjNvVyDm7ahc_D1cnHk,3384
+language_tool_python-2.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+language_tool_python-2.0.1.dist-info/top_level.txt,sha256=FyfFG5qVoO5_jv-C4EHb1a2PBWzb2Vw1D2Ztr_xNRR0,21
+language_tool_python-2.0.1.dist-info/RECORD,,
