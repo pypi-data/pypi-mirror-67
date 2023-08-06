@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+python-igraph
+click
+tqdm
+easy-config
+mygene
+opentargets
+dataclasses-json
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
