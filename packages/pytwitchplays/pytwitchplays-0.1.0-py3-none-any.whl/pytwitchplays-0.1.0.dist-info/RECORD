@@ -1,0 +1,10 @@
+pytwitchplays/__init__.py,sha256=g_p02dUzBokaljLbVo7e5pK1QAY_RGBj-8o3LoeM3bo,226
+pytwitchplays/action.py,sha256=UnOBk435B-rFUuDJjZbLIlWG8nA7W-NVz3aHeiqM5PY,1879
+pytwitchplays/di_keyboard_scan_codes.py,sha256=K5Mvs85Sf2wRYz3i2slrSk47mm-H-HQXyRpkqXR6zR8,2552
+pytwitchplays/direct_input.py,sha256=LRom4t5Q9ngJ3XPCi_5szgpvMo8IM3dlrwwCgEJ_JRI,1678
+pytwitchplays/py_twitch_plays.py,sha256=BFE30izzg8z2qG4CjTugkPoEO8qpZrOZ44lGWDXWKY0,795
+pytwitchplays-0.1.0.dist-info/LICENSE,sha256=x133eD8Defew3d_n3KE5Z-lDnyEIO7YWtSiDWdA8FZA,1095
+pytwitchplays-0.1.0.dist-info/METADATA,sha256=MUMvoKjR3qlOOY0nrGyL5p4AnxIF_IvIsA-uFXgLqEo,590
+pytwitchplays-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pytwitchplays-0.1.0.dist-info/top_level.txt,sha256=-b3Uvh0jnLIH-G784IVTj5v7WetjkzDPE_puKIKQxKA,14
+pytwitchplays-0.1.0.dist-info/RECORD,,
