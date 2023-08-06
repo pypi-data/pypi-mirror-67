@@ -1,0 +1,16 @@
+jfaleiro_tsstore/__init__.py,sha256=JJ4-tK5kZBGxZw691HLL5uUFfxyXZepMzRT7pleODBw,1045
+jfaleiro_tsstore/_version.py,sha256=XXhyjA0j6Z72SwUJvvsgm0qfdO8CwW7CGt2Z0D-eQPI,128
+jfaleiro_tsstore/dask.py,sha256=UM6EHCdZ8p8Hc64Mwz--jQ3fnmoIuPu1YgOjoDhqbxY,2322
+jfaleiro_tsstore/fastparquet.py,sha256=lLwaH1bRhYA8yFppZwXvrcOPK4hDAu32qKfrzE2ODmI,2221
+jfaleiro_tsstore/filesystem.py,sha256=Ekcrojual5S7bQ8gxgpWLq_XeGc-l957kLmR_49R4j0,2374
+jfaleiro_tsstore/tsstore.py,sha256=qUBF2Krvq9G7NSxGGfHy6UeLXuxXb3c3q_hZ2fQcqZw,2265
+tests/__init__.py,sha256=93ERBwRE-oZVyy04xDhMZXsp7gpFb1K243Sba5co2eo,3277
+tests/test_dask.py,sha256=7v8uw8Ch5NhvOL9XIgpBRqaduR3NS2pjHRPoita1clY,4053
+tests/test_fastparquet.py,sha256=VRYakd0RBKrXR5QSKEMQSvsWD1CUusM6wMhFOmUK2gE,2005
+tests/test_python.py,sha256=9Y3yOmS5nFDTUDGCZ0RnUI0d271oSeJDYcCilqqq1A4,1229
+tests/test_tsstore.py,sha256=4OzwCgZ_rh1yISp1pHVFpSP-xBxAyUpGenBMZwA69u4,987
+jfaleiro.tsstore-0.0.1.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+jfaleiro.tsstore-0.0.1.dist-info/METADATA,sha256=tS5AToMsivpDoSvPwnk7--MQkxYQbsPPIpJSQz69wrQ,4748
+jfaleiro.tsstore-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jfaleiro.tsstore-0.0.1.dist-info/top_level.txt,sha256=sBYh2EVE_-b2nkk7DJVLYTqtw-uDmqC6j1odPSBIi2Q,23
+jfaleiro.tsstore-0.0.1.dist-info/RECORD,,

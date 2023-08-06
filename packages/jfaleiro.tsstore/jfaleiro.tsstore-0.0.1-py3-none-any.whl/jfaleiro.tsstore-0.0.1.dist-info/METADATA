@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: jfaleiro.tsstore
+Version: 0.0.1
+Summary: tsstore - Fast and simple timeseries storage
+Home-page: https://gitlab.com/jfaleiro/tsstore
+Author: Jorge M. Faleiro Jr.
+Author-email: j@falei.ro
+License: Affero GPL, see LICENSE.txt for details
+Download-URL: https://gitlab.com/jfaleiro/tsstore/-/archive/master/tsstore-master.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: dask
+Requires-Dist: dask[dataframe] ; extra == 'dask'
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: behave ; extra == 'dev'
+Requires-Dist: pyhamcrest ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: rope ; extra == 'dev'
+Provides-Extra: fastparquet
+Requires-Dist: fastparquet ; extra == 'fastparquet'
+
+# tsstore
+
+tsstore - Fast and simple timeseries storage
+
+> Copyright (C) 2018 Jorge M. Faleiro Jr.
+
+See [LICENSE](LICENSE) for important licensing information.
+
+## Installation
+
+The installation depends on which underlying storage you plan on using. If you plan on using [fastparquet](https://pypi.org/project/fastparquet/):
+
+```python
+pip install jfaleiro.tsstore[fastparquet]
+```
+
+Or [dask](https://pypi.org/project/dask/):
+
+```python
+pip install jfaleiro.tsstore[dask]
+```
+
+## Use
+
+All starts by retrieving a `root` node, with a root path and a type of storage:
+
+```python
+from jfaleiro_tsstore import root
+r = root('~/mydata', type_='fastparquet')
+```
+
+And from that root you can define and retrieve a storage. You do that by defining a number of attributes for the storage.
+
+Let's say for example you want all your "open/high/low/close" prices of all tech stocks from the source `quandl`, unadjusted, in intervals of one day, in one store, you would use attributes along these lines:
+
+```python
+s = r.get_store(type='stock',
+                sector='tech',
+                source='quandl/wiki',
+                serie='OHLC',
+                adjusted=False,
+                interval='day',
+                interval_size=1)
+```
+
+You should be able to use any reasonable dictionary to define the attributes.
+
+You can now store your series, associating each serie to individual symbols:
+
+```python
+import quandl
+
+s.put('GOOG', quandl.get('GOOG/WIKI', ...))
+s.put('IRBT', quandl.get('IRBT/WIKI', ...))
+```
+
+Series must be instances of [pandas](https://pypi.org/project/pandas/) `DataFrames`. For each symbol you apply basic operations `put`, `get`, `append`, `prepend`, and `delete`. These operations are simple and self-explanatory. For example:
+
+
+```python
+import pandas as pd
+from pandas.testing import assert_frame_equal
+
+s.put('ABC', df) # set series df in ABC
+df1 = s.get('ABC') # retrieve series ABC
+assert_frame_equal(df, df1) # OK
+
+s.append('ABC', df2) # append df2 to ABC
+s.prepend('ABC', df3) # prepend df3 to ABC
+assert_frame_equal(s.get('ABC'), pd.concat([df3, df, df2])) # OK
+
+s.delete('ABC') # delete series
+```
+
+## Traversal
+
+You have a few traversal operations available. For example, to retrieve all stores of root, and the number of entries on thr timeseries of all symbols of each store:
+
+```python
+# lists all symbols and size of each serie under root 'r'
+for s in r.all_stores:
+    for j in s.all_symbols:
+        print(f'symbol {j} has {len(s.get(j).index)} items')
+```
+
+## Final Notes
+
+I am a practioner in computational finance. On any given day I must deal with lots of time series of all kinds. Series of prices, measurements of risk, signals of buy/sell/hold, and many others. Series can be related to any window of time: seconds, minutes, weeks, and so forth. And these can be grouped in an arbitrary length (every 5 seconds, or every 3 days, etc)
+
+At the same time I have to do all of that, I wanted something simple, fast, and reliable.
+
+This library is a result of these requirements.
+
+If you are on the same boat, you might benefit from this as well. If you need any additional storage alternatives, the implementation is very simple and straigthforward. Feel free to fork this repository and contribute back your work when you are done.
+
