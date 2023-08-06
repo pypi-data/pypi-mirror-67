@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ticker-terms
+Version: 0.1
+Summary: Generate searchable terms for public companies based off of the ticker.
+Home-page: https://github.com/BecketTrotter/ticker_terms
+License: MIT
+Keywords: stock,ticker,ceo,executives,seo
+Author: Henry Becket Trotter
+Author-email: beckettrotter@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/BecketTrotter/ticker_terms
+Description-Content-Type: text/plain
+
+This package is used to generate searchable terms from company ticker.
+
+company_obj = Company("AAPL")
+company_obj.terms
+
+terms is a dictionary with fields ticker, name, name_alt, kp, kp-alt
