@@ -1,0 +1,9 @@
+gpumonitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpumonitor/monitor.py,sha256=aocanYdXJLgmY7Xbncm9V3HekP5myqQmZoebdauKCAw,2969
+gpumonitor/callbacks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpumonitor/callbacks/lightning.py,sha256=LNSEcWSe6uhcLnkJSFWepysvEVhbR1gGW6-lLXxVrzw,506
+gpumonitor/callbacks/tf.py,sha256=CvR6f6gXlEO-B7zJp9JA7916L-SbDSMWgi3mIXGZbhA,487
+gpumonitor-0.1.0.dist-info/METADATA,sha256=h2sPoieoPtuOymbDGVDeY6kkizxqUwDMPV6JW1dxPLA,2298
+gpumonitor-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gpumonitor-0.1.0.dist-info/top_level.txt,sha256=u19Fa1VZummBjS9hnNo3IErJQJ2DMD-hG-bSExCdtm0,11
+gpumonitor-0.1.0.dist-info/RECORD,,
