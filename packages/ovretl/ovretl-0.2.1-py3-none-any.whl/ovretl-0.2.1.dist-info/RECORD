@@ -1,0 +1,16 @@
+ovretl/__init__.py,sha256=GOEKMNAY7H2xBg0OHiQu-xGqelHa5mnnT3BFqP7ft-M,359
+ovretl/billings_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovretl/billings_utils/compute_billing_status.py,sha256=uf84IHi3BlIIeInpCACz5dooVXXZRSyFzcVLlU81Fxc,630
+ovretl/billings_utils/extract_billing_numbers.py,sha256=34l9iWZfh8ehMmMjlnafrLejglxqnZsT3zB3BL7ZkAA,342
+ovretl/billings_utils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovretl/billings_utils/tests/test_compute_billing_status.py,sha256=_ONdE9PidSI0FzwAHPkrL5V6erYs4CBsmCEK5PmPX4g,1053
+ovretl/billings_utils/tests/test_extract_billing_numbers.py,sha256=UL8G4mLnfz89Y5yavZDoEOUa5KN3iJMzqTB9YVUh_-o,370
+ovretl/prices_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovretl/prices_utils/find_most_relevant_prices.py,sha256=cs11gCXuwG3wLgxuldR1xCwEue0EakLxoqCRF8yBrGM,2758
+ovretl/prices_utils/sum_category_price.py,sha256=LQQoPXCOWejvcVbK49wgihaxiC9_L_tKouA8NTygffU,349
+ovretl/prices_utils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ovretl/prices_utils/tests/test_find_most_relevant_prices_factory.py,sha256=XvEG1hPG9HcunmMMh_wfl48Ayh1YK6Je9iGmC-VJJWc,583
+ovretl/prices_utils/tests/test_sum_category_price.py,sha256=gG5q2Au_o8T9q3LjJIqbikVgvsMGEZKLYIjY8l_rFZc,841
+ovretl-0.2.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+ovretl-0.2.1.dist-info/METADATA,sha256=2emGT8qScErx6NIJblgf20ONXy1ifUPqjV8IGV7TsUQ,458
+ovretl-0.2.1.dist-info/RECORD,,
