@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: data-etl
+Version: 0.0.1.dev0
+Summary: UNKNOWN
+Home-page: https://github.com/gigisr/data_etl
+Author: GigiSR
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
