@@ -1,0 +1,14 @@
+openctm/__init__.py,sha256=qyoB-soRBclCgKXcaQD4vldr-_FCGq5SfAiWWbfgDH4,46
+openctm/io.py,sha256=7B6WUS_PMEGoodbvc5FwcxOd7JfJWw4ii349SC8tg0I,3460
+openctm/openctm.py,sha256=UPQpMV_4cFCkjFiBmoaMoAewoNPqdI9mEczRhyy8xEs,6810
+openctm/version.py,sha256=FX1uB9A8GQrSIKdyM4MfRyU174ifD40UlsZkjgGR5OM,23
+openctm/libs/libopenctm.dylib,sha256=2rQnkgR-6X_BBofBmtzyEqgnhWUhkS2E5rLON88u0bc,105684
+openctm/libs/openctm.c,sha256=iNPSHX8vvK-KNt0YAHQQ0oMNvx_QnCQvyYhChjQLMho,38076
+openctm/libs/openctm.h,sha256=Az7vtgYlWb06mgtdexEf8YCSeLX_B5YWQXnvXSDeOpM,30825
+openctm/libs/openctm.o,sha256=R4rBQS_VNfhA_iLWVDKCe4j0licqOlYMRJYiDEF_goY,13044
+openctm/libs/openctm.rc,sha256=quODD-PsYEmQQgaumpXYYH-kAa3Xry36BMTeRGNVv40,621
+python_openctm-1.0.11.dist-info/LICENSE,sha256=pKPhxZDXujhGkPijGHMdLAAaO9zrPhV18R80hDygI4U,2844
+python_openctm-1.0.11.dist-info/METADATA,sha256=BnjnY1uA4reO-5WQItUQ4oTxbeBnx8Nq8d5h4KN0niA,1536
+python_openctm-1.0.11.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+python_openctm-1.0.11.dist-info/top_level.txt,sha256=CL9a502nOMle7Nb-BTKUJRAcTXLBjpOaTck1_H0_GJo,8
+python_openctm-1.0.11.dist-info/RECORD,,
