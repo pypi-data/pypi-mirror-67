@@ -1,0 +1,6 @@
+README.md
+setup.py
+AJcreatePDF2.egg-info/PKG-INFO
+AJcreatePDF2.egg-info/SOURCES.txt
+AJcreatePDF2.egg-info/dependency_links.txt
+AJcreatePDF2.egg-info/top_level.txt
