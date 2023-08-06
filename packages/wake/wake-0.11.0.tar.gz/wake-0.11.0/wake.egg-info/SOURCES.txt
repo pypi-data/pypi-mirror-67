@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+wake/__init__.py
+wake/test.py
+wake.egg-info/PKG-INFO
+wake.egg-info/SOURCES.txt
+wake.egg-info/dependency_links.txt
+wake.egg-info/requires.txt
+wake.egg-info/top_level.txt
