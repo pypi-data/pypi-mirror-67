@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vortext
+Version: 0.0.1
+Summary: 🌀 Vortext is a small library allows the machine to solve Movement and Production problems using NLP toolkits
+Home-page: https://github.com/PROgramJEDI/vortext
+Author: PROgramJEDI
+Author-email: tamirglobus@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
