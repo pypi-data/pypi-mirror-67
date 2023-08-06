@@ -1,0 +1,15 @@
+qaseio-1.0.0a6-py3.8-nspkg.pth,sha256=wY3WD0aJJ9D3oZoOCUdDANtrfmDEMsYfGnG5H58JPbU,539
+qaseio/client/__init__.py,sha256=S_V1Kl5NCFbsiAD5yu1R2xbdIVLkGwniAMh7qNstSOA,1924
+qaseio/client/models.py,sha256=ogxssFDFkwXbUEm8aCZAJaVOtRJPx6NI75XFZLGX0Y8,8232
+qaseio/client/services/__init__.py,sha256=LFHRLd4oCiUjWO7RPjruAk-s0GhxqnJnVqlfh0vSsCI,1919
+qaseio/client/services/projects.py,sha256=S7ebDJugXCWdeffs_38hAgA3tAA14saIci9tWhLkoBk,913
+qaseio/client/services/results.py,sha256=nDnHjQ5MmDx1BkamSbu5ZolcjUiA-cTh5yYlL9Somp0,1774
+qaseio/client/services/runs.py,sha256=fy4CMjui3TiIyQUtEKi-Gswg-6r9ujEruvxvanh756k,1592
+qaseio/client/services/test_cases.py,sha256=EQh-E1QmelVQiV9g_l97fYRBO0iOjRs3Fz_DuG4u9TI,1160
+qaseio-1.0.0a6.dist-info/AUTHORS.rst,sha256=9BQAXBinc6bp_2JDJRJyaEooQQ97yOr6VqU3dDuqGFw,78
+qaseio-1.0.0a6.dist-info/LICENSE,sha256=VzCH_PocWanN68XZU3ugW81fBEP7jdU_mCSDpaIv-oY,11338
+qaseio-1.0.0a6.dist-info/METADATA,sha256=_89k5Ts5XGRFMfhQVS-T5X1Ys4K7ZVzGchgZScWagag,4635
+qaseio-1.0.0a6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+qaseio-1.0.0a6.dist-info/namespace_packages.txt,sha256=keRvf1O-Wqp_5utcMOmxaX_kLGqHnuamAY58LtJywl8,7
+qaseio-1.0.0a6.dist-info/top_level.txt,sha256=keRvf1O-Wqp_5utcMOmxaX_kLGqHnuamAY58LtJywl8,7
+qaseio-1.0.0a6.dist-info/RECORD,,
