@@ -1,0 +1,2 @@
+python-jose[cryptography]>=3.0.1
+stratus-api-core>=0.0.3
