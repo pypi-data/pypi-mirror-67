@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: kegbot-kegboard
+Version: 1.2.0
+Summary: Kegboard support library.
+Home-page: https://kegbot.org/
+Author: The Kegbot Project Contributors
+Author-email: info@kegbot.org
+License: MIT
+Description: This package contains the Python protocol support for Kegboard.  For more
+        information on Kegboard, see http://kegbot.org/kegboard/
+        
+Platform: UNKNOWN
