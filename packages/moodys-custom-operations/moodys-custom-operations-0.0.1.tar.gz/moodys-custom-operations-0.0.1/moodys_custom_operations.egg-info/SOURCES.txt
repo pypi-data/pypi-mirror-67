@@ -1,0 +1,8 @@
+README.md
+setup.py
+moodys-custom-operations/__init__.py
+moodys-custom-operations/custom-operations.py
+moodys_custom_operations.egg-info/PKG-INFO
+moodys_custom_operations.egg-info/SOURCES.txt
+moodys_custom_operations.egg-info/dependency_links.txt
+moodys_custom_operations.egg-info/top_level.txt
