@@ -1,0 +1,16 @@
+grafatko/__init__.py,sha256=RjkLn_lmCxplf3Q7VLS9ad2qaKo2n55KhpKUbYcRets,23408
+grafatko/animation.py,sha256=xmHOAMv1trtICjLZny0BMeF7Od5eRYJDKlmk7uOmAik,3961
+grafatko/color.py,sha256=_RFWInvOSMn172qfAjv1hcc5SFrRiDwCc4-Ydwt3XBs,3708
+grafatko/controls.py,sha256=vhx_iCv2id01b-vcPMYTir8sdRb1ZA5uELrI7Z-jX_U,3481
+grafatko/graph.py,sha256=vt6Bm5xqyhr7BtTQ5jO2ypgmtleF193HFW-pM-5a9TU,34458
+grafatko/utilities.py,sha256=qtRkplqjh-DPVVWTtOXtJG30CbyVleJWtsp-HYsnHgo,5128
+grafatko-0.2.4.data/data/DOCUMENTATION.md,sha256=s8eXJ8zOxCQLdQ-u8b6lAydPRWx4X56NsHvx-DIOTj0,9404
+grafatko-0.2.4.data/data/LICENSE.txt,sha256=sftNT4GaaYWnSNpBOxTZnW7bXGheI3LehKxNJFF-zik,1059
+grafatko-0.2.4.data/data/README.md,sha256=ZWm9FvTwhLrNKZQAEHppdEJcZXwQjORyCmrSluruem4,2597
+grafatko-0.2.4.data/data/icon.ico,sha256=elyJ_0OMzeou9d22SUXYNIuPrVfqACNCPzWP6kc-2Rc,7867
+grafatko-0.2.4.dist-info/LICENSE.txt,sha256=sftNT4GaaYWnSNpBOxTZnW7bXGheI3LehKxNJFF-zik,1059
+grafatko-0.2.4.dist-info/METADATA,sha256=jWOGZWaiX_UfagspoQpgqKR09rZ8yKp8GRg4H8tfw5w,3176
+grafatko-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+grafatko-0.2.4.dist-info/entry_points.txt,sha256=J8ttExvvWyo3hy35jXAJ03ZZRvI0MiGpdSMqbrhkkWQ,52
+grafatko-0.2.4.dist-info/top_level.txt,sha256=MtmkYxa0OOHeYc3KDVKRyODdmKQIzHewfiTwtan9dM4,9
+grafatko-0.2.4.dist-info/RECORD,,
