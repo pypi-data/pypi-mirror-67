@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: twitter-makeup
+Version: 0.0.1
+Summary: Make up your twitter profile, from 🐴 to 🦄!
+Home-page: https://github.com/nidup/twitter-makeup
+Author: Nicolas Dupont
+Author-email: duponn@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/twitter-makeup
+Description: # Make up your Twitter Profile!
+        
+        Small library to make up your twitter profile, from 🐴 to 🦄 !
+        
+Keywords: Twitter,Profile,API
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
