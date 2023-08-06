@@ -1,0 +1,7 @@
+
+        [console_scripts]
+        noia-inspector=sdn_cli:connect_sdn
+        noia-api=sdn_cli:run_api
+        noia-inspector-test=sdn_cli:run_tests
+        noia-inspector-pinger=sdn_cli:run_pinger
+    
