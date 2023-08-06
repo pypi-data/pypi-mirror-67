@@ -1,0 +1,10 @@
+setup.py
+test_vichord/Binomialdistribution.py
+test_vichord/Gaussiandistribution.py
+test_vichord/Generaldistribution.py
+test_vichord/__init__.py
+test_vichord.egg-info/PKG-INFO
+test_vichord.egg-info/SOURCES.txt
+test_vichord.egg-info/dependency_links.txt
+test_vichord.egg-info/not-zip-safe
+test_vichord.egg-info/top_level.txt
