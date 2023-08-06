@@ -1,0 +1,12 @@
+mhclovac/__init__.py,sha256=dTwHuFPf-hVOOTE5Esao4_TnQKWm9QTkK_EUxXJqyNs,62
+mhclovac/argument_parser.py,sha256=5OufzWsBrs5wkjHqLexHL0PtXYmESkHANvZB7ULQ_Lc,999
+mhclovac/mhclovac_run.py,sha256=OqVBbjI3KPCz7JrBwMrin3GKXI_ctII5D9f0Hqg60H0,1313
+mhclovac/misc.py,sha256=8IULbRFjh0nVwXxSQJJFV47fdR0muE0yE0K-pMK0c30,2738
+mhclovac/proteinko.py,sha256=2c7ULM102s9vkzEjXN0vs9HjefYVY0zkpuUKru27nzI,7213
+mhclovac/trained_models,sha256=2DRsQIh5OcE4NG5cAYRefApo-3z79OMxW3NVAPtnJdA,8908989
+mhclovac-2.1.dist-info/LICENSE,sha256=AarcPy9ZAl3U9wx5s6yOIB0ACbFCtXKiRs6Z6RoHh-U,1073
+mhclovac-2.1.dist-info/METADATA,sha256=VPaAhMoOWZLA7uY5FjeigcwM-9iKMaW25AjMnsMwUP4,2968
+mhclovac-2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mhclovac-2.1.dist-info/entry_points.txt,sha256=HEPHwUDt114m0Fkc0aGMl2HW7KOEoylar1l4Z0nVytM,57
+mhclovac-2.1.dist-info/top_level.txt,sha256=QDdKVvD48nyxCAlr4PW4VEBikPwpIGPMNHnGSHUwnyo,9
+mhclovac-2.1.dist-info/RECORD,,
