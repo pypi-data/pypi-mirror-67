@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: quasicode
+Version: 0.0.1
+Summary: the best programming language around.
+Home-page: https://github.com/witling/quasicode
+Author: witling
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Requires-Dist: dill
+
+UNKNOWN
+
+
