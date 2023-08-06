@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+kedro_pandas_profiling/__init__.py
+kedro_pandas_profiling/plugin.py
+kedro_pandas_profiling.egg-info/PKG-INFO
+kedro_pandas_profiling.egg-info/SOURCES.txt
+kedro_pandas_profiling.egg-info/dependency_links.txt
+kedro_pandas_profiling.egg-info/entry_points.txt
+kedro_pandas_profiling.egg-info/requires.txt
+kedro_pandas_profiling.egg-info/top_level.txt

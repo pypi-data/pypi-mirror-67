@@ -1,0 +1,3 @@
+[kedro.project_commands]
+profiling = kedro_pandas_profiling.plugin:commands
+
