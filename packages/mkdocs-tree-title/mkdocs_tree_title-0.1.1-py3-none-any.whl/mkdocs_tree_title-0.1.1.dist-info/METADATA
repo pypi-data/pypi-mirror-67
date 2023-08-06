@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mkdocs-tree-title
+Version: 0.1.1
+Summary: A MkDocs plugin to add the tree titles on pages
+Home-page: https://github.com/PleatMan/mkdocs-tree-title
+Author: George B
+Author-email: pleat_man@yahoo.com
+License: MIT
+Keywords: mkdocs
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Requires-Dist: mkdocs (>=1.0.4)
+
+A MkDocs plugin that adds a tree title for each page. It is composed from the ancestors tree titles and the page title and it is set on the page as tree_title attribute.
+
+
