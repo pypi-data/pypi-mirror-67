@@ -1,0 +1,8 @@
+README.md
+bcolors.py
+pilton.py
+setup.py
+pilton.egg-info/PKG-INFO
+pilton.egg-info/SOURCES.txt
+pilton.egg-info/dependency_links.txt
+pilton.egg-info/top_level.txt
