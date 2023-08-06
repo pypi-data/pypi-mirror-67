@@ -1,0 +1,9 @@
+six>=1.9.0
+PyYAML
+bioblend>=0.10.0
+Jinja2
+galaxy-tool-util>=20.5.0.dev1
+galaxy-util>=20.1.0.dev0
+
+[:python_version < "3"]
+futures
