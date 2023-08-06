@@ -1,0 +1,17 @@
+milc.py,sha256=K85sl2KS12VoMeAifY_u_2vpQOeZbne5Cuth7exWrBo,28977
+qmk_cli/__init__.py,sha256=1JUlo3LtzUE_2DvVq_f-WVUhWD99_2-ivzSlsVJeJ8k,76
+qmk_cli/doctor.py,sha256=ur4-ZR1ie6ewfP8lzCQVEGNvYrVvR_9BHIOdnbr2w_I,2397
+qmk_cli/git.py,sha256=uHL8_PStuVmild1tEhUvYaO7NgLzhgeeeFD67ZF14qY,823
+qmk_cli/helpers.py,sha256=2fWPKNXz1JVvRUopQSVk9XmxCfMxCzuNyKcYEQ4mUPI,933
+qmk_cli/milc.py,sha256=PoV2Lcn_ARlSXxbpQ2x7kbTvnOWybmLLhKTbrUekJro,25006
+qmk_cli/script_qmk.py,sha256=cz0ZaVXd2NV_lwaG1NFCdxH2XVXLKpdjGC805hYaxg0,3218
+qmk_cli/subcommands/__init__.py,sha256=HvkXbVI7XwXAsQRm_jIcB58wZ8x5XAA5Hwh9S4skQi0,191
+qmk_cli/subcommands/clone.py,sha256=7GYMGBXzrqyoY5nzkTDSr1f9X1yK8upzIhmJ3YbVOL0,1217
+qmk_cli/subcommands/doctor.py,sha256=33-tOwHpxUE43uc-0O3q8dlFv59lMkqKOMK4cwBz154,682
+qmk_cli/subcommands/setup.py,sha256=dPScWnAl0Qut3_2m_DpXf1N1NzduoeFQlfIuF-zoaOI,2567
+qmk-0.0.34.dist-info/LICENSE,sha256=3LPZuhhBM7kMJEYQDC_h0FjzGuzLcc5wfU4Ke-Sr798,1060
+qmk-0.0.34.dist-info/METADATA,sha256=Pj_24YB_Ty6j4A6JY6ENTR8M1WNd9MysvnS4H1iKzO0,1619
+qmk-0.0.34.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+qmk-0.0.34.dist-info/entry_points.txt,sha256=qVCr5lD06pgYhjiZ9X9gtO1pQOoIpBI2nCR6GJmfT_4,49
+qmk-0.0.34.dist-info/top_level.txt,sha256=T6IYL6Zf19AJem99WzcVd2RTIAEWXT_mO6_FqMXreNI,13
+qmk-0.0.34.dist-info/RECORD,,
