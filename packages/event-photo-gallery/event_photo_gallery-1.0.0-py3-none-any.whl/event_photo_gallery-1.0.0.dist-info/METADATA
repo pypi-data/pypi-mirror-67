@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: event-photo-gallery
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Jeff Caffrey-Hill
+Author-email: jeff@reverentengineer.com
+License: UNKNOWN
+Platform: all
+Requires-Dist: Flask
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: Flask-Login
+Requires-Dist: pillow
+Requires-Dist: piexif
+
+UNKNOWN
+
+
