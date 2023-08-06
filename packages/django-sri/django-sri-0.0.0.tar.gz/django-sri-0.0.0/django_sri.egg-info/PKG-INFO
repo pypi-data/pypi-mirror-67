@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-sri
+Version: 0.0.0
+Summary: Subresource Integrity for Django
+Home-page: https://github.com/RealOrangeOne/django-sri
+Author: Jake Howard
+License: BSD
+Description: # django-sri
+        
+        ![CI](https://github.com/RealOrangeOne/django-sri/workflows/CI/badge.svg)
+        
+        Subresource Integrity for Django
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
