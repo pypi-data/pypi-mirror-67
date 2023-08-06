@@ -1,0 +1,6 @@
+requests
+chardet
+lxml
+yaml
+pyyaml
+numpy
