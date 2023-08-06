@@ -1,0 +1,16 @@
+README.md
+setup.py
+staticsql/__init__.py
+staticsql/api.py
+staticsql/database.py
+staticsql/entity.py
+staticsql/sql.py
+staticsql/util.py
+staticsql.egg-info/PKG-INFO
+staticsql.egg-info/SOURCES.txt
+staticsql.egg-info/dependency_links.txt
+staticsql.egg-info/top_level.txt
+tests/__init__.py
+tests/test_complex_sql.py
+tests/test_json.py
+tests/test_simple_sql.py
