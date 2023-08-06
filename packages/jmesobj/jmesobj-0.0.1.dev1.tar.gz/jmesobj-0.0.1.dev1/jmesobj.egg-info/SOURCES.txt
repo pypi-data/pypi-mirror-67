@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+jmesobj/__init__.py
+jmesobj/version.py
+jmesobj.egg-info/PKG-INFO
+jmesobj.egg-info/SOURCES.txt
+jmesobj.egg-info/dependency_links.txt
+jmesobj.egg-info/not-zip-safe
+jmesobj.egg-info/requires.txt
+jmesobj.egg-info/top_level.txt
