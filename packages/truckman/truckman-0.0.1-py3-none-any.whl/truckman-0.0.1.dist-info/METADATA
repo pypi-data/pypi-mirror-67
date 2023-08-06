@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: truckman
+Version: 0.0.1
+Summary: Save and load Docker named volumes.
+Home-page: https://github.com/Tsuribori/truckman
+Author: Tsuribori
+Author-email: tsuribori@tutanota.com
+License: UNKNOWN
+Keywords: docker volume save load backup transfer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: docker
+
+## Truckman
+
+Simpler backing-up of named Docker volumes to tar archives and unpacking of them
+into new named Docker volumes.
+
+### Save a volume
+
+`truckman --save volume_name > archive.tar`
+
+### Load a volume
+
+`truckman --load archive.tar --name volume_name`
+
+
