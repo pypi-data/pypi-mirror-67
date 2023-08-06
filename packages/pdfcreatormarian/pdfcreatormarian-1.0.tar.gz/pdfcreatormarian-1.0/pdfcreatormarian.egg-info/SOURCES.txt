@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdfcreator/__init__.py
+pdfcreator/pdf2image.py
+pdfcreator/pdf2text.py
+pdfcreatormarian.egg-info/PKG-INFO
+pdfcreatormarian.egg-info/SOURCES.txt
+pdfcreatormarian.egg-info/dependency_links.txt
+pdfcreatormarian.egg-info/top_level.txt
