@@ -1,0 +1,8 @@
+README.md
+setup.py
+dockerclassifier/__init__.py
+dockerclassifier/classify.py
+dockerclassifier.egg-info/PKG-INFO
+dockerclassifier.egg-info/SOURCES.txt
+dockerclassifier.egg-info/dependency_links.txt
+dockerclassifier.egg-info/top_level.txt
