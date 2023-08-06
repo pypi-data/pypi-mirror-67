@@ -1,0 +1,17 @@
+README.rst
+setup.py
+src/dadosgerais.py
+src/fcf.py
+src/hidr.py
+src/interc.py
+src/mddh.py
+src/planerg.py
+src/pmo.py
+src/resequiv.py
+src/submercado.py
+src/term.py
+src/hellotest_eduardo.egg-info/PKG-INFO
+src/hellotest_eduardo.egg-info/SOURCES.txt
+src/hellotest_eduardo.egg-info/dependency_links.txt
+src/hellotest_eduardo.egg-info/requires.txt
+src/hellotest_eduardo.egg-info/top_level.txt
