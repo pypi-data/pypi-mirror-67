@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: colored_logs
+Version: 0.0.2
+Summary: A colored logs package based on 'colored'
+Home-page: https://github.com/kkristof200/ColoredLogs
+Author: Kovács Kristóf-Attila
+License: UNKNOWN
+Description: # ColoredLogs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
