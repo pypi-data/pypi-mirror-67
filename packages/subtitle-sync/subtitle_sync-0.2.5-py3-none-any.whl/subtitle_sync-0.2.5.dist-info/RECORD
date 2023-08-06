@@ -1,0 +1,12 @@
+subtitle_sync/formatText.py,sha256=IyB8XGSfuOoT6d82L8yrx5ViETTFCsn8l9QXeO0yqAc,5798
+subtitle_sync/markScriptWithRareWordsTimestamp.py,sha256=piSBiNEf8yQ87k-9-tSonAeyHtNWDOuKsFur5Pkw5OY,4336
+subtitle_sync/sync.py,sha256=9PmxeI1V9k279uwB0MtTI3DmkNC1bNLlh6zKVpCjX3Q,3163
+subtitle_sync/utils/fillTimetamps.py,sha256=R_sQlIOwyq0e9p2VC8piVpvwfrxS88I5q6IOWnCiLX4,4472
+subtitle_sync/utils/furtherSyncScript.py,sha256=amCicPuR50z0S9MxbK3Uz9S8F1zVD9u1-6EPQrUFYZo,2742
+subtitle_sync/utils/getMatchingDistinctWords.py,sha256=fBIoY9J0PSKwuWRpiuxw0qJg2T2m62y3JAj-tj7oqKw,9042
+subtitle_sync/utils/removeStopWords.py,sha256=ZJlMRlT0lYHwyXMpEEbA1CIVSz_jiebMqK4G67MoiL4,987
+subtitle_sync/utils/tagTimestampToScript.py,sha256=bkg0WgRPtbZvdPfywAQbY9RqgWoD4N-yarzHxzPi_x8,2260
+subtitle_sync/utils/traverseDialogue.py,sha256=JCx0Zt86y_xeYdpSTLSoEeMHi8KBHdTisagpTCLn89k,348
+subtitle_sync-0.2.5.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+subtitle_sync-0.2.5.dist-info/METADATA,sha256=72hM-011hsQvvFA3poPSXH7zcp_5nrRzoZZl-QAhlzo,488
+subtitle_sync-0.2.5.dist-info/RECORD,,
