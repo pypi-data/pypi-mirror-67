@@ -1,0 +1,15 @@
+README.md
+setup.py
+yades_api/__init__.py
+yades_api/__main__.py
+yades_api/app.py
+yades_api/helpers.py
+yades_api/middlewares.py
+yades_api/routes.py
+yades_api/views.py
+yades_api.egg-info/PKG-INFO
+yades_api.egg-info/SOURCES.txt
+yades_api.egg-info/dependency_links.txt
+yades_api.egg-info/entry_points.txt
+yades_api.egg-info/requires.txt
+yades_api.egg-info/top_level.txt
