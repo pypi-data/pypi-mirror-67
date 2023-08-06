@@ -1,0 +1,12 @@
+flection_dictionary/DictLib.py,sha256=Gyfi9MBpD4HpjkooaWTRVij4W3GE6Y2B9uoDOLVkZEk,12494
+flection_dictionary/Filters.py,sha256=709IPq2xLO2uFFEQLanhT3-KF5VnEC2Kl4jD53bZfHQ,2345
+flection_dictionary/Labels.py,sha256=GC4dR0KZjE1Gkhv87pYL1H6SZPJEfvxD5mM14GZOayE,18001
+flection_dictionary/Lexeme.py,sha256=_uK9Cmai3ReWZ3Q4RnBTi7F-nCGJeQFOLGyiOKj3MDk,10199
+flection_dictionary/Parser.py,sha256=1YJ3YD79RoKYpNY6Pv5sMuhfDkjyOvVi2cf0ZtdOqK4,2777
+flection_dictionary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flection_dictionary/main.py,sha256=A2-au1OF7tK7W0aVbfkImzn83GtrkxVbb-plpVnOt24,755
+flection_dict-0.0.1.dist-info/LICENSE,sha256=eAt2ftHS4B6NkLMLp3J2Mez7ErOSHGX0Jf6MArhID9o,1080
+flection_dict-0.0.1.dist-info/METADATA,sha256=H6nV4yhBdCk2mht6BSjDd-lwTU6ZTUO3acNZ6VYXJDE,574
+flection_dict-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+flection_dict-0.0.1.dist-info/top_level.txt,sha256=h7zAE-2-grnAROO9fsaY3A60htp6vSW6NZjbcT7a4zQ,20
+flection_dict-0.0.1.dist-info/RECORD,,
