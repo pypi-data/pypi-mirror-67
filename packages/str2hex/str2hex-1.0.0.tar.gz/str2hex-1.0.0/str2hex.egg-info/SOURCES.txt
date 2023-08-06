@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/str2hex.py
+str2hex.egg-info/PKG-INFO
+str2hex.egg-info/SOURCES.txt
+str2hex.egg-info/dependency_links.txt
+str2hex.egg-info/requires.txt
+str2hex.egg-info/top_level.txt
