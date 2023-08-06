@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+* Switched to instance properties
+* Setting description content-type
+* Adding PyPi badge
+* Renaming project on PyPi
+* Adding secretstorage to Pipfile
+* Disabling Keyring on Linux
+* Updated license
+* Deploy to PyPi using CircleCI
+* Initial Engine
+* Initial commit
