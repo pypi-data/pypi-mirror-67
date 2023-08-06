@@ -1,0 +1,10 @@
+setup.py
+distgaubin/Binomialdistribution.py
+distgaubin/Gaussiandistribution.py
+distgaubin/Generaldistribution.py
+distgaubin/__init__.py
+distgaubin.egg-info/PKG-INFO
+distgaubin.egg-info/SOURCES.txt
+distgaubin.egg-info/dependency_links.txt
+distgaubin.egg-info/not-zip-safe
+distgaubin.egg-info/top_level.txt
