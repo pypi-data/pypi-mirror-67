@@ -1,0 +1,9 @@
+README.md
+setup.py
+Skyforce.egg-info/PKG-INFO
+Skyforce.egg-info/SOURCES.txt
+Skyforce.egg-info/dependency_links.txt
+Skyforce.egg-info/top_level.txt
+skyforce/__init__.py
+skyforce/error.py
+skyforce/skyforce.py
