@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tesla-powerwall-controller
+Version: 0.1
+Summary: Python controller for reading tesla powerwall status
+Home-page: https://github.com/samtherussell/tesla-powerwall-controller
+Author: samtherussell
+License: UNKNOWN
+Description: # Tesla powerwall controller (Unofficial)
+        
+        Python wrapper around some of the basic powerwall api calls
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
