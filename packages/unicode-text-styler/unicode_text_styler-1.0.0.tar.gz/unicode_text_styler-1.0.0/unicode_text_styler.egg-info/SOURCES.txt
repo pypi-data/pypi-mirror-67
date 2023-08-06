@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+text_styler/__init__.py
+text_styler/test.py
+text_styler/text_styler.py
+unicode_text_styler.egg-info/PKG-INFO
+unicode_text_styler.egg-info/SOURCES.txt
+unicode_text_styler.egg-info/dependency_links.txt
+unicode_text_styler.egg-info/top_level.txt
