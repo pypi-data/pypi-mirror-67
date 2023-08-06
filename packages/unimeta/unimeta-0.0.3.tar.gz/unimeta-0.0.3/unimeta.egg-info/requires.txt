@@ -1,0 +1,10 @@
+devtools
+mysql-replication
+pydantic
+aiokafka
+loguru
+sqlalchemy
+faker
+databases
+clickhouse_driver
+mysqlclient
