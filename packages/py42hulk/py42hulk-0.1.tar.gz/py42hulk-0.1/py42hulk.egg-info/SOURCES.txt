@@ -1,0 +1,9 @@
+README.md
+setup.py
+py42hulk/__init__.py
+py42hulk/py42hulk.py
+py42hulk.egg-info/PKG-INFO
+py42hulk.egg-info/SOURCES.txt
+py42hulk.egg-info/dependency_links.txt
+py42hulk.egg-info/not-zip-safe
+py42hulk.egg-info/top_level.txt
