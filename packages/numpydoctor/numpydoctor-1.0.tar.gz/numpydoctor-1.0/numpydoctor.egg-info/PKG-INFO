@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: numpydoctor
+Version: 1.0
+Summary: Completion, correction, and checking of numpydoc-style docstrings in Python.
+Home-page: https://gitlab.com/krampus/numpydoctor
+Author: Rob Kelly
+Author-email: contact@robkel.ly
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Provides-Extra: testing
+Provides-Extra: develop
+Provides-Extra: complete
