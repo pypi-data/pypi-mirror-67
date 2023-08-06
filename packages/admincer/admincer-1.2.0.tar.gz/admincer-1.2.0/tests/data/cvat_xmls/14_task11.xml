@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <image id="0" name="task11/1_cut_0.png" width="1351" height="1351">
+    <box label="bannerad" occluded="0" xtl="233.12" ytl="714.40" xbr="962.29" ybr="804.93">
+    </box>
+  </image>
+  <image id="1" name="task11/1_cut_1.png" width="1351" height="1351">
+    <box label="textad" occluded="0" xtl="975.50" ytl="460.93" xbr="1278.31" ybr="711.11">
+    </box>
+  </image>
+</annotations>

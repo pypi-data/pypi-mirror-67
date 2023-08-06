@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <image id="0" name="task12/5_cut_1.png" width="1351" height="1351">
+    <box label="popupad" occluded="0" xtl="975.50" ytl="256.83" xbr="1219.06" ybr="467.50">
+    </box>
+  </image>
+  <image id="2" name="task12/2_cut_0.png" width="1351" height="1351">
+    <box label="bannerad" occluded="0" xtl="957.35" ytl="806.58" xbr="1261.80" ybr="1348.10">
+    </box>
+  </image>
+</annotations>
