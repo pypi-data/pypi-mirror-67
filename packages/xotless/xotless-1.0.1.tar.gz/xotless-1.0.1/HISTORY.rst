@@ -1,0 +1,21 @@
+=========
+ History
+=========
+
+First releases 1.0
+==================
+
+2020-04-29.  Release 1.0.1
+--------------------------
+
+This release only contains packaging fixes to make the distribution compliant
+with PEP :pep:`561`.
+
+
+2020-04-29.  Release 1.0.0
+--------------------------
+
+The first release including the code extracted from a bigger project.  Modules
+available are `xotless.ranges`:mod:, `xotless.tress`:mod:,
+`xotless.domains`:mod:, `xotless.itertools`:mod:, `xotless.immutables`:mod:,
+and `xotless.pickablenv`:mod:.
