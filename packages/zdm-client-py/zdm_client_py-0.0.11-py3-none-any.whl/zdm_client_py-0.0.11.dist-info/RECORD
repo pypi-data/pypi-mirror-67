@@ -1,0 +1,13 @@
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_device.py,sha256=l-iEWKE3SJP5KSRAo719mC1lLQWpXSZR2vKfPyRH7tE,190
+usr/share/zdm/examples/01_basic.py,sha256=KfuAU8_4MgyK9g7ftnkaX3dzNYGm6c2kaz8nnkbDESM,1769
+usr/share/zdm/examples/02_jobs.py,sha256=efY78pkiI0sR6nHJYn4qPUpz_U9WeDzKwadnA9G5jWY,1706
+zdm/__init__.py,sha256=_n-CFv-F7_k0LCWs_MK9BhaZlRakp3pEvpiR4DvQGbA,40
+zdm/logging.py,sha256=X6I29KJ2ITxRea7CBcyUwsV59_qvsL62vGb_p5HMK0M,1163
+zdm/device/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zdm/device/mqtt.py,sha256=ywwcfSiLg4mRDekyOepgidaVTPqeRnnm0jfn1iVN4Fg,2779
+zdm/device/zdmclient.py,sha256=iH8TpDYD9S7RO9XQ54euu1XK-Y7pRgC8WZCHmV5rPqg,7420
+zdm_client_py-0.0.11.dist-info/METADATA,sha256=X_4iaQxOdbH-LxtutkTvuH4ffh27liDnMp9wISKZ3V0,2779
+zdm_client_py-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zdm_client_py-0.0.11.dist-info/top_level.txt,sha256=4c4-EqhUe9KK6K2uncgQpkZXp1q5kQZWBtZeBEiKBds,10
+zdm_client_py-0.0.11.dist-info/RECORD,,
