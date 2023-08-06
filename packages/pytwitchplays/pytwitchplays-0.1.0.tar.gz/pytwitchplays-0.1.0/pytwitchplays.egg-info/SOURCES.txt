@@ -1,0 +1,12 @@
+README.md
+setup.py
+pytwitchplays/__init__.py
+pytwitchplays/action.py
+pytwitchplays/di_keyboard_scan_codes.py
+pytwitchplays/direct_input.py
+pytwitchplays/py_twitch_plays.py
+pytwitchplays.egg-info/PKG-INFO
+pytwitchplays.egg-info/SOURCES.txt
+pytwitchplays.egg-info/dependency_links.txt
+pytwitchplays.egg-info/requires.txt
+pytwitchplays.egg-info/top_level.txt
