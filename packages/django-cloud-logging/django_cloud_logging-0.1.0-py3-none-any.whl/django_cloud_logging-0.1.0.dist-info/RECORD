@@ -1,0 +1,9 @@
+djangocircle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocircle/django_cloud_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocircle/django_cloud_logging/log_middleware.py,sha256=KzRsO1JGmfGjdaEppRIVhrCYmZQ9fwnv4FreLXUOMiU,3203
+djangocircle/django_cloud_logging/middleware.py,sha256=VSGym4c0CBPS-1hHAz9AMtjXkzy4FN8E3_6GWDAckC4,634
+django_cloud_logging-0.1.0.dist-info/LICENSE,sha256=xoESHIgXkCG-zG5QphBEL569Cpho1rqbNa8j4bFXJQY,1069
+django_cloud_logging-0.1.0.dist-info/METADATA,sha256=ItG62OUoy4Ck8U_c4GLPWNHhKEWkBt_Ga5-E3XJcYr0,634
+django_cloud_logging-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_cloud_logging-0.1.0.dist-info/top_level.txt,sha256=h39LSHGa7jtwYCWMQDNrluLNORXbfUKGZszKef8djy4,13
+django_cloud_logging-0.1.0.dist-info/RECORD,,
