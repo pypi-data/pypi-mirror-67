@@ -1,0 +1,8 @@
+aws_cdk/aws_codestarnotifications/__init__.py,sha256=lzCx0ldQJI9ShM1aGyFcOCNDfoIBdLcdstGV_MKk4Qk,14807
+aws_cdk/aws_codestarnotifications/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codestarnotifications/_jsii/__init__.py,sha256=QrVd9fdD1jEP_7l6tfe7y3lnqfmLe8SVTELH-JDJrPw,375
+aws_cdk/aws_codestarnotifications/_jsii/aws-codestarnotifications@1.36.1.jsii.tgz,sha256=3c84lJzKJRR4O4n8HZ05V83cX6WUc-iTUvplcUK-vqI,16943
+aws_cdk.aws_codestarnotifications-1.36.1.dist-info/METADATA,sha256=QtqjG5phV0cQajsTaa1cUR5rf6lP7HNgeQTTblOJ2I4,1665
+aws_cdk.aws_codestarnotifications-1.36.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_codestarnotifications-1.36.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codestarnotifications-1.36.1.dist-info/RECORD,,
