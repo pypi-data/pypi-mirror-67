@@ -1,0 +1,8 @@
+README.md
+setup.py
+MapExtrakt/__init__.py
+MapExtrakt/extractor.py
+mapextrackt.egg-info/PKG-INFO
+mapextrackt.egg-info/SOURCES.txt
+mapextrackt.egg-info/dependency_links.txt
+mapextrackt.egg-info/top_level.txt
