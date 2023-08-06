@@ -1,0 +1,7 @@
+README.md
+setup.py
+uc_daemon/__init__.py
+uc_daemon.egg-info/PKG-INFO
+uc_daemon.egg-info/SOURCES.txt
+uc_daemon.egg-info/dependency_links.txt
+uc_daemon.egg-info/top_level.txt
