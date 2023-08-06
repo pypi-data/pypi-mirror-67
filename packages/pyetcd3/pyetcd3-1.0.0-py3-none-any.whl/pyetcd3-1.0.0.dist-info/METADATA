@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyetcd3
+Version: 1.0.0
+Summary: Python etcd v3 client library
+Home-page: https://github.com/caslt/pyetcd3
+Author: Alias
+Author-email: aliasmic@live.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pyetcd3
+A python library for etcd v3
+
+
