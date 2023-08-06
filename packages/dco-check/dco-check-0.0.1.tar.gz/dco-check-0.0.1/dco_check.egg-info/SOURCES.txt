@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dco_check/__init__.py
+dco_check/dco_check.py
+dco_check.egg-info/PKG-INFO
+dco_check.egg-info/SOURCES.txt
+dco_check.egg-info/dependency_links.txt
+dco_check.egg-info/entry_points.txt
+dco_check.egg-info/top_level.txt
+dco_check.egg-info/zip-safe
