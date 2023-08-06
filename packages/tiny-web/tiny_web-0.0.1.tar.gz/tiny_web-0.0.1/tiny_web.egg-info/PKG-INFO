@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tiny-web
+Version: 0.0.1
+Summary: WSGI-compatible framework to learn how to create tiny web applications
+Home-page: UNKNOWN
+Author: Sergey Shevtsov
+Author-email: dev.serzh@gmail.com
+License: MIT
+Description: 
+        # tiny_web
+        Python WSGI micro-framework to build api/site
+        
+        TODO:
+        - [ ] Templates
+        - [ ] Exceptions
+        - [ ] Static files
+        - [ ] Middlewares
+        - [ ] Documentation
+        - [ ] Build package
+        - [ ] Dockerize and deploy demo
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
