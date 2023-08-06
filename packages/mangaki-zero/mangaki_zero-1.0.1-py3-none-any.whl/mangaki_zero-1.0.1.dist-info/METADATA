@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: mangaki-zero
+Version: 1.0.1
+Summary: Mangaki's recommandation algorithms
+Home-page: http://research.mangaki.fr
+License: GPL-3.0
+Keywords: machine learning,recommandation,mangaki,recommender systems,algorithms
+Author: Jill-Jênn Vie
+Author-email: vie@jill-jenn.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: deep
+Provides-Extra: external
+Provides-Extra: fm
+Requires-Dist: fastFM; extra == "fm"
+Requires-Dist: numpy (>=1.18,<2.0)
+Requires-Dist: pandas (>=0.25.2,<0.26.0)
+Requires-Dist: pywFM; extra == "fm"
+Requires-Dist: scikit-learn; extra == "external"
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: surprise; extra == "external"
+Requires-Dist: tensorflow; extra == "deep"
+Project-URL: Documentation, https://github.com/mangaki/zero
+Description-Content-Type: text/markdown
+
+# Zero
+
+[![Mangaki Zero's CI status](https://github.com/mangaki/zero/workflows/CI/badge.svg)](https://mangaki/zero/actions)
+[![Mangaki Zero's code coverage](https://codecov.io/gh/mangaki/zero/branch/master/graph/badge.svg)](https://codecov.io/gh/mangaki/zero)
+
+
+
+Mangaki's recommendation algorithms.
+
+It is tested on Python 3.6, 3.7 and 3.8 over OpenBLAS LP64 & MKL.
+
+## Usage
+
+Most models have the following routines:
+
+    from zero.als import MangakiALS
+    model = MangakiALS(nb_components=10)
+    model.fit(X, y)
+    model.predict(X)
+
+There are a couple of other methods that can be used for online fit, say `model.predict_single_user(work_ids, user_parameters)`.
+
+To run k-fold cross-validation, do:
+
+    python compare.py <path/to/dataset>
+
+## Results
+
+### Mangaki data
+
+![Comparing on Mangaki](results/mangaki.png)
+
+### Movielens data
+
+![Comparing on Movielens](results/movielens.png)
+
+Feel free to use. Under GPLv3 license.
+
