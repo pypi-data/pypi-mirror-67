@@ -1,0 +1,3 @@
+[console_scripts]
+manage.py = krynegger_crm.manage.py:main
+
