@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mycloudhome
+Version: 0.1
+Summary: mycloudhome - a CLI tool for wd mycloud home.
+Home-page: UNKNOWN
+Author: Yang Yu
+Author-email: yang.lights@hotmail.com
+License: MIT
+Description: # pymycloudhome
+Platform: UNKNOWN
+Requires-Python: >=3.6
