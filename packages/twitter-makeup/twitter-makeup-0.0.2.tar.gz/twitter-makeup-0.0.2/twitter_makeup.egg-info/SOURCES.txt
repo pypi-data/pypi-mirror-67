@@ -1,0 +1,8 @@
+README.md
+setup.py
+twitter_makeup/__init__.py
+twitter_makeup.egg-info/PKG-INFO
+twitter_makeup.egg-info/SOURCES.txt
+twitter_makeup.egg-info/dependency_links.txt
+twitter_makeup.egg-info/requires.txt
+twitter_makeup.egg-info/top_level.txt
