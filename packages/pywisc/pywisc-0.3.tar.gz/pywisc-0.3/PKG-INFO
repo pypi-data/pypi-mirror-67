@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pywisc
+Version: 0.3
+Summary: Wisc calculations
+Home-page: https://github.com/cluster311/pywisc
+Author: Andres Vazquez
+Author-email: andres@data99.com.ar
+License: MIT
+Description: [![Build Status](https://travis-ci.org/cluster311/pywisc.svg?branch=master)](https://travis-ci.org/cluster311/pywisc)
+        
+        # Py Wisc
+        
+        Calculos para WISC en diferentes versiones y diferentes paises.  
+        **Status**: En desarrollo. No funciona todavía.
+        
+        ## Install
+        
+        Publicado en [Pypi](https://pypi.org/project/pywisc/)
+        
+        ```
+        pip install pywisc
+        ```
+        
+        ## Tests
+        
+        ```
+        python -m pytest -s
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
