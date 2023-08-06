@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: bullattack
+Version: 0.4
+Summary: Website or Location Hacker Tool
+Home-page: https://github.com/Bhai4You/Bull-Attack
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+============================================
+``bullattack``: Website or IP location Hacker Tool
+============================================
+
+|Codacy Badge|
+|Black Badge|
+|Dependabot Badge|
+
+.. |Codacy Badge| image:: https://api.codacy.com/project/badg>
+   :target: https://github.com/Bhai4You/Bull-Attack
+   :alt: GitHub Code
+
+.. |Black Badge| image:: https://img.shields.io/badge/code%20>
+   :target: https://github.com/Bhai4You
+   :alt: Code style: Author
+
+.. |Dependabot Badge| image:: https://api.dependabot.com/badg>
+   :target: https://youtube.com/BullAnonymous
+   :alt: Youtube
+
+
+.. short-description
+
+``bullattack`` is a My First Simple Python Script, Using Bull-Attack Script we can find Website Or IP address Location..^^
+
+.. short-description-end
+
+
+
+Installation and Usage
+======================
+
+.. installation-and-usage
+
+``bullattack`` You can Easily Install Bull-Attack tool in Kali Linux or Termux by typing Simple pip command !!! :
+
+.. code-block:: console
+
+   $ pip install bullattack
+
+
+🏃 How to run Bull-Attack Tool ?
+
+.. code-block:: console
+
+   $ bullattack
+   created by Parixit Sutariya ^^
+
+
+
+.. installation-and-usage-end
+
+
+
+Getting Help
+============
+
+Have a question? Spotted a bug? File a `new issue`_!
+
+.. _new issue: https://github.com/Bhai4You/Bull-Attack/issues/new
+
+
