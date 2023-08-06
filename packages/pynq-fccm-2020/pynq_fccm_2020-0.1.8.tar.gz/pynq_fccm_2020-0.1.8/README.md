@@ -1,0 +1,47 @@
+# PYNQ FCCM Lab Material
+
+This package contains the notebooks for the PYNQ portion of the Xilinx FCCM 2020 tutorial. This getting started guide assumes you have already cloned the aws-fpga git repository and sourced the `vitis_runtime_setup.sh` script in your terminal as part of a previous lab. If not you will need to run:
+
+```
+git clone https://github.com/aws/aws-fpga.git
+source aws-fpga/vitis_runtime_setup.sh
+```
+
+
+We recommend using PYNQ and Jupyterlab in an Anaconda environment open a terminal and run the following commands
+
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+bash Anaconda3-2019.07-Linux-x86_64.sh -b
+source ~/anaconda3/bin/activate
+```
+
+With Anaconda on initialized PYNQ and the lab material can be installed using `pip` and the PYNQ `get-notebooks` command.
+
+```
+pip install pynq
+pip install pynq-fccm-2020
+pynq get-notebooks
+cd pynq-notebooks
+```
+
+Finally change into the newly created directory and launch JupyterLab
+
+```
+jupyter lab
+```
+
+This will bring up a Jupyter Lab environment you can use to complete the lab.
+
+## Companion Videos
+
+The labs can only show so much of PYNQ so we've created three short companion videos that cover topics that aren't addressed here. We recommending watching them in order, one after each notebook.
+
+ 1. [Using Multiple Devices](https://youtu.be/tk2XDW-Hpco)
+ 2. [Hardware Emulation](https://youtu.be/ylVEo0d83iM)
+ 3. [Packaging Your Designs](https://youtu.be/S2oSliWHpsA)
+
+
+## Feedback
+
+We would welcome any feedback you have on PYNQ. If you were a registered attendant for the FCCM Compute Acceleration workshop send your feedback and answers to the first two exercises for each notebook to [Peter Ogden](mailto:peter.ogden@xilinx.com) and we'll enter you into a draw for a $50 Amazon Gift Card.
