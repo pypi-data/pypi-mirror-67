@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: oddsgym
+Version: 0.5.4
+Summary: A sports betting environment for OpenAI Gym
+Home-page: https://github.com/OryJonay/Odds-Gym
+Author: Ory Jonay
+Author-email: kriegsmeister@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
