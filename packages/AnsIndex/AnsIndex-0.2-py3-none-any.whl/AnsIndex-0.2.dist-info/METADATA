@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: AnsIndex
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Karigor
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+
+
+## Installation:
+
+```
+pip install AnsIndex
+```
+
+
+## Usage:
+```python
+>>>  from AnsIndex import AnsIndex as ai
+>>>  data = "বঙ্গবন্ধু গ্রাম নাম যেন"
+>>>  ai.get_ind([data], wordSet1, idfs1, matrix1)
+```
+
+
