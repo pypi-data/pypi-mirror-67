@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: locom
+Version: 0.1
+Summary: Log Comments
+Home-page: https://github.com/ShadowCodeCz/locom
+Author: ShadowCodeCz
+Author-email: shadow.code.cz@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/ShadowCodeCz/locom
+Project-URL: Tracker, https://github.com/ShadowCodeCz/locom/issues
+Description: # locom
+        Log Comments
+        
+Keywords: log comments
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

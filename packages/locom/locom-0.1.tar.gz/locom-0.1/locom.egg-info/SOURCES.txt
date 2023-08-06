@@ -1,0 +1,7 @@
+README.md
+setup.py
+locom/__init__.py
+locom.egg-info/PKG-INFO
+locom.egg-info/SOURCES.txt
+locom.egg-info/dependency_links.txt
+locom.egg-info/top_level.txt
