@@ -1,0 +1,14 @@
+vaex/server/__init__.py,sha256=9unq0KSEU_uFqh6NUPRhEPfbuMjk4KBmBfAE6aYN25Y,204
+vaex/server/_version.py,sha256=4LHLqGsrwL1ED2SbM6ysrUWYqc9jSgodteYAcSJfPVI,71
+vaex/server/client.py,sha256=WehRYxdbpsgHQwOpnGbdlyps4-jhTeBAwQj2thujOGs,2925
+vaex/server/dataframe.py,sha256=tB-rNkZYq2g8igoRPoJVgKJZBc9TmqFIhWVH5Bn4Uio,2889
+vaex/server/dummy.py,sha256=hhdmJxWgIH_kxszXyQCrD3e7C8-N55aE321_U4rOQCQ,1963
+vaex/server/executor.py,sha256=wWS67kq06iYDaegPXwS_lByrrcEWrzHNo8mdU8IIq1k,1526
+vaex/server/service.py,sha256=3jrgsxss1h-TuKwiyKUEIfc51MK4wOYqXMZSXhzuv-A,2942
+vaex/server/tornado_client.py,sha256=sOdZSGbxnBCNJ7x8OJxpy1HuirUvw60LCF7VwMheC1Q,7371
+vaex/server/tornado_server.py,sha256=yd1IzoshEiSdj97HsmNxRtJGuewhMtZKsdp-wZA-Dvw,13619
+vaex_server-0.3.0a1.dist-info/LICENSE.txt,sha256=Ub-0nSwxfezlH092uDbwZqynm9i5wq353cMYNPy5OqY,1087
+vaex_server-0.3.0a1.dist-info/METADATA,sha256=si4QSKI5xjMnJD_p1z0vCawymDcfYWJAVxZidNz8B1w,384
+vaex_server-0.3.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vaex_server-0.3.0a1.dist-info/top_level.txt,sha256=BTcHbKEpfXqVlITrjFEtm95UDejFyYXslGl9YUqTIpc,5
+vaex_server-0.3.0a1.dist-info/RECORD,,
