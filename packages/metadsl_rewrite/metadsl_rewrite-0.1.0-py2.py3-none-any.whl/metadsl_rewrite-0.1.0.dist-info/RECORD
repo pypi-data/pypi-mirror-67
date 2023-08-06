@@ -1,0 +1,9 @@
+metadsl_rewrite/__init__.py,sha256=AVY0VhSdFvb5ywuu0QtNnaXu6MqF5t-8XFSQlGUtPOY,494
+metadsl_rewrite/combinators.py,sha256=1oTJT0RmCQ5WxHvmyOnWzMJdhnEFNQOyCdW9VX-MYWY,3556
+metadsl_rewrite/normalize.py,sha256=DaoY-vIx9vmHJmemGSoDcqOp0o6xS9voFyllqLgklDk,3932
+metadsl_rewrite/rules.py,sha256=FW47NUR34RPbOsvjMUpwS2-QK6CV5AskMB6_gE_Fcyc,18033
+metadsl_rewrite/rules_test.py,sha256=LmWQp0VZU7X156EKJOfNM6wIHGYTg2T41GppzexUtPU,15291
+metadsl_rewrite/strategies.py,sha256=uxtYSh1dXrc-AtuLwyR09EpuarBp_9r0ZGb0bt04BPc,2221
+metadsl_rewrite-0.1.0.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+metadsl_rewrite-0.1.0.dist-info/METADATA,sha256=SU57p4Qsn5k3dThiBm55xJ9jviIKdu_dNVK0yE18cPc,526
+metadsl_rewrite-0.1.0.dist-info/RECORD,,
