@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: Electrum-Zcash-Random-Fork
+Version: 3.1.3b5
+Summary: Lightweight Zcash Wallet
+Home-page: https://github.com/zebra-lucky/electrum-zcash
+Author: Thomas Voegtlin
+Author-email: thomasv@electrum.org
+License: MIT License
+Platform: UNKNOWN
+Provides-Extra: full
+Requires-Dist: pyaes (>=0.1a1)
+Requires-Dist: ecdsa (>=0.9)
+Requires-Dist: pbkdf2
+Requires-Dist: requests
+Requires-Dist: qrcode
+Requires-Dist: protobuf
+Requires-Dist: dnspython
+Requires-Dist: jsonrpclib-pelix
+Requires-Dist: PySocks (>=1.6.6)
+Requires-Dist: pyblake2
+Provides-Extra: full
+Requires-Dist: Cython (>=0.27); extra == 'full'
+Requires-Dist: trezor (>=0.9.0); extra == 'full'
+Requires-Dist: keepkey; extra == 'full'
+Requires-Dist: btchip-python; extra == 'full'
+Requires-Dist: pycryptodomex; extra == 'full'
+
+Lightweight Zcash Wallet
+
+
