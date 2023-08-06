@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "mcrpc"
+version = "2.0.6.0"
+description = "mcrpc: MultiChain RPC Library"
+authors = ["titusz <tp@py7.de>"]
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/coblo/mcrpc"
+repository = "https://github.com/coblo/mcrpc"
+keywords = ["mcrpc", "coblo", "client", "rpc", "multichain", "api", "content blockchain"]
+
+classifiers=[
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.23.0"
+configobj = "^5.0.6"
+appdirs = "^1.4.3"
+simplejson = "^3.17.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.0"
+black = { version = "^19.10b0", python = "^3.6" }
+
+[tool.black]
+target-version = ['py36']
+
+[build-system]
+requires = ["poetry>=1.0.5"]
+build-backend = "poetry.masonry.api"
