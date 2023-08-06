@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: luh3417
+Version: 0.1.4
+Summary: A WordPress backup/restore/workflow tool
+License: WTFPL
+Author: Rémy Sanchez
+Author-email: remy.sanchez@hyperthese.net
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: apache-libcloud (>=2.0,<3.0)
+Requires-Dist: coloredlogs (>=9.0)
