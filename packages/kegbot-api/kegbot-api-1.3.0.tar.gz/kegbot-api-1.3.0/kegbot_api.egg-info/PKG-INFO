@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kegbot-api
+Version: 1.3.0
+Summary: Kegbot API client library.
+Home-page: https://kegbot.org/
+Author: The Kegbot Project Contributors
+Author-email: info@kegbot.org
+License: MIT
+Description: # kegbot-api
+        
+        The is the Kegbot API support library.
+        
+        Homepage: https://github.com/Kegbot/kegbot-api
+        
+        For documentation and more information, see https://kegbot.org/docs
+        
+        ## License and Copyright
+        
+        All code is offered under the **MIT** license, unless otherwise noted.  Please
+        see `LICENSE.txt` for the full license.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
