@@ -1,0 +1,7 @@
+README.md
+setup.py
+rfile.egg-info/PKG-INFO
+rfile.egg-info/SOURCES.txt
+rfile.egg-info/dependency_links.txt
+rfile.egg-info/top_level.txt
+scripts/rfile

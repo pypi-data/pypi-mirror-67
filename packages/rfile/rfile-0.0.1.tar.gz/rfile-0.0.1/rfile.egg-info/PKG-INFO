@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rfile
+Version: 0.0.1
+Summary: A package to make R installed packages somewhat portable
+Home-page: https://github.com/invisiblethreat/rfile
+Author: Scott Walsh
+Author-email: scott@invisiblethreat.ca
+License: UNKNOWN
+Description: # rfile
+        
+        `rfile` generates an `Rfile` to make your R package set reproducable, similar to
+        how `Gemfile` and `Brewfile` work.
+        
+        ## Current Functionality
+        
+        Currently, only reading and writing from the current directory is supported. The
+        current mirror for CRAN is hardcoded to `http://cran.us.r-project.org`.
+        
+        ## Usage
+        
+        ### Generate an `Rfile`
+        
+        `rfile` will create an `Rfile` with a list of installed packages in the currnet
+        working directory. This will cover both CRAN and Github packages. You can then
+        include this file in something similar to a "dotfiles" repository for easy
+        portability.
+        
+        ### Install packages from an `Rfile`
+        
+        Run `rfile` in the same directory as the `Rfile`. That's it.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
