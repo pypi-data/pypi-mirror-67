@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bacphlip/__init__.py
+bacphlip/__main__.py
+bacphlip/bacphlip.py
+bacphlip.egg-info/PKG-INFO
+bacphlip.egg-info/SOURCES.txt
+bacphlip.egg-info/dependency_links.txt
+bacphlip.egg-info/entry_points.txt
+bacphlip.egg-info/requires.txt
+bacphlip.egg-info/top_level.txt
