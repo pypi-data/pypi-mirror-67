@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyextmath-selcukwashere
+Version: 0.0.1
+Summary: A library for easier maths
+Home-page: https://github.com/selcukwashere/pyextmath
+Author: Selcuk Oz
+Author-email: selcukoz_2005@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyautogui
+
+# Pyextmath
+
+* This is a mathematical Python package.
+* This is the alpha version of this Python package.
+* This package will be developed.
+
