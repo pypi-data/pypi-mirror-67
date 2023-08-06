@@ -1,0 +1,4 @@
+psycopg2-binary>=2.8.3
+PyYAML>=5.1.2
+Flask>=1.1.2
+pg_chameleon>=2.0

@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: pg_chameleon_web
+Version: 0.1.dev0
+Summary: Web interface for pg_chameleon
+Home-page: https://gitlab.com/the4thdoctor/pg_chameleon_web
+Author: Federico Campoli
+Author-email: the4thdoctor.gallifrey@gmail.com
+Maintainer: Federico Campoli
+Maintainer-email: the4thdoctor.gallifrey@gmail.com
+License: BSD License
+Description: # pg_chameleon_web
+        
+        pg_chameleon web interface based on flask for statistic and more
+        
+Keywords: postgresql replica migration flask web
+Platform: linux
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Other/Nonlisted Topic
+Requires-Python: >=3.6
