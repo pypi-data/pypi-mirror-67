@@ -1,0 +1,16 @@
+pytest_soft_asserts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_soft_asserts/exceptions.py,sha256=g_P20Zn6kLKAWzARNQMZ16iWaB1t0Z0mRsGgzMGkMtQ,47
+pytest_soft_asserts/plugin.py,sha256=yHYyDCA3M7XE9WjGzRfHo9tbbX8L-iSgBlrCpffvre0,554
+pytest_soft_asserts/transformer.py,sha256=O-PDHA8CJ3pxtGOvDVbRTFWPUH2fZ6hzEDSuWfgbYKY,2276
+pytest_soft_asserts/utils.py,sha256=tAPO4Jj7qImaz7ooC0z-Uj-M14nFE2HP2KpBZg9aKXo,781
+pytest_soft_asserts/libassert/__init__.py,sha256=MCXMGws5fpEDvgvJw1JUiUkU-W90Z6KVzk0lJDndmUU,68
+pytest_soft_asserts/libassert/lib.py,sha256=85aR2f_XSADp8u_Lquj7qd9xJkFO_a1ND-T-3zzLGFM,1427
+pytest_soft_asserts/libassert/models.py,sha256=hD0qqIGeDqK5DGSBxU47l6ObeEo7qInz_yFvPitSgro,729
+pytest_soft_asserts/table/__init__.py,sha256=6IYfX-stq9Kn-soXN9poAwnwp5JAd0lMRYgkVjFlaO4,65
+pytest_soft_asserts/table/row.py,sha256=_66IyKPVyD03sjeQQDZ2n5Y5a4vMgHU26KK155nQSWo,586
+pytest_soft_asserts/table/utils.py,sha256=DO-idCiEUMlRND3c5t-Ijzsr0W4JdTEyW2oKzzpu_28,1030
+pytest_soft_assertions-0.1.1.dist-info/METADATA,sha256=UOKQargs9xGiB5EHuzeAotD5adz-dpuuHEoGpSAUxBk,4621
+pytest_soft_assertions-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pytest_soft_assertions-0.1.1.dist-info/entry_points.txt,sha256=rkUnN5zvNkiJeeGS_lhVLyP-PQ8sm4Z4SHHeDFddSU0,61
+pytest_soft_assertions-0.1.1.dist-info/top_level.txt,sha256=CiFvA2HyJNh-C9mQmaSrkPkZIKL0ZYgasIo7Z3yeX-o,20
+pytest_soft_assertions-0.1.1.dist-info/RECORD,,
