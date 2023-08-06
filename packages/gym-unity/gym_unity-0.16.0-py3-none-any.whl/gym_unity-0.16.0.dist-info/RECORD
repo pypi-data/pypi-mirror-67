@@ -1,0 +1,6 @@
+gym_unity/__init__.py,sha256=IX0ROXaD1ywhL1vqdXC3gg1wGEqEzBEV6HW_PWpFBNM,193
+gym_unity/envs/__init__.py,sha256=bfKxzD3qU5U_pov6R6bpUQpQcmfFQOWwq8igSGaJwMI,12341
+gym_unity-0.16.0.dist-info/METADATA,sha256=yl4mEq67HtvdLdlkaG34rf70sHiR3o8ncsjV-PLK1ls,345
+gym_unity-0.16.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gym_unity-0.16.0.dist-info/top_level.txt,sha256=QztU3OP9NEYaM7iCPYfO7o_sEmwUlau9oOQvwJJEpqs,10
+gym_unity-0.16.0.dist-info/RECORD,,
