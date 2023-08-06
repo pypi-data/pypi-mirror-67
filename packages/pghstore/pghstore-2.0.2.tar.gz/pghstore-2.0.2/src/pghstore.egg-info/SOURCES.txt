@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+src/pghstore/__init__.py
+src/pghstore/_native.py
+src/pghstore/_speedups.c
+src/pghstore/version.py
+src/pghstore.egg-info/PKG-INFO
+src/pghstore.egg-info/SOURCES.txt
+src/pghstore.egg-info/dependency_links.txt
+src/pghstore.egg-info/requires.txt
+src/pghstore.egg-info/top_level.txt
