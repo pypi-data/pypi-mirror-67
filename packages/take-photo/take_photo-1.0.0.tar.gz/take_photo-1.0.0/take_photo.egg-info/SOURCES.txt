@@ -1,0 +1,10 @@
+README.md
+setup.py
+take_photo/__init__.py
+take_photo/__main__.py
+take_photo/take_photo.py
+take_photo.egg-info/PKG-INFO
+take_photo.egg-info/SOURCES.txt
+take_photo.egg-info/dependency_links.txt
+take_photo.egg-info/requires.txt
+take_photo.egg-info/top_level.txt
