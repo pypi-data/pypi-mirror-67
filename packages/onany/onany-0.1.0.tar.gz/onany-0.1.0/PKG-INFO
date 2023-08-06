@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: onany
+Version: 0.1.0
+Summary: Event manager library
+Home-page: https://github.com/vinyguedess/onany
+Author: Vinicius Guedes
+Author-email: viniciusgued@gmail.com
+License: MIT
+Download-URL: https://github.com/vinyguedess/onany/archive/master.zip
+Description: # OnAny... thing happening
+Keywords: event,events,listener,dispatch
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
