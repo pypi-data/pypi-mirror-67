@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+gopen.py
+package.json
+requirements.txt
+setup.py
+gopen.egg-info/PKG-INFO
+gopen.egg-info/SOURCES.txt
+gopen.egg-info/dependency_links.txt
+gopen.egg-info/requires.txt
+gopen.egg-info/top_level.txt
