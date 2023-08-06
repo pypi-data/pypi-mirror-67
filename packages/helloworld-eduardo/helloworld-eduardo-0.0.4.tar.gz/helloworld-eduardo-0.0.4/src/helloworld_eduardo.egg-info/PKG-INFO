@@ -1,0 +1,38 @@
+Metadata-Version: 1.2
+Name: helloworld-eduardo
+Version: 0.0.4
+Summary: Hello World or name
+Home-page: https://bitbucket.org/eduardodeasousa/hello
+Author: Eduardo Sousa
+Author-email: eduardodeasousa@gmail.com
+License: MIT
+Description: TEST PURPOSES ONLY
+        =============================
+        
+        This package is a test only purpose.
+        
+        Installation
+        =============================
+        
+        pip install helloworld
+        
+        Usage
+        =============================
+        
+        from hello import say_hello
+        
+        say_hello('your name')
+Keywords: helloworld
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
