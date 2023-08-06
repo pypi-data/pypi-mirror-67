@@ -1,0 +1,12 @@
+xpathwrapper/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xpathwrapper/baseI.py,sha256=uKS2JXnO87BQ9Nbp3cCeUW3pHMTOkwdxtNh8Flx-Yc8,9628
+xpathwrapper/basec.py,sha256=aJVdAoNjV3QRX1PCAIr8f-RMaCw0HVtx4ooSR8-leLk,9831
+xpathwrapper/basef.py,sha256=P0FLAo0pBX8PIl1cBKJa_BiKuLRBeX3J3MtfSO2QH4o,9832
+xpathwrapper/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpathwrapper/drivers/example/1.py,sha256=eKgonDMlEJGEX6OuBsnZH3XuUPhYnPB6EEZwaTnIdqo,177
+xpathwrapper/drivers/example/2.py,sha256=T1d1LYXdWjzQuBmh_d5dhLUo4CfgblWkonOo2fleclU,19
+xpathwrapper/drivers/example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpathwrapper-1.1.dist-info/METADATA,sha256=85Y3MMoTtHl7HwVgj34v45ox0GSLm4tVgD35c2A6qIU,9334
+xpathwrapper-1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+xpathwrapper-1.1.dist-info/top_level.txt,sha256=-GrEyExHXLv_9_pFKPPWjfH6BkTF0MmzeB6QxIXolwY,13
+xpathwrapper-1.1.dist-info/RECORD,,
