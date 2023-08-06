@@ -1,0 +1,10 @@
+famafrench/__init__.py,sha256=R2MITy6UdOjc6vzGUk47RFopvCCirw2W0Mnxr_dG6LQ,1407
+famafrench/famafrench.py,sha256=Sn-mw4CekPC16Hlh6G0ZgiQb59yF9yunc3EBDuaq6yo,319381
+famafrench/utils.py,sha256=HVqvcZtSNkkeZm2h62GyBJUFH1h-AS2rvcYr61vvPzo,16206
+famafrench/version.py,sha256=s-mg9swEsvnAa2kFNf_kvgGkj5-fkONDvUsEdy-3pRU,816
+famafrench/wrdsconnect.py,sha256=s2kWhIDBpHVwCj5duD42k4FWbRuD6YdG1exgKpiX4lE,8796
+famafrench-0.1.3.dist-info/LICENSE.txt,sha256=WAAIFDy97sldRpvlPAUKgOITq1dSlFjXincFSFvjniw,12688
+famafrench-0.1.3.dist-info/METADATA,sha256=gxSMfWn9YJuCmtbOO5naTZfNDBImW7DSOvQO_OyOiUs,12477
+famafrench-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+famafrench-0.1.3.dist-info/top_level.txt,sha256=ucKLPFeYX9IC-JOOabUSRuWe88HxQt-VniqmCy7_Mwk,11
+famafrench-0.1.3.dist-info/RECORD,,
