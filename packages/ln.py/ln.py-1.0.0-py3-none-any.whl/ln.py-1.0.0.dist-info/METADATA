@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ln.py
+Version: 1.0.0
+Summary: symlinks made easier
+Home-page: https://github.com/dmerejkowsky/ln.py
+License: MIT
+Author: Dimitri Merejkowsky
+Author-email: d.merej@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Shells
+Project-URL: Repository, https://github.com/dmerejkowsky/ln.py
+Description-Content-Type: text/x-rst
+
+ln.py
+=====
+
+.. image:: http://img.shields.io/pypi/v/ln.py.png
+  :target: https://pypi.python.org/pypi/ln.py
+
+You always get ``ln`` arguments in the wrong order?
+
+Then ``ln.py`` is for you.
+
+Installation
+-------------
+
+``pip3 install ln.py``
+
+API
+---
+
+Instead of cryptic ``os.symlink(src, dest)``, use :
+``ln.ln(from_=first, to=second)``
+
+Demo
+-----
+
+See ``lnp`` demo on `asciinema.org <https://asciinema.org/a/101084>`_
+
