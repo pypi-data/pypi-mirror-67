@@ -1,0 +1,15 @@
+version.py,sha256=pF8TnH2QJF8nfDmcD7oPTrAOnioy05dV4YmYDzkT5Es,22
+finglish/__init__.py,sha256=NK0d4RqHk4dNkIILZRMeB2CS7LZnDZB5E7caifdgJlc,120
+finglish/f2p-beginning.txt,sha256=_irCsOcJmpvqZ4zzEpOf7KKy-kMLABb1V0uiU1M3kHQ,389
+finglish/f2p-dict.txt,sha256=JfspD2ZHugcxRukN95WpN6rPXG8ZHd_dTM8nnxqVKeM,12355
+finglish/f2p-ending.txt,sha256=8n7ACNrWNJRH_dZT3X3r8haSrw26iOhAnm5i5lWJaDs,427
+finglish/f2p-middle.txt,sha256=T66cVOkGqp_QeFMG4OGR0oEvZM5o5wC1trnDFGjbS_8,532
+finglish/f2p.py,sha256=9AK1iGeed9FYbDJTqoJhPPrVb4kPgise0eCv1ne4Yhw,6952
+finglish/persian-word-freq.txt,sha256=BekfWuIKfdpssmC0GvxZ1F4P-IFwb5rdW3GaQ_XB_D0,7111364
+finglish/version.py,sha256=cXu5Qklt-TkM22YbYOO8jfr6COB8p2hFc2AtZc9K1Ns,22
+finglish-1.5.1.dist-info/LICENSE.txt,sha256=rYdpLr3J2_OLJJTUATXV_p6_B7RJQ3LtvDFnhypQ0Vs,1080
+finglish-1.5.1.dist-info/METADATA,sha256=7-LE3T5CwjFyMsDAKcQp2tsPxkht3c_J3-mtrV55uZA,378
+finglish-1.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+finglish-1.5.1.dist-info/entry_points.txt,sha256=xsNrvM9YlAmz1N_LNG1Lj3vp_fTUCEtNAw8LcO4AB7c,43
+finglish-1.5.1.dist-info/top_level.txt,sha256=UAnxCqCxigKprxUNSWK0HKvFXEsngwKbskNuBdWy0F8,17
+finglish-1.5.1.dist-info/RECORD,,
