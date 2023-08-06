@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: simple-neural-net
+Version: 0.1.0
+Summary: Minimal framework for creating a simple neural net
+Home-page: https://github.com/tcquinn/simple-neural-net
+Author: Theodore Quinn
+Author-email: tcquinn@tcquinn.org
+License: UNKNOWN
+Keywords: neural network,deep learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: tqdm (>=4.46)
+
+# simple_neural_net
+
+Minimal framework for creating a simple neural net
+
+## Installation
+
+`pip install simple-neural-net`
+
+## Tasks
+  * Consider changing shape of X and y inputs to match `sklearn` conventions
+  * Add method which automatically evaluates model accuracy
+  * Add cost model and prediction model for multi-class classification
+  * Add other layer geometries (will require splitting up `Layer` class)
+  * Add batching
+
+

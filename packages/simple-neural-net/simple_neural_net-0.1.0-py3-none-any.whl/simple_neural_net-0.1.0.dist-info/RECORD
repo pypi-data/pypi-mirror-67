@@ -1,0 +1,11 @@
+simple_neural_net/__init__.py,sha256=g6X9cHOPkmNR1BrKF_aGHKIC9TtSZiIxakmjbS0uLzk,225
+simple_neural_net/activation_models.py,sha256=eHdpoGZAfBYg44B0S4rPTa86HWzqGU9KRtINnVUZoys,2299
+simple_neural_net/core.py,sha256=fq1pqqhKBw0XTHMWcuYtn-gL_KL8LkUitPpB6Ji1BxY,2001
+simple_neural_net/cost_models.py,sha256=m14XpGsbhuCFtI0ojlK90rDpipUbThbED6oH6Du86Qo,2139
+simple_neural_net/layers.py,sha256=1d0D9k1uqh8Bvp6uMNrh8C3N5xPo-c81GC1G2uhhIPI,2356
+simple_neural_net/prediction_models.py,sha256=eXE5hp4wZZFwA58U_5fWEVvWOSdteu3w-Qm_rVZoAKc,555
+simple_neural_net-0.1.0.dist-info/LICENSE,sha256=zlerD_Uc52pw9S5O1KZBjRvuhEF4sDlJCR1CW3YFNOQ,1109
+simple_neural_net-0.1.0.dist-info/METADATA,sha256=ZKuoNAeVfmNIP8RJJrCNzFS6SR2We-e6m1Pa8S9W_FA,985
+simple_neural_net-0.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+simple_neural_net-0.1.0.dist-info/top_level.txt,sha256=VzJQQ3Knn9ya8aZLTofTafwc_pOtBJOG7nNu9dZSdPw,18
+simple_neural_net-0.1.0.dist-info/RECORD,,
