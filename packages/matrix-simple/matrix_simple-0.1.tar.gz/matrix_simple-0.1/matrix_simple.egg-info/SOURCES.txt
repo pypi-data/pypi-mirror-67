@@ -1,0 +1,9 @@
+setup.py
+matrix_simple/__init__.py
+matrix_simple/matrix_simple.py
+matrix_simple/test.py
+matrix_simple.egg-info/PKG-INFO
+matrix_simple.egg-info/SOURCES.txt
+matrix_simple.egg-info/dependency_links.txt
+matrix_simple.egg-info/not-zip-safe
+matrix_simple.egg-info/top_level.txt
