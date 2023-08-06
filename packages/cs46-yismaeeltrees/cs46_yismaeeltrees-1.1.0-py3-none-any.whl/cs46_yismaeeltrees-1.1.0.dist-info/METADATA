@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cs46-yismaeeltrees
+Version: 1.1.0
+Summary: Implementation of Binary Trees, BST, AVL, and Heap Tree structures
+Home-page: https://github.com/yismaeel21/trees
+Author: yismaeel21
+Author-email: yismeel21@cmc.edu
+License: GPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: hypothesis
+
+# Trees ![](https://travis-ci.com/yismaeel21/trees.svg?branch=avl)
+
+This is a homework for CMC's [CS46: data structures](https://github.com/mikeizbicki/cmc-csci046) course.
+
+
