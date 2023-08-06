@@ -1,0 +1,13 @@
+pytz
+appdirs
+more-itertools
+
+[optional]
+logzero
+cachew
+
+[testing]
+pytest
+pylint
+mypy
+pandas
