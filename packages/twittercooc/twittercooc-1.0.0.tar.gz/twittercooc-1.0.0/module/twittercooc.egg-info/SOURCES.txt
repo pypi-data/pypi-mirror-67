@@ -1,0 +1,8 @@
+setup.py
+module/storagetwitter.py
+module/twitter_new.py
+module/twittercooc.egg-info/PKG-INFO
+module/twittercooc.egg-info/SOURCES.txt
+module/twittercooc.egg-info/dependency_links.txt
+module/twittercooc.egg-info/requires.txt
+module/twittercooc.egg-info/top_level.txt
