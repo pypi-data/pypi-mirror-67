@@ -1,0 +1,5 @@
+habanero
+requests
+lxml
+python-slugify[unidecode]
+pybtex
