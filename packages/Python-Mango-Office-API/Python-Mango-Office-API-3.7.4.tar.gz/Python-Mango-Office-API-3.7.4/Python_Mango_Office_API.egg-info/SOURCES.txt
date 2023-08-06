@@ -1,0 +1,8 @@
+README.md
+setup.py
+Python_Mango_Office_API.egg-info/PKG-INFO
+Python_Mango_Office_API.egg-info/SOURCES.txt
+Python_Mango_Office_API.egg-info/dependency_links.txt
+Python_Mango_Office_API.egg-info/requires.txt
+Python_Mango_Office_API.egg-info/top_level.txt
+mangoapi/__init__.py
