@@ -1,0 +1,7 @@
+README.md
+setup.py
+Piscord/__init__.py
+Piscord_Astremy_Test.egg-info/PKG-INFO
+Piscord_Astremy_Test.egg-info/SOURCES.txt
+Piscord_Astremy_Test.egg-info/dependency_links.txt
+Piscord_Astremy_Test.egg-info/top_level.txt
