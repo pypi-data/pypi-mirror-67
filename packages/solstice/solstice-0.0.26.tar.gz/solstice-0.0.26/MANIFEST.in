@@ -1,0 +1,5 @@
+include solstice/__logging__.ini
+include solstice/changelog.yml
+recursive-include plottwist/resources/* *.*
+include versioneer.py
+include solstice/_version.py
