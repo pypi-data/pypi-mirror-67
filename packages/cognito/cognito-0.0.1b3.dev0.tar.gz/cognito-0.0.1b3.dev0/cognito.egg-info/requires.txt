@@ -1,0 +1,16 @@
+tqdm
+numpy
+scipy
+numpy
+click
+pandas
+tornado
+PyYAML
+pyfiglet
+datefinder
+PrettyTable
+sparklines
+scikit-learn
+
+[test]
+pytest
