@@ -1,0 +1,1 @@
+flake8_spaces_around_constants

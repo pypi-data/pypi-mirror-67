@@ -1,0 +1,3 @@
+[flake8.extension]
+flake8_spaces_around_constants = flake8_spaces_around_constants:ConstantSpacesChecker
+
