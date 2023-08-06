@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+spo/__init__.py
+spo/__version__.py
+spo/api.py
+spo.egg-info/PKG-INFO
+spo.egg-info/SOURCES.txt
+spo.egg-info/dependency_links.txt
+spo.egg-info/entry_points.txt
+spo.egg-info/not-zip-safe
+spo.egg-info/top_level.txt
