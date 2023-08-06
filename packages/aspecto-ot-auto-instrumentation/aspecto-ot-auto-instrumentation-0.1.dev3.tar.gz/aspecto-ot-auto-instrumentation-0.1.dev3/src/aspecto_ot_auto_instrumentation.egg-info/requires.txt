@@ -1,0 +1,10 @@
+opentelemetry-api==0.6b0
+opentelemetry-sdk==0.6b0
+opentelemetry-auto-instrumentation==0.6b0
+opentelemetry-ext-jaeger==0.6b0
+opentelemetry-ext-zipkin==0.6b0
+opentelemetry-ext-otcollector==0.6b0
+opentelemetry-ext-wsgi==0.6b0
+python-socketio==4.5.1
+python-socketio-client==1.1
+websocket-client==0.57.0
