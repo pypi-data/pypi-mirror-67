@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+src/zoek/__init__.py
+src/zoek/_custom_operators.py
+src/zoek/_filter_attr.py
+src/zoek/cli.py
+src/zoek/generator_from_path.py
+src/zoek/print_iterable.py
+src/zoek.egg-info/PKG-INFO
+src/zoek.egg-info/SOURCES.txt
+src/zoek.egg-info/dependency_links.txt
+src/zoek.egg-info/entry_points.txt
+src/zoek.egg-info/requires.txt
+src/zoek.egg-info/top_level.txt
