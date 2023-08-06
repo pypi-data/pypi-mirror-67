@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: roktools
+Version: 1.1.2.post1
+Summary: Set of tools used in internal Rokubun projects
+Home-page: https://github.com/rokubun/py-roktools
+Author: Rokubun
+Author-email: info@rokubun.cat
+License: http://opensource.org/licenses/MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
