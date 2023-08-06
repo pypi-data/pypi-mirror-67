@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/course_test.py,sha256=xXrComQf_OkhsciyS8bP_CLWVV3hthRooxXrEYWe1Ng,832
+uscschedule/__init__.py,sha256=yV_PqSAQLZlq2YtCgGzHgSu7k4tYCTbw1uwaxom60Nw,32
+uscschedule/exceptions.py,sha256=UJM5KylGxqT3B8Yhh-AVOPIEl3QRUq9FUHYM4_mv8FQ,354
+uscschedule/models.py,sha256=zpp73qISI4sifIFjl6a7XEJSO7QhRMvy1-DHSnhsl4U,7806
+uscschedule/schedule.py,sha256=r6xqq54rdWAmsSugiUgBjY8g872IarDfl4ZghC9cL_E,2138
+uscschedule/util.py,sha256=dj-p13oEH5v9YjMQIehOGDGvOvUrq6TsIu7vr4mrLhU,1926
+usc_schedule-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+usc_schedule-1.0.0.dist-info/METADATA,sha256=_sqnVGfGe8tKZOtlIDube_Pe4dZgihbVOmC0-wga2Vc,2064
+usc_schedule-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+usc_schedule-1.0.0.dist-info/top_level.txt,sha256=Nr_M-Xqx_J-PymqWZ00ifoKZ_6rqijV3I9Hu-0jYnC4,18
+usc_schedule-1.0.0.dist-info/RECORD,,
