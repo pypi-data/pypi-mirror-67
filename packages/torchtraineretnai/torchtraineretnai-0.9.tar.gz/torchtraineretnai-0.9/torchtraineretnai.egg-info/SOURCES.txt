@@ -1,0 +1,9 @@
+README.md
+setup.py
+torchtrainer/__init__.py
+torchtrainer/trainer.py
+torchtraineretnai.egg-info/PKG-INFO
+torchtraineretnai.egg-info/SOURCES.txt
+torchtraineretnai.egg-info/dependency_links.txt
+torchtraineretnai.egg-info/requires.txt
+torchtraineretnai.egg-info/top_level.txt
