@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dedebug.egg-info/PKG-INFO
+dedebug.egg-info/SOURCES.txt
+dedebug.egg-info/dependency_links.txt
+dedebug.egg-info/requires.txt
+dedebug.egg-info/top_level.txt
+module/__init__.py
+module/config.py
+module/start.py
