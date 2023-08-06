@@ -1,0 +1,12 @@
+pdepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdepy/laplace.py,sha256=RGE1HOKd90076txd13YRk6x8Hc_m01y1ZtfSryq66qA,2152
+pdepy/parabolic.py,sha256=JduVnbw3iZ833zwpCNTQ2lUrVcYEf9FfLHQi02-eNdg,3296
+pdepy/steady.py,sha256=N5Po7gmOgpvyEFeHtwvPO7Hz6aElDwWpAqfCIigdVrc,403
+pdepy/time.py,sha256=T9p9i289CoOuKg8X3q8TTtdDJVSnQjKGoS2HYRa-Vww,383
+pdepy/utils.py,sha256=WIaTPd67lbGNqNb3exrLlfIEi141yjlvGcxIAQngJ1s,475
+pdepy/wave.py,sha256=Sy_WBsMEoqZRz8eCKwUgPLF_ij2y1dWBy_iCBFzTPXg,2773
+pdepy-1.0.4.dist-info/LICENSE,sha256=hSvMAzpGxi-Z-1_9Q7MkG6LAxEDGA0qiEUUF8sTwPEo,1067
+pdepy-1.0.4.dist-info/METADATA,sha256=Ur6iaBdnHYZdg-dekQBM91ev-aths-fDxQ2vhqrmi2U,3518
+pdepy-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pdepy-1.0.4.dist-info/top_level.txt,sha256=iRzUvtdOPYcTbbolExF0efP6BPVWhkrhrN19u585QkI,6
+pdepy-1.0.4.dist-info/RECORD,,
