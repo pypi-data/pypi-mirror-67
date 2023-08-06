@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+sds.pdf
+setup.py
+sds/__init__.py
+sds/reducing.py
+sds/standard.py
+sds/test_sds.py
+sds/variants.py
+sds.egg-info/PKG-INFO
+sds.egg-info/SOURCES.txt
+sds.egg-info/dependency_links.txt
+sds.egg-info/top_level.txt
