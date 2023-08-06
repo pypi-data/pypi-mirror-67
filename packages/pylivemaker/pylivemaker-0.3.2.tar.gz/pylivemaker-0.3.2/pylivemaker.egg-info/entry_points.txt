@@ -1,0 +1,8 @@
+[console_scripts]
+galconvert = livemaker.cli:galconvert
+lmar = livemaker.cli:lmar
+lmgraph = livemaker.cli:lmgraph
+lmlpb = livemaker.cli:lmlpb
+lmlsb = livemaker.cli:lmlsb
+lmpatch = livemaker.cli:lmpatch
+
