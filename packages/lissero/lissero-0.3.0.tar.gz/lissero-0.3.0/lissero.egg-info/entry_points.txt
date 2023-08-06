@@ -1,0 +1,3 @@
+[console_scripts]
+run_lissero = lissero.run_lissero:run_lissero
+
