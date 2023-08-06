@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+image_template_overlay_apply.egg-info/PKG-INFO
+image_template_overlay_apply.egg-info/SOURCES.txt
+image_template_overlay_apply.egg-info/dependency_links.txt
+image_template_overlay_apply.egg-info/not-zip-safe
+image_template_overlay_apply.egg-info/requires.txt
+image_template_overlay_apply.egg-info/top_level.txt
+templatelayer/__init__.py
+templatelayer/template_layout.py
+templatelayer/testing_common.py
+templatelayer/resources/README.md
+templatelayer/resources/requirements.txt
+templatelayer/resources/scripts/template_image_apply_overlays
+tests/commands/__init__.py
+tests/commands/test_template_image_apply_overlays.py
