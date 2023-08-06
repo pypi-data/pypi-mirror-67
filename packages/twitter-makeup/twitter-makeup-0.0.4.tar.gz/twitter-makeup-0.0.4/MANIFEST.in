@@ -1,0 +1,2 @@
+include ./data/*.jpg
+include tests.py
