@@ -1,0 +1,14 @@
+socket_proxy/__init__.py,sha256=0yYjtvUChgT_IejVVUtB4xkrIs5LHRoQLhQ2viRqkzQ,113
+socket_proxy/base.py,sha256=gxRZPC1HrgEQYMlYrKsRY6D6akcY8x6-i53JE3ssm68,1189
+socket_proxy/connection.py,sha256=mWZMYfjzOhcT7GllGvWd53yhH-OtAWhj76ALzIv7qHo,1931
+socket_proxy/main.py,sha256=gK0xzX6VQHKG8fx3_nIsLhGKOXeQBIKzrxk4Xe83sSM,7022
+socket_proxy/package.py,sha256=IL_Uxva8fRoqZjYkYeeO1IffsPaxGO_vSpqQx2XBMLw,6248
+socket_proxy/proxy.py,sha256=yz5KEx2i_50zXZJBAi_IMe9Hdv2eEwDqPTti3sm1mKY,1789
+socket_proxy/tunnel.py,sha256=7F0XTc2IPDUTsviwiWsx0EdBTrW16243j5RfpBG6l74,10793
+socket_proxy/utils.py,sha256=pUxb__QLuW6CQXPNy0VxwnJwTrSDvW4chbIeDlkArSw,4137
+socket_proxy-0.1.dist-info/LICENSE,sha256=2uv3FXpGSeGfn8IfQfoIC6H2ERGw0jizs1HaWgYDMP4,1085
+socket_proxy-0.1.dist-info/METADATA,sha256=i9ZtGYVnwMzRhxTsS5CRCbVHtsEVgajNNPzrSJb-Bz4,1280
+socket_proxy-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+socket_proxy-0.1.dist-info/entry_points.txt,sha256=Kwdh0QHqQVq-wnmD6nVDbjUj-m2UlGrgoZ3cJg6KJ18,57
+socket_proxy-0.1.dist-info/top_level.txt,sha256=W6iccuTFPJ_pC8hSANVYhKj446G5xcTiZO2bT4vPKWg,13
+socket_proxy-0.1.dist-info/RECORD,,
