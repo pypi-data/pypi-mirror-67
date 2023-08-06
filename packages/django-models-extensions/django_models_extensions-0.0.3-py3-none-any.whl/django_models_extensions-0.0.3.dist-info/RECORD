@@ -1,0 +1,13 @@
+django_models_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_models_extensions/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_models_extensions/contrib/admin_buttons/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_models_extensions/contrib/admin_buttons/mixins.py,sha256=VN0c8LHTRTs_frTmIKhCVjyxdpY6UZkO3ruSqqBcvwQ,3528
+django_models_extensions/models/__init__.py,sha256=py4oWHb_I8MV59EIpakEPS7_Z8lmA5qJgNMR7LjXZPw,143
+django_models_extensions/models/base.py,sha256=3slLt3i5BqodwB7cGpNdDzojHEikGfjQSOmJdqfYV1Y,1908
+django_models_extensions/models/query.py,sha256=9YXQXtJEg-d_TH_zZw4REsl6hK62vwUdXob2r8VfD_w,800
+django_models_extensions/models/fields/__init__.py,sha256=Es0QjKjuW8hjyZ2YD0EGyL7wUNTOu4QzmxlbYV4qODs,1457
+django_models_extensions-0.0.3.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+django_models_extensions-0.0.3.dist-info/METADATA,sha256=MpMm_uQn5AsAFQyLbKko3yMZZ4EGJ1kd9NQJv55Ae-k,2169
+django_models_extensions-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_models_extensions-0.0.3.dist-info/top_level.txt,sha256=Q7w44G43xkYaOFqcVHbcKsnVIKiVRhP5jsboS2lou1M,25
+django_models_extensions-0.0.3.dist-info/RECORD,,
