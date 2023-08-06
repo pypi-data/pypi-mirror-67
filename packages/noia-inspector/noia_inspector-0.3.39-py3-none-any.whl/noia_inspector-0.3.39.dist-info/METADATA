@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: noia-inspector
+Version: 0.3.39
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: flask (==1.1.1)
+Requires-Dist: python-dotenv (==0.10.3)
+Requires-Dist: flask-restplus (==0.13.0)
+Requires-Dist: scapy (==2.4.3)
+Requires-Dist: ipwhois (==1.1.0)
+Requires-Dist: jinja2 (==2.11.1)
+Requires-Dist: speedtest-cli (==2.1.2)
+Requires-Dist: pythonping (==1.0.8)
+Requires-Dist: icmplibv2 (==1.0.5)
+Requires-Dist: Werkzeug (==0.16.1)
+Requires-Dist: pyroute2 (==0.5.12)
+Requires-Dist: Click
+
+UNKNOWN
+
+
