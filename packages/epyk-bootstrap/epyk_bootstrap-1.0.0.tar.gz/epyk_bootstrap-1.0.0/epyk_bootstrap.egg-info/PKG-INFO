@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: epyk-bootstrap
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/epykure/epyk-bootstrap
+Author: epykure
+Author-email: smith.pyotr@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, http://www.epyk.io
+Project-URL: Code, https://github.com/epykure/epyk-bootstrap
+Project-URL: Issue tracker, https://github.com/epykure/epyk-bootstrap/issues
+Description: 
+        ![](https://raw.githubusercontent.com/epykure/epyk-bootstrap/master/epyk_bootstrap/static/images/epyk_bootstrap.ico)
+        
+        ### Epyk Bootstrap!
+        
+        
+        An easy way to use Epyk with the Bootstrap extension.
+        
+        
+        Presentation
+        ================================
+        This package will make a simple interface between most of the components of Materials components
+        and Epyk. This addon will allow you to benefit from the two world and to keep write Interactive and modern web pages from Python.
+        
+        https://getbootstrap.com/
+        
+        https://eonasdan.github.io/bootstrap-datetimepicker/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
