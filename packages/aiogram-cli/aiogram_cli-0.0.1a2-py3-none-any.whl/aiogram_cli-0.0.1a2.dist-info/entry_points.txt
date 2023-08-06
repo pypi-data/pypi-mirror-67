@@ -1,0 +1,6 @@
+[aiogram_cli.plugins]
+builtins=aiogram_cli.commands.builtin:setup
+
+[console_scripts]
+aiogram=aiogram_cli.main:main
+
