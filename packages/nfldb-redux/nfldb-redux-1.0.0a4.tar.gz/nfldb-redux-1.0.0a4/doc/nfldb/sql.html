@@ -1,0 +1,984 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>nfldb.sql API documentation</title>
+<meta name="description" content="" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>nfldb.sql</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">from nfldb.db import _upsert
+
+
+class Entity (object):
+    &#34;&#34;&#34;
+    This is an abstract base class that handles most of the SQL
+    plumbing for entities in `nfldb`. Its interface is meant to be
+    declarative: specify the schema and let the methods defined here
+    do the SQL generation work. However, it is possible to override
+    methods (like `nfldb.Entity._sql_field`) when more customization
+    is desired.
+
+    Note that many of the methods defined here take an `aliases`
+    argument. This should be a dictionary mapping table name (defined
+    in `nfldb.Entity._sql_tables`) to some custom prefix. If it
+    isn&#39;t provided, then the table name itself is used.
+    &#34;&#34;&#34;
+
+    # This class doesn&#39;t introduce any instance variables, but we need
+    # to declare as such, otherwise all subclasses will wind up with a
+    # `__dict__`. (Thereby negating the benefit of using __slots__.)
+    __slots__ = []
+
+    _sql_tables = {}
+    &#34;&#34;&#34;
+    A dictionary with four keys: `primary`, `tables`, `managed` and
+    `derived`.
+
+    The `primary` key should map to a list of primary key
+    fields that correspond to a shared minimal subset of primary keys
+    in all tables that represent this entity. (i.e., It should be the
+    foreign key that joins all tables in the representation together.)
+
+    The `tables` key should map to an association list of table names
+    that map to lists of fields for that table. The lists of fields for
+    every table should be *disjoint*: no two tables may share a field
+    name in common (outside of the primary key).
+
+    The `managed` key should be a list of tables that are managed
+    directly by `nfldb`. `INSERT`, `UPDATE` and `DELETE` queries
+    will be generated appropriately. (Tables not in this list are
+    assumed to be maintained by the database itself, e.g., they are
+    actually views or materialized views maintained by triggers.)
+
+    The `derived` key should map to a list of *computed* fields. These
+    are fields that aren&#39;t directly stored in the table, but can be
+    computed from combining columns in the table (like `offense_tds` or
+    `points`). This API will expose such fields as regular SQL columns
+    in the API, and will handle writing them for you in `WHERE` and
+    `ORDER BY` statements. The actual implementation of each computed
+    field should be in an entity&#39;s `_sql_field` method (overriding the
+    one defined on `nfldb.Entity`). The derived fields must be listed
+    here so that the SQL generation code is aware of them.
+    &#34;&#34;&#34;
+
+    @classmethod
+    def _sql_columns(cls):
+        &#34;&#34;&#34;
+        Returns all columns defined for this entity. Every field
+        corresponds to a single column in a table.
+
+        The first `N` columns returned correspond to this entity&#39;s
+        primary key, where `N` is the number of columns in the
+        primary key.
+        &#34;&#34;&#34;
+        cols = cls._sql_tables[&#39;primary&#39;][:]
+        for table, table_cols in cls._sql_tables[&#39;tables&#39;]:
+            cols += table_cols
+        return cols
+
+    @classmethod
+    def sql_fields(cls):
+        &#34;&#34;&#34;
+        Returns a list of all SQL fields across all tables for this
+        entity, including derived fields. This method can be used
+        in conjunction with `nfldb.Entity.from_row_tuple` to quickly
+        create new `nfldb` objects without every constructing a dict.
+        &#34;&#34;&#34;
+        if not hasattr(cls, &#39;_cached_sql_fields&#39;):
+            cls._cached_sql_fields = cls._sql_columns()
+            cls._cached_sql_fields += cls._sql_tables[&#39;derived&#39;]
+        return cls._cached_sql_fields
+
+    @classmethod
+    def from_row_dict(cls, db, row):
+        &#34;&#34;&#34;
+        Introduces a new entity object from a full SQL row result from
+        the entity&#39;s tables. (i.e., `row` is a dictionary mapping
+        column to value.) Note that the column names must be of the
+        form &#39;{entity_name}_{column_name}&#39;. For example, in the `game`
+        table, the `gsis_id` column must be named `game_gsis_id` in
+        `row`.
+        &#34;&#34;&#34;
+        obj = cls(db)
+        seta = setattr
+        prefix = cls._sql_primary_table() + &#39;_&#39;
+        slice_from = len(prefix)
+        for k in row:
+            if k.startswith(prefix):
+                seta(obj, k[slice_from:], row[k])
+        return obj
+
+    @classmethod
+    def from_row_tuple(cls, db, t):
+        &#34;&#34;&#34;
+        Given a tuple `t` corresponding to a result from a SELECT query,
+        this will construct a new instance for this entity. Note that
+        the tuple `t` must be in *exact* correspondence with the columns
+        returned by `nfldb.Entity.sql_fields`.
+        &#34;&#34;&#34;
+        cols = cls.sql_fields()
+        seta = setattr
+        obj = cls(db)
+        for i, field in enumerate(cols):
+            seta(obj, field, t[i])
+        return obj
+
+    @classmethod
+    def _sql_from(cls, aliases=None):
+        &#34;&#34;&#34;
+        Return a valid SQL `FROM table AS alias [LEFT JOIN extra_table
+        ...]` string for this entity.
+        &#34;&#34;&#34;
+        # This is a little hokey. Pick the first table as the &#39;FROM&#39; table.
+        # Subsequent tables are joined.
+        from_table = cls._sql_primary_table()
+        as_from_table = cls._sql_table_alias(from_table, aliases)
+
+        extra_tables = &#39;&#39;
+        for table, _ in cls._sql_tables[&#39;tables&#39;][1:]:
+            extra_tables += cls._sql_join_to(cls,
+                                             from_table=from_table,
+                                             to_table=table,
+                                             from_aliases=aliases,
+                                             to_aliases=aliases)
+        return &#39;&#39;&#39;
+            FROM {from_table} AS {as_from_table}
+            {extra_tables}
+        &#39;&#39;&#39;.format(from_table=from_table, as_from_table=as_from_table,
+                   extra_tables=extra_tables)
+
+    @classmethod
+    def _sql_select_fields(cls, fields, wrap=None, aliases=None):
+        &#34;&#34;&#34;
+        Returns correctly qualified SELECT expressions for each
+        field in `fields` (namely, a field may be a derived field).
+
+        If `wrap` is a not `None`, then it is applied to the result
+        of calling `cls._sql_field` on each element in `fields`.
+
+        All resulting fields are aliased with `AS` to correspond to
+        the name given in `fields`. Namely, this makes table aliases
+        opaque to the resulting query, but this also disallows
+        selecting columns of the same name from multiple tables.
+        &#34;&#34;&#34;
+        if wrap is None:
+            wrap = lambda x: x
+        sql = lambda f: wrap(cls._sql_field(f, aliases=aliases))
+        entity_prefix = cls._sql_primary_table()
+        return [&#39;%s AS %s_%s&#39; % (sql(f), entity_prefix, f) for f in fields]
+
+    @classmethod
+    def _sql_relation_distance(cls_from, cls_to):
+        primf = set(cls_from._sql_tables[&#39;primary&#39;])
+        primt = set(cls_to._sql_tables[&#39;primary&#39;])
+        if len(primf.intersection(primt)) == 0:
+            return None
+        outsiders = primf.difference(primt).union(primt.difference(primf))
+        if len(primf) &gt; len(primt):
+            return -len(outsiders)
+        else:
+            return len(outsiders)
+
+    @classmethod
+    def _sql_join_all(cls_from, cls_tos):
+        &#34;&#34;&#34;
+        Given a list of sub classes `cls_tos` of `nfldb.Entity`,
+        produce as many SQL `LEFT JOIN` clauses as is necessary so
+        that all fields in all entity types given are available for
+        filtering.
+
+        Unlike the other join functions, this one has no alias support
+        or support for controlling particular tables.
+
+        The key contribution of this function is that it knows how to
+        connect a group of tables correctly. e.g., If the group of
+        tables is `game`, `play` and `play_player`, then `game` and
+        `play` will be joined and `play` and `play_player` will be
+        joined. (Instead of `game` and `play_player` or some other
+        erronoeous combination.)
+
+        In essence, each table is joined with the least general table
+        in the group.
+        &#34;&#34;&#34;
+        assert cls_from not in cls_tos, \
+            &#39;cannot join %s with itself with `sql_join_all`&#39; % cls_from
+
+        def dist(f, t):
+            return f._sql_relation_distance(t)
+
+        def relation_dists(froms, tos):
+            return [f_t_d2 for f_t_d2 in ((f, t, dist(f, t)) for f in froms for t in tos) if f_t_d2[2] is not None]
+
+        def more_general(froms, tos):
+            return [f_t_d3 for f_t_d3 in relation_dists(froms, tos) if f_t_d3[2] &lt; 0]
+
+        def more_specific(froms, tos):
+            return [f_t_d4 for f_t_d4 in relation_dists(froms, tos) if f_t_d4[2] &gt; 0]
+
+        joins = &#39;&#39;
+        froms, tos = set([cls_from]), set(cls_tos)
+        while len(tos) &gt; 0:
+            general = more_general(froms, tos)
+            specific = more_specific(froms, tos)
+            assert len(general) &gt; 0 or len(specific) &gt; 0, \
+                &#39;Cannot compute distances between sets. From: %s, To: %s&#39; \
+                % (froms, tos)
+
+            def add_join(f, t):
+                tos.discard(t)
+                froms.add(t)
+                return f._sql_join_to_all(t)
+            if general:
+                f, t, _ = max(general, key=lambda f_t_d: f_t_d[2])
+                joins += add_join(f, t)
+            if specific:
+                f, t, _ = min(specific, key=lambda f_t_d1: f_t_d1[2])
+                joins += add_join(f, t)
+        return joins
+
+    @classmethod
+    def _sql_join_to_all(cls_from, cls_to, from_table=None,
+                         from_aliases=None, to_aliases=None):
+        &#34;&#34;&#34;
+        Given a **sub class** `cls_to` of `nfldb.Entity`, produce
+        as many SQL `LEFT JOIN` clauses as is necessary so that all
+        fields in `cls_to.sql_fields()` are available for filtering.
+
+        See the documentation for `nfldb.Entity._sql_join_to` for
+        information on the parameters.
+        &#34;&#34;&#34;
+        to_primary = cls_to._sql_primary_table()
+        joins = cls_from._sql_join_to(cls_to,
+                                      from_table=from_table,
+                                      to_table=to_primary,
+                                      from_aliases=from_aliases,
+                                      to_aliases=to_aliases)
+        for table, _ in cls_to._sql_tables[&#39;tables&#39;][1:]:
+            joins += cls_to._sql_join_to(cls_to,
+                                         from_table=to_primary,
+                                         to_table=table,
+                                         from_aliases=to_aliases,
+                                         to_aliases=to_aliases)
+        return joins
+
+    @classmethod
+    def _sql_join_to(cls_from, cls_to,
+                     from_table=None, to_table=None,
+                     from_aliases=None, to_aliases=None):
+        &#34;&#34;&#34;
+        Given a **sub class** `cls_to` of `nfldb.Entity`, produce
+        a SQL `LEFT JOIN` clause.
+
+        If the primary keys in `cls_from` and `cls_to` have an empty
+        intersection, then an assertion error is raised.
+
+        Note that the first table defined for each of `cls_from` and
+        `cls_to` is used to join them if `from_table` or `to_table`
+        are `None`.
+
+        `from_aliases` are only applied to the `from` tables and
+        `to_aliases` are only applied to the `to` tables. This allows
+        one to do self joins.
+        &#34;&#34;&#34;
+        if from_table is None:
+            from_table = cls_from._sql_primary_table()
+        if to_table is None:
+            to_table = cls_to._sql_primary_table()
+        from_table = cls_from._sql_table_alias(from_table,
+                                               aliases=from_aliases)
+        as_to_table = cls_to._sql_table_alias(to_table, aliases=to_aliases)
+
+        from_pkey = cls_from._sql_tables[&#39;primary&#39;]
+        to_pkey = cls_to._sql_tables[&#39;primary&#39;]
+        # Avoiding set.intersection so we can preserve order.
+        common = [k for k in from_pkey if k in to_pkey]
+        assert len(common) &gt; 0, \
+            &#34;Cannot join %s to %s with non-overlapping primary keys.&#34; \
+            % (cls_from.__name__, cls_to.__name__)
+        fkey = [qualified_field(from_table, f) for f in common]
+        tkey = [qualified_field(as_to_table, f) for f in common]
+        return &#39;&#39;&#39;
+            LEFT JOIN {to_table} AS {as_to_table}
+            ON ({fkey}) = ({tkey})
+        &#39;&#39;&#39;.format(to_table=to_table, as_to_table=as_to_table,
+                   fkey=&#39;, &#39;.join(fkey), tkey=&#39;, &#39;.join(tkey))
+
+    @classmethod
+    def _sql_primary_key(cls, table, aliases=None):
+        t = cls._sql_table_alias(table, aliases)
+        return [qualified_field(t, f)
+                for f in cls._sql_tables[&#39;primary&#39;]]
+
+    @classmethod
+    def _sql_primary_table(cls):
+        return cls._sql_tables[&#39;tables&#39;][0][0]
+
+    @classmethod
+    def _sql_column_to_table(cls, name):
+        &#34;&#34;&#34;
+        Returns the table in `cls._sql_tables` containing the
+        field `name`.
+
+        If `name` corresponds to a primary key column, then
+        the primary table (first table) is returned.
+
+        If a table could not be found, a `exceptions.KeyError` is
+        raised.
+        &#34;&#34;&#34;
+        if name in cls._sql_tables[&#39;primary&#39;]:
+            return cls._sql_primary_table()
+        for table_name, fields in cls._sql_tables[&#39;tables&#39;]:
+            if name in fields:
+                return table_name
+        raise KeyError(&#34;Could not find table for %s&#34; % name)
+
+    @classmethod
+    def _sql_table_alias(cls, table_name, aliases):
+        if aliases is None or table_name not in aliases:
+            return table_name
+        else:
+            return aliases[table_name]
+
+    @classmethod
+    def _sql_field(cls, name, aliases=None):
+        &#34;&#34;&#34;
+        Returns a SQL expression corresponding to the field `name`.
+
+        The default implementation returns `table_for_name`.`name`.
+
+        Entities can override this for special computed fields.
+        &#34;&#34;&#34;
+        prefix = cls._sql_table_alias(cls._sql_column_to_table(name), aliases)
+        return qualified_field(prefix, name)
+
+    def _save(self, cursor):
+        &#34;&#34;&#34;
+        Does an upsert for each managed table specified in
+        `nfldb.Entity._sql_tables`. The data is drawn from
+        `self`.
+        &#34;&#34;&#34;
+        for table, prim, vals in self._rows:
+            _upsert(cursor, table, vals, prim)
+
+    @property
+    def _rows(self):
+        prim = self._sql_tables[&#39;primary&#39;][:]
+        for table, table_fields in self._sql_tables[&#39;tables&#39;]:
+            if table in self._sql_tables[&#39;managed&#39;]:
+                r = _as_row(prim + table_fields, self)
+                yield table, r[0:len(prim)], r
+
+
+def _as_row(fields, obj):
+    &#34;&#34;&#34;
+    Given a list of fields in a SQL table and a Python object, return
+    an association list where the keys are from `fields` and the values
+    are the result of `getattr(obj, fields[i], None)` for some `i`.
+
+    Note that the `time_inserted` and `time_updated` fields are always
+    omitted.
+    &#34;&#34;&#34;
+    exclude = (&#39;time_inserted&#39;, &#39;time_updated&#39;)
+    return [(f, getattr(obj, f, None)) for f in fields if f not in exclude]
+
+
+def ands(*exprs):
+    anded = &#39; AND &#39;.join(&#39;(%s)&#39; % e for e in exprs if e)
+    return &#39;true&#39; if len(anded) == 0 else anded
+
+
+def qualified_field(alias, field):
+    &#34;&#34;&#34;
+    Qualifies the SQL `field` with `alias`. If `alias` is empty,
+    then no qualification is used. (Just `field` is returned.)
+    &#34;&#34;&#34;
+    if not alias:
+        return field
+    else:
+        return &#39;%s.%s&#39; % (alias, field)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="nfldb.sql.ands"><code class="name flex">
+<span>def <span class="ident">ands</span></span>(<span>*exprs)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def ands(*exprs):
+    anded = &#39; AND &#39;.join(&#39;(%s)&#39; % e for e in exprs if e)
+    return &#39;true&#39; if len(anded) == 0 else anded</code></pre>
+</details>
+</dd>
+<dt id="nfldb.sql.qualified_field"><code class="name flex">
+<span>def <span class="ident">qualified_field</span></span>(<span>alias, field)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Qualifies the SQL <code>field</code> with <code>alias</code>. If <code>alias</code> is empty,
+then no qualification is used. (Just <code>field</code> is returned.)</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def qualified_field(alias, field):
+    &#34;&#34;&#34;
+    Qualifies the SQL `field` with `alias`. If `alias` is empty,
+    then no qualification is used. (Just `field` is returned.)
+    &#34;&#34;&#34;
+    if not alias:
+        return field
+    else:
+        return &#39;%s.%s&#39; % (alias, field)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="nfldb.sql.Entity"><code class="flex name class">
+<span>class <span class="ident">Entity</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is an abstract base class that handles most of the SQL
+plumbing for entities in <code><a title="nfldb" href="index.html">nfldb</a></code>. Its interface is meant to be
+declarative: specify the schema and let the methods defined here
+do the SQL generation work. However, it is possible to override
+methods (like <code>nfldb.Entity._sql_field</code>) when more customization
+is desired.</p>
+<p>Note that many of the methods defined here take an <code>aliases</code>
+argument. This should be a dictionary mapping table name (defined
+in <code>nfldb.Entity._sql_tables</code>) to some custom prefix. If it
+isn't provided, then the table name itself is used.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class Entity (object):
+    &#34;&#34;&#34;
+    This is an abstract base class that handles most of the SQL
+    plumbing for entities in `nfldb`. Its interface is meant to be
+    declarative: specify the schema and let the methods defined here
+    do the SQL generation work. However, it is possible to override
+    methods (like `nfldb.Entity._sql_field`) when more customization
+    is desired.
+
+    Note that many of the methods defined here take an `aliases`
+    argument. This should be a dictionary mapping table name (defined
+    in `nfldb.Entity._sql_tables`) to some custom prefix. If it
+    isn&#39;t provided, then the table name itself is used.
+    &#34;&#34;&#34;
+
+    # This class doesn&#39;t introduce any instance variables, but we need
+    # to declare as such, otherwise all subclasses will wind up with a
+    # `__dict__`. (Thereby negating the benefit of using __slots__.)
+    __slots__ = []
+
+    _sql_tables = {}
+    &#34;&#34;&#34;
+    A dictionary with four keys: `primary`, `tables`, `managed` and
+    `derived`.
+
+    The `primary` key should map to a list of primary key
+    fields that correspond to a shared minimal subset of primary keys
+    in all tables that represent this entity. (i.e., It should be the
+    foreign key that joins all tables in the representation together.)
+
+    The `tables` key should map to an association list of table names
+    that map to lists of fields for that table. The lists of fields for
+    every table should be *disjoint*: no two tables may share a field
+    name in common (outside of the primary key).
+
+    The `managed` key should be a list of tables that are managed
+    directly by `nfldb`. `INSERT`, `UPDATE` and `DELETE` queries
+    will be generated appropriately. (Tables not in this list are
+    assumed to be maintained by the database itself, e.g., they are
+    actually views or materialized views maintained by triggers.)
+
+    The `derived` key should map to a list of *computed* fields. These
+    are fields that aren&#39;t directly stored in the table, but can be
+    computed from combining columns in the table (like `offense_tds` or
+    `points`). This API will expose such fields as regular SQL columns
+    in the API, and will handle writing them for you in `WHERE` and
+    `ORDER BY` statements. The actual implementation of each computed
+    field should be in an entity&#39;s `_sql_field` method (overriding the
+    one defined on `nfldb.Entity`). The derived fields must be listed
+    here so that the SQL generation code is aware of them.
+    &#34;&#34;&#34;
+
+    @classmethod
+    def _sql_columns(cls):
+        &#34;&#34;&#34;
+        Returns all columns defined for this entity. Every field
+        corresponds to a single column in a table.
+
+        The first `N` columns returned correspond to this entity&#39;s
+        primary key, where `N` is the number of columns in the
+        primary key.
+        &#34;&#34;&#34;
+        cols = cls._sql_tables[&#39;primary&#39;][:]
+        for table, table_cols in cls._sql_tables[&#39;tables&#39;]:
+            cols += table_cols
+        return cols
+
+    @classmethod
+    def sql_fields(cls):
+        &#34;&#34;&#34;
+        Returns a list of all SQL fields across all tables for this
+        entity, including derived fields. This method can be used
+        in conjunction with `nfldb.Entity.from_row_tuple` to quickly
+        create new `nfldb` objects without every constructing a dict.
+        &#34;&#34;&#34;
+        if not hasattr(cls, &#39;_cached_sql_fields&#39;):
+            cls._cached_sql_fields = cls._sql_columns()
+            cls._cached_sql_fields += cls._sql_tables[&#39;derived&#39;]
+        return cls._cached_sql_fields
+
+    @classmethod
+    def from_row_dict(cls, db, row):
+        &#34;&#34;&#34;
+        Introduces a new entity object from a full SQL row result from
+        the entity&#39;s tables. (i.e., `row` is a dictionary mapping
+        column to value.) Note that the column names must be of the
+        form &#39;{entity_name}_{column_name}&#39;. For example, in the `game`
+        table, the `gsis_id` column must be named `game_gsis_id` in
+        `row`.
+        &#34;&#34;&#34;
+        obj = cls(db)
+        seta = setattr
+        prefix = cls._sql_primary_table() + &#39;_&#39;
+        slice_from = len(prefix)
+        for k in row:
+            if k.startswith(prefix):
+                seta(obj, k[slice_from:], row[k])
+        return obj
+
+    @classmethod
+    def from_row_tuple(cls, db, t):
+        &#34;&#34;&#34;
+        Given a tuple `t` corresponding to a result from a SELECT query,
+        this will construct a new instance for this entity. Note that
+        the tuple `t` must be in *exact* correspondence with the columns
+        returned by `nfldb.Entity.sql_fields`.
+        &#34;&#34;&#34;
+        cols = cls.sql_fields()
+        seta = setattr
+        obj = cls(db)
+        for i, field in enumerate(cols):
+            seta(obj, field, t[i])
+        return obj
+
+    @classmethod
+    def _sql_from(cls, aliases=None):
+        &#34;&#34;&#34;
+        Return a valid SQL `FROM table AS alias [LEFT JOIN extra_table
+        ...]` string for this entity.
+        &#34;&#34;&#34;
+        # This is a little hokey. Pick the first table as the &#39;FROM&#39; table.
+        # Subsequent tables are joined.
+        from_table = cls._sql_primary_table()
+        as_from_table = cls._sql_table_alias(from_table, aliases)
+
+        extra_tables = &#39;&#39;
+        for table, _ in cls._sql_tables[&#39;tables&#39;][1:]:
+            extra_tables += cls._sql_join_to(cls,
+                                             from_table=from_table,
+                                             to_table=table,
+                                             from_aliases=aliases,
+                                             to_aliases=aliases)
+        return &#39;&#39;&#39;
+            FROM {from_table} AS {as_from_table}
+            {extra_tables}
+        &#39;&#39;&#39;.format(from_table=from_table, as_from_table=as_from_table,
+                   extra_tables=extra_tables)
+
+    @classmethod
+    def _sql_select_fields(cls, fields, wrap=None, aliases=None):
+        &#34;&#34;&#34;
+        Returns correctly qualified SELECT expressions for each
+        field in `fields` (namely, a field may be a derived field).
+
+        If `wrap` is a not `None`, then it is applied to the result
+        of calling `cls._sql_field` on each element in `fields`.
+
+        All resulting fields are aliased with `AS` to correspond to
+        the name given in `fields`. Namely, this makes table aliases
+        opaque to the resulting query, but this also disallows
+        selecting columns of the same name from multiple tables.
+        &#34;&#34;&#34;
+        if wrap is None:
+            wrap = lambda x: x
+        sql = lambda f: wrap(cls._sql_field(f, aliases=aliases))
+        entity_prefix = cls._sql_primary_table()
+        return [&#39;%s AS %s_%s&#39; % (sql(f), entity_prefix, f) for f in fields]
+
+    @classmethod
+    def _sql_relation_distance(cls_from, cls_to):
+        primf = set(cls_from._sql_tables[&#39;primary&#39;])
+        primt = set(cls_to._sql_tables[&#39;primary&#39;])
+        if len(primf.intersection(primt)) == 0:
+            return None
+        outsiders = primf.difference(primt).union(primt.difference(primf))
+        if len(primf) &gt; len(primt):
+            return -len(outsiders)
+        else:
+            return len(outsiders)
+
+    @classmethod
+    def _sql_join_all(cls_from, cls_tos):
+        &#34;&#34;&#34;
+        Given a list of sub classes `cls_tos` of `nfldb.Entity`,
+        produce as many SQL `LEFT JOIN` clauses as is necessary so
+        that all fields in all entity types given are available for
+        filtering.
+
+        Unlike the other join functions, this one has no alias support
+        or support for controlling particular tables.
+
+        The key contribution of this function is that it knows how to
+        connect a group of tables correctly. e.g., If the group of
+        tables is `game`, `play` and `play_player`, then `game` and
+        `play` will be joined and `play` and `play_player` will be
+        joined. (Instead of `game` and `play_player` or some other
+        erronoeous combination.)
+
+        In essence, each table is joined with the least general table
+        in the group.
+        &#34;&#34;&#34;
+        assert cls_from not in cls_tos, \
+            &#39;cannot join %s with itself with `sql_join_all`&#39; % cls_from
+
+        def dist(f, t):
+            return f._sql_relation_distance(t)
+
+        def relation_dists(froms, tos):
+            return [f_t_d2 for f_t_d2 in ((f, t, dist(f, t)) for f in froms for t in tos) if f_t_d2[2] is not None]
+
+        def more_general(froms, tos):
+            return [f_t_d3 for f_t_d3 in relation_dists(froms, tos) if f_t_d3[2] &lt; 0]
+
+        def more_specific(froms, tos):
+            return [f_t_d4 for f_t_d4 in relation_dists(froms, tos) if f_t_d4[2] &gt; 0]
+
+        joins = &#39;&#39;
+        froms, tos = set([cls_from]), set(cls_tos)
+        while len(tos) &gt; 0:
+            general = more_general(froms, tos)
+            specific = more_specific(froms, tos)
+            assert len(general) &gt; 0 or len(specific) &gt; 0, \
+                &#39;Cannot compute distances between sets. From: %s, To: %s&#39; \
+                % (froms, tos)
+
+            def add_join(f, t):
+                tos.discard(t)
+                froms.add(t)
+                return f._sql_join_to_all(t)
+            if general:
+                f, t, _ = max(general, key=lambda f_t_d: f_t_d[2])
+                joins += add_join(f, t)
+            if specific:
+                f, t, _ = min(specific, key=lambda f_t_d1: f_t_d1[2])
+                joins += add_join(f, t)
+        return joins
+
+    @classmethod
+    def _sql_join_to_all(cls_from, cls_to, from_table=None,
+                         from_aliases=None, to_aliases=None):
+        &#34;&#34;&#34;
+        Given a **sub class** `cls_to` of `nfldb.Entity`, produce
+        as many SQL `LEFT JOIN` clauses as is necessary so that all
+        fields in `cls_to.sql_fields()` are available for filtering.
+
+        See the documentation for `nfldb.Entity._sql_join_to` for
+        information on the parameters.
+        &#34;&#34;&#34;
+        to_primary = cls_to._sql_primary_table()
+        joins = cls_from._sql_join_to(cls_to,
+                                      from_table=from_table,
+                                      to_table=to_primary,
+                                      from_aliases=from_aliases,
+                                      to_aliases=to_aliases)
+        for table, _ in cls_to._sql_tables[&#39;tables&#39;][1:]:
+            joins += cls_to._sql_join_to(cls_to,
+                                         from_table=to_primary,
+                                         to_table=table,
+                                         from_aliases=to_aliases,
+                                         to_aliases=to_aliases)
+        return joins
+
+    @classmethod
+    def _sql_join_to(cls_from, cls_to,
+                     from_table=None, to_table=None,
+                     from_aliases=None, to_aliases=None):
+        &#34;&#34;&#34;
+        Given a **sub class** `cls_to` of `nfldb.Entity`, produce
+        a SQL `LEFT JOIN` clause.
+
+        If the primary keys in `cls_from` and `cls_to` have an empty
+        intersection, then an assertion error is raised.
+
+        Note that the first table defined for each of `cls_from` and
+        `cls_to` is used to join them if `from_table` or `to_table`
+        are `None`.
+
+        `from_aliases` are only applied to the `from` tables and
+        `to_aliases` are only applied to the `to` tables. This allows
+        one to do self joins.
+        &#34;&#34;&#34;
+        if from_table is None:
+            from_table = cls_from._sql_primary_table()
+        if to_table is None:
+            to_table = cls_to._sql_primary_table()
+        from_table = cls_from._sql_table_alias(from_table,
+                                               aliases=from_aliases)
+        as_to_table = cls_to._sql_table_alias(to_table, aliases=to_aliases)
+
+        from_pkey = cls_from._sql_tables[&#39;primary&#39;]
+        to_pkey = cls_to._sql_tables[&#39;primary&#39;]
+        # Avoiding set.intersection so we can preserve order.
+        common = [k for k in from_pkey if k in to_pkey]
+        assert len(common) &gt; 0, \
+            &#34;Cannot join %s to %s with non-overlapping primary keys.&#34; \
+            % (cls_from.__name__, cls_to.__name__)
+        fkey = [qualified_field(from_table, f) for f in common]
+        tkey = [qualified_field(as_to_table, f) for f in common]
+        return &#39;&#39;&#39;
+            LEFT JOIN {to_table} AS {as_to_table}
+            ON ({fkey}) = ({tkey})
+        &#39;&#39;&#39;.format(to_table=to_table, as_to_table=as_to_table,
+                   fkey=&#39;, &#39;.join(fkey), tkey=&#39;, &#39;.join(tkey))
+
+    @classmethod
+    def _sql_primary_key(cls, table, aliases=None):
+        t = cls._sql_table_alias(table, aliases)
+        return [qualified_field(t, f)
+                for f in cls._sql_tables[&#39;primary&#39;]]
+
+    @classmethod
+    def _sql_primary_table(cls):
+        return cls._sql_tables[&#39;tables&#39;][0][0]
+
+    @classmethod
+    def _sql_column_to_table(cls, name):
+        &#34;&#34;&#34;
+        Returns the table in `cls._sql_tables` containing the
+        field `name`.
+
+        If `name` corresponds to a primary key column, then
+        the primary table (first table) is returned.
+
+        If a table could not be found, a `exceptions.KeyError` is
+        raised.
+        &#34;&#34;&#34;
+        if name in cls._sql_tables[&#39;primary&#39;]:
+            return cls._sql_primary_table()
+        for table_name, fields in cls._sql_tables[&#39;tables&#39;]:
+            if name in fields:
+                return table_name
+        raise KeyError(&#34;Could not find table for %s&#34; % name)
+
+    @classmethod
+    def _sql_table_alias(cls, table_name, aliases):
+        if aliases is None or table_name not in aliases:
+            return table_name
+        else:
+            return aliases[table_name]
+
+    @classmethod
+    def _sql_field(cls, name, aliases=None):
+        &#34;&#34;&#34;
+        Returns a SQL expression corresponding to the field `name`.
+
+        The default implementation returns `table_for_name`.`name`.
+
+        Entities can override this for special computed fields.
+        &#34;&#34;&#34;
+        prefix = cls._sql_table_alias(cls._sql_column_to_table(name), aliases)
+        return qualified_field(prefix, name)
+
+    def _save(self, cursor):
+        &#34;&#34;&#34;
+        Does an upsert for each managed table specified in
+        `nfldb.Entity._sql_tables`. The data is drawn from
+        `self`.
+        &#34;&#34;&#34;
+        for table, prim, vals in self._rows:
+            _upsert(cursor, table, vals, prim)
+
+    @property
+    def _rows(self):
+        prim = self._sql_tables[&#39;primary&#39;][:]
+        for table, table_fields in self._sql_tables[&#39;tables&#39;]:
+            if table in self._sql_tables[&#39;managed&#39;]:
+                r = _as_row(prim + table_fields, self)
+                yield table, r[0:len(prim)], r</code></pre>
+</details>
+<h3>Subclasses</h3>
+<ul class="hlist">
+<li><a title="nfldb.types.SQLDrive" href="types.html#nfldb.types.SQLDrive">SQLDrive</a></li>
+<li><a title="nfldb.types.SQLGame" href="types.html#nfldb.types.SQLGame">SQLGame</a></li>
+<li><a title="nfldb.types.SQLPlay" href="types.html#nfldb.types.SQLPlay">SQLPlay</a></li>
+<li><a title="nfldb.types.SQLPlayPlayer" href="types.html#nfldb.types.SQLPlayPlayer">SQLPlayPlayer</a></li>
+<li><a title="nfldb.types.SQLPlayer" href="types.html#nfldb.types.SQLPlayer">SQLPlayer</a></li>
+</ul>
+<h3>Static methods</h3>
+<dl>
+<dt id="nfldb.sql.Entity.from_row_dict"><code class="name flex">
+<span>def <span class="ident">from_row_dict</span></span>(<span>db, row)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Introduces a new entity object from a full SQL row result from
+the entity's tables. (i.e., <code>row</code> is a dictionary mapping
+column to value.) Note that the column names must be of the
+form '{entity_name}_{column_name}'. For example, in the <code>game</code>
+table, the <code>gsis_id</code> column must be named <code>game_gsis_id</code> in
+<code>row</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@classmethod
+def from_row_dict(cls, db, row):
+    &#34;&#34;&#34;
+    Introduces a new entity object from a full SQL row result from
+    the entity&#39;s tables. (i.e., `row` is a dictionary mapping
+    column to value.) Note that the column names must be of the
+    form &#39;{entity_name}_{column_name}&#39;. For example, in the `game`
+    table, the `gsis_id` column must be named `game_gsis_id` in
+    `row`.
+    &#34;&#34;&#34;
+    obj = cls(db)
+    seta = setattr
+    prefix = cls._sql_primary_table() + &#39;_&#39;
+    slice_from = len(prefix)
+    for k in row:
+        if k.startswith(prefix):
+            seta(obj, k[slice_from:], row[k])
+    return obj</code></pre>
+</details>
+</dd>
+<dt id="nfldb.sql.Entity.from_row_tuple"><code class="name flex">
+<span>def <span class="ident">from_row_tuple</span></span>(<span>db, t)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a tuple <code>t</code> corresponding to a result from a SELECT query,
+this will construct a new instance for this entity. Note that
+the tuple <code>t</code> must be in <em>exact</em> correspondence with the columns
+returned by <code>nfldb.Entity.sql_fields</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@classmethod
+def from_row_tuple(cls, db, t):
+    &#34;&#34;&#34;
+    Given a tuple `t` corresponding to a result from a SELECT query,
+    this will construct a new instance for this entity. Note that
+    the tuple `t` must be in *exact* correspondence with the columns
+    returned by `nfldb.Entity.sql_fields`.
+    &#34;&#34;&#34;
+    cols = cls.sql_fields()
+    seta = setattr
+    obj = cls(db)
+    for i, field in enumerate(cols):
+        seta(obj, field, t[i])
+    return obj</code></pre>
+</details>
+</dd>
+<dt id="nfldb.sql.Entity.sql_fields"><code class="name flex">
+<span>def <span class="ident">sql_fields</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Returns a list of all SQL fields across all tables for this
+entity, including derived fields. This method can be used
+in conjunction with <code>nfldb.Entity.from_row_tuple</code> to quickly
+create new <code><a title="nfldb" href="index.html">nfldb</a></code> objects without every constructing a dict.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@classmethod
+def sql_fields(cls):
+    &#34;&#34;&#34;
+    Returns a list of all SQL fields across all tables for this
+    entity, including derived fields. This method can be used
+    in conjunction with `nfldb.Entity.from_row_tuple` to quickly
+    create new `nfldb` objects without every constructing a dict.
+    &#34;&#34;&#34;
+    if not hasattr(cls, &#39;_cached_sql_fields&#39;):
+        cls._cached_sql_fields = cls._sql_columns()
+        cls._cached_sql_fields += cls._sql_tables[&#39;derived&#39;]
+    return cls._cached_sql_fields</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="nfldb" href="index.html">nfldb</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="nfldb.sql.ands" href="#nfldb.sql.ands">ands</a></code></li>
+<li><code><a title="nfldb.sql.qualified_field" href="#nfldb.sql.qualified_field">qualified_field</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="nfldb.sql.Entity" href="#nfldb.sql.Entity">Entity</a></code></h4>
+<ul class="">
+<li><code><a title="nfldb.sql.Entity.from_row_dict" href="#nfldb.sql.Entity.from_row_dict">from_row_dict</a></code></li>
+<li><code><a title="nfldb.sql.Entity.from_row_tuple" href="#nfldb.sql.Entity.from_row_tuple">from_row_tuple</a></code></li>
+<li><code><a title="nfldb.sql.Entity.sql_fields" href="#nfldb.sql.Entity.sql_fields">sql_fields</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
