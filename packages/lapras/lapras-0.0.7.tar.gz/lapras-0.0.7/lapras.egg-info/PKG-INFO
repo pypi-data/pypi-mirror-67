@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: lapras
+Version: 0.0.7
+Summary: scorecard
+Home-page: https://github.com/yhangang
+Author: Badtom
+Author-email: yhangang@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: scorecard
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
