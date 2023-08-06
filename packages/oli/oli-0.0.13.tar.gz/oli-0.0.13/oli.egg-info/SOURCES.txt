@@ -1,0 +1,16 @@
+README.md
+setup.py
+Oli/macos/Homebrew.py
+oli/__init__.py
+oli/run.py
+oli.egg-info/PKG-INFO
+oli.egg-info/SOURCES.txt
+oli.egg-info/dependency_links.txt
+oli.egg-info/entry_points.txt
+oli.egg-info/top_level.txt
+oli/macos/Homebrew.py
+oli/macos/Oh-my-zsh.py
+oli/macos/__init__.py
+oli/macos/command.py
+oli/macos/mac.py
+oli/macos/run_process.py
