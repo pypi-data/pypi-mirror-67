@@ -1,0 +1,10 @@
+rdiffb/__init__.py,sha256=GOKZFTz7C_J1Ip8X9hcQMZAFNdvu7jox8ATFz0DqlQw,182
+rdiffb/bnode_mapper.py,sha256=SRe06088biuq69a0s_XLR7qDcyJVR7OtoMCoecJm0hU,3496
+rdiffb/canonicalizer_with_memory.py,sha256=YbH-cQJuBSKZ-7sOgtrFeQBeR-qma_zvRkCIi7gw30E,2948
+rdiffb/rdiffb.py,sha256=Q8GYmnOKOBGExYNTuyFeu8ZM7WsHghxRA4XJzHZ3gKk,5002
+rdiffb-0.5.0.data/scripts/rdfdiffb.py,sha256=6woL3F2Vr0uMXw-Q6fGV2oezBchLdcucmdIM4Vcegg4,2800
+rdiffb-0.5.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+rdiffb-0.5.0.dist-info/METADATA,sha256=qhufCq9dsMInihHvKI4M2QVk-DGDGWGGlPtgA3t3B0g,2354
+rdiffb-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rdiffb-0.5.0.dist-info/top_level.txt,sha256=KK7ziqVWY6QcUEpBb8tdyjP-yar-vk69b1wW7gbv2yE,7
+rdiffb-0.5.0.dist-info/RECORD,,
