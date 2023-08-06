@@ -1,0 +1,10 @@
+os_command_py/__init__.py,sha256=WOHLWlIlyJJw5yPPYUKIs2WfjU4XrqBisOKrIADzPhg,347
+os_command_py/os_command.py,sha256=XeVhA4Gr396jgwex0xgAPqcT112cIfdQKoRIQFPpnZA,15141
+os_command_py/test/input/1y0m.pdb,sha256=jDPkKEAMLIci8Or7_2L38BZj6GtkfO_sUkmkcq6wk3w,131787
+os_command_py/test/input/volume.xvg,sha256=R-oQvzF21HArdMswAPo3m5_ltif-wzwTShdzHaF9cPE,1214
+os_command_py-1.0.6.dist-info/AUTHORS.rst,sha256=hVPgnY8hQa1nnkBWatRWBPoGCgcjUvts1no-nMZT-6U,160
+os_command_py-1.0.6.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+os_command_py-1.0.6.dist-info/METADATA,sha256=Y8Ih4gLStT2lfmojwyD70y0vpoRmIV2CVjHs6TfKUEk,3190
+os_command_py-1.0.6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+os_command_py-1.0.6.dist-info/top_level.txt,sha256=z_kmlaNBr1DJfAfzFj9ln1uctU1wqKZNNM1XjOnpMww,14
+os_command_py-1.0.6.dist-info/RECORD,,
