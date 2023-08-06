@@ -1,0 +1,8 @@
+README.md
+setup.py
+djjunopass.egg-info/PKG-INFO
+djjunopass.egg-info/SOURCES.txt
+djjunopass.egg-info/dependency_links.txt
+djjunopass.egg-info/requires.txt
+djjunopass.egg-info/top_level.txt
+migrations/__init__.py
