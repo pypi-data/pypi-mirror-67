@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+test_helloworld.py
+src/helloworld.py
+src/django_gcd.egg-info/PKG-INFO
+src/django_gcd.egg-info/SOURCES.txt
+src/django_gcd.egg-info/dependency_links.txt
+src/django_gcd.egg-info/top_level.txt
