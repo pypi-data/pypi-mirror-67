@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: niltype
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/nikitanovosibirsk/th
+Author: Nikita Tsvetkov
+Author-email: nikitanovosibirsk@yandex.com
+License: MIT
+Description: # Nil Type
+        
+        Null value for cases when `None` is part of a data model
+        
+        ```python
+        from niltype import Nil
+        
+        if x is Nil: # True only if x is Nil
+            pass
+        ```
+        
+        ### Example
+        
+        ```python
+        from niltype import Nil
+        
+        def get(dictionary, key, default=Nil):
+            try:
+                return dictionary[key]
+            except KeyError:
+                if default is not Nil:
+                    return default
+                raise
+        
+        get({}, 'key')  # raises KeyError
+        get({}, 'key', None)  # returns None
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
