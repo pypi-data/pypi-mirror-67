@@ -1,0 +1,3 @@
+[console_scripts]
+speakdata = speakdata.__main__:console_entry
+
