@@ -1,0 +1,13 @@
+tamplar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/api/methods.py,sha256=zsjA_-v75z_QZbbEI2qQdZaEUMsbhGzLDG0hxl8JVjw,1168
+tamplar/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/cmd/cli.py,sha256=8gZWH-yfldtrzQyVHCp-ZyA7y4QvYS5R4mnJX-KUK5c,140
+tamplar/cmd/main.py,sha256=GALBTvMYQxPc0-QGq-RmmeA3OnywIgo5uCt4ggJkoX8,113
+tamplar/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamplar/internal/utils.py,sha256=87mveyCL1LPTDfYgDM1Xg3f4y0C7Z9FWNo8hGw-iaG4,310
+tamplar-0.1.22.dist-info/METADATA,sha256=3dfS4sRBUn--sY_Ua1Q-4XB7v1dOHqSGKQw8WFQWbxY,530
+tamplar-0.1.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tamplar-0.1.22.dist-info/entry_points.txt,sha256=cm1-NPMENJrETnPwyVVab9yfzG2llfaz5IWF-8StOTk,49
+tamplar-0.1.22.dist-info/top_level.txt,sha256=SPMs26KnksRqA7tHSgk9M_GIuhjgOEHcQFzDiezFX84,8
+tamplar-0.1.22.dist-info/RECORD,,
