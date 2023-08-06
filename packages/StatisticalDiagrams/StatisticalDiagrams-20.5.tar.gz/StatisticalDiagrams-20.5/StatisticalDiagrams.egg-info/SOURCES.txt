@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+StatisticalDiagrams/RobustStatistics.py
+StatisticalDiagrams/StatisticalDiagrams.py
+StatisticalDiagrams/__init__.py
+StatisticalDiagrams/robust.py
+StatisticalDiagrams.egg-info/PKG-INFO
+StatisticalDiagrams.egg-info/SOURCES.txt
+StatisticalDiagrams.egg-info/dependency_links.txt
+StatisticalDiagrams.egg-info/requires.txt
+StatisticalDiagrams.egg-info/top_level.txt
