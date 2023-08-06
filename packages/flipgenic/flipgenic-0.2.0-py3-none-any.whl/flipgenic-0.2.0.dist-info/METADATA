@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: flipgenic
+Version: 0.2.0
+Summary: High-speed conversational dialogue engine for chatbots
+Home-page: https://github.com/AlphaMycelium/flipgenic
+Author: Daniel Thwaites
+Author-email: danthwaites30@btinternet.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/AlphaMycelium/flipgenic/issues
+Project-URL: Source, https://github.com/AlphaMycelium/flipgenic
+Keywords: conversation dialogue engine chat chatbot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy (<4,>=1.3)
+Requires-Dist: ngt (<2,>=1)
+Requires-Dist: spacy (<3,>=2)
+Requires-Dist: mathparse (<1)
+
+# Flipgenic
+
+*High-speed conversational dialogue engine for chatbots.*
+
+
