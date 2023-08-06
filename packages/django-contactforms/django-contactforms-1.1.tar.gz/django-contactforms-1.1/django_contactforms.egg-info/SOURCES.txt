@@ -1,0 +1,15 @@
+README.md
+django-contactforms
+setup.py
+contact_forms/__init__.py
+contact_forms/admin.py
+contact_forms/apps.py
+contact_forms/forms.py
+contact_forms/models.py
+contact_forms/tests.py
+contact_forms/urls.py
+contact_forms/views.py
+django_contactforms.egg-info/PKG-INFO
+django_contactforms.egg-info/SOURCES.txt
+django_contactforms.egg-info/dependency_links.txt
+django_contactforms.egg-info/top_level.txt
