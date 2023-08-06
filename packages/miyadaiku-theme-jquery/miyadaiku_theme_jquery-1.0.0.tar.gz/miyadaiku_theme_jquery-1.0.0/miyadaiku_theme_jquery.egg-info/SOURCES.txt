@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+miyadaiku_theme_jquery/__init__.py
+miyadaiku_theme_jquery/__version__.py
+miyadaiku_theme_jquery.egg-info/PKG-INFO
+miyadaiku_theme_jquery.egg-info/SOURCES.txt
+miyadaiku_theme_jquery.egg-info/dependency_links.txt
+miyadaiku_theme_jquery.egg-info/not-zip-safe
+miyadaiku_theme_jquery.egg-info/requires.txt
+miyadaiku_theme_jquery.egg-info/top_level.txt

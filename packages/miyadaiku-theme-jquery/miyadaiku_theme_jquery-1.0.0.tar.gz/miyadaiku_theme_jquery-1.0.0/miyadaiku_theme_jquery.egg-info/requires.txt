@@ -1,0 +1,10 @@
+miyadaiku>=1.0.0
+
+[dev]
+wheel
+twine
+pytest
+mypy
+black
+flake8
+autoflake
