@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "gimpformats"
+version = "2020.1.1"
+description = "Pure python implementation of the gimp file format(s)"
+authors = ["FredHappyface"]
+license = "lgplv3"
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Programming Language :: Python :: 3.5",
+	"Programming Language :: Python :: 3.6",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Operating System :: OS Independent"
+]
+homepage = "https://github.com/FHPythonUtils/GimpFormats"
+repository = "https://github.com/FHPythonUtils/GimpFormats"
+documentation = "https://github.com/FHPythonUtils/GimpFormats/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+numpy = "^1.18.3"
+pillow = "^7.1.1"
+brackettree = "^0.2.5"
+
+[tool.dephell.main]
+from = "pyproject.toml"
+to = "requirements.txt"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
