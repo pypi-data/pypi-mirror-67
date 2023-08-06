@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyalgostrategypool
+Version: 2020.5.dev1
+Summary: Official pool of Algorithmic Trading Strategies for the AlgoBulls Platform
+Home-page: https://github.com/algobulls/pyalgostrategypool
+Author: Pushpak Dagade
+Author-email: pushpak@algobulls.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/algobulls/pyalgostrategypool
+Project-URL: Documentation, https://pyalgostrategypool.readthedocs.io/en/latest/
+Project-URL: Bug Reports, https://github.com/algobulls/pyalgostrategypool/issues
+Project-URL: Say Thanks!, https://saythanks.io/to/guanidene%40gmail.com
+Keywords: algotrading algorithmictrading trading strategies algostrategies apis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyalgotrading (>=2020.5.dev1)
+
+# pyalgostrategypool
+Algorithmic Trading Strategies for the AlgoBulls Platform
+
+Backtesting, Papertrading and Realtrading can be performed on these strategies using the pyalgotrading package.
+
+
