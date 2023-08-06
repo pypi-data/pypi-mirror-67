@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyrename
+Version: 0.1.0
+Summary: Very simple file renamer in Python
+Home-page: https://github.com/sgtpepperpt/pyrename
+Author: Guilherme Borges
+Author-email: guilherme@guilhermeborges.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pyrename
+
+Very simple file renamer in Python.
+
+Usage:
+```
+./pyrename <file-matcher> <new-name-pattern> [-d]
+```
+
+Regex patterns use Python substitution (capture groups can be referenced using \1, \2, \3, etc.), `-d` performs a dry-run.
+
