@@ -1,0 +1,4 @@
+mlagents-envs==0.15.0
+gym-unity==0.15.0
+jsonpickle
+pyyaml
