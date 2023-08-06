@@ -1,0 +1,15 @@
+elizur/__init__.py,sha256=vLCWyjqaUOn9jF9PpJdXDXJnH_PFErpgz7ziEk1_l8c,19
+elizur/life/__init__.py,sha256=bn34GwNLIR7lEKTda4OTZbQyFNFk0U7l6KzsupaPCLc,30
+elizur/life/epv.py,sha256=dOBEpjOiQyrSkO2jYLVBkue2qtar3bKnonkgpuvVC4c,3789
+elizur/life/annuity/__init__.py,sha256=gLZb3eW0sn-FH0CH-wWh_GP-yVRa7c_snco3JYspXbM,42
+elizur/life/annuity/annuity.py,sha256=i4L0EwUrUlsklYEot5veXIlnKiRHGM-LFVpCEpPsGwU,8104
+elizur/life/table/__init__.py,sha256=zttP6W8XZ3spYGdAHShTD1nf7IofdKtoD0c9Yde9CUg,38
+elizur/life/table/table.py,sha256=88EyakIDijaGUGyAgLN3cVLGJekOrrLHWTGNTw-QwYU,15083
+elizur/life/util/__init__.py,sha256=FCJ9VoJsRqBqFUYHW_rURoXRpMT2oXLvFv5gfOCHGpg,77
+elizur/life/util/soa.py,sha256=m6e0jjKZxxQhBJcHKemCHXebVvuS23CaOUOCUv5JGvw,3566
+elizur/life/util/validators.py,sha256=bOxATgm3VfziSRR3ZwVsEO0Zu-FC5Ra3AcPv0bw2fus,2664
+elizur-0.2.0.dist-info/LICENSE.txt,sha256=V2NnHzeR8QrjRYi2m9YhIpio422gGwHdZvHsmKKRs8A,33666
+elizur-0.2.0.dist-info/METADATA,sha256=EIpYQYNGoOL6QQtnE-pa601jDWURiEhWfXOi_ctEvwA,5892
+elizur-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+elizur-0.2.0.dist-info/top_level.txt,sha256=nhQJXAyl5N_kOYgz-0MfTDQOYjzKO7295s9bwWCTmK0,7
+elizur-0.2.0.dist-info/RECORD,,
