@@ -1,0 +1,8 @@
+cwltool
+flake8
+Flask
+isort
+mypy
+pytest
+requests
+typing-extensions
