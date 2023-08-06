@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pydantic-sqlalchemy
+Version: 0.0.1
+Summary: Tools to convert SQLAlchemy models to Pydantic models
+License: MIT
+Author: Sebastián Ramírez
+Author-email: tiangolo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: importlib-metadata (>=1.6.0,<2.0.0); python_version < "3.8"
+Requires-Dist: pydantic (>=1.5.1,<2.0.0)
+Requires-Dist: sqlalchemy (>=1.3.16,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Pydantic-SQLAlchemy
+
+Tools to generate Pydantic models from SQLAlchemy models.
+
+Still experimental.
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
