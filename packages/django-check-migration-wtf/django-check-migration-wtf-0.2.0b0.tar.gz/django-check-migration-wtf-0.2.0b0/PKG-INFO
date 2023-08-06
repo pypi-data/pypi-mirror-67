@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: django-check-migration-wtf
+Version: 0.2.0b0
+Summary: A line of description
+Home-page: https://github.com/antonioIrizar/django-check-migration-wtf
+Author: Antonio Irizar
+Author-email: antonioirizar@gmail.com
+License: GLP3
+Description: # django-check-migration-wtf
+        check migrations of django to work on enviroment zero downtime
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
