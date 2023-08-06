@@ -1,0 +1,11 @@
+django_codemod/__init__.py,sha256=fOKO-P5o_iW0TuVZZH3WiODGFMI-HVEngg2DVASIvno,133
+django_codemod/cli.py,sha256=cOwvenAamvAt8jH8hle6nLw8eRT9T7mOF5JqXEl4Udw,319
+django_codemod/codemods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_codemod/codemods/django_40.py,sha256=KM1tU4UrTVlj7o5sPdvpdLjlt-6MzXJXcVnqBIBRP_c,2208
+django_codemod-0.1.0.dist-info/AUTHORS.rst,sha256=4vQ8B3HF3sF9iNR8Gp9OtQgGnI9OsEUjKm_Kk74a-64,157
+django_codemod-0.1.0.dist-info/LICENSE,sha256=SdRq9Pyt6_2Uc6jA5AAq5Ev3OuLQsBIsitgH6G8nlUU,1069
+django_codemod-0.1.0.dist-info/METADATA,sha256=9jGRT1-w1V0FQg78EZ1pyaGkpKWUKutZDPwRJ7zgukk,2317
+django_codemod-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+django_codemod-0.1.0.dist-info/entry_points.txt,sha256=um2dQPwj9bWo-9Lw_cHW_6EckHUkA6dm_IN7NRZtZAs,60
+django_codemod-0.1.0.dist-info/top_level.txt,sha256=kVTT0ZH7W_yE-QNGvE_B0ljZDchWhMmzVSoLOtcMXFE,15
+django_codemod-0.1.0.dist-info/RECORD,,
