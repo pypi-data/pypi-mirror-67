@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: isos-environment-test
+Version: 0.0.4
+Summary: Test your cloud automation environment for Isos Technology.
+Home-page: https://www.isostech.com
+Author: Sky Moore
+Author-email: sky.moore@isostech.com
+License: UNKNOWN
+Keywords: Isos Technology,Isos,Atlassian,Atlassian Cloud
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: argcomplete (==1.11.1)
+Requires-Dist: atlassian-python-api (==1.15.6)
+Requires-Dist: blessed (==1.17.5)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: coloredlogs (==14.0)
+Requires-Dist: cursor (==1.3.4)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: enlighten (==1.5.1)
+Requires-Dist: halo (==0.0.29)
+Requires-Dist: humanfriendly (==8.2)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (==1.6.0)
+Requires-Dist: log-symbols (==0.0.14)
+Requires-Dist: milc (==1.0.7)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-futures (==1.0.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: spinners (==0.0.24)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: wcwidth (==0.1.9)
+Requires-Dist: zipp (==3.1.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (==3.0.3) ; extra == 'docs'
+
+![Isos Technology](https://go.isostech.com/hubfs/Static%20External%20Assets/isos-standard-logo-OFFICIAL.svg)
+
+# Isos Technology Python Atlassian Cloud Automation Environment Test
+
+## License: GPLv3
+
+## Requirements
+
+- Python >= 3.7.7
+- appdirs == 1.4.3
+- argcomplete == 1.11.1
+- atlassian-python-api == 1.15.6
+- blessed == 1.17.5
+- certifi == 2020.4.5.1
+- chardet == 3.0.4
+- colorama == 0.4.3
+- coloredlogs == 14.0
+- cursor == 1.3.4
+- decorator == 4.4.2
+- enlighten == 1.5.1
+- halo == 0.0.29
+- humanfriendly == 8.2
+- idna == 2.9
+- importlib-metadata == 1.6.0
+- log-symbols == 0.0.14
+- milc == 1.0.7
+- oauthlib == 3.1.0
+- requests == 2.23.0
+- requests-futures == 1.0.0
+- requests-oauthlib == 1.3.0
+- six == 1.14.0
+- spinners == 0.0.24
+- termcolor == 1.1.0
+- urllib3 == 1.25.9
+- wcwidth == 0.1.9
+- zipp == 3.1.0
+
+## To install / test environment
+
+1. Ensure you have python 3 version 3.7.7 or greater installed.
+2. Generate an Atlassian API Token following these [directions](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+3. Install the environment test:
+
+   ```
+   # You might have to run as Administrator or sudo depending on your setup.
+
+   python3 setup.py install --user
+   ```
+
+4. Configure the test:
+   ```
+   isos-env-test config general.jira_url=[Your Jira Cloud URL] \
+   general.username=[Your cloud account email address] \
+   general.api_token=[Your api token] \
+   general.data_path=[A file path to test access to]
+   ```
+5. Run the test:
+   ```
+   isos-env-test
+   ```
+
+## To install / test with virtualenv
+
+1. Ensure you have python 3 version 3.7.7 or greater installed
+2. Generate an Atlassian API Token following these [directions](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)
+3. Install virtualenv:  
+   `pip3 install virtualenv`
+4. Create and source a virtualenv:
+   ```
+   virtualenv env
+   source env/bin/activate
+   ```
+5. Run the following commands in Terminal or Powershell:
+   ```
+   python setup.py install
+   ```
+6. Configure the test:
+   ```
+   isos-env-test config general.jira_url=[Your Jira Cloud URL] \
+   general.username=[Your cloud account email address] \
+   general.api_token=[Your api token] \
+   general.data_path=[A file path to test access to]
+   ```
+7. Run the test:
+   ```
+   isos-env-test
+   ```
+
+For assistance with this, Atlassian Products in general, or agile practices, [contact Isos Technology today](https://www.isostech.com/contact "Contact Isos Technology"). Isos can do a deep dive into your organization’s processes, strategies, and goals to determine if Cloud adoption is the right option for your organization and help further prepare you for the switch. To continue that discussion, Isos has a comprehensive [Cloud Strategy](https://www.isostech.com/services/cloud-strategy/ "Atlassian Cloud Strategy") offering to help guide you through every step of the adoption process. This starts with a complete cloud readiness assessment and moves you through [migration planning and implementation](https://www.isostech.com/services/atlassian-migrations/ "Atlassian Migrations"), and [training](https://www.isostech.com/services/atlassian-training/ "Atlassian Training")—topping it off by helping your organization achieve freedom and autonomy via our [managed services](https://www.isostech.com/services/managed-services-and-support/ "Atlassian Managed Services") offering.
+
+[www.isostech.com](https://www.isostech.com "Isos Technology")
+
+

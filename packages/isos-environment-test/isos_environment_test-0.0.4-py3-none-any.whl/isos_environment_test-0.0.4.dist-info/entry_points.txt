@@ -1,0 +1,3 @@
+[console_scripts]
+isos-env-test = isos_env_test.__main__:cli
+
