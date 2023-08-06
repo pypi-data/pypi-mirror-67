@@ -1,0 +1,11 @@
+HISTORY.md
+MANIFEST.in
+README.md
+setup.py
+utilss/__init__.py
+utilss/getMax.py
+utilss/getMin.py
+utilss.egg-info/PKG-INFO
+utilss.egg-info/SOURCES.txt
+utilss.egg-info/dependency_links.txt
+utilss.egg-info/top_level.txt
