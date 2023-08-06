@@ -1,0 +1,11 @@
+dypac/__init__.py,sha256=NpmH5K7hKEfcVohI9A3O_ZlaFnB-fywqN1b88ErvVhY,355
+dypac/bascpp.py,sha256=pYDEvtINBwZClLSmmaki1BjHfwezB5C2iTlZoHV2b5g,7583
+dypac/dypac.py,sha256=BdjwBOxpjUxn5DDcFrrnF90XxI75CTSXMZ1MOqiKEDI,18972
+dypac/embeddings.py,sha256=o-JwPxxcTOAqDZGrurb4RUojvM7T-pB2ZzQ63EP5mbA,2947
+dypac/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dypac/tests/test_bascpp.py,sha256=3-ZlHdozLUgY4tjOnkIXaX-A0cIro7TP_cbf-CK_RVI,3135
+dypac/tests/test_dypac.py,sha256=Y_nX59M9P2JukqT-RoYrztGRQWemt57A_k2bEYXgfUs,856
+dypac-0.5.dist-info/METADATA,sha256=6PGhMxjfUfymZPbc52jiGUDYG_v08rXqaHZ5MBX2rok,1827
+dypac-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dypac-0.5.dist-info/top_level.txt,sha256=oNHCxd_BuR9VygTcdyRTY6aYfbWKEU_u30utlST7AA4,6
+dypac-0.5.dist-info/RECORD,,
