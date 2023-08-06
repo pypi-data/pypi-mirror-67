@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ananke-causal
+Version: 0.1.4
+Summary: Ananke, named for the Greek primordial goddess of necessity and causality, is a python package for causal inference using the language of graphical models.
+Home-page: https://gitlab.com/causal/ananke
+Author: Rohit Bhattacharya
+Author-email: rbhatta8@jhu.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
