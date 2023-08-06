@@ -1,0 +1,17 @@
+xyfigure/__init__.py,sha256=CdaZuPkPTknomtmdgdraa5lNnChwDtwFeVyanD3Eg9k,239
+xyfigure/client.py,sha256=z5Ln6Blg_1yVycthDJAJ4-HX2FVr5JMLMQ8U9-iqMQo,2350
+xyfigure/factory.py,sha256=mEfTcHmv0muuwCO24-bKZVqULiYmGY2m8L5XSCexgyM,906
+xyfigure/xybase.py,sha256=vhzFmglmyclOdf4T6-gvYZv1t3-WHADXjTOh5RyhrXI,2113
+xyfigure/xymodel.py,sha256=Fh7YxJxL3VVRrKLBiywFrkA5ThwqaV8wX0HGyisvshA,14290
+xyfigure/xyview.py,sha256=sDWB1fQA5U3fAbkrsb45trCCyTcW8IFU4N8iXwz0sFk,7348
+xyfigure/test/__init__.py,sha256=AR4gQKgSkjifCUOW2bzuqmkP1Uz7yGA5XWBVCjpkd1Y,156
+xyfigure/test/image_diff.py,sha256=e_tt_pxrMtSgy_YLdHFhGn-60qwKURZD4r1v_hU5v-M,4423
+xyfigure/test/image_diff_test.py,sha256=r37twuwzTyehuK4oiUbIN4kTlgtnR3zISC6CblOkfas,1117
+xyfigure/test/signal_test.py,sha256=leSAArG0iGjT_oXDcjpZjSlmq7OfPZF1-xgl00SNl74,1376
+xyfigure/test/xyfigure_test.py,sha256=nLPibm_LgF-nGAf7HAAq4xJ71SD5dO76ZpInjXhF1M8,5834
+xyfigure-0.0.3.dist-info/LICENSE,sha256=Nw8dilXoAuXCXYHX2sEo4O1fypWMVSCePkQtR7cC_J8,1085
+xyfigure-0.0.3.dist-info/METADATA,sha256=sTGtDUnnJQa-g1ysuzzM55GPN4mKAMSEThl55XEpAas,6540
+xyfigure-0.0.3.dist-info/NOTICE.md,sha256=phg2lSesOBEhcUazNaD-bjD-Zh0Ugw-ra7hnfqqZjJ4,1564
+xyfigure-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xyfigure-0.0.3.dist-info/top_level.txt,sha256=kEP3ZU_wJSCNozMjxRI7XwthiFdj_I_EC3K0fffSUJc,9
+xyfigure-0.0.3.dist-info/RECORD,,
