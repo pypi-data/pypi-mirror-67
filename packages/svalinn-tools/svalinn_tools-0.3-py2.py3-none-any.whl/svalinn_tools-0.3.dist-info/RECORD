@@ -1,0 +1,12 @@
+svalinn_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svalinn_tools/data_loading.py,sha256=ka4ig0lulyjh2LPpQWxxm1xvhNKEFpXQ1NGhC4nD0Z4,8950
+svalinn_tools/graveyard_removal.py,sha256=TP0drUAiyMPYVMjTKxMAU5gBt0I6GHLJDUvF7R5EJME,5382
+svalinn_tools/tag_expansion.py,sha256=uxu4xcKcUpw3Mb3r2ri3Z4qDRhv3uf-9H2hCPkVd_Gw,7761
+svalinn_tools/img/README_example.png,sha256=SSZOE6ZjGPVvGHjxn8C-DeXEdbqcAS9vmwnb1GgSI1U,492198
+svalinn_tools/img/svalinn.png,sha256=yzDY7PhA-IqTjXe8KKrXJnCRlVOAxS-Peuwt7KYawdY,94958
+svalinn_tools-0.3.dist-info/LICENSE.md,sha256=MVi1eE4XhrK07JgdA_oqIQVZPSM0GQcqP2eiiJXBd7M,1124
+svalinn_tools-0.3.dist-info/METADATA,sha256=MQVHi9NMdO5ylcCyYHP614wSOn7BuJ6_4guA44rI_IA,4325
+svalinn_tools-0.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+svalinn_tools-0.3.dist-info/entry_points.txt,sha256=qMvuP7FddrRveywadkSpWQhrheobjeTX_849rzr0zk8,172
+svalinn_tools-0.3.dist-info/top_level.txt,sha256=vm6Runq7xyenIWi1J8Tt_UEX02pbriOu-id6p-6GGh4,14
+svalinn_tools-0.3.dist-info/RECORD,,
