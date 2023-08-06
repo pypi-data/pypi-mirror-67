@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aiotaskpool
+Version: 0.1.1
+Summary: aiotaskpool
+Home-page: https://zeroguard.com
+Author: ZeroGuard
+Author-email: oss@zeroguard.com
+License: AGPL-3.0
+Project-URL: Source, https://github.com/zeroguard/aiotaskpool
+Description: aiotaskpool
+        ====================
+        [![Travis CI Status](https://travis-ci.org/zeroguard/aiotaskpool.svg?branch=master)](https://travis-ci.org/zeroguard/aiotaskpool)
+        [![Coverage Status](https://coveralls.io/repos/github/zeroguard/aiotaskpool/badge.svg?branch=master)](https://coveralls.io/github/zeroguard/aiotaskpool?branch=master)
+        ![PyPI Status](https://img.shields.io/pypi/status/aiotaskpool)
+        ![PyPI Version](https://img.shields.io/pypi/v/aiotaskpool)
+        ![Repository License](https://img.shields.io/github/license/zeroguard/aiotaskpool)
+        ![PyPI Python Version](https://img.shields.io/pypi/pyversions/aiotaskpool)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Security
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

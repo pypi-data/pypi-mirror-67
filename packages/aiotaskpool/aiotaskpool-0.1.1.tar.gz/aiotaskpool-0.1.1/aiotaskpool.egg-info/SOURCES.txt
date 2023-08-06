@@ -1,0 +1,8 @@
+README.md
+setup.py
+aiotaskpool/__init__.py
+aiotaskpool/__version__.py
+aiotaskpool.egg-info/PKG-INFO
+aiotaskpool.egg-info/SOURCES.txt
+aiotaskpool.egg-info/dependency_links.txt
+aiotaskpool.egg-info/top_level.txt
