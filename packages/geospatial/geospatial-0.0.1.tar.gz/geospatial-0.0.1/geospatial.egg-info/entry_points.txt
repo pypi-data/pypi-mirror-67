@@ -1,0 +1,3 @@
+[console_scripts]
+geospatial = geospatial.cli:main
+
