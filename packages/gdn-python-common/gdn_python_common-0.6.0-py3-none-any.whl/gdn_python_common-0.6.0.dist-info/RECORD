@@ -1,0 +1,12 @@
+gramedia/__init__.py,sha256=CBY3jsC-9HCm7eZ6CKD-sYLCejqOJ1pYWPQM4LGIXcI,22
+gramedia/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gramedia/common/cli.py,sha256=rn6b46Uft3QxtnjK5l4g7LTcpQvNuS57owcPFOz94H0,1283
+gramedia/common/env.py,sha256=YlFpx8RVIjtTTiymJjvAhM1zX567MFJHzEJIB83YBas,3704
+gramedia/common/http.py,sha256=a9B35s0ScNLFhrf3zh4ANv_PDGnLXU530vuc0ZxuT4c,3392
+gramedia/common/jsonschema.py,sha256=oiOeWsGtVtNt8FF6ie8RGp8FybjBdmxttZpf3btIWhk,1793
+gramedia/django/__init__.py,sha256=wlFSElSFZnqtY6I1W-aBHEn3Tim3piaY-X9DYB3QVQY,196
+gramedia/django/drf.py,sha256=WITj88wAA-w2ObzgJNxDwSraDYZ_N4EyIhfQfB-kb8U,7752
+gdn_python_common-0.6.0.dist-info/METADATA,sha256=C1Ciodwx_Qlq9YVTKM2amZby-eIY2iCSXLUKYJEYvyE,1725
+gdn_python_common-0.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gdn_python_common-0.6.0.dist-info/top_level.txt,sha256=EK9cky0vrfzuWuRVUdL6KlSqj00FKrpUcpygsR8jibw,9
+gdn_python_common-0.6.0.dist-info/RECORD,,
