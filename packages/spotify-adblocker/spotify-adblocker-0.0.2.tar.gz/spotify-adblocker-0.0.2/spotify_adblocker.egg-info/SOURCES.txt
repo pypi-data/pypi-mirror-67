@@ -1,0 +1,9 @@
+README.md
+setup.py
+spotify-adblocker/__init__.py
+spotify-adblocker/__main__.py
+spotify_adblocker.egg-info/PKG-INFO
+spotify_adblocker.egg-info/SOURCES.txt
+spotify_adblocker.egg-info/dependency_links.txt
+spotify_adblocker.egg-info/requires.txt
+spotify_adblocker.egg-info/top_level.txt

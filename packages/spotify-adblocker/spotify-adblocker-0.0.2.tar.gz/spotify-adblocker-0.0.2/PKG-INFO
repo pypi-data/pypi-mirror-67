@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: spotify-adblocker
+Version: 0.0.2
+Summary: Blocks Spotify desktop ads.
+Home-page: https://github.com/crrapi/spotify-adblocker
+Author: crrapi
+License: MIT
+Description: # spotify-adblocker
+        Block Spotify desktop ads! (Edits hosts file)
+        
+        # Installation
+        `pip3 install -U spotify-adblocker`
+        
+        # Usage
+        `python -m spotify-adblocker`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
