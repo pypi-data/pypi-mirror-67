@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: UponorJnap
+Version: 0.1
+Summary: Library for communication with Uponor X-265
+Home-page: https://github.com/asev
+Author: asev
+Author-email: pypi@sev.lt
+License: MIT
+Download-URL: https://github.com/asev/py-uponor-jnap/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: uponor,heating,control
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
