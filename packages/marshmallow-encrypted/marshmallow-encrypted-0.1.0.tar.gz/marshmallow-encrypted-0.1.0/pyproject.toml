@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "marshmallow-encrypted"
+version = "0.1.0"
+description = "Encrypted field for use with Marshmallow."
+authors = ["Bas Wind <mailtobwind@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+marshmallow = "^3"
+pycryptodome = "^3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+line-length = 79
+known_third_party = ["marshmallow", "marshmallow_encrypted", "pytest", "setuptools"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
