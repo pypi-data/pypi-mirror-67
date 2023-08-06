@@ -1,0 +1,67 @@
+# Copyright [2018-2020] Peter Krenesky
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+RUN apt-get install -y \
+        build-essential \
+        libblas-dev \
+        libfreetype6-dev \
+        libffi-dev \
+        liblapack-dev \
+        libldap2-dev \
+        libpng-dev \
+        libpq-dev \
+        libsasl2-dev \
+        libssl-dev \
+        libxml2-dev \
+        libxslt-dev \
+        pkg-config \
+        python2.7-dev \
+        python-pip
+
+RUN pip install \
+    pipenv
+
+ENV \
+    # Environment
+    PYTHON_VERSION=2.7 \
+    PYTHONUNBUFFERED=1 \
+    LC_ALL=C.UTF-8 \
+    LANG=C.UTF-8s \
+    \
+    # Pipenv / Virtualenv
+    PYTHONPATH=$PROJECT_DIR \
+    PIPENV_SHELL_FANCY=1 \
+    PIPENV_VENV_IN_PROJECT=1 \
+    PIPENV_NOSPIN=1
+
+# Pipfile needs to be added instead of symlinked. Pipenv follows symlinks and
+# creates the pipenv in the directory where the Pipfile is located. The Pipfile
+# will be mounted in for docker-compose in local environments.
+ADD Pipfile $APP_DIR
+RUN ln -s $PROJECT_DIR/Pipfile.lock $APP_DIR
+
+# Create an empty pipenv
+RUN pipenv --python $PYTHON_VERSION
+
+{% if CONFIG.ENV == 'PRODUCTION' %}
+# Install packages - This is skipped in DEV builds because they may include
+# local-third-party packages. Those packages are installed using mounted
+# volumes and are not accessible to docker build.
+# TODO add check for local packages?
+RUN pipenv install
+{% endif %}
+
+# Always enable the pipenv when running commands
+ENTRYPOINT ["pipenv", "run"]
+

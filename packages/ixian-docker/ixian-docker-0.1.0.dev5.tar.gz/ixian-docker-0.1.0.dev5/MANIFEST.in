@@ -1,0 +1,12 @@
+include AUTHORS
+include LICENSE-2.0.txt
+include NOTICE
+include README.md
+prune ixian_docker/tests
+exclude requirements*.txt
+exclude Makefile
+exclude tox.ini
+exclude pytest.ini
+exclude .coveragerc
+exclude lib
+exclude bin
