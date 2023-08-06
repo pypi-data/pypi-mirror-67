@@ -1,0 +1,17 @@
+README.md
+setup.py
+xyfigure/__init__.py
+xyfigure/client.py
+xyfigure/factory.py
+xyfigure/xybase.py
+xyfigure/xymodel.py
+xyfigure/xyview.py
+xyfigure.egg-info/PKG-INFO
+xyfigure.egg-info/SOURCES.txt
+xyfigure.egg-info/dependency_links.txt
+xyfigure.egg-info/top_level.txt
+xyfigure/test/__init__.py
+xyfigure/test/image_diff.py
+xyfigure/test/image_diff_test.py
+xyfigure/test/signal_test.py
+xyfigure/test/xyfigure_test.py
