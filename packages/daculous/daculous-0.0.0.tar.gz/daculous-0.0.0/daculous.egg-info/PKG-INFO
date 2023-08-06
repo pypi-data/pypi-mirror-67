@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: daculous
+Version: 0.0.0
+Summary: Python library for DACulous
+Home-page: https://github.com/daculous/daculous-py
+Author: DACulous developers
+Author-email: info@daculous.org
+Maintainer: DACulous developers
+Maintainer-email: info@daculous.org
+License: UNKNOWN
+Download-URL: https://github.com/daculous/daculous-py/tarball/0.0.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial

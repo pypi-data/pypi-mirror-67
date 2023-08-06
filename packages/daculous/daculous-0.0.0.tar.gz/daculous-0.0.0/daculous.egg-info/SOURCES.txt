@@ -1,0 +1,5 @@
+setup.py
+daculous.egg-info/PKG-INFO
+daculous.egg-info/SOURCES.txt
+daculous.egg-info/dependency_links.txt
+daculous.egg-info/top_level.txt
