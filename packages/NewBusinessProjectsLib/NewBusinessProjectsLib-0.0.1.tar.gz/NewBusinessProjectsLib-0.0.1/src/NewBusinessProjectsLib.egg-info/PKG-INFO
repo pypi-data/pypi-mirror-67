@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: NewBusinessProjectsLib
+Version: 0.0.1
+Summary: Keywords for facile newbusiness project!
+Home-page: https://github.com/f46io
+Author: Fabio Lima
+Author-email: f46io@icloud.com
+License: UNKNOWN
+Description: Package which centralized python newbusiness keywords
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
