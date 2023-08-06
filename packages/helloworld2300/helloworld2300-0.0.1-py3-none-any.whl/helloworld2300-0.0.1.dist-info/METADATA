@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: helloworld2300
+Version: 0.0.1
+Summary: say hello!
+Home-page: https://github.com/xanasa14/HelloWorld2300
+Author: Xavier Navarro
+Author-email: xanasa14@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+long_description
+
+
