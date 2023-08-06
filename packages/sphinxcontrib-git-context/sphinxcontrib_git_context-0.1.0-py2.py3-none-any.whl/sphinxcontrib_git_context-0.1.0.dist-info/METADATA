@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-git-context
+Version: 0.1.0
+Summary: A Sphinx plugin to get the version and the release settings from the GIT repository
+Home-page: https://gitlab.com/ddidier/sphinxcontrib-git-context/
+Author: David DIDIER
+Author-email: c_inconnu2@yahoo.fr
+License: mit
+Project-URL: Documentation, https://ddidier.gitlab.io/sphinxcontrib-git-context/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: gitpython (>=3.0)
+Requires-Dist: ndd-utils4p (>=0.1)
+Requires-Dist: sphinx (>=2.4)
+Provides-Extra: distributing
+Requires-Dist: twine (==3.1.1) ; extra == 'distributing'
+Requires-Dist: wheel (==0.34.2) ; extra == 'distributing'
+Provides-Extra: documenting
+Requires-Dist: sphinx (==2.4.4) ; extra == 'documenting'
+Requires-Dist: sphinx-rtd-theme (==0.4.3) ; extra == 'documenting'
+Requires-Dist: sphinx-prompt (==1.1.0) ; extra == 'documenting'
+Provides-Extra: testing
+Requires-Dist: expects (>=0.9.0) ; extra == 'testing'
+Requires-Dist: flake8 (==3.7.9) ; extra == 'testing'
+Requires-Dist: ndd-test4p (==0.4.4) ; extra == 'testing'
+Requires-Dist: pylint (==2.4.4) ; extra == 'testing'
+Requires-Dist: pytest (==5.4.1) ; extra == 'testing'
+Requires-Dist: pytest-cov (==2.8.1) ; extra == 'testing'
+Requires-Dist: pytest-mock (==3.1.0) ; extra == 'testing'
+Requires-Dist: tox (==3.14.6) ; extra == 'testing'
+
+#########################
+sphinxcontrib-git-context
+#########################
+
+|pipeline| |coverage|
+
+.. |pipeline| image:: https://gitlab.com/ddidier/sphinxcontrib-git-context/badges/master/pipeline.svg
+    :target: https://gitlab.com/ddidier/sphinxcontrib-git-context/commits/master
+    :alt: Pipeline Status
+
+.. |coverage| image:: https://gitlab.com/ddidier/sphinxcontrib-git-context/badges/master/coverage.svg
+    :target: https://gitlab.com/ddidier/sphinxcontrib-git-context/commits/master
+    :alt: Coverage Report
+
+
+A `Sphinx <https://www.sphinx-doc.org>`_ plugin to get the version and the release settings from the GIT repository.
+
+Documentation is available at https://ddidier.gitlab.io/sphinxcontrib-git-context/.
+
+
