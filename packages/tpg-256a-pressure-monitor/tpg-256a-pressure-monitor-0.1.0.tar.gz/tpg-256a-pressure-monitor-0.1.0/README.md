@@ -1,0 +1,80 @@
+# README
+
+[![PyPI Latest Version](https://badge.fury.io/py/tpg-256a-pressure-monitor.svg)](https://badge.fury.io/py/lab-utils)
+[![pipeline status](https://gitlab.ethz.ch/exotic-matter/cw-beam/tpg-256a-pressure-monitor/badges/master/pipeline.svg)](https://gitlab.ethz.ch/exotic-matter/cw-beam/tpg-256a-pressure-monitor/-/commits/master)
+[![coverage report](https://gitlab.ethz.ch/exotic-matter/cw-beam/tpg-256a-pressure-monitor/badges/master/coverage.svg)](https://gitlab.ethz.ch/exotic-matter/cw-beam/tpg-256a-pressure-monitor/-/commits/master)
+[![Documentation Status](https://readthedocs.org/projects/tpg-256a-pressure-monitor/badge/?version=latest)](https://tpg-256a-pressure-monitor.readthedocs.io/en/latest/?badge=latest)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## TPG.256A Pressure Monitor
+
+The TPG-256A Pressure Monitor is a readout and logging application for the Pfeiffer TPG-256A Pressure Controller.
+
+## Dependencies
+
+The package **tpg-256a-pressure-monitor** has the following pre-requisites:
+
+ -  [Python 3.6](https://www.python.org/downloads/release/python-360/) and [pip 10.0](https://pip.pypa.io/en/stable/)
+    are the minimum required versions to build and install **tpg-256a-pressure-monitor** and its dependencies. It is
+    recommended to install and run **tpg-256a-pressure-monitor** (and any other package, for that matter) under a
+    [virtual environment](https://docs.python.org/3/library/venv.html).
+
+## Getting Started
+
+These instructions will install the package **tpg-256a-pressure-monitor** and let you run from the command line
+terminal. It is assumed that you have successfully installed the [prerequisites](#dependecies) and are running
+inside a virtual environment.
+
+1. Clone the repository into the directory <code>$DIR</code>: 
+    ```
+    git clone git@gitlab.ethz.ch:exotic-matter/cw-beam/tpg-256a-pressure-monitor $DIR
+    cd $DIR
+    ```
+   
+1. Install the package and its dependencies
+    ```
+    python -m pip install .
+    ```
+   
+1. If you want to build the documentation
+    ```
+    cd $PATH_TO_SOURCE
+    python -m pip install .[docs]
+    cd docs
+    make clean
+    make html
+    ```
+
+## Usage
+
+To use a the **tpg-256a-pressure-monitor** package, TODO
+
+
+
+## Authors
+
+* [**Carlos Vigo**](mailto:carlosv@phys.ethz.ch?subject=[GitHub%-%lab-utils]) - *Initial work* - 
+[GitLab](https://gitlab.ethz.ch/carlosv)
+
+## Contributing
+
+Please read our [contributing policy](CONTRIBUTING.md) for details on our code of
+conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Git](https://git-scm.com/) for versioning. For the versions available, see the 
+[tags on this repository](https://gitlab.ethz.ch/exotic-matter/cw-beam/tpg-256a-pressure-monitor).
+
+## License
+
+This project is licensed under the [GNU GPLv3 License](LICENSE.md)
+
+## Built With
+
+* [PyCharm Community Edition](https://www.jetbrains.com/pycharm//) - The IDE used
+* [Sphinx](https://www.sphinx-doc.org/en/master/index.html) - Documentation
+
+## Acknowledgments
+
+* Nobody so far
