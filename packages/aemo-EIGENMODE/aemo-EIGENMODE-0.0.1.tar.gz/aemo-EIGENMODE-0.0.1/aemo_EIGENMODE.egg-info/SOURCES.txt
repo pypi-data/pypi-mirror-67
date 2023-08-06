@@ -1,0 +1,11 @@
+README.md
+setup.py
+aemo/__init__.py
+aemo/aemo.py
+aemo/key.py
+aemo/set_tables.py
+aemo_EIGENMODE.egg-info/PKG-INFO
+aemo_EIGENMODE.egg-info/SOURCES.txt
+aemo_EIGENMODE.egg-info/dependency_links.txt
+aemo_EIGENMODE.egg-info/requires.txt
+aemo_EIGENMODE.egg-info/top_level.txt
