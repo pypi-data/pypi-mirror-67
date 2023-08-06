@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: django-arkid
+Version: 0.1.3
+Summary: ArkID是全新一代企业单点登录解决方案, 彻底告别企业内多系统多账号的烦恼, 节省管理成本, 自带功能全面的WEB管理界面，提升管理效率。
+Home-page: https://github.com/longguikeji/arkid-core
+Author: longguikeji
+Author-email: rr97390483@dingtalk.com
+License: UNKNOWN
+Download-URL: https://github.com/longguikeji/arkid-core
+Keywords: django LDAP OAuth OpenID SAML SSO HTTP API
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 3.0
+Requires-Dist: django (==2.2.10)
+Requires-Dist: djangorestframework (==3.10.2)
+Requires-Dist: django-cors-headers (==2.5.3)
+Requires-Dist: celery (==4.2.1)
+Requires-Dist: coreapi (==2.3.3)
+Requires-Dist: django-celery-results (==1.0.1)
+Requires-Dist: django-celery-beat (==1.1.1)
+Requires-Dist: pylint
+Requires-Dist: rules (==2.0)
+Requires-Dist: ldap3 (==2.5.2)
+Requires-Dist: passlib
+Requires-Dist: pypinyin
+Requires-Dist: django-oauth-toolkit (==1.2.0)
+Requires-Dist: django-cors-middleware (==1.4.0)
+Requires-Dist: redis (==3.2.0)
+Requires-Dist: django-simple-captcha (==0.5.12)
+Requires-Dist: aliyun-python-sdk-core-v3 (==2.8.6)
+Requires-Dist: sqlparse
+Requires-Dist: kubernetes (==10.0.0)
+Requires-Dist: django-jsonfield (==1.2.0)
+Requires-Dist: minio (==4.0.18)
+Requires-Dist: cryptography (==2.8)
+Requires-Dist: django-redis (==4.10.0)
+Requires-Dist: alipay-sdk-python (==3.3.202)
+Requires-Dist: pysaml2 (==4.9.0)
+Requires-Dist: mako (==1.1.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: repoze-who (==2.3)
+Requires-Dist: cherrypy (==18.4.0)
+Requires-Dist: pyjwkest
+
+# 一账通
+
+ArkID是全新一代企业单点登录解决方案, 彻底告别企业内多系统多账号的烦恼, 节省管理成本, 自带功能全面的WEB管理界面，提升管理效率。
+
+更多细节参见 [docs.arkid.longguikeji.com](https://docs.arkid.longguikeji.com)
+
+## 功能特性
+
+### 兼容各种常见协议, 让每个应用都可以连接
+
+1. LDAP
+2. OAuth
+3. OpenID(即将开放)
+4. SAML(即将开放)
+5. HTTP API
+
+### 丰富的账号与分组管理
+
+1. 灵活高效的管理企业内部账号与分组
+2. 支持一键钉钉导入
+
+### 完备的权限管理
+
+细粒度的权限管理，让企业没有管理不到的权限
+
+1. 账号权限
+2. 分组权限
+3. 应用白名单，黑名单
+4. 应用内权限
+
+### 工作台(Workspace)
+
+每位员工均拥有自己的工作台，一键访问业务系统
+
+### 自定义登陆UI
+
+名称、LOGO、主题色，让登陆页面彰显企业文化
+
+## 项目说明
+
+- [arkid-frontend](https://github.com/longguikeji/arkid-frontend): 前端代码
+- [arkid-core](https://github.com/longguikeji/arkid-core): 后端核心以及其他
+- [arkid-broker](https://github.com/longguikeji/arkid-broker): 一账通部署在ArkOS中的服务Broker
+
+## DEMO
+
+https://arkid.demo.longguikeji.com
+
+```
+用户名: admin
+密码: longguikeji
+```
+
+## Screenshots 
+
+![image](https://raw.githubusercontent.com/skoogi/charts/assets/assets/login.png)
+
+![image](https://raw.githubusercontent.com/skoogi/charts/assets/assets/ucenter.png)
+
+![image](https://raw.githubusercontent.com/skoogi/charts/assets/assets/admin.png)
+
+## 文档
+
+- [完整文档](https://docs.arkid.longguikeji.com)
+- [接口文档](https://oneid1.docs.apiary.io/#)
+
+## 部署
+
+我们推荐基于Kubernetes的环境部署，官方helm charts参考: [Charts](https://github.com/longguikeji/arkid-charts)
+
+
+## Issues
+
+请通过[Github Issues](https://github.com/longguikeji/arkid-core/issues)给我们提交问题
+
+## Changelog
+
+[Release Notes](https://github.com/longguikeji/arkid-core/releases)
+
+
+## Contact
+
+- [Website](https://www.longguikeji.com)
+- 技术交流 QQ 群 （167885406）
+
+## License
+
+[LGPL-3.0](https://opensource.org/licenses/LGPL-3.0)
+
+Copyright (c) 2019-present, 北京龙归科技有限公司
+
+
