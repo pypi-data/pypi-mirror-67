@@ -1,0 +1,23 @@
+CHANGES
+=======
+
+* WIP Fix for the Groups
+* WIP :init is now silent
+* WIP Packaging
+* WIP :sh task, args view in observer
+* WIP results collection and coloring
+* WIP added CallableTask
+* WIP :tasks - formatting
+* WIP :tasks
+* WIP :init task is now executing always
+* WIP output capturing - IO, fixed mutated tasks, consistent validation and execution behavior of argparse
+* Docs
+* Add todos
+* WIP update docs
+* WIP task execution with arguments passing, interfaces for better static analysis
+* WIP task validation and execution
+* WIP task groups
+* WIP task groups
+* WIP discovery
+* Change task name
+* A
