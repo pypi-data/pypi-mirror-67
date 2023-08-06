@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/clifi
+src/clifi/__init__.py
+src/clifi/utils.py
+src/clifi.egg-info/PKG-INFO
+src/clifi.egg-info/SOURCES.txt
+src/clifi.egg-info/dependency_links.txt
+src/clifi.egg-info/top_level.txt
