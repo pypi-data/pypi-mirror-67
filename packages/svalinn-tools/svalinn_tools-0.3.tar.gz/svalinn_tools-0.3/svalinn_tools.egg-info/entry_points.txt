@@ -1,0 +1,5 @@
+[console_scripts]
+data_loading = svalinn_tools.data_loading:main
+graveyard_removal = svalinn_tools.graveyard_removal:main
+tag_expansion = svalinn_tools.tag_expansion:main
+

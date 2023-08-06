@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+svalinn_tools/__init__.py
+svalinn_tools/data_loading.py
+svalinn_tools/graveyard_removal.py
+svalinn_tools/tag_expansion.py
+svalinn_tools.egg-info/PKG-INFO
+svalinn_tools.egg-info/SOURCES.txt
+svalinn_tools.egg-info/dependency_links.txt
+svalinn_tools.egg-info/entry_points.txt
+svalinn_tools.egg-info/requires.txt
+svalinn_tools.egg-info/top_level.txt
+svalinn_tools/img/README_example.png
+svalinn_tools/img/__init__.py
+svalinn_tools/img/svalinn.png
