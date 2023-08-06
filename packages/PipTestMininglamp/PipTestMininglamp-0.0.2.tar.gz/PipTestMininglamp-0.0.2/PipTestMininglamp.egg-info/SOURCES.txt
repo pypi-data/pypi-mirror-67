@@ -1,0 +1,8 @@
+README.md
+setup.py
+PipTestMininglamp.egg-info/PKG-INFO
+PipTestMininglamp.egg-info/SOURCES.txt
+PipTestMininglamp.egg-info/dependency_links.txt
+PipTestMininglamp.egg-info/top_level.txt
+test/__init__.py
+test/print.py
