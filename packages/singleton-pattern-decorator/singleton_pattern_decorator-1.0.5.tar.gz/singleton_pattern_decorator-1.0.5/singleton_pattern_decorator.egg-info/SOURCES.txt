@@ -1,0 +1,7 @@
+README.md
+setup.py
+singleton_pattern_decorator/decorator.py
+singleton_pattern_decorator.egg-info/PKG-INFO
+singleton_pattern_decorator.egg-info/SOURCES.txt
+singleton_pattern_decorator.egg-info/dependency_links.txt
+singleton_pattern_decorator.egg-info/top_level.txt
