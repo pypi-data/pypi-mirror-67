@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: readsql
+Version: 0.1.0
+Summary: Convert SQL to most human readable format
+Home-page: https://github.com/AzisK/readsql/
+License: MIT
+Keywords: SQL,Lint,Python
+Author: Azis
+Author-email: azuolas.krusna@yahoo.com
+Maintainer: Azis
+Maintainer-email: azuolas.krusna@yahoo.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Project-URL: Repository, https://github.com/AzisK/readsql/
+Description-Content-Type: text/markdown
+
+# readsql
+
+Convert SQL to most human readable format
+
+# Usage
+
+- `python readsql tests/sql_example.sql` converts example SQL code to easier readable format
+- `python readsql "select gold from mine" -s` takes the `"select gold from mine"` string as input and outputs it formatted
+
+# Testing
+
+Have `pytest` installed and run `pytest -v` (-v stands for verbose)
+
