@@ -1,0 +1,4 @@
+[console_scripts]
+sitekicker=sitekicker.__main__:main
+sk=sitekicker.__main__:main
+
