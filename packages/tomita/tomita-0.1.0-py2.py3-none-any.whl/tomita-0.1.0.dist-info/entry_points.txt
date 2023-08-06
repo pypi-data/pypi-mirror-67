@@ -1,0 +1,3 @@
+[console_scripts]
+tomita = tomita.cli:main
+

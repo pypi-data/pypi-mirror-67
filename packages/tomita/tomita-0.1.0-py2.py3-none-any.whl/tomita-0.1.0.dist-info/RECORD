@@ -1,0 +1,10 @@
+tomita/__init__.py,sha256=lc0zzi0I5dZpvOPbZhDGr1HFiDMHW94FpXPodRJoucU,145
+tomita/cli.py,sha256=WeQ0-ArNu9w7IZHOefVwbaBAsuJQyrtdORrdc41R4BM,381
+tomita/tomita.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+tomita-0.1.0.dist-info/AUTHORS.rst,sha256=_XOAGFs89ks4TR28Gl6tDY4VrUU_YZS4Yo68BKiiEMc,154
+tomita-0.1.0.dist-info/LICENSE,sha256=5zP1wpDXHkauZjhBWzo-EaXvaI1hfIZKBwFh4HHT9_0,1523
+tomita-0.1.0.dist-info/METADATA,sha256=qcYbkmDIeg6LIZf4CFt_R-n64JcAO8UZCtIywuaKwT4,1686
+tomita-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tomita-0.1.0.dist-info/entry_points.txt,sha256=qQr4toOpWTCoNwYLIUDuSZEavd5a8F_Cm-FY1KPEN0I,44
+tomita-0.1.0.dist-info/top_level.txt,sha256=VUXgxFpBGqIVZRa8rZKU0xdumTq7YcJDIHrbYJ9v-5o,7
+tomita-0.1.0.dist-info/RECORD,,
