@@ -1,0 +1,7 @@
+README.md
+setup.py
+jlod/__init__.py
+jlod.egg-info/PKG-INFO
+jlod.egg-info/SOURCES.txt
+jlod.egg-info/dependency_links.txt
+jlod.egg-info/top_level.txt
