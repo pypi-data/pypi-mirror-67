@@ -1,0 +1,3 @@
+[console_scripts]
+subtitleDownloader = subtitleDownloader.cli:main
+

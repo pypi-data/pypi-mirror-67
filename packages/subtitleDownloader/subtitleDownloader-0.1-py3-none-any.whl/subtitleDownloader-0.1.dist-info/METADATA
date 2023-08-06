@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: subtitleDownloader
+Version: 0.1
+Summary: python3 command line subtitle downloader 
+Home-page: https://github.com/s-4-m-a-n/subtitle-Downloader
+Author: Suman Dhakal
+Author-email: dhakalsumn739@gmail.com
+License: UNKNOWN
+Keywords: python3 pypi packages subscene api easy subtitle downloader application command line app
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.9.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: subsceneAPI (==0.2)
+
+# subtitle Downloader
+
+### version 0.1
+
+
+
+
+

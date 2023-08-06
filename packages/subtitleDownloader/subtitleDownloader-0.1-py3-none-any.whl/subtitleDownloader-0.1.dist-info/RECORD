@@ -1,0 +1,9 @@
+subtitleDownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subtitleDownloader/cli.py,sha256=f4ReZXQZ_u7VWn1rY-UlTikHCsz4THDU016iybSdol0,1275
+subtitleDownloader/downloader.py,sha256=GnJvzkMLZioHLxO_Ebvz0OTrhC-A2b6pXoAP7I44TT0,3116
+subtitleDownloader-0.1.dist-info/LICENSE,sha256=HobPoCJZX__At0vj9Y9pw35p2pvtM6My1F3TIT-41Rc,1066
+subtitleDownloader-0.1.dist-info/METADATA,sha256=5SWFTlL1HmKz1hD67UiJpTKgp9i_Ki-GpHQECbZ5DJU,728
+subtitleDownloader-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+subtitleDownloader-0.1.dist-info/entry_points.txt,sha256=ntFexmQblXyiZgiXDZFOakSb6rvK5_ssYVKbfK3pUZg,68
+subtitleDownloader-0.1.dist-info/top_level.txt,sha256=KlGm9NLPt6s4mia4QjthGD6wocjFbtAxFc6CnBBAHIE,19
+subtitleDownloader-0.1.dist-info/RECORD,,
