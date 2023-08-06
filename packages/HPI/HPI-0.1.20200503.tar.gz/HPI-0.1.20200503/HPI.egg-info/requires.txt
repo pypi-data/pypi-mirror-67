@@ -1,0 +1,8 @@
+pytz
+appdirs
+more-itertools
+
+[testing]
+pytest
+pytz
+pylint
