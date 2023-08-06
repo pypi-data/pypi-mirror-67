@@ -1,0 +1,3 @@
+pyxlsb2
+lark-parser
+pywin32
