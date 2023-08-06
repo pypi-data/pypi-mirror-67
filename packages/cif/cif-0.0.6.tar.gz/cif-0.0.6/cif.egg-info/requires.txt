@@ -1,0 +1,4 @@
+requests
+pandas>=0.24.0
+matplotlib
+statsmodels>=0.11.0
