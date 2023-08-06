@@ -1,0 +1,11 @@
+hiplot
+mlflow
+numpy
+
+[dev]
+black
+flake8
+flake8-black
+mypy
+pytest
+tox
