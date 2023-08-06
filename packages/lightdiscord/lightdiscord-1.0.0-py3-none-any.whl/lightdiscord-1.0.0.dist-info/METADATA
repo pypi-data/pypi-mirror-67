@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lightdiscord
+Version: 1.0.0
+Summary: A small pythonic alternative to discord.py
+Home-page: https://git.io/lightdiscord
+Author: Th0rgal
+Author-email: thomas.marchand@tuta.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lightdiscord.py
+
+A small pythonic alternative to discord.py. 
+
