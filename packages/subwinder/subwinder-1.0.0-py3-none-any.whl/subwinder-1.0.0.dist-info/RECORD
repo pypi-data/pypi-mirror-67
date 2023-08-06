@@ -1,0 +1,14 @@
+subwinder/__init__.py,sha256=XeLT6DUEsjVzq3zGuP430qayy4vla-itxm7aXvMeNKM,160
+subwinder/_constants.py,sha256=tY2A7PgxdNJj5PrS5bQnAhg0q7x5MiXNKhy5O9J1MwM,148
+subwinder/_ranking.py,sha256=TMO7pQzG3MoNcJDx49rZcFBug582yg0pvVa7_66JaFo,802
+subwinder/_request.py,sha256=W6PY7MkI4c8SwFV3ipdpP3uSoWRARqs37D4Ib66yo6w,5002
+subwinder/core.py,sha256=dl0qMcVSfTAeemowSw5_NXqtrOsxeuVV5GbfTFWr_-s,13884
+subwinder/exceptions.py,sha256=BsluVN8zbzowOcx7gpKieN_j5xJM8PBYlhP1wKSvk24,378
+subwinder/info.py,sha256=Kf9JrsjhJQQksn1UnJsB3ZIjOCP6Rheu5asc0DJHnQw,7368
+subwinder/lang.py,sha256=gagmKBU1TebEMrCb0dst6RycVzOkhc2BSjKxBfw1B70,3266
+subwinder/media.py,sha256=7pzE6YQ6Ok93zmzdUdxUxYfjwefsodd7bNAim7UW2LU,1294
+subwinder/utils.py,sha256=0FBVJLBY477KBjtBD6foJhAAsjeU61xZBV8eJTVraEY,1589
+subwinder-1.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+subwinder-1.0.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+subwinder-1.0.0.dist-info/METADATA,sha256=BUVcRAga4UHz4zDiL08YgxcaTcCKDL_dW5Xulce5aEk,5735
+subwinder-1.0.0.dist-info/RECORD,,
