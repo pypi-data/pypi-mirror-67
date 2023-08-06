@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+matplotlibXtns/__init__.py
+matplotlibXtns/cartopyXtns.py
+matplotlibXtns/matplotlibXtns.py
+matplotlibXtns.egg-info/PKG-INFO
+matplotlibXtns.egg-info/SOURCES.txt
+matplotlibXtns.egg-info/dependency_links.txt
+matplotlibXtns.egg-info/requires.txt
+matplotlibXtns.egg-info/top_level.txt

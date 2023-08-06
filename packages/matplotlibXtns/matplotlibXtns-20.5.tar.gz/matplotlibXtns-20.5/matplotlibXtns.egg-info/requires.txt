@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+netCDF4
+
+[geographic distances]
+pyproj
+
+[geographic mapping]
+cartopy
