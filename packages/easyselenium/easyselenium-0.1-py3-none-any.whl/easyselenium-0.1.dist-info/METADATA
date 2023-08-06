@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: easyselenium
+Version: 0.1
+Summary: This is a selenium easy library which has easy syntax build on selenium.all the things are running in background we are calling only functions..This is too easy for begineers
+Home-page: https://github.com/ankitk29kothari/Step2success/tree/master/Selenium-Web%20Automation/easy_selenium
+Author: ankit.kothari
+Author-email: ankit.kothari@hotmail.com
+License: GPLv2
+Download-URL: https://github.com/ankitk29kothari/Step2success/tree/master/Selenium-Web%20Automation/easy_selenium
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
