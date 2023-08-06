@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: freetshirts
+Version: 0.1
+Summary: Package to generate email with personalized message to 1500+ colleges.
+Home-page: http://github.com/iiradia/freetshirts
+Author: Ishaan Radia
+Author-email: iiradia@ncsu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
+
