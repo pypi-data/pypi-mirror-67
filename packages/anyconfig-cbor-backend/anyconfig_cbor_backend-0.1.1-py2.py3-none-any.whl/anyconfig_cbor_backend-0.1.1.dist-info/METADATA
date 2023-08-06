@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: anyconfig-cbor-backend
+Version: 0.1.1
+Summary: Backend module for python-anyconfig to load and dump CBOR data
+Home-page: https://github.com/ssato/python-anyconfig-cbor-backend
+Author: Satoru SATOH
+Author-email: satoru.satoh@gmail.com
+Maintainer: Satoru SATOH
+Maintainer-email: satoru.satoh@gmail.com
+License: MIT
+Project-URL: CI: Travis, https://travis-ci.org/ssato/python-anyconfig-cbor-backend
+Project-URL: Download, https://pypi.python.org/pypi/anyconfig-cbor-backend
+Project-URL: Download RPMs, https://copr.fedoraproject.org/coprs/ssato/python-anyconfig/
+Project-URL: Bug Tracker, https://github.com/ssato/python-anyconfig-cbor-backend/issues
+Project-URL: Source, https://github.com/ssato/python-anyconfig-cbor-backend
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: anyconfig
+Requires-Dist: cbor
+Provides-Extra: devel
+Requires-Dist: coveralls ; extra == 'devel'
+Requires-Dist: flake8 ; extra == 'devel'
+Requires-Dist: mock ; extra == 'devel'
+Requires-Dist: nose ; extra == 'devel'
+Requires-Dist: pylint ; extra == 'devel'
+Requires-Dist: pycodestyle ; extra == 'devel'
+
+
+This is a backend module for python-anyconfig to support to load and dump
+CBOR files with using cbor, https://pypi.python.org/pypi/cbor.
+
+SEE ALSO:
+
+- python-anyconfig: https://github.com/ssato/python-anyconfig
+- CBOR spec: http://cbor.io
+
