@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+manage.py
+requirements.txt
+setup.py
+corgy_erp/__init__.py
+corgy_erp/asgi.py
+corgy_erp/settings.py
+corgy_erp/urls.py
+corgy_erp/version.py
+corgy_erp/wsgi.py
+corgy_erp.egg-info/PKG-INFO
+corgy_erp.egg-info/SOURCES.txt
+corgy_erp.egg-info/dependency_links.txt
+corgy_erp.egg-info/requires.txt
+corgy_erp.egg-info/top_level.txt
