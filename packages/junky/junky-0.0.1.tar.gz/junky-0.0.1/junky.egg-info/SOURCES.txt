@@ -1,0 +1,7 @@
+README.md
+setup.py
+junky.egg-info/PKG-INFO
+junky.egg-info/SOURCES.txt
+junky.egg-info/dependency_links.txt
+junky.egg-info/requires.txt
+junky.egg-info/top_level.txt
