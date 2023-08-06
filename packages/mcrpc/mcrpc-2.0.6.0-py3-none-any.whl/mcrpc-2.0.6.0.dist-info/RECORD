@@ -1,0 +1,13 @@
+mcrpc/__init__.py,sha256=3s1p5ZnWOZF9DZUpbIrBdKxfR1ssgEi_8c_PLDMzWNw,121
+mcrpc/base.py,sha256=_CqCie-0aP3OEnOnPemWo-Ruh-iVG3mtmwHYfj46qUc,26650
+mcrpc/client.py,sha256=NecDdLEdiEo7y71wZAEEAi7-ddJP-gSyii5Ta75afrs,1312
+mcrpc/client.pyi,sha256=AfvodeDPlNEuqEDaLVI9iLuDGRJY3sitttx83jsF9bM,288594
+mcrpc/client.tpl,sha256=7DRHoc_Uw8RtTMHX10mpcY2d90H_RRDvdwdTkvCLsPg,502
+mcrpc/codegen.py,sha256=93JEY2sQFML4NiCKBx4iT_xz0EgZXJfibWmrUYy44wk,6511
+mcrpc/exceptions.py,sha256=5owI81z8pYnF289iLulVRRmOR5sqAh4xhiOl9i_Vk2I,62
+mcrpc/lib.py,sha256=Gy_KNYCIxMgJDltFos7xEZX7BciDAgtm71ck2PXYsQc,1744
+mcrpc/responses.py,sha256=WQZSAAAhT0colGBexgI82si0GyhPqVU-kKLDvopCyps,10323
+mcrpc-2.0.6.0.dist-info/LICENSE,sha256=wjkYcgYMo0OAtSta9qQg6g8CU07ts8nZt1GFLVPpFFA,1567
+mcrpc-2.0.6.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+mcrpc-2.0.6.0.dist-info/METADATA,sha256=ngW_Z4wZ-hZJBKFDhwiw8V4orDPTAl0JPUgFRABEV1Q,2571
+mcrpc-2.0.6.0.dist-info/RECORD,,

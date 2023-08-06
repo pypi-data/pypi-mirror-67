@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: mcrpc
+Version: 2.0.6.0
+Summary: mcrpc: MultiChain RPC Library
+Home-page: https://github.com/coblo/mcrpc
+License: GPL-3.0
+Keywords: mcrpc,coblo,client,rpc,multichain,api,content blockchain
+Author: titusz
+Author-email: tp@py7.de
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.3,<2.0.0)
+Requires-Dist: configobj (>=5.0.6,<6.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: simplejson (>=3.17.0,<4.0.0)
+Project-URL: Repository, https://github.com/coblo/mcrpc
+Description-Content-Type: text/markdown
+
+# mcrpc - Multichain RPC client
+
+[![Version](https://img.shields.io/pypi/v/mcrpc.svg)](https://pypi.python.org/pypi/mcrpc/)
+[![Downloads](https://pepy.tech/badge/mcrpc)](https://pepy.tech/project/mcrpc)
+
+
+## Content Blockchain RPC Client
+
+A Python 3 MultiChain RPC client built for the 
+[Content Blockchain Project](https://content-blockchain.org/)
+
+The versioning scheme follows [MultiChain](https://www.multichain.com/download-community/)
+and includes code generated function annotations and api documentation to support code 
+completion and get you up to speed fast.
+
+
+## Code Completion
+
+![mcrpc code completaion](https://raw.githubusercontent.com/coblo/mcrpc/master/images/mcrpc_cc.png)
+
+
+## Code Documentation
+
+![mcrpc documentation](https://raw.githubusercontent.com/coblo/mcrpc/master/images/mcrpc_doc.png)
+
+
+## Installing
+
+The RPC client is published with the package name [mcrpc](https://pypi.python.org/pypi/mcrpc) 
+on Python Package Index. Install it with:
+
+```console
+$ pip3 install mcrpc
+```
+
+## Usage
+
+If you have a local blockchain node with default data-dir you can do:
+
+```python
+import mcrpc
+
+client = mcrpc.autoconnect()
+client.getinfo()
+```
+
+## Change Log
+
+### 2.0.6.0 (2020-05-03)
+- Add autoconnect convenience function
+- Switched package versioning to match multichain
+- Switched to poetry based packaging
+- Updated to multichain node 2.0.6
+
+
+### 1.0.2 (2019-02-13)
+- Fix signature of appendrawexchange and completerawexchange
+- Build rpc client against Multichain 2 Beta 2
+- Add pretty-print support for response objects
+- Sort response class properties for cleaner diffs on updates
+
