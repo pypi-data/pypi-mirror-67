@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gpdf
+Version: 0.1.0
+Summary: Gpdf API
+Home-page: https://github.com/dyachoksa/gpdf-python
+Author: Sergey Dyachok
+Author-email: sergey@sdyachok.com.ua
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# GPdf Python SDK
+
+Simple Python wrapper for GPdf API
+
+Description and full documentation: [gpdf.io](https://gpdf.io)
+
+
