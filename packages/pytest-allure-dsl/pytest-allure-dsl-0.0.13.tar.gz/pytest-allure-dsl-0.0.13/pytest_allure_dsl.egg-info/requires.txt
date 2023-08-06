@@ -1,0 +1,5 @@
+wheel
+pytest
+pytest-allure-adaptor2>=1.7.11
+PyYAML
+future
