@@ -1,0 +1,114 @@
+#!python
+
+import argparse
+import subprocess
+import os.path
+
+rRun = ["R", "--vanilla", "--silent", "-e"]
+rDumpCode = """
+require("remotes")
+packages <- installed.packages(
+  fields = c("GithubUsername", "GithubRepo", "GithubSubdir")
+)
+
+from_cran <- packages[
+  is.na(packages[, "GithubRepo"]),
+  c("Package")
+  ]
+
+from_github <- packages[
+  !is.na(packages[, "GithubRepo"]),
+  c("GithubUsername", "GithubRepo", "GithubSubdir")
+  ]
+
+cran_out <- lapply(from_cran, function(x) paste("cran", x, sep=" "))
+lapply(cran_out, write, file="Rfile", append=TRUE)
+
+repo <- paste0(
+  from_github[1], "/",
+  from_github[2],
+  ifelse(is.na(from_github[3]), "", paste0("/", from_github[3]))
+)
+
+gh_out <- lapply(repo, function(x) paste("github", x, sep=" "))
+
+lapply(gh_out, write, file="Rfile", append=TRUE)
+"""
+
+
+def rfileExists():
+    return os.path.isfile("Rfile")
+
+
+def installPackages(mirror):
+    with open("Rfile") as f:
+        lines = f.readlines()
+
+    githubs = list()
+    crans = list()
+    for line in lines:
+        repo, pkg = line.strip("\t\n\r").split()
+        if repo == "cran":
+            crans.append(pkg)
+        if repo == "github":
+            githubs.append(pkg)
+    installCrans(mirror, crans)
+    installGithub(githubs)
+
+
+def installCrans(mirror, crans):
+    count = 1
+    lcran = len(crans)
+    for cran in crans:
+        print("{:>3}/{} Installing {}".format(count, lcran, cran), end="")
+        install = "install.packages('{}', repo = '{}')".format(cran, mirror)
+        run = []
+        for item in rRun:
+            run.append(item)
+        run.append(install)
+        runExternalR(run)
+        print(" Done.")
+        count += 1
+
+
+def installGithub(githubs):
+    count = 1
+    lgithubs = len(githubs)
+    for gh in githubs:
+        print("{:>3}/{} Installing {}".format(count, lgithubs, gh), end="")
+        install = "devtools::install_github('{}')".format(gh)
+        run = []
+        for item in rRun:
+            run.append(item)
+        run.append(install)
+        runExternalR(run)
+        print(" Done.")
+        count += 1
+
+
+def runExternalR(rRuntimeList):
+    subprocess.run(rRuntimeList, capture_output=False,
+                   stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+
+
+def makeRfile():
+    print("Generating new Rfile")
+    run = []
+    for item in rRun:
+        run.append(item)
+    run.append(rDumpCode)
+    runExternalR(run)
+
+
+parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+                                 description="Generate an Rfile for your packages")
+parser.add_argument("-m", "--mirror", default="http://cran.us.r-project.org",
+                    help="Enter a mirror to use for CRAN")
+
+opts = parser.parse_args()
+
+if rfileExists():
+    print("Using {} as CRAN mirror.".format(opts.mirror))
+    installPackages(opts.mirror)
+else:
+    makeRfile()
