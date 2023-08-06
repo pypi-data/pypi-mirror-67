@@ -1,0 +1,17 @@
+brainiac_client/__init__.py,sha256=mwLJwdUYSPHCf2OHBgWYUZiOZWNrDtWZVoLiJmg-sCk,216
+brainiac_client/_version.py,sha256=3EKC-olYRb47rLndTtcF7_wlBB-J173C2_rPnyfcnow,15767
+brainiac_client/client.py,sha256=CcarBp1BRrjz4F0f_jcOnCTM3CUfm5RWzbgNeMEQTFQ,5532
+brainiac_client/constants.py,sha256=iHrxe9PH5mjyWO5dBJ1nSij01dxHYgcdC95b7Th9T34,211
+brainiac_client/errors.py,sha256=FtnOwRrUjBbd1MvMRe8__Q_vWQlhnsnUQ19cfuRoNKM,47
+brainiac_client/scientist.py,sha256=CTrPJc2Al09U45xAsc1tWisGPpQjdF4vnRIyLW1cCRs,1417
+brainiac_client/protos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brainiac_client/protos/brainiac_pb2.py,sha256=uf65ex9HZ5j8LL78wiQ8q_ZtrPkmcdj7fl4oeBlLvEQ,16539
+brainiac_client/protos/brainiac_pb2_grpc.py,sha256=iuibVN-ou5p5QmFchyCp6TcK8PPVVaULtbsE63Pq4v4,3008
+brainiac_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brainiac_client/tests/third_party.py,sha256=c1vYVQcjQ8c0pskkxxJ2YZhxyjCFl7aCKE4ByphaVcA,279
+brainiac_client-0.0.1.7rc0.dist-info/AUTHORS.rst,sha256=drgzEadw1tRDRH1CWRqUjSBNIDKamq0h4FczhMdSWGo,166
+brainiac_client-0.0.1.7rc0.dist-info/LICENSE,sha256=hum8vylNR_bzT3265AFImqzD4L6eseG9UC8g_foVDyc,1077
+brainiac_client-0.0.1.7rc0.dist-info/METADATA,sha256=oxKCb164PpVGdZsEQMKlSYyzEaVl97LhUHF439lSRG0,724
+brainiac_client-0.0.1.7rc0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+brainiac_client-0.0.1.7rc0.dist-info/top_level.txt,sha256=mSGN7g9lwt5xswu2Qu7TuFEaQSGN-O3iNsMef7JhkeQ,16
+brainiac_client-0.0.1.7rc0.dist-info/RECORD,,
