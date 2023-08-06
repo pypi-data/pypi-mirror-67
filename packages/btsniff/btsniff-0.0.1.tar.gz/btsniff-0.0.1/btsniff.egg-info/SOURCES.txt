@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+btsniff/__init__.py
+btsniff/app.py
+btsniff.egg-info/PKG-INFO
+btsniff.egg-info/SOURCES.txt
+btsniff.egg-info/dependency_links.txt
+btsniff.egg-info/entry_points.txt
+btsniff.egg-info/requires.txt
+btsniff.egg-info/top_level.txt
+btsniff/sites/__init__.py
+btsniff/sites/_chrome.py
+btsniff/sites/_parser.py
+btsniff/sites/bbt.py
+btsniff/sites/btdx8.py
