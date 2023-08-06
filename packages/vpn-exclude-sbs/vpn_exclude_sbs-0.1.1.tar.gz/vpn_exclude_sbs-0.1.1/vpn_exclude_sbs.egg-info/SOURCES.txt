@@ -1,0 +1,9 @@
+README.md
+setup.py
+vpn_exclude_sbs/__init__.py
+vpn_exclude_sbs/__main__.py
+vpn_exclude_sbs/utilities.py
+vpn_exclude_sbs.egg-info/PKG-INFO
+vpn_exclude_sbs.egg-info/SOURCES.txt
+vpn_exclude_sbs.egg-info/dependency_links.txt
+vpn_exclude_sbs.egg-info/top_level.txt
