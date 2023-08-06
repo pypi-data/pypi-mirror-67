@@ -1,0 +1,16 @@
+MetaStalk/__init__.py,sha256=enslSwCtYQXSRhQMqWP3_lFRBgPG40LOEZwTZxeLNo0,153
+MetaStalk/main.py,sha256=Kan2PNmJWkefKyNwr-dnR36-vCU70kVq8hhGjY7f3hA,4323
+MetaStalk/modules/DateTime.py,sha256=7yqJtRtL0JgRA0zGp1NLPrGjDBZRaVXdzfQQtJnMjAc,1676
+MetaStalk/modules/GPSCheck.py,sha256=rb73ItyCGe1IF72p4iDbNW70jCVu3W5KcKjO5sulCYQ,1101
+MetaStalk/modules/PieChart.py,sha256=Z06JzV_E910WgTsaJDVpBkvIU8h4ATJ2kU4wmch3VAg,1616
+MetaStalk/modules/Stats.py,sha256=3nlh2HdzC8h2dtbVr0e1QpfnbaTpR7_LzyeRV_w3h5A,1016
+MetaStalk/modules/__init__.py,sha256=zMz7J1iP66hMve17CJUU-FhuXnst8ebkA1y-7E7F7wI,224
+MetaStalk/utils/__init__.py,sha256=9AfpDa1descC7DRUbsmU-5-TplIOnEfsG1mg2GGTV44,139
+MetaStalk/utils/logger.py,sha256=xm5rVlc3VU_gMX-8BKXSwCp9kDNjPRvhefXlHPQnH60,855
+MetaStalk/utils/web.py,sha256=g_rkMmFcSlpuo0tnSF3ow_SgRSEJmjLfe8Oqlw2AXto,1603
+MetaStalk-2.0.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+MetaStalk-2.0.0.dist-info/METADATA,sha256=EBlQR_uO6M7xyVVIhbxCFR4jptuzMQVv7C7010BV0kA,3352
+MetaStalk-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+MetaStalk-2.0.0.dist-info/entry_points.txt,sha256=lMBPljkex6xTt2tioapiMN14j_0YH52jQ7QXsmwreRo,52
+MetaStalk-2.0.0.dist-info/top_level.txt,sha256=BtFzEZLxzojcGmVPLu3CVc5__SHeAV8gGMhcITFXUV0,10
+MetaStalk-2.0.0.dist-info/RECORD,,
