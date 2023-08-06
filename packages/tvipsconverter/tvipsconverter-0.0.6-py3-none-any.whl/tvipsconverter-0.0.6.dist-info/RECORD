@@ -1,0 +1,14 @@
+tvipsconverter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvipsconverter/widget_2.ui,sha256=04KCNw6GebTcBa1NULYGIGU3bG_LcM1ik8VjBPFz2Kc,67486
+tvipsconverter/widgets.py,sha256=6FgyDTGw5Csrld1MIpYynk1hnLb5r0tvK6plP5N5GWs,25770
+tvipsconverter/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvipsconverter/utils/blockfile.py,sha256=Wz-m_1lbnaPWhSKHvl4tlw7ondrAQYqtO2BNqbyj-Ec,21334
+tvipsconverter/utils/imagefun.py,sha256=bD1-2OiPJ29y5JTc4e-JmhWy6qtyGS0P9UTkaLu7qYs,6594
+tvipsconverter/utils/recorder.py,sha256=wZ8__92zUDnZpmq5Gwf7r2rJj6vMqchYWtIF80l7PAc,28593
+tvipsconverter/utils/tiffexport.py,sha256=LRG2oIN9EWAYnaL11CgvGbXfyhRB77SVM7wJ3tE28ns,1474
+tvipsconverter-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tvipsconverter-0.0.6.dist-info/METADATA,sha256=g6YRx-kYTwVaKjvL88ovd7-ybOY7oocxb0duAs-e-jY,4523
+tvipsconverter-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tvipsconverter-0.0.6.dist-info/entry_points.txt,sha256=-c-CxzF4_lzych8VZZhj14VK0z7IVc4xSWl7dKxzNkk,64
+tvipsconverter-0.0.6.dist-info/top_level.txt,sha256=pglEGG4JVLN85dhou988onEgSle38DhwjpfbtJW7sNM,15
+tvipsconverter-0.0.6.dist-info/RECORD,,
