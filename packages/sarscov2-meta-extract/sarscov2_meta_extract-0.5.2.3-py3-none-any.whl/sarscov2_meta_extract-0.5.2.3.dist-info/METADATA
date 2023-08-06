@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sarscov2-meta-extract
+Version: 0.5.2.3
+Summary: Extracts metadata from MSA for Galaxy workflow
+Home-page: https://github.com/nickeener/sarscov2_meta_extract
+Author: Nick Keener
+Author-email: nickeener@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: biopython
+
+# sarscov2_meta_extract
+
+Tool for extracting and formating metadata for Galaxy SARS-CoV-2 selection analysis pipeline.
+
