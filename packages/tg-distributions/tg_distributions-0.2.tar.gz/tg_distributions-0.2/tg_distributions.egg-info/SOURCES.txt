@@ -1,0 +1,9 @@
+setup.py
+tg_distributions/Gaussiandistribution.py
+tg_distributions/Generaldistribution.py
+tg_distributions/__init__.py
+tg_distributions.egg-info/PKG-INFO
+tg_distributions.egg-info/SOURCES.txt
+tg_distributions.egg-info/dependency_links.txt
+tg_distributions.egg-info/not-zip-safe
+tg_distributions.egg-info/top_level.txt
