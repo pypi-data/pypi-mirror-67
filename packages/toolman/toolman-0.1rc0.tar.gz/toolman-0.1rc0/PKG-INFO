@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: toolman
+Version: 0.1rc0
+Summary: Python utility tools for research
+Home-page: https://github.com/bohaohuang/toolman
+Author: bohaohuang
+Author-email: hbhzhuce@gmail.com
+License: MIT
+Description: # ToolMan: Python utility functions for R&D
+        ## Tools:
+        - *[misc_utils.py](./toolman/misc_utils.py)*: miscellaneous utility functions including data I/O and processing
+        - *[vis_utils.py](./toolman/vis_utils.py)*: matplotlib utility functions for visualization
+        - *[img_utils](./toolman/img_utils.py)*: image specific utility functions
+        - *[pytorch_utils](./toolman/pytorch_utils.py)*: pytorch specific utility functions
+        
+        ## TODOs
+        - [ ] Test modules
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
