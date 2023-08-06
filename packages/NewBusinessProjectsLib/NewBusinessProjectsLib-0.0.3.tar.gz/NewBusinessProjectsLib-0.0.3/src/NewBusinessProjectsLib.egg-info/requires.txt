@@ -1,0 +1,5 @@
+selenium~=3.141.0
+robotframework~=3.2
+
+[dev]
+pytest>=3.7
