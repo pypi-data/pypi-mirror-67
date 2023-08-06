@@ -1,0 +1,8 @@
+setup.py
+pytonic/__init__.py
+pytonic/console.py
+pytonic.egg-info/PKG-INFO
+pytonic.egg-info/SOURCES.txt
+pytonic.egg-info/dependency_links.txt
+pytonic.egg-info/entry_points.txt
+pytonic.egg-info/top_level.txt
