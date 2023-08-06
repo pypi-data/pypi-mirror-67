@@ -1,0 +1,15 @@
+i3razer/__init__.py,sha256=SuPqWRMJCCKQh3Vng68N7M9DY_9p37H6uji6EqsOiUc,2191
+i3razer/config_contants.py,sha256=Q4M4Bu2ueB6HXOpSzrmLAQfk9h3ug-xIJUX6OYLy32U,1904
+i3razer/config_parser.py,sha256=v7mQ1U93iZ-Nc0PzMzo2oFKzWLotv9QEmSWe0lm7fUg,18518
+i3razer/example_config.yaml,sha256=NgJywhovxr0wvnR5KDthlryCnexR_JroGECEAd7_9X8,1607
+i3razer/i3_razer.py,sha256=t7inLCel_I49B1V6AWeWztI_QGor3P6izt-DcG3ogHU,16359
+i3razer/layout.py,sha256=9vAaYjovHIHLvu91eyCO8ud_zBxEC7oTLByAlHNq6o0,6987
+i3razer/map_layout.py,sha256=9PkWhij9fvYV0XYnTTUymwJ9QZfEYxKOqk3nFfKU_p0,4554
+i3razer/pyxhook.py,sha256=HyxBeLK3ry9Jav27bRCa2sWs28zvLfc0AGeSe-HafBA,12942
+i3razer-0.1.dist-info/LICENSE,sha256=qMYWLb5zXqnd7gilS3PNHFU-SWpMHyhB8vvnKS4x4ww,1069
+i3razer-0.1.dist-info/METADATA,sha256=FmX7HNt9vIWZf2MiEabvQ2lwYNtNaGMvNcOYf56Z2Nc,9956
+i3razer-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+i3razer-0.1.dist-info/dependency_links.txt,sha256=QX6Te91dAR7PzJJfwvzzOGpz1akyW7GWi4uW9mZnoUk,38
+i3razer-0.1.dist-info/entry_points.txt,sha256=7-7knDwIdsY4_0myGe6OsJZuPyDE14DNWNnVKqtXmvY,42
+i3razer-0.1.dist-info/top_level.txt,sha256=FUPUgyK_msg5hOBGrcyUSwGiypdl-MxY64nk0Ndu0Uc,8
+i3razer-0.1.dist-info/RECORD,,
