@@ -1,0 +1,10 @@
+tinybench/__init__.py,sha256=TdfUBLMmEh7nyPpbzFLrE_wl22hQQeidJpVGzgVgO8I,96
+tinybench/tinybench.py,sha256=8JCD6Gn1ny0HdevLQcDzPluAYY936wgnJbnlWkE7UkQ,5767
+tinybench/tmp.py,sha256=yobkwYZmshcXr72eyCWj6EHGwpHAPJPLfWL814DXfTU,136
+tinybench/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinybench/tests/test.py,sha256=QTKCDNCa6nrOW-ejdedATQ_Unlikg_sP-Aid_8O77SQ,2250
+tinybench-1.0.2.dist-info/LICENSE,sha256=ZaIS9rDQTjheIwqaQjdUvLSHJcncjLHGocZXcs2QKdY,1086
+tinybench-1.0.2.dist-info/METADATA,sha256=CdvgoOfS1HqwZOexUj0UZvzgyDoy6WBgFInFbWJFd14,1859
+tinybench-1.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tinybench-1.0.2.dist-info/top_level.txt,sha256=HEEjIVoMf94N8cobYq3NPy0fBEY6c-CkNdvwopai84U,10
+tinybench-1.0.2.dist-info/RECORD,,
