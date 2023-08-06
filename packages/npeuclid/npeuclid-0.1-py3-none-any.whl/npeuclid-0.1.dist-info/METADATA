@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: npeuclid
+Version: 0.1
+Summary: Fast 2D and 3D vector geometry module
+Home-page: http://github.com/dov/npeuclid
+Author: Dov Grobgeld
+Author-email: dov.grobgeld@gmail.com
+License: lgpl-2.1
+Download-URL: https://github.com/dov/npeuclid/archive/v0.1.tar.gz
+Keywords: math,geometry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: numpy
+
+UNKNOWN
+
+
