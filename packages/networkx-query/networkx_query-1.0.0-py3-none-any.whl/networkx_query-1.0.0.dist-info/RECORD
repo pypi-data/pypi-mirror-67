@@ -1,0 +1,9 @@
+networkx_query/__init__.py,sha256=FlfgUXtWQ28YfYwk-92ZVRPP1Vu0wq7vs8L_rJtC0tk,437
+networkx_query/definition.py,sha256=bap-bPTqmaBDfXSYYleGJljI1QjMWAJMINGRGwvmI4M,4722
+networkx_query/operator.py,sha256=UzoxPyxStoexmiThCLkU7ddVQp4eZG-5Q4risjXcs7o,5851
+networkx_query/parser.py,sha256=P1HO_ttW9PLgiLprhNDPpYCW-tA24nMvJDogJNlAKMY,2344
+networkx_query/query.py,sha256=SwWXOWHDA_VDzT5Wx_CSQ3bp6pJBxfGKY6Cq95i5dPw,1794
+networkx_query-1.0.0.dist-info/LICENSE.md,sha256=j52prAYX5y-XQalhUItrnfWERnqax3a7dPd5fl_gaCs,1100
+networkx_query-1.0.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+networkx_query-1.0.0.dist-info/METADATA,sha256=JGAZdLAHyb2gL0CzjJ12i5q7y6JlN4XjX0geabln8lQ,6957
+networkx_query-1.0.0.dist-info/RECORD,,
