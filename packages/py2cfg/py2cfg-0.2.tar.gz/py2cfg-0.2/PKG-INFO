@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: py2cfg
+Version: 0.2
+Summary: A colorful cfg for python executables.
+Home-page: https://git.mst.edu/autograding/cfg
+Author: Joe Studer
+Author-email: jmsxw4@mst.edu
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: astor (>=0.8.1,<0.9.0)
+Requires-Dist: graphviz (>=0.11,<0.12)
+Project-URL: Repository, https://git.mst.edu/autograding/cfg
+Description-Content-Type: text/markdown
+
+# StatiCFG
+Python3 control flow graph generator
+
+StatiCFG is a package that can be used to produce control flow graphs (CFGs) for Python 3 programs. 
+The CFGs it generates can be easily visualised with graphviz and used for static analysis. 
+This analysis is actually the main purpose of the module, hence the name of **StatiC**FG.
+
+Below is an example of a piece of code that generates the Fibonacci sequence and the CFG produced for it with StatiCFG.
+
+```py
+def fib():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+fib_gen = fib()
+for _ in range(10):
+    next(fib_gen)
+```
+
+![Fibonacci CFG](fib_cfg.png)
+
+See `./examples/` for more examples
+
+## Installation
+To install simply run
+```
+pip3 install ccfg
+```
+
+## Usage
+It can be used three ways:
+
+### Via CLI
+
+The default command is ccfg:
+```py
+ccfg <file.py>
+``` 
+
+This will create a <file>_cfg.png file, which contains the colored cfg of the file.
+
+### Via wrapper
+The `cfg` script present in the *wrapper/* folder of this repository can be used to directly generate the CFG of some Python program and visualise it.
+```sh
+python3 ccfg path_to_my_code.py
+```
+
+### Via import
+To use StatiCFG, simply import the module in your Python interpreter or program, and use the `staticfg.CFGBuilder` class to build CFGs. 
+For example, to build the CFG of a program defined in a file with the path *./example.py*, the following code can be used:
+
+```py
+from staticfg import CFGBuilder
+
+cfg = CFGBuilder().build_from_file('example', './example.py')
+```
+
+This returns the CFG for the code in *./example.py* in the `cfg` variable. 
+The first parameter of `build_from_file` is the desired name for the CFG, and the second one is the path to the file containing the source code.
+The produced CFG can then be visualised with:
+
+```py
+cfg.build_visual('exampleCFG', 'pdf')
+```
+
+The first paramter of `build_visual` is the desired name for the DOT file produced by the method, and the second one is the format to use for the visualisation.
+

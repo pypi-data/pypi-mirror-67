@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "py2cfg"
+version = "0.2"
+description = "A colorful cfg for python executables."
+authors = ["Joe Studer <jmsxw4@mst.edu>", "Patrick Taylor <taylor@mst.edu>"]
+readme = 'README.md'
+
+packages = [
+  { include = "cfg" },
+  { include = "staticfg/*" },
+  { include = "fib_cfg.png" },
+]
+
+repository = "https://git.mst.edu/autograding/cfg"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+graphviz = "^0.11"
+astor= "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+ccfg = 'cfg.runner:main'
+py2cfg = 'cfg.runner:main'
+
+[build-system]
+requires = ["poetry>=0.12.3"]
+build-backend = "poetry.masonry.api"
