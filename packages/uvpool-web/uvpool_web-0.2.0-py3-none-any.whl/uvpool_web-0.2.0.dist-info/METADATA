@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: uvpool-web
+Version: 0.2.0
+Summary: A sanic based web framework
+Home-page: https://gitlab.com/uda/uvpool
+License: MIT
+Author: Yehuda Deutsch
+Author-email: yeh@uda.co.il
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: rollbar
+Provides-Extra: sentry
+Requires-Dist: aiodns (>=2.0.0,<3.0.0)
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0); extra == "sentry"
+Requires-Dist: rollbar (>=0.15.0,<0.16.0); extra == "rollbar"
+Requires-Dist: sanic (>=19.12.2,<20.0.0)
+Requires-Dist: sentry-sdk (>=0.14.3,<0.15.0); extra == "sentry"
+Project-URL: Repository, https://gitlab.com/uda/uvpool.git
+Description-Content-Type: text/markdown
+
+# UVPool Web
+
+A web framework based on Sanic using the uvloop async event loop by default
+
+## Credits
+
+Initial work on this was done while working at [zencity.io](https://zencity.io/)
+
