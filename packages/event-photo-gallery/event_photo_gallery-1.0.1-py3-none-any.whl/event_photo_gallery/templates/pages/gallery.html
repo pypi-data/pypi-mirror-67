@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %} 
+{% if 'SITE_SUBTITLE' in config %}<h2 class="subtitle">{{ config.SITE_SUBTITLE }}</h2>{% endif %}
+<nav class="button-nav">
+  <ul>
+    {% if not config.DISABLE_VOTES %}
+    <li class="btn btn-outline-primary" role="button" data-toggle="modal" data-target="#votes-modal">My Votes</li>
+    {% endif %}
+    <li class="btn btn-outline-primary" role="button"><a href="{{ url_for('photos.download_photos') }}">Download</a></li>
+    <li class="btn btn-outline-primary" role="button" data-toggle="modal" data-target="#upload-modal">Upload</li>
+  </ul>
+</nav>
+
+{% with messages = get_flashed_messages() %}
+{% for message in messages %}
+<div class="alert alert-primary" role="alert">
+  {{ message }}
+</div>
+{% endfor %}
+{% endwith %}
+
+<div class="row">
+  <div class="container">
+    <div class="row">
+      {% for photo in photos.items %}
+      <div class="col-4">
+        <a href="{{ url_for('photos.view_photo',id=photo.id) }}"><img src="{{ url_for('photos.view_raw_photo',id=photo.id) }}"  class="img-thumbnail" style="image-orientation: from-image;"/></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <nav aria-label="...">
+      <ul class="pagination" style="justify-content: center;">
+        <li class="page-item {{'disabled' if not photos.has_prev }}">
+          <a class="page-link" href="{{'#' if photos.has_prev else "?page="+(photos.prev_num|string) }}" tabindex="-1">&#x25c0;</a>
+        </li>
+        <li class="page-item {{'disabled' if not photos.has_next }}">
+          <a class="page-link" href="{{'#' if photos.has_next else "?page="+(photos.next_num|string) }}">&#x25ba;</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
+
+<div class="modal fade" tabindex="-1" id="upload-modal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <form method="post" enctype="multipart/form-data" action="{{ url_for('photos.upload') }}">
+        <div class="modal-header">
+          <h5 class="modal-title">Upload Photos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input class="form-control-file" type="file" name="photo[]" multiple="">
+          <label for="category">Category</label>
+          <select class="form-control" id="category" name="category">
+            {% for category in categories %}
+            <option value="{{ category.id }}">{{ category.name }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary" name="action" action="upload">Upload</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% if not config.DISABLE_VOTES %}
+<div class="modal fade" id="votes-modal" tabindex="-1" role="dialog"
+                                                       aria-labelledby="votesModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="votesModalLabel">Votes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% for category in votes %}
+        <h6>Category: {{ category.name }}</h6>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Rank</th>
+              <th scope="col">Photo ID</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for photo in category.photos %}
+            <tr>
+              <td>{{ photo.votes[0].rank }}</td>
+              <td>{{ photo.id }}</td>
+              <td><a href="{{ url_for('photos.view_photo',id=photo.id) }}">View</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endfor %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

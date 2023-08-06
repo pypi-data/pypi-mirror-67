@@ -1,0 +1,47 @@
+{% extends "admin_base.html" %}
+{% block content %} 
+
+<h5 class="admin">Users</h5>
+<div class="row">
+  <form class="form-inline mb-2 mx-auto" method="post">
+    <div class="form-row align-items-center mx-auto">
+      <div class="col-auto">
+        <input type="text" class="form-control" name="name" required placeholder="Name"/>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary" name="action" value="add">Add</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="row">
+  </form>
+  <ul class="list-group container w-75">
+    <table class="table mobile-table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Passcode</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in users %}
+        <tr>
+          <td scope="row" data-th="Name">{{ user.name }}</th>
+          <td data-th="Passcode">{{ user.passcode }}</td>
+          <td>
+            {% if user.id != current_user.id %}
+            <form method="post"><button type="submit" class="btn btn-danger" 
+                                                      name="action" value="delete"><i class="fa fa-trash"></i> Delete</button>
+              <input type="hidden" name="id" value="{{ user.id }}"/></form>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </ul>
+</div>
+
+{% endblock %}
