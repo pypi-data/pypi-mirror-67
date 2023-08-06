@@ -1,0 +1,8 @@
+README.md
+setup.py
+isodaterange/__init__.py
+isodaterange.egg-info/PKG-INFO
+isodaterange.egg-info/SOURCES.txt
+isodaterange.egg-info/dependency_links.txt
+isodaterange.egg-info/requires.txt
+isodaterange.egg-info/top_level.txt
