@@ -1,0 +1,13 @@
+setup.py
+libpng/__init__.py
+libpng/libpng.la
+libpng/libpng.so
+libpng/libpng16.la
+libpng/libpng16.so
+libpng/libpng16.so.16
+libpng/libpng16.so.16.38.0
+libpng_bins.egg-info/PKG-INFO
+libpng_bins.egg-info/SOURCES.txt
+libpng_bins.egg-info/dependency_links.txt
+libpng_bins.egg-info/not-zip-safe
+libpng_bins.egg-info/top_level.txt
