@@ -1,0 +1,9 @@
+pytest_mutagen/__init__.py,sha256=aRan2ra9sRhH4ax6KelJoSxr-UyOyU5SCVdm9Ww4XmI,35
+pytest_mutagen/mutagen.py,sha256=h8nnPxz15SY7t-nFyZkeTgKttwnvGR2fP5Wglxpwx9k,2052
+pytest_mutagen/plugin.py,sha256=wQGpGyYTL6uD4PExdhfsPLco19BH6HuOlwtMgiv4dv8,7459
+pytest_mutagen-1.0.4.dist-info/LICENSE,sha256=lTpsfuV4LAgNssqetCdSTiwRMl9_Yk4sRP_d9gnHJAg,1097
+pytest_mutagen-1.0.4.dist-info/METADATA,sha256=bfpBTMlBLmgClIWWWJoNm29rr10lP92ye5cW6sh3IWo,5029
+pytest_mutagen-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_mutagen-1.0.4.dist-info/entry_points.txt,sha256=Dsx2YDvC_5zqRmQEPYz-u7Y-kcVM2ChmK6XYxk_Ga8U,44
+pytest_mutagen-1.0.4.dist-info/top_level.txt,sha256=7saqZsHQdF1DNkpqcTb2oYaxZvp9jt3KTGM4FMW3Gs8,15
+pytest_mutagen-1.0.4.dist-info/RECORD,,
