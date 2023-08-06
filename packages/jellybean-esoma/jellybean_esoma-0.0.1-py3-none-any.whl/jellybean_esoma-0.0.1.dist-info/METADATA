@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jellybean-esoma
+Version: 0.0.1
+Summary: 3D Game Engine
+Home-page: https://github.com/esoma/jellybean
+Author: Erik Soma
+Author-email: stillusingirc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+UNKNOWN
+
+
