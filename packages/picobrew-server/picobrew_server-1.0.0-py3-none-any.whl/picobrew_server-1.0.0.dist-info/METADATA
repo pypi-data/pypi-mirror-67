@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: picobrew-server
+Version: 1.0.0
+Summary: A reverse-engineered server for the Picobrew homebrewing machines
+Home-page: https://github.com/hotzenklotz/picobrew-server
+License: MIT
+Keywords: picobrew,zymatic,homebrewing,beerxml
+Author: Tom Herold
+Author-email: heroldtom@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Flask-Cors (==3.0.8)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: pybeerxml (>=1.0.8,<2.0.0)
+Requires-Dist: webargs (==6.0.0)
+Project-URL: Repository, https://github.com/hotzenklotz/picobrew-server
