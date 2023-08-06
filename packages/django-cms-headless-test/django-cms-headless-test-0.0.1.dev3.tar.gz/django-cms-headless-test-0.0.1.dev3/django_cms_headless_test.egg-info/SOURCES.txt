@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_cms_headless_test/__init__.py
+django_cms_headless_test/urls.py
+django_cms_headless_test/utils.py
+django_cms_headless_test/views.py
+django_cms_headless_test.egg-info/PKG-INFO
+django_cms_headless_test.egg-info/SOURCES.txt
+django_cms_headless_test.egg-info/dependency_links.txt
+django_cms_headless_test.egg-info/requires.txt
+django_cms_headless_test.egg-info/top_level.txt
