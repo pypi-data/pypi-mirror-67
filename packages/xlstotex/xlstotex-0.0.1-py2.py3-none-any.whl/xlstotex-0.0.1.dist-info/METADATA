@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xlstotex
+Version: 0.0.1
+Summary: Convert Excel/CSV file to LaTeX table
+Home-page: https://github.com/tjkessler/xlstotex
+Author: Travis Kessler
+Author-email: travis.j.kessler@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+
+UNKNOWN
+
+
