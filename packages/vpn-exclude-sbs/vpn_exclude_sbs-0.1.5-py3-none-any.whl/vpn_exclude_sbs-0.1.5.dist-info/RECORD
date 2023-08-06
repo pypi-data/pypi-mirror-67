@@ -1,0 +1,8 @@
+vpn_exclude_sbs/__init__.py,sha256=hLx82rzk4mf427RoZzJAqK8CAEKF6eEcu-xcqNiqqxs,150
+vpn_exclude_sbs/__main__.py,sha256=RLQ7Y8piqiZQIY1fOnJ5GAX_wzNqwVVwcym3Y4irCDo,1218
+vpn_exclude_sbs/utilities.py,sha256=1dFtCU5bzweJkCsQYvkXKeRXA2_ywJhybZMCmF6uV5I,2436
+vpn_exclude_sbs-0.1.5.dist-info/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+vpn_exclude_sbs-0.1.5.dist-info/METADATA,sha256=P5LD3EyXVxVIpuKtAIbTeUyPabwCyK21-VSnINNVQ-4,1203
+vpn_exclude_sbs-0.1.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vpn_exclude_sbs-0.1.5.dist-info/top_level.txt,sha256=VOJ0BYgquK0j9kJ3JvS13oVjtrZOMG0sHsD8MaXw_P4,16
+vpn_exclude_sbs-0.1.5.dist-info/RECORD,,
