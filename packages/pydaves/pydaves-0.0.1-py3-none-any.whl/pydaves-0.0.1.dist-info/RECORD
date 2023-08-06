@@ -1,0 +1,13 @@
+pydaves/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/utils.py,sha256=jxZOMQB_wAy9mN3VPru2aAgOITH9f61NByFmlcxCo9g,903
+pydaves/torchsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/torchsystem/torchloaders.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/torchsystem/torchmodels.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/torchsystem/torchselectors.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/torchsystem/torchsystem.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydaves/torchsystem/torchutils.py,sha256=2AUZk1LOQciOLmaT293Z5BVt5ZbKJ80s0nvIi45lLWk,539
+pydaves-0.0.1.dist-info/LICENSE,sha256=rwjEQ_bQSc4K309_BQNAGAsvX5buvy5hHwEq2HRr0T4,1088
+pydaves-0.0.1.dist-info/METADATA,sha256=BaBee3OpxIljX0Jp-5sD9N6-7_itRf9YaPZEdKNZhFo,519
+pydaves-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pydaves-0.0.1.dist-info/top_level.txt,sha256=9jQFwNljoDB2QUPy9D44eTV9YcoaeXRYzkxNj6xlHQQ,8
+pydaves-0.0.1.dist-info/RECORD,,
