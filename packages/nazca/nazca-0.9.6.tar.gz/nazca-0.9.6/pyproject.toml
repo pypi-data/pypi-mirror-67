@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 100
+exclude = '''(
+    \(
+        dist
+        | doc
+        | \.tox
+        | \.hg
+        | \.eggs
+        | \.pytest_cache
+        | \.bundle
+        | \.scannerwork
+    \)
+)'''
