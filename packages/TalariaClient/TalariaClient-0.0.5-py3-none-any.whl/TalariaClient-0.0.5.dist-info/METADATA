@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TalariaClient
+Version: 0.0.5
+Summary: Talaria Client to ingest events to TalariaDB
+Home-page: https://github.com/kelindar/talaria
+Author: Chun Rong Phang
+Author-email: crphang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Requires-Dist: grpcio (~=1.28.1)
+Requires-Dist: protobuf (~=3.11.3)
+
+UNKNOWN
+
+

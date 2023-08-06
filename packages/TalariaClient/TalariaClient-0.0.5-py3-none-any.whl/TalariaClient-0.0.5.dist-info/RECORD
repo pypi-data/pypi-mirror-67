@@ -1,0 +1,10 @@
+talaria_client/__init__.py,sha256=qRRr61CuKja0sM8g9OvlAfR6fjzwl48WSsVC1HZnT98,41
+talaria_client/client.py,sha256=p3TS-2PzMDJQEVGv-KAlgdbZX_ltfn0OqxJry8ftJQE,557
+talaria_client/encoder.py,sha256=HonbdPcf5tqTMUuMAWiNyXjdLyTEpQH1FYK_ln_hDV0,1733
+talaria_client/encoder_test.py,sha256=H-yAi0ic3arHdVPDf8iNDYsPcsqa6-JYtXExQ2oBB-w,1833
+talaria_client/talaria_pb2.py,sha256=SvMOWZoxe0RVDma16yQIoUiaHJMX6cP4XtlWplIr6lM,48557
+talaria_client/talaria_pb2_grpc.py,sha256=98HBA8V3n2uihybazBgoXA4hVF10YnjwZUeHyo5iARk,4870
+TalariaClient-0.0.5.dist-info/METADATA,sha256=dzMjRR1fqyURB4FGgluwgw-ZVShqmHMBbinl7L8KvGo,497
+TalariaClient-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+TalariaClient-0.0.5.dist-info/top_level.txt,sha256=GWQVrW3dquFj9T7srwUTzWU0l1HtFd8oNOUhZz9NvmM,15
+TalariaClient-0.0.5.dist-info/RECORD,,
