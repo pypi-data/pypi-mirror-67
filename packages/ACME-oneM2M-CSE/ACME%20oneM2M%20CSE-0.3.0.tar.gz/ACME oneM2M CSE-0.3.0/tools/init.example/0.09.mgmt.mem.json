@@ -1,0 +1,13 @@
+{	"m2m:mem" : {
+		"mgd" : 1003,
+		"dc" : "a memory",
+		"ri" : "mem1",
+		"pi" : "nod1",
+		"rn" : "memory",
+		"acpi" : [ "acpAdmin", "acpDefault" ],
+		
+		"mma" : 1000,
+		"mmt": 10000
+	}
+}
+

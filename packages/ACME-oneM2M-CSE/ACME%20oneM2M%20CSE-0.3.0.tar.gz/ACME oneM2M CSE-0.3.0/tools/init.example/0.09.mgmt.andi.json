@@ -1,0 +1,17 @@
+{	"m2m:andi" : {
+		"mgd" : 1005,
+		"dc" : "an areaNwkDeviceInfo",
+		"ri" : "andi1",
+		"pi" : "nod1",
+		"rn" : "areaNwkDeviceInfo",
+		"acpi" : [ "acpAdmin", "acpDefault" ],
+		
+		"dvd" : "aDeviceID",
+		"dvt" : "aDeviceType",
+		"awi" : "ani1",
+		"sli" : 3600,
+		"sld" : 3600,
+		"lnh" : [ "nbiot:123:455", "nbiot:123:457" ]
+	}
+}
+
