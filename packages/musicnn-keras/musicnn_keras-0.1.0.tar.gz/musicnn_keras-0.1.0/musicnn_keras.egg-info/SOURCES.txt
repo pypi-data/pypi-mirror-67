@@ -1,0 +1,11 @@
+README.md
+setup.py
+musicnn_keras/__init__.py
+musicnn_keras/configuration.py
+musicnn_keras/extractor.py
+musicnn_keras/tagger.py
+musicnn_keras.egg-info/PKG-INFO
+musicnn_keras.egg-info/SOURCES.txt
+musicnn_keras.egg-info/dependency_links.txt
+musicnn_keras.egg-info/requires.txt
+musicnn_keras.egg-info/top_level.txt
