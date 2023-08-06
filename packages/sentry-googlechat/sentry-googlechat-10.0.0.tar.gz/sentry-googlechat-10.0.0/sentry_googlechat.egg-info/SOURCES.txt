@@ -1,0 +1,10 @@
+README.md
+setup.py
+sentry_googlechat/__init__.py
+sentry_googlechat/plugin.py
+sentry_googlechat.egg-info/PKG-INFO
+sentry_googlechat.egg-info/SOURCES.txt
+sentry_googlechat.egg-info/dependency_links.txt
+sentry_googlechat.egg-info/entry_points.txt
+sentry_googlechat.egg-info/requires.txt
+sentry_googlechat.egg-info/top_level.txt
