@@ -1,0 +1,10 @@
+itk/AnisotropicDiffusionLBRPython.py,sha256=pcpQpMpzJjNkbxAL97bDq4wk339GZz5etRn4wi4mlNY,3346
+itk/_AnisotropicDiffusionLBRPython.so,sha256=QmcFkTIYxd6ZKj9Rnpfm_wYW4q9UCcUssmhGXkmxfzE,4157144
+itk/itkAnisotropicDiffusionLBRImageFilterPython.py,sha256=GR7FQkgl07QZ7O_ulRqVV7D86Zm4aENSMsQhaIDKnSg,125457
+itk/itkCoherenceEnhancingDiffusionImageFilterPython.py,sha256=cn_cmqM1ZLRo0lm4KpkMuOlicLnax6py0d9-vRiePKw,95278
+itk/Configuration/AnisotropicDiffusionLBRConfig.py,sha256=tFgLxF3S9UXFoitjPIYO5JmzSPIe_vhsWdPD4Awwv2o,3662
+itk_anisotropicdiffusionlbr-1.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_anisotropicdiffusionlbr-1.1.1.dist-info/METADATA,sha256=wmbE8gRtWuQSbUmzE4fOUXRczFdzQQ_thoxSi7dcbf0,1639
+itk_anisotropicdiffusionlbr-1.1.1.dist-info/WHEEL,sha256=SBUEAC-N0AeHfNqGnu3mGNhnxQZGRpPz4smQ0D1SFSQ,103
+itk_anisotropicdiffusionlbr-1.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_anisotropicdiffusionlbr-1.1.1.dist-info/RECORD,,
