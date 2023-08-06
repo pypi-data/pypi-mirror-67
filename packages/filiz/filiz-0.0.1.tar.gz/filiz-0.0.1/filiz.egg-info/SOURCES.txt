@@ -1,0 +1,6 @@
+README.md
+setup.py
+filiz.egg-info/PKG-INFO
+filiz.egg-info/SOURCES.txt
+filiz.egg-info/dependency_links.txt
+filiz.egg-info/top_level.txt
