@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pydocsearch
+Version: 1.0.3
+Summary: Search a page in docs.python.org
+Home-page: https://github.com/JulienPalard/pydocsearch
+Author: Julien Palard
+Author-email: julien@palard.fr
+License: UNKNOWN
+Download-URL: https://github.com/julienpalard/pydocsearch/tarball/1.0.3
+Keywords: pydoc,docs.python.org,search
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: requests
+
+PyDocSearch
+===========
+
+A simple Python module to search in Python Documentation.
+
+.. code:: pycon
+
+    >>> import pydocsearch
+    >>> pydocsearch.search('lambda')
+    'https://docs.python.org/3.5/glossary.html#term-lambda'
+
+
