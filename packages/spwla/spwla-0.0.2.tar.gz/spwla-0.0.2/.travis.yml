@@ -1,0 +1,66 @@
+language: python
+dist: xenial
+cache: false
+env:
+  global:
+  - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
+  - SEGFAULT_SIGNALS=all
+matrix:
+  include:
+  - python: '3.6'
+    env:
+    - TOXENV=check
+  - python: '3.6'
+    env:
+    - TOXENV=docs
+  - env:
+    - TOXENV=py27,codecov
+    python: '2.7'
+  - env:
+    - TOXENV=py35,codecov
+    python: '3.5'
+  - env:
+    - TOXENV=py36,codecov
+    python: '3.6'
+  - env:
+    - TOXENV=py37,codecov
+    python: '3.7'
+  - env:
+    - TOXENV=py38,codecov
+    python: '3.8'
+  - env:
+    - TOXENV=pypy,codecov
+    python: pypy
+  - env:
+    - TOXENV=pypy3,codecov
+    - TOXPYTHON=pypy3
+    python: pypy3
+before_install:
+- python --version
+- uname -a
+- lsb_release -a || true
+install:
+- python -mpip install --progress-bar=off tox -rci/requirements.txt
+- virtualenv --version
+- easy_install --version
+- pip --version
+- tox --version
+script:
+- tox -v
+after_failure:
+- more .tox/log/* | cat
+- more .tox/*/log/* | cat
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+deploy:
+  provider: pypi
+  user: lianglin0310
+  password:
+    secure: Q5/CBt6XwuUTvvwUWWZpVGEwpEwAJpZnD+cg7qUCYxcRT6fXri7cxAAtlV8gVEWwy0RWYdLNr/ixMV/9irInKXBQx6HpCwzpeZT/sBxZcX8hvJz5JT3aJB/iodwmu+JM00RQNs2zJHtqVUl89wu2oSNDxE+RHGXTvwBiYc7Bd0bjFUC9lJy4aE1QWuJTEV0zH3pWEDeLuIcmkdHHy17CvctuiTB0qjyNiuuEYbOG9C2c/lIcRU3u5usxavkTzQ28bwcQOEiKZPfbJT2sZkAn1ev6oRHJj1AmhJcgd+hm/fJZjQcTsDg/U8pzqV0G/CIC7V2kghhDwMYLcBA1Zas/5rxRSpB1wmb7I3N5cT44Kz6joFT7H+blYJdrUaleNY0vMcr+cq29v0wYDdzMfgUbSTQYjU/YEtRZiYt/oizNZnGV8sPfNlYmueh8RQ1encD+MvURuOlPzkyCf6yjGGCWrQ1nBOHXRtTYhk0zuwha56/Nb1vdCw5+yxwKjxkJ/iJR0iVFYXr447eacOmywWidgnH6UZkw59Iyy8VE8yef3Zf0mBXV680Bm2Np/lk7GEfBOA0IyIn2pu5oLcZjgiWWpUc3aGOxsVFxvtA+QKxFStehH57NmivoFB9l2Dqy/T4h2UAuOhiE8q8+QOVfhKUb9hZ9sYsyR0ZSQCa6d4dLAnU=
+  skip_existing: true
+  distributions: sdist bdist_wheel
+  on:
+    tags: true
+    repo: lianglin0310/spwla
