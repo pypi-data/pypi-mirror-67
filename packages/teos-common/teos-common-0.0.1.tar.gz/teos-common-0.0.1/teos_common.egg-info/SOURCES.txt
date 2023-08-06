@@ -1,0 +1,6 @@
+README.md
+setup.py
+teos_common.egg-info/PKG-INFO
+teos_common.egg-info/SOURCES.txt
+teos_common.egg-info/dependency_links.txt
+teos_common.egg-info/top_level.txt
