@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: text-detector-muthuspark
+Version: 0.0.1
+Summary: Locating texts in images using computer vision
+Home-page: https://github.com/muthuspark/text-detector
+Author: Muthu krishnan
+Author-email: muthukrishnan.t@hotmail.com
+License: UNKNOWN
+Description: # text-detector
+        Locating texts in images using machine vision algorithms
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
