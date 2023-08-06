@@ -1,0 +1,17 @@
+README.rst
+setup.py
+src/PyHydro/dadosgerais.py
+src/PyHydro/fcf.py
+src/PyHydro/hidr.py
+src/PyHydro/interc.py
+src/PyHydro/mddh.py
+src/PyHydro/planerg.py
+src/PyHydro/pmo.py
+src/PyHydro/resequiv.py
+src/PyHydro/submercado.py
+src/PyHydro/term.py
+src/hellotest_eduardo.egg-info/PKG-INFO
+src/hellotest_eduardo.egg-info/SOURCES.txt
+src/hellotest_eduardo.egg-info/dependency_links.txt
+src/hellotest_eduardo.egg-info/requires.txt
+src/hellotest_eduardo.egg-info/top_level.txt
