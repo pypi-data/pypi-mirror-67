@@ -1,0 +1,7 @@
+README.md
+setup.py
+remove_bg_api/__init__.py
+remove_bg_api.egg-info/PKG-INFO
+remove_bg_api.egg-info/SOURCES.txt
+remove_bg_api.egg-info/dependency_links.txt
+remove_bg_api.egg-info/top_level.txt
