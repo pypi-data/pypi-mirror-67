@@ -1,0 +1,10 @@
+pacificescloud.py,sha256=_WS16J9DBdOnKVn8Od02_9Zwg0ep6g2lvzOj0NHuHmg,3839
+pacifices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacifices/cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacifices/cloud/server.py,sha256=Jy7TA9FLwx02RQzAlO1OLxFY04DmiU8vdzhCRqxzBP0,7968
+pacifices_cloud-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pacifices_cloud-0.1.0.dist-info/METADATA,sha256=v-sLXw6dFJo67-kmlwwnJrvgUZ_Xidl91TAHuCZnmOA,1967
+pacifices_cloud-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pacifices_cloud-0.1.0.dist-info/entry_points.txt,sha256=nNuzb9yv8MPtLDx5a0ZShYjAXPoaB-V66H4BLuCpVx0,57
+pacifices_cloud-0.1.0.dist-info/top_level.txt,sha256=C3WJk_irqA5zzbUkyY1l5HAgaImdT9fUqn6cqsMSZEM,25
+pacifices_cloud-0.1.0.dist-info/RECORD,,
