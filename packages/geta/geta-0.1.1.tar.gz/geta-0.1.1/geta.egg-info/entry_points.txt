@@ -1,0 +1,3 @@
+[console_scripts]
+geta = geta.main:main
+
