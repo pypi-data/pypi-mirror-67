@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/vzmi.egg-info/PKG-INFO
+src/vzmi.egg-info/SOURCES.txt
+src/vzmi.egg-info/dependency_links.txt
+src/vzmi.egg-info/namespace_packages.txt
+src/vzmi.egg-info/top_level.txt
+src/vzmi.egg-info/zip-safe
