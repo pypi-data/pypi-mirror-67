@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ndvi2gif
+Version: 0.0.1
+Summary: Python package to create ndvi seasonal composites, and download them as gif and geotiff
+Home-page: https://github.com/Digdgeo/GEE_Playground
+Author: Diego Garcia Diaz
+Author-email: digd.geografo@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
