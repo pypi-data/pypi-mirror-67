@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+qfast/native/sc.py
+qfast_sc.egg-info/PKG-INFO
+qfast_sc.egg-info/SOURCES.txt
+qfast_sc.egg-info/dependency_links.txt
+qfast_sc.egg-info/not-zip-safe
+qfast_sc.egg-info/requires.txt
+qfast_sc.egg-info/top_level.txt
