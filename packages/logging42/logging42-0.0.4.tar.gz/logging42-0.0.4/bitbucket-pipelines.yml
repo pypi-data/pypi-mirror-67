@@ -1,0 +1,23 @@
+image: python:3.8
+
+definitions:
+  steps:
+    - step: &test-and-scan
+        name: Test
+        script:
+          - pip install .[test]
+          - pytest --cov -m "not development" logging42
+          - safety check
+
+pipelines:
+  default:
+    - step: *test-and-scan
+  tags:
+    'v*':
+      - step: *test-and-scan
+      - step:
+          script:
+            - python setup.py sdist
+            - pip install --upgrade pip
+            - pip install twine
+            - twine upload --verbose dist/*
