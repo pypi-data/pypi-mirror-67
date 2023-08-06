@@ -1,0 +1,11 @@
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-configuration
+google-cloud-storage
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+google-cloud-bigquery
+gsutil
+httplib2
