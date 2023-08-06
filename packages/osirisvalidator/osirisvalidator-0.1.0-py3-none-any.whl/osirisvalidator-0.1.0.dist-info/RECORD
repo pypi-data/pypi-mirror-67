@@ -1,0 +1,17 @@
+osirisvalidator/__init__.py,sha256=Cgvvyv54D9PoUmSw1nSJ8-RfkOPP3BYZ-mIsnragiFU,204
+osirisvalidator/exceptions.py,sha256=T68O3winxW72AMnzy1DbdoGiCKM4WL7M_yxlT5lHPZI,170
+osirisvalidator/internet.py,sha256=iHzicg4Ca5Al7ZKMjHsV0Onpj1TuvtbqsJVfiVVGbc4,597
+osirisvalidator/number.py,sha256=Gj-kFWitwMl7bCDTGiq-opTSrQXmPWAYOMyuMEzCNPk,778
+osirisvalidator/osiris.py,sha256=duWMwUBMgvJmhYY-1eHQM8ewKH6tPN-lsUQbjthNK10,305
+osirisvalidator/string.py,sha256=Qbb-KNThffbsS4zQpVsQTimNGzfWGnRRdLtsbe36S3E,4192
+osirisvalidator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osirisvalidator/tests/test_internet.py,sha256=wIO_iSa3a49osv8XDjiONrM718zfGDxdUHzuRttUHDg,900
+osirisvalidator/tests/test_number.py,sha256=29BqSBK6HEFpQ4Sr-7e8bw-H5Y-Hfd9Nku4lzS5brx8,869
+osirisvalidator/tests/test_string.py,sha256=FyRKtXVMDji2WDNyUZbz1Tmnj2a6ckv2jSDlKxvq_yU,6764
+osirisvalidator/tests/intl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osirisvalidator/tests/intl/test_br.py,sha256=sTzFLCnpITIj5SHfK6dPuETuWy36vHKUecisVKT74RE,3419
+osirisvalidator-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+osirisvalidator-0.1.0.dist-info/METADATA,sha256=tqla8Ymi3niNJHoPWkMZi0yO1VqSMduxLLGnWMGfHIE,2669
+osirisvalidator-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+osirisvalidator-0.1.0.dist-info/top_level.txt,sha256=j4mGjfSSh8PqSvEC6YMT2yGx__0ocQFfABgV9tlEOck,16
+osirisvalidator-0.1.0.dist-info/RECORD,,
