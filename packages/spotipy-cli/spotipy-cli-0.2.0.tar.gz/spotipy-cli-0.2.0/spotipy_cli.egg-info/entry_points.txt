@@ -1,0 +1,3 @@
+[console_scripts]
+spotipy-cli = spotipy_cli.__main__:main
+
