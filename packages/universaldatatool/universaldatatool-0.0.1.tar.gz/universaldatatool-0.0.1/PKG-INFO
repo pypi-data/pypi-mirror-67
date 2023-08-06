@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: universaldatatool
+Version: 0.0.1
+Summary: Interact with any kind of kind of data directly in a jupyter notebook.
+Home-page: https://github.com/UniversalDataTool/python-universaldatatool
+Author: Severin Ibarluzea
+Author-email: seve@wao.ai
+License: MIT
+Description: # Universal Data Tool Python Module
+        
+        > This is currently a work in progress specification for the python module
+        
+        pip module for data labeling based leveraging the Universal Data Tool
+        
+        ```bash
+        pip install universaldatatool
+        ```
+        
+        ## Basic Usage
+        
+        ```python
+        import universaldatatool as udt
+        
+        file = udt.File()
+        
+        ```
+        
+        ## Submodules
+        
+        * udt.nb: jupyter notebook widget
+        
+        ## Methods
+        
+        * udt.load_json(file_path): Load UDT File from json
+        * udt.load_csv(file_path): Load UDT File from csv
+        * udt.File(file_path = None, interface = None) : Create UDT File
+        * udt.File.save(file_path = None) : Save file (extension should be ".udt.json", ".udt.csv")
+        * udt.Interface(type=None, labels=None): Create UDT interface
+        * udt.Sample(image_url=None, document=None, ...) : Create UDT Sample
+        * udt.nb.display(udt_file): Display Universal Data Tool widget
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
