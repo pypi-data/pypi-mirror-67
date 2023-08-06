@@ -1,0 +1,10 @@
+bluesky
+databroker
+numpy
+ophyd
+pandas
+pyepics
+pymongo
+pyRestTable
+spec2nexus
+xlrd
