@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+z2n/z2n_periodogram.egg-info/PKG-INFO
+z2n/z2n_periodogram.egg-info/SOURCES.txt
+z2n/z2n_periodogram.egg-info/dependency_links.txt
+z2n/z2n_periodogram.egg-info/entry_points.txt
+z2n/z2n_periodogram.egg-info/requires.txt
+z2n/z2n_periodogram.egg-info/top_level.txt
