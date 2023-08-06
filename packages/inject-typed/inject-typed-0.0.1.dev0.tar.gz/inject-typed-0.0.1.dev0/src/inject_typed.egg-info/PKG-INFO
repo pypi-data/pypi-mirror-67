@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: inject-typed
+Version: 0.0.1.dev0
+Summary: A small example package
+Home-page: https://github.com/pbatko/inject-typed
+Author: Pawel Batko
+Author-email: pawel.batko@gmail.com
+License: UNKNOWN
+Description: # inject-typed
+        
+        ### Dependency Injection for Python driven by type annotations
+        
+        Features:
+        - does not require changes to your code, for example no need to use special decorators
+        - fully driven by typed annotations from `__init__`
+        
+        
+        
+        ### Dev setup
+        
+        ```
+        dnf install python3.6
+        pip install virtualenv
+        
+        virtualenv --python python36 inject-typed-env36
+        
+        source inject-typed-env36/bin/activate
+        
+        pip install -r requirements.txt
+        ```
+        
+        
+        #### Pycharm
+        Mark `src` dir as `Source Root`
+        
+        
+        Resources:
+        https://virtualenv.pypa.io/en/latest/
+        
+        ### Releasing
+        
+        python -m pip install --upgrade setuptools wheel
+        python -m pip install --upgrade twine
+        
+        python setup.py sdist bdist_wheel
+        
+        
+        
+        
+        python -m twine upload --repository testpypi dist/*
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
