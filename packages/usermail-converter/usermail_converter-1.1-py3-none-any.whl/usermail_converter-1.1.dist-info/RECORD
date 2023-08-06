@@ -1,0 +1,12 @@
+usermail_converter/UI.py,sha256=wwrWBE5ffyGN4B-6ex7M2wqSAVEbeKzBqGVtqRGBYLw,10872
+usermail_converter/__init__.py,sha256=Fk7xqcmcEyya7hFzgjpuFgvRuOGpIQ1OKdMHayYbOtM,789
+usermail_converter/__main__.py,sha256=Fru2ll75iaMXiK-ktaX_7LTV2Y_r3Z31l_PiVya0Fv4,8344
+usermail_converter/converters.py,sha256=Iq9vubYgnyLzBHXktm5Fqa1VGnQbAkk8kNrogIGYFBE,991
+usermail_converter/icons/icon256.ico,sha256=i-b_tfCu3QVH9cjNkRa0zsVsIVn9yjFMO1nkI74cZuA,104845
+usermail_converter/icons/icon256.png,sha256=lS0hhlcTYh-s0Bt-ayFx5GfiFIy0MHxAqq59vbgQOQA,3591
+usermail_converter-1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+usermail_converter-1.1.dist-info/METADATA,sha256=NTBWaEJVuKHlzd_kPQEbaLAUQ2RFpUhiuI0qnkOuZNI,2442
+usermail_converter-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+usermail_converter-1.1.dist-info/entry_points.txt,sha256=U2hM2wzAWl0Hy3sXC32RkbPxoqqHXDBqfXt7hk3J1-I,73
+usermail_converter-1.1.dist-info/top_level.txt,sha256=NMa61dc4SAwHxp6psfdgM_XYFynh6V7cUpnInHCIVkA,19
+usermail_converter-1.1.dist-info/RECORD,,

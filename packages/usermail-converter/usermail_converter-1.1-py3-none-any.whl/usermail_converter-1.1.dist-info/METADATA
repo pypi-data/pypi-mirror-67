@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: usermail-converter
+Version: 1.1
+Summary: A Python Cross Platform GUI App Tool to Convert Between Emails and Usernames
+Home-page: https://github.com/ThamiMemel/UserMail_Converter
+Author: Thami Memel
+Author-email: memelthami@gmail.com
+License: GPLv3
+Download-URL: https://github.com/ThamiMemel/usermail-converter/archive/1.1.tar.gz
+Keywords: username,email,mail,converter,combo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt5 (==5.14.2)
+Requires-Dist: PyAutoGUI (==0.9.50)
+
+# UserMail Converter
+
+A simple GUI tool made with python and PyQt5, used to convert between emails and usernames.
+
+## Key Features
+- [x] Import or Export accounts
+- [x] Convert Emails to Usernames and the other way around
+- [x] Support lists with passwords (separated by ":" only)
+- [x] Simple Interface
+- [x] It works and it's not a virus ;D
+	### Todo
+	i don't know ! but feel free to suggest anything you want to be included.
+
+## Installation
+### Pypi (preferred)
+	$ pip install -U usermail-converter
+to launch the app after installation use the command 
+
+    $ usermail-converter
+
+### Windows Executable
+Binaries for windows are available under [releases](https://github.com/ThamiMemel/UserMail_Converter/releases)
+### Linux Executable
+Binaries for Linux  are available under [releases](https://github.com/ThamiMemel/UserMail_Converter/releases)
+## Modes
+#### Email to Username 
+	user@domaine.com > user
+#### Email:Password to Username:Password
+	user@domaine.com:pass > user:pass
+#### Username to Email
+	user > user@domain.com
+#### Username:Password to Email:Password
+	user:pass > user@domain.com:pass
+## Disclaimer
+By using this software, you agree that you are responsible for your actions when using it.
+
+
+
