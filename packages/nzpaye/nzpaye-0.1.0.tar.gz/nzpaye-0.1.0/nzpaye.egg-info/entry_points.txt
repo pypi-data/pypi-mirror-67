@@ -1,0 +1,3 @@
+[console_scripts]
+nzpaye = nzpaye.__main__:main
+

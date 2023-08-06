@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: nzpaye
+Version: 0.1.0
+Summary: NZ Paye Summary
+Home-page: https://github.com/anuj-ssharma/PayeSummary
+Author: Anuj Sharma
+Author-email: anuj576@gmail.com
+License: MIT
+Description: Calculate the NZ Paye Summary based on the hourly rate and the number of hours worked.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
