@@ -1,0 +1,9 @@
+numpy
+pandas
+python-dateutil
+pytz
+pyyaml
+tzlocal
+
+[bloscpack]
+bloscpack
