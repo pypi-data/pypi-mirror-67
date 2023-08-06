@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: huajiweb
+Version: 0.58
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: huajiweb Inc
+License: Apache 2
+Description: # huajiweb
+        
+        This is the Python library for huajiweb. It includes the `huajiweb`
+        package which the user installs and loads as well as the "proxy" which
+        communicates with the browser.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
