@@ -1,0 +1,10 @@
+watchman/__init__.py,sha256=vHARYokQVHBdqVjzbiIkOyofsICUVWZTu81N86jbH1o,8640
+watchman/__main__.py,sha256=2L0xZLQ0nuAm7gSvYeyJ-JV4ILmdN7jp-JORJNQDImY,34
+watchman/audit.py,sha256=qQA4A8L-SUnoCfPBTSJLjashKQrd0DcYUSlljq96ITg,20187
+watchman/definitions.py,sha256=NzfPH9nMhu90x7r0zLaG2YNp_0JslV4A8sR_8Sw-8wA,2938
+slack_watchman-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+slack_watchman-1.0.0.dist-info/METADATA,sha256=zrSvHlPw_FUMrGm2-DG45DFjBulW3-PoDu2YrOHZ788,4069
+slack_watchman-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slack_watchman-1.0.0.dist-info/entry_points.txt,sha256=1goXt0ohf0dqV4VDeqs4AvJpSb-C2baeux2yIlDcv-k,50
+slack_watchman-1.0.0.dist-info/top_level.txt,sha256=JtzFkMfau9nKRyW4l6xrwBa3folOsoNf568KZiioEec,9
+slack_watchman-1.0.0.dist-info/RECORD,,
