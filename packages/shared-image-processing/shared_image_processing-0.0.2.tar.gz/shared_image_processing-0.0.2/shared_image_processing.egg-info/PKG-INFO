@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shared-image-processing
+Version: 0.0.2
+Summary: Image processing library for sharing across projects
+Home-page: https://github.com/Matt-Conrad/SharedImageProcessing
+Author: Matt-Conrad
+Author-email: mattgrayconrad@gmail.com
+License: UNKNOWN
+Description: # Shared Image Processing Library
+        
+        This is a package containing a collection of functions for image processing that can be used across projects. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
