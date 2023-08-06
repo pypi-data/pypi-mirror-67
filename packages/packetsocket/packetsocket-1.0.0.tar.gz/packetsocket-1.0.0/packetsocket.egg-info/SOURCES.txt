@@ -1,0 +1,9 @@
+README.md
+setup.py
+packetsocket/__init__.py
+packetsocket/packetsocket.py
+packetsocket.egg-info/PKG-INFO
+packetsocket.egg-info/SOURCES.txt
+packetsocket.egg-info/dependency_links.txt
+packetsocket.egg-info/not-zip-safe
+packetsocket.egg-info/top_level.txt
