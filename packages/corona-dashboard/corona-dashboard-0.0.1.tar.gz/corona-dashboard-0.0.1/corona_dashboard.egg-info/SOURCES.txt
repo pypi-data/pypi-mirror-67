@@ -1,0 +1,8 @@
+README.rst
+setup.py
+corona_dashboard.egg-info/PKG-INFO
+corona_dashboard.egg-info/SOURCES.txt
+corona_dashboard.egg-info/dependency_links.txt
+corona_dashboard.egg-info/entry_points.txt
+corona_dashboard.egg-info/requires.txt
+corona_dashboard.egg-info/top_level.txt

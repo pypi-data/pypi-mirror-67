@@ -1,0 +1,57 @@
+Metadata-Version: 1.2
+Name: corona-dashboard
+Version: 0.0.1
+Summary: Forecasting the spread of the novel coronavirus.
+Home-page: https://www.github.com/bnext-iqt/corona-dashboard
+Author: JJ Ben-Joseph
+Author-email: jbenjoseph@iqt.org
+License: Apache
+Description: Coronavirus Dashboard
+        ~~~~~~~~~~~~~~~~~~~~~
+        
+        This project contains dashboard(s) and other visualizations to monitor the outbreak.
+        
+        Currently includes:
+        
+        * A dashboard that detects hotspots based on growth (not total cases) and maps them.
+        
+        Uses third-party data:
+        
+        * Coronavirus data from the New York Times.
+        
+        This is an experimental project. The numbers may be wrong. It should not be relied 
+        on for any decision making without additional review.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        :: 
+        
+            pip install corona-dashboard
+        
+        
+        Usage
+        ~~~~~
+        
+        ::
+        
+            corona-dashboard
+        
+        License and Acknowledgment
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Apache 2. See LICENSE file for details.
+        
+        A project of `B.Next <https://www.bnext.org/>`_.
+Keywords: machine_learning artificial_intelligence dashboard forecasting
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
