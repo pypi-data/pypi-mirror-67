@@ -1,0 +1,6 @@
+pandas
+google_auth_oauthlib
+altair
+google-auth
+requests
+beautifulsoup4
