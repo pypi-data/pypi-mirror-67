@@ -1,0 +1,7 @@
+README.md
+setup.py
+mydream/__init__.py
+mydream.egg-info/PKG-INFO
+mydream.egg-info/SOURCES.txt
+mydream.egg-info/dependency_links.txt
+mydream.egg-info/top_level.txt
