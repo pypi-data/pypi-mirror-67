@@ -1,0 +1,5 @@
+uraeus.smbd>=0.0.1.dev3
+numpy
+scipy
+numba
+pandas
