@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: heliPypter
+Version: 0.0.2
+Summary: A package for rotorcraft performance evaluation.
+Home-page: https://github.com/czarified/helipypter
+Author: Benjamin Crews
+Author-email: aceF22@gmail.com
+License: UNKNOWN
+Description: # helipypter
+        Python notebooks related to helicopter aerodynamics.
+        
+        These notebooks are for academic purposes only. See the license file for restrictions.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
