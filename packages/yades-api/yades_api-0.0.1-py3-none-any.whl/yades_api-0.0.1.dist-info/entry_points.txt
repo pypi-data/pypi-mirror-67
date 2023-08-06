@@ -1,0 +1,3 @@
+[console_scripts]
+yades_api = yades_api.__main__:main
+
