@@ -1,0 +1,8 @@
+async_couch/__init__.py,sha256=ziaippwsediWcyRG-PhHDLpkYXKR1N4Tvyax2wLi_6k,1184
+async_couch/exc.py,sha256=OhsQU65CknYlYL02M1Qcfk6azdlqZJD-opfUi6lV-j0,399
+async_couch/types.py,sha256=KinqeFu_LU8LP2r3ohelrGVwch2FhrVUrTos3-udYoc,680
+async_couch-0.1a5.dist-info/LICENSE,sha256=3SmVOqqzdUH0LN5PgAbBHY9i-skKcTcia1gjflh0KR4,1071
+async_couch-0.1a5.dist-info/METADATA,sha256=-8SZ21vBwZLxrKG6Fm9fXsna5JIWYSDmr2gkCP5tll8,2048
+async_couch-0.1a5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+async_couch-0.1a5.dist-info/top_level.txt,sha256=9adPz32QkybrX_DG2BAx4fESp61oetRwgjMf5B5d7cc,12
+async_couch-0.1a5.dist-info/RECORD,,
