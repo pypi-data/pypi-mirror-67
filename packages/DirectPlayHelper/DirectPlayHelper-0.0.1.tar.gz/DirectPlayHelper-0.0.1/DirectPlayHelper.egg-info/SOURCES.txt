@@ -1,0 +1,6 @@
+README.md
+setup.py
+DirectPlayHelper.egg-info/PKG-INFO
+DirectPlayHelper.egg-info/SOURCES.txt
+DirectPlayHelper.egg-info/dependency_links.txt
+DirectPlayHelper.egg-info/top_level.txt
