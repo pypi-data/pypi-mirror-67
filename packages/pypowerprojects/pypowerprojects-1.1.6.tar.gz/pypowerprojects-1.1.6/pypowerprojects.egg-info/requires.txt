@@ -1,0 +1,7 @@
+pyttsx3
+captcha
+opencv-python
+pillow
+wget
+forex-python
+imutils
