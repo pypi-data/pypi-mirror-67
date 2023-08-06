@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: calmacentral
+Version: 0.0.1
+Summary: Calculadora de Funciones Universidad Central
+Home-page: https://github.com/jcastillos1/CalculadoraUC
+Author: Juan Castillo, Laura Contreras, Jessika Santos, María Fernanda García, Carlos Carvajales, Isaac Zainea
+Author-email: czaineam@ucentral.edu.co
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: calculadora,matematicas,calculo,algebra lineal,estadistica
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

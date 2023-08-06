@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+calmacentral/Calculadora.py
+calmacentral/__init__.py
+calmacentral.egg-info/PKG-INFO
+calmacentral.egg-info/SOURCES.txt
+calmacentral.egg-info/dependency_links.txt
+calmacentral.egg-info/requires.txt
+calmacentral.egg-info/top_level.txt
