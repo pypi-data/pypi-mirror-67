@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: facile-new-business-lib
+Version: 0.0.7.4
+Summary: testing 
+Home-page: https://www.facile.it
+Author: Fabio Lima
+Author-email: f46io@icloud.com
+License: UNKNOWN
+Description: Package which centralized python newbusiness keywords
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
