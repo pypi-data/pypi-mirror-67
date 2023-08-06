@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fhub
+Version: 0.0.1
+Summary: Python client for Finnhub API 
+Home-page: https://github.com/paduel/fhub
+Author: Paduel
+Author-email: paduel@gmail.com
+License: Apache 2.0
+Description: ====
+        Fhub
+        ====
+        Python client for Finnhub API
+        =============================
+        .. image:: https://img.shields.io/pypi/v/fhub?color=blue
+            :target: https://pypi.org/project/fhub/
+            :alt: PyPi version
+        
+        \
+        A pythonic way to use the Finnanhub data API.
+        
+        This package is still in a very early stage of development, so it is still incomplete and may contain bugs. It should only be used to test its functionality.
+        \
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        
+         .. code:: bash
+        
+           pip install fhub
+        
+        
+        Quick start
+        ~~~~~~~~~~~
+        
+        You need a Finnhub API Key, you can get free one, at https://finnhub.io.  
+        
+        .. code:: python
+        
+            from fhub import Session
+            hub = Session(<your API Key here>)
+            
+            # Download prices time serie of Tesla.
+            tsla = hub.candle('TSLA')
+           
+            # Download prices for several tickers from a date.
+            data = hub.candle(['AMZN', 'NFLX', 'DIS'], start="2018-01-01")
+        
+        
+        Documentation
+        ~~~~~~~~~~~~~
+        
+        Official documentation of the API REST of Finnhub:
+        
+        https://finnhub.io/docs/api
+        
+        Only some of the functions available in the REST API have been implemented yet.
+            
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
