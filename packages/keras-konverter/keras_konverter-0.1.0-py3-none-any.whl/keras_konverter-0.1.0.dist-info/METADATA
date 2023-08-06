@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: keras-konverter
+Version: 0.1.0
+Summary: A tool to convert simple Keras models to pure Python + NumPy
+License: MIT
+Author: Shane Smiskol
+Author-email: shane@smiskol.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.18.3,<2.0.0)
+Requires-Dist: typer (>=0.1.1,<0.2.0)
