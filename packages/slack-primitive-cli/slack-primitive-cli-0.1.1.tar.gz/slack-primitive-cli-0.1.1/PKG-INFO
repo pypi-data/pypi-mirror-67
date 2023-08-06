@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: slack-primitive-cli
+Version: 0.1.1
+Summary: Primitive Slack CLI
+Home-page: https://github.com/yuji38kwmt/slack-primitive-cli
+License: MIT
+Keywords: slack,cli
+Author: yuji38kwmt
+Author-email: yuji38kwmt@gmail.com
+Maintainer: yuji38kwmt
+Maintainer-email: yuji38kwmt@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=7,<8)
+Requires-Dist: click-option-group
+Requires-Dist: slackclient (>=2,<3)
+Project-URL: Repository, https://github.com/yuji38kwmt/slack-primitive-cli
+Description-Content-Type: text/markdown
+
+# slack-primitive-cli
+`slack-primitive-cli` can execute [Slack web api methods](https://api.slack.com/methods) from command line.
+Command line argument is correspont to web api arguments, so `slack-primitive-cli` is **primitive**.
+
+
+# Requirements
+* Python 3.6+
+
+# Install
+
+```
+$ pip install slack-primitive-cli
+```
+
+https://pypi.org/project/slack-primitive-cli/
+
+
+# Usage
+
+## Sending a message
+
+```
+$ slackcli --token xoxb-XXXXXXX --channel "#random" --text hello
+
+$ export SLACK_API_TOKEN
+$ slackcli --channel "#random" --text hello
+```
+
+## Uploading files
+
+```
+$ slackcli --channels "#random" --file foo.txt
+```
+
+
+# Supported web api methods.
+`slack-primitive-cli` supports a few web api methods.
+
+* [chat.delete](https://api.slack.com/methods/chat.delete)
+* [chat.postMessage](https://api.slack.com/methods/chat.postMessage)
+* [files.delete](https://api.slack.com/methods/files.delete)
+* [files.upload](https://api.slack.com/methods/files.upload)
+
