@@ -1,0 +1,9 @@
+README.rst
+pshitt.py
+setup.py
+pshitt.egg-info/PKG-INFO
+pshitt.egg-info/SOURCES.txt
+pshitt.egg-info/dependency_links.txt
+pshitt.egg-info/entry_points.txt
+pshitt.egg-info/requires.txt
+pshitt.egg-info/top_level.txt
