@@ -1,0 +1,11 @@
+dbkrpy/__init__.py,sha256=LNoE5y2_daNVgHJ75jnldDyHHU6h2ZeBlT-4NY0MWwc,121
+dbkrpy/dbkr.py,sha256=CPcq5EZQ4ofqOGNxvhWATYay6H5we1l3tzL2jcL47xk,2809
+dbkrpy/dbkrapiurl.py,sha256=ESx0MTzvA8lbqiMWBgQegANixLitsaCXqtdEa1vF5jc,248
+dbkrpy/dbkrinfo.py,sha256=wyrSFkgSXFN9W0-qF3T7xtETLT-gqXBKqTQOHgCq8lk,4066
+dbkrpy/dbkrpage.py,sha256=NyRvUgGTox-2MLGubBfZawOH_PHzmB0MJWEFiuaD_n4,2403
+dbkrpy/dbkrvote.py,sha256=DhL4Pc68lVaAYXLzsHYVHrsolGTbKPx6JOoCxZwOdyA,754
+dbkrpy-0.4.3.dist-info/LICENSE,sha256=r_zFSFStuu8SGxBjKXJfVzc1qJN4brEBW-L4j0ck2IQ,1067
+dbkrpy-0.4.3.dist-info/METADATA,sha256=XxXR0zpFNZln7eshV0zCRvu1t78_MYyGYlh9AklqeRI,6139
+dbkrpy-0.4.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dbkrpy-0.4.3.dist-info/top_level.txt,sha256=wBnYtG_sgY6gY8gQBx-XohUV-1pZX_zJKRQ3CffnkhA,7
+dbkrpy-0.4.3.dist-info/RECORD,,
