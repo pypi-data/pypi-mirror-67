@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: cs46-tadizov-trees
+Version: 1.0.0
+Summary: cs46 Implementation of BST AVL and Heap
+Home-page: https://github.com/tadizov/trees
+Author: Timur
+Author-email: timadizov@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: hypothesis
+Requires-Dist: pytest
+
+# Trees ![](https://api.travis-ci.com/tadizov/trees.svg?branch=master)
+
+This is a homework for CMC's [CS46: data structures](https://github.com/tadizov/cmc-csci046) course.
+
+
