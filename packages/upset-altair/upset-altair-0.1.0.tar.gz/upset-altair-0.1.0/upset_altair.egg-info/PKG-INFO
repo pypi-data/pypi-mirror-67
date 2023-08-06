@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: upset-altair
+Version: 0.1.0
+Summary: Altair-based interactive UpSet plots
+Home-page: https://github.com/hms-dbmi/upset-altair
+Author: Sehi L'Yi
+Author-email: sehi_lyi@hms.harvard.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

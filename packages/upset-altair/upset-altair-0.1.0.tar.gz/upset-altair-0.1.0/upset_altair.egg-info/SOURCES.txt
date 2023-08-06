@@ -1,0 +1,5 @@
+setup.py
+upset_altair.egg-info/PKG-INFO
+upset_altair.egg-info/SOURCES.txt
+upset_altair.egg-info/dependency_links.txt
+upset_altair.egg-info/top_level.txt
