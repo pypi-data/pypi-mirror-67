@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ThreadedFileLoader
+Version: 1.0.0.1
+Summary: UNKNOWN
+Home-page: https://QuantumNovice.github.io/ThreadedFileLoader
+Author: QuantumNovice
+Author-email: portabl3lapy@gmail.com
+License: MIT
+Description: # Threaded File Loader
+        
+        Multithreaded Python package for faster file loading in machine learning.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
