@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: readpass
+Version: 0.0.1
+Summary: function to modify user input
+Home-page: https://repl.it/@ChezCoder/readpass
+Author: ChezCoder
+Author-email: mrpizzaguyytb@gmail.com
+License: UNKNOWN
+Description: # Usage
+        `readpass(prompt,replacement=None)`
+        
+        ## Examples
+        ***
+        Code:
+        ```python
+        print(readpass("What is your username?: "))
+        print(readpass("What is your password?: ","*"))
+        print(readpass("Doesn't show: ",""))
+        print(readpass("Troll: ","lol"))
+        ```
+        Result:
+        ![result](https://storage.googleapis.com/replit/images/1588714358415_93e285e48a92005926f1f9eaf7ec52fa.png)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
