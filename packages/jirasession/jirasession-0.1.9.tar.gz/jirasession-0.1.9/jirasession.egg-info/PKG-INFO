@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jirasession
+Version: 0.1.9
+Summary: A light weight library to interact with the Jira API
+Home-page: https://www.github.com/tannerburns/jirasession
+Author: Tanner Burns
+Author-email: tjburns102@gmail.com
+License: UNKNOWN
+Description: # Jirasession
+        
+            A light weight library to interact with the Jira API
+            
+        # Basic example
+        
+        ```python
+        from jirasession import JiraSession
+        
+        session = JiraSession('email', 'token', 'https://server.atlassian.net/')
+        
+        new_isssue = {
+            'project': {'key': 'DEV'},
+            'summary': 'test',
+            'description': 'test',
+            'issuetype': {'name':'Ticket'}
+        }
+        
+        resp = session.create_issue(new_isssue)
+        if resp.status_code == 200:
+            print('issue created') # handle requests.Response to get issue information
+        else:
+            print('error creating issue') # debug requests.Response here
+        ```
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
