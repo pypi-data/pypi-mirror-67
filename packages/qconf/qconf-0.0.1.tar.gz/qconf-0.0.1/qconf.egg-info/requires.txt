@@ -1,0 +1,5 @@
+PyYAML
+python_dateutil
+
+[test]
+pytest

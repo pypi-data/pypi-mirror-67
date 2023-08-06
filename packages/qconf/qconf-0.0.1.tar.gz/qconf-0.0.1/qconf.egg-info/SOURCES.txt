@@ -1,0 +1,10 @@
+setup.py
+qconf/__init__.py
+qconf/qconfig.py
+qconf/qparser.py
+qconf/version.py
+qconf.egg-info/PKG-INFO
+qconf.egg-info/SOURCES.txt
+qconf.egg-info/dependency_links.txt
+qconf.egg-info/requires.txt
+qconf.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: qconf
+Version: 0.0.1
+Summary: Quick Parser and Config
+Home-page: https://github.com/vossenv/qconf
+Maintainer: Danimae Vossen
+Maintainer-email: vossen.dm@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Provides-Extra: test
