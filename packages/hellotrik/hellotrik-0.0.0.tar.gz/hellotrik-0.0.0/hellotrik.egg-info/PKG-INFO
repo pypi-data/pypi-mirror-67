@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hellotrik
+Version: 0.0.0
+Summary: 🗡♥
+Home-page: https://space.bilibili.com/489142974
+Author: hellotrik
+Author-email: hellotrik@foxmail.com
+License: MIT
+Description: ## [🗡♥](https://hellotrik.github.io)
+Keywords: 计算机视觉
+Platform: MS Windows
+Platform: Mac X
+Platform: Unix/Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

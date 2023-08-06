@@ -1,0 +1,3 @@
+hellotrik
+hellotrik/examples
+hellotrik/kernel
