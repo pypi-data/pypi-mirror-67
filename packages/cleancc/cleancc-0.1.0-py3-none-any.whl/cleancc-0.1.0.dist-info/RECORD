@@ -1,0 +1,8 @@
+cleancc/__init__.py,sha256=EMRzcD-7dqUWjwaWCBwweHXbCPD77H1uKro-BHvGY1Y,21
+cleancc/clean.py,sha256=KRgOiPx8YKip24bH8dvdiCXvOLVfY9YyfaMnIuP9pgA,4501
+cleancc/stopword/stopwords.txt,sha256=yk5vS28qHMNOvFliTd5YMBJRKdqogYnZ9klv4xRLL_s,7528
+cleancc-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+cleancc-0.1.0.dist-info/METADATA,sha256=pfJXY83ZrrwaTyd_S9_AH9QIa9JLshkYHm0vPdx3YI8,2885
+cleancc-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cleancc-0.1.0.dist-info/top_level.txt,sha256=ElS6w9ISbSzlmr_HY-EYhcl8s5ZskmVe-RX-nIusUs4,8
+cleancc-0.1.0.dist-info/RECORD,,
