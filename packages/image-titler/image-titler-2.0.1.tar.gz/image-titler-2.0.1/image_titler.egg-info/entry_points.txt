@@ -1,0 +1,7 @@
+[console_scripts]
+image-titler = image_titler.command:main
+image_titler = image_titler.command:main
+
+[gui_scripts]
+image-titler-gui = image_titler.gui:main
+
