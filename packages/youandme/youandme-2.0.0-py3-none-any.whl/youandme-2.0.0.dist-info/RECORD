@@ -1,0 +1,15 @@
+yam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yam/yam.py,sha256=bl0V3sF8IBLmdXNCSSGp3iE5xJPNCVJ-tzvCLJPJHjA,6105
+youandme/__init__.py,sha256=O7loGatLYMH--GY0TFKimub13oRmJuvpDH8_ZNDcPoc,140
+youandme/client.py,sha256=R4Gwdy1G7RrXlLwJrLaYyHrpXGON8p43ZT1AsLZPGZU,1475
+youandme/commands.py,sha256=SfVyWowRwnDiw_PBJRDwAaNCyb2oOcs40hHepUEtZhc,121
+youandme/server.py,sha256=6Am330GknZXDOnmRW3D48QmxSTI_qDce9NVRGZVuy_0,1366
+youandme/stream.py,sha256=x-N8_Ef6-54UrDmeRjsssU2PBJjsYHu-ym43_C1h2a0,881
+youandme/tor.py,sha256=VLTcxfAvKFT-KnUpEKztjdRGZX_YOJ27sto_9MXIJ38,448
+youandme-2.0.0.data/scripts/__init__.py,sha256=Ip7_7WNrJYxokytpQ3ALpi3BnUi9wUxcg-YKO8Wu_eI,3795
+youandme-2.0.0.data/scripts/yam.py,sha256=HO3deb_cWbEvhU99KVajNblyLQj83CvliZbDobnmXAY,6091
+youandme-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+youandme-2.0.0.dist-info/METADATA,sha256=bvNmQ_fcpvULtMxMy2FEEOMqSH83lxi6i1exrd66QGo,3113
+youandme-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+youandme-2.0.0.dist-info/top_level.txt,sha256=o_uYkNn61aNvKHmiixOK7dyrwS-zhelBoe3zL3Bp8Aw,13
+youandme-2.0.0.dist-info/RECORD,,
