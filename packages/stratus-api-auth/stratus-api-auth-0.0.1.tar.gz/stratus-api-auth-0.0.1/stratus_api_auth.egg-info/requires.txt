@@ -1,0 +1,3 @@
+python-jose[cryptography]>=3.0.1
+stratus-api-core>=0.0.2
+connexion[swagger-ui]==2.6.0
