@@ -1,0 +1,3 @@
+[console_scripts]
+spwla = spwla.cli:main
+
