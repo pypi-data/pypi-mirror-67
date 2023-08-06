@@ -1,0 +1,3 @@
+[console_scripts]
+escalate = escalate:escalate_cli
+
