@@ -1,0 +1,8 @@
+README.md
+forcats.py
+setup.py
+forcats_py.egg-info/PKG-INFO
+forcats_py.egg-info/SOURCES.txt
+forcats_py.egg-info/dependency_links.txt
+forcats_py.egg-info/requires.txt
+forcats_py.egg-info/top_level.txt
