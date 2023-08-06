@@ -1,0 +1,10 @@
+README.md
+setup.py
+discordservices/__init__.py
+discordservices/client.py
+discordservices/errors.py
+discordservices.py.egg-info/PKG-INFO
+discordservices.py.egg-info/SOURCES.txt
+discordservices.py.egg-info/dependency_links.txt
+discordservices.py.egg-info/requires.txt
+discordservices.py.egg-info/top_level.txt
