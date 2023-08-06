@@ -1,0 +1,8 @@
+README.md
+setup.py
+sih/__init__.py
+sih.egg-info/PKG-INFO
+sih.egg-info/SOURCES.txt
+sih.egg-info/dependency_links.txt
+sih.egg-info/requires.txt
+sih.egg-info/top_level.txt
