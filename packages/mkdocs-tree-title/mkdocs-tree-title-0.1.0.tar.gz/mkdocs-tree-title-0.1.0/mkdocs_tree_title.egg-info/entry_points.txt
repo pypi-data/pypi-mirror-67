@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+tree-title = mkdocs_tree_title.plugin:TreeTitlePlugin
+
