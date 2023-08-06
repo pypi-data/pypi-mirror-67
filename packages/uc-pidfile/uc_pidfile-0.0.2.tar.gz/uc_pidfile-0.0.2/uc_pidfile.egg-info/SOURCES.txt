@@ -1,0 +1,7 @@
+README.md
+setup.py
+uc_pidfile/__init__.py
+uc_pidfile.egg-info/PKG-INFO
+uc_pidfile.egg-info/SOURCES.txt
+uc_pidfile.egg-info/dependency_links.txt
+uc_pidfile.egg-info/top_level.txt
