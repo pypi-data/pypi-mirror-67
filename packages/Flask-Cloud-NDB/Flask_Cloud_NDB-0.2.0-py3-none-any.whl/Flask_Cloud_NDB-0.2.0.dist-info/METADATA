@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: Flask-Cloud-NDB
+Version: 0.2.0
+Summary: Flask Cloud NDB: Adds Google Cloud NDB support to Flask
+Home-page: https://github.com/bool-dev/flask-cloud-ndb
+Author: Rituraj Dowerah
+Author-email: bool.dev@gmail.com
+Maintainer: Rituraj Dowerah
+Maintainer-email: bool.dev@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/bool-dev/flask-cloud-ndb
+Project-URL: Code, https://github.com/bool-dev/flask-cloud-ndb
+Project-URL: Issue tracker, https://github.com/bool-dev/flask-cloud-ndb/issues
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >= 3.0, != 3.0.*, != 3.1.*, != 3.2.*, != 3.3.*
+Description-Content-Type: text/x-rst
+Requires-Dist: Flask (>=1.1.2)
+Requires-Dist: google-cloud-ndb (>=1.2.0)
+
+Flask-Cloud-NDB
+===============
+
+Flask-Cloud-NDB is an extension for `Flask`_ that adds support for
+`Google Cloud NDB`_ to your application.
+
+
+Installing
+----------
+
+Install and update using `pip`_:
+
+.. code-block:: text
+
+    $ pip install -U Flask-Cloud-NDB
+
+
+A Simple Example
+----------------
+
+.. code-block:: python
+
+    from flask import Flask
+    from google.cloud import ndb
+    from flask_cloud_ndb import CloudNDB
+
+    app = Flask(__name__)
+    cloud_ndb = CloudNDB(app)
+
+
+    class Note(ndb.Model):
+        title = ndb.StringProperty()
+        content = ndb.StringProperty()
+        created_at = ndb.DateTimeProperty()
+
+
+    @app.route('/')
+    def index():
+        Note(
+            title="Flask Cloud NDB with request",
+            content="This is an extension, and here is an example"
+            " of how to use within a request").put()
+
+        notes = Note.query().fetch()
+
+        return notes[0].title
+
+
+    # we can also simply use the context wrapper:
+    with cloud_ndb.context():
+        Note(
+            title="Flask Cloud NDB without request",
+            content="This is an extension, and here is an example "
+            "of how to use without request").put()
+        notes = Note.query().fetch()
+        print(notes[0].title)
+
+
+    if __name__ == '__main__':
+        app.run()
+
+
+Configuration Options
+---------------------
+
+By default the extension will run by itself in the cloud, without any additional configurations, using the default app engine credentials.
+
+
+TODOS
+-----
+
+-   Add full configuration options description in readme
+-   Add black formatting
+-   Add more links to readme
+-   Add more documentation to code
+-   Add changes file
+-   Complete manifest.in file
+-   Complete setup.cfg file
+-   Add tests!!
+-   Add coverage
+-   Build distribution for pypi
+
+
+Links
+-----
+
+-   Documentation: https://github.com/bool-dev/flask-cloud-ndb
+-   Code: https://github.com/bool-dev/flask-cloud-ndb
+-   Issue tracker: https://github.com/bool-dev/flask-cloud-ndb/issues
+
+.. _Flask: https://palletsprojects.com/p/flask/
+.. _Google Cloud NDB: https://pypi.org/project/google-cloud-ndb/
+.. _pip: https://pip.pypa.io/en/stable/quickstart/
+
+
