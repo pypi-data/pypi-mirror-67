@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "othello-cli"
+packages = [
+    { include = "othello" }
+]
+version = "0.1.0"
+description = "CLI Othello with bots"
+authors = ["Amos Law <amos.law98@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ahlaw/othello"
+repository = "https://github.com/ahlaw/othello"
+keywords = ["othello"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+importlib_metadata = {version = "^1.6.0", python = "<3.8"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+pytest-cov = "^2.8.1"
+coverage = {extras = ["toml"], version = "^5.1"}
+black = "^19.10b0"
+flake8 = "^3.7.9"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.1.1"
+flake8-bugbear = "^20.1.4"
+flake8-import-order = "^0.18.1"
+safety = "^1.9.0"
+mypy = "^0.770"
+flake8-annotations = "^2.1.0"
+pytest-mock = "^3.1.0"
+flake8-docstrings = "^1.5.0"
+darglint = "^1.2.3"
+sphinx = "^3.0.3"
+sphinx-autodoc-typehints = "^1.10.3"
+
+[tool.poetry.scripts]
+othello = "othello.__main__:main"
+
+[tool.poetry.plugins.agents]
+human = "othello.agent.human:Human"
+random = "othello.agent.random_bot:RandomBot"
+
+[tool.coverage.paths]
+source = ["*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["othello"]
+
+[tool.coverage.report]
+show_missing = true
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

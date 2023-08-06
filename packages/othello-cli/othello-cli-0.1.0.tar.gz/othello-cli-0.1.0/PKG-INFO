@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: othello-cli
+Version: 0.1.0
+Summary: CLI Othello with bots
+Home-page: https://github.com/ahlaw/othello
+License: MIT
+Keywords: othello
+Author: Amos Law
+Author-email: amos.law98@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: importlib_metadata (>=1.6.0,<2.0.0); python_version < "3.8"
+Project-URL: Repository, https://github.com/ahlaw/othello
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/ahlaw/othello/workflows/Tests/badge.svg)](https://github.com/cjolowicz/hypermodern-python/actions?workflow=Tests)
+
+
+# othello
+
+A command-line interface for Othello! Either player can be human or a bot.
+A list of available agents is available via the help command.
+
+
+## Installation
+
+To install the Othello project, run this command in your terminal:
+
+```
+$ pip install othello
+```
+
+
+## Usage
+
+```
+$ othello [OPTIONS]
+
+    -b <agent>, --black <agent>
+    -w <agent>, --white <agent>
+    -v, --version
+    -h, --help
+```
+
+
+## License
+
+[MIT License](LICENSE.md)
+
