@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: ThreadedFileLoader
+Version: 1.0.0.2
+Summary: UNKNOWN
+Home-page: https://QuantumNovice.github.io/ThreadedFileLoader
+Author: QuantumNovice
+Author-email: portabl3lapy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Threaded File Loader
+
+Multithreaded Python package for faster file loading in machine learning.
+
+# Installation
+`pip install ThreadedFileLoader`
+
+# Usage:
+
+## ImageLoading
+```python
+from ThreadedFileLoader.ThreadedFileLoader import *
+
+instance = ThreadedImageLoader("path_to_/*.jpg")
+instance.start_loading()
+images = instance.loaded_objects
+```
+
+
+## Loading Custom File Formats
+Threaded FileLoader can load different file types.
+This examples shows how the `ThreadedTextLoader` class
+overloads the `ThreadedFileLoader` class to load text files.
+
+```python
+from ThreadedFileLoader.ThreadedFileLoader import *
+
+class ThreadedTextLoader(ThreadedFileLoader):
+    def object_loader(self, path):
+      with open(path) as afile:
+        data = afile.readlines()
+        return data
+
+instance = ThreadedTextLoader("path_to_/*.txt")
+instance.start_loading()
+texts = instance.loaded_objects
+```
+
+
