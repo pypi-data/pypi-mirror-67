@@ -1,0 +1,4 @@
+[console_scripts]
+filelist = flimdb.filelist:main
+flimdb = flimdb.flimdb:main
+

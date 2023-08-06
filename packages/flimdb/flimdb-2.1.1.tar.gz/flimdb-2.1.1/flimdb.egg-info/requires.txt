@@ -1,0 +1,12 @@
+fuzzywuzzy
+fire
+kick
+aiohttp
+aiodns
+pyorderby
+lxml
+numpy
+python-dateutil
+pony
+python-Levenshtein
+cssselect
