@@ -1,0 +1,68 @@
+[build-system]
+requires = [ "poetry>=1.0.0" ]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "thorod"
+description = "A CLI utility for torrent creation and manipulation."
+version = "2.1.0"
+
+license = "MIT"
+
+authors = ["thebigmunch <mail@thebigmunch.me>"]
+
+readme = "README.md"
+
+repository = "https://github.com/thebigmunch/thorod"
+homepage = "https://github.com/thebigmunch/thorod"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+appdirs = "^1.4"
+attrs = ">=18.2,<19.4"
+colorama = "0.*"
+pendulum = ">=2.0,<=3.0,!=2.0.5,!=2.1.0"  # Work around https://github.com/sdispater/pendulum/issues/454
+pprintpp = "0.*"
+rich = ">=0.8"
+sortedcontainers = "^2.0"
+tbm-utils = "^2.4"
+tomlkit = "^0.5"
+
+flake8 = { version = "^3.5", optional = true }
+flake8-builtins = { version = "^1.0", optional = true }
+flake8-comprehensions = { version = ">=2.0,<=4.0", optional = true }
+flake8-import-order = { version = "^0.18", optional = true }
+flake8-import-order-tbm = { version = "^1.0", optional = true }
+nox = { version = "^2019", optional = true }
+sphinx = { version = "^2.0", optional = true}
+sphinx-argparse = { version = "^0.2", optional = true }
+sphinx-material = { version = "0.*", optional = true }
+
+[tool.poetry.extras]
+dev = [
+	"flake8",
+	"flake8-builtins",
+	"flake8-comprehensions",
+	"flake8-import-order",
+	"flake8-import-order-tbm",
+	"nox",
+	"sphinx",
+	"sphinx-argparse",
+	"sphinx-material",
+]
+doc = [
+	"sphinx",
+	"sphinx-argparse",
+	"sphinx-material",
+]
+lint = [
+	"flake8",
+	"flake8-builtins",
+	"flake8-comprehensions",
+	"flake8-import-order",
+	"flake8-import-order-tbm",
+]
+
+[tool.poetry.scripts]
+thorod = "thorod.cli:run"
