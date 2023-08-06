@@ -1,0 +1,15 @@
+termux_banner-0.2.data/scripts/about,sha256=4nO4GCMr_x_PtnkJ4JksP_im1iNPp4ZirHekloPgwFA,1503
+termux_banner-0.2.data/scripts/add,sha256=JZN7ELJqIvtK5UJk6vvYeydjP6h_uAKMxy2YADSLKmA,2586
+termux_banner-0.2.data/scripts/banner,sha256=dGv3-r9uZw8porM0Fc_7EL8rSqOgm8RQCd7ZbY35KHw,2880
+termux_banner-0.2.data/scripts/blink,sha256=hDyHKMUv8OMDXJrXepVuwbhJLwJxjB5FoSCEbAVeByQ,3129
+termux_banner-0.2.data/scripts/blink-fast,sha256=q5V0KR4i4C7AbdWQo6jh0cytYhfyB8kt3odxcpEHXw4,2630
+termux_banner-0.2.data/scripts/box,sha256=1yMVgaRUpnfjQVhYbRupNtTWvEUwpLcFumeX8gCdq54,2464
+termux_banner-0.2.data/scripts/change,sha256=PuBTLl8qn1kHXkCbWRXxyXfmVxWO2bsEao00oN_o890,2576
+termux_banner-0.2.data/scripts/evilbox,sha256=kcP2hLwLC1ouH8OFKDNaw6utzLMmwXwiYQLEDsxWRsQ,2566
+termux_banner-0.2.data/scripts/logo,sha256=XW2QVnlYza-4yH_ZuU0gyFpbIbN1BVYlffDLjST5TY8,2880
+termux_banner-0.2.data/scripts/remove,sha256=-_PVJm1nxsX8-yTM08PWHBVXqq7vx0VqhO7Lt1kAVyw,1582
+termux_banner-0.2.dist-info/LICENSE,sha256=P1BkiWgPfQ07e8gA_wxi2Vzlp7n_9so3RrN9nU7O1cM,1074
+termux_banner-0.2.dist-info/METADATA,sha256=vGIrFvzO-UXaGhWRehvaD45jhlCRFgzkcUG-XEs5kCg,1169
+termux_banner-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+termux_banner-0.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+termux_banner-0.2.dist-info/RECORD,,
