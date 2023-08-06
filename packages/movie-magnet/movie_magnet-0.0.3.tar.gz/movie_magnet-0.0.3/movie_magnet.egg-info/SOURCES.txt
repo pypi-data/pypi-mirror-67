@@ -1,0 +1,10 @@
+README.md
+setup.py
+movie_magnet/__init__.py
+movie_magnet/__main__.py
+movie_magnet.egg-info/PKG-INFO
+movie_magnet.egg-info/SOURCES.txt
+movie_magnet.egg-info/dependency_links.txt
+movie_magnet.egg-info/entry_points.txt
+movie_magnet.egg-info/requires.txt
+movie_magnet.egg-info/top_level.txt
