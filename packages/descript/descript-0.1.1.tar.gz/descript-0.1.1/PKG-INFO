@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: descript
+Version: 0.1.1
+Summary: Simple library for `descript.ion` files manipulation.
+Home-page: https://github.com/histrio/python-descript-ion
+License: Apache-2.0
+Keywords: descript.ion,filesystem,metadata
+Author: Rinat Sabitov
+Author-email: rinat.sabitov@gmail.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/histrio/python-descript-ion
+Description-Content-Type: text/markdown
+
+python-descript-ion
+===================
+
+[![Build Status](https://travis-ci.org/histrio/python-descript-ion.svg?branch=master)](https://travis-ci.org/histrio/python-descript-ion)
+[![PyPI](https://img.shields.io/pypi/v/descript.svg)]()
+
+Simple library for `descript.ion` files manipulation 
+
+Examples:
+---------
+
+    import descript.ion
+
+    #Read description
+    with descript.ion.open(filename) as f:
+        print f.description
+
+    #Write description
+    with descript.ion.open(filename) as f:
+        f.description = self.description
+
+    #Remove description
+    with descript.ion.open(filename) as f:
+        del f.description
+
