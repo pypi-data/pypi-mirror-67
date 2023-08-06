@@ -1,0 +1,15 @@
+README.md
+setup.py
+benepar/__init__.py
+benepar/base_parser.py
+benepar/bert_tokenization.py
+benepar/chart_decoder.c
+benepar/chart_decoder.pyx
+benepar/downloader.py
+benepar/nltk_plugin.py
+benepar/spacy_plugin.py
+buzzepar.egg-info/PKG-INFO
+buzzepar.egg-info/SOURCES.txt
+buzzepar.egg-info/dependency_links.txt
+buzzepar.egg-info/requires.txt
+buzzepar.egg-info/top_level.txt
