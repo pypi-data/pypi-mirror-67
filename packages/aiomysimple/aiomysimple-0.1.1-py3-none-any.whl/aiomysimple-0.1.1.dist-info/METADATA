@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aiomysimple
+Version: 0.1.1
+Summary: A simpler wrapper for aiomysql
+Home-page: https://github.com/Starwort/aiomysimple
+Author: Starwort
+Author-email: tcphone93@gmail.com
+License: GNU General Public License v3
+Keywords: aiomysimple
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# AioMySimple
+
+[![Licence: GPL v3](https://img.shields.io/badge/Licence-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+AioMySimple is a simpler interface for AioMySQL
+
+```py
+import aiomysimple
+
+db = aiomysimple.Database(
+    host="127.0.0.1", port=3306, user="root", password="", db="test_pymysql"
+)
+my_table = db.get_table("my_table", "id")
+async for row in await my_table.search():
+    print(row["my_key"])
+    await row.update(my_key=row["my_key"] + 1)
+result = await my_table.search()
+print((await result[3])["my_key"])
+```
+
+
