@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "plasma-comm"
+version = "0.1.1"
+description = "Common code for plasma opensource packages."
+authors = ["Damian Krystkiewicz <damian.krystkiewicz@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.6, <4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+pep8-naming = "^0.10.0"
+mypy = "^0.770"
+pytest = "^5.4.1"
+envo = "^0.4.3"
+isort = "^4.3.21"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
