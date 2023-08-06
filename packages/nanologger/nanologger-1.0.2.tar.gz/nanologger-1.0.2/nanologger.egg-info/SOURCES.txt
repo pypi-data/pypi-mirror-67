@@ -1,0 +1,7 @@
+README.md
+setup.py
+nanologger/__init__.py
+nanologger.egg-info/PKG-INFO
+nanologger.egg-info/SOURCES.txt
+nanologger.egg-info/dependency_links.txt
+nanologger.egg-info/top_level.txt
