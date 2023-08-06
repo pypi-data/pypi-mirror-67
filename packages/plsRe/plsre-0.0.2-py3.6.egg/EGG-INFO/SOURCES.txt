@@ -1,0 +1,12 @@
+README.md
+setup.py
+plsRe.egg-info/PKG-INFO
+plsRe.egg-info/SOURCES.txt
+plsRe.egg-info/dependency_links.txt
+plsRe.egg-info/top_level.txt
+plsre/PlsRegression.py
+plsre/__init__.py
+plsre.egg-info/PKG-INFO
+plsre.egg-info/SOURCES.txt
+plsre.egg-info/dependency_links.txt
+plsre.egg-info/top_level.txt
