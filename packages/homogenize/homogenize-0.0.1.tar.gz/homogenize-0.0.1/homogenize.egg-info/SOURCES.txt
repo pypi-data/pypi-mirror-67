@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+homogenize/__init__.py
+homogenize/fast.py
+homogenize/model.py
+homogenize/running.py
+homogenize/slow.py
+homogenize.egg-info/PKG-INFO
+homogenize.egg-info/SOURCES.txt
+homogenize.egg-info/dependency_links.txt
+homogenize.egg-info/entry_points.txt
+homogenize.egg-info/requires.txt
+homogenize.egg-info/top_level.txt
