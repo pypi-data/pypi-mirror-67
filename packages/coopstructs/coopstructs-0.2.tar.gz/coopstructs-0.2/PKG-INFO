@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: coopstructs
+Version: 0.2
+Summary: basic commonly used data structures for python applications
+Home-page: https://github.com/tylertjburns/datastructs
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
