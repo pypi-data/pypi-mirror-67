@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+subtitleDownloader/__init__.py
+subtitleDownloader/cli.py
+subtitleDownloader/downloader.py
+subtitleDownloader.egg-info/PKG-INFO
+subtitleDownloader.egg-info/SOURCES.txt
+subtitleDownloader.egg-info/dependency_links.txt
+subtitleDownloader.egg-info/entry_points.txt
+subtitleDownloader.egg-info/requires.txt
+subtitleDownloader.egg-info/top_level.txt
