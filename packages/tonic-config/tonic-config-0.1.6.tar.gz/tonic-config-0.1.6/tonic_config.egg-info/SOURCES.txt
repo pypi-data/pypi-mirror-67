@@ -1,0 +1,7 @@
+README.md
+setup.py
+tonic_config.egg-info/PKG-INFO
+tonic_config.egg-info/SOURCES.txt
+tonic_config.egg-info/dependency_links.txt
+tonic_config.egg-info/requires.txt
+tonic_config.egg-info/top_level.txt
