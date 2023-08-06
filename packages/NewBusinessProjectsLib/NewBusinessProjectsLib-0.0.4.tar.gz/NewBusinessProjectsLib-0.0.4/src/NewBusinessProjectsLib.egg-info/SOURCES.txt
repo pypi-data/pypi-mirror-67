@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/NewBusinessProjectsLib.egg-info/PKG-INFO
+src/NewBusinessProjectsLib.egg-info/SOURCES.txt
+src/NewBusinessProjectsLib.egg-info/dependency_links.txt
+src/NewBusinessProjectsLib.egg-info/requires.txt
+src/NewBusinessProjectsLib.egg-info/top_level.txt
