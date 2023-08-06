@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: cmake_odidev
+Version: 3.17.3
+Summary: CMake-odidev is a test project and it is clone of CMake project
+Home-page: http://cmake.org/
+Author: Jean-Christophe Fillion-Robin
+Author-email: jchris.fillionr@kitware.com
+License: Apache 2.0
+Download-URL: https://cmake.org/download
+Description: ==========================
+        CMake Python Distributions
+        ==========================
+        
+        * I am working on a generatting aarch64 cmake wheel
+        * This project is where I am testing the things
+        * You must not use this project to grab numpy features
+        * I am expecting it to go away at some point in the future
+        * Please visit official cmake pypi page: https://pypi.org/project/cmake/ to install cmake
+        
+        
+        License
+        -------
+        
+        This project is maintained by Jean-Christophe Fillion-Robin from Kitware Inc.
+        It is covered by the `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
+        
+        CMake is distributed under the OSI-approved BSD 3-clause License.
+        For more information about CMake, visit http://cmake.org
+        
+        
+        
+        
+        History
+        -------
+        
+        cmake-python-distributions was initially developed in September 2016 by
+        Jean-Christophe Fillion-Robin to facilitate the distribution of project using
+        `scikit-build <http://scikit-build.readthedocs.io/>`_ and depending on CMake.
+        
+Keywords: CMake build c++ fortran cross-platform cross-compilation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
