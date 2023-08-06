@@ -1,0 +1,98 @@
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs/Makefile
+docs/authors.rst
+docs/conf.py
+docs/contributing.rst
+docs/history.rst
+docs/index.rst
+docs/installation.rst
+docs/make.bat
+docs/modules.rst
+docs/readme.rst
+docs/usage.rst
+docs/whisk.rst
+tests/conftest.py
+tests/test_creation.py
+tests/test_whisk.py
+whisk/__init__.py
+whisk/cli.py
+whisk/whisk.py
+whisk.egg-info/PKG-INFO
+whisk.egg-info/SOURCES.txt
+whisk.egg-info/dependency_links.txt
+whisk.egg-info/entry_points.txt
+whisk.egg-info/not-zip-safe
+whisk.egg-info/requires.txt
+whisk.egg-info/top_level.txt
+whisk/template/LICENSE
+whisk/template/README.md
+whisk/template/cookiecutter.json
+whisk/template/requirements.txt
+whisk/template/tox.ini
+whisk/template/.circleci/config.yml
+whisk/template/docs/README.md
+whisk/template/docs/mkdocs.yml
+whisk/template/docs/docs/favicon.ico
+whisk/template/docs/docs/index.md
+whisk/template/docs/docs/css/extra.css
+whisk/template/hooks/post_gen_project.py
+whisk/template/{{ cookiecutter.repo_name }}/.envrc.example
+whisk/template/{{ cookiecutter.repo_name }}/.gitignore
+whisk/template/{{ cookiecutter.repo_name }}/LICENSE
+whisk/template/{{ cookiecutter.repo_name }}/README.md
+whisk/template/{{ cookiecutter.repo_name }}/requirements.txt
+whisk/template/{{ cookiecutter.repo_name }}/setup.py
+whisk/template/{{ cookiecutter.repo_name }}/tasks.py
+whisk/template/{{ cookiecutter.repo_name }}/test_environment.py
+whisk/template/{{ cookiecutter.repo_name }}/tox.ini
+whisk/template/{{ cookiecutter.repo_name }}/app/Procfile
+whisk/template/{{ cookiecutter.repo_name }}/app/Procfile.dev
+whisk/template/{{ cookiecutter.repo_name }}/app/README.md
+whisk/template/{{ cookiecutter.repo_name }}/app/main.py
+whisk/template/{{ cookiecutter.repo_name }}/app/test.py
+whisk/template/{{ cookiecutter.repo_name }}/core/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/core/requirements.txt
+whisk/template/{{ cookiecutter.repo_name }}/core/utils.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/app.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/notebooks.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/destroy/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/destroy/s3.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/setup/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/core/tasks/setup/s3.py
+whisk/template/{{ cookiecutter.repo_name }}/data/external/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/data/interim/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/data/processed/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/data/raw/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/docs/Makefile
+whisk/template/{{ cookiecutter.repo_name }}/docs/commands.rst
+whisk/template/{{ cookiecutter.repo_name }}/docs/conf.py
+whisk/template/{{ cookiecutter.repo_name }}/docs/getting-started.rst
+whisk/template/{{ cookiecutter.repo_name }}/docs/index.rst
+whisk/template/{{ cookiecutter.repo_name }}/docs/make.bat
+whisk/template/{{ cookiecutter.repo_name }}/models/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/notebooks/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/notebooks/example.ipynb
+whisk/template/{{ cookiecutter.repo_name }}/references/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/reports/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/reports/figures/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/scripts/install.py
+whisk/template/{{ cookiecutter.repo_name }}/src/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/src/data/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/src/data/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/src/data/make_dataset.py
+whisk/template/{{ cookiecutter.repo_name }}/src/features/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/src/features/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/src/features/build_features.py
+whisk/template/{{ cookiecutter.repo_name }}/src/models/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/src/models/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/src/models/model_wrapper.py
+whisk/template/{{ cookiecutter.repo_name }}/src/visualization/.gitkeep
+whisk/template/{{ cookiecutter.repo_name }}/src/visualization/__init__.py
+whisk/template/{{ cookiecutter.repo_name }}/src/visualization/visualize.py
