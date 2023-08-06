@@ -1,0 +1,9 @@
+vdf_client,sha256=fgJAnTA7FAa7ec8ja1RUkMo8kQ22Q-rhy3r2XNEWm10,1755716
+prover_test,sha256=4nwKSQpwTAD4YE9TYWn1Sp9Jbz0XkcEghN9ScEd65l4,1471764
+chiavdf.cpython-38-darwin.so,sha256=RwMMLxfz6ZtD75nhIyoTIQiyEgkYGrBnQcs9D-b4yvs,147516
+chiavdf-0.3b1.dist-info/RECORD,,
+chiavdf-0.3b1.dist-info/WHEEL,sha256=IZ0QLbBG94Xo_Fj3dKTi6KV6YlL-L-vsFj8GlumLDRg,110
+chiavdf-0.3b1.dist-info/top_level.txt,sha256=gtgPiivOirnCzuvX2JipIuL_ih6H8fyqeq6LP5fQPyU,8
+chiavdf-0.3b1.dist-info/METADATA,sha256=MS1wlNdMvI1LAVMflFJmkOQubL03QRIFOCMBEr6DwXI,16640
+.dylibschiavdf/libgmpxx.4.dylib,sha256=CTXv7chX5VS0QrkDZBe8SfL14MvnFAMcm3QQhxxiWeA,33680
+.dylibschiavdf/libgmp.10.dylib,sha256=RVp7eu4hRo4wT6X93M0qBB-GMFtSdbs3PR7aOFGa5a4,423228
