@@ -1,0 +1,9 @@
+itk/CuberillePython.py,sha256=qfGDB9jbDJlDeWahQAvopcq5-A6E0W8lKEAF1lLKNsQ,3204
+itk/_CuberillePython.so,sha256=CSwGoGqfHYNoNdxxP8XWx7uOWyamUVmiLFfNjyGTzuU,3522636
+itk/itkCuberilleImageToMeshFilterPython.py,sha256=mvqU9m1sXDzPmvjvXN8mOlLCTmg-1zk1n6sG9ANvL24,296343
+itk/Configuration/CuberilleConfig.py,sha256=Z1f1v4mMT2Hh-34NxF2AhzYcnPXrG4z-05EbTdaJSgY,2643
+itk_cuberille-2.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_cuberille-2.2.0.dist-info/METADATA,sha256=8ipGrNqPz4LJnGe5muUPCrdkxRj5nCAwf_zGuQBzqvk,1586
+itk_cuberille-2.2.0.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_cuberille-2.2.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_cuberille-2.2.0.dist-info/RECORD,,
