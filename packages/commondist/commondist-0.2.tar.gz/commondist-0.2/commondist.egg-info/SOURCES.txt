@@ -1,0 +1,12 @@
+setup.py
+commondist/Binomialdistribution.py
+commondist/Gaussiandistribution.py
+commondist/Generaldistribution.py
+commondist/Lognormaldistribution.py
+commondist/Poissondistribution.py
+commondist/__init__.py
+commondist.egg-info/PKG-INFO
+commondist.egg-info/SOURCES.txt
+commondist.egg-info/dependency_links.txt
+commondist.egg-info/not-zip-safe
+commondist.egg-info/top_level.txt
