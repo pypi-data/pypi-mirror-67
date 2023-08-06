@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+tello_lazer/tello_lazer.py
+tello_lazer.egg-info/PKG-INFO
+tello_lazer.egg-info/SOURCES.txt
+tello_lazer.egg-info/dependency_links.txt
+tello_lazer.egg-info/not-zip-safe
+tello_lazer.egg-info/top_level.txt
