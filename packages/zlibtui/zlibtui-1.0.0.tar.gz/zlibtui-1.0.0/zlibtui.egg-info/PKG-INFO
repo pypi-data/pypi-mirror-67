@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: zlibtui
+Version: 1.0.0
+Summary: Terminal user interface for Z-library
+Home-page: https://github.com/jfto23/zibtui
+Author: Jean-Francois To
+Author-email: jeanfrancoisto@hotmail.com
+License: UNKNOWN
+Description: # Z-Library Terminal User Interface (zlibtui)
+        
+        _zlibtui_ is a termintal UI for [Z-Library](https://b-ok.cc/)
+        
+        ## Installation
+        
+        ## Controls
+        
+        ### Global
+        
+        - `esc`: Quit
+        
+        ### Search
+        
+        - `enter`: Search
+        
+        ### Browsing
+        
+        - `enter`: More Info
+        
+        - `j`: Scroll down
+        
+        - `k`: Scroll up
+        
+        - `p`: Next page
+        
+        - `P`: Previous page 
+        
+        - `l`: Open link
+        
+        ## Settings
+        
+        The preferred browser to be used when opening links can be specified in the file
+        browser.py. The default browser is firefox.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
