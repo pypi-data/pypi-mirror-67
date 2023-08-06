@@ -1,0 +1,7 @@
+README.md
+setup.py
+argparsethis/__init__.py
+argparsethis.egg-info/PKG-INFO
+argparsethis.egg-info/SOURCES.txt
+argparsethis.egg-info/dependency_links.txt
+argparsethis.egg-info/top_level.txt
