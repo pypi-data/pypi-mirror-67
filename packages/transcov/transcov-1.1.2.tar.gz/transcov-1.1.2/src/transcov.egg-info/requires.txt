@@ -1,0 +1,8 @@
+pysam
+numpy
+attrs
+click>=7.0
+pandas
+matplotlib
+seaborn
+scipy
