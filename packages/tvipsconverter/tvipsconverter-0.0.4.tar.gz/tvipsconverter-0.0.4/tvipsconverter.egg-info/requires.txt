@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy
+tifffile
+Pillow
+PyQt5
+h5py
