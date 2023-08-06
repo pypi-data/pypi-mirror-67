@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PyPROPER3
+Version: 3.2.1
+Summary: An optical wavefront propagation utility
+Home-page: https://github.com/selimgr/proper
+Author: Navtej Saini, Nikta Amiri, Luis Marchen
+License: BSD
+Download-URL: https://github.com/selimgr/proper/archive/v_01.tar.gz
+Description: UNKNOWN
+Platform: any
+Provides-Extra: pyfftw
