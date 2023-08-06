@@ -1,0 +1,11 @@
+dependecymanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependecymanager/__main__.py,sha256=7dKWL7zTdSeflk4Ew3yn4WbCgsrTRWL5CXRZfwh3FV0,5891
+dependecymanager/dmexceptions.py,sha256=Bgz0aI06Ykq7rNHISxHFt3WOqjxCHoqu7bg9SDkHUgA,796
+dependecymanager/dmutils.py,sha256=cpO9qHNHK9s1s6rrkhgUuIbmN7nrfEi6KkybMwmjXZ4,3315
+dependecymanager/tree.py,sha256=k3yZSWm0j8QTUK-Itl9nI4N_vBpJuphZeusJW0Bwaso,14708
+dependecymanager/utils.py,sha256=y-ceiZprHMvc5cLjsie22SkOS7qNVw9SK-RkV294c3A,432
+dependencymanager-1.0.0rc0.dist-info/LICENSE,sha256=yNjUx9RyzaqAVdONuJCLuDjhziW72n-c1WKrMQNrIsw,1209
+dependencymanager-1.0.0rc0.dist-info/METADATA,sha256=GHLVdQjezHrJVoQEHwrBKZXoUPgKFOE5LC-NvHJiaeE,5349
+dependencymanager-1.0.0rc0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dependencymanager-1.0.0rc0.dist-info/top_level.txt,sha256=6249LcsA_FaWNzpTDAf8LBfCzF_NEjzedUhXP_fRVz0,17
+dependencymanager-1.0.0rc0.dist-info/RECORD,,
