@@ -1,0 +1,14 @@
+googlenewspy/__init__.py,sha256=U9288BiViu_EfyCO_fwdFLNSdXJCJ6V1HGuwvrQW3Ok,27
+googlenewspy/exceptions.py,sha256=ienORpHaRrMffXv6ScR_9uSg975kA4GNMrjhAo4Ufxw,169
+googlenewspy/maps.py,sha256=6Kihi16HIR2WaMeTzn6VmkaG8WsS2T-Lfl1Le8M7Xxk,151
+googlenewspy/parse.py,sha256=3WKCK-GepUevAWS1QU9XwqJCY_Zs5pNJRikRmpKKj44,1447
+googlenewspy/regex.py,sha256=Au5yT-4ILACxufp3dHmvMyC_lHSQ8rn7zHasptkb18k,211
+googlenewspy/search.py,sha256=LrxOut-9KZcs1Sg0acXUHuWGTLTqK2Qfp_HuIgwuWmg,1007
+googlenewspy/utils.py,sha256=RLFRnaLdXwFogGNkKspvzW9J7tnpBFpkZIJHG9LBkVk,164
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googlenewspy-0.0.1.dist-info/LICENSE,sha256=JrzHcmx4ugmOnYEdmCse14zsQen89nUzuHjA2O94QEQ,1073
+googlenewspy-0.0.1.dist-info/METADATA,sha256=3kbN7kmBujwUgIwb_nivoyMzIhRuLurGqi1zM2Fc7cY,871
+googlenewspy-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+googlenewspy-0.0.1.dist-info/top_level.txt,sha256=AHblHt_i1RhqXFawDajuUDhHAm9RMzI1onr2li5lw6w,19
+googlenewspy-0.0.1.dist-info/RECORD,,
