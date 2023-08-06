@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: nrkdownload
+Version: 2.1.2
+Summary: Download series or programs from NRK, complete with images and subtitles
+Home-page: https://github.com/marhoy/nrk-download
+License: MIT
+Keywords: download,video
+Author: Martin Høy
+Author-email: marhoy@gmail.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: future (>=0.18.2,<0.19.0)
+Requires-Dist: python-dateutil (>=2.8.1,<3.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: requests_cache (>=0.5.2,<0.6.0)
+Requires-Dist: tqdm (>=4.46.0,<5.0.0)
+Project-URL: Documentation, https://nrkdownload.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/marhoy/nrk-download
+Description-Content-Type: text/markdown
+
+# nrkdownload
+![Supports python 2.7, 3.6, 3.7, 3.8](https://img.shields.io/badge/python-2.7%2C%203.6%2C%203.7%2C%203.8-brightgreen.svg "Supported Python versions")
+
+This is a commandline tool to download programs and series from NRK (Norwegian public broadcaster). It supports both TV, Radio and Podcast content. The tool is written in Python, and is compatible with Python 2.7 and 3.x. It has been tested under Linux, Mac OS X and Windows.
+
+# Documentation
+The documentation for nrkdownload is availabe here:
+https://nrkdownload.readthedocs.org
+
+# Setting up a development environment
+Install [poetry](https://python-poetry.org/), and a recent Python version (>=3.6).
+If you want to run tests with multiple Python versions, install [pyenv](https://github.com/pyenv/pyenv).
+Set up the development environment:
+```bash
+poetry install
+```
+
+
+# Making a new release
+- Make sure all tests are ok by running `tox`
+- Make a pull requst on GitHub
+- Use the "new release" functionallity of GitHub. Make a new tag.
+- Update `pyproject.toml` to match the new version number.
+- `poetry build`
+- `poetry publish`
+

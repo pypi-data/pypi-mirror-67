@@ -1,0 +1,17 @@
+nrkdownload/__init__.py,sha256=7kjXVHETzlGJBH20KNoWvTIKs-sNhRrdcDi1cW9Se2g,681
+nrkdownload/commandline_script.py,sha256=kEbQicmGv9sLC49PYjsBX00qp5gzSIvdzYanjagG3zI,6061
+nrkdownload/config.py,sha256=ZmqiJ8Ab9y_AI0gw-7VSxiRjEJbwLZ81Wtil5kddb8M,442
+nrkdownload/download.py,sha256=E2lBOUmanMfsNFDulQTim1DXm1Qkg2a2zSwFLnrasOY,8862
+nrkdownload/nrkapi.py,sha256=PVca4UXvtV1hyMGnjgch_pA93h44zYQNe_6zxmiZ5T8,4993
+nrkdownload/old_stuff.py,sha256=HkM-vJDyBtJIstiOebmmNuf5HJpcZmBH13pcJ6xhY9g,12316
+nrkdownload/parse_nrk_url.py,sha256=zFLJrOocxFT9GlvXS0iZD5oGqNoNL1odfbzsCNdFAcE,5500
+nrkdownload/pydantic_classes.py,sha256=zcJx0NoygD9w8Kr0Qoq662n2kUDdJ9GBYpPoB36NKnQ,1771
+nrkdownload/radio.py,sha256=zqm_-4h22sqrz67sBU0G5wF7poJnsMvi5FoBXgPPg5g,4169
+nrkdownload/tv.py,sha256=h_Lc7fHD03zZJc8MuxglreSHDOzXpPLdrOr2HT_Qli0,10789
+nrkdownload/tv_pydantic.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nrkdownload/utils.py,sha256=33U3R6vrCHwmZBQxDMBkwTr7U_w2G1jwcpXZjYpIY5M,2654
+nrkdownload-2.1.2.dist-info/entry_points.txt,sha256=FiedIOB5ROJtkX3JTeupfba_f5jqPCSmg4UItzwyXXk,67
+nrkdownload-2.1.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+nrkdownload-2.1.2.dist-info/WHEEL,sha256=kvwuEKnRH6O8i0OndiTtSFFMuXs9x3oJYWvW5x4ISEE,87
+nrkdownload-2.1.2.dist-info/METADATA,sha256=UXY7u5n576_oe2sEotm7Z5jv576eJxTAanWTuBPDrqg,2196
+nrkdownload-2.1.2.dist-info/RECORD,,
