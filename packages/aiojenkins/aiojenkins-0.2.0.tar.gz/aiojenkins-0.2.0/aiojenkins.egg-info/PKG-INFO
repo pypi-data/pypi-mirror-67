@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: aiojenkins
+Version: 0.2.0
+Summary: Asynchronous library of Jenkins API endpoints based on aiohttp
+Home-page: https://github.com/pbelskiy/aiojenkins
+Author: Petr Belskiy
+Author-email: petr.belskiy@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/aiojenkins
+Description: # aiojenkins
+        
+        ![Tests](https://github.com/pbelskiy/aiojenkins/workflows/Python%20package/badge.svg)
+        [![Coverage Status](https://coveralls.io/repos/github/pbelskiy/aiojenkins/badge.svg?branch=master)](https://coveralls.io/github/pbelskiy/aiojenkins?branch=master)
+        ![PyPI - Downloads](https://img.shields.io/pypi/dm/aiojenkins?color=1&label=Downloads)
+        
+        Asynchronous python library of Jenkins API endpoints based on aiohttp 🥳
+        
+        Initial version of aiojenkins. Public API is still unstable (work is in progress)
+        
+        ### Examples
+        
+        Start new build:
+        ```python
+        import asyncio
+        import aiojenkins
+        
+        async def example():
+            jenkins = aiojenkins.Jenkins('http://your_server/jenkins', 'login', 'password')
+            await jenkins.build_job('job_name', dict(parameter='test'))
+        
+        asyncio.run(example())
+        ```
+        
+Keywords: aiojenkins,async jenkins api
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
