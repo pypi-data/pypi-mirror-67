@@ -1,0 +1,3 @@
+[console_scripts]
+simublocks = simublocks.simublocks:main
+
