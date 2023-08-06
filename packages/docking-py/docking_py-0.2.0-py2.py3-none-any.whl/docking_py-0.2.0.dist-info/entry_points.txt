@@ -1,0 +1,3 @@
+[console_scripts]
+docking_py = docking_py.cli:main
+
