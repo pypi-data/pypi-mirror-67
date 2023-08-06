@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pip-grab
+Version: 1.0.0.1
+Summary: Grabs installed packages in pip every N seconds
+Home-page: https://QuantumNovice.github.io/pip-grab
+Author: QuantumNovice
+Author-email: portabl3lapy@gmail.com
+License: MIT
+Description: # pip-grab
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
