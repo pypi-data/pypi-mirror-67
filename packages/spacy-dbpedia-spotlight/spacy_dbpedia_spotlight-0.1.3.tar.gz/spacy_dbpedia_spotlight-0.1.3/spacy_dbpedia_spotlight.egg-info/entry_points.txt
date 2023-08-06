@@ -1,0 +1,3 @@
+[spacy_factories]
+annotate_dbpedia_spotlight = spacy_dbpedia_spotlight:EntityLinker
+
