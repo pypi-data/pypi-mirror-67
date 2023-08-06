@@ -1,0 +1,3 @@
+[console_scripts]
+storii = storii:cli_storii
+

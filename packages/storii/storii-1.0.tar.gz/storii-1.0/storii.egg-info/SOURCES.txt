@@ -1,0 +1,8 @@
+README.md
+setup.py
+storii.py
+storii.egg-info/PKG-INFO
+storii.egg-info/SOURCES.txt
+storii.egg-info/dependency_links.txt
+storii.egg-info/entry_points.txt
+storii.egg-info/top_level.txt

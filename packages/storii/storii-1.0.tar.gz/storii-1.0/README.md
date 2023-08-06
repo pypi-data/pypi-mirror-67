@@ -1,0 +1,154 @@
+# storii
+Build little ascii friends that can speak and move
+
+             ^  ^  hello
+            (ù.ù )___(
+             //||-//||
+             
+             ^  ^  world!
+            ( ô.ô)___(
+             //||-//||
+
+## Installation
+```
+python3 -m pip install storii
+```
+
+## Usage
+```
+storii [filename] [optional:speed] [optional:repeat]
+
+Example:
+
+ls -l stories/
+... story1.yaml
+... story2.yaml
+... story3.yaml
+
+storii stories/story1.yaml
+```
+
+## Build stories
+
+A story is a collection of states
+
+### A state is a single snapshot that describes a character
+```
+Example:
+
+state:
+    ears : '             ^   ^'
+    face : '            (ù.ù )___('
+    paws : '             ||\\-||\\'
+
+```
+
+### A state is always part of a "states" root element
+```
+Example:
+
+states:
+    - state:
+        top: "     ^  ^            "
+        mid: "    (ù.ù )___(       "
+        low: "     //||-//||       "
+    - state:
+        top: "     ^  ^            "
+        mid: "    ( ô.ô)___(       "
+        low: "     //||-//||       "
+```
+
+### Add chit-chat in a state
+```
+Example:
+
+env:
+    msg: "hello world!"
+
+states:
+    - state:
+        sky: '           {msg}'
+        ears: '    ^   ^ /   '
+        face: '   (ù.ù )___( '
+        paws: '    ||\\-||\\ '
+
+### Add chit-chat in a state
+```
+Example:
+
+env:
+    msg: "hello world!"
+
+## Build Stories
+```
+### Repeat the story n times
+```
+Example:
+
+repeat: 3
+
+states:
+    - state:
+        top: "     ^  ^            "
+        mid: "    (ù.ù )___(       "
+        low: "     //||-//||       "
+    - state:
+        top: "     ^  ^            "
+        mid: "    ( ô.ô)___(       "
+        low: "     //||-//||       "
+
+```
+
+### Speed up the story (1 to 10)
+```
+Example:
+
+speed: 5
+
+states:
+    - state:
+        top: "     ^  ^            "
+        mid: "    (ù.ù )___(       "
+        low: "     //||-//||       "
+    - state:
+        top: "     ^  ^            "
+        mid: "    ( ô.ô)___(       "
+        low: "     //||-//||       "
+
+```
+
+## Develop
+```
+git clone https://github.com/guillaumefe/storii
+cd storii
+# Edit setup.py
+python3 -m pip install setuptools
+python3 setup.py sdist
+```
+
+### Install (local)
+```
+python3 -m pip install dist/storii-{version}
+```
+
+### Push to pip (test)
+```
+python3 -m pip install twine
+# Register at https://test.pypi.org
+python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
+#### Install from pip (test)
+```
+python3 -m pip install --index-url https://test.pypi.org/simple/ storii
+```
+
+### Push to pip (prod)
+```
+python3 -m pip install twine
+# Register at https://pypi.org
+python3 -m twine upload dist/*
+```
+
+#### Install from pip (prod)
+python3 -m pip install storii 
