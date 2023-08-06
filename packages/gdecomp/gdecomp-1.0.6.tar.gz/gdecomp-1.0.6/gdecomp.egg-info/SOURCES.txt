@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gdecomp.egg-info/PKG-INFO
+gdecomp.egg-info/SOURCES.txt
+gdecomp.egg-info/dependency_links.txt
+gdecomp.egg-info/requires.txt
+gdecomp.egg-info/top_level.txt
+src/PulseGaussianFitting.cpp
+src/PulseGaussianFitting.h
+src/gdecomp.pyx
+src/mpfit/mpfit.c
+src/mpfit/mpfit.h
