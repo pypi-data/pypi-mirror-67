@@ -1,0 +1,17 @@
+ArrayViewer/Charts.py,sha256=gr7XylwbwCzj_rC7xhpbQb2fmiBDyb2pS7nZIrh9_Wg,20021
+ArrayViewer/Data.py,sha256=3vWmWMpfXqCKkzWiG7qCTNLdUuhgkc-G1wW04DhnVVI,6081
+ArrayViewer/DataTree.py,sha256=TRHyI4dkpxhBpw-uWsNwNNiE-yXjzad-ANp5KLksSU4,9381
+ArrayViewer/Editor.py,sha256=N7e_2rPFDpURXhSxjZXXCoUPYH61h2V7xUezJRBda1s,2751
+ArrayViewer/Shape.py,sha256=5w54Z5e1Jliz2FLbmiDKZPkm9dvxb3Van7v3bYUIDbw,9369
+ArrayViewer/Slider.py,sha256=dXU3qtEbjPXg1MJf9bvRtZ48xkvx-D793uAOBkDZTko,3314
+ArrayViewer/Style.py,sha256=9PHcva5SuXdQnbVn7lrEAAtN8GPghsB0zDajJBALxyI,908
+ArrayViewer/Viewer.py,sha256=Dhb3AkBCodWajuq615gHCJFxmazo8oOWAV1H_lM7w68,27013
+ArrayViewer/__init__.py,sha256=mqMuQB3aqJVPrHHqJMLjqiMKUiJjozc7EPLcX5DpKHg,22
+ArrayViewer-1.0.6.data/data/share/icons/aview_logo.svg,sha256=leZJNh2nxa2GpGH9dXSsF-cXZ3KmzbXljlGnmsVwgq0,4149
+ArrayViewer-1.0.6.data/scripts/aview,sha256=soo-kxFk8HtQJQyE7aU4jejbF3TH751jbfzGyCgMIiY,52
+ArrayViewer-1.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ArrayViewer-1.0.6.dist-info/METADATA,sha256=IqlplxCT2oW5-HAjv9L6zcM7YSOU-5ZmXqqbIAPLVpc,1137
+ArrayViewer-1.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ArrayViewer-1.0.6.dist-info/entry_points.txt,sha256=grd9UOgLlFiKO8vvANJpUDWingLjcfo0kvAjKzlrMXQ,47
+ArrayViewer-1.0.6.dist-info/top_level.txt,sha256=yuxlaXn8w4uYDi8FemOhO_6VGOwB-0SSBpoeGfnl0qo,12
+ArrayViewer-1.0.6.dist-info/RECORD,,
