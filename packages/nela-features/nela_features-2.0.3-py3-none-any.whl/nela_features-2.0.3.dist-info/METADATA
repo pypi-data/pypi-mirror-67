@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nela-features
+Version: 2.0.3
+Summary: A package to compute text features for news veracity.
+Home-page: https://github.com/BenjaminDHorne/NELAFeatures
+Author: Benjamin D. Horne
+Author-email: benjamindhorne314@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: vaderSentiment
+Requires-Dist: datefinder
+Requires-Dist: numpy
+
+# nela_features
+
+Add about text here
+
+
