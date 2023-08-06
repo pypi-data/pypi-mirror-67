@@ -1,0 +1,15 @@
+scraparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scraparser/__main__.py,sha256=IxaAAEXJiIxftJGMr3RfStLNi5DyTKSqkzVI79SvV3A,500
+scraparser/cli/__init__.py,sha256=xiwkRLkZ-sTQ5vkT-QcUZO0GcbNqs5zaurKmtJ3h9pg,331
+scraparser/cli/click_helpers.py,sha256=-lBNuMpYn6PMdHoFmHAUJP0jBAs1cYw2qXt56aaR6ds,6595
+scraparser/cli/entry_point.py,sha256=biWk-XGvaJ3rG_pzjJLlh3K2BGTkhO4N4ET12EoazUA,663
+scraparser/cli/fix.py,sha256=tpPepFm-Ku2ivRzJejTHg2C6Uf7xEjBg0gbLo5vsCis,5343
+scraparser/cli/googlesheet.py,sha256=SBgAikXmxvcctWZNnFLHrIKv6GTV3UxpzGUcMIejV6c,4625
+scraparser/cli/parse_pdf.py,sha256=mV73vKulYz5G2Sytvh6KJG_4K9FPk1d_nEHh1aPz7oo,4087
+scraparser/cli/scrap.py,sha256=6zLT9omJoy0AnMGc-q6QTPrnecvrxA65jHkAHNfOXZ8,2035
+scraparser/cli/sort.py,sha256=Q-rxwcvUXEwS0QUpjJR8aZU8c8v5PR3LEx4J0FKyVFc,1012
+scraparser-0.3.1.dist-info/LICENSE,sha256=HgHBwsTB7mJIDhwL5yko2ZlUBFgB2SzfMEhQGvBJKrA,1059
+scraparser-0.3.1.dist-info/METADATA,sha256=mv5k02-ccY3Zcth74nCbvlGObu-vHGAPUTsKZGlZfCk,11866
+scraparser-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scraparser-0.3.1.dist-info/top_level.txt,sha256=lG_KMqI0NHZuvNDTDpaf5IW9BHdNJ49g36XPPsGGYlA,11
+scraparser-0.3.1.dist-info/RECORD,,
