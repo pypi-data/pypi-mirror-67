@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nwscapparser3
+Version: 3.0.0
+Summary: NWS CAP Parser for Python3
+Home-page: https://github.com/GrantGMiller/NWS-CAP-parser
+Author: Grant Miller. Based on the work of Robert Morris (robert@emthree.com)
+Author-email: grant@grant-miller.com
+License: PSF
+Description: UNKNOWN
+Keywords: python3 cap common alert protocol grant miller robert morris xml
+Platform: UNKNOWN
