@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pypowergames
+Version: 1.0.1
+Summary: A Python Library for 2 games using Python GUI : TicTacToe, Ping-Pong Game
+Home-page: https://github.com/tirth-2001/ttt.git
+Author: PyPower Projects
+Author-email: projectspypower@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# PyPower Games
+## A Python Library for 2 games using Python GUI : TicTacToe, Ping-Pong Game
+# How To Use :
+## 1. Install the library pypowergames : pip install pypowergames
+## 2. Go to python bash(command prompt) and execute the following commands :
+## from pypowerprojects import tictactoe
+## from pypowerprojects import pingpong
+
+
+
