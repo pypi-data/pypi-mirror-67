@@ -1,0 +1,4 @@
+[console_scripts]
+RepTate = RepTate.RepTate:main
+RepTateCL = RepTate.RepTateCL:main
+

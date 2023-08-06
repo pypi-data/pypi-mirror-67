@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: reptate-test
+Version: 1.0.0
+Summary: Rheology of Entangled Polymers: Toolkit for the Analysis of Theory and Experiment
+Home-page: http://github.com/jorge-ramirez-upm/RepTate
+Author: Jorge Ramirez <jorge.ramirez@upm.es>, Victor Boudara <victor.boudara@gmail.com>
+Author-email: jorge.ramirez@upm.es
+License: GPL License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: colorama
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Requires-Dist: pyqt5
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: xlrd
+Requires-Dist: psutil
+
+UNKNOWN
+
+
