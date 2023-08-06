@@ -1,0 +1,12 @@
+pybart/__init__.py,sha256=BZexqNHv8XNOfqLEyBrCGMYakuZ7pb0mSmE1lOzTpNs,36
+pybart/api.py,sha256=01ozZIIm8I2Nkiqs55YEeGjbjBQkk4kZD2TK1pMaBdY,4464
+pybart/conllu_wrapper.py,sha256=NUMcyuN383s4R3_YbSrxVQZdH6nzlAy3xbncKrDG-Zk,11675
+pybart/converter.py,sha256=_zRjDMdGPnDo5inI9s58Wg2X3rZVUrAI52QjaTpnjyI,74488
+pybart/graph_token.py,sha256=2CaShg8arw90lMpf8bZj4aOy3zYLII3L9fJt7A5lcMo,5311
+pybart/matcher.py,sha256=kqUgMVyB6cFfl5afvd4gWzvzDOCDtwb8KNpCm8hsV7A,4790
+pybart/spacy_wrapper.py,sha256=rvhGMaUT23xS-to3tW9fxXoipIxMvlylnOrGo1cznhU,5202
+pybart_nlp-2.2.3.dist-info/LICENSE,sha256=JnMAlsiBfu8V2_OIWs7NwfsRT5b5u78rQ8vKDFsE7uk,11556
+pybart_nlp-2.2.3.dist-info/METADATA,sha256=3alxfTeTyWUmft7iWEdYM53cywIfYM-CeAWysomNzFg,16238
+pybart_nlp-2.2.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pybart_nlp-2.2.3.dist-info/top_level.txt,sha256=8en4ihvoaL9lgRev6Bw3gIN49OB-JEq5GRmC6m45--8,7
+pybart_nlp-2.2.3.dist-info/RECORD,,
